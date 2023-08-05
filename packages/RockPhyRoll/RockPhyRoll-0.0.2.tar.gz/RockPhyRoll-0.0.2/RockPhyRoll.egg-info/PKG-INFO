@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: RockPhyRoll
+Version: 0.0.2
+Summary: RockPhyRoll, Rock'n'Roll.
+Home-page: UNKNOWN
+Author: Jiaxin Yu
+Author-email: yujiaxin666@outlook.com
+License: GNU GPLv3
+Description: RockPhyRoll, Rock'n'Roll. A rock physics library that saves researchers from going through painful and expensive research process, as I did for my PhD.
+         
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
