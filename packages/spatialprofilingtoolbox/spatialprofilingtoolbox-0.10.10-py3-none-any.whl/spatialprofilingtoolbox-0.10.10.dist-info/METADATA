@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: spatialprofilingtoolbox
+Version: 0.10.10
+Summary: Toolbox for spatial analysis of pathology images.
+Home-page: https://spatialprofilingtoolbox.readthedocs.io/en/prerelease/readme.html
+Author: Rami Vanguri, James Mathews
+Author-email: mathewj2@mskcc.org
+Project-URL: Documentation, https://spatialprofilingtoolbox.readthedocs.io/en/prerelease/readme.html
+Project-URL: Source code, https://github.com/nadeemlab/SPT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering
+Classifier: Intended Audience :: Science/Research
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+Requires-Dist: plotly (==5.1.0)
+Requires-Dist: numpy (==1.22.3)
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: scipy (==1.8.0)
+Requires-Dist: scikit-learn (==0.24.1)
+Requires-Dist: psycopg2-binary (==2.9.3)
+Requires-Dist: pyshp (==2.2.0)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: Jinja2 (==3.0.1)
+
+See the [user documentation](https://github.com/nadeemlab/SPT).
