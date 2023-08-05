@@ -1,0 +1,12 @@
+parser_stdf/__init__.py,sha256=1mptEzQihbdyqqzMgdns_j5ZGK9gz7hR2bsgA_TnjO4,22
+parser_stdf/_modidx.py,sha256=XygIqvjSSrdjWEydsQbauS_ASHvXijl6apBvlTyy7Dw,1651
+parser_stdf/core.py,sha256=MlqEkBeKPQ61Cj07A2dTM8EmtblNyCr2LGeIaNXt_bM,237
+stdf_parser/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stdf_parser/_modidx.py,sha256=vcTUDS1JlaO7Fg66F0BdoKzO6RLSANkNtrCYwHNjtms,1514
+stdf_parser/core.py,sha256=nkOpYUJEK37GDpcvQGJg31s2wmJvNH382cAbOIiEm9A,134
+parser_stdf-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+parser_stdf-0.0.4.dist-info/METADATA,sha256=gr-EaGydkuvfMyrZ4OP8Rpo2vjqlgV7AzIfLj9egbYc,683
+parser_stdf-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+parser_stdf-0.0.4.dist-info/entry_points.txt,sha256=99IAPnUEH8JzK650Ff_tPt1yO1bT2Msw9fUawjrDrDY,44
+parser_stdf-0.0.4.dist-info/top_level.txt,sha256=RDui4FeaGSE7yNQzEHV3mhaABOOpS5x3Ut2SR7T8peQ,24
+parser_stdf-0.0.4.dist-info/RECORD,,
