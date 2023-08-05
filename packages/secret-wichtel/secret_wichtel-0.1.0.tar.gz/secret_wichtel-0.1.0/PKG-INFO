@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: secret-wichtel
+Version: 0.1.0
+Summary: Secret Santa script for your christmas pleasure.
+Author: danczw
+Author-email: dev.dc@pm.me
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.23.1,<2.0.0)
