@@ -1,0 +1,13 @@
+etask/__init__.py,sha256=pyyBosd3P6Gw_HpfgnSMSDZGI4iUrY3Cu21rYQ-Td7I,976
+etask/emacs.py,sha256=JW-gcwG1kdgadgrbA8AvU-HtAx7oamN-YWaTyaSk7W8,4613
+etask/main.py,sha256=-sTR4w7zbyAhYgRYd732VdIFyAD_JkXfZK0yZdNhDe0,7712
+etask/path.py,sha256=anzwGQdngRUd7OH8y8-bPVsJewnTDhxl89afnZEgQQE,1875
+etask/pinfo.py,sha256=5Z3bJ3FxOcMiibZgSLNKoLZJLebSponVZrpakFMVLRM,1612
+etask/pprint.py,sha256=9GGR1TKubnY6R5C7qBeXIWeG7048BeLOvAETnadCL0M,3539
+etask/task_generators.py,sha256=E-IdaMYoc71xMYMHhxLqm17en33H6p2a_4TVOA7z9jg,1205
+etask/tasks.py,sha256=l09HmcQHK9CixYEcp0TRhAYgdVtZ_2NxlmVMzRUaXRE,8491
+etask-1.2.0.dist-info/METADATA,sha256=GUxznNYzDRjNV60tdzCe9yjh2MNrdD8PJjNcHOEwhsU,265
+etask-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+etask-1.2.0.dist-info/entry_points.txt,sha256=pKzKJ0M72AkJ1WfPvFxE6xo2eqtF-TqxGZ6PEaSUQhQ,42
+etask-1.2.0.dist-info/top_level.txt,sha256=nN7KSY102v8TB1pRmnWn77l8PhBEwpZe4c0ZqL_Tsx4,6
+etask-1.2.0.dist-info/RECORD,,
