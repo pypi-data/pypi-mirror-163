@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ghviztoggle
+Version: 1.0.0
+Summary: Quickly toggle the visibility of your GitHub repositories.
+Home-page: https://github.com/CakeCrusher/ghviztoggle
+Author: Sebastian Sosa
+Author-email: 1sebastian1sosa1@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3.10
+
+UNKNOWN
+
