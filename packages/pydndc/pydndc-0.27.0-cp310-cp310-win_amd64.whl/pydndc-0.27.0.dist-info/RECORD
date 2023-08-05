@@ -1,0 +1,9 @@
+pydndc/__init__.py,sha256=YljAfsAScHk2bnjvsLDXMvV9zVEFZW13tpre00CUO3Q,202
+pydndc/__main__.py,sha256=poq0nZq5kXu4KE5o6dI7rW8Lu8ulaLtNsSlpiPKgRRU,5475
+pydndc/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydndc/pydndc.cp310-win_amd64.pyd,sha256=QGx_RtGbb8Y0N3wrPRsr84hxHazoBNz4gmYQgCF4Nzg,1259008
+pydndc/pydndc.pyi,sha256=m64B2t32UaUuxBlj9m7HPVJUMOsw_cY6_VNrY40Ndcs,6972
+pydndc-0.27.0.dist-info/METADATA,sha256=xkbyIHzmuN2BqLpKgJlOKBm4kg5vNwGiytx-VGtztPc,635
+pydndc-0.27.0.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+pydndc-0.27.0.dist-info/top_level.txt,sha256=d9kREka85TbDiAUVwPN3rxtGl9d7CVhBe3MOTXgFnQA,7
+pydndc-0.27.0.dist-info/RECORD,,
