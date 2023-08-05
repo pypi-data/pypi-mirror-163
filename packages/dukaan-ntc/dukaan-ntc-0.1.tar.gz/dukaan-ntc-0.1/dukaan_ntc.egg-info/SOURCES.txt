@@ -1,0 +1,5 @@
+setup.py
+dukaan_ntc.egg-info/PKG-INFO
+dukaan_ntc.egg-info/SOURCES.txt
+dukaan_ntc.egg-info/dependency_links.txt
+dukaan_ntc.egg-info/top_level.txt
