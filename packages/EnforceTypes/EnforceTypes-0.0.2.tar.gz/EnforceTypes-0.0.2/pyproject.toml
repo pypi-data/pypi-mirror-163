@@ -1,0 +1,25 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "EnforceTypes"
+authors = [
+    {name = "RivenSkaye", email = "Riven@tae.moe"}
+]
+maintainers = [
+    {name = "RivenSkaye", email = "Riven@tae.moe"}
+]
+license = {file = "LICENSE"}
+readme = "README.rst"
+classifiers = [
+    "License :: OSI Approved :: MIT License"
+]
+dynamic = ["version", "description"]
+requires-python = ">=3.8,<3.11"
+
+[project.urls]
+Home = "https://github.com/RivenSkaye/EnforceTypes"
+Documentation = "https://github.com/RivenSkaye/EnforceTypes/blob/master/README.rst"
+Source = "https://github.com/RivenSkaye/EnforceTypes"
+"Bug Tracker" = "https://github.com/RivenSkaye/EnforceTypes/issues"
