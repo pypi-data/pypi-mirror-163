@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: secret-wichtel
+Version: 0.1.1
+Summary: Secret Santa function for your christmas pleasure.
+Home-page: https://github.com/danczw/secret_santa_script
+License: MIT
+Keywords: secret,santa,christmas,presents
+Author: danczw
+Author-email: dev.dc@pm.me
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Games/Entertainment
+Requires-Dist: numpy (>=1.23.1,<2.0.0)
+Project-URL: Repository, https://github.com/danczw/secret_santa_script
