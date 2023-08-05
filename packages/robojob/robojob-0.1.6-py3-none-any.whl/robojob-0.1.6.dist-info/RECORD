@@ -1,0 +1,9 @@
+robojob/__init__.py,sha256=n3eeuoILGAJDF4Pt7q85Pnhen4C1Y5NqObGV8Rx7GzE,1195
+robojob/backend.py,sha256=q2s9OGQW41djNAapSJWzWWaMpRC_QCkAwJqEX9Nf09I,3227
+robojob/job_execution.py,sha256=SmGOjZ47mXVrY-JS5UFuLbMEDvjytrPouddtG8358sk,7175
+robojob/parameter_collection.py,sha256=xfshqce_GyCaakL2P_yI9iy7W6DYqtkwqqrjFrytVH0,1266
+robojob/task_execution.py,sha256=WvuXqMGcWDUGTvT2A_Lh2VC5v-5aHZ3nW84lz9gFrQo,1525
+robojob-0.1.6.dist-info/METADATA,sha256=udQ5ou1vJ6cLppoRUEiPzhueAFdfXM2o3EZdAgfm9ng,106
+robojob-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+robojob-0.1.6.dist-info/top_level.txt,sha256=0n6c-LZNmSKRrvgnpOTmuvB9ve9HkeiFVv3PLvdCQp8,8
+robojob-0.1.6.dist-info/RECORD,,
