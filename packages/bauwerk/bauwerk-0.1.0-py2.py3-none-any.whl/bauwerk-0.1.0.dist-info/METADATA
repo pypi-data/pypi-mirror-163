@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: bauwerk
+Version: 0.1.0
+Summary: Simple building control environments.
+Home-page: https://github.com/rdnfn/bauwerk
+Author: rdnfn
+License: MIT license
+Keywords: bauwerk
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: gym
+Requires-Dist: numpy
+Requires-Dist: loguru
+Provides-Extra: cvxpy
+Requires-Dist: cvxpy ; extra == 'cvxpy'
+
+=======
+bauwerk
+=======
+
+
+.. image:: https://img.shields.io/pypi/v/bauwerk.svg
+        :target: https://pypi.python.org/pypi/bauwerk
+
+.. image:: https://img.shields.io/travis/rdnfn/bauwerk.svg
+        :target: https://travis-ci.com/rdnfn/bauwerk
+
+.. image:: https://readthedocs.org/projects/bauwerk/badge/?version=latest
+        :target: https://bauwerk.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Simple building control environments.
+
+
+* Free software: MIT license
+* Documentation: https://bauwerk.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2022-08-12)
+------------------
+
+* First release on PyPI.
+
+* Features:
+
+    * ``SolarBatteryHouseEnv``: a simple environment representing a single family home with a solar photovoltaic installations and a home battery that can be controlled.
+    * Optional integration with CVXPY to compute optimal actions in Bauwerk environments.
