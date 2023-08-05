@@ -1,0 +1,154 @@
+Metadata-Version: 2.1
+Name: outdoorsy
+Version: 0.0.19
+Summary: A demo command line tool for displaying information from a comma or pipe delimited file from a fictional Company named Outdoor.sy
+Project-URL: Documentation, https://github.com/rachaelcrook/outdoorsy#readme
+Project-URL: Issues, https://github.com/rachaelcrook/outdoorsy/issues
+Project-URL: Source, https://github.com/rachaelcrook/outdoorsy
+Author-email: Rachael Crook <rachaelc@linux.com>
+License: MIT License
+        
+        Copyright (c) 2022 Rachael Crook
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Keywords: outdoorsy command line tool csv pipe delimited demo argparse hatchling hatch
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Requires-Dist: colorama>=0.4.5
+Requires-Dist: tabulate>=0.8.10
+Description-Content-Type: text/markdown
+
+# Outdoorsy Command-Line Tool
+
+# Introduction
+
+A demo command line tool for displaying information from a comma or pipe delimited file.
+
+# Features
+
+- Use as command-line tool interactively or by passing arguments
+- Creates a local SQL Lite Database for storing files
+- Database is created from the running directory or optionally a specified flag
+- View database in a table format from the command-line
+- Sort by "Name" or "Vehicle Type" columns (from sample files)
+
+# Installation
+
+Grab a copy of the code with pip:
+
+```bash
+pip install outdoorsy
+```
+
+# Usage
+
+outdoorsy can be used to extract info from a Comma or Pipe delimited file in two ways:
+
+- Command line/Terminal tool ran interactively `outdoorsy`
+- Command line/Terminal tool ran with arguments `outdoorsy -h`
+
+## 1. Command Line/Terminal tool
+
+```bash
+outdoorsy
+```
+
+Run outdoorsy -h to see the help output:
+
+```bash
+outdoorsy -h
+```
+
+usage:
+
+```bash 
+usage: outdoorsy [-h] [-f FILE] [-d {comma,pipe}] [-db DBPATH] [-v] [-s {name,vehicle_type}] [--version]
+```
+
+Outdoorsy Command Line tool for displaying Outdoorsy user information.
+
+### Arguments
+
+```
+options:
+  -h, --help            show this help message and exit
+  --version             show program's version number and exit
+
+options - Upload a new file.:
+  -f FILE, --file FILE  Full path to file
+  -d {comma,pipe}, --delimiter {comma,pipe}
+                        File's delimiter
+  -db DBPATH, --dbpath DBPATH
+                        Path to create database. Defaults to current directory
+
+options - View and Sort data:
+  -v, --view            View the Outdoorsy Customer Table.
+  -s {name,vehicle_type}, --sort {name,vehicle_type}
+                        Sort the database table by the Outdoorsy Customer's Fullname or Vehicle Type                       
+```
+
+### Examples
+
+#### Upload CSV file to database
+
+```bash
+outdoorsy -f C:\folder\file.csv -d comma
+```
+
+#### Upload Pipe delimited file to database
+
+```bash
+outdoorsy -f C:\folder\pipes.text -d pipe
+```
+
+#### Upload Pipe delimited file to database created at specified path
+
+```bash
+outdoorsy -f C:\folder\pipes.text -d pipe -db C:\database\
+```
+
+#### View data that has previously been uploaded to the database
+
+```bash
+outdoorsy -v
+```
+
+#### View data that has previously been uploaded to the database at specified path
+
+```bash
+outdoorsy -v -db C:\database\
+```
+
+#### View data sorted by Vehicle Type
+
+```bash
+outdoorsy -v -s vehicle_type
+```
+
+#### View data sorted by name
+
+```bash
+outdoorsy -v -s name
+```
+
+# License
+
+This program is licensed with an [MIT License](https://github.com/rachaelcrook/outdoorsy/blob/main/LICENSE).
