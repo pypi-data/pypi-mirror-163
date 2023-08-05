@@ -1,0 +1,10 @@
+pandas
+scipy
+numpy
+faker
+sklearn
+xmltodict
+jsonschema
+
+[:python_version < "3.9"]
+importlib-resources
