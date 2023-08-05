@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: reformer-cil
+Version: 1.0
+Summary: Сonversion of Cyrillic into Latin
+Home-page: https://github.com/bullbesh/reformer
+Author: bullbesh
+Author-email: babulehaha@gmail.com
+License: MIT
+Platform: UNKNOWN
+License-File: LICENSE
+
+Simple program that help you to reform any word from Cyrillan to Latin.
+
