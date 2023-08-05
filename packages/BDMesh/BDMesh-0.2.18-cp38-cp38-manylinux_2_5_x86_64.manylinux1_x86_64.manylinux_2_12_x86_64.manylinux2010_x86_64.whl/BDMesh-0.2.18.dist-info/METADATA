@@ -1,0 +1,48 @@
+Metadata-Version: 2.1
+Name: BDMesh
+Version: 0.2.18
+Summary: BD Mesh generator
+Home-page: https://github.com/bond-anton/BDMesh
+Author: Anton Bondarenko
+Author-email: bond.anton@gmail.com
+License: Apache Software License
+Keywords: Mesh
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: NOTICE.txt
+
+# BDMesh
+
+![Build](https://github.com/bond-anton/BDMesh/workflows/Build/badge.svg)
+[![codecov](https://codecov.io/gh/bond-anton/BDMesh/branch/master/graph/badge.svg)](https://codecov.io/gh/bond-anton/BDMesh)
+
+Mesh generators and tools for operation on meshes and meshes trees.
+
+## Installation
+
+To install BDMesh run
+```shell
+pip install BDMesh
+```
+or
+```shell
+python setup.py install
+```
+## Usage
+
+Please see the demo directory for the usage examples.
+
+## License
+
+BDMesh is free open source software licensed under Apache license version 2.0
