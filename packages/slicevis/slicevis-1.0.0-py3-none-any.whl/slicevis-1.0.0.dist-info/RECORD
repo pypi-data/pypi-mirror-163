@@ -1,0 +1,9 @@
+slicevis/__init__.py,sha256=Omrbpy0isf5O8Rhjp3wB_e3UdRLm4cAiQcUBkl3ofk4,160
+slicevis/image.py,sha256=KfNe1YIKmdFxtH7H-ELhl7PLHjZsw3ttAyxmEOnJ0BI,1537
+slicevis/load.py,sha256=W7lI5kBlPqpj1kH-OrPULc7uEjPhEyYlJtfKJFJWbSw,2611
+slicevis/widget.py,sha256=g257V3-evOBrQD4e0mGUikBt7kzTvc1ZodC0E6c0wiQ,22884
+slicevis-1.0.0.dist-info/LICENSE,sha256=Nh2WmNbwWIyp4E4bK4o2QhNbWb1JegZLujsQOxHyBK8,1058
+slicevis-1.0.0.dist-info/METADATA,sha256=7IrIGqovcstARLK7b-4JgVHELJ07xx9G6XilDjWxNNo,2582
+slicevis-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+slicevis-1.0.0.dist-info/top_level.txt,sha256=v3gwWiDqQpzG_QIOzRwm3Aj4AHwJfMsB3n6vuUQhcm4,9
+slicevis-1.0.0.dist-info/RECORD,,
