@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: geracao
+Version: 0.0.1
+Summary: Pacote para geracao de dados
+Home-page: https://github.com/DiegoAbreu/geracao
+Author: Diego Abreu
+Author-email: 
+License: MIT License
+Keywords: geracao,cpf
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geracao
+Biblioteca para geração de dados.
+
+

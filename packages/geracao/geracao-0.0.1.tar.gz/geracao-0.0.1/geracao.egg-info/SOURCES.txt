@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+geracao/__init__.py
+geracao/geracao.py
+geracao.egg-info/PKG-INFO
+geracao.egg-info/SOURCES.txt
+geracao.egg-info/dependency_links.txt
+geracao.egg-info/top_level.txt
