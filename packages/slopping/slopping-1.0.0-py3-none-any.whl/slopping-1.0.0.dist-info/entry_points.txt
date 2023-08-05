@@ -1,0 +1,2 @@
+[console_scripts]
+slopping = slopping.__main__:main
