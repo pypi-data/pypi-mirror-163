@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+{% from "result_table.html" import result_table %}
+
+{% block body %}
+<div class="container">
+    &nbsp;
+    {% if results %}
+        {{ result_table(results) }}
+    {% endif %}
+</div>
+    &nbsp;&nbsp;
+{% endblock %}
