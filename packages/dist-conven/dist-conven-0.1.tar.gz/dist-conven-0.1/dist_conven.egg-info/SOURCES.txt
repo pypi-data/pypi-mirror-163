@@ -1,0 +1,10 @@
+setup.py
+dist_conven.egg-info/PKG-INFO
+dist_conven.egg-info/SOURCES.txt
+dist_conven.egg-info/dependency_links.txt
+dist_conven.egg-info/not-zip-safe
+dist_conven.egg-info/top_level.txt
+distributions/Binomialdistribution.py
+distributions/Gaussiandistribution.py
+distributions/Generaldistribution.py
+distributions/__init__.py
