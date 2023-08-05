@@ -1,0 +1,10 @@
+nettigo_air_monitor/__init__.py,sha256=F_BAEGT7zekd3IhIYJenPtZ0Mfs8W3uKKrAjEJ6Pbsc,7507
+nettigo_air_monitor/const.py,sha256=-pYC1tA3ip2RgEQBDMxa-ERemC_UMYh94AIYzytO1R4,1313
+nettigo_air_monitor/exceptions.py,sha256=wdupn36hgcjxEmWP9u8LmEmKNNvT90LbwVV1fZTCC0g,647
+nettigo_air_monitor/model.py,sha256=MdJGZnpkkaDLhRkXJlbhtZgeSx5_Sg8yeApaQq4kpuE,1620
+nettigo_air_monitor/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nettigo_air_monitor-1.4.2.dist-info/LICENSE,sha256=Qe12Jq6OAlroX4iXVOu0qf1pO2ta8CrVFkko2_Q07io,11344
+nettigo_air_monitor-1.4.2.dist-info/METADATA,sha256=8W3hNtw-BMsbesDPqt3JIVF8MyGw94CG31xoU_R9qG8,3285
+nettigo_air_monitor-1.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nettigo_air_monitor-1.4.2.dist-info/top_level.txt,sha256=WDtx4y2JqLfOZyd6OcAr0JIt988Z6iYqW1kOmbwgsnA,20
+nettigo_air_monitor-1.4.2.dist-info/RECORD,,
