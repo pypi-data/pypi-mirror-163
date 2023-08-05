@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-drawer
+Version: 0.0.1
+Summary: 适用于 Nonebot2 的AI画画插件
+Home-page: https://github.com/CrazyBoyM/nonebot-plugin-drawer
+Author: CrazyBoyM
+Author-email: ai-lab@foxmail.com
+Keywords: computer art
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+适用于 Nonebot2 的AI画画插件
