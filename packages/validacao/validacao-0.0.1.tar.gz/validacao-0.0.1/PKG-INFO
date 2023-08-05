@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: validacao
+Version: 0.0.1
+Summary: Pacote para validações
+Home-page: https://github.com/DiegoAbreu/validacao
+Author: Diego Abreu
+Author-email: 
+License: MIT License
+Keywords: validacao,cpf
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# validacao
+Biblioteca para validação de dados
+
+
