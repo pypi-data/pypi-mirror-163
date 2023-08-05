@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.py
+hapi_nn/__init__.py
+hapi_nn/config.py
+hapi_nn/testing.py
+hapi_nn/training.py
+hapi_nn/util.py
+hapi_nn.egg-info/PKG-INFO
+hapi_nn.egg-info/SOURCES.txt
+hapi_nn.egg-info/dependency_links.txt
+hapi_nn.egg-info/requires.txt
+hapi_nn.egg-info/top_level.txt
