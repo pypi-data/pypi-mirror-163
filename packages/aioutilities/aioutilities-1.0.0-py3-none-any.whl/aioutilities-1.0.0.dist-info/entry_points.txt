@@ -1,0 +1,3 @@
+[console_scripts]
+aioutilities-example=aioutilities.example:run_example
+
