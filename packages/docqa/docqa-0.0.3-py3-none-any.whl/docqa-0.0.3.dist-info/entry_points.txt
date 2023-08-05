@@ -1,0 +1,2 @@
+[console_scripts]
+docqa = docqa.cmd.__main__:main
