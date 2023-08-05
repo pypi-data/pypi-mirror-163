@@ -1,0 +1,8 @@
+include hello_world_source_code\*
+include hello_world_source_code\answers\*
+include hello_world_source_code\hangman\*
+include hello_world_source_code\lunarlander\*
+include hello_world_source_code\PyPong\*
+include hello_world_source_code\PythonBattle\*
+include hello_world_source_code\Skier\*
+include hello_world_source_code\VirtualPet\*

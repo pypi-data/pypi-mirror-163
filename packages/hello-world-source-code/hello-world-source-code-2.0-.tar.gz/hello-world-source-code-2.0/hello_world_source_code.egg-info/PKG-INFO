@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: hello-world-source-code
+Version: 2.0
+Summary: This is the source code for Warren Sande's Python book, named Hello World Second Edition.
+Home-page: UNKNOWN
+Author: Warren Sande and Carter Sande
+Author-email: UNKNOWN
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: hello-world,source,code
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
