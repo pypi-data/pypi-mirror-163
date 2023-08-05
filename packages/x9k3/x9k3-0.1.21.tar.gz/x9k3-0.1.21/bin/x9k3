@@ -1,0 +1,5 @@
+#!/usr/bin/env pypy3
+
+from x9k3 import cli 
+
+cli()
