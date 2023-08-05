@@ -1,0 +1,9 @@
+click
+gitdb
+GitPython
+OdooRPC
+python-gitlab
+PyYAML>=6.0
+requests
+sh
+tqdm
