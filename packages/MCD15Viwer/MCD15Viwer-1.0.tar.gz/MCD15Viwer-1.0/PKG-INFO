@@ -1,0 +1,90 @@
+Metadata-Version: 1.2
+Name: MCD15Viwer
+Version: 1.0
+Summary: help download modis files with token and muti threading processing
+Home-page: https://github.com/qxcnwu
+Author: qxcnwu
+Author-email: qxcnwu@gmail.com
+Maintainer: qxcnwu
+Maintainer-email: qxcnwu@gmail.com
+License: MIT License
+Description: MCDViwer使用文档
+        ================
+        
+        此项目主要是更具经纬度查询MCD15文件的图幅号和位置
+        
+        快速开始
+        --------
+        
+        .. code:: python
+        
+           from MCDViwer.FoundPos import FD,point
+        
+           if __name__ == '__main__':
+               # 初始化查询对象
+               fd = FD()
+               # 查询单个点
+               answer = fd.found(115, 33)
+               # 查询多个点
+               answers = fd.founds([[115, 33], [105, 43], [99, 47.12]])
+               # 查看结果
+               ans = answer[0]
+               print(ans)
+        
+        运行结果
+        --------
+        
+        .. code:: txt
+        
+           图幅编号:h27v05
+           图上行号:1547
+           图上列号:1680
+           实际误差:0.0015335083
+           图上经度:114.99847
+           图上纬度:33.0
+           查询经度:115
+           查询纬度:33
+        
+        API使用
+        -------
+        
+        .. code:: python
+        
+           # 初始化查询对象
+           fd = FD(distance=0.003391)
+           # distance主要是判断得到的结果是否符合要求，默认给出的目标坐标和原始坐标的曼哈顿距离为0.003391
+        
+           # 查询单个经纬度得到Point对象
+           # 防止得到多个结果返回为一个列表
+           answer = fd.found(115, 33)
+           point=answer[0]
+           # point属性
+           """
+           hv:第几副图像
+           row:行号
+           col:列号
+           dis:曼哈顿距离
+           piclon:hdf图上经度
+           piclat:hdf图上纬度
+           lon:查询经度
+           lat:查询纬度
+           """
+           print(point.hv)
+           print(point.row)
+           print(point.col)
+           print(point.distance)
+           print(point.piclon)
+           print(point.piclat)
+           print(point.lon)
+           print(point.lat)
+        
+           # 查询多个点
+           answers = fd.founds([[115, 33], [105, 43], [99, 47.12]])
+        
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.4
