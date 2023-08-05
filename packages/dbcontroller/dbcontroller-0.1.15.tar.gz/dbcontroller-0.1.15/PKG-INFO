@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: dbcontroller
+Version: 0.1.15
+Summary: Python - Database Controller (SQLAlchemy & Motor)
+License: MIT
+Author-email: hlop3z <23062270+hlop3z@users.noreply.github.com>
+Requires-Python: >=3.10
+Project-URL: Documentation, https://hlop3z.github.io/dbcontroller/
+Project-URL: download_url, https://github.com/hlop3z/dbcontroller/releases/download/alpha/v0.1.15.tar.gz
+Project-URL: url, https://github.com/hlop3z/dbcontroller

@@ -1,0 +1,47 @@
+[project]
+name = "dbcontroller"
+version = "0.1.15"
+description = "Python - Database Controller (SQLAlchemy & Motor)"
+authors = [
+    { name = "hlop3z", email = "23062270+hlop3z@users.noreply.github.com" },
+]
+dependencies = []
+requires-python = ">=3.10"
+
+[project.license]
+text = "MIT"
+
+[project.urls]
+url = "https://github.com/hlop3z/dbcontroller"
+download_url = "https://github.com/hlop3z/dbcontroller/releases/download/alpha/v0.1.15.tar.gz"
+Documentation = "https://hlop3z.github.io/dbcontroller/"
+
+[project.optional-dependencies]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm]
+allow_prereleases = true
+source = [
+    { url = "https://pypi.org/simple", verify_ssl = true, name = "pypi" },
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "build",
+    "isort",
+    "black",
+    "pylint>=3.0.0a5",
+    "watchdog>=2.1.9",
+    "mkdocs",
+    "mkdocs-material",
+    "pre-commit",
+    "sqlalchemy",
+    "aiosqlite",
+    "motor",
+    "databases[aiosqlite]>=0.6.1",
+]
