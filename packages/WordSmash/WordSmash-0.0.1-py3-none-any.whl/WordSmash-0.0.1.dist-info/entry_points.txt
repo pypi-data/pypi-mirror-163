@@ -1,0 +1,2 @@
+[console_scripts]
+wordsmash = wordsmash.__main__:main
