@@ -1,0 +1,14 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+WordSmash.egg-info/PKG-INFO
+WordSmash.egg-info/SOURCES.txt
+WordSmash.egg-info/dependency_links.txt
+WordSmash.egg-info/entry_points.txt
+WordSmash.egg-info/requires.txt
+WordSmash.egg-info/top_level.txt
+wordsmash/__init__.py
+wordsmash/__main__.py
+wordsmash/attacks.py
+wordsmash/crawler.py
