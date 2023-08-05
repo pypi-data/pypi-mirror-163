@@ -1,0 +1,13 @@
+django>=3.2
+
+[allauth]
+django-allauth
+
+[boto3_storage]
+django-storages[boto3]
+
+[minio_storage]
+django-minio-storage
+
+[rest_framework]
+djangorestframework
