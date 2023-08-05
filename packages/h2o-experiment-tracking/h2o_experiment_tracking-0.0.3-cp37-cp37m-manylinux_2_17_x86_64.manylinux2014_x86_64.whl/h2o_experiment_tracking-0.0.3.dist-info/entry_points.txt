@@ -1,0 +1,2 @@
+[console_scripts]
+h2oet = h2o_experiment_tracking.cli:cli
