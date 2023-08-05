@@ -1,0 +1,2 @@
+[console_scripts]
+tksss = tksss.core:cli

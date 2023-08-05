@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: tksss
+Version: 1.0.0
+Summary: This is a test package for uchida
+Author: uchida1512
+Author-email: uchida1512@gmail.com
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Operating System :: OS Independent
+Requires-Python: ~=3.8
+Description-Content-Type: text/markdown
+
+# uchida1512_create-package
+こののアプリでは、下記のような tksss コマンドを実装する。
+1. 引数で受け取った画像のソース情報をもとに画像を取得し、
+2. その画像にメッセージ（デフォルトは Thanks SSS ）をのせた画像を生成する。
+3. 画像ファイルのソース情報はファイルパス、画像 URL、検索キーワードの
+　 いずれかを指定し、
+4. 画像にのせる文字列は --message オプションで変更できる。
