@@ -1,0 +1,13 @@
+LICENSE,sha256=xkfifdoUrgdlTZBkDdR1JreKJF7ANRq-Vxak_9T7Ca4,1070
+README.md,sha256=i21SOGlRfcAy1FTSmi_DVC12AoxoyKBTSDibnkrEryg,1581
+aioutilities/__init__.py,sha256=wrnmPTzCIulzDhmZ17OHHSVJ8w8irJ2edBGb7Zuv47k,262
+aioutilities/pool/__init__.py,sha256=dbZWoiP1KxBxVTbvza8XER5iYcZpWapc280uMuk4_3s,198
+aioutilities/pool/example.py,sha256=XnNvpFjq0nPO_h2gZhcutPN5GEb5R1y4GPd7jNktz1I,1150
+aioutilities/pool/pool.py,sha256=xWeVCjsjxWYUJMumJgmvdGHTBspbLOYHIYkdny0Zz_0,5960
+aioutilities/pool/task.py,sha256=qbZFaJ1_59b7Udt0HZQhd0Gfe1r_Vw4Q2OBkDezzIAE,457
+aioutilities/pool/terminate.py,sha256=OlxVzJZOoGU_OgB6TxBpFv614cxBtVbWdnUS-9XFSiE,116
+aioutilities-1.0.1.dist-info/entry_points.txt,sha256=4yhqHsDdDsbZ47iBjzFQ77ZIjZLkR7GC6L-fJ3Bszpg,73
+aioutilities-1.0.1.dist-info/LICENSE,sha256=xkfifdoUrgdlTZBkDdR1JreKJF7ANRq-Vxak_9T7Ca4,1070
+aioutilities-1.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+aioutilities-1.0.1.dist-info/METADATA,sha256=iBBNNqqqj2TJ0eG0QAS9Y-wDB79vltOSMnq-YGe9A6Q,351
+aioutilities-1.0.1.dist-info/RECORD,,
