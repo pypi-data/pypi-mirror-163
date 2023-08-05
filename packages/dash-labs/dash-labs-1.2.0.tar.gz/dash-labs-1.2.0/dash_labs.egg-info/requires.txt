@@ -1,0 +1,11 @@
+appdirs>=1.4.4
+itsdangerous>=2.0.1
+
+[diskcache]
+diskcache>=5.2.1
+
+[postgres]
+psycopg2-binary>=2.9.3
+
+[redis]
+redis>=3.5.3
