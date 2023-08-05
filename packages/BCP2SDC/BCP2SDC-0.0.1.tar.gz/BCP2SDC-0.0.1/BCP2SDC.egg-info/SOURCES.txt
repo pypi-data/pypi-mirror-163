@@ -1,0 +1,14 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+test.py
+BCP2SDC.egg-info/PKG-INFO
+BCP2SDC.egg-info/SOURCES.txt
+BCP2SDC.egg-info/dependency_links.txt
+BCP2SDC.egg-info/top_level.txt
+Data_Catalog/__init__.py
+Data_Catalog/logs.py
+Data_Catalog/search.py
+Data_Catalog/__pycache__/README.txt
