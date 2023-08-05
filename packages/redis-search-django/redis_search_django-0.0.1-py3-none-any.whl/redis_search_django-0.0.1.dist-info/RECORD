@@ -1,0 +1,17 @@
+django_redis_search/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_redis_search/apps.py,sha256=aREllVr7XB-pTvJMkVWQb2GzAQ8PcWDUfklfheKJE-Q,255
+django_redis_search/config.py,sha256=-ALgB1Spwx_yWv1HYiRvO7oQiS7rbCnPQqFHugsvrbA,3365
+django_redis_search/documents.py,sha256=Eo11PyhdsoWXrFJw_1NZlw7zdyzY_-ayy6k6VASEuIw,11707
+django_redis_search/mixins.py,sha256=CtK8Hmr39faT6coG1m7rRhm26QM0c-yhwMY6AVsY-Rc,3134
+django_redis_search/paginator.py,sha256=TUvEQgUTVW6k8ULaa5wRaGt2NrBq8b3AdPFgniKfIyg,1234
+django_redis_search/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_redis_search/query.py,sha256=i2QGllNGIoJHarKBiKLZ_Ak1Vxt5PgLsNyAknnjGVF4,5988
+django_redis_search/registry.py,sha256=FYyXoQceDVdoK6hKuotb6yze4KENP5UsXyfvSd3uzKI,2624
+django_redis_search/signals.py,sha256=4L0MNweGjVb2Ug2D43N64tJX4apPsGsNJ9yBSiKta90,2297
+django_redis_search/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_redis_search/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_redis_search/management/commands/index.py,sha256=SYe9KKbRfgUW2u1wiYIJOf7XUwgx4ACL8kZKrY31oB4,1237
+redis_search_django-0.0.1.dist-info/METADATA,sha256=bNr5CyDW7jZHnAW7nIERRBZDUppdwaMTs-atN77HcaY,1317
+redis_search_django-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+redis_search_django-0.0.1.dist-info/top_level.txt,sha256=GRSomY2ATL254frBqTxzOXOnES5Pjli7Y80RXQUIZ84,20
+redis_search_django-0.0.1.dist-info/RECORD,,

@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: redis-search-django
+Version: 0.0.1
+Summary: Django Integration with Redis Search
+Home-page: https://github.com/saadmk11/django-redis-search
+Author: Maksudul Haque
+Author-email: saad.mk112@gmail.com
+License: MIT
+Keywords: Django,Redis,Search,RediSearch
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Framework :: Django :: 4.1
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Requires-Dist: django (>=3.2)
+Requires-Dist: redis-om (>=0.0.27)
+
+# django-redis-search
+
+[![pre-commit.ci status](https://results.pre-commit.ci/badge/github/saadmk11/django-redis-search/main.svg)](https://results.pre-commit.ci/latest/github/saadmk11/django-redis-search/main)
