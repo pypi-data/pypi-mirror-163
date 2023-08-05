@@ -1,0 +1,11 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+src/mypackage/SAFW.py
+src/mypackage/__init__.py
+src/mypackage/logBarrier.py
+src/safeOptimization.egg-info/PKG-INFO
+src/safeOptimization.egg-info/SOURCES.txt
+src/safeOptimization.egg-info/dependency_links.txt
+src/safeOptimization.egg-info/top_level.txt
