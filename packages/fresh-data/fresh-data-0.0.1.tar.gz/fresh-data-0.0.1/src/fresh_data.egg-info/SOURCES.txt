@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/fresh-data/__init__.py
+src/fresh-data/model_card_client.py
+src/fresh_data.egg-info/PKG-INFO
+src/fresh_data.egg-info/SOURCES.txt
+src/fresh_data.egg-info/dependency_links.txt
+src/fresh_data.egg-info/top_level.txt
