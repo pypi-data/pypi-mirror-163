@@ -1,0 +1,2 @@
+[console_scripts]
+d3tree = d3tree.cli:main
