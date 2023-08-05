@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+pylluvial/__init__.py
+pylluvial/aggregate.py
+pylluvial/fit.py
+pylluvial/plot.py
+pylluvial/stratum.py
+pylluvial/utils.py
+pylluvial.egg-info/PKG-INFO
+pylluvial.egg-info/SOURCES.txt
+pylluvial.egg-info/dependency_links.txt
+pylluvial.egg-info/requires.txt
+pylluvial.egg-info/top_level.txt
