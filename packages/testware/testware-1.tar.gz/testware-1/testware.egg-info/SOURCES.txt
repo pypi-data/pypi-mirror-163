@@ -1,0 +1,9 @@
+README.md
+setup.py
+./pipware/__init__.py
+./pipware/__main__.py
+testware.egg-info/PKG-INFO
+testware.egg-info/SOURCES.txt
+testware.egg-info/dependency_links.txt
+testware.egg-info/requires.txt
+testware.egg-info/top_level.txt
