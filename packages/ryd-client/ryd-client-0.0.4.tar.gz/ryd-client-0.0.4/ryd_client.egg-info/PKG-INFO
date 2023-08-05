@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: ryd-client
+Version: 0.0.4
+Summary: api client for returnyoutubedislike.com
+Home-page: https://github.com/bbilly1/ryd-client
+Author: Simon
+Author-email: simobilleter@gmail.com
+Project-URL: Bug Tracker, https://github.com/bbilly1/ryd-client/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# RYD Client
+Python client library for the **Return YouTube Dislike API**:
+
+- [https://returnyoutubedislike.com/](https://returnyoutubedislike.com/)
+- [https://github.com/Anarios/return-youtube-dislike/](https://github.com/Anarios/return-youtube-dislike/)
+
+
+Documentation and usage examples are on [GitHub](https://github.com/bbilly1/ryd-client).
