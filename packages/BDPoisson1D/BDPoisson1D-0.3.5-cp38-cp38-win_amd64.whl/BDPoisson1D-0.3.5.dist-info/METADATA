@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: BDPoisson1D
+Version: 0.3.5
+Summary: BD Finite Difference Poisson equation solver
+Home-page: https://github.com/bond-anton/BDPoisson1D
+Author: Anton Bondarenko
+Author-email: bond.anton@gmail.com
+License: Apache Software License
+Requires-Dist: numpy
+Requires-Dist: scipy (>=0.17.0)
+Requires-Dist: matplotlib
+Requires-Dist: BDMesh (>=0.2.18)
+Requires-Dist: BDFunction1D (>=0.1.2)
+
+# BDPoisson1D
+
+
