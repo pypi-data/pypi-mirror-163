@@ -1,0 +1,2 @@
+[console_scripts]
+price_predictor = price_predictor.__main__:main
