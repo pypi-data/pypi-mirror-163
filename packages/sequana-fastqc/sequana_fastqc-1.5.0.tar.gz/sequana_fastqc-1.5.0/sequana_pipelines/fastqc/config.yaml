@@ -1,0 +1,86 @@
+# ============================================================================
+# Config file for Quality Control
+# ==========================================[ Sections for the users ]========
+#
+# One of input_directory, input_pattern and input_samples must be provided
+# If input_directory provided, use it otherwise if input_pattern provided,
+# use it, otherwise use input_samples.
+# ============================================================================
+
+
+input_directory: '.'
+input_pattern: '*fastq.gz'
+
+################################################################################
+# extra_prefixes_to_strip
+#
+# In most cases, the input_directory and input_pattern (and input_read_tag for paired analysis)
+# allows us to retrieve unique sample names. We automatically removed common prefixes for you.
+#
+# Sometimes, some prefixes are not common to all samples but still need to be removed
+# to get unique sample names or better output. You can provide extra prefixes to be removed
+# by uncommenting and filling the field extra_prefixes_to_strip.
+#
+# For instance, if you have files called prefix.mess.A.fastq.gz and prefix.B.fastq.gz
+# 'prefix.' will be removed automatically because it is common, but not 'mess'. 
+# use thoses prefixes in the left to right order ['prefix', 'mess'] or ['prefix.mess']
+#
+# extra_prefixes_to_strip: []
+
+
+################################################################################
+# sample_pattern
+#
+# You may have trailing words that are in sample names but not wanted. Consider
+# the filename A_mess.fastq.gz, you can get rid of _mess if it appears in all 
+# samples using a pattern as follows '{sample}_mess.fastq.gz
+#
+# uncomment and fill to use this option. Be aware that prefixes are not removed
+# if you use sample_pattern
+#
+# sample_pattern: '{sample}_mess.fastq.gz'
+
+##############################################################################
+# general section
+#
+# method_choice__ = ['fastqc', 'falco']
+general:
+    method_choice: fastqc
+
+##############################################################################
+# FastQC section
+#
+# :Parameters:
+#
+# - options: string with any valid FastQC options
+fastqc:
+    options: ''
+    threads: 4
+    resources:
+        mem: 8G
+falco:
+    options: ''
+    threads: 4
+    resources:
+        mem: 8G
+
+##############################################################################
+#
+#
+# - options: any multiqc options accepted. Note that if you use --comments, 
+#   it will be appended to the existing --comments added inside sequana. 
+#   By default, -p (create pictures) and -f (for overwritting) are used. 
+# - indir: The input multiqc (default is local).
+multiqc:
+    do: true
+    options: -p -f
+    input_directory: "."
+    modules: fastqc    # falco is not set; the fastqc module works for falco
+    config_file: 
+    resources:
+        mem: 8G
+
+plotting_and_stats:
+    resources:
+        mem: 8G
+
