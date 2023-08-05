@@ -1,0 +1,2 @@
+[console_scripts]
+network_changer = network_changer.executor:main
