@@ -1,0 +1,7 @@
+sql_schema_registry/__init__.py,sha256=AJNnHeGkiEffx5yC35M6gjZb2knIro-QLQqPmmNg1ME,1723
+sql_schema_registry/database.py,sha256=EDnATX-h2kfpxgn1_6273aUyBIo-dLXMhTw_1y4PNVE,3023
+sql_schema_registry/files.py,sha256=G1IwVD-zRz31K0WDA9c8u24Ny5jyRxKf7mi1klsbndA,2731
+sql_schema_registry-0.2.5.dist-info/METADATA,sha256=kVnzrKH2kEmI-lyDJYqVVNV3aUUgQe2yRDcA2lG3Jqc,124
+sql_schema_registry-0.2.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sql_schema_registry-0.2.5.dist-info/top_level.txt,sha256=RRi1ZxqZ5ujUXUADpvcTBfcTLhxzBwZ70ZGgKrqD07Y,20
+sql_schema_registry-0.2.5.dist-info/RECORD,,
