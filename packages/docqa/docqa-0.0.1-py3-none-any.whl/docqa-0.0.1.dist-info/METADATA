@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: docqa
+Version: 0.0.1
+Summary: DocQA: An easy way to extract information from documents
+Home-page: https://github.com/impira/docqa
+Author: Impira Engineering
+Author-email: engineering@impira.com
+Project-URL: Bug Tracker, https://github.com/impira/docqa/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: torch (>=1.0)
+Requires-Dist: transformers (>=4.18.0)
+Requires-Dist: pdf2image
+Requires-Dist: pdfplumber
+Requires-Dist: Pillow
+Requires-Dist: pydantic
+Requires-Dist: pytesseract
+Requires-Dist: requests
+Provides-Extra: all
+Requires-Dist: black ; extra == 'all'
+Requires-Dist: build ; extra == 'all'
+Requires-Dist: flake8 ; extra == 'all'
+Requires-Dist: flake8-isort ; extra == 'all'
+Requires-Dist: isort (==5.10.1) ; extra == 'all'
+Requires-Dist: pre-commit ; extra == 'all'
+Requires-Dist: twine ; extra == 'all'
+Provides-Extra: cli
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: build ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: flake8-isort ; extra == 'dev'
+Requires-Dist: isort (==5.10.1) ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
+# DocQA: An easy way to extract information from documents
+
+## License
+
+This project is licensed under the [MIT license](LICENSE).
+
+It contains code that is copied and adapted from transformers (https://github.com/huggingface/transformers),
+which is [Apache 2.0 licensed](http://www.apache.org/licenses/LICENSE-2.0). Files containing this code have
+been marked as such in their comments.
