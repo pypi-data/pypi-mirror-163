@@ -1,0 +1,8 @@
+setup.py
+Weight_Matrix/Weight_Matrix.py
+Weight_Matrix/__init__.py
+Weight_Matrix.egg-info/PKG-INFO
+Weight_Matrix.egg-info/SOURCES.txt
+Weight_Matrix.egg-info/dependency_links.txt
+Weight_Matrix.egg-info/requires.txt
+Weight_Matrix.egg-info/top_level.txt
