@@ -1,0 +1,10 @@
+inventree_zapier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+inventree_zapier/models.py,sha256=eSadZaUs6gXShnmTW1ZVPHrIrPegpzFj0xrzALU8bk4,359
+inventree_zapier/version.py,sha256=36KjHhYUn-Pv9BpEqtmdACLnQAQqo7VBYqSOyrMlCIg,31
+inventree_zapier/zapier_plugin.py,sha256=q23RJjjeaWxt7o17hOgBGMrFjyxPpgQelpv3TQsiZN4,3284
+inventree_zapier-0.2.2.dist-info/LICENSE,sha256=lYxidPb3ircUpRxHW1UKUtZnbVuNLgY-RMylycN33mY,1091
+inventree_zapier-0.2.2.dist-info/METADATA,sha256=D6STJIAbedXpS54UWvgaQckjz2_5g-6l1qlQG_GXLpU,1473
+inventree_zapier-0.2.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+inventree_zapier-0.2.2.dist-info/entry_points.txt,sha256=6COwi3uT2B-6r0-KT3CLcuJJDBbfIQVJQC0NDarjvMY,79
+inventree_zapier-0.2.2.dist-info/top_level.txt,sha256=Cv-tlTGOLFVCdRdFr1plJDSyUHJnEbCh0K5gcZo1G4s,17
+inventree_zapier-0.2.2.dist-info/RECORD,,
