@@ -1,0 +1,94 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="container">
+
+    {% if op %}
+    &nbsp;
+    {% if op == "add" %}
+
+    {% if opOk %}
+    <div class="alert alert-success" role="alert">Blacklist entry added successfully.</div>
+    {% else %}
+    <div class="alert alert-danger" role="alert">Could not add blacklist entry.</div>
+    {% endif %}
+
+    {% elif op == "delete" %}
+
+    {% if opOk %}
+    <div class="alert alert-success" role="alert">Blacklist entry deleted successfully.</div>
+    {% else %}
+    <div class="alert alert-danger" role="alert">Could not delete blacklist entry.</div>
+    {% endif %}
+
+    {% elif op == "enable" %}
+
+    {% if opOk %}
+    <div class="alert alert-success" role="alert">Enabled blacklist.</div>
+    {% else %}
+    <div class="alert alert-danger" role="alert">Could not enable blacklist.</div>
+    {% endif %}
+
+    {% elif op == "disable" %}
+
+    {% if opOk %}
+    <div class="alert alert-success" role="alert">Disabled blacklist.</div>
+    {% else %}
+    <div class="alert alert-danger" role="alert">Could not disable blacklist.</div>
+    {% endif %}
+
+    {% endif %}
+
+    {% endif %}
+
+    &nbsp;
+
+    <form class="mw-full" action="/blacklist" method="post">
+        <div class="form-group d-flex flex-row">
+            <select class="form-control" aria-label="Key" name="type">
+                <option value="title" selected>Title</option>
+                <option value="filename">File name</option>
+            </select>
+
+            <select class="form-control" aria-label="MatchType" name="mode">
+                <option value="contains" selected>contains</option>
+                <option value="equals">equals</option>
+            </select>
+
+            <input type="text" class="form-control" placeholder="Input" name="text" value="{{ query }}">
+
+            <button class="btn btn-primary" type="submit">Add</button>
+        </div>
+    </form>
+
+    &nbsp;
+    {% if results %}
+    <table class="table">
+        <thead>
+        <tr class="d-flex">
+            <th class="col-1">#</th>
+            <th class="col-2">Type</th>
+            <th class="col-2">Mode</th>
+            <th class="col-6">Text</th>
+            <th class="col-1">Actions</th>
+        </tr>
+        </thead>
+        {% for item in results %}
+        <tr class="d-flex">
+            <td class="col-1">{{ loop.index }}</td>
+            <td class="col-2">{{ item.type }}</td>
+            <td class="col-2" id="match-type-{{ loop.index }}">{{ item.mode }}</td>
+            <td class="col-6" id="content-{{ loop.index }}">{{ item.text }}</td>
+            <td class="col-1">
+                <form id="{{ loop.index }}-delete" action="/watches" method="post">
+                    <input type="hidden" name="op" value="delete">
+                    <input type="hidden" name="id" value="{{ item.id }}">
+                    <button class="btn btn-outline-danger" type="submit">Delete</button>
+                </form>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</div>
+{% endblock %}
