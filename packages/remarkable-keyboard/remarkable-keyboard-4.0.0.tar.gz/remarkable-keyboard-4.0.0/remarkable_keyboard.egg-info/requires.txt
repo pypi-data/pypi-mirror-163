@@ -1,0 +1,6 @@
+paramiko
+pycryptodome
+pynput
+remarkable-mouse>=5
+screeninfo
+sortedcontainers
