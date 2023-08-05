@@ -1,0 +1,13 @@
+venra/__init__.py,sha256=4b6FM_cY_bXYRXlGzCd3THFHScPzf05D0XCQTZh741E,969
+venra/client.py,sha256=X4Up-Tl5JCV9ACFKH1YkE4tYrJbhAAch552Ib61La_I,392
+venra/config.py,sha256=9SsLCrJx1b3O1Qowhno4JbxEQH6gskzqkpOtg2heuMQ,1181
+venra/document.py,sha256=9AzzEQC2phv9avZdmKW9v1UHqc3MxxphlkzG7APD9hc,1017
+venra/search.py,sha256=J9waENdL5jN5n9AUxMjUVncmpmpIT4tiRhkuWX1XluE,1310
+venra/system.py,sha256=b9LtuzFVm5FILj6afUll1l8FJoJwUvb-FdwYLtv09p0,723
+venra/version.py,sha256=-Wqu9UyJphp-2_EahEsqQvkcE0VBhm1-N7D6e5rANdY,22
+venra/visit.py,sha256=sut990FEzfx8irCEXxzRnUQQbH0rxBNeGpalFe_afUo,897
+venra-0.0.4.dist-info/LICENSE,sha256=GzmJmymuV16q43hRenuLdNzBp_VQVIcwiC5Lklf-VaM,1079
+venra-0.0.4.dist-info/METADATA,sha256=d_3M2RaWsU4IujewHCbhcQiVmXA0ldN_X-TSJuDPAHI,1404
+venra-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+venra-0.0.4.dist-info/top_level.txt,sha256=nShNnTTjkNJ78-J1v3aiku6p_8WEkPnBZHtA0tXzMuo,6
+venra-0.0.4.dist-info/RECORD,,
