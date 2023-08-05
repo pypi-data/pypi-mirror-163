@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: YTagFinder
+Version: 0.0.1
+Summary: Simple Module for fetching youtube tags
+Home-page: UNKNOWN
+Author: Tina Ratolojanahary
+Author-email: <rtinahubert@gmail.com>
+License: UNKNOWN
+Description: This is a package for fetching all Youtube videos tags from a given url
+Keywords: python,youtube tags
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
