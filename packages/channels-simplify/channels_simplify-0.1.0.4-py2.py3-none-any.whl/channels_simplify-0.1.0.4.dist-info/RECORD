@@ -1,0 +1,10 @@
+channels_simplify/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+channels_simplify/consumers.py,sha256=SFwy9roj2YjXnvsfIe2Nz-Sk5F990JiHIHA9Ouj3vvc,13357
+channels_simplify/decoratos.py,sha256=AacvoEyDzCKfh5xiattVsWl7aDrSvyRJmAkUVDcah98,2128
+channels_simplify/signatures.py,sha256=FjAkpTKWeylRDLW6xJKMrBh-PsgFEcCgH_J4cxu-Q2I,7335
+channels_simplify/utils.py,sha256=mlGQ-oThJP7BejPU2abEhoA_gAbsXIPaUHl5RxtpgFU,880
+channels_simplify-0.1.0.4.dist-info/LICENSE,sha256=6w5ELKvCs-1DMD2MRcu1kMdCmJSDjANukBUnwmGVVvs,1069
+channels_simplify-0.1.0.4.dist-info/METADATA,sha256=IWZ-uV1ZdY46WZyo08omQdLckQcfmhMSLlvEody4A5s,1256
+channels_simplify-0.1.0.4.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+channels_simplify-0.1.0.4.dist-info/top_level.txt,sha256=z9G4YqZFNWhlE8HPVybCy7m4-W4LE9TDQIa8yJlVL3c,18
+channels_simplify-0.1.0.4.dist-info/RECORD,,
