@@ -1,0 +1,12 @@
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+src/condat_gridconv/__init__.py
+src/condat_gridconv/gridconv.py
+src/condat_gridconv/shift.c
+src/condat_gridconv.egg-info/PKG-INFO
+src/condat_gridconv.egg-info/SOURCES.txt
+src/condat_gridconv.egg-info/dependency_links.txt
+src/condat_gridconv.egg-info/requires.txt
+src/condat_gridconv.egg-info/top_level.txt
