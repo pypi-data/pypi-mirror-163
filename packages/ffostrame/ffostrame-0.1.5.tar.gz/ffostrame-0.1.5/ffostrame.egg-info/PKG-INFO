@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: ffostrame
+Version: 0.1.5
+Summary: A do-it-all Python package for you and me
+Home-page: UNKNOWN
+Author: Fran Nostrame
+Author-email: frank@nostrame.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6.0
