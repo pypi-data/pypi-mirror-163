@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: yaeb
+Version: 0.1.1
+Summary: 
+Author: Daniil Fedyaev
+Author-email: wintercitizen@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
