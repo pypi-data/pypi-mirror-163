@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: MojangSkin
+Version: 1.0.0
+Summary: Get Minecraft player skins
+Home-page: https://github.com/legopitstop/mojangskin
+Author: Legopitstop
+Author-email: officiallegopitstop@gmail.com
+License: MIT
+Keywords: minecraft,skin,images,Pillow
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.9
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE.md
+
+# MojangSkin - 1.0.0
+
+NOTE: This project is still being worked on and may have a few errors with functions or functions that are placeholder and do not have any functionallity.
+
+## What is this?
+
+Get Minecraft player skins from the Mojang API.
+
+## Install
+
+`pip install MojangSkin`
+
+## Requirements
+
+| Name | Descirption |
+|--|--|
+| [mojangapi](https://pypi.org/project/mojang/) | `Mojang` is a Python package for accessing Mojang's services. It serves as a simple wrapper around Mojang's API and can be used to convert UUIDs, get profile information, and much more. |
+| [requests](https://pypi.org/project/requests/) | **Requests** is a simple, yet elegant, HTTP library. |
+| [Pillow](https://pypi.org/project/Pillow/) | PIL is the Python Imaging Library by Fredrik Lundh and Contributors. As of 2019, Pillow development is supported by Tidelift. |
+
+## Example
+
+[See examples.py](./examples.py)
+
+## License
+
+MIT License
+
+

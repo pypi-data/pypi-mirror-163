@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+MojangSkin.egg-info/PKG-INFO
+MojangSkin.egg-info/SOURCES.txt
+MojangSkin.egg-info/dependency_links.txt
+MojangSkin.egg-info/requires.txt
+MojangSkin.egg-info/top_level.txt
+mojangskin/__init__.py
