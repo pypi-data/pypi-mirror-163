@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+mnemonic_utils/__init__.py
+mnemonic_utils/constants.py
+mnemonic_utils/utils.py
+mnemonic_utils.egg-info/PKG-INFO
+mnemonic_utils.egg-info/SOURCES.txt
+mnemonic_utils.egg-info/dependency_links.txt
+mnemonic_utils.egg-info/requires.txt
+mnemonic_utils.egg-info/top_level.txt
