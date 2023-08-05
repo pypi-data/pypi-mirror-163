@@ -1,0 +1,14 @@
+README.md
+setup.py
+dirac/__init__.py
+dirac/complex.py
+dirac/complexmatrix.py
+dirac/constant.py
+dirac/operator.py
+dirac/state.py
+dirac/wavefunction.py
+diracengine.egg-info/PKG-INFO
+diracengine.egg-info/SOURCES.txt
+diracengine.egg-info/dependency_links.txt
+diracengine.egg-info/requires.txt
+diracengine.egg-info/top_level.txt
