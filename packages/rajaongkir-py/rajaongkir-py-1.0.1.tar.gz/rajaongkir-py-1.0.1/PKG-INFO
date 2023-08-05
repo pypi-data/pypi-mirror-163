@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: rajaongkir-py
+Version: 1.0.1
+Summary: RajaOngkir API Wrapper
+Author-email: Danang Haris Setiawan <mr.danangharissetiawan@gmail.com>
+License: The MIT License (MIT)
+        Copyright © 2022 Danang Haris Setiawan
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy of this software and associated documentation files (the “Software”), to deal in the Software without restriction, including without limitation the rights to use, copy, modify, merge, publish, distribute, sublicense, and/or sell copies of the Software, and to permit persons to whom the Software is furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED “AS IS”, WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE SOFTWARE.
+Project-URL: Homepage, https://github.com/danangharissetiawan/raja-ongkir
+Keywords: ongkir,raja ongkir,api,wrapper,raja ongkir api
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+## Raja Ongkir API
+
+### API Documentation
+
+`Raja Ongkir` is a RESTful API that provides the following services:
+
+* **Object-Oriented Interface** - The API is implemented in object-oriented style.
+* **Simple and Easy to Use** - The API is easy to use and simple to implement.
+
+* **Province**: Get all province data
+* **Province Detail**: Get province detail data
+* **City**: Get all city data
+* **Find City**: Get city data by province id
+* **Cost**: Get all cost data
+* **ETD**: Get all etd data
+* **Varian Account Type**: Get all varian account type data
+
+- [Raja Ongkir API Documentation](https://rajaongkir.com/docs/api)
+
+---
+
+## Installation
+
+```bash
+    pip install rajaongkir-py
+```
+
+## Usage
+
+```python
+    from rajaongkir import Client
+
+    # Create a client object
+    client = Client(auth='YOUR_API_KEY')
+    
+    # Get all province data
+    provinces = client.provinces.list()
+
+    # Get province detail data
+    province = client.provinces.query(province_id=1)
+
+    # Get all city data
+    cities = client.cities.list()
+
+    # Get city data by province id
+    cities = client.cities.query(province_id=1)
+
+    # Get ciry data by city id and province id
+    city = client.cities.query(city_id=1, province_id=1)
+
+    # Get calculate cost data
+    cost = client.costs.calculate(origin=501, destination=114, weight=1000, courier='jne')
+    
+    # print cost data
+    print(cost)
+
+```
