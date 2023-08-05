@@ -1,0 +1,8 @@
+simplejpeg-1.6.5.dist-info/LICENSE,sha256=1E3j0_KyTS70X-Q6IPm9FNjyp3r3CYrW6y49q2hNQCU,19565
+simplejpeg-1.6.5.dist-info/WHEEL,sha256=kP8f8AGDLCdJ4Z-JypxkfpidFjxWTU0PtzYjC5fvKa4,188
+simplejpeg-1.6.5.dist-info/RECORD,,
+simplejpeg-1.6.5.dist-info/METADATA,sha256=HZX5vLDCYOj4oCO5mdMFhP8_x8i87FmAU87pr5l8rg0,6775
+simplejpeg-1.6.5.dist-info/top_level.txt,sha256=whsdyVL6rcRijxONcdtjdyk0mOmj_2fExNkij2xVvdw,11
+simplejpeg/_jpeg.pyi,sha256=M2AXlcBB5p5xcypII8NqDxFNthVNYrnsEnY54z-HAKQ,3642
+simplejpeg/__init__.py,sha256=qCEabH-eDfeAAUzYTnDOf28rengb5wLKdtWw9cQoxOs,527
+simplejpeg/_jpeg.cpython-38-aarch64-linux-gnu.so,sha256=SoUsRc5C3Uo4ntdzAp8UbJ9sF2v96ZYiIuFiukdd0dQ,562144
