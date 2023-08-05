@@ -1,0 +1,11 @@
+flask_sustainable/__init__.py,sha256=J0aIUgOIN3RSh3CAj1-rfwrG7hTRxcQdbSCmIMNIgSE,134
+flask_sustainable/base.py,sha256=54NEOV7kN5BXIv2n2Rf6w7n-8ndibun8tav6G8taZV4,5417
+flask_sustainable/compress.py,sha256=P4qhlrFw-KvrvekEK5MXG-w8cRCI3vQMS39gYScDSk4,5279
+flask_sustainable/extension.py,sha256=wXukXvB7R8lZoMs9ERHCsU5LLwjSy4EjoM8BgZBUBgI,6330
+flask_sustainable/indicator.py,sha256=rUoS7J0UobyrScEieO_0bTe9GDBMWbARDoIHyOuOB2I,4852
+flask_sustainable/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+flask_sustainable/score.py,sha256=BOqtqBWnwplpwaOttYcEEFUY-82QAC2kvKBsfX_xP-Q,1237
+flask_sustainable-0.0.2.dist-info/LICENSE,sha256=BuRIyZvqlsHJ84xVPW6oKEStFL-oXmXwAndPlHhxINM,1075
+flask_sustainable-0.0.2.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+flask_sustainable-0.0.2.dist-info/METADATA,sha256=ZxyGKlb72TngcVzIA2buU5MPGlIeJ8jnxZHBcaYqA_A,4869
+flask_sustainable-0.0.2.dist-info/RECORD,,
