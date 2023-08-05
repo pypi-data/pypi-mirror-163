@@ -1,0 +1,13 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/native/minimp3.h
+src/native/np3.c
+src/np3/__init__.py
+src/np3.egg-info/PKG-INFO
+src/np3.egg-info/SOURCES.txt
+src/np3.egg-info/dependency_links.txt
+src/np3.egg-info/requires.txt
+src/np3.egg-info/top_level.txt
