@@ -1,0 +1,92 @@
+Metadata-Version: 2.1
+Name: audioinfo
+Version: 0.1.7
+Summary: Count audio files in a directory.
+Author-email: HAO Xiang <haoxiangsnr@gmail.com>
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Operating System :: OS Independent
+Requires-Dist: rich
+Requires-Dist: soundfile
+Requires-Dist: flit ; extra == "build"
+Requires-Dist: python-semantic-release ; extra == "build"
+Requires-Dist: pytest ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Documentation, https://github.com/haoxiangsnr/audioinfo
+Project-URL: Source, https://github.com/haoxiangsnr/audioinfo
+Provides-Extra: build
+Provides-Extra: test
+
+# audioinfo
+
+A tool to check audio file durations in a directory.
+
+## Usage
+
+Install the audioinfo package with:
+
+```bash
+pip install audioinfo
+```
+
+Check the help with:
+
+```bash
+$ audioinfo --help
+
+usage: audioinfo [-h] [--directory DIRECTORY] [--ext EXT [EXT ...]] [--stop_recurse] [--case_sensitive]
+
+A tool to check the durations of audio files in a directory.
+
+options:
+  -h, --help            show this help message and exit
+  --directory DIRECTORY, -d DIRECTORY
+                        The directory to search. (default: ./)
+  --ext EXT [EXT ...], -e EXT [EXT ...]
+                        The extension to search for, like 'wav' or 'mp3'. (default: wav)
+  --stop_recurse, -s    Stop to recurse into subdirectories. (default: False)
+  --case_sensitive, -c  Case sensitive search. (default: False)
+```
+
+## Examples
+
+Check all audio files with the ".wav" in the current directory:
+
+```bash
+audioinfo --directory ./ --ext wav
+
+# or use the short form of the arguments
+audioinfo -d ./ -e wav
+
+# default directory is the current directory and the default extension is ".wav".
+# you may precisely omit these options, like this:
+audioinfo
+```
+
+Check all audio files with the ".wav"  in the directory "~/Music":
+
+```bash
+audioinfo -d ~/Music -e wav
+```
+
+Check all audio files with ".wav" or ".flac" suffixes in the directory "~/Music":
+
+```bash
+audioinfo -d ~/Music -e wav flac
+```
+
+Check audio files with the ".wav" suffix in the directory "~/Music" and do not recurse into subdirectories:
+
+```bash
+audioinfo -d ~/Music -e wav -s
+```
+
+
+## License
+
+This software is licensed under the [MIT License](https://opensource.org/licenses/MIT).
+
