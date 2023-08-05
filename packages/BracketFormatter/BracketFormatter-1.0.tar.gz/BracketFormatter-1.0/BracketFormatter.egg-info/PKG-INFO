@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: BracketFormatter
+Version: 1.0
+Summary: A custom logging formatter to use a [+] style log comment
+Author: AJ Poulter
+License-File: LICENSE
