@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: checkdeps
+Version: 0.0.1
+Summary: Ensures your first-order deps are correct
+Home-page: https://github.com/python-packaging/checkdeps/
+Author: Tim Hatch
+Author-email: tim@timhatch.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# checkdeps
+
+
+
+# License
+
+checkdeps is copyright [Tim Hatch](https://timhatch.com/), and licensed under
+the MIT license.  I am providing code in this repository to you under an open
+source license.  This is my personal repository; the license you receive to
+my code is from me and not from my employer. See the `LICENSE` file for details.
+
+
