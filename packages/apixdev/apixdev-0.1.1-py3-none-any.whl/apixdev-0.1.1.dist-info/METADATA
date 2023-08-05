@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: apixdev
+Version: 0.1.1
+Summary: Apix Developper Toolkit
+Home-page: https://github.com/royaurelien/apixdev
+Author: Aurelien ROY
+Author-email: roy.aurelien@gmail.com
+License: BSD 2-clause
+License-File: LICENSE
+Requires-Dist: click
+Requires-Dist: gitdb
+Requires-Dist: GitPython
+Requires-Dist: OdooRPC
+Requires-Dist: python-gitlab
+Requires-Dist: PyYAML (>=6.0)
+Requires-Dist: requests
+Requires-Dist: sh
+Requires-Dist: tqdm
+
