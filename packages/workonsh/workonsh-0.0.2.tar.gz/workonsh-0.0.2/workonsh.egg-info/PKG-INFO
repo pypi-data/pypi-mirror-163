@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: workonsh
+Version: 0.0.2
+Summary: Work on a server
+Author: Ngoc Bui
+Author-email: ngocbh.pt@gmail.com
+Project-URL: Bug Tracker, https://github.com/ngocbh/workonsh/issues
+Project-URL: Documentation, https://github.com/ngocbh/workonsh/README.md
+Project-URL: Source Code, https://github.com/ngocbh/workonsh
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# workonsh
+A live synchronizer local and remote machine. Similar to lsyncd
+
+## Install
+Requirements: `fswatch` and `rsync`.
+
+To install from pypi
+
+```
+pip install workonsh
+```
+
+From git repo
+
+```
+pip install git+https://github.com/ngocbh/workonsh
+```
+
+## Usage
+
+Run ```workonsh --help```
+
+An example to create a session:
+
+```
+workonsh -n <project_name> -s <source-dir> -d <dest-dir> -e "*__pycache__" -f .gitignore -i 5
+```
