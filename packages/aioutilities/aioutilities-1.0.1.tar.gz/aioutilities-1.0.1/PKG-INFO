@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: aioutilities
+Version: 1.0.1
+Summary: asyncio-powered coroutine worker pool
+License: MIT
+Author: Kevin Kirsche
+Author-email: kev.kirsche@gmail.com
+Requires-Python: >=3.10,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
