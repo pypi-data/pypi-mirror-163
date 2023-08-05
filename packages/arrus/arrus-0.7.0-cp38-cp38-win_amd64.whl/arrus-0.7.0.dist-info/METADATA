@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: arrus
+Version: 0.7.0
+Summary: API for Research/Remote Ultrasound
+Home-page: https://us4us.eu
+Author: us4us Ltd.
+Author-email: support@us4us.eu
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Embedded Systems
+Classifier: Topic :: Scientific/Engineering :: Bio-Informatics
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Requires-Dist: numpy (>=1.19.3)
+Requires-Dist: scipy (>=1.3.1)
+
+ARRUS - API for Research/Remote Ultrasound
+
+
