@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: instant-coffee
+Version: 0.1.1
+Summary: Project description
+License: Apache Software License 2.0
+Author: Ingram Micro Inc.
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Utilities
+Requires-Dist: Faker
+Requires-Dist: connect-extension-runner (>=25.0.0,<26.0.0)
+Requires-Dist: cryptography (>=37.0.2,<38.0.0)
+Requires-Dist: extaasy (>=0.1.0,<0.2.0)
+Requires-Dist: mock (>=4.0.3,<5.0.0)
+Requires-Dist: pyjwt (>=2.4.0,<3.0.0)
+Requires-Dist: pytest (>=7.1.2,<8.0.0)
+Requires-Dist: responses (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+# Instant Coffee
+
+A library for connecting to kaffeeservice in Instant Cloud Solutions
+
