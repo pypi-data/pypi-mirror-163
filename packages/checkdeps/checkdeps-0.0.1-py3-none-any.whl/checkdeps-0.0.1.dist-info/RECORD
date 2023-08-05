@@ -1,0 +1,12 @@
+checkdeps/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+checkdeps/__main__.py,sha256=bYt9eEaoRQWdejEHFD8REx9jxVEdZptECFsV7F49Ink,30
+checkdeps/cli.py,sha256=g4zNOqHasSg_7_JxnA17BV-v5qGH9EUf_50b3OiCLq4,4507
+checkdeps/distinfo.py,sha256=u_aP01kyZ-atJIq1mz6dUPHTOr1HIuM4nD2_12RlTTk,1250
+checkdeps/distinfo_inference.py,sha256=UgeuuqSKQG39Imx00sIVhUESHnF5HlPGo-3_BXPqCYY,3376
+checkdeps/import_parser.py,sha256=dT53tl71jExnOauWyH_G9G1AjETryoTE7nEL3Kk98sc,567
+checkdeps/requirements.py,sha256=GJ9lXu02NLgS2Y_WzVQEKeLpvkgA_hIms-fWs4PMSZo,1488
+checkdeps-0.0.1.dist-info/LICENSE,sha256=SlvwFNvo58Wz1h8Nc5A5r_WoOGztySNSWiC9proAwUw,1066
+checkdeps-0.0.1.dist-info/METADATA,sha256=AsmW0M8hRTTMSOSMxTmw1Gv96DwazX28mbZQT-z5wz4,669
+checkdeps-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+checkdeps-0.0.1.dist-info/top_level.txt,sha256=OqP2Y43DWQxZSDV3MNXs5eA34t_FTO81Zz4rOyqpOxw,10
+checkdeps-0.0.1.dist-info/RECORD,,
