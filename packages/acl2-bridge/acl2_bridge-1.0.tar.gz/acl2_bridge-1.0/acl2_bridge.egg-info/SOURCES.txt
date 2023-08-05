@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+acl2_bridge/__init__.py
+acl2_bridge/acl2_bridge.py
+acl2_bridge.egg-info/PKG-INFO
+acl2_bridge.egg-info/SOURCES.txt
+acl2_bridge.egg-info/dependency_links.txt
+acl2_bridge.egg-info/top_level.txt

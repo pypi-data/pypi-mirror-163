@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: acl2_bridge
+Version: 1.0
+Summary: Connect to an ACL2 Server from Python
+Home-page: https://github.com/rubengamboa/acl2_bridge
+Download-URL: https://github.com/rubengamboa/acl2_bridge/archive/v1.0.zip
+Author: Ruben Gamboa
+Author-email: ruben@uwyo.edu
+License: bsd-3-clause
+Keywords: ACL2,theorem proving,verification
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This package allows you to control an ACL2 process from Python, using the ACL2 Bridge. The ACL2 process must already be executing.
