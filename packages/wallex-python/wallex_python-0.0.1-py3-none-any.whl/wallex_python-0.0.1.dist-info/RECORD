@@ -1,0 +1,10 @@
+wallex/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wallex/client.py,sha256=xff5Wq17Qs6-bVqgX5jnQ66Ykry5RNxY49aU9Lgfoyw,5600
+wallex/request.py,sha256=EH2ZqH46TUlyCh9zq3j9W2WCUf28BaXQC8WssRt73qc,1349
+wallex/schema.py,sha256=aaPwkZByZQF55OYS3WmAjH98LqLRq6NZLgsOkxSQU-I,4373
+wallex/utils.py,sha256=b4pJl_BKjyQltSI-t-UDhmuVneu8rRy9cWz6T63Nym4,893
+wallex_python-0.0.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+wallex_python-0.0.1.dist-info/METADATA,sha256=bTNRVehr8czAKr9T15tSXXAO_pS-VKIRAcuN_6IdCe0,1942
+wallex_python-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wallex_python-0.0.1.dist-info/top_level.txt,sha256=aqNWVxtOy9M219lxdMC271ydzxWrOf_0U0OqxBCTGGI,7
+wallex_python-0.0.1.dist-info/RECORD,,
