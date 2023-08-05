@@ -1,0 +1,17 @@
+BDMesh/Mesh1DUniform.pxd,sha256=eAJeLxbIy1oD4qL59VcGf1PIzrAlK0HoY_tqqiNVg50,342
+BDMesh/TreeMesh1DUniform.pxd,sha256=s5tpC3Rt04Vq6ucFXJHW5heJguFMadaEnDkze1oy6DY,198
+BDMesh/TreeMesh1D.pxd,sha256=5OqJQ1m9BnSJjLRR_cP5sT9E9uYJi4oBoMUsW7b_OT8,755
+BDMesh/TreeMesh1DUniform.cpython-38-x86_64-linux-gnu.so,sha256=27qBEIUN5PcCpqQdtX7BjAQbPzh5_iLJQI1V_zhnOss,1635640
+BDMesh/Mesh1D.pxd,sha256=HijgzW9GY7ut5ylOWJ-PK-W4V9xvGXSUG4DfRLkNzIQ,744
+BDMesh/_helpers.cpython-38-x86_64-linux-gnu.so,sha256=L9zAvXv_UK971jaVU8XOp9p1rvdF1RDwW3L_1dVjp3c,1199048
+BDMesh/TreeMesh1D.cpython-38-x86_64-linux-gnu.so,sha256=ZAHzJI6U_FTeyU3Q4YIxRxPZ9ysvwguJJ5GPOYSVbnw,1887288
+BDMesh/Mesh1D.cpython-38-x86_64-linux-gnu.so,sha256=31Uz0BkKW8c4E7WOmXPk-iWjhgLA54cjeE5AzTjhxqg,1831336
+BDMesh/__init__.py,sha256=gs2j3z43-ZVB9WzdMlkxHm8nM9jXrvJp2VfYBi6kOA0,186
+BDMesh/Mesh1DUniform.cpython-38-x86_64-linux-gnu.so,sha256=EnMfNgNjlUH-LIfMeuTtJTQRtDDAQuL3JxjrigFRZeI,1928880
+BDMesh/_version.py,sha256=Qi17SZ8BBtfJyUgJ1-dmlKGJmEwoMRO4CvqGYPFRAhw,23
+BDMesh-0.2.17.dist-info/NOTICE.txt,sha256=8VEjtS76TUbe-_-TMpLp_qAAfvHdBRZsOzQr7sIte6o,78
+BDMesh-0.2.17.dist-info/LICENSE.txt,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+BDMesh-0.2.17.dist-info/METADATA,sha256=cmY1YQGxsTToq3aKozt5fUBl2gL7z_6bcF5yqVhWYsM,1428
+BDMesh-0.2.17.dist-info/top_level.txt,sha256=2d5caCnDQ7xIObrSmMfvlWiqXTDLSo5PURDZp9Qz3b4,7
+BDMesh-0.2.17.dist-info/WHEEL,sha256=6jd4iL1PdoODmcsbX84z5njbeYqvNy0oPQMQT3l84Qo,217
+BDMesh-0.2.17.dist-info/RECORD,,
