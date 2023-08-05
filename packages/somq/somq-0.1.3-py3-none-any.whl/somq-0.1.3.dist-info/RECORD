@@ -1,0 +1,8 @@
+somq/__init__.py,sha256=sPEuuHrxON-xQ4Fssa1-sZ1f8u-YgB18ly_qyAQVkEk,44
+somq/message_queue.py,sha256=vRlxxApCBOKuFHEdU6iMsdG3kFEJf_pFpvI81u2hMTQ,2807
+somq/test_message_queue.py,sha256=tYjolsm2HiTZ76nMEm0yV93sFSo2FdLlZtH334bFO7U,1862
+somq-0.1.3.dist-info/LICENSE,sha256=zE1N4JILDTkSIDtdmqdnKKxKEQh_VdqeoAV2230eNOI,10141
+somq-0.1.3.dist-info/METADATA,sha256=5lf0u6azEI7U9asTLrUmZ4dOjPiYiUWwA5zwzyKniIY,13133
+somq-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+somq-0.1.3.dist-info/top_level.txt,sha256=87Ev8ZQk3OIFnIugtbpqHPivbk1LE3s8j8TKQql_csA,5
+somq-0.1.3.dist-info/RECORD,,
