@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: esi-utils-time
+Version: 1.0.2
+Summary: USGS Earthquake Impact Utilities for Time
+Home-page: https://code.usgs.gov/ghsc/esi/esi-utils-time
+Author: Mike Hearne
+Author-email: mhearne@usgs.gov
+License: CC0 1.0
+Requires-Python: >=3.8
+License-File: LICENSE.md
+Requires-Dist: bs4 (>=0.0.1)
+Requires-Dist: fiona (>=1.8)
+Requires-Dist: numpy (>=1.21)
+Requires-Dist: Pillow (>=9.1.0)
+Requires-Dist: shapely (>=1.8)
+Requires-Dist: pyproj (>=2.6.1)
+Requires-Dist: pytz (>=2022.1)
+Provides-Extra: test
+Requires-Dist: pytest (>=6.2) ; extra == 'test'
+
