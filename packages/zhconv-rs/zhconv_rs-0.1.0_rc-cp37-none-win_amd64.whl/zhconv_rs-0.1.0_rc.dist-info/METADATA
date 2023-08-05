@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: zhconv-rs
+Version: 0.1.0_rc
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Summary: zhconv as in MediaWiki, oxidized with much more efficiency
+Author: Hung-I Wang <whygowe@gmail.com>
+Author-email: Hung-I Wang <whygowe@gmail.com>
+License: GPL-3.0
+Requires-Python: >=3.7
+Project-URL: Source Code, https://github.com/Gowee/zhconv-rs
