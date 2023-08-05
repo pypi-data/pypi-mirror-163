@@ -1,0 +1,10 @@
+wait4localstack/VERSION,sha256=WYVJhIUxBN9cNT4vaBoV_HkkdC-aLkaMKa8kjc5FzgM,6
+wait4localstack/__init__.py,sha256=0J-wl1AqDKBBHQUew94m9qKKu3ww3olCcc3nprFqciQ,8745
+wait4localstack/localstack.py,sha256=_3dohWWTbL9_KVAe56VRaO3dcgUf21lXdGvM7TDZY0I,3386
+wait4localstack/service.py,sha256=dyiewUjboVlaBem_bULdMDzD1__4Q1uUKtGfJXJh-Og,802
+wait4localstack-1.0.0.dist-info/LICENSE,sha256=idLw0LbGZQsEW-_D5PWc3dkEa_psVSPFlmFAv92uZaI,1540
+wait4localstack-1.0.0.dist-info/METADATA,sha256=qKsl-wlrVV5RX7G0ViOut3I41ETNByHVq5qIkJJWbwI,1895
+wait4localstack-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wait4localstack-1.0.0.dist-info/entry_points.txt,sha256=yNKXyTWyMppig1nVAlbMx1kEKHzWdRJRSI5ldwcjLEc,57
+wait4localstack-1.0.0.dist-info/top_level.txt,sha256=UnYcZrvHHE9LXg7BJ1Cy6NlKb9dItH_iw05jobdGjc8,16
+wait4localstack-1.0.0.dist-info/RECORD,,
