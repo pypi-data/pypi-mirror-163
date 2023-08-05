@@ -1,0 +1,10 @@
+pygff/GFF.py,sha256=zEWZ2F2N3D_bmtdJogU8w71zBtPzxM-wnefQ5UlC0mQ,6162
+pygff/__init__.py,sha256=VoBZbS9guQUyGQWSVYBlLX4ywOq_QG5GSn7ZM9Rb00c,89
+pygff/_util.py,sha256=M0DFwAINC2uufcHcZj5bChUb0MWNOzqaHCZwFfRiZUs,1851
+pygff/load.py,sha256=VJmoQqdp3Oi9oVOG9-Mc5s3JhDIAYEID0q7z9dujiUw,13321
+pygff/save.py,sha256=MkPIWVWMrdZ22vcT7zPVWMyb-6hM2xqfLbi1zYKWd34,10752
+pygff-1.0.0.dist-info/LICENSE,sha256=FVveXS8YRtx0TknTsRRMmhAqoF0byyD8il-WFVcSlI0,1090
+pygff-1.0.0.dist-info/METADATA,sha256=YulsRkanqJQQC0x117ZRlgFTrh_PJLdDIThMPd4B1Sc,3216
+pygff-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygff-1.0.0.dist-info/top_level.txt,sha256=_ewexdFCIBI-3I_Lwhtg_ciLrY2xmR9edbUV_VEl9N4,6
+pygff-1.0.0.dist-info/RECORD,,
