@@ -1,0 +1,8 @@
+bokeh
+colorcet
+folium
+numpy
+pandas
+scipy
+shapely
+xarray
