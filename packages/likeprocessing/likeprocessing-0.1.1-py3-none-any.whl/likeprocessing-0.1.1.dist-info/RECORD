@@ -1,0 +1,11 @@
+likeprocessing/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+likeprocessing/affichage.py,sha256=puS6ReSrNlcA1Q5ogKCWMRPWObV6i7iprGwuLtiKqCQ,2088
+likeprocessing/couleur.py,sha256=qkwfvQYXErIka77MdflNYmHCE4dZGGKGkyHoq7bpaFw,109
+likeprocessing/formes.py,sha256=krQhah5sElNqqNXWH4tEqcRa1E_adGc8zZ-B6rFcUfc,3046
+likeprocessing/images.py,sha256=iP62VJQuZm4uxkRkiHI43OqA0_6dpQkBE0bE1ReyX88,257
+likeprocessing/processing.py,sha256=YRIZ5fFV9fwL9YgA3mcqMii7SoHSR6OQU_TEXCHBS_0,4765
+likeprocessing/pyDialog.py,sha256=M8KR-HdSTFR9b1_6X6nrCovQtPfqSNWBnX866_ifTDI,24168
+likeprocessing/tempos.py,sha256=th87s8_kdrEc6YgYk-3SBLX2IgcJKipY6q7wqcQU9dE,548
+likeprocessing-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+likeprocessing-0.1.1.dist-info/METADATA,sha256=AU6PTJS20LYQdGo4f_LFiUoKq3bNnLLVmPu4rO3fIpI,325
+likeprocessing-0.1.1.dist-info/RECORD,,
