@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: toolHandlerJLT
+Version: 0.0.6
+Summary: A small tool package
+Home-page: https://github.com/tangjielong928/Deep-Learning_FinalProject
+Author: Jielong Tang
+Author-email: tjl928@163.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+License-File: LICENSE
+
