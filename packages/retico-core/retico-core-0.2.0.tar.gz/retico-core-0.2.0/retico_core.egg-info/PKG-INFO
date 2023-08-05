@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: retico-core
+Version: 0.2.0
+Summary: A framework for real time incremental dialogue processing.
+Home-page: https://github.com/retico-team/retico-core
+Download-URL: https://github.com/retico-team/retico-core
+Author: Thilo Michael
+Author-email: uhlomuhlo@gmail.com
+Keywords: retico,framework,incremental,dialogue,dialog
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# retico-core
+Main repository of the retico framework.
