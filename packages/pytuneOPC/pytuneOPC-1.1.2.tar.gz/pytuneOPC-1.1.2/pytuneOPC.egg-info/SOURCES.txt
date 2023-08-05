@@ -1,0 +1,15 @@
+LICENSE.rst
+README.md
+setup.cfg
+setup.py
+pytuneOPC/__init__.py
+pytuneOPC/exe.py
+pytuneOPC.egg-info/PKG-INFO
+pytuneOPC.egg-info/SOURCES.txt
+pytuneOPC.egg-info/dependency_links.txt
+pytuneOPC.egg-info/requires.txt
+pytuneOPC.egg-info/top_level.txt
+pytuneOPC/pidlogger/__init__.py
+pytuneOPC/pidlogger/plclogger.py
+pytuneOPC/plcpidsim/__init__.py
+pytuneOPC/plcpidsim/plcsim.py
