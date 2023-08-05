@@ -1,0 +1,17 @@
+DREEM_Herschlag/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DREEM_Herschlag/get_info.py,sha256=ePsrsMuFGLVDxMHSAxj5ahnbd4YcYbAe3iQNNKCuxDE,793
+DREEM_Herschlag/run.py,sha256=meM-yN1M6YLCYOjRm8QUSXf3tJTylM5q93GaojywvR8,2562
+DREEM_Herschlag/run_dreem.py,sha256=ri2m0tARla9DVOQfljzvPFIZ3H2XUumVU6xt1jiXlXk,1455
+DREEM_Herschlag/sanity_check.py,sha256=iJK01NLg_1_w848Hn3gFQ1phfxZM9UZqew0xabHOzzI,5336
+DREEM_Herschlag/templates.py,sha256=2Ka-ulbKfHoESuiwhOhU4uS-TjJnpnMza7QaKoSWWD8,2131
+DREEM_Herschlag/util.py,sha256=3EkyhUpcoLr1GQMMp2sZWwqaWNzKe7E5nUzBW69-uYE,1458
+DREEM_Herschlag/resources/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+DREEM_Herschlag/resources/config-template.yml,sha256=jNgi8-6JA7NGJ8_QjHbThHHZwNaFPeYGjMgVviptHVY,1688
+DREEM_Herschlag/resources/library_attributes.yml,sha256=w673ISL0ni7LZgddMwOw4TwoK11MYkCPvLE8-6Nqxbo,130
+DREEM_Herschlag/resources/sample_attributes.yml,sha256=74J9Qu00QwhI1A1voeCYP90nO426FLNM8qhbU5VgsaQ,3174
+dreem_herschlag-1.1.1.dist-info/LICENSE,sha256=FHgr0ibcdx7fqxslt6Ht0cFZWK3uxLGhs5_E1ItH7nY,1078
+dreem_herschlag-1.1.1.dist-info/METADATA,sha256=UFbTb2qh_47baY1N7ZRMzs3861z7DZs6Ik3FlsLG9jk,1441
+dreem_herschlag-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dreem_herschlag-1.1.1.dist-info/entry_points.txt,sha256=AH49APNNd_DgTITtAL0crYlh_Q4yfIdIBM34k93237c,63
+dreem_herschlag-1.1.1.dist-info/top_level.txt,sha256=S_QyR5CkcjKeoqUp5PSjBEkeS-Q5AoWG4cxgE0VW7sw,162
+dreem_herschlag-1.1.1.dist-info/RECORD,,
