@@ -1,0 +1,10 @@
+oslo.serialization
+oslo.config
+oslo.utils
+six
+gevent
+Flask
+SQLAlchemy
+redis
+jsonschema
+PyMySQL
