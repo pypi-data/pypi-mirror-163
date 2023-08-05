@@ -1,0 +1,2 @@
+[console_scripts]
+bmkcc = bmkcc.__main__:main
