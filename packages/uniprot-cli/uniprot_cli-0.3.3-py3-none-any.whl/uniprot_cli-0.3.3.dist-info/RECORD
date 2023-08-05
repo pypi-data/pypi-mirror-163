@@ -1,0 +1,11 @@
+uniprot_cli/__init__.py,sha256=pl3ZURdkCgK0G9Rpgx4elQeU2XnHNr-hxzNHyCEgWcw,154
+uniprot_cli/datasources.py,sha256=rvXBxOjB22yLi3RoKjU3aZDtyBficaNogsGb0MDlrwM,1184
+uniprot_cli/dispatcher.py,sha256=vK3EkXmv2Qnphr6-uVmCKVqSn0E9fj_d7ovzr1uGd2Q,2779
+uniprot_cli/fetcher.py,sha256=PeFAcadAu6Ep6FMc4YsMo67ab-jHWsp-GLgoiqNLBf4,1623
+uniprot_cli/writer.py,sha256=sqZL6S6NdR8GHMdl5dQMrCF4FIKwBEy1CKzHQc7Wumw,1428
+uniprot_cli-0.3.3.dist-info/LICENSE,sha256=Y9Y5uiHptGhXN-FpKdZDunDgnFjKNouhVpqX9R8mlzo,1060
+uniprot_cli-0.3.3.dist-info/METADATA,sha256=mGjTACyCBztY_PGqS43fyF92PJBiEgYF6_0Ryf3wH9o,3319
+uniprot_cli-0.3.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+uniprot_cli-0.3.3.dist-info/entry_points.txt,sha256=px0KK9JIE3huQzTog4b5wkkT-imYooW9wuVd2imRX2w,49
+uniprot_cli-0.3.3.dist-info/top_level.txt,sha256=JHgQFacTCh37Q6kymnjiVziQS6PJUGD3wFlKlsCdXR8,12
+uniprot_cli-0.3.3.dist-info/RECORD,,
