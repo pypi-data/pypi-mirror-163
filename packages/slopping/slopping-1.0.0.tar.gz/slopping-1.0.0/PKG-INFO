@@ -1,0 +1,73 @@
+Metadata-Version: 2.1
+Name: slopping
+Version: 1.0.0
+Summary: Script to feed cropping coordinates to ffmpeg (or a PIL.Image crop)
+Project-URL: Homepage, https://github.com/4ndrs/slopping
+Project-URL: Bug Tracker, https://github.com/4ndrs/slopping/issues
+Author-email: 4ndrs <andres.degozaru@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 4ndrs <andres.degozaru@gmail.com>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# slopping
+A script to make cropping easy when ffmpeg'ing. Needs slop, xdotool, and xwininfo.
+
+## Usage
+```console
+$ ffmpeg -i input -vf crop=$(slopping) output
+```
+
+[slopping_and_ffmpeg.webm](https://user-images.githubusercontent.com/31898900/180082865-dfd17cc2-be30-433d-a6ef-dc1f575510d4.webm)
+
+The window we are hovering with the mouse needs to be of the same size (w, h) of the video to extract the correct values.
+
+To generate PIL.Image cropping coordinates, pass 'pil' as argument when executing the script: 
+```console
+$ slopping pil
+```
+
+Can also be imported as a module to query the coordinates:
+```python
+[ins] In [1]: import slopping
+
+[ins] In [2]: ffmpeg_crop = slopping.crop()
+
+[nav] In [3]: pil_crop = slopping.crop('pil')
+
+[ins] In [4]: ffmpeg_crop
+Out[4]: (244, 210, 128, 228)
+
+[ins] In [5]: pil_crop
+Out[5]: (309, 367, 554, 484)
+```
+
+## Installation
+
+```console
+$ pip install slopping
+```
