@@ -1,0 +1,17 @@
+form_analyzer/__init__.py,sha256=bqm_O5N1DgNXi_Eroi_L_L9e7hT8myhbs5plQLi6lKw,646
+form_analyzer/analyze.py,sha256=zqUfOQubxiOsk_TQ1MJ5fV8NmZqzWR3RVZyzCj14qS4,6967
+form_analyzer/conversion.py,sha256=Q8Lm0zjnjT945KkqtXzUrbU5C9f-KIy0wpXiR2YkxFg,1804
+form_analyzer/filters.py,sha256=pLlESDmUvU_5pPqxzyyUs-o--iXZ4GK2fHV40DePdUk,3554
+form_analyzer/form_parser.py,sha256=0bVGBmVFcvAp5Tj_JMdVmwAjz4FBmlEnl7iry7yM35s,2469
+form_analyzer/textract.py,sha256=_hH4v1VgS5ZBLUtf4koBZxxPVAPyJhFJqAjGaI0lghw,3995
+form_analyzer/selectors/__init__.py,sha256=9Wnta9z1y6_-B3gQ7ebIXsDdQCEAv9gb4q1JkMb9QvU,361
+form_analyzer/selectors/base.py,sha256=-haQRH_HGOWuE9Fax2eBbCTdf79kcCUHRJj9ctALho8,1488
+form_analyzer/selectors/multi_select.py,sha256=uWmhl3Odz5FcSZhYixdBcdg8EWvFcXu88Bda2O9rjCE,3273
+form_analyzer/selectors/select_base.py,sha256=GVK4C8A5fdifnrjO6ZJtyPZJ-hBKG2vEpR04sUKH-Nc,3890
+form_analyzer/selectors/single_select.py,sha256=M2BSP8BOGOhOPgBfRsJ69SBt2STedUH6Q88fkhAq7XE,3548
+form_analyzer/selectors/text_fields.py,sha256=nZPU5wJlIvK1Y--o657P0keP3cr1HVwvPLGONf3_JTo,4940
+form_analyzer-0.1.1.dist-info/LICENSE,sha256=KHzO0NWOFAwlg7548IQsIykiNjN9K65ow27emYw9Xl0,1069
+form_analyzer-0.1.1.dist-info/METADATA,sha256=JPF2pkY5ilTvb44YtkAno4z44i1KCUqLql-mf3nG0Pk,11287
+form_analyzer-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+form_analyzer-0.1.1.dist-info/top_level.txt,sha256=YcCSN6tK6Txj4kNqZDhFv8H89KLiZjVYMMhvr5961mg,14
+form_analyzer-0.1.1.dist-info/RECORD,,
