@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: measuring-tools
+Version: 0.1
+Summary: Classes to help with common types of measurements
+Home-page: https://github.com/JTBake490/measuring-tools
+Author: James Baker Jr
+License: Apache License 2.0
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
