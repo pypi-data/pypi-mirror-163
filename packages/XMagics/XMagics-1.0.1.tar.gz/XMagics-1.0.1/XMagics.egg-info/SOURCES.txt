@@ -1,0 +1,10 @@
+README.md
+setup.py
+XMagics/XGmail.py
+XMagics/Xsms.py
+XMagics/__init__.py
+XMagics.egg-info/PKG-INFO
+XMagics.egg-info/SOURCES.txt
+XMagics.egg-info/dependency_links.txt
+XMagics.egg-info/requires.txt
+XMagics.egg-info/top_level.txt
