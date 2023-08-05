@@ -1,0 +1,10 @@
+cbdevtools/LICENSE.txt,sha256=4cCtcomD2KVzNeUs8QZPGv_R1FQXPYzr0-2LSnK0hwQ,35121
+cbdevtools/README.md,sha256=bH88Qj4whXois6VTX99pmH_CHP4btnef_7xOPgXJ9hw,6881
+cbdevtools/__init__.py,sha256=sxr-xqMPtxcpcIdkeuIV8ORNa7B_nmC97iP2YwIrrHk,161
+cbdevtools/addfindsrc.py,sha256=nOmsaHqDV0hKGTre0gS3OD6JSjBA5rCmIqh7v5rMz1k,938
+cbdevtools/easysign.py,sha256=-cV4mrPB11mkkuWRQ-XqF2UFlsov3JsUZGXRi9RUKEE,2388
+cbdevtools/orpystedata.py,sha256=M_tuDPbbXkjPvJLJWvebFodXIVIwhjtvcFTfcwV_ue8,2194
+cbdevtools/shortdir.py,sha256=2lr_kbR163XOK7yLkg7xouV7Ao9OG81WUGeAJ_g2iT4,992
+cbdevtools-0.0.11b0.dist-info/WHEEL,sha256=V7iVckP-GYreevsTDnv1eAinQt_aArwnAxmnP0gygBY,83
+cbdevtools-0.0.11b0.dist-info/METADATA,sha256=NylP-amNzLxh1w-Mg67LkUg0noXr7zJL2tgZN0coREI,7620
+cbdevtools-0.0.11b0.dist-info/RECORD,,
