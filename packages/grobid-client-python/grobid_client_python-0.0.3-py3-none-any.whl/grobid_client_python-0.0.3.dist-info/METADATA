@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: grobid-client-python
+Version: 0.0.3
+Summary: grobid_client_python
+Home-page: UNKNOWN
+Author: kermitt2
+Author-email: UNKNOWN
+License: LICENSE
+Platform: UNKNOWN
+Requires-Dist: requests
+
+UNKNOWN
+
+
