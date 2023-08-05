@@ -1,0 +1,26 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = []
+
+[project]
+name = "signal_composer"
+version = "0.0.2"
+authors = [
+  { name="Danilo Lessa Bernardineli", email="danilo.lessa@gmail.com" },
+]
+description = "Library for composing signals from arrays and functions."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/danlessa/signal_composer"
+"Bug Tracker" = "https://github.com/danlessa/signal_composer/issues"
