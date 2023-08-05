@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+MatheFormulas/__init__.py
+MatheFormulas/mensuration.py
+MatheFormulas.egg-info/PKG-INFO
+MatheFormulas.egg-info/SOURCES.txt
+MatheFormulas.egg-info/dependency_links.txt
+MatheFormulas.egg-info/top_level.txt

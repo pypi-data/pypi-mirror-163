@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: MatheFormulas
+Version: 1.0
+Summary: Math mensuration formulas
+Author: CoderMadhuresh
+Author-email: madhureshgupta1234@gmail.com
+Keywords: python,python3,math,formulas,mensuration,MatheFormulas,coder,Madhuresh
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+This package is deigned to find area and perimeter of 2D figures like square, rectangle, triangle, circle, ellipse, rhombus, parallelogram, trapezium, pentagon, hexagon, heptagon, octagon, nonagon and decagon You can also find volume, Total surface area and Curved surface are of 3D Figures likecube, cuboid, cylinder, cone, sphere, hemisphere, ellipsoid, squarePyramid, pentagonalPyramid,hexagonalPyramid, triangularPrism, pentagonalPrism, hexagonalPrism, tetrahedron, octahedron,icosahedron, dodecahedron and torus 
