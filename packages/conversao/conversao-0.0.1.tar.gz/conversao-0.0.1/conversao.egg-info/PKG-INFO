@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: conversao
+Version: 0.0.1
+Summary: Pacote para conversões
+Home-page: https://github.com/DiegoAbreu/Conversao
+Author: Diego Abreu
+Author-email: 
+License: MIT License
+Keywords: conversao,medidas
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# conversao
+Biblioteca para conversões.
+
+

@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+conversao/__init__.py
+conversao/conversao.py
+conversao.egg-info/PKG-INFO
+conversao.egg-info/SOURCES.txt
+conversao.egg-info/dependency_links.txt
+conversao.egg-info/top_level.txt
