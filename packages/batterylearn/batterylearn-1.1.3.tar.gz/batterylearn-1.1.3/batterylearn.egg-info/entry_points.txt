@@ -1,0 +1,3 @@
+[console_scripts]
+batterylearn = batterylearn.__main__:main
+

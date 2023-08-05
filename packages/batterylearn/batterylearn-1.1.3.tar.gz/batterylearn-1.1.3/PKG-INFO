@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: batterylearn
+Version: 1.1.3
+Summary:  Python based energy storage simulator
+Home-page: https://github.com/tonylee2016/batterylearn/
+Author: tonylee2016
+License: UNKNOWN
+Description: <!-- Our title -->
+        <div align="center">
+          <h3>batterylearn</h3>
+        </div>
+        
+        <!-- Short description -->
+        <p align="center">
+           Python based Battery Simulator
+        </p>
+        
+        <!-- Draw horizontal rule -->
+        <hr>
+        
+        <!-- Table of content -->
+        
+        | Section | Description |
+        |-|-|
+        | [Installation](#installation) | pip install batterylearn |
+        | [Available features](#available-features) | overview of functionalities |
+        | [Documentation](#documentation) | wip |
+        | [Contributing](#contributing) | wip |
+        
+        ## Installation
+        
+        
+        ## Available features
+        
+        ### Battery Modeling (WIP)
+        ### Battery Control
+        ### power interface
+        ### Motor/generator modeling and control (todo)
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: test
