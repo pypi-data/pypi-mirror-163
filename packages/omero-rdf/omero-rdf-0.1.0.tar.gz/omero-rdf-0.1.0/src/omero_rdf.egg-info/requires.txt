@@ -1,0 +1,4 @@
+omero-py>=5.8
+entrypoints
+future
+rdflib
