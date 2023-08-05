@@ -1,0 +1,183 @@
+Zhou, D., Zhou, R., & Chen, Z. (2022). Human neutralizing antibodies for SARS-CoV-2 prevention and immunotherapy. Immunotherapy advances, 2(1), ltab027.
+
+AbdelHafez, M. A. (2022). Protective and therapeutic potentials of HDL and ApoA1 in COVID-19 elderly and chronic illness patients. Bulletin of the National Research Centre, 46(1), 1-7.
+
+Torresi, J., Edeling, M. A., Nolan, T., & Godfrey, D. I. (2022). A Complementary Union of SARS-CoV2 Natural and Vaccine Induced Immune Responses. Frontiers in Immunology, 13.
+
+Chang, C. C., Hsu, H. J., Wu, T. Y., & Liou, J. W. (2022). Computer-aided discovery, design, and investigation of COVID-19 therapeutics.
+
+Sze, S., Pan, D., Moss, A. J., Ong, C. K., Pareek, M., Squire, I. B., & Clark, A. L. (2022). Overstimulation of the ergoreflex—A possible mechanism to explain symptoms in long COVID. Frontiers in Cardiovascular Medicine, 1916.
+
+Mesmoudi, S., Lapina, C., Rodic, M., & Peschanski, D. (2022). Multi-Data Integration Towards a Global Understanding of the Neurological Impact of Human Brain Severe Acute Respiratory Syndrome Coronavirus 2 Infection. Frontiers in Integrative Neuroscience, 64.
+
+Veronesi, F., Contartese, D., Martini, L., Visani, A., & Fini, M. (2022). Speculation on the pathophysiology of musculoskeletal injury with COVID-19 infection. Frontiers in Medicine, 2124.
+
+Clavarino, G., Leroy, C., Epaulard, O., Raskovalova, T., Vilotitch, A., Pernollet, M., ... & Cesbron, J. Y. (2022). Fine Analysis of Lymphocyte Subpopulations in SARS-CoV-2 Infected Patients: Differential Profiling of Patients With Severe Outcome. Frontiers in Immunology, 13.
+
+Zauli, G., AlHilali, S., Al-Swailem, S., Secchiero, P., & Voltan, R. (2022). Therapeutic potential of the MDM2 inhibitor Nutlin-3 in counteracting SARS-CoV-2 infection of the eye through p53 activation. Frontiers in Medicine, 2105.
+
+Togha, M., Hashemi, S. M., Yamani, N., Martami, F., & Salami, Z. (2022). A Review on Headaches Due to COVID-19 Infection. Frontiers in Neurology, 1456.
+
+Gass Jr, J. D., Waite, K. B., Hill, N. J., Dalton, K. R., Sawatzki, K., Runstadler, J., ... & Group, C. E. R. (2022). A standardized instrument quantifying risk factors associated with bi-directional transmission of SARS-CoV-2 and other zoonotic pathogens: The COVID-19 Human-Animal Interactions Survey (CHAIS). One Health, 100422.
+
+Liu, W., Guo, Z., Abudunaibi, B., Ouyang, X., Wang, D., Yang, T., ... & Chen, T. (2022). Model-Based Evaluation of Transmissibility and Intervention Measures for a COVID-19 Outbreak in Xiamen City, China. Frontiers in Public Health, 1858.
+
+Kulkarni, R. K., Valvi, C., Dawre, R., Rajput, U., Nagpal, R., Deshmukh, I., ... & Kinikar, A. A. (2022). Clinical Profile of SARS-CoV-2-Infected Neonates. Cureus, 14(6).
+
+Le Rutte, E. A., Shattock, A. J., Chitnis, N., Kelly, S. L., & Penny, M. A. (2022). Modelling the impact of Omicron and emerging variants on SARS-CoV-2 transmission and public health burden. Communications Medicine, 2(1), 1-7.
+
+Sharma, K. S., Sharma, R., Nehra, S., Rajpurohit, N. A., Bhakar, K., & Kumar, D. (2022). COVID-19: Consequences on Pregnant Women and Neonates. Health Sciences Review, 100044.
+
+Oliveira, A., Pereira, M. A., Mateus, T. L., Mesquita, J. R., & Vala, H. (2022). Seroprevalence of SARS-CoV-2 in Client-Owned Cats from Portugal. Veterinary Sciences, 9(7), 363.
+
+Balloux, F., Tan, C., Swadling, L., Richard, D., Jenner, C., Maini, M., & van Dorp, L. (2022). The past, current and future epidemiological dynamic of SARS-CoV-2. Oxford Open Immunology, 3(1), iqac003.
+
+Kern, A., Kuhlmann, P. H., Matl, S., Ege, M., Maison, N., Eckert, J., ... & COVID Kids Bavaria Consortium. (2022). Surveillance of Acute SARS-CoV-2 Infections in Elementary Schools and Daycare Facilities in Bavaria, Germany (09/2020–03/2021). Frontiers in Pediatrics, 1019.
+
+Jia, R., Lu, L., Su, L., Lin, Z., Gao, D., Lv, H., ... & Xu, J. (2022). Resurgence of Respiratory Syncytial Virus Infection During COVID-19 Pandemic Among Children in Shanghai, China. Frontiers in Microbiology, 13.
+
+Shah, K., Abdeljawad, T., & Din, R. U. (2022). To study the transmission dynamic of SARS-CoV-2 using nonlinear saturated incidence rate. Physica A: Statistical Mechanics and its Applications, 127915.
+
+Strohbehn, I. A., Zhao, S., Seethapathy, H., Lee, M., Rusibamayila, N., Allegretti, A. S., ... & Sise, M. E. (2021). Acute kidney injury incidence, recovery, and long-term kidney outcomes among hospitalized patients with COVID-19 and influenza. Kidney International Reports, 6(10), 2565-2574.
+
+Hu, R., Hotta, M., Maruyama, T., Fujisawa, M., Sou, K., & Takeoka, S. (2022). Temperature-Responsive Liposome-Linked Immunosorbent Assay for the Rapid Detection of SARS-CoV-2 Using Immunoliposomes. ACS Omega.
+
+Hans, M., Hans, V. M., Kahlon, N., Sagar, M., Pandey, A. K., & Das, A. (2022). Gustatory dysfunction and oral ulceration in COVID-19 patients: A cross sectional study. Dental Research Journal, 19(1), 43.
+
+Zhang, D., Li, X., Sun, H., Shi, L., & Peng, S. (2022). The Relation between Immunological Features and the Positive SARS-CoV-2 Nucleic Acid in Patients with Nonsevere COVID⁃ 19. The Canadian Journal of Infectious Diseases & Medical Microbiology= Journal Canadien des Maladies Infectieuses et de la Microbiologie Médicale, 2022.
+
+Kumar, V., Lalotra, G. S., & Kumar, R. K. (2022). Improving performance of classifiers for diagnosis of critical diseases to prevent COVID risk. Computers and Electrical Engineering, 102, 108236.
+
+Costantini, G., Cesarini, V., Robotti, C., Benazzo, M., Pietrantonio, F., Di Girolamo, S., ... & Saggio, G. (2022). Deep learning and machine learning-based voice analysis for the detection of COVID-19: A proposal and comparison of architectures. Knowledge-Based Systems, 109539.
+
+Shams, S., Azari-Yam, A., Safavi, M., Zamani, Z., Sotoudeh-Anvari, M., Sharifzadeh Ekbatani, M., ... & Shafeghat, L. (2022). Alteration of Plasma Amino Acid Concentrations in Iranian Children with COVID-19. International Journal of Pediatrics, 2022.
+
+Badr, M., Al-Otaibi, S., Alturki, N., & Abir, T. (2022). Deep Learning-Based Networks for Detecting Anomalies in Chest X-Rays. BioMed Research International, 2022.
+
+Mei, Y., Lin, X., He, C., Zeng, W., Luo, Y., Liu, C., ... & Huang, Q. (2022). Recent Progresses in Electrochemical DNA Biosensors for SARS-CoV-2 Detection. Frontiers in Bioengineering and Biotechnology, 1152.
+
+Purja, S., Oh, S., & Kim, E. (2022). A Systematic Review on Neurological Aspects of COVID-19: Exploring the Relationship Between COVID-19-Related Olfactory Dysfunction and Neuroinvasion. Frontiers in Neurology, 1476.
+
+Reece, S., Johnson, M., Simard, K., Mundell, A., Terpstra, N., Cronin, T., ... & Grant, V. (2021). Use of virtually facilitated simulation to improve COVID-19 preparedness in rural and remote Canada. Clinical Simulation in Nursing, 57, 3-13.
+
+Ogundijo, O. A., Al-Mustapha, A. I., Abubakar, A. T., Imam, A. M., Bamidele, F., & Elelu, N. (2022). Community engagement; the master key to preventing Nigeria’s obvious pandemic fatigue and the next COVID-19 wave. Journal of Public Health Research, 11(3), 22799036221107061.
+
+Kramer, A., Eggers, M., Exner, M., Hübner, N. O., Simon, A., Steinmann, E., ... & Zwicker, P. (2022). Recommendation of the German Society of Hospital Hygiene (DGKH): Prevention of COVID-19 by virucidal gargling and virucidal nasal spray–updated version April 2022. GMS Hygiene and Infection Control, 17.
+
+Piras, A., Venuti, V., D’Aviero, A., Cusumano, D., Pergolizzi, S., Daidone, A., & Boldrini, L. (2022). Covid-19 and radiotherapy: a systematic review after 2 years of pandemic. Clinical and Translational Imaging, 1-20.
+
+Eyiokur, F. I., Ekenel, H. K., & Waibel, A. (2022). Unconstrained face mask and face-hand interaction datasets: building a computer vision system to help prevent the transmission of COVID-19. Signal, Image and Video Processing, 1-8.
+
+Cheng, C., Manji, K., Appel, L., & Smith, C. (2022). Patient experiences with a remote monitoring pathway for covid-19. Cureus, 14(6).
+
+Jain, S., Agarwal, A., Bhardwaj, A., Lakshmi, P. V. M., Singh, M., Chauhan, A., & Singh, M. (2022). Remote Monitoring and Holistic Care of Home-Isolated COVID-19 Positive Healthcare Workers Through Digital Technology During the Omicron (B1. 1.529) Wave: A Prospective Cohort Study From India. Frontiers in Public Health, 2219.
+
+Urtaran-Laresgoiti, M., González-Rábago, Y., Martín, U., Rivadeneyra-Sicilia, A., & Morteruel, M. (2022). Health and health inequalities impact assessment for non-clinical measures to control COVID-19 in the Basque Country and Navarre (Spain). Journal of Public Health Research, 11(3), 22799036221110020.
+
+Arain, S., Al Shakori, M., Thorakkattil, S. A., Mohiuddin, S. I., & Al-Ghamdi, F. (2022). Implementation of Pharmacist-led Telepsychiatry Services: Challenges and Opportunities in the Midst of COVID-19. Journal of Technology in Behavioral Science, 1-9.
+
+Osman, O., Madi, M., Ntantis, E. L., & Kabalan, K. Y. (2022). Displacement ventilation to avoid COVID-19 transmission through offices. Computational Particle Mechanics, 1-14.
+
+Zazzara, M. B., Bellieni, A., Calvani, R., Coelho-Junior, H. J., Picca, A., & Marzetti, E. (2022). Inflammaging at the Time of COVID-19. Clinics in geriatric medicine, 38(3), 473-481.
+
+Mehmood, M. A., Bapna, M., & Arshad, M. (2020). A case of post-COVID-19 subacute thyroiditis. Cureus, 12(12).
+
+Izzo, R., Trimarco, V., Mone, P., Aloè, T., Marzani, M. C., Diana, A., ... & Trimarco, B. (2022). Combining L-Arginine with Vitamin C Improves Long-COVID Symptoms: The Nationwide Multicenter LINCOLN Study. Pharmacological Research, 106360.
+
+Ugurlu, A., Agcayazi, S. B., Icel, E., Budakoglu, O., Unver, E., Barkay, O., ... & Bayrakceken, K. (2022). Assessment of the optic nerve, macular and retinal vascular effects of COVID-19. Canadian Journal of Ophthalmology.
+
+de Andrade, L. B. (2021). Post-COVID-19 syndrome: a call for continuity of multidisciplinary care. Medicina Intensiva.
+
+Das, N., Hill, R., Trivedi, M., Kenkre, T. S., Alsaied, T., Feingold, B., ... & Christopher, A. B. (2022). Longitudinal Assessment of Cardiac Function Following Multisystem Inflammatory Syndrome in Children Associated with COVID-19. Pediatric Cardiology, 1-11.
+
+Barhoum, P., Pineton de Chambrun, M., Dorgham, K., Kerneis, M., Burrel, S., Quentric, P., ... & Hékimian, G. (2022). Phenotypic Heterogeneity of Fulminant COVID-19--Related Myocarditis in Adults. Journal of the American College of Cardiology, 80(4), 299-312.
+
+Shah, A., & Bhattad, D. (2022). Immediate and short-term prevalence of depression in covid-19 patients and its correlation with continued symptoms experience. Indian Journal of Psychiatry, 64(3), 301.
+
+Chang, A. J., Baron, S., & Hicar, M. D. (2022). Robust humoral immune response after boosting in children with Multisystem Inflammatory Syndrome in Children. IDCases, 29, e01569.
+
+Wang, S. Y., Adejumo, P., See, C., Onuma, O. K., Miller, E. J., & Spatz, E. S. (2022). Characteristics of patients referred to a cardiovascular disease clinic for post-acute sequelae of SARS-CoV-2 infection. American Heart Journal Plus: Cardiology Research and Practice, 100176.
+
+Amin, S., Rahim, F., Noor, M., Bangash, A., & Ghani, F. (2022). Polymyositis: the comet tail after COVID-19. Cureus, 14(6).
+
+Touza, M., Mutyala, M., Chowdhury, S., & Slim, J. (2022). An Unusual Case of Secondary Hemophagocytic Lymphohistiocytosis in a Patient Diagnosed With Triple Infection: COVID-19, HIV, and Histoplasmosis. Cureus, 14(6).
+
+Shrestha, P. S., Ishak, A., Napit, A. R., Sarwar, S., Rai, N., Nizami, Z., ... & Rodriguez, I. D. (2022). Portal vein thrombosis as a thrombotic complication of COVID-19 mRNA vaccine: A Case Report and Literature Review. IDCases, e01582.
+
+Fadul, A., Abdalla, E., Abdelmahmuod, E., Abdulgayoom, M., Ali, E., Al-warqi, A., & Al-yahary, H. (2022). COVID-19 Vaccine-Induced Cerebral Sinus Thrombosis: Coincidence vs. Cause?. Cureus, 14(6).
+
+Moss, D. E., Kumar, D., Mehta, A., & Patel, P. P. (2022). Atrial Myxoma Presenting as an Atypical Stroke in a Young Patient With a Recent COVID-19 Infection. Cureus, 14(6).
+
+Usami, O. (2022). Two Cases of COVID-19-Related Deaths Unaccounted for: A Call for Action. Cureus, 14(6).
+
+Shanshal, M. (2022). Dyshidrosiform Bullous Pemphigoid Triggered by COVID-19 Vaccination. Cureus, 14(6).
+
+Raza, M. A., Figart, M. W., Suresh, K., & Mehmood, T. (2022). COVID-19-Associated Tension Pneumothorax in Mechanically Ventilated Patients: A Case Series. Cureus, 14(6).
+
+Diallo, A., Dembele, Y., Niang, M., Balloy, L., Pousset, F., Yaya, I., & Permal, S. (2022). A fatal case coronavirus disease 2019–Associated acute hemorrhagic necrotizing encephalopathy. Journal of Global Infectious Diseases, 14(2), 84.
+
+Alrefaey, Y., Alharbi, A. F., Alzahrani, Y. M., & Albar, R. F. (2022). A Case of Multisystem Inflammatory Syndrome in a Three-Year-Old Boy. Cureus, 14(6).
+
+Wilasang, C., Modchang, C., Lincharoen, T., & Chadsuthi, S. (2022). Estimation of excess all-cause mortality due to COVID-19 in Thailand. Tropical Medicine and Infectious Disease, 7(7), 116.
+
+Goyal, M., Saraswat, A. K., & Prakash, A. (2022). Numerical analysis of fractional coronavirus model with Atangana-Baleanu derivative in Liouville-Caputo sense. Indian Journal of Physics, 1-18.
+
+Kimani, T. N., Nyamai, M., Owino, L., Makori, A., Ombajo, L. A., Maritim, M., ... & Thumbi, S. M. (2022). Infectious disease modelling for SARS-CoV-2 in Africa to guide policy: a systematic review. Epidemics, 100610.
+
+Liao, Z., Song, Y., Ren, S., Song, X., Fan, X., & Liao, Z. (2022). VOC-DL: Deep learning prediction model for COVID-19 based on VOC virus variants. Computer Methods and Programs in Biomedicine, 224, 106981.
+
+Okundalaye, O. O., Othman, W. A. M., & Oke, A. S. (2022). Toward an efficient approximate analytical solution for 4-compartment COVID-19 fractional mathematical model. Journal of Computational and Applied Mathematics, 114506.
+
+Friston, K. J., Flandin, G., & Razi, A. (2022). Dynamic causal modelling of COVID-19 and its mitigations. Scientific Reports, 12(1), 1-11.
+
+Hwang, K. K., Edholm, C. J., Saucedo, O., Allen, L. J., & Shakiba, N. (2022). A hybrid epidemic model to explore stochasticity in COVID-19 dynamics. Bulletin of Mathematical Biology, 84(9), 1-32.
+
+Barreiro, N. L., Govezensky, T., Ventura, C. I., Núñez, M., Bolcatto, P. G., & Barrio, R. A. (2022). Modelling the interplay of SARS-CoV-2 variants in the United Kingdom. Scientific Reports, 12(1), 1-8.
+
+Hasan, U., Al Jassmi, H., Tridane, A., Stanciole, A., Al-Hosani, F., & Aden, B. (2022). Modelling the effect of non-pharmaceutical interventions on COVID-19 transmission from mobility maps. Infectious Disease Modelling, 7(3), 400-418.
+
+de Araújo Morais, L. R., & da Silva Gomes, G. S. (2022). Forecasting daily Covid-19 cases in the world with a hybrid ARIMA and neural network model. Applied Soft Computing, 109315.
+
+Frange, C., de Oliveira, G. P., & Coelho, F. M. S. (2022). COVID-19 and Central Nervous System Hypersomnias. Current Sleep Medicine Reports, 1-8.
+
+Borghi, M. O., Bombaci, M., Bodio, C., Lonati, P. A., Gobbini, A., Lorenzo, M., ... & Meroni, P. L. (2022). Anti-Phospholipid Antibodies and Coronavirus Disease 2019: Vaccination Does Not Trigger Early Autoantibody Production in Healthcare Workers. Frontiers in Immunology, 13, 930074.
+
+GIUBELAN, L. I., DUMITRESCU, F., DRAGONU, L., STOIAN, A. C., ILIE, C., & STANCIU, I. (2022). Aspects of Humoral Immunity after Vaccination with Bnt162b2: A Small Study. Current Health Sciences Journal, 48(1), 24.
+
+Ab Rahman, N., Lim, M. T., Lee, F. Y., Ong, S. M., Peariasamy, K. M., & Sivasampu, S. (2022). A Case-Based Monitoring Approach to Evaluate Safety of COVID-19 Vaccines in a Partially Integrated Health Information System: A Study Protocol. Frontiers in Pharmacology, 2577.
+
+Sweilam, S. H., Alqarni, M. H., & Youssef, F. S. (2022). Antimicrobial Alkaloids from Marine-Derived Fungi as Drug Leads versus COVID-19 Infection: A Computational Approach to Explore their Anti-COVID-19 Activity and ADMET Properties. Evidence-Based Complementary and Alternative Medicine, 2022.
+
+Wei, R., Qin, Z., Huang, Q., Liu, L., Cheng, F., Meng, S., & Wang, L. (2022). A Landscape Study on COVID-19 Immunity at the Single-Cell Level. Frontiers in Immunology, 13.
+
+Zou, Y., Huang, D., Jiang, Q., Guo, Y., & Chen, C. (2022). The Vaccine Efficacy Against the SARS-CoV-2 Omicron: A Systemic Review and Meta-Analysis. Frontiers in Public Health, 2235.
+
+Aqel, S., Ibrahim, T., Taha, S., Mobayed, H., & Al-Nesf, M. (2022). Severity and outcome of COVID-19 disease in patients with allergic rhinitis during the pandemic in Qatar–A preliminary report. Qatar Medical Journal, 2022(2-First Qatar Allergy Conference), 8.
+
+Damanti, S., Cilla, M., Cilona, M., Fici, A., Merolla, A., Pacioni, G., ... & Rovere Querini, P. (2022). Prevalence of Long COVID-19 Symptoms After Hospital Discharge in Frail and Robust Patients. Frontiers in Medicine, 1948.
+
+Alzahrani, M. A., Almalki, F., Aljohani, A., Alharbi, B., Alsulami, B., Alhaddad, A., ... & Farahat, F. (2022). The Association Between Vitamin D Serum Level and COVID-19 Patients’ Outcomes in a Tertiary Center in Saudi Arabia: A Retrospective Cohort Study. Cureus, 14(6).
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
