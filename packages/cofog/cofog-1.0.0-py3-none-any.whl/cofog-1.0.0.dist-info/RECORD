@@ -1,0 +1,13 @@
+cofog/__init__.py,sha256=Uj3lymaXaU9OfD4NL28kuB94EQ5NpZB8c1-k8AmalYE,13
+cofog/__main__.py,sha256=vRf0dEO6soZ1PG0BY6ioCUbiyIqWL1WCQtiZgooDcG4,200
+cofog/cofog.py,sha256=q8-T-mdQOusqPCLwONOvsB3Do3sE2y1dXnGbSJYClKM,2098
+cofog/data.py,sha256=NoLcHw8vbV6gRSP-nuzpt_kClu4WzFYFMqTRjPfjOzU,8463
+cofog/exceptions.py,sha256=9R3dV7nNh_8WIgpk-QNKiqIU3-5Mnz8GTDsqhkW02qk,948
+cofog/parser.py,sha256=NFS4gcn3cyliEXF5NYnNMHV19v4-hEmDSeQhsu0L2j0,2632
+cofog/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cofog/types.py,sha256=juZbd3UC4plve6mHi3W-eRN58bX5kDbswIZA3VC5_tA,104
+cofog-1.0.0.dist-info/entry_points.txt,sha256=R-QPYrgQNMScyaVhL00SxJKZeo523-gFejqs0IXI9-M,45
+cofog-1.0.0.dist-info/LICENSE,sha256=IBqkTZ4Hd88xiyVz1_5KQlnDWTk_KANdDdgo-7n3IgI,1070
+cofog-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+cofog-1.0.0.dist-info/METADATA,sha256=b4Fn9nCVH8laAgkqI4ztjBno9Ba-dAX9XPFmFq0K-2g,5036
+cofog-1.0.0.dist-info/RECORD,,
