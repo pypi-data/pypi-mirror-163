@@ -1,0 +1,8 @@
+moesifapi
+lambda_decorators
+moesifpythonrequest
+
+[dev]
+
+[test]
+nose
