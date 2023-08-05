@@ -1,0 +1,5 @@
+esi-extern-openquake>=1.0.0
+numpy>=1.21
+
+[test]
+pytest>=6.2
