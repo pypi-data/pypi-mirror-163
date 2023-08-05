@@ -1,0 +1,11 @@
+README.rst
+pyproject.toml
+setup.py
+trm.utils.egg-info/PKG-INFO
+trm.utils.egg-info/SOURCES.txt
+trm.utils.egg-info/dependency_links.txt
+trm.utils.egg-info/requires.txt
+trm.utils.egg-info/top_level.txt
+trm/utils/__init__.py
+trm/utils/core.py
+trm/utils/vec3.py
