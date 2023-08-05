@@ -1,0 +1,10 @@
+README
+setup.py
+lottie_docs/code_generator.py
+lottie_docs/default.py
+lottie_docs/lottie.schema.json
+lottie_docs/schema.py
+lottie_docs.egg-info/PKG-INFO
+lottie_docs.egg-info/SOURCES.txt
+lottie_docs.egg-info/dependency_links.txt
+lottie_docs.egg-info/top_level.txt
