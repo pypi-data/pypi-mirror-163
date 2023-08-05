@@ -1,0 +1,63 @@
+Metadata-Version: 2.1
+Name: perun
+Version: 0.1.0b3
+Summary: 
+Home-page: https://github.com/Helmholtz-AI-Energy/perun
+License: BSD-3-Clause
+Author: Gutiérrez Hermosillo Muriedas, Juan Pedro
+Author-email: juanpedroghm@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: h5py (>=3.7.0,<4.0.0)
+Requires-Dist: mpi4py (>=3.1.3,<4.0.0)
+Requires-Dist: py-cpuinfo (>=8.0.0,<9.0.0)
+Requires-Dist: pyRAPL (>=0.2.3,<0.3.0)
+Requires-Dist: pynvml (>=11.4.1,<12.0.0)
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Description-Content-Type: text/markdown
+
+<div align="center">
+  <img src="./doc/images/perun.svg">
+</div>
+
+Have you ever wondered how much energy is used when training your neural network on the MNIST dataset? Want to get scared because of impact you are having on the evironment while doing "valuable" research? Are you interested in knowing how much carbon you are burning playing with DALL-E just to get attention on twitter? If the thing that was missing from your machine learning workflow was existential dread, this is the correct package for you!
+
+## Installation
+
+```$ pip install git+https://github.com/Helmholtz-AI-Energy/perun```
+
+### Parallel h5py
+
+To build h5py with mpi support:
+
+```CC=mpicc HDF5_MPI="ON" pip install --no-binary h5py h5py```
+
+## Usage
+
+### Command line
+
+To get a quick report of the power usage of a python script simply run
+
+```$ perun monitor path/to/your/script.py [args]```
+
+### Decorator
+
+Or decorate the function that you want analysed
+
+```python
+from perun.monitor import monitor
+
+@monitor
+def training_loop(args, model, device, train_loader, test_loader, optimizer, scheduler):
+    for epoch in range(1, args.epochs + 1):
+        train(args, model, device, train_loader, optimizer, epoch)
+        test(model, device, test_loader)
+        scheduler.step()
+
+```
+
