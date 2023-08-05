@@ -1,0 +1,2 @@
+[console_scripts]
+shellfoundry_traffic = shellfoundry_traffic.shellfoundry_traffic_cmd:main

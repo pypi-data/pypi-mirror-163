@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: shellfoundry-traffic
+Version: 0.3.0
+Summary: Extension to Quali shellfoundry package for TG shells development
+Home-page: https://github.com/QualiSystems/shellfoundry-traffic
+Author: Quali
+Author-email: info@qualisystems.com
+License: Apache Software License
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Software Development :: Testing
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML
+Requires-Dist: pytest
+Requires-Dist: cloudshell-logging (==1.0.3)
+Requires-Dist: cloudshell-orch-core (<3.4.0.0,>=3.3.0.0)
+Requires-Dist: cloudshell-shell-core (<6.0.0,>=5.0.3)
+Requires-Dist: cloudshell-rest-api (>=8.2.3.1)
+Requires-Dist: shellfoundry
+
+[![Python 3.7|3.9](https://img.shields.io/badge/python-3.7%7C3.9-blue.svg)](https://www.python.org/downloads/release/downloads/)
+[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)
+---
+
+![quali](quali.png)
+
+# ShellFoundry Traffic Test Helpers
+
+A package containing test helpers and developer tools for *Traffic Generators Shells Developers* of **CloudShell** platform.
+
+The package extends [shellfoundry](https://github.com/QualiSystems/shellfoundry) see [this guide](docs/usage.md) for more information on `shellfoundry`.
+
+
+## Installing
+
+```
+$ python -m pip install shellfoundry-traffic
+```
+
+## License
+[Apache License 2.0](https://github.com/QualiSystems/shellfoundry/blob/master/LICENSE)
