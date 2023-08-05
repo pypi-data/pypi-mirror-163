@@ -1,0 +1,13 @@
+pychronicles/chronicle_python.py,sha256=lwlSCZQTBPuSyquVoK4nwqBRVoX07mNMznMVAQYrwsQ,50275
+pychronicles/chronicle_multi.py,sha256=MycUAYZCFwaCn2TZWHzPtilHWRKuozw4mU84aEXw8O0,37329
+pychronicles/__init__.py,sha256=XrRpG0ao78eX8lYVLyB3YOYqHwwEElPzW8TNoZqeh40,185
+pychronicles/chroaring.py,sha256=2GWgHeJVSoRJwRgkT7AMTy8C0BSJz_Ty3Gry-2TvY84,5696
+pychronicles/chronicle.cpython-310-x86_64-linux-gnu.so,sha256=ki0ce5X1kRt-IAf9-DyYxNWA-NJeXCZR1TDWirAPVJY,2474352
+pychronicles/chronicle.py,sha256=7qrZRslSbx4Kwkla6LNpjBHCpsnHPufGddyW4fqhiug,34525
+pychronicles/test_python.py,sha256=RgmaUDjh3GIdHq-xal4MmUSlo_nmjO1A6EpUYK3QeY0,48143
+pychronicles/test_cmp_chro.py,sha256=aZwECokzDbSLrEHjUzrylgEPDgLzrPoqnbGgvTtEF_0,1050
+pychronicles-0.0.8.dist-info/LICENCE,sha256=5X8cMguM-HmKfS_4Om-eBqM6A1hfbgZf6pfx2G24QFI,35150
+pychronicles-0.0.8.dist-info/METADATA,sha256=QuFwXYTd05aYPHEEbno4E-AEZ1ZqO2vhjHc_bBZm4Zc,4753
+pychronicles-0.0.8.dist-info/top_level.txt,sha256=eFeLvPT_gXE-ad7rSvft4rw1J3EUuGS1Ji4vWuQQgXc,13
+pychronicles-0.0.8.dist-info/RECORD,,
+pychronicles-0.0.8.dist-info/WHEEL,sha256=_CsSu7HhuQEymYd-PWw19OJIyLcZXT1BJUtXOzGDKCc,148
