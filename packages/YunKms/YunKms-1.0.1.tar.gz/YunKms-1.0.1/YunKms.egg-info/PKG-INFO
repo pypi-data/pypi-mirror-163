@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: YunKms
+Version: 1.0.1
+Summary: This is an test package
+Home-page: https://thatgamecompany.wordpress.com
+Author: Sky-Yun
+Author-email: 3362338025@qq.com
+Maintainer: Sky-Yun
+Maintainer-email: 3362338025@qq.com
+License: MIT License
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0.0
+
+V1.0.0(BETA)
+Activate Win10
+Relies on easygui
+V1.0.1(BETA)
+Increase dependent on requests
+Added confirmation of network connectivity, as well as KMS server connectivity test
+Fixed some hints for activating the wizard
+
