@@ -1,0 +1,9 @@
+afsql/db_redis.py,sha256=gqf3QUK0dJc1mByHZxKhwGXdBngC6X9FXAWTJAFw4FU,1129
+afsql/db_sqlit3.py,sha256=WyFSJHBONmB2cOqkqKqNl262Him2iFlX8CbyP1pCXNs,2818
+afsql/mysql.py,sha256=j7N1HnfklbOy6puZDq-h0-OfJdAjTIcpJvnWCGfIoq8,5878
+afsql/postgresql.py,sha256=1fYxX2FJgnYqPk_liu7iX92UlV3jEwrZWWx7fe3Sbag,3664
+afsql/py2neo4j.py,sha256=PaJ1jIIPRQTduxehhxtdXydnD7M7V3qshQ-yKD83YaU,11952
+afsql/pyneo4j_ban.py,sha256=lEDAn9BTP6xXyhzagE4dlpavtaDffClOVi9x3F6LTMk,8252
+afsql-0.2.3.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+afsql-0.2.3.3.dist-info/METADATA,sha256=xdBvvpYcSxospx-Kw_1zLGpxt5UkjYRaOMStmleRSwc,635
+afsql-0.2.3.3.dist-info/RECORD,,
