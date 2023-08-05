@@ -1,0 +1,8 @@
+README.md
+setup.py
+workonsh.egg-info/PKG-INFO
+workonsh.egg-info/SOURCES.txt
+workonsh.egg-info/dependency_links.txt
+workonsh.egg-info/entry_points.txt
+workonsh.egg-info/requires.txt
+workonsh.egg-info/top_level.txt
