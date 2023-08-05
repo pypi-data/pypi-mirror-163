@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: pyframe3dd
+Version: 0.0.2
+Summary: estructural analysis using frame3dd
+Home-page: https://www.illarisoft.com/
+Author: Edwin Pareja
+Author-email: edwinsaulpm@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyframe3dd
+python module to use frame3dd for elastic structural analysis
+
+# Before to use!
+install frame3dd on your computer, see the oficial reference 
+[here](http://svn.code.sourceforge.net/p/frame3dd/code/trunk/doc/Frame3DD-manual.html#installrun)
+
+
+
+
