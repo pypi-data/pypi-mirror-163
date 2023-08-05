@@ -1,0 +1,26 @@
+[build-system]
+requires = ['hatchling']
+build-backend = 'hatchling.build'
+
+[project]
+name = 'psus'
+version = '1.0.0'
+authors = [
+    { name='4ndrs', email='andres.degozaru@gmail.com' },
+]
+description = 'Script to send suspend/continue signals to processes through the kill command'
+readme = 'README.md'
+license = { file='LICENSE' }
+requires-python = '>=3.10'
+classifiers = [
+    'Programming Language :: Python :: 3',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: POSIX :: Linux',
+]
+
+[project.scripts]
+psus = 'psus.__main__:main'
+
+[project.urls]
+'Homepage' = 'https://github.com/4ndrs/psus'
+'Bug Tracker' = 'https://github.com/4ndrs/psus/issues'
