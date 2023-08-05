@@ -1,0 +1,10 @@
+setup.py
+distributions-octo/Binomialdistribution.py
+distributions-octo/Gaussiandistribution.py
+distributions-octo/Generaldistribution.py
+distributions-octo/__init__.py
+distributions_octo.egg-info/PKG-INFO
+distributions_octo.egg-info/SOURCES.txt
+distributions_octo.egg-info/dependency_links.txt
+distributions_octo.egg-info/not-zip-safe
+distributions_octo.egg-info/top_level.txt
