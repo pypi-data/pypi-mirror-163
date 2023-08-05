@@ -1,0 +1,10 @@
+hapi_nn/__init__.py,sha256=QarSxj_WK20EKVy9ty6yUPGX7SwQTvgKoGXtulI-NfI,293
+hapi_nn/config.py,sha256=q5kP-BcM5zvX75ppJDUk7CzJCuM2t333n98WAvVkk8g,157
+hapi_nn/testing.py,sha256=bZ3b8J-nzS8k-nzjdVdMap608eogx9AtYncKHoppLKE,12522
+hapi_nn/training.py,sha256=OWZUyL7UdSpakCF_colEI0UGtZcFJKLLwiG41PLrXwE,29743
+hapi_nn/util.py,sha256=yU32ey3TT-LREIgFG-7ArhvKRT6BiJVn_WpgmcBldtc,3160
+hapi_nn-0.1.0.dist-info/LICENSE,sha256=BdlSjzryIVDjiLacPb3NppxlR8PXyAnckd8RW6e1I8g,1568
+hapi_nn-0.1.0.dist-info/METADATA,sha256=NfcojBunj7fm8T-dfACEkhhr3zt4SbUT4QzjYxdM_oQ,2332
+hapi_nn-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hapi_nn-0.1.0.dist-info/top_level.txt,sha256=vBxSAc3eDodx3K_jjGrbSnuKJNqa7tXj59ivJPYting,8
+hapi_nn-0.1.0.dist-info/RECORD,,
