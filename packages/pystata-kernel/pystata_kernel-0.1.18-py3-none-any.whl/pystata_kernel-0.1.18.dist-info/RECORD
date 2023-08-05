@@ -1,0 +1,12 @@
+pystata-kernel/__init__.py,sha256=uwop0xvOAUd32bmbLxvSv3dG1GoXw_A0gJzCVy2Mc38,58
+pystata-kernel/__main__.py,sha256=l3SUFCenr7SI96TpMkAWsdN9akEOCngFNbXkDK58wlo,129
+pystata-kernel/config.py,sha256=mHfso-p0WpE7smQdtx5MLxIkLVaqqB5Ve32UIuPpspw,1065
+pystata-kernel/install.py,sha256=I1h-FsHThH-T4kJhj0og1LqLI49a16PaNFaLlRV1QgI,3506
+pystata-kernel/kernel.py,sha256=Pm8ZSVmlaScO3EUlQeCI3awltqdqoRFNhsVFSrBXlRY,1900
+pystata-kernel/logo-64x64.png,sha256=z9b-o2hBdof3lQizKHXQsczrqqjYTSnFPMqoBswJZ1U,2247
+pystata-kernel/utils.py,sha256=s5-hSDQR62VOzo3HPNoSG1gNkvbU9e3YymqBLnLxG2M,2338
+pystata_kernel-0.1.18.dist-info/LICENSE,sha256=clUNiMs3hJXLQS8rHl4NoPVOjnEQQdVBrnhQQIOdTHU,35809
+pystata_kernel-0.1.18.dist-info/METADATA,sha256=OcR1i0BxoX9mMsPLLCIr_t_0apGB-q8_JipAZnzWGY4,874
+pystata_kernel-0.1.18.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pystata_kernel-0.1.18.dist-info/top_level.txt,sha256=Fb33bvBoPTA_xg93uuVVQzwu5BfOBPiwrOtt02sVvt8,15
+pystata_kernel-0.1.18.dist-info/RECORD,,
