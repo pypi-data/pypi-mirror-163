@@ -1,0 +1,15 @@
+chess_ng/__init__.py,sha256=wOPuCLYkVzyfetsAxWJ8bcdAihXK3k3LFDc4fX1ZdVo,93
+chess_ng/algorithm.py,sha256=-U_eJlhs_Buog7YQEj7HOh8ezZP-IK2STPfeEvZkLbU,7058
+chess_ng/board.py,sha256=nfchmBMOTxUmYcTDE5hTkunEAfZscCSEUGes2dBmtX0,4328
+chess_ng/consts.py,sha256=SolBlSLIt5sxjvGcNUMbG1Ezh9Ckmx79HlxRVmmQKMU,826
+chess_ng/hashing.py,sha256=AywIjVWv3-NV4V6s-XJ7DYCuI4UHGjF9TJHoCchFeQY,1636
+chess_ng/move.py,sha256=v4swZeOd8DiAiSy7tthtJwMco8n_rxlC7JtuVrlwTJM,7369
+chess_ng/output.py,sha256=UHu96PxOdv8MHelGYseJxgTtIzvICy5mWukrnaYojwQ,1206
+chess_ng/piece.py,sha256=qi4XUq9CWaFE1MRhn-bel8n4Gl0tqfYJwvfi693rpwY,7721
+chess_ng/team.py,sha256=vAW5dwMb9yZ5F5E1wq-DDxkYCJ_MhM82wlCJIR9L5zk,2043
+chess_ng/util.py,sha256=qbSvQFqxJn97eyQM7eVqJTS9AKcnukey02SrxBvV4z0,1213
+chess_ng-1.0.0.dist-info/LICENSE,sha256=s25dl0JQkNdXjdniIBqZzfWhHMbHqL3kV3PfMpX6ssQ,1067
+chess_ng-1.0.0.dist-info/METADATA,sha256=e1ij9a9eqyaznw80LozG4Y6F66R2MWmceoCcSm1d7Vc,3920
+chess_ng-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chess_ng-1.0.0.dist-info/top_level.txt,sha256=quTrdiJl7Zv9pEADCSCxvb0J86XW1NPExLbLXy_p7eg,9
+chess_ng-1.0.0.dist-info/RECORD,,
