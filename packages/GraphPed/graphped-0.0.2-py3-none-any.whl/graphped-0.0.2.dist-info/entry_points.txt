@@ -1,0 +1,5 @@
+[console_scripts]
+GraphPed = graphped.plot:GraphPedCli
+
+[nbdev]
+graphped = graphped._modidx:d
