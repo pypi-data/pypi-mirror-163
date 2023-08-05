@@ -1,0 +1,64 @@
+[tool.poetry]
+name = "instant-coffee"
+version = "0.1.0"
+description = "Project description"
+authors = ["Ingram Micro Inc."]
+license = "Apache Software License 2.0"
+packages = [
+    { include = "instantcoffee" },
+]
+readme = "./README.md"
+classifiers = [
+    "Development Status :: 1 - Planning",
+    "Environment :: Console",
+    "Operating System :: OS Independent",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Topic :: Utilities",
+    "Topic :: Software Development :: Libraries",
+]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+connect-extension-runner = "25.*"
+responses = "^0.20.0"
+mock = "^4.0.3"
+Faker = "*"
+pytest = "^7.1.2"
+pyjwt = "^2.4.0"
+cryptography = "^37.0.2"
+extaasy = "0.1.*"
+
+[tool.poetry.dev-dependencies]
+connect-devops-testing-library = "24.*"
+pytest = "*"
+pytest-cov = "*"
+pytest-mock = "^3.3.7"
+pytest-asyncio = "^0.18.1"
+coverage = { extras = ["toml"], version = "^6.2" }
+responses = "*"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+testpaths = "tests"
+addopts = "--cov=connect_lib --cov-report=term-missing:skip-covered --cov-report=html --cov-report=xml"
+
+[tool.coverage.run]
+relative_files = true
+branch = true
+
+[tool.coverage.report]
+omit = [
+]
+
+exclude_lines = [
+    "pragma: no cover",
+    "def __str__",
+    "def __repr__",
+    "raise NotImplementedError",
+    "if __name__ == .__main__.:",
+]
