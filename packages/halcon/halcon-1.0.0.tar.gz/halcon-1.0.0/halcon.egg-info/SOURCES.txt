@@ -1,0 +1,14 @@
+AUTHORS
+LICENSE
+MANIFEST.in
+README.md
+VERSION
+requirements.txt
+setup.py
+halcon/__init__.py
+halcon/search.py
+halcon.egg-info/PKG-INFO
+halcon.egg-info/SOURCES.txt
+halcon.egg-info/dependency_links.txt
+halcon.egg-info/requires.txt
+halcon.egg-info/top_level.txt
