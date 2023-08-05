@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+hello82345/hello82345.py
+hello82345.egg-info/PKG-INFO
+hello82345.egg-info/SOURCES.txt
+hello82345.egg-info/dependency_links.txt
+hello82345.egg-info/top_level.txt
