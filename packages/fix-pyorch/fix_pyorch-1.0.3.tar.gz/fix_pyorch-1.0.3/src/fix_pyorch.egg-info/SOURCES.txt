@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+src/FixRepository44.xml
+src/fix_to_json.py
+src/fix_pyorch/__init__.py
+src/fix_pyorch/message.py
+src/fix_pyorch/message_spec.py
+src/fix_pyorch.egg-info/PKG-INFO
+src/fix_pyorch.egg-info/SOURCES.txt
+src/fix_pyorch.egg-info/dependency_links.txt
+src/fix_pyorch.egg-info/top_level.txt
