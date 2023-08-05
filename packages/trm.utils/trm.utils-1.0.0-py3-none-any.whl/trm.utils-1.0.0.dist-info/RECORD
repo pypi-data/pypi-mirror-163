@@ -1,0 +1,7 @@
+trm/utils/__init__.py,sha256=joJLm698kcOdLvg_VmZBVf2EIBXfCU1GaXcFuxeqo1M,489
+trm/utils/core.py,sha256=CFwjKmuBKsKoj3KSpDBPFLvQeST3irKxAUE8o0ZCyb4,11851
+trm/utils/vec3.py,sha256=Yy2yv-aH8NLr3cqO6udOL7uh1ReacQboLfwSOkkFGGQ,4348
+trm.utils-1.0.0.dist-info/METADATA,sha256=Bl63u8JEwxTlxiahuoqmYGJrL7Aj0n79iZL7OV52zN4,1529
+trm.utils-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+trm.utils-1.0.0.dist-info/top_level.txt,sha256=EXZoZlnPiTKtzCD1GKNsVYCmXvX_T0M35KWqpPKITK8,4
+trm.utils-1.0.0.dist-info/RECORD,,

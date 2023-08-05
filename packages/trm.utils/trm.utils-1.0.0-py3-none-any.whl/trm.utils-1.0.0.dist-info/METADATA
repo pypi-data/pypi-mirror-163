@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: trm.utils
+Version: 1.0.0
+Summary: Python utility classes and functions
+Home-page: https://github.com/trmrsh/trm-utils
+Author: Tom Marsh
+Author-email: Tom Marsh <t.r.marsh@warwick.ac.uk>
+License: BSD 3-Clause License
+Project-URL: Homepage, https://github.com/trmrsh/trm-utils
+Project-URL: Bug Tracker, https://github.com/trmrsh/trm-utils/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Requires-Python: >=3.6
+Description-Content-Type: text/x-rst
+Requires-Dist: astropy
+Requires-Dist: numpy
+Requires-Dist: scipy
+
+trm.utils
+=========
+
+``trm.utils`` is a home for a few odds and ends that don't on their
+own justify their own package but are quite often useful. For instance
+``trm.utils.vec3`` is a sub-module that handles 3D Cartesian vectors,
+while ``trm.utils.splfit`` is a method based on scipy routines that
+carries out the commonly needed task of spline fitting with rejection
+of bad data.
+
+
+Installation
+------------
+
+``trm.utils`` makes use of numpy, scipy and astropy (listed in the
+pyproject.tomol files as requirements), and requires Python 3.6+. One
+routine ``mpl_style_axes`` only makes sense for matplotlib plots, but
+if you don't use it, you don't need matplotlib to be installed.
+
+Install ``trm.utils`` with::
+
+ pip install trm.utils
+
+to get via PyPI, or::
+
+ pip install .
+
+if you have cloned from github. If you don't have root access, append
+``--user`` to the above commands to get a local install.
+
+* Free software: BSD license
