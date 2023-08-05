@@ -1,0 +1,16 @@
+django_moo/__init__.py,sha256=0qSgY7MGOBV1cUvzUoQ0f_1zTta3fpcKzL2_znEBNI0,1599
+django_moo/dalay_threading_.py,sha256=yD2KTrJfF_XNleG4rwJNRAJqACTeuY1oIFfeiSbUHMQ,678
+django_moo/decorators.py,sha256=F95J17LNDwX0MNxmbnlRmJcsmqA2IPOJHoFx2cFnNGM,7749
+django_moo/delay_threading.py,sha256=car86hg51LJN_idUG805BHhy9TG5902-oezpzS2qBvc,1344
+django_moo/exceptions.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_moo/moost.py,sha256=VBKMu6J8UVLNtS5BMjLHonw9z-Z6bcK8J807mgpV_cQ,717
+django_moo/settings.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_moo/utils.py,sha256=LAzyGfoDj32G5LspHiw0yFL7SO4Qg8ANPllsmYLLihM,8584
+django_moo/views.py,sha256=QADPARutMzI4csbLvJQhPlvLlc_dSd33-TM9Q2CtdtA,877
+django_moo/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_moo/templatetags/django_moo.py,sha256=f9YOMg-LO_EHdhApWnoliRQd9QvoZTvKQtnaLDH5gls,936
+django_moo-0.0.8.dist-info/METADATA,sha256=eUqMJg7IZQGR7O-V6ipgdWBgKFJEECItzdPb3jcMsTY,644
+django_moo-0.0.8.dist-info/WHEEL,sha256=ewwEueio1C2XeHTvT17n8dZUJgOvyCWCt0WVNLClP9o,92
+django_moo-0.0.8.dist-info/license,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+django_moo-0.0.8.dist-info/top_level.txt,sha256=1w7hVf8EPINtbrow2VEl2DUakEAczabtUyRQgROGTdw,11
+django_moo-0.0.8.dist-info/RECORD,,
