@@ -1,0 +1,9 @@
+flake8p/__init__.py,sha256=pOh5wKjhKA3ogziqYJWdRNAl5J-olpq0fOn0YZwjKQ0,191
+flake8p/__main__.py,sha256=JbA5eMBSuXhZ2gAvHkSBUnQ_oxW0pfbTjCaS2a4RXTs,141
+flake8p/hook.py,sha256=4nnGF7AgEeyTjQHMBg3pzuCLK3Ds2gVDz94121GhY2w,2409
+flake8p/meta.py,sha256=XgnqzJLGHdRaQu7z2tU4MC12AzM1AS7rtsG12aVZWbE,214
+flake8_pyproject-1.1.0.dist-info/entry_points.txt,sha256=t1hNzUMPxHoNNZtj_GT8wHmH3BxNoXVURI-Oknm1-co,89
+flake8_pyproject-1.1.0.dist-info/license.txt,sha256=beck-fQVc91N8bffjdRC6wbHWk7XqW9bOlgAqmVuZ1U,1093
+flake8_pyproject-1.1.0.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+flake8_pyproject-1.1.0.dist-info/METADATA,sha256=mKxAogotlQxe2Xez3-yd_Xf1TaI60nLNvst5iq481UE,2934
+flake8_pyproject-1.1.0.dist-info/RECORD,,
