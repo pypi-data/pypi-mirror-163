@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+http_text_cli/__init__.py
+http_text_cli/http_interactions.py
+http_text_cli/manage_processes.py
+http_text_cli.egg-info/PKG-INFO
+http_text_cli.egg-info/SOURCES.txt
+http_text_cli.egg-info/dependency_links.txt
+http_text_cli.egg-info/top_level.txt
