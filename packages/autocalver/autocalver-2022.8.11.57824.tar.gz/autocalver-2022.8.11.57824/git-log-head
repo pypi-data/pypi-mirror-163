@@ -1,0 +1,8 @@
+commit 6569f8caeb164c07ae1f25590a669e522cb109aa
+Merge: bad0a2d 3f7d177
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2022-08-11 09:03:44 -0700
+
+    Merge pull request #6 from moshez/work-with-pyproject
+    
+    Work with pyproject
