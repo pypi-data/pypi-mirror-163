@@ -1,0 +1,2 @@
+[console_scripts]
+outdoorsy = outdoorsy:main
