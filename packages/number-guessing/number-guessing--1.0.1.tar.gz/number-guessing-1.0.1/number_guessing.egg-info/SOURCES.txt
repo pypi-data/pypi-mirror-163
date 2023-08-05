@@ -1,0 +1,6 @@
+number_guessing.py
+setup.py
+number_guessing.egg-info/PKG-INFO
+number_guessing.egg-info/SOURCES.txt
+number_guessing.egg-info/dependency_links.txt
+number_guessing.egg-info/top_level.txt

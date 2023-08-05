@@ -1,0 +1,15 @@
+Metadata-Version: 1.1
+Name: number-guessing
+Version: 1.0.1
+Summary: A number guessing game made by tkinter. Have FUN!使用tkinter制作的猜数游戏。
+Home-page: https://github.com/qfcy/Python/blob/main/GuessingNumber.py
+Author: 七分诚意 qq:3076711200 邮箱:3076711200@qq.com
+Author-email: 3076711200@qq.com
+License: UNKNOWN
+Description: HAVE FUN!
+Keywords: number,guess,game,tkinter
+Platform: UNKNOWN
+Classifier: Programming Language :: Python
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
+Classifier: Topic :: Games/Entertainment :: Puzzle Games
