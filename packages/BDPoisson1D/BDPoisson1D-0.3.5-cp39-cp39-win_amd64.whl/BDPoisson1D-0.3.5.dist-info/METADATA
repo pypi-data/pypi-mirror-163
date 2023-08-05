@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: BDPoisson1D
+Version: 0.3.5
+Summary: BD Finite Difference Poisson equation solver
+Home-page: https://github.com/bond-anton/BDPoisson1D
+Author: Anton Bondarenko
+Author-email: bond.anton@gmail.com
+License: Apache Software License
+Keywords: FiniteDifference PDE Poisson
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Topic :: Scientific/Engineering :: Mathematics
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+License-File: NOTICE.txt
+Requires-Dist: numpy
+Requires-Dist: scipy (>=0.17.0)
+Requires-Dist: matplotlib
+Requires-Dist: BDMesh (>=0.2.18)
+Requires-Dist: BDFunction1D (>=0.1.2)
+
+# BDPoisson1D
+
+
+
+![Build](https://github.com/bond-anton/BDPoisson1D/workflows/Build/badge.svg)
+
+[![codecov](https://codecov.io/gh/bond-anton/BDPoisson1D/branch/master/graph/badge.svg)](https://codecov.io/gh/bond-anton/BDPoisson1D)
+
+
+
+One dimensional finite difference Poisson equation solver.
+
+
+
+## Installation
+
+
+
+To install run
+
+```shell
+
+pip install BDPoisson1D
+
+```
+
+or
+
+```shell
+
+python setup.py install
+
+```
+
+## Usage
+
+
+
+Please see the demo directory for the usage examples.
+
+
+
+## License
+
+
+
+BDPoisson1D is free open source software licensed under Apache license version 2.0
+
+
+
