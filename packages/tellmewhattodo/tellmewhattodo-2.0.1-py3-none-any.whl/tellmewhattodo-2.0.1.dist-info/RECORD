@@ -1,0 +1,14 @@
+tellmewhattodo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tellmewhattodo/app/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tellmewhattodo/app/app.py,sha256=-pbT4KNQfoD_KMfCXTrHmc0zbnKLfKQXs6qZ7bi1VPg,1203
+tellmewhattodo/cli.py,sha256=P2lseDn39wrGiVuvDFtulgaztTawcNpZy2cLHD_3VnA,915
+tellmewhattodo/job/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tellmewhattodo/job/extractor.py,sha256=xtNVHKoErW8XiaQVb__P9eck4NP7DBvxYu5HJkaJQY8,1688
+tellmewhattodo/job/job.py,sha256=0K_7cogBhq5NDyxLG1GAkFYPMQjis6nfr9QzATGF8A4,683
+tellmewhattodo/job/storage.py,sha256=ezuDqkuDRQWbn_gJzOzfJjpsHEaDB4cLngwJmUSZQy0,2608
+tellmewhattodo/models/alert.py,sha256=_I38ZAe2IuTyBN05BLNxbW6G6_5ZmCDftD5GnjUv0Lk,220
+tellmewhattodo/settings.py,sha256=RgLhMIq21jwrAlkwlIOU9gvrRVVdKpp2sSP8617Ud-U,622
+tellmewhattodo-2.0.1.dist-info/entry_points.txt,sha256=xLEyW-cQgHAbxBd1zuYvI0Hqf1Jnet-Y7KqBfCj7M9A,57
+tellmewhattodo-2.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+tellmewhattodo-2.0.1.dist-info/METADATA,sha256=fMl3gIckNzDmq4Mt_RANEF__PPEz9hE9CvluxWnoHL8,654
+tellmewhattodo-2.0.1.dist-info/RECORD,,
