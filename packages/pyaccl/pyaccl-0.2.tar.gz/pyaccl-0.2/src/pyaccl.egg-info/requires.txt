@@ -1,0 +1,9 @@
+pynq>=2.7
+numpy
+pyzmq
+ipaddress
+
+[testing]
+pytest
+pytest-mpi
+mpi4py
