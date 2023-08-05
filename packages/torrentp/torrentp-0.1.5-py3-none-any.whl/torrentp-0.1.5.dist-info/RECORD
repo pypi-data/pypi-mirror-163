@@ -1,0 +1,10 @@
+torrentp/__init__.py,sha256=GCgnk7x063zSad4zVv4XPzhjvd0STBTUKAhl6SzmGj4,578
+torrentp/downloader.py,sha256=bZDoYJc6qe8LKLXWCAhmjtxQIYyEiJdyzhCKFhxRMCY,1644
+torrentp/session.py,sha256=bm1gqrJFj-0NwGb0PFTrP7Bv9MF__kVXYTpA08n2JXY,550
+torrentp/torrent_downloader.py,sha256=cfcKF5Vl9bbahzqODSmyL0UdWQvDeysFMwhzYZFctUM,1374
+torrentp/torrent_info.py,sha256=dM12Zk1ZpwW9G9apQwwbQ1Ye0KguVRNrd16v81KKqqg,474
+torrentp-0.1.5.dist-info/LICENSE,sha256=8fpWF1H62zaYkffa5vsNcq82aOIfQspDtEvpcx-bijM,12179
+torrentp-0.1.5.dist-info/METADATA,sha256=I4k0T5-N0D05xTdJI4syGpEK6wjRd4-En2_gg2OWqJ8,2889
+torrentp-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+torrentp-0.1.5.dist-info/top_level.txt,sha256=hNdzxx0M-N3lBEmHjVpbKaBSqucPYIs847WL4xAJALo,9
+torrentp-0.1.5.dist-info/RECORD,,
