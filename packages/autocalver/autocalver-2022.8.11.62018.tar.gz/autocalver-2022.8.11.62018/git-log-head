@@ -1,0 +1,8 @@
+commit cc1e8330d7961b1fd89727be767c0d07fab827b2
+Merge: 6569f8c 56c2f0d
+Author: Moshe Zadka <moshez@users.noreply.github.com>
+Date:   2022-08-11 10:13:38 -0700
+
+    Merge pull request #7 from moshez/autorun-log-head
+    
+    Autorun log head
