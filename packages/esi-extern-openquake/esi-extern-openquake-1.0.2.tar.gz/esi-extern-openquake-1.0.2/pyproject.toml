@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "esi-extern-openquake"
+version = "1.0.2"
+description = "Some useful OpenQuake extracts"
+authors = ["Mike Hearne"]
+
+[tool.poetry.dependencies]
+python = ">3.8"
+numpy = ">=1.21"
+shapely = ">=1.8.0"
+rtree = ">=1.0"
+black = { version = ">=21", optional = true }
+flake8 = { version = ">=3.9", optional = true }
+ipython = { version = ">=7.26", optional = true }
+pytest = { version = ">=6.2", optional = true }
+
+[tool.poetry.extras]
+tests = ["pytest"]
+dev = ["black", "flake8", "ipython"]
