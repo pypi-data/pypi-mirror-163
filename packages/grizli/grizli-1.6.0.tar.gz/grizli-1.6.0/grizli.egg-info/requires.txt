@@ -1,0 +1,5 @@
+numpy
+cython
+astropy
+sregion>=1.0
+mastquery>=1.4
