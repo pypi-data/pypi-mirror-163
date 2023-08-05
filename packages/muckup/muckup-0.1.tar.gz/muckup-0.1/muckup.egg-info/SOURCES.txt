@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.py
+bin/muckup
+muckup.egg-info/PKG-INFO
+muckup.egg-info/SOURCES.txt
+muckup.egg-info/dependency_links.txt
+muckup.egg-info/requires.txt
+muckup.egg-info/top_level.txt
