@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: zap-flask-pubsub
+Version: 0.0.1
+Summary: Subscribe and Publish data through broker message queue
+Home-page: UNKNOWN
+Author: Naresh Kumar
+License: UNKNOWN
+Keywords: flask,pubsub,RabbitMQ
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Flask-PubSub
+
+### Features
+
+
