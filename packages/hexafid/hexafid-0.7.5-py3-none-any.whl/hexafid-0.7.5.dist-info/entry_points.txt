@@ -1,0 +1,2 @@
+[console_scripts]
+hexafid = hexafid.hexafid_cli:main
