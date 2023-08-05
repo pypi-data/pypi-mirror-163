@@ -1,0 +1,6 @@
+testing_absolute_imports/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+testing_absolute_imports/main.py,sha256=1M39pDXImCo3QrMkQgvtljU4YvmsRdahfhKJHVfKFZc,374
+testing_absolute_imports/printing.py,sha256=O5vzXZyNgvjeURdv8lJKhThJONqEVqEY5yS72Z2FLiU,114
+testing_absolute_imports-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+testing_absolute_imports-0.1.0.dist-info/METADATA,sha256=Qs-I8-fQD0BfvlneCU4F4RE9U2gUs4gCkgz2eC0o50o,401
+testing_absolute_imports-0.1.0.dist-info/RECORD,,
