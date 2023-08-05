@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+predict_test_06/__init__.py
+predict_test_v7.egg-info/PKG-INFO
+predict_test_v7.egg-info/SOURCES.txt
+predict_test_v7.egg-info/dependency_links.txt
+predict_test_v7.egg-info/top_level.txt
