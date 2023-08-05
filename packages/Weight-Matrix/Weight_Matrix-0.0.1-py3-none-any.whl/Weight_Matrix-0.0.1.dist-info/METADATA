@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: Weight-Matrix
+Version: 0.0.1
+Summary: A package that allows to calculate differents Weight Matrix
+Home-page: UNKNOWN
+Author: Nathanael Duque
+Author-email: <nathanael.duque.gadelha@gmail.com>
+License: UNKNOWN
+Keywords: python,distributed,consensus,diffusion,exact diffusion,agents
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Requires-Dist: numpy
+
+UNKNOWN
+
+
