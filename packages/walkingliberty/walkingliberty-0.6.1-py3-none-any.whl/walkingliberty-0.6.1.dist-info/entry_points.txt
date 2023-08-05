@@ -1,0 +1,2 @@
+[console_scripts]
+walkingliberty = walkingliberty.cli:main
