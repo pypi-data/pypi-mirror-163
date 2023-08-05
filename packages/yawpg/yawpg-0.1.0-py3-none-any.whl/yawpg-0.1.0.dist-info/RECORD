@@ -1,0 +1,10 @@
+yawpg/__init__.py,sha256=YpakTmpVF7nGNcfpw5Mgu47hyZun8IQW_z9XQhhHs58,414
+yawpg/_defaults.py,sha256=dG2Lf1EGuMD7SyHehUta2yifnTMUJL-_Yr27M4luQ58,40
+yawpg/_host.py,sha256=Z4WJ9EZf7JVbO-WnaLD0p9HBGEPh081y6wwrLTrdKQs,690
+yawpg/_pagetor.py,sha256=84mCJadsw7HHGk--peaaPGMOD07FOc1IskU_jU-smcA,1072
+yawpg/_template_engine.py,sha256=gzkhMssIa2rBjWC8OYvc--khvofGqdepu6f72tQct1Q,651
+yawpg/public/html/template.html,sha256=Ngy09aa2L2Gko5CQnNe0wTP0vuX5UDDUBJxldbTgoZs,20976
+yawpg-0.1.0.dist-info/LICENSE,sha256=2XZZZvM6sv7mXfwDj90BQv8kUdBrBKL7qZeHkBHQDNE,1064
+yawpg-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+yawpg-0.1.0.dist-info/METADATA,sha256=rVFNot0Q2PjpOi3CBTmIr0mqOcekpoXuWe45U14NASA,498
+yawpg-0.1.0.dist-info/RECORD,,

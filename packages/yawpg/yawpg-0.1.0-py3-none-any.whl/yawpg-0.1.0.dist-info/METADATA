@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: yawpg
+Version: 0.1.0
+Summary: 
+Author: hoopengo
+Author-email: hoopengo@yandex.ru
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Markdown (>=3.4.1,<4.0.0)
+Requires-Dist: bottle (>=0.12.23,<0.13.0)
+Requires-Dist: emoji (>=2.0.0,<3.0.0)
+Requires-Dist: pydantic (>=1.9.2,<2.0.0)
