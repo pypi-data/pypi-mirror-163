@@ -1,0 +1,10 @@
+bs4>=0.0.1
+fiona>=1.8
+numpy>=1.21
+Pillow>=9.1.0
+shapely>=1.8
+pyproj>=2.6.1
+pytz>=2022.1
+
+[test]
+pytest>=6.2
