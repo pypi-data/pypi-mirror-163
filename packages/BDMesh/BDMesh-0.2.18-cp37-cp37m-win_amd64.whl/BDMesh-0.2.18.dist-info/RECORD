@@ -1,0 +1,17 @@
+BDMesh/Mesh1D.cp37-win_amd64.pyd,sha256=y0vdptA5W3xQEhpRcLuuMrYHe9gDWqXm-aFJTyPCzWs,240640
+BDMesh/Mesh1D.pxd,sha256=eV_n68DTnrYMmPcfWRes_QWQmtQEH1A-VWPvSTtrHrY,762
+BDMesh/Mesh1DUniform.cp37-win_amd64.pyd,sha256=6JYl-Tr12ZuX274n9L4PhGPFHOwWZfSSM9HnFCEJBrA,228352
+BDMesh/Mesh1DUniform.pxd,sha256=BjS3QFK5QWh2R8inX--PuX6CN8y4o4PSQNDAfv9_y2o,356
+BDMesh/TreeMesh1D.cp37-win_amd64.pyd,sha256=VemspTVWGDiRHU1M7o3AiCs7w6HL8zUKnC6X5xR_W5o,212480
+BDMesh/TreeMesh1D.pxd,sha256=MLDmCn0G8aaGYzh-lOJ01DbcRYbkZl24bQDGCL-TNgA,777
+BDMesh/TreeMesh1DUniform.cp37-win_amd64.pyd,sha256=GVa0qY8Zy2Uz_t8cdjciwY0pl8QA5_HTWNcWRVe3THo,162304
+BDMesh/TreeMesh1DUniform.pxd,sha256=Zd6tIPKlOO2t7gAoGEgrZVbLDPgC-QeDBgBOLAR8lX8,207
+BDMesh/__init__.py,sha256=03nfhOv8UivsywogGsnjP2wIlP9clok-X4U9S0TNrME,191
+BDMesh/_helpers.cp37-win_amd64.pyd,sha256=d1KIlzXI94ipEuTDDj8Qu4pUqdfHZX9y3MrDLp_DkhA,156160
+BDMesh/_version.py,sha256=LrTJD8Qyf8xK1K_v8OYPPsZXajI_gqa097j6vBHKlS8,24
+BDMesh-0.2.18.dist-info/LICENSE.txt,sha256=Pd-b5cKP4n2tFDpdx27qJSIq0d1ok0oEcGTlbtL6QMU,11560
+BDMesh-0.2.18.dist-info/METADATA,sha256=dXrf86XfPALWM3rWYPVmPsQUXAVtQIeR9FcG1lJceEc,231
+BDMesh-0.2.18.dist-info/NOTICE.txt,sha256=Rnaucv4iM-ivu3mWbwCRXYYTspgjSmHVrnEYSbLx14c,79
+BDMesh-0.2.18.dist-info/WHEEL,sha256=-FqDJjo4HrkrIaThvtAYef2eEAn1_QvVe5nINCnUEbQ,101
+BDMesh-0.2.18.dist-info/top_level.txt,sha256=2d5caCnDQ7xIObrSmMfvlWiqXTDLSo5PURDZp9Qz3b4,7
+BDMesh-0.2.18.dist-info/RECORD,,
