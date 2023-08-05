@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: docqa
+Version: 0.0.1
+Summary: DocQA: An easy way to extract information from documents
+Home-page: https://github.com/impira/docqa
+Author: Impira Engineering
+Author-email: engineering@impira.com
+Project-URL: Bug Tracker, https://github.com/impira/docqa/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8.0
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: cli
+Provides-Extra: all
+License-File: LICENSE
+
+# DocQA: An easy way to extract information from documents
+
+## License
+
+This project is licensed under the [MIT license](LICENSE).
+
+It contains code that is copied and adapted from transformers (https://github.com/huggingface/transformers),
+which is [Apache 2.0 licensed](http://www.apache.org/licenses/LICENSE-2.0). Files containing this code have
+been marked as such in their comments.
