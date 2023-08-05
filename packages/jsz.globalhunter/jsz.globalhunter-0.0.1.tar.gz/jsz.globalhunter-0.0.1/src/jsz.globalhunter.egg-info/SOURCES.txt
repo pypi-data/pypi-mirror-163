@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/jsz.globalhunter.egg-info/PKG-INFO
+src/jsz.globalhunter.egg-info/SOURCES.txt
+src/jsz.globalhunter.egg-info/dependency_links.txt
+src/jsz.globalhunter.egg-info/requires.txt
+src/jsz.globalhunter.egg-info/top_level.txt
+src/jsz/globalhunter/__init__.py
+src/jsz/globalhunter/main.py
