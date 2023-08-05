@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+passwordPy/__init__.py
+passwordPy/help.py
+passwordPy/passwordPy.py
+passwordPy.egg-info/PKG-INFO
+passwordPy.egg-info/SOURCES.txt
+passwordPy.egg-info/dependency_links.txt
+passwordPy.egg-info/top_level.txt
