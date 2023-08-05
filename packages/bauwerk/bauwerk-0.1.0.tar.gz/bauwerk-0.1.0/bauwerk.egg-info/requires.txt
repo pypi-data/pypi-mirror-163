@@ -1,0 +1,6 @@
+gym
+numpy
+loguru
+
+[cvxpy]
+cvxpy
