@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+slicevis/__init__.py
+slicevis/image.py
+slicevis/load.py
+slicevis/widget.py
+slicevis.egg-info/PKG-INFO
+slicevis.egg-info/SOURCES.txt
+slicevis.egg-info/dependency_links.txt
+slicevis.egg-info/not-zip-safe
+slicevis.egg-info/requires.txt
+slicevis.egg-info/top_level.txt

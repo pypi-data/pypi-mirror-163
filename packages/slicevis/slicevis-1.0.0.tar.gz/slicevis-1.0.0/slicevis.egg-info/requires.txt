@@ -1,0 +1,9 @@
+numpy
+pygff
+nibabel
+matplotlib
+plotly
+ipywidgets
+nbformat>=4.2.0
+wheel
+pandas
