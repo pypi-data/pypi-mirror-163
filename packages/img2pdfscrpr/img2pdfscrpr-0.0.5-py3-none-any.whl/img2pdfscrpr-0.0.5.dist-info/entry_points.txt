@@ -1,0 +1,3 @@
+[console_scripts]
+img2pdfscrpr=img2pdfscrpr.img2pdfscrpr:main
+
