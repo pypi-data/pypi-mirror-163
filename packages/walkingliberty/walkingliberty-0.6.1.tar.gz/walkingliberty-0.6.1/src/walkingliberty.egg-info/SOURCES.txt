@@ -1,0 +1,15 @@
+LICENSE.txt
+README.md
+pyproject.toml
+setup.cfg
+src/walkingliberty/__init__.py
+src/walkingliberty/cli.py
+src/walkingliberty/py.typed
+src/walkingliberty/utilities.py
+src/walkingliberty.egg-info/PKG-INFO
+src/walkingliberty.egg-info/SOURCES.txt
+src/walkingliberty.egg-info/dependency_links.txt
+src/walkingliberty.egg-info/entry_points.txt
+src/walkingliberty.egg-info/not-zip-safe
+src/walkingliberty.egg-info/requires.txt
+src/walkingliberty.egg-info/top_level.txt

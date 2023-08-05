@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: walkingliberty
+Version: 0.6.1
+Summary: Basic, stateless wallet using HD type 1.
+Author: SporeStack
+Author-email: support@sporestack.com
+License: Unlicense
+Keywords: bitcoin,bitcoincash,bitcoinsv
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+
+# Walking Liberty: Python 3
+## Make Bitcoin/Bitcoin Cash/Bitcoin SV payments as easy as spending a Walking Liberty.
+
+This software is provided **without warranty**. Use it at your own peril. Read the source code, understand what it does, consult with experts, etc. If you use it incorrectly or there's a bug and you lose your magic internet money, the author(s) are not liable.
+
+## Usage
+
+By default, uses a single-address deterministic type 1 wallet. Can use a single-address wif as well.
+
+```
+pip3 install walkingliberty
+
+
+# Get address for 'satoshi'
+walkingliberty address satoshi
+
+# Get balance for 'satoshi'
+walkingliberty balance satoshi
+
+# Get balance for '5JN8q7UXFvsUTMuwePHxzd9byVGaeKvmMA6ZdV4fS4gYYiptMUc'
+walkingliberty --wallet-mode wif 5JN8q7UXFvsUTMuwePHxzd9byVGaeKvmMA6ZdV4fS4gYYiptMUc balance
+
+# Get balance for '5JN8q7UXFvsUTMuwePHxzd9byVGaeKvmMA6ZdV4fS4gYYiptMUc' in USD
+walkingliberty --wallet-mode wif 5JN8q7UXFvsUTMuwePHxzd9byVGaeKvmMA6ZdV4fS4gYYiptMUc balance --unit usd
+
+# Send 10,000 Satoshis from 'potato' to 1address
+walkingliberty send potato 1address 10000
+
+# If you want to work with Bitcoin Cash, use --currency with all calls. For example:
+walkingliberty --currency bch balance satoshi
+walkingliberty --currency bch send potato 1address 10000
+
+# Bitcoin SV...
+walkinglibery --currency bsv balance satoshi
+walkingliberty --currency bsv send potato 1address 10000
+# etc
+
+# Get balance by address
+walkingliberty --wallet-mode address balance 1address
+```
+
+Note that your phrase is likely to show up in ps output, which can be a security risk. You can control /proc access on Linux (and the equivalent systems calls on FreeBSD) with the right mount options or sysctl tunables. Probably a wise idea, anyway.
+
+# Licence
+
+[Unlicense/Public domain](LICENSE.txt)

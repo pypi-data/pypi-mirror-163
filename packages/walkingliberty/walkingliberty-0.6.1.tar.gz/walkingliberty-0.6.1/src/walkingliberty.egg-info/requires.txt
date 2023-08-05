@@ -1,0 +1,4 @@
+bit
+bitcash>=0.5.0
+bitsv>=0.9.0
+segno
