@@ -1,0 +1,9 @@
+mmdf/__init__.py,sha256=pZwDxd_65zuLivFWZ_Fw408B7BdXDrLw_2845u1HLjc,28
+mmdf/_version.py,sha256=LMm5XNCiIX0-d8PhBu6GowizEsy50WYpNYJ8Jet6s64,176
+mmdf/functions.py,sha256=gVl1MSvhCctPfv6FMyW5YB8OcQw5lpReL6oCkjs9mtQ,289
+mmdf/gemmi.py,sha256=QRV9i4E_vUQQ6mlyo8SiiS7jmoa9-xDohjbU4PhzXbU,1033
+mmdf-0.0.1.dist-info/LICENSE,sha256=NSx_gI_fyRcC3dJ7DEF49irH0BjsO-e-YDfHlv8-Ss4,1518
+mmdf-0.0.1.dist-info/METADATA,sha256=qQcPn-M8aToSx4TjDjwEly7-irH2oMTR0u-9piTecDA,2128
+mmdf-0.0.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+mmdf-0.0.1.dist-info/top_level.txt,sha256=Q8xIzbGldS6G09NzhUluLHD9A5v1xhXb2MbuDAgJKhA,5
+mmdf-0.0.1.dist-info/RECORD,,
