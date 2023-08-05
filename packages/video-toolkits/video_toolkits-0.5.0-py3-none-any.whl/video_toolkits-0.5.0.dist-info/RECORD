@@ -1,0 +1,10 @@
+video_toolkits/__init__.py,sha256=p5kfBUewF55_URBh0635xPIWGsKxzBO2SWgLkgqsRMw,69
+video_toolkits/__version__.py,sha256=4lqQI65eTnI6ZwZRNk2XIZqLc4UVQNyHHBPRQNiRquk,64
+video_toolkits/core.py,sha256=uQzcwa_-FuJ2EoU_1Hm-BGSK3irnUAZJkwIoD5qn6S8,4205
+video_toolkits/draw.py,sha256=G6YleWa4QkwWPQo7O29uM4NoaSmVEuVBg2V88WQLlms,6932
+video_toolkits/json_toolkits.py,sha256=nRZUGHtKvkdVmM_pgZdSAhcxrFl3AwtJkqnOunodS7g,271
+video_toolkits-0.5.0.dist-info/LICENSE,sha256=5mGKT-8JivLkYytFwVxN4KGDFE_yBq8WU3VdjGwRQ7k,1060
+video_toolkits-0.5.0.dist-info/METADATA,sha256=jT04e66V1wKUQ2bOlBOoclh760t0-vw5m37RbUmPOMk,2931
+video_toolkits-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+video_toolkits-0.5.0.dist-info/top_level.txt,sha256=Rjxg-ypEjRCMeoKBFGnOHDp5Yx7mLumlFtx7zkPYOlI,15
+video_toolkits-0.5.0.dist-info/RECORD,,
