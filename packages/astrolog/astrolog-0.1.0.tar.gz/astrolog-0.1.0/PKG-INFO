@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: astrolog
+Version: 0.1.0
+Summary: High-level astrology methods based on Swiss Ephemeris
+Author: Ign. Aiom Ominous
+Author-email: aiom.ominous@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pyswisseph (==2.10.02.0.dev1)
