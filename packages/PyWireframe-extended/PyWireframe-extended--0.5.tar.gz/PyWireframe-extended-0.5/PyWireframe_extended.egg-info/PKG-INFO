@@ -1,0 +1,56 @@
+Metadata-Version: 1.1
+Name: PyWireframe-extended
+Version: 0.5
+Summary: This is an extended version of package PyWireframe. Some bugs from the old version have been fixed.
+Home-page: https://pypi.org/project/PyWireframe-extended/
+Author: Uploader: 七分诚意
+Author-email: UNKNOWN
+License: UNKNOWN
+Keywords: pywireframe,turtle,3d,graphics,绘图
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Education
+Description:
+.. image:: https://tiebapic.baidu.com/forum/pic/item/4e4a20a4462309f707621658650e0cf3d7cad66f.jpg
+    :alt: Build passing
+.. image:: https://tiebapic.baidu.com/forum/pic/item/d1a20cf431adcbefc104ee4cbbaf2edda3cc9f4c.jpg
+    :alt: 100% test coverage
+
+*This is an extended version of package PyWireframe. Some bugs from the old version have been fixed.*
+
+PyWireframe-extended V0.5
+=========================
+
+PyWireframe is a Python library for creating 3D wireframe graphics. 
+It's highly inefficient (it uses turtle graphics) and doesn't support rotation.
+
+Installation
+------------
+
+Use the package manager [pip](https://pip.pypa.io/en/stable/) to install
+PyWireframe.
+
+# `pip install PyWireframe`
+
+Usage
+-----
+PyWireframe has three different ways of rendering - [Objects](https://github.com/HyperHamster535/PyWireframe/wiki/Objects), [Shapes](https://pywireframe.readthedocs.io/en/latest/Usage/Objects.html), and [Dyanmic Objects](https://pywireframe.readthedocs.io/en/latest/Usage/Dynamic-Objects.html). For info on the syntax for using these, [see the doc](https://github.com/HyperHamster535/PyWireframe/wiki/).
+
+To start PyWireframe, use `start()`.
+
+To add objects use function `addObject`.
+
+To render all existing objects, use `refresh()`.
+
+To exit PyWireframe, use `exit()`.
+
+You can also stop PyWireframe from printing to the console with `printMode(mode)`. More info can be found on the [readthedocs.io](https://pywireframe.readthedocs.io/en/latest/).
+
+.. image:: https://tiebapic.baidu.com/forum/pic/item/21a4462309f79052f53ccb741bf3d7ca7bcbd55d.jpg
+    :alt: Preview
+
+
+上传者 Uploader:
+
+*七分诚意 qq:3076711200 百度贴吧账号:qfcy_*
