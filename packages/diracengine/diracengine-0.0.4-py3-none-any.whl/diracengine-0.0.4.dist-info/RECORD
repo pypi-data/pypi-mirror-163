@@ -1,0 +1,11 @@
+dirac/__init__.py,sha256=LyC8I6qcAumg-D4ZkZDMS3VsmYqVD2oJMivEtIGkGp0,287
+dirac/complex.py,sha256=JZlow2PHO2GLfV-5tHynl74d19MOR8Qn1qUO5TqzzYw,3702
+dirac/complexmatrix.py,sha256=bW60u4JB5HZic1597XlEUgoTQFjeojM3ctGQiIDqtE0,4365
+dirac/constant.py,sha256=K2Ea2b4tgwuF4-h6RPamewVXJCnyP2RCnQXPFUpL740,276
+dirac/operator.py,sha256=GE27U1CGsThu5ZeHEBsXg0eIiwcWZuVIpos-_D1wD5w,4260
+dirac/state.py,sha256=n9NxjO-J5hoQsCGztSQUBYCqehacLwEs5-TnS76Hj1g,13490
+dirac/wavefunction.py,sha256=EJYbUuKWwA61rJFuHSG-MtTCaWnqzjLIPHO0kZQlDXI,1482
+diracengine-0.0.4.dist-info/METADATA,sha256=_1Ihv9Wp3P7XDMxbVgL5ji3Uft48DlYiU4f9x1gcXqA,748
+diracengine-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+diracengine-0.0.4.dist-info/top_level.txt,sha256=z9v2GJvc8unui62XCc8m92LV0K5vW7zmH6sTUch7_7I,6
+diracengine-0.0.4.dist-info/RECORD,,
