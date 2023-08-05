@@ -1,0 +1,10 @@
+gpquant/Backtester.py,sha256=JdE8h_7Sz-BORQl8I0t5Fwc6WwtMHzcX7S6G2wtqJZs,3830
+gpquant/Fitness.py,sha256=0Mm-t357_W7Mbl6qGFnTMm8FU8EibHbVxEELkvUgWw0,2436
+gpquant/Function.py,sha256=OGx8IRk-Hxrj_MvHrqRKUB8_IrexNIVt14vJYaoIyOM,19094
+gpquant/SymbolicRegressor.py,sha256=h5lIi6Q0UrqAQaNvY6Sv7REi0fv_X-Zs0FirtIcZTHE,5795
+gpquant/SyntaxTree.py,sha256=rjTLj4PNfJvM2cPJHBkod4QaJ8fZeaih3FBquq4ClvE,13567
+gpquant/__init__.py,sha256=yY_37ClVJvCbn7EgBo40bMu89KZ5VfU9jt8tCc53pZw,259
+gpquant-0.1.6.dist-info/METADATA,sha256=hpFBXdX9KJZi6_t_F1D2iZJ7r8h6_v8VgSKHxxNgnRI,4004
+gpquant-0.1.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gpquant-0.1.6.dist-info/top_level.txt,sha256=hTHvR5dc2a6vCz7ilcJSpZ3aO111OyTpJ6E9ZU03DAQ,8
+gpquant-0.1.6.dist-info/RECORD,,
