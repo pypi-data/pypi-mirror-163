@@ -1,0 +1,2 @@
+[nbdev]
+ericnbdev = ericnbdev._modidx:d
