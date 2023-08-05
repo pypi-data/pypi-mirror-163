@@ -1,0 +1,9 @@
+native/np3.c,sha256=IrDV_JYzvR5AamVaeBxct4XtkxPP-XiH_6WzIRDTgqU,3019
+native/minimp3.h,sha256=X7KWp5BzR3K2WlUUQ4zAbRTyTlOcE0df8qf3N2gcgsA,76802
+np3-0.1.post1.dist-info/RECORD,,
+np3-0.1.post1.dist-info/LICENSE,sha256=HyVuytGSiAUQ6ErWBHTqt1iSGHhLmlC8fO7jTCuR8dU,16725
+np3-0.1.post1.dist-info/WHEEL,sha256=jayqYrAosS3odcjiKky54F_blKy4cFbbM5mkgy7OW3o,217
+np3-0.1.post1.dist-info/top_level.txt,sha256=zhycj23Lrw9xpD1J0HCf0yIMV1Wc3v3B_02_-VVPI-U,11
+np3-0.1.post1.dist-info/METADATA,sha256=4b_rGsxxTHtMbXe9NWwLuo2K--2Uv_tcdTCz_t01wOE,1703
+np3/_native.cpython-311-i386-linux-gnu.so,sha256=5STiDIXOXw396hfecTks9Ld9ZYOHrh-nxq4jKBvsT38,310876
+np3/__init__.py,sha256=i-S2hnKW8TQUzmxRTZZZbZmiLEE8jtOGjd6Ih3qmvho,1643
