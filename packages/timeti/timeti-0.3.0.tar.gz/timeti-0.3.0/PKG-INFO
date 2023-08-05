@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: timeti
+Version: 0.3.0
+Summary: Serialize elapsed time of functions, loops and code blocks.
+Author-email: Ilia Lazarev <the.ilia.lazarev@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2020 kephircheek
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/kephircheek/elapsed-time-logger
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# timeti
+Serialize elapsed time of functions, loops and code blocks.
+
+![test](https://github.com/kephircheek/elapsed-time-logger/actions/workflows/main.yml/badge.svg)
+[![license: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
+[![code style: black](https://img.shields.io/badge/code%20style-black-000000.svg)](https://github.com/psf/black)
+
+
+## Development
+
+### Install 
+```
+pip install -e ".[dev]"
+```
+
+### Run linters
+
+- Run [black](https://github.com/psf/black) - code formatter
+  ```
+  python -m black .
+  ```
+
+- Run [mypy](http://mypy-lang.org/) - static type checker
+  ```
+  python -m mypy .
+  ```
+
+- Run [isort](https://pycqa.github.io/isort/) - library to sort imports alphabetically
+  ```
+  python -m isort .
+  ```
+  
+
+### Run tests  
+
+- Run tests   
+  ```  
+  python -m unittest discover -s tests  
+  ```  
+
+- Run doctests for clock face  
+  ```  
+  python -m doctest -v timeti/clockface.py  
+  ```  
