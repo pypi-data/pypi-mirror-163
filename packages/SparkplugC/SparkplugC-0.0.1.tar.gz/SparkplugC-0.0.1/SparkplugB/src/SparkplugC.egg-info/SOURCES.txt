@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+SparkplugB/src/SparkplugC.egg-info/PKG-INFO
+SparkplugB/src/SparkplugC.egg-info/SOURCES.txt
+SparkplugB/src/SparkplugC.egg-info/dependency_links.txt
+SparkplugB/src/SparkplugC.egg-info/top_level.txt
+SparkplugB/src/SparkplugC.egg-info/SOURCES.txt
