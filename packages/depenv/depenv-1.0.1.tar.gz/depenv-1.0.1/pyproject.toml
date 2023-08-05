@@ -1,0 +1,38 @@
+[project]
+name = "depenv"
+dynamic = ["version"]
+description = "Inject dependencies via environment variables"
+readme = "README.md"
+authors = [{name = "Jordan Sanders"}]
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 3 - Alpha",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT No Attribution License (MIT-0)",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+    "Programming Language :: Python :: 3.11",
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python",
+    "Topic :: Software Development",
+]
+
+[project.optional-dependencies]
+dev = [
+  "black",
+  "isort",
+  "flake8",
+  "pytest",
+]
+
+[build-system]
+requires = ["setuptools", "setuptools_scm[toml]"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools_scm]
+local_scheme = "no-local-version"
+
+[tool.isort]
+profile = "black"

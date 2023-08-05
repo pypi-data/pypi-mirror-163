@@ -1,0 +1,47 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - "**"
+
+jobs:
+  Lint:
+    uses: ./.github/workflows/lint.yml
+
+  Test:
+    uses: ./.github/workflows/test.yml
+
+  Build:
+    uses: ./.github/workflows/build.yml
+
+  TestPyPI:
+    needs: ["Lint", "Test", "Build"]
+    uses: ./.github/workflows/publish.yml
+    with:
+      twine_repository: testpypi
+    secrets:
+      twine_password: ${{ secrets.TEST_TWINE_PASSWORD }}
+      twine_username: ${{ secrets.TEST_TWINE_USERNAME }}
+
+  PyPI:
+    needs: ["TestPyPI"]
+    uses: ./.github/workflows/publish.yml
+    with:
+      twine_repository: pypi
+    secrets:
+      twine_password: ${{ secrets.TWINE_PASSWORD }}
+      twine_username: ${{ secrets.TWINE_USERNAME }}
+
+  Release:
+    needs: ["PyPI"]
+
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+
+      - name: Create GitHub release
+        run: gh release create ${{ github.ref_name }} --generate-notes
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
