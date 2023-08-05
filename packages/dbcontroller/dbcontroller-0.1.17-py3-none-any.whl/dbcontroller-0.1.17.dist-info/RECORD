@@ -1,0 +1,16 @@
+dbcontroller/__init__.py,sha256=53RjgXQ7Su7TQ3H7ChKCf44HV8N8MY7xmPn6xlAZG6E,115
+dbcontroller/__main__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dbcontroller/manager/__init__.py,sha256=jlNa-7N_JWaj3D51OlL906rsZLAGlRl5FVQ06gpmXMs,118
+dbcontroller/manager/mongo.py,sha256=gh512EsQtN0pQyDAw8Fjl94gC9XZVTuglzCEoM_BSeI,5782
+dbcontroller/manager/sql.py,sha256=Ek6M064VdnlFUvo7TsHQNrIkxRatb4RQEqcIkXpc-ZU,8111
+dbcontroller/manager/utils/__init__.py,sha256=mtO4oH4qtOj6qyCJLujP8uhvKboZR8z73N1ZpLkpCr4,572
+dbcontroller/manager/utils/ids.py,sha256=XEg7fQEHDIEI9p-BEDCuxwtOvSrB77AHLMQmkRvzphk,1448
+dbcontroller/manager/utils/object_id.py,sha256=4w7eqVT1fmU3dGTXytAbmnPj-ZCswwMUdQKDNuB30jk,592
+dbcontroller/manager/utils/pagination.py,sha256=tn3l1B1qTRqWXw8YsnZeo_lM3auVF1XT5jpfvSg0zOw,294
+dbcontroller/manager/utils/response.py,sha256=aHfkjOkxmszYmS92mWHqqFa9sUS7hjh3o41jDRt2jmE,324
+dbcontroller/manager/utils/row_handler.py,sha256=NcFnqSWfa2BgWO-nv7c5LXDZRWqhUJBOU8cWpQg1ZsI,1051
+dbcontroller/manager/utils/sql_where.py,sha256=WYJERsuzIRaaZLN7qUzsJLYlffylllLG9EJlwyIyoTw,8118
+dbcontroller-0.1.17.dist-info/WHEEL,sha256=g_UdFZqm-k6b0W64OcndB0YT_D2mFFPAYBj7-_YsSPA,87
+dbcontroller-0.1.17.dist-info/METADATA,sha256=Z5JvUJwV6I1SZxNwpmBqzkD8X7XI_zWxWcLvDji6djs,1419
+dbcontroller-0.1.17.dist-info/license_files/LICENSE.txt,sha256=-P8pg4zWBLL03qD_ZLIyVWkEQNS3MglOOdgRQ4BxffA,1084
+dbcontroller-0.1.17.dist-info/RECORD,,
