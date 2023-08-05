@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: jsz.globalhunter
+Version: 0.0.2
+Summary: A tool for hunting down mutable global variables in C/C++ code.
+Author: Jacek Szymonek
+Author-email: jacek.a.szymonek@gmail.com
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: Topic :: Utilities
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: libclang (>=14.0.6)
+
+# Global hunter
+
+A tool for hunting down global variables in C/C++ code.
