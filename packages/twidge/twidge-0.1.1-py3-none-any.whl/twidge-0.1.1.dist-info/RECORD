@@ -1,0 +1,14 @@
+twidge/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+twidge/__main__.py,sha256=8hDtWlaFZK24KhfNq_ZKgtXqYHsDQDetukOCMlsbW0Q,59
+twidge/cli.py,sha256=f6A5gkWU793xtx6ONoxk2pFqIb41ETx7kROzZiMhofg,944
+twidge/echoers.py,sha256=AnCMF6TOxS1gv9NY2lchYtlmByREDwsIeB2gPHoMAPQ,1331
+twidge/editors.py,sha256=7Ti8N9wxN_mNmz1fZ7d-LFwH6mhzALLCZhoZAs_GAu0,6336
+twidge/keymap.py,sha256=yFgzzWR4oTvBnArtYrD3xeVFGjd3TizZDU22vvitQYk,2190
+twidge/searchers.py,sha256=F4xX9jptIbYntxo3PVguuMkk_yXeV3RgZkuexrMg6lI,1752
+twidge/terminal.py,sha256=zj62zRky5fA8vckpmsii8qS_4_TufjYTMJItrV1ofAQ,4918
+twidge/textentry_textual.py,sha256=IJKUteDvQskVKei35vB0A9vAbxEG-DCHHDiz2KFyg4E,4580
+twidge-0.1.1.dist-info/entry_points.txt,sha256=38wWTAEltygl5ordGRgbAg1wSuFXpKGoLp2yB7SM_iQ,41
+twidge-0.1.1.dist-info/LICENSE,sha256=4PtbUmV39_L7uI2cWPKDIGcVt8V2Wylryz40yhF89aA,1074
+twidge-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+twidge-0.1.1.dist-info/METADATA,sha256=b9ltIl0oEgDBjhEmGkNDHrGdnaYQoKrOn48y6JyYWrA,1283
+twidge-0.1.1.dist-info/RECORD,,
