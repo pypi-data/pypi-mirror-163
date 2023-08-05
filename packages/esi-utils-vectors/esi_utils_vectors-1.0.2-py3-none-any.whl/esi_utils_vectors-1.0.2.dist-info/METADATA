@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: esi-utils-vectors
+Version: 1.0.2
+Summary: USGS Earthquake Impact Utilities for Vectors
+Home-page: https://code.usgs.gov/ghsc/esi/esi-utils-vectors
+Author: Mike Hearne
+Author-email: mhearne@usgs.gov
+License: CC0 1.0
+Requires-Python: >=3.8
+License-File: LICENSE.md
+Requires-Dist: esi-extern-openquake (>=1.0.0)
+Requires-Dist: numpy (>=1.21)
+Provides-Extra: test
+Requires-Dist: pytest (>=6.2) ; extra == 'test'
+
