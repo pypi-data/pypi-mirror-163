@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+somq/__init__.py
+somq/message_queue.py
+somq/test_message_queue.py
+somq.egg-info/PKG-INFO
+somq.egg-info/SOURCES.txt
+somq.egg-info/dependency_links.txt
+somq.egg-info/top_level.txt
