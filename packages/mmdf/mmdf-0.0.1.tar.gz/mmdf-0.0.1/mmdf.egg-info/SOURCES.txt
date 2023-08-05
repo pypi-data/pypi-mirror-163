@@ -1,0 +1,17 @@
+.gitignore
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+.github/workflows/test_and_deploy.yml
+mmdf/__init__.py
+mmdf/_version.py
+mmdf/functions.py
+mmdf/gemmi.py
+mmdf.egg-info/PKG-INFO
+mmdf.egg-info/SOURCES.txt
+mmdf.egg-info/dependency_links.txt
+mmdf.egg-info/not-zip-safe
+mmdf.egg-info/requires.txt
+mmdf.egg-info/top_level.txt
+tests/test_functions.py
