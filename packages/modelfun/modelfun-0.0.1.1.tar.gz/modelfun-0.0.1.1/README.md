@@ -1,0 +1,80 @@
+
+# Modelfun Python SDK
+
+This package provides functionality developed to simplify interfacing with the [MODELFUN API] in Python 3.
+
+## Installation
+
+The package can be installed with `pip`:
+
+```bash
+pip install --upgrade modelfun
+```
+
+Install from source:
+
+```bash
+python setup.py install
+```
+
+### Requirements
+- Python 3.6+
+
+## Quick Start
+
+To use this library, you must have an API key and specify it as a string when creating the `modelfun.Client` object. API keys can be created through the [platform](https://www.modelfun.cn/). This is a basic example of the creating the client and using the `generate` endpoint.
+
+### Generate
+```python
+import modelfun
+
+# initialize the Modelfun Client with an API Key
+mo = modelfun.Client('YOUR_API_KEY')
+
+# generate a prediction for a prompt 
+prediction = mo.generate(
+            model_name='modelfun',
+            prompt='新闻分类：\n今天（3日）稍早，中时新闻网、联合新闻网等台媒消息称，佩洛西3日上午抵台“立法院”，台湾新党一早8时就到台“立法院”外抗议，高喊：“佩洛西，滚蛋！”台媒报道称，新党主席吴成典表示，佩洛西来台一点道理都没有，“平常都说来者是客，但这次来的是祸！是来祸害台湾的。”他说，佩洛西给台湾带来祸害，“到底还要欢迎什么”。\n选项：财经，法律，国际，军事\n答案：')
+            
+# print the predicted text          
+print('prediction: {}'.format(prediction.generations[0].text))
+```
+### Classify
+```python
+import modelfun
+from modelfun.classify import Example
+# initialize the Modelfun Client with an API Key
+mo = modelfun.Client('YOUR_API_KEY')
+response = mo.classify(model_name='modelfun',
+  task_name='意图分类',
+  inputs=["世界充满了欺骗", "世界和平"],
+  examples=[Example("基本都是欺骗", "消极"), Example("基本都是惊喜", "积极")],
+  labels = ["消极", "积极", "中立"])
+  
+print('结果: {}'.format(
+       response.classifications))
+```
+
+
+## Versioning
+To use the SDK with a specific API version, you can specify it when creating the Modelfun Client:
+
+```python
+import modelfun
+
+mo = modelfun.Client('YOUR_API_KEY', '2022-08-08')
+```
+
+## Endpoints
+
+Modelfun Endpoint | Function
+----- | -----
+/generate  | mo.generate()
+/classify | mo.classify()
+
+## Models
+When you call Modelfun's APIs we decide on a good default model for your use-case behind the scenes. The default model is great to get you started, but in production environments we recommend that you specify the model size yourself via the `model` parameter.
+
+## Responses
+All of the endpoint functions will return a Modelfun object corresponding to the endpoint (e.g. for generation, it would be `Generation`). The responses can be found as instance variables of the object (e.g. generation would be `Generation.text`). Printing the Modelfun response object itself will display an organized view of the instance variables.
+
