@@ -1,0 +1,8 @@
+pyusb
+future
+ipython
+pyserial
+numpy
+
+[specan]
+PySide2==5.12.0
