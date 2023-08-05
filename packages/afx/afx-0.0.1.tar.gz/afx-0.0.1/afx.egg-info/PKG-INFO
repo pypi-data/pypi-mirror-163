@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: afx
+Version: 0.0.1
+Summary: Implements the Terraform Registry API in AWS Lambda
+
+Implements the Terraform Registry API in AWS Lambda

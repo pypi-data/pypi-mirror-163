@@ -1,0 +1,6 @@
+boto3
+fastapi
+mangum
+dynamojo
+mypy_boto3_dynamodb
+semantic_version
