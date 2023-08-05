@@ -1,0 +1,5 @@
+[console_scripts]
+termage = pytermgui.__main__:main
+
+[mkdocs.plugins]
+markdown-exec = termage.mkdocs_plugin:TermagePlugin
