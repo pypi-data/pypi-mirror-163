@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: KavModule
+Version: 0.0.1
+Summary: A library that can do basic high school science, english, and math.
+Author: Kavish Arora
+Requires-Python: >=3.6
+License-File: LICENSE
+
