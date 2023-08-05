@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/wallex/__init__.py
+src/wallex/client.py
+src/wallex/request.py
+src/wallex/schema.py
+src/wallex/utils.py
+src/wallex_python.egg-info/PKG-INFO
+src/wallex_python.egg-info/SOURCES.txt
+src/wallex_python.egg-info/dependency_links.txt
+src/wallex_python.egg-info/requires.txt
+src/wallex_python.egg-info/top_level.txt
