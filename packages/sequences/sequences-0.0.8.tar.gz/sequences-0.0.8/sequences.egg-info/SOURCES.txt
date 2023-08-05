@@ -1,0 +1,8 @@
+LICENSE.txt
+README.md
+setup.py
+sequences/__init__.py
+sequences.egg-info/PKG-INFO
+sequences.egg-info/SOURCES.txt
+sequences.egg-info/dependency_links.txt
+sequences.egg-info/top_level.txt
