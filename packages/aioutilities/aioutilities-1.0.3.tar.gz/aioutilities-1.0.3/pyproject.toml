@@ -1,0 +1,50 @@
+[tool.poetry]
+name = "aioutilities"
+version = "1.0.3"
+readme = "README.md"
+repository = "https://github.com/kkirsche/aioutilities"
+description = "asyncio-powered coroutine worker pool"
+license = "MIT"
+authors = ["Kevin Kirsche <kev.kirsche@gmail.com>"]
+include = ["README.md", "LICENSE"]
+
+[[tool.poetry.packages]]
+from = "src"
+include = "aioutilities"
+
+[tool.poetry.dependencies]
+python = ">=3.8, <4"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+isort = "^5.10.1"
+example-isort-formatting-plugin = "^0.0.4"
+black = "^22.6.0"
+mypy = "^0.971"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.poetry.scripts]
+aioutilities-example = "aioutilities.example:run_example"
+
+[tool.isort]
+formatter = "example"
+profile = "black"
+remove_redundant_aliases = true
+sort_order = "natural"
+
+[tool.black]
+include = '\.pyi?$'
+line-length = 88
+target-version = ['py310']
+
+[tool.mypy]
+follow_imports = "normal"
+platform = "linux"
+plugins = []
+python_version = "3.8"
+strict = true
+warn_return_any = true
+warn_unused_configs = true
