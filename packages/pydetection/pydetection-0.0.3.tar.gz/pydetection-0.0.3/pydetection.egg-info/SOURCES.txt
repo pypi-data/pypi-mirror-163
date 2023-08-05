@@ -1,0 +1,9 @@
+LICENCE
+README.md
+setup.py
+pydetection/__init__.py
+pydetection/hand.py
+pydetection.egg-info/PKG-INFO
+pydetection.egg-info/SOURCES.txt
+pydetection.egg-info/dependency_links.txt
+pydetection.egg-info/top_level.txt
