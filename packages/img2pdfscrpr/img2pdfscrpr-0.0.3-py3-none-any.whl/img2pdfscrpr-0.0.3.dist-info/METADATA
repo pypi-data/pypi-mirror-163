@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: img2pdfscrpr
+Version: 0.0.3
+Summary: Image to PDF Web Scraper (tailored for Manga)
+License: MIT
+Author: paytonward6
+Author-email: 72841140+paytonward6@users.noreply.github.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=9.2.0,<10.0.0)
+Requires-Dist: beautifulsoup4 (>=4.11.1,<5.0.0)
+Requires-Dist: pathlib (>=1.0.1,<2.0.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
