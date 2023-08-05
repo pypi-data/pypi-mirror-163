@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+structured/__init__.py
+structured/structured.py
+structured/type_checking.py
+structured_classes.egg-info/PKG-INFO
+structured_classes.egg-info/SOURCES.txt
+structured_classes.egg-info/dependency_links.txt
+structured_classes.egg-info/requires.txt
+structured_classes.egg-info/top_level.txt
