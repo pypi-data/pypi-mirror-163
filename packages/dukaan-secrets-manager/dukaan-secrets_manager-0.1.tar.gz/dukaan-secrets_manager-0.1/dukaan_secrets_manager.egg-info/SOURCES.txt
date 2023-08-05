@@ -1,0 +1,5 @@
+setup.py
+dukaan_secrets_manager.egg-info/PKG-INFO
+dukaan_secrets_manager.egg-info/SOURCES.txt
+dukaan_secrets_manager.egg-info/dependency_links.txt
+dukaan_secrets_manager.egg-info/top_level.txt
