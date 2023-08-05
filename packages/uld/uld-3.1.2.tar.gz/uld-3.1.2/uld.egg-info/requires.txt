@@ -1,0 +1,12 @@
+requests
+Pillow
+ansicolors
+numpy
+pysocks
+stem
+appdirs
+
+[auto-captcha]
+
+[auto-captcha:platform_system == "Windows"]
+tensorflow
