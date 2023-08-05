@@ -1,0 +1,8 @@
+{% load cfdi_tags %}
+<cfdi:Addenda>
+    <ASONIOSCOC ordenCompra="{{ orden_compra }}" folio="{{ folio }}" serie="{{ serie }}" noProveedor="224697" tipoProveedor="2">
+        <Partidas>
+            <Partida Otros="N/A" ivaDevengado="0.00" ivaAcreditable="4.40" noPartida="1"/>
+        </Partidas>
+    </ASONIOSCOC>
+</cfdi:Addenda>
