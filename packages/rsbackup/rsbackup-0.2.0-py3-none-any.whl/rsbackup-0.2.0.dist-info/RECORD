@@ -1,0 +1,11 @@
+rsbackup/__init__.py,sha256=H3KLj-QDA07JMnwX6oxb4gDTD9Z17h4GxRKiG8XZDm0,11076
+rsbackup/__main__.py,sha256=vZXsd88Yio0l2hGk34bOL426Z8eujLNERACQ3YGY06U,5622
+rsbackup/main_test.py,sha256=qMZ0ICyWCdaf58sL1PdXgaQ09ARYqiv0SFRba1RkBcU,812
+rsbackup/rsbackup_test.py,sha256=uY165-B16elNWbaPk7JlHXTokfjxkyqCTXJsD6xR2cc,3167
+rsbackup-0.2.0.dist-info/LICENSE,sha256=WNHhf_5RCaeuKWyq_K39vmp9F28LxKsB4SpomwSZ2L0,11357
+rsbackup-0.2.0.dist-info/METADATA,sha256=n1KeF2do6uYUFShy4GWwtOPoAzNC1vDy6BI5FHGT8DU,5257
+rsbackup-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rsbackup-0.2.0.dist-info/entry_points.txt,sha256=BrPH8OSeh6aSYSTQGt8zie9MqT2gkD9sOg6_E4kwcbc,43
+rsbackup-0.2.0.dist-info/top_level.txt,sha256=goGLPR_qYvi_n4n_qrSOhN3JH-ah_x8TzFDmyZYTcy4,9
+rsbackup-0.2.0.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+rsbackup-0.2.0.dist-info/RECORD,,
