@@ -1,0 +1,148 @@
+[tool.poetry]
+name = "py-linq-sql"
+version = "1.0.0.1"
+description = "A Python module used for interacting with sql database using LINQ syntax."
+license = "EUPL v1.2"
+authors = ["CHOSSON Ulysse <ulysse.chosson@obspm.fr>"]
+maintainers = ["CHOSSON Ulysse <ulysse.chosson@obspm.fr>", "MARTIN Pierre-Yves <pierre-yves.martin@obspm.fr>"]
+readme = "README.md"
+repository = "https://gitlab.obspm.fr/exoplanet/py-linq-sql"
+documentation = "https://py-linq-sql.readthedocs.io/en/latest/"
+homepage = "https://gitlab.obspm.fr/exoplanet/py-linq-sql"
+keywords = ["linq", "py-linq", "sql", "database", "requests"]
+
+[tool.poetry.dependencies]
+python = ">=3.10,<3.11"
+rich = "^11.1.0"
+py-linq = "^1.3.0"
+dotmap = "^1.3.26"
+psycopg = "^3.0.11"
+toml = "^0.10.2"
+PyYAML = "^6.0"
+types-toml = "^0.10.7"
+types-PyYAML = "^6.0.9"
+pytest-cov = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.0.0"
+pytest-sugar = "^0.9.4"
+pytest-pudb = "^0.7.0"
+assertpy = "^1.1"
+pre-commit = "^2.17.0"
+black = "^22.1.0"
+xdoctest = "^0.15.10"
+pytest-postgresql = "^4.1.1"
+codespell = "^2.1.0"
+flake8-eradicate = "^1.2.0"
+dlint = "^0.12.0"
+import-linter = {extras = ["toml"], version = "^1.2.7"}
+bandit = {extras = ["toml"], version = "^1.7.4"}
+pydocstyle = {extras = ["toml"], version = "^6.1.1"}
+isort = "^5.10.1"
+mypy = "^0.942"
+sqlfluff = "^0.12.0"
+pylint = "^2.13.7"
+plerr = "^2.0.0"
+flake8 = "3.9"
+flakehell = "^0.9.0"
+flake8-bandit = "^3.0.0"
+flake8-commas = "^2.1.0"
+flake8-quotes = "^3.3.1"
+flit = "^3.7.1"
+m2r2 = "^0.3.2"
+dephell = "^0.8.3"
+tmp-connection-psql = "^1.0.1-beta.0"
+sniffio = "^1.2.0"
+psycopg-pool = "^3.1.1"
+mpmath = "^1.2.1"
+numpy = "v1.21.6"
+mkdocs = "^1.3.0"
+mkdocstrings = {extras = ["python-legacy"], version = "^0.19.0"}
+Pygments = "^2.12.0"
+mkdocs-autorefs = "^0.4.1"
+mdx-truly-sane-lists = "^1.3"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+addopts = "--xdoctest -xl"
+
+[tool.black]
+target-version = ['py310']
+
+[tool.isort]
+py_version = "310"
+profile = "black"
+known_pytest = ["pytest", "pytest_postgresql"]
+sections = ["FUTURE", "PYTEST", "STDLIB", "THIRDPARTY", "FIRSTPARTY", "LOCALFOLDER"]
+import_heading_future = "Future imports"
+import_heading_pytest = "Pytest imports"
+import_heading_stdlib = "Standard imports"
+import_heading_thirdparty = "Third party imports"
+import_heading_firstparty = "First party imports"
+import_heading_localfolder = "Local imports"
+
+[tool.importlinter]
+root_package = "py_linq_sql"
+
+[tools.importlinter.contracts]
+name = "Py-linq-sql layers contract"
+type = "layers"
+layers=["sql_enumerable",
+    "build_request",
+    "utils",
+    "exception"]
+containers=["py_linq_sql"]
+
+[tool.bandit]
+targets = ["py_linq_sql/"]
+skips = ["B608", "B101", "B404"]
+
+[tool.pydocstyle]
+match = '((?!test_).)*\.py'
+
+[tool.mypy]
+python_version = "3.10"
+warn_return_any = true
+warn_unused_configs = true
+disallow_untyped_defs = true
+disallow_incomplete_defs = true
+check_untyped_defs = true
+disallow_untyped_decorators = true
+
+# mypy per-module options:
+
+[[tool.mypy.overrides]]
+module = ["dotmap", "py_linq"]
+ignore_missing_imports = true
+
+[tool.sqlfluff.core]
+dialect = "postgres"
+
+[tool.pylint.message_control]
+output-format = "colorized"
+msg-template = "'{msg_id}: in the file: {path}, at line: {line:}, at column: {column}, in objects: {obj} -> {msg}' py_linq_sql/"
+
+[tool.pylint.miscellaneous]
+notes = ["FIXME","XXX"]
+
+
+[tool.flakehell]
+exclude = ["example.py", "setup.py", "README.rst"]
+max_line_length = 88
+show_source = true
+format = "grouped"
+
+[tool.flakehell.plugins]
+pyflakes = ["+*"]
+flake8-bandit = ["-*", "+S1??"]
+"flake8-*" = ["+*", "-Q000"]
+flake8-commas = ["+*"]
+mccabe = ["+*"]
+pep8-naming = ["+*", "-N812"]
+dlint = ["+*"]
+
+[tool.pylinqsql]
+whitelist = ["toto", "objects", "satellite", "relational_objects", "relational_satellite", "relational_one_column_objects"]
