@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: esi_utils_colors
+Version: 1.0.2
+Summary: USGS Earthquake Impact Utilities for Colors
+Requires-Python: >=3.8
+License-File: LICENSE.md
