@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: oocmap
+Version: 0.3
+Summary: A file-backed dictionary for Python
+Home-page: http://github.com/allenai/oocmap
+Author: Dirk Groeneveld
+Author-email: dirkg@allenai.org
+License: UNKNOWN
+Description: PyPi description upload is broken. Please go to GitHub to see the description.
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
