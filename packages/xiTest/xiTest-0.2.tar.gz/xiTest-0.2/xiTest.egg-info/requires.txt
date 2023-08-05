@@ -1,0 +1,2 @@
+biopython==1.78
+svgwrite==1.4.1

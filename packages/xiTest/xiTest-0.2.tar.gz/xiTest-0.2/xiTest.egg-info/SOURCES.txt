@@ -1,0 +1,17 @@
+LICENSE
+README.txt
+setup.cfg
+setup.py
+xiTest/__init__.py
+xiTest/caculate_site.py
+xiTest/deal_fasta.py
+xiTest/rename_fa.py
+xiTest/run.tools_single.other.py
+xiTest/run.tools_single.py
+xiTest/run.tools_single_noPlot.py
+xiTest/run.tools_single_noPlot_other.py
+xiTest.egg-info/PKG-INFO
+xiTest.egg-info/SOURCES.txt
+xiTest.egg-info/dependency_links.txt
+xiTest.egg-info/requires.txt
+xiTest.egg-info/top_level.txt
