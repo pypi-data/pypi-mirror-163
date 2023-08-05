@@ -1,0 +1,407 @@
+Metadata-Version: 2.1
+Name: sg-otio
+Version: 1.0.0rc3
+Summary: A library for OpenTimelineIO integration with ShotGrid
+Home-page: https://github.com/GPLgithub/sg-otio.git
+Author: GPL Technologies
+Author-email: pipelinesupport@gpltech.com
+License: Apache License
+                                   Version 2.0, January 2004
+                                http://www.apache.org/licenses/        
+           TERMS AND CONDITIONS FOR USE, REPRODUCTION, AND DISTRIBUTION        
+           1. Definitions.        
+              "License" shall mean the terms and conditions for use, reproduction,
+              and distribution as defined by Sections 1 through 9 of this document.        
+              "Licensor" shall mean the copyright owner or entity authorized by
+              the copyright owner that is granting the License.        
+              "Legal Entity" shall mean the union of the acting entity and all
+              other entities that control, are controlled by, or are under common
+              control with that entity. For the purposes of this definition,
+              "control" means (i) the power, direct or indirect, to cause the
+              direction or management of such entity, whether by contract or
+              otherwise, or (ii) ownership of fifty percent (50%) or more of the
+              outstanding shares, or (iii) beneficial ownership of such entity.        
+              "You" (or "Your") shall mean an individual or Legal Entity
+              exercising permissions granted by this License.        
+              "Source" form shall mean the preferred form for making modifications,
+              including but not limited to software source code, documentation
+              source, and configuration files.        
+              "Object" form shall mean any form resulting from mechanical
+              transformation or translation of a Source form, including but
+              not limited to compiled object code, generated documentation,
+              and conversions to other media types.        
+              "Work" shall mean the work of authorship, whether in Source or
+              Object form, made available under the License, as indicated by a
+              copyright notice that is included in or attached to the work
+              (an example is provided in the Appendix below).        
+              "Derivative Works" shall mean any work, whether in Source or Object
+              form, that is based on (or derived from) the Work and for which the
+              editorial revisions, annotations, elaborations, or other modifications
+              represent, as a whole, an original work of authorship. For the purposes
+              of this License, Derivative Works shall not include works that remain
+              separable from, or merely link (or bind by name) to the interfaces of,
+              the Work and Derivative Works thereof.        
+              "Contribution" shall mean any work of authorship, including
+              the original version of the Work and any modifications or additions
+              to that Work or Derivative Works thereof, that is intentionally
+              submitted to Licensor for inclusion in the Work by the copyright owner
+              or by an individual or Legal Entity authorized to submit on behalf of
+              the copyright owner. For the purposes of this definition, "submitted"
+              means any form of electronic, verbal, or written communication sent
+              to the Licensor or its representatives, including but not limited to
+              communication on electronic mailing lists, source code control systems,
+              and issue tracking systems that are managed by, or on behalf of, the
+              Licensor for the purpose of discussing and improving the Work, but
+              excluding communication that is conspicuously marked or otherwise
+              designated in writing by the copyright owner as "Not a Contribution."        
+              "Contributor" shall mean Licensor and any individual or Legal Entity
+              on behalf of whom a Contribution has been received by Licensor and
+              subsequently incorporated within the Work.        
+           2. Grant of Copyright License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              copyright license to reproduce, prepare Derivative Works of,
+              publicly display, publicly perform, sublicense, and distribute the
+              Work and such Derivative Works in Source or Object form.        
+           3. Grant of Patent License. Subject to the terms and conditions of
+              this License, each Contributor hereby grants to You a perpetual,
+              worldwide, non-exclusive, no-charge, royalty-free, irrevocable
+              (except as stated in this section) patent license to make, have made,
+              use, offer to sell, sell, import, and otherwise transfer the Work,
+              where such license applies only to those patent claims licensable
+              by such Contributor that are necessarily infringed by their
+              Contribution(s) alone or by combination of their Contribution(s)
+              with the Work to which such Contribution(s) was submitted. If You
+              institute patent litigation against any entity (including a
+              cross-claim or counterclaim in a lawsuit) alleging that the Work
+              or a Contribution incorporated within the Work constitutes direct
+              or contributory patent infringement, then any patent licenses
+              granted to You under this License for that Work shall terminate
+              as of the date such litigation is filed.        
+           4. Redistribution. You may reproduce and distribute copies of the
+              Work or Derivative Works thereof in any medium, with or without
+              modifications, and in Source or Object form, provided that You
+              meet the following conditions:        
+              (a) You must give any other recipients of the Work or
+                  Derivative Works a copy of this License; and        
+              (b) You must cause any modified files to carry prominent notices
+                  stating that You changed the files; and        
+              (c) You must retain, in the Source form of any Derivative Works
+                  that You distribute, all copyright, patent, trademark, and
+                  attribution notices from the Source form of the Work,
+                  excluding those notices that do not pertain to any part of
+                  the Derivative Works; and        
+              (d) If the Work includes a "NOTICE" text file as part of its
+                  distribution, then any Derivative Works that You distribute must
+                  include a readable copy of the attribution notices contained
+                  within such NOTICE file, excluding those notices that do not
+                  pertain to any part of the Derivative Works, in at least one
+                  of the following places: within a NOTICE text file distributed
+                  as part of the Derivative Works; within the Source form or
+                  documentation, if provided along with the Derivative Works; or,
+                  within a display generated by the Derivative Works, if and
+                  wherever such third-party notices normally appear. The contents
+                  of the NOTICE file are for informational purposes only and
+                  do not modify the License. You may add Your own attribution
+                  notices within Derivative Works that You distribute, alongside
+                  or as an addendum to the NOTICE text from the Work, provided
+                  that such additional attribution notices cannot be construed
+                  as modifying the License.        
+              You may add Your own copyright statement to Your modifications and
+              may provide additional or different license terms and conditions
+              for use, reproduction, or distribution of Your modifications, or
+              for any such Derivative Works as a whole, provided Your use,
+              reproduction, and distribution of the Work otherwise complies with
+              the conditions stated in this License.        
+           5. Submission of Contributions. Unless You explicitly state otherwise,
+              any Contribution intentionally submitted for inclusion in the Work
+              by You to the Licensor shall be under the terms and conditions of
+              this License, without any additional terms or conditions.
+              Notwithstanding the above, nothing herein shall supersede or modify
+              the terms of any separate license agreement you may have executed
+              with Licensor regarding such Contributions.        
+           6. Trademarks. This License does not grant permission to use the trade
+              names, trademarks, service marks, or product names of the Licensor,
+              except as required for reasonable and customary use in describing the
+              origin of the Work and reproducing the content of the NOTICE file.        
+           7. Disclaimer of Warranty. Unless required by applicable law or
+              agreed to in writing, Licensor provides the Work (and each
+              Contributor provides its Contributions) on an "AS IS" BASIS,
+              WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or
+              implied, including, without limitation, any warranties or conditions
+              of TITLE, NON-INFRINGEMENT, MERCHANTABILITY, or FITNESS FOR A
+              PARTICULAR PURPOSE. You are solely responsible for determining the
+              appropriateness of using or redistributing the Work and assume any
+              risks associated with Your exercise of permissions under this License.        
+           8. Limitation of Liability. In no event and under no legal theory,
+              whether in tort (including negligence), contract, or otherwise,
+              unless required by applicable law (such as deliberate and grossly
+              negligent acts) or agreed to in writing, shall any Contributor be
+              liable to You for damages, including any direct, indirect, special,
+              incidental, or consequential damages of any character arising as a
+              result of this License or out of the use or inability to use the
+              Work (including but not limited to damages for loss of goodwill,
+              work stoppage, computer failure or malfunction, or any and all
+              other commercial damages or losses), even if such Contributor
+              has been advised of the possibility of such damages.        
+           9. Accepting Warranty or Additional Liability. While redistributing
+              the Work or Derivative Works thereof, You may choose to offer,
+              and charge a fee for, acceptance of support, warranty, indemnity,
+              or other liability obligations and/or rights consistent with this
+              License. However, in accepting such obligations, You may act only
+              on Your own behalf and on Your sole responsibility, not on behalf
+              of any other Contributor, and only if You agree to indemnify,
+              defend, and hold each Contributor harmless for any liability
+              incurred by, or claims asserted against, such Contributor by reason
+              of your accepting any such warranty or additional liability.        
+           END OF TERMS AND CONDITIONS        
+           APPENDIX: How to apply the Apache License to your work.        
+              To apply the Apache License to your work, attach the following
+              boilerplate notice, with the fields enclosed by brackets "[]"
+              replaced with your own identifying information. (Don't include
+              the brackets!)  The text should be enclosed in the appropriate
+              comment syntax for the file format. We also recommend that a
+              file or class name and description of purpose be included on the
+              same "printed page" as the copyright notice for easier
+              identification within third-party archives.        
+           Copyright [yyyy] [name of copyright owner]        
+           Licensed under the Apache License, Version 2.0 (the "License");
+           you may not use this file except in compliance with the License.
+           You may obtain a copy of the License at        
+               http://www.apache.org/licenses/LICENSE-2.0        
+           Unless required by applicable law or agreed to in writing, software
+           distributed under the License is distributed on an "AS IS" BASIS,
+           WITHOUT WARRANTIES OR CONDITIONS OF ANY KIND, either express or implied.
+           See the License for the specific language governing permissions and
+           limitations under the License.
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Video
+Classifier: Topic :: Multimedia :: Video :: Display
+Classifier: Topic :: Multimedia :: Video :: Non-Linear Editor
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: OpenTimelineIO (>=0.12.0)
+Requires-Dist: shotgun-api3 (>=3.3.3)
+Requires-Dist: six
+Requires-Dist: futures ; python_version < "3.2"
+Requires-Dist: pathlib2 ; python_version < "3.4"
+Provides-Extra: dev
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: mock ; (python_version < "3.0.0") and extra == 'dev'
+
+SG Otio, an OpenTimelineIO ShotGrid Library
+=======
+
+[![Run tests](https://github.com/GPLgithub/sg-otio/actions/workflows/ci.yaml/badge.svg)](https://github.com/GPLgithub/sg-otio/actions/workflows/ci.yaml)
+
+[![codecov](https://codecov.io/gh/GPLgithub/sg-otio/branch/master/graph/badge.svg?token=9X2MDPFCBI)](https://codecov.io/gh/GPLgithub/sg-otio)
+
+A library to represent [OpenTimelineIO](http://opentimeline.io/) data in [ShotGrid](https://www.shotgrid.com),
+and vice versa.
+
+Disclaimer
+----------
+
+SG Otio is currently in Public Alpha. That means that it may be missing
+some essential features and there are large changes planned. During this phase
+we actively encourage you to provide feedback, requests, comments, and/or
+contributions.
+
+
+Installation
+------------
+
+### SG Python API
+
+The SG Python API is not available on PyPi and must be manually installed
+from github, e.g. `pip install git+https://github.com/shotgunsoftware/python-api.git`
+
+### ffmpeg
+sg-otio requires ffmpeg to be installed, and ffmpeg must be in the `PATH`.
+
+- Binaries can be downloaded from [FFmpeg download page](https://ffmpeg.org/download.html), in which case the
+binaries should be added to the `PATH` environment variable.
+- A package manager can be used, for example on MacOS, `brew install ffmpeg`, in
+which case the PATH should already be updated by the package manager.
+
+### sg-otio package
+
+SG Otio can only be installed from sources at the moment.
+- Get a local copy of this repo: `git clone https://github.com/GPLgithub/sg-otio.git`
+- Install it with `pip`: `pip install ./sg-otio`
+
+sg-otio usage
+-------------
+
+You can access the help with `sg-otio read --help`, `sg-otio write --help`, or `sg-otio compare --help`. 
+
+### ShotGrid login information
+
+You can provide Shotgrid login information in 3 different ways:
+- `--login <username> --password <password>`
+- `--script-name <script name> --api-key <api key>`
+- `--session-token <session token>`
+
+### Reading a Cut from SG
+Read a Cut from SG and either output it in OTIO format or write it to a file. Any format suppported by OpenTimelineIO's standard adapters is supported.
+
+Examples:
+```
+sg-otio read --sg-site-url URL --session-token TOKEN --cut-id CUT_ID
+sg-otio read --sg-site-url URL --session-token TOKEN --cut-id CUT_ID --file output.otio
+sg-otio read --sg-site-url URL --session-token TOKEN --cut-id CUT_ID --file output.xml --adapter-name fcp_xml
+sg-otio read --settings SETTINGS.JSON --sg-site-url URL --session-token TOKEN --cut-id CUT_ID --file output.xml --adapter-name fcp_xml
+```
+### Writing a Cut to SG
+Write a Video Track to SG as a Cut.
+Example:
+```
+sg-otio write -u URL --session-token TOKEN --entity-type Cut --entity-id CUT_ID --file INPUT.edl --movie INPUT.mov --settings SETTINGS.JSON
+```
+
+### Comparing a Video Track to a SG Cut
+Read a Video Track from an OpenTimelinio source and compare it to an existing SG Cut.
+Any format suppported by OpenTimelineIO's standard adapters is supported for the source.
+The video Track can be written to SG as a new Cut by adding the `--write` argument.
+The new SG Cut will be linked to the SG Entity the previous SG Cut is linked to.
+Examples:
+```
+sg-otio compare --sg-site-url URL  --session-token TOKEN --file INPUT OTIO --cut-id CUT_ID
+sg-otio compare --sg-site-url URL  --session-token TOKEN --file INPUT OTIO --cut-id CUT_ID --write
+``` 
+
+### Settings file
+
+Some settings for sg-otio read and write can be stored in a JSON file, and passed
+to sg-otio with `--settings[-s] path/to/SETTINGS.JSON`.
+This is what such file would contain with the default settings:
+```json
+{
+  "default_head_in": 1001,
+  "default_head_duration": 8,
+  "default_tail_duration": 8,
+  "use_clip_names_for_shot_names": false,
+  "clip_name_shot_regexp": null,
+  "local_storage_name": "primary",
+  "versions_path_template": "{PROJECT}/{LINK}/{YYYY}{MM}{DD}/cuts",
+  "version_names_template": null,
+  "create_missing_versions": true,
+  "timecode_in_to_frame_mapping_mode": 1,
+  "timecode_in_to_frame_relative_mapping": ["00:00:00:01", 1001],
+  "use_smart_fields": false,
+  "shot_cut_fields_prefix": null,
+  "shot_omit_status": "omt",
+  "shot_reinstate_status": "Previous Status",
+  "reinstate_shot_if_status_is": ["omt", "hld"]
+}
+```
+
+#### Default Head In, Default Head Duration, Default Tail Duration
+When creating new Shots in ShotGrid, the values to use for the start frame and handles.
+
+##### Use Clip Names for Shot Names
+If set to True, the Clip name will be used as a Shot name if it can't be computed from
+locators nor comments in the EDL.
+
+##### Clip Name Shot Regexp
+If set, use a regular expression to extract the Shot name from the Clip name.
+
+#### Create Missing Versions
+If set to True, for Clips with media references that don't have a version in ShotGrid,
+a new version will be created in ShotGrid.
+
+- For an EDL without media references, a movie of the Cut needs to be passed to sg-otio,
+which will allow to extract the Versions from the Cut movie.
+- For formats like Premiere XML, this means that media references existing in the XML
+file will be published to ShotGrid.
+
+#### Local storage name
+When creating missing Versions, the SG local storage to use to publish the files to.
+
+#### Versions Path Template
+When creating missing Versions, the path to use to publish the files to.
+
+This is a relative path from the local storage chosen.
+
+The following keys are available:
+`PROJECT, CUT_TITLE, LINK, HH, DD, MM, YY, YYYY`
+
+Example valid templates:
+- `{PROJECT}/{LINK}/{YYYY}{MM}{DD}/cuts (default)`
+- `{PROJECT}/{CUT_TITLE}/{YYYY}{MM}{DD}/`
+
+#### Version Names Template
+If not specified, the Version name will be the Clip name.
+If specified, the Version name will be computed using the template.
+
+The following keys are available:
+`CLIP_NAME, CUT_ITEM_NAME, SHOT, CLIP_INDEX, UUID`
+
+The `CLIP_NAME` and `CUT_ITEM_NAME` are almost the same, but the `CUT_ITEM_NAME`
+is guaranteed to be unique in a track.
+For example, if there are two clips with the name `clip1`, their cut item names
+will be `clip1` and `clip1_001`.
+
+The `CLIP_INDEX` is the index of the clip in the track (starting from 1, and counting
+only clips, not gaps or other elements).
+
+The `UUID` is 6 digits long.
+
+Even though versions with the same names are allowed, it is recommended to use keys that
+guarantee the unicity of the names, like CUT_ITEM_NAME, CLIP_INDEX, or UUID.
+
+Example valid templates:
+- `{CLIP_NAME}_{UUID}` (default)
+- `{CUT_ITEM_NAME}`
+- `{SHOT}_{CLIP_INDEX}`
+- `{CLIP_NAME}_{CLIP_INDEX:04d}` (adds some leading zeros)
+
+#### Timecode In to Frame Mapping Mode
+Different timecode in values to frame mapping modes
+
+Three mapping modes are available, which are only relevant for straight
+imports (without comparing to a previous Cut):
+- `0`: Absolute. Timecode in is mapped to the Shot head in.
+- `1`: Automatic. Timecode is converted to an absolute frame number.
+- `2`: Relative. timecode in is converted to an arbitrary frame
+number specified through settings. Example: `["00:00:00:01", 1001]`
+
+#### Timecode In to Frame Relative Mapping.
+If the Timecode In to Frame Mapping Mode is set to `2`, this setting can be used to specify
+how to convert the timecode to an arbitrary frame number.
+
+#### Use Smart Fields
+If set to True, the Smart Cut Fields will be used to fill the Shot fields.
+
+#### Shot Cut Fields Prefix
+If set, the Shot Cut Fields will be custom fields that use this prefix,
+e.g. `sg_PREFIX_cut_in`, `sg_PREFIX_cut_out`, etc.
+
+
+#### Omitting and Reinstating Shots
+If some Shots are omitted from one Cut to the other, their Status will be set
+to the `shot_omit_status` setting value.
+Shots which appear again in a Cut will be reinstated if their current status 
+is one of the statuses set with the `reinstate_shot_if_status_is` setting.
+Their status will be set to the value set with the `shot_reinstate_status` setting, 
+unless it is the special "Previous Status" value. In this case the status they
+had before being omitted will be set.
+
+License
+-------
+SG Otio is open source software. Please see the [LICENSE.txt](LICENSE.txt) for details.
