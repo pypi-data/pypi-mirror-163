@@ -1,0 +1,9 @@
+astropy
+bokeh
+ipython
+matplotlib
+numpy
+numpydoc
+pysynphot
+pytest
+pyyaml
