@@ -1,0 +1,59 @@
+[project]
+name = "dbcontroller"
+version = "0.1.16"
+description = "Python - Database Controller (SQLAlchemy & Motor)"
+readme = "README.md"
+authors = [
+    { name = "hlop3z", email = "23062270+hlop3z@users.noreply.github.com" },
+]
+requires-python = ">=3.10"
+dependencies = []
+keywords = [
+    "database",
+    "sql",
+    "mongo",
+]
+classifiers = [
+    "License :: OSI Approved :: MIT License",
+    "Intended Audience :: Developers",
+    "Programming Language :: Python :: 3",
+    "Programming Language :: Python :: 3.10",
+]
+
+[project.license]
+file = "LICENSE.txt"
+
+[project.urls]
+homepage = "https://github.com/hlop3z/dbcontroller"
+documentation = "https://hlop3z.github.io/dbcontroller/"
+repository = "https://github.com/hlop3z/dbcontroller/releases/download/alpha/v0.1.15.tar.gz"
+
+[project.optional-dependencies]
+
+[build-system]
+requires = [
+    "pdm-pep517>=1.0.0",
+]
+build-backend = "pdm.pep517.api"
+
+[tool.pdm]
+allow_prereleases = true
+source = [
+    { url = "https://pypi.org/simple", verify_ssl = true, name = "pypi" },
+]
+
+[tool.pdm.dev-dependencies]
+dev = [
+    "build",
+    "isort",
+    "black",
+    "pylint>=3.0.0a5",
+    "watchdog>=2.1.9",
+    "mkdocs",
+    "mkdocs-material",
+    "pre-commit",
+    "sqlalchemy",
+    "aiosqlite",
+    "motor",
+    "databases[aiosqlite]>=0.6.1",
+]
