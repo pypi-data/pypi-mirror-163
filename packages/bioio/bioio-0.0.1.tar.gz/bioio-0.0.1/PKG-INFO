@@ -1,0 +1,54 @@
+Metadata-Version: 2.1
+Name: bioio
+Version: 0.0.1
+Summary: Image reading, metadata management, and image writing for Microscopy images in Python
+Author-email: Eva Maxfield Brown <evamaxfieldbrown@gmail.com>
+License: BSD License
+Project-URL: Homepage, https://github.com/bioio-devs/bioio
+Project-URL: Bug Tracker, https://github.com/bioio-devs/bioio/issues
+Project-URL: Documentation, https://bioio-devs.github.io/bioio
+Project-URL: User Support, https://github.com/bioio-devs/bioio/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: lint
+Provides-Extra: test
+Provides-Extra: docs
+Provides-Extra: dev
+License-File: LICENSE
+
+# bioio
+
+[![Build Status](https://github.com/bioio-devs/bioio/workflows/CI/badge.svg)](https://github.com/bioio-devs/bioio/actions)
+[![Documentation](https://github.com/bioio-devs/bioio/workflows/Documentation/badge.svg)](https://bioio-devs.github.io/bioio)
+
+Image reading, metadata management, and image writing for Microscopy images in Python
+
+---
+
+## Installation
+
+**Stable Release:** `pip install bioio`<br>
+**Development Head:** `pip install git+https://github.com/bioio-devs/bioio.git`
+
+## Quickstart
+
+```python
+from bioio import example
+
+print(example.str_len("hello"))  # prints 5
+```
+
+## Documentation
+
+For full package documentation please visit [bioio-devs.github.io/bioio](https://bioio-devs.github.io/bioio).
+
+## Development
+
+See [CONTRIBUTING.md](CONTRIBUTING.md) for information related to developing the code.
+
+**BSD License**
