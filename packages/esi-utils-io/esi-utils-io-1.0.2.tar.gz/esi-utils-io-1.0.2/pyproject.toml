@@ -1,0 +1,20 @@
+[tool.poetry]
+name = "esi-utils-io"
+version = "1.0.2"
+description = "USGS Earthquake Impact Utilities for IO"
+authors = ["Mike Hearne"]
+
+[tool.poetry.dependencies]
+python = ">3.8"
+numpy = ">=1.21"
+h5py = ">=3.1.0"
+pandas = ">=1.0"
+pytz = ">=2021.3"
+black = { version = ">=21", optional = true }
+flake8 = { version = ">=3.9", optional = true }
+ipython = { version = ">=7.26", optional = true }
+pytest = { version = ">=6.2", optional = true }
+
+[tool.poetry.extras]
+tests = ["pytest"]
+dev = ["black", "flake8", "ipython"]

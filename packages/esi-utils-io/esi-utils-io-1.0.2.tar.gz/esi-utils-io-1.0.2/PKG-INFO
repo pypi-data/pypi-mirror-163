@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: esi-utils-io
+Version: 1.0.2
+Summary: USGS Earthquake Impact Utilities for IO
+Author: Mike Hearne
+Requires-Python: >3.8
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: dev
+Provides-Extra: tests
+Requires-Dist: black (>=21); extra == "dev"
+Requires-Dist: flake8 (>=3.9); extra == "dev"
+Requires-Dist: h5py (>=3.1.0)
+Requires-Dist: ipython (>=7.26); extra == "dev"
+Requires-Dist: numpy (>=1.21)
+Requires-Dist: pandas (>=1.0)
+Requires-Dist: pytest (>=6.2); extra == "tests"
+Requires-Dist: pytz (>=2021.3)
