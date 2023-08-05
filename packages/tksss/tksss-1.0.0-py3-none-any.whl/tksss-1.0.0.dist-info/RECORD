@@ -1,0 +1,13 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_core.py,sha256=0ovFAwow1LWTG44UMWYuy1ThsVybmYiRREA4t_d8-_s,618
+tests/test_drawer.py,sha256=EIqtxx9ksB1rHrG1pkx2hQ7UuAzheuLtUc6x2qBg3AU,736
+tests/test_image_source.py,sha256=M0dFqq1oUsD7fIoJWeoqb0Gt8VCrB4ig-ll6kb4CQhA,3260
+tksss/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tksss/core.py,sha256=8bbhvvucPgxRijEECQ5_AMG2Cq0yZlr2mNfSLpmVH1Q,1127
+tksss/drawer.py,sha256=MwzGDjDQepdoQSL6h8Q6Cmk0MJAPlrrlF-4AeU9Ug18,1326
+tksss/image_source.py,sha256=NnAAKjFL9e5OkN1LOMmAmw7uPOqZxEMdAv1Uvy3X-zE,2146
+tksss-1.0.0.dist-info/METADATA,sha256=AZwrdfu4DKLO0hGBgserOCYkd3t0coCF63mjHAX8Sk4,1118
+tksss-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tksss-1.0.0.dist-info/entry_points.txt,sha256=k6G3_fkyr3sMBts5DSj0kkSpegrtlHn8IQpIaGm9qbk,41
+tksss-1.0.0.dist-info/top_level.txt,sha256=T9MVd3gbGhjh04wemU2kHb3-emANM7s0CS-NitcUvjI,12
+tksss-1.0.0.dist-info/RECORD,,
