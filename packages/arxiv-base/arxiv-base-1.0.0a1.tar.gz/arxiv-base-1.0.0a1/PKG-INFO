@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: arxiv-base
+Version: 1.0.0a1
+Summary: Common code for arXiv NG
+Author: arxiv.org
+Requires-Python: >=3.10,<3.11
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp
+Requires-Dist: bleach
+Requires-Dist: boto3 (>=1.0.0,<2.0.0)
+Requires-Dist: flask (>=2.2,<3.0)
+Requires-Dist: flask-s3
+Requires-Dist: jsonschema
+Requires-Dist: markupsafe
+Requires-Dist: pytz
+Requires-Dist: retry
+Requires-Dist: semantic-version
+Requires-Dist: typing-extensions
+Requires-Dist: uwsgi
+Requires-Dist: wtforms
