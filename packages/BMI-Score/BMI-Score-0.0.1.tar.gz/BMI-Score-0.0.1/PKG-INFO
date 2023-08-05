@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: BMI-Score
+Version: 0.0.1
+Summary: This package calculates your BMI score
+Author-email: Paballo Modutwane <pablomodutwane@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Paballo Modutwane
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/pypa/bmiscore
+Project-URL: Bug Tracker, https://github.com/pypa/bmiscore/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# BMI Calculator
+Python BMI Calculator calculates BMI and BMI Category.
+
+
+# Objective :
+1. Caculate BMI score based on the height and weight specified.
+2. Find out weight category based on final BMI score.
+3. Validation test case has been performed.
+
+# Prerequisites:
+1. None
+
+# Installation:
+>> pip install bmi_score
+
+# Usage :
+
+>> from bmi_score import bmi
+>> 
+>> a = bmi(height, weight)    # Calculates BMI score
+>> 
+>> from bmi_score import bmi_information
+>> 
+>> b = bmi_information(a)      # Returns BMI information based on final BMI score eg. You're in the healthy weight range
+
+# PyPi Package :
+The package has been build and uploaded at https://github.com/Plainpablo/BMI-Score

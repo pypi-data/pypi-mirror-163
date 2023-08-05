@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/BMI-Score/__init__.py
+src/BMI-Score/bmi_score.py
+src/BMI_Score.egg-info/PKG-INFO
+src/BMI_Score.egg-info/SOURCES.txt
+src/BMI_Score.egg-info/dependency_links.txt
+src/BMI_Score.egg-info/top_level.txt
