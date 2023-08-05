@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+versioneer.py
+prefect_fugue/__init__.py
+prefect_fugue/_utils.py
+prefect_fugue/_version.py
+prefect_fugue/blocks.py
+prefect_fugue/context.py
+prefect_fugue/tasks.py
+prefect_fugue.egg-info/PKG-INFO
+prefect_fugue.egg-info/SOURCES.txt
+prefect_fugue.egg-info/dependency_links.txt
+prefect_fugue.egg-info/requires.txt
+prefect_fugue.egg-info/top_level.txt
