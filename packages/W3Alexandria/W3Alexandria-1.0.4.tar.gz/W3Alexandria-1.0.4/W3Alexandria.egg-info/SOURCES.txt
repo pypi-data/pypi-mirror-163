@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+W3Alexandria.egg-info/PKG-INFO
+W3Alexandria.egg-info/SOURCES.txt
+W3Alexandria.egg-info/dependency_links.txt
+W3Alexandria.egg-info/requires.txt
+W3Alexandria.egg-info/top_level.txt
