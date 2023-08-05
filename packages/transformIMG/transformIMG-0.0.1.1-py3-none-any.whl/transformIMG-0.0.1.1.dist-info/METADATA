@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: transformIMG
+Version: 0.0.1.1
+Summary: Image transformation
+Home-page: https://github.com/ShohanurSobuj/Image-transform.git
+Author: Md Shohanur Islam Sobuj
+Author-email: shohanursobuj@gmail.com
+License: MIT
+License-File: LICENSE.txt
+Requires-Dist: numpy
+Requires-Dist: opencv-python
+Requires-Dist: scikit-image
+
