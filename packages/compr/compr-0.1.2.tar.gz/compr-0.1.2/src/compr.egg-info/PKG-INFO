@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: compr
+Version: 0.1.2
+Summary: Handy wrappers for advanced object comparing and matching.
+Project-URL: Bug Tracker, https://github.com/ykvch/compr/issues
+Project-URL: Source Code, https://github.com/ykvch/compr
+Classifier: Programming Language :: Python
+Description-Content-Type: text/markdown
+License-File: LICENSE
