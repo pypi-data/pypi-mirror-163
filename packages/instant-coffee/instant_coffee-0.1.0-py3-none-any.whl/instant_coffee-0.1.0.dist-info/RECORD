@@ -1,0 +1,13 @@
+instantcoffee/__init__.py,sha256=68DP1AmHOMP1N1oNzQRAwTTLcUsN06JgFmQGINEMjUg,32
+instantcoffee/cloudcredentials/__init__.py,sha256=-hySdoYGVtL3GOSnbkSS4bJlXeolFi6w-PLm0llKWQc,70
+instantcoffee/cloudcredentials/aws_validation.py,sha256=yktERLemd3B5UbKsIYsGl-TUZe8EAhpqr-ABo9nC8YE,2361
+instantcoffee/cloudcredentials/validation.py,sha256=IiqqA--drBXMtkh9lnbV-K0S9mKa9JSCFfFfh68NBAo,9738
+instantcoffee/connect.py,sha256=RXwk6ybG7lqhSzJ7kvQ6KHpHxsZ0qp7Jc17Opr-ySj0,801
+instantcoffee/kaffeeservice/__init__.py,sha256=ezl9icFSqkSrfalshVJZZUdAOHkd-prWcCdFSSLn408,39
+instantcoffee/kaffeeservice/api.py,sha256=IzZ86bEQ4djtjVfr4T8fnBSY9639FjbzJ-FU9cwroKI,9556
+instantcoffee/kaffeeservice/consts.py,sha256=ENqUMaE9CZL01rw7BSFimpsdGfPkY-aksvW6rQZbSwE,543
+instantcoffee/kaffeeservice/exceptions.py,sha256=Dc6vpvNssrcppQ-pHcr5qxJX_y8uPhXnff8KFVDJbWw,1338
+instant_coffee-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+instant_coffee-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+instant_coffee-0.1.0.dist-info/METADATA,sha256=F-ChvqipZNfT2tR1rdWaI2Gy7ckUKq7FZV2TXKcteMg,1139
+instant_coffee-0.1.0.dist-info/RECORD,,
