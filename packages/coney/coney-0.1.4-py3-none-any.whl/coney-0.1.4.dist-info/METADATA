@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: coney
+Version: 0.1.4
+Summary: Pika based rabbitmq client library
+License: MIT
+Author: Teslim Olunlade
+Author-email: tolunlade@outlook.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aio-pika (>=8.1.1,<9.0.0)
