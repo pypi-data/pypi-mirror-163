@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: TP53 clinical trials
+Version: 0.0.1
+Summary: This package extracts TP53 data consisting of genomic changes, disease and existing clinical drug trials and the phase of these trials
+Home-page: https://github.com/sandybhaskar23/AICORE/tree/main/DataCollection
+Author: Sanjeev Bhaskar
+License: MIT
+Platform: UNKNOWN
+
+UNKNOWN
+

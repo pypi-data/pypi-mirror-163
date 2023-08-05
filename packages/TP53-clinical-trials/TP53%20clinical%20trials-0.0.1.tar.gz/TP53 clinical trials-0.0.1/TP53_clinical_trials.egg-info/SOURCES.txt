@@ -1,0 +1,12 @@
+README.md
+setup.py
+MyCancerGenome/__init__.py
+MyCancerGenome/mycancergenome_scraper.py
+MyCancerGenome/webscraper.py
+TP53_clinical_trials.egg-info/PKG-INFO
+TP53_clinical_trials.egg-info/SOURCES.txt
+TP53_clinical_trials.egg-info/dependency_links.txt
+TP53_clinical_trials.egg-info/requires.txt
+TP53_clinical_trials.egg-info/top_level.txt
+test/__init__.py
+test/test_mycancergenome.py
