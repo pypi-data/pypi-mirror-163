@@ -1,0 +1,8 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+serializable/__init__.py,sha256=mqWcUlIoFUh_2eLqZkE5N2ICMogm1mh6kLPUgp_gia0,14821
+serializable/formatters.py,sha256=F1JRbg0lObRURCmjimFjxpGXsUAjQ1PI4Cd8pEsNVc0,3678
+serializable/helpers.py,sha256=2yXCSosCQaWAigTzweV44t2lVj-w5IdwOXVF7xN1eGw,3299
+py_serializable-0.1.3.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+py_serializable-0.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+py_serializable-0.1.3.dist-info/METADATA,sha256=XLVdJL4k61O8gOoHWYz4P1OUNlMmLHX9P3WU-FBHHPA,3768
+py_serializable-0.1.3.dist-info/RECORD,,
