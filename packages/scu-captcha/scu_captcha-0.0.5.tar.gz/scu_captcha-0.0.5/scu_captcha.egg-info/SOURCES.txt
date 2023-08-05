@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+scu_captcha/__init__.py
+scu_captcha/configs.py
+scu_captcha/model.pt
+scu_captcha/model.py
+scu_captcha/preData.pt
+scu_captcha/scu_captcha.py
+scu_captcha.egg-info/PKG-INFO
+scu_captcha.egg-info/SOURCES.txt
+scu_captcha.egg-info/dependency_links.txt
+scu_captcha.egg-info/requires.txt
+scu_captcha.egg-info/top_level.txt
