@@ -1,0 +1,15 @@
+CHANGES
+=======
+
+1.0.8
+-----
+
+* add examples of adb-reset
+* update typing
+* update doc
+* fix wheel platform tag
+* change to adb push on windows
+* fix #48
+* support linux wheel build
+* fix merge
+* Update \_device.py
