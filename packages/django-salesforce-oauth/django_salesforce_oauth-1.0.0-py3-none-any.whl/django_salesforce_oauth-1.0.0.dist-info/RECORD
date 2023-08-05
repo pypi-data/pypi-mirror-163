@@ -1,0 +1,10 @@
+django_salesforce_oauth/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+django_salesforce_oauth/apps.py,sha256=5jUwdLg9D1VjAGixID9wqSTKtZMgl_-n4igzP9QqP-0,163
+django_salesforce_oauth/oauth.py,sha256=13zk0rqAQIE7uog3IPgRSlOtlTe8_5HDrsX6KuAbUP0,1946
+django_salesforce_oauth/urls.py,sha256=_RbooVGHD8tIy7MXNQYvGGpzj3u5ryfMdiq4oQ1XqwA,409
+django_salesforce_oauth/utils.py,sha256=Oxil00036Lowai3L5iqI-xGyLbptFK6t-DDCLwxh61k,518
+django_salesforce_oauth/views.py,sha256=2JpmG976ZOzYiHHtTQQwmm_4anAV5r8z8cwGQFTs1t4,2809
+django_salesforce_oauth-1.0.0.dist-info/LICENSE,sha256=W5voFy-Ecy-aOxEPq04gLyWKzW5bw2EaQxAfu0ICXeg,1063
+django_salesforce_oauth-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+django_salesforce_oauth-1.0.0.dist-info/METADATA,sha256=qBmpI7P5CwzOmgzwwIQM8_zzcCAflcEnMkenLjFbd0s,4418
+django_salesforce_oauth-1.0.0.dist-info/RECORD,,
