@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fingerprint-pro-server-api-sdk
+Version: 0.0.2b6
+Summary: Fingerprint Pro Server API
+Home-page: https://github.com/fingerprintjs/fingerprint-pro-server-api-python-sdk
+Author-email: support@fingerprint.com
+License: MIT
+Keywords: Swagger,Fingerprint Pro Server API
+Platform: UNKNOWN
+License-File: LICENSE
+
+file: README.md, CHANGELOG.md, LICENSE
+
