@@ -1,0 +1,11 @@
+LICENSE,sha256=Vyo-tcS5QjYHJBQN3uDFLLVaXMOy3th7ZXauVaGHruY,1068
+django_enum/__init__.py,sha256=j9Ts1Z0omUmeUOwPBTg5WYcxgw-eklHPdLhOcGduON0,1471
+django_enum/choices.py,sha256=RVgUUiVGrk3t9BENTTBEU0bXqlul5rYLvmCtsrYzEr8,3256
+django_enum/drf.py,sha256=VGdnpik4-T55ldBuKNrmVwIeXUSnOS7X0px_OYORaHo,2831
+django_enum/fields.py,sha256=E3wcNaItHU_AqpTr3eT7sBwHcnueWpxl0iqokS4hNRs,11226
+django_enum/filters.py,sha256=c3XDXFNsmUXdHphm9EyCgvFcy4Wm0EuJhKORBFExtU0,2623
+django_enum/forms.py,sha256=gvxCk1FuhCtyMfJcBUIF7E-WD0SjbkL9Kms2vKb_pfo,5997
+django_enum-1.0.0.dist-info/LICENSE,sha256=Vyo-tcS5QjYHJBQN3uDFLLVaXMOy3th7ZXauVaGHruY,1068
+django_enum-1.0.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_enum-1.0.0.dist-info/METADATA,sha256=FXdNfdt0TRrm5IyH__5OYJcJceVnnMwOgo7l9vfep4s,8806
+django_enum-1.0.0.dist-info/RECORD,,
