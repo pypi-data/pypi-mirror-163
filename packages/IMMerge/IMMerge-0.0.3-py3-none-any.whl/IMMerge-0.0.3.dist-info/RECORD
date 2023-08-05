@@ -1,0 +1,11 @@
+IMMerge/__init__.py,sha256=x0Lm87Vnhv2bA4Cq7t34YyIrxPpKeU8cMniediuTsIM,74
+IMMerge/check_r2_setting_for_imputation.py,sha256=gTF5xCv3YNfsn8l9Pd1VZydOAER8cH45epWlfIbtVBc,1178
+IMMerge/get_SNP_list.py,sha256=yKiDufyevhwJFPCCgayl4FUYZ8nveWBzQwr55sZ9I8Q,20066
+IMMerge/make_info.py,sha256=3dAzm73m1M2r5gVAQLSmWR3r0Flb5eH8GBXX5KbmXJ4,12452
+IMMerge/merge_files.py,sha256=bEpjsAatVGpkdn4xXTHjERvmPBxq4RRBUOCX_rsZXsU,23032
+IMMerge/process_args.py,sha256=_uS4JJ9gskEglC3UtNOS3TV8wNCwPJ5MrRYi-dnNuUs,11571
+IMMerge-0.0.3.dist-info/LICENSE,sha256=hcIYlnw4hmwFJ4c83WU0VBOzlqw0E_PaHZNLamOT9R8,1122
+IMMerge-0.0.3.dist-info/METADATA,sha256=lBMLRKUbl1k5Hlw_RErXKW1ZEoUTg2vw_mnHKHYwvRE,350
+IMMerge-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+IMMerge-0.0.3.dist-info/top_level.txt,sha256=l4ZnGfoqk5ag6WyifQdMdXWIoc_YctElEyg2TG4JhFc,8
+IMMerge-0.0.3.dist-info/RECORD,,
