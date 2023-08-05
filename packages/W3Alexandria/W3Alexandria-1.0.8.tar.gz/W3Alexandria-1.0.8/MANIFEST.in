@@ -1,0 +1,4 @@
+include contracts/*bin
+include contracts/*abi
+include W3Alexandria/*bin
+include W3Alexandria/*abi

@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+W3Alexandria/W3Alexandria.py
+W3Alexandria/__init__.py
+W3Alexandria.egg-info/PKG-INFO
+W3Alexandria.egg-info/SOURCES.txt
+W3Alexandria.egg-info/dependency_links.txt
+W3Alexandria.egg-info/requires.txt
+W3Alexandria.egg-info/top_level.txt
+contracts/book.abi
+contracts/book.bin
+contracts/book_ipfs.abi
+contracts/book_ipfs.bin
+contracts/library.abi
+contracts/library.bin
