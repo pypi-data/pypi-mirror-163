@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "esi-utils-colors"
+version = "1.0.3"
+description = "USGS Earthquake Impact Utilities for Colors"
+authors = ["Mike Hearne"]
+
+[tool.poetry.dependencies]
+python = ">3.8"
+numpy = ">=1.21"
+matplotlib = ">=3.1.0"
+pandas = ">=1.0"
+black = { version = ">=21", optional = true }
+flake8 = { version = ">=3.9", optional = true }
+ipython = { version = ">=7.26", optional = true }
+pytest = { version = ">=6.2", optional = true }
+
+[tool.poetry.extras]
+tests = ["pytest"]
+dev = ["black", "flake8", "ipython"]
