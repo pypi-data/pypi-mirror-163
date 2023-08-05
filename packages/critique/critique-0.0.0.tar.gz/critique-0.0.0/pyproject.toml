@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "critique"
+version = "0.0.0"
+description = ""
+authors = ["Daniel Knell <contact@danielknell.co.uk>"]
+readme = "README.md"
+packages = [{include = "critique", from = "src"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
