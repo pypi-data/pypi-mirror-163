@@ -1,0 +1,3 @@
+[console_scripts]
+fastanalyzer = fastanalyzer.fastanalyzer:main
+
