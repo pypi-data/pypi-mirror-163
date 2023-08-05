@@ -1,0 +1,16 @@
+bicleaner_ai_glove.libs/libgomp-a34b3233.so.1.0.0,sha256=1GXGWfRf6XU3wOEAn66x6m5ApWQt3_3un8G3PAcyQh4,168192
+metrics/accuracy.py,sha256=rz1pbcFSTl-N5ZmEFSKJc6oXSEM0iPaujWNP62l6TzI,3242
+metrics/__init__.py,sha256=1fui3XPXWA48MjLKqBGvxfblROKZuSzlCjmgETTzNbs,136
+bicleaner_ai_glove-0.2.0.dist-info/METADATA,sha256=YppNLgiykT8oFVl_UOkZnDhazz0OGIx7zVxwT51GOww,4668
+bicleaner_ai_glove-0.2.0.dist-info/top_level.txt,sha256=37L8VMs0xTR_J8HWIhfuhkwv_VGa5IBT10kXH7mdxjs,6
+bicleaner_ai_glove-0.2.0.dist-info/LICENSE,sha256=-kddTAfX18grxStTCQ0rMMFyteOVN12NWC-xVxf4np4,11341
+bicleaner_ai_glove-0.2.0.dist-info/WHEEL,sha256=-ijGDuALlPxm3HbhKntps0QzHsi-DPlXqgerYTTJkFE,148
+bicleaner_ai_glove-0.2.0.dist-info/RECORD,,
+glove/corpus.py,sha256=1jGqH59Tv5bOB5BqegC2205FJmDbaSbsRIoDPDpwqIY,2667
+glove/corpus_cython.cpython-38-x86_64-linux-gnu.so,sha256=RLmPCCwoTjokPqovMAb26Wu0cMj3NdhD7i3k7bTy6uc,1704960
+glove/glove_cython.cpython-38-x86_64-linux-gnu.so,sha256=2bqP0xJq6tdUdtV_Xre-T88ZnLvFR8gAUP-sh4KJJvc,1314320
+glove/__init__.py,sha256=dFl7lgEwPxpDZVSeiS5rpcmg6ohHqLNONiN1jROyUhY,52
+glove/glove.py,sha256=g8HvVwgCrtTed9SjMbafO9el8DI1r_nOMjobuimO1Go,10373
+glove/metrics/accuracy_cython.cpython-38-x86_64-linux-gnu.so,sha256=wlCw-64df-66GlpvVKP-TcGYl5zsIoNKqve7p6Oocv4,1269240
+glove/metrics/accuracy.py,sha256=rz1pbcFSTl-N5ZmEFSKJc6oXSEM0iPaujWNP62l6TzI,3242
+glove/metrics/__init__.py,sha256=1fui3XPXWA48MjLKqBGvxfblROKZuSzlCjmgETTzNbs,136
