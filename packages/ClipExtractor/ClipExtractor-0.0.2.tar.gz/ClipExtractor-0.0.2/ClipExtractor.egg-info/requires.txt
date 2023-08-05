@@ -1,0 +1,9 @@
+ftfy
+regex
+tqdm
+pytorch-lightning
+einops
+transformers
+gitpython
+timm==0.4.12
+fairscale==0.4.4

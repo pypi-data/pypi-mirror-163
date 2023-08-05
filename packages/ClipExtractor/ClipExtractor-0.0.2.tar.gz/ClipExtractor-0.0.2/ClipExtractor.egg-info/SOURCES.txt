@@ -1,0 +1,9 @@
+README.md
+setup.py
+ClipExtractor.egg-info/PKG-INFO
+ClipExtractor.egg-info/SOURCES.txt
+ClipExtractor.egg-info/dependency_links.txt
+ClipExtractor.egg-info/requires.txt
+ClipExtractor.egg-info/top_level.txt
+clipextractor/__init__.py
+clipextractor/clip_extractor.py
