@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: diracengine
+Version: 0.0.5
+Summary: The Dirac Quantum Engine
+Home-page: UNKNOWN
+Author: Nikola Kostadinov
+Author-email: <nikolakostadinov@protonmail.com>
+License: UNKNOWN
+Keywords: python,quantum,spin,ket,bra,superposition,psi,dirac,engine,schrodinger,pauli,bohr
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+The Dirac engine is a physics engine which simulates quantum phenomena.
+
