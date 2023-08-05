@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: aioairq
+Version: 0.1.1
+Summary: Asynchronous library to retrieve data from air-Q devices.
+Author-email: Daniel Lehmann <daniel.lehmann@air-q.com>, Renat Sibgatulin <renat.sibgatulin@air-q.com>
+License: Apache License, Version 2.0
+Project-URL: Homepage, https://github.com/CorantGmbH/aioairq
+Project-URL: Bug Tracker, https://github.com/CorantGmbH/aioairq/issues
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+Requires-Dist: pycryptodome
+
+# PyPI package `aioairq`
+
+Python library for asynchronous data access to local air-Q devices.
+
+## Retrieve data from air-Q
+
+```python
+import asyncio
+from aioairq import AirQ
+
+address = "123ab_air-q.local"
+password = "airqsetup"
+airq = AirQ(address, password)
+
+loop = asyncio.get_event_loop()
+
+data = loop.run_until_complete(airq.data)
+average = loop.run_until_complete(airq.average)
+config = loop.run_until_complete(airq.config)
+```
