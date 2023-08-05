@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: fw-gear-oct-qa
+Version: 0.0.1.dev0
+Summary: OCT Quality Assessment
+Home-page: https://gitlab.com/flywheel-io/flywheel-apps/oct-qa
+License: MIT
+Keywords: Flywheel,Gears
+Author: Flywheel
+Author-email: support@flywheel.io
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Scientific/Engineering
+Requires-Dist: flywheel-gear-toolkit (>=0.6.5,<0.7.0)
+Requires-Dist: fw-file[all] (>=1.0,<2.0)
+Requires-Dist: matplotlib (>=3.4.2,<4.0.0)
+Requires-Dist: numpy (>=1.21.1,<2.0.0)
+Requires-Dist: opencv-python (>=4.5.3,<5.0.0)
+Requires-Dist: pandas (>=1.3.1,<2.0.0)
+Requires-Dist: pre-commit (>=2.13.0,<3.0.0)
+Requires-Dist: regex (>=2021.8.3,<2022.0.0)
+Requires-Dist: scipy (>=1.7.0,<2.0.0); python_version >= "3.8" and python_version < "3.10"
+Project-URL: Repository, https://gitlab.com/flywheel-io/flywheel-apps/oct-qa
+Description-Content-Type: text/markdown
+
+# OCT QA
+This gear assesses the quality of OCT volumes and their slices. The criteria to flag a 
+slice is being bigger than 1.5 * Interquartile Range (IQR) or smaller than 1.5 * IQR for 
+each of the four measurement tests. If any slices are flagged in any of the four tests, 
+the `overall_qc` test will be set to `fail`. All test results are saved in the input 
+file's info dictionary under `"qc":"oct-qa"`. 
+
+1) __dynamic_range__: Dynamic range of the retinal image slice. 
+2) __variance_extraretinal__: the variance of the extraretinal/vitreous region. This 
+   region gets segmented based on Otsu's thresholding method; it provides an estimate
+   of the base noise of the image. ![extraretinal_region](images/variance_estimate.jpg)
+3) __variance_intraretinal__: the variance of the retinal region. This is similarly
+   derived as extraretinal variance.
+4) __sharpness_slope__: the sharpness of the edges between the black regions of the 
+   vitreous and the bright regions of the retinal layers; a higher slope indicates a 
+   sharper image. ![sharpness_slope](images/oct_qa_sharpness_slope.jpg)
+   
+The gear will:
+- Update the metadata of the input file. See example output below.
+- Generate histograms for three indexes so that low-quality slices can be flagged; these 
+  histograms will only be generated if `save_figures_if_fail` is `true`.
+- Output a csv with slice QA measurements/indexes for further analysis.
+
+```json
+"qc": {
+  "oct-qa": {
+    "job_info": {
+      "version": "0.0.5-d",
+      "job_id": "",
+      "inputs": {
+        "raw_input": {
+          "parent": {
+            "id": "60f71983a7fe04f03224792e",
+            "type": "acquisition"
+          },
+          "file_id": "610d9bff9c47094a376b8ddb",
+          "version": 1,
+          "file_name": "oct_volume_test.npy"
+        }
+      },
+      "config": {
+        "debug": true,
+        "save_figures_if_fail": true
+      }
+    },
+    "dynamic_range": {
+      "state": "PASS",
+      "data": {
+        "Mean Dynamic range": 1.044,
+        "Standard deviation Dynamic range": 0.021,
+        "Outliers Dynamic range": "No slices flagged"
+      }
+    },
+    "variance_extraretinal": {
+      "state": "PASS",
+      "data": {
+        "Mean Variance Extraretinal region": 255.445,
+        "Standard deviation Variance Extraretinal region": 14.182,
+        "Outliers Variance Extraretinal": "No slices flagged"
+      }
+    },
+    "variance_intraretinal": {
+      "state": "PASS",
+      "data": {
+        "Mean Variance Intraretinal": 2050.806,
+        "Standard deviation Variance Intraretinal": 134.474,
+        "Outliers Variance Intraretinal": "No slices flagged"
+      }
+    },
+    "sharpness_slope": {
+      "state": "PASS",
+      "data": {
+        "Mean Sharpness slope": 19.047,
+        "Standard deviation Sharpness slope": 0.487,
+        "Outliers Sharpness slope": "No slices flagged"
+      }
+    },
+    "overall_qc": {
+      "state": "PASS",
+      "data": {
+        "result": "all qc tests passed"
+      }
+    }
+  }
+}
+
+```
+
+## Usage
+
+### Inputs
+
+* __raw_input__: Raw OCT slices (.npy, .dcm or .dcm.zip)
+
+### Configuration
+* __debug__ (boolean, default False): Include debug statements in output.
+* __save_figures_if_fail__ (boolean, default False): If any of the qa tests fail, save all generated histograms within the parent container.
+
+## Contributing
+
+For more information about how to get started contributing to that gear, 
+checkout [CONTRIBUTING.md](CONTRIBUTING.md).
+
