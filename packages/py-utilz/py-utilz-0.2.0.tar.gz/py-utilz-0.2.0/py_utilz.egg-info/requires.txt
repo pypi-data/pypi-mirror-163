@@ -1,0 +1,10 @@
+numpy>=1.16
+pandas>=1.2.0
+matplotlib>=3.1.0
+seaborn>=0.11.0
+joblib>=1.1.0
+
+[all]
+plydata>=0.4.3
+toolz
+tqdm
