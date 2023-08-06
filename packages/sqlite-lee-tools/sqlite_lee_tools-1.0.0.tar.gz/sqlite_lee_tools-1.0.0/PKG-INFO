@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: sqlite_lee_tools
+Version: 1.0.0
+Summary: A small tool for sqlite
+Home-page: https://github.com/Lee7goal
+Author: lee7goal
+Author-email: lee7goal@qq.com
+License: MIT License
+Platform: all
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: Chinese (Simplified)
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries
+License-File: License
+
+# Sqlite3 Tools
+
+This is a simple sqlite use package. You can use this package to curd the sqlite file
+
+
