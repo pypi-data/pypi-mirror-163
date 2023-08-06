@@ -1,0 +1,14 @@
+minimagen/Imagen.py,sha256=YkRkKMkT90jHUmsQQ2iMXxnTFt86g9IRVm-PlWRplGw,31379
+minimagen/Unet.py,sha256=smxeAU2GTJk9dGnhkEgTnccR-pDT1ClCvRXczxLNl44,29632
+minimagen/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+minimagen/diffusion_model.py,sha256=jYTE-hIl3-knHWCo8n0KNPSeDFZ1ypx_6veIqqiJL5Y,7370
+minimagen/generate.py,sha256=wGPNP5f7OaSwRcr5r-3vWscknC7Ik9sE3M1DF2dT_Hk,7869
+minimagen/helpers.py,sha256=vyU4wmPHF8oxpRXKzbXHMpDUxePFsFrGST2kIxqHxhQ,5731
+minimagen/layers.py,sha256=R7jetAlyV23DhXPKfwNr_W6Aj5uApFxxmMNl7hVvw6U,17662
+minimagen/t5.py,sha256=vpMWwrzsRtYzYDb8GrPRcVwGS2D943xSB-I3s62hdQ8,3798
+minimagen/training.py,sha256=1kqYx3lzZR6drV1-NSxXWezXvzGkv_gXfEBjyuNZoME,26124
+minimagen-0.0.6.dist-info/LICENSE,sha256=j0FDjaWH7v23fNfCwYFzKDsPp0UT9Zl6thibrhavyMQ,1073
+minimagen-0.0.6.dist-info/METADATA,sha256=RRvtraldXnFltMY9pj07N0ANhk5XXh_taccG7g3l1sc,6336
+minimagen-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+minimagen-0.0.6.dist-info/top_level.txt,sha256=OyZ_0SfbUEQ-XSiEnU08Cun5-L2aaXeiM9jsyf68ZtM,10
+minimagen-0.0.6.dist-info/RECORD,,
