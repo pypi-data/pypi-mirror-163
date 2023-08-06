@@ -1,0 +1,17 @@
+termscraper/__init__.py,sha256=BjUPtN06OxIEN7EBfMATu_R5AGUp99htDpJjbSRvUoE,1685
+termscraper/__main__.py,sha256=UkiPx1rC2AKpUmBARzxKRgXfRBfQQ3yiq472wQrxPU0,839
+termscraper/charsets.py,sha256=slGry-dluqrlqK7oetJDiy2O06Li3tHqNsMEsZjn-8Q,7908
+termscraper/control.py,sha256=NjjvQcHxzpdovJq9sAVOJHupFs7LEQfFGqFTN2XTp3U,1862
+termscraper/escape.py,sha256=yEbzvCxZCsQ9lIu2uOF6I5DNlyEM1Lhs-PSUrj3heSo,4280
+termscraper/graphics.py,sha256=dSMsx01xOvtxSXbN4hSBmo_ghr0R_6ERK94zgRncTEk,3547
+termscraper/modes.py,sha256=0btKWjxsvpSAmNQ_j2xq51YzGtXCyRQnhXzdMRiOLFU,2075
+termscraper/screens.py,sha256=C_IAAQ1TvkvsSjcF0wdoX2O6NFfQsbgyvwp86Rog-0k,80192
+termscraper/streams.py,sha256=h8z1Czkz5a-VraArNNpCtGhS2670sUWp8SnunyzgjA0,14754
+termscraper/version.py,sha256=b7jS_BN9ypgxWEuAvWiUbCmBM92NnxRCdLJEgg-ZkF8,869
+termscraper-0.9.2.data/data/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+termscraper-0.9.2.dist-info/AUTHORS,sha256=N-fVSphs889BwvnRtQoicGM9bR4ifOgMtUv1cCQsJTs,522
+termscraper-0.9.2.dist-info/LICENSE,sha256=2n6rt7r999OuXp8iOqW9we7ORaxWncIbOwN1ILRGR2g,7651
+termscraper-0.9.2.dist-info/METADATA,sha256=nVrgdibOIc7tq-BYERPb714Lddu0DtgEBD9ZodOdxVA,3136
+termscraper-0.9.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+termscraper-0.9.2.dist-info/top_level.txt,sha256=zSmDIk8Hs6yKhGp_SJD---d8bk9lkls5WopR4Pk28HI,12
+termscraper-0.9.2.dist-info/RECORD,,
