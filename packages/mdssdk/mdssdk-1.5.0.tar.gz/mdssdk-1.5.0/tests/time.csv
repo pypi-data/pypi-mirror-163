@@ -1,0 +1,155 @@
+test_analytics_type_read (test_fcattranalyticstype.TestFcAttrAnalyticsType),skipped: This feature 'analytics' is not supported on this switch,0
+test_analytics_type_write (test_fcattranalyticstype.TestFcAttrAnalyticsType),skipped: This feature 'analytics' is not supported on this switch,0
+test_analytics_type_write_invalid (test_fcattranalyticstype.TestFcAttrAnalyticsType),skipped: This feature 'analytics' is not supported on this switch,0
+test_counters_clear (test_fcattrcounters.TestFcAttrCounters),skipped: needs to fix,0
+test_counters_read (test_fcattrcounters.TestFcAttrCounters),pass,1.27s 
+test_counters_write_error (test_fcattrcounters.TestFcAttrCounters),pass,0.12s 
+test_description_read (test_fcattrdescription.TestFcAttrDescription),pass,0.464s 
+test_description_write_beyondmax (test_fcattrdescription.TestFcAttrDescription),pass,0.455s 
+test_description_write_max254 (test_fcattrdescription.TestFcAttrDescription),pass,0.725s 
+test_mode_read (test_fcattrmode.TestFcAttrMode),pass,0.822s 
+test_mode_write (test_fcattrmode.TestFcAttrMode),pass,0.575s 
+test_mode_write_invalid (test_fcattrmode.TestFcAttrMode),pass,0.411s 
+test_name_read (test_fcattrname.TestFcAttrName),pass,0.112s 
+test_name_write_error (test_fcattrname.TestFcAttrName),pass,0.114s 
+test_out_of_service_read_error (test_fcattroutofservice.TestFcAttrOutOfService),pass,5.46s 
+test_out_of_service_write (test_fcattroutofservice.TestFcAttrOutOfService),pass,9.75s 
+test_out_of_service_write_invalid (test_fcattroutofservice.TestFcAttrOutOfService),pass,5.48s 
+test_speed_read (test_fcattrspeed.TestFcAttrSpeed),pass,0.764s 
+test_speed_write (test_fcattrspeed.TestFcAttrSpeed),skipped: needs to be fixed,0
+test_speed_write_invalid (test_fcattrspeed.TestFcAttrSpeed),pass,0.367s 
+test_status_read (test_fcattrstatus.TestFcAttrStatus),pass,0.393s 
+test_status_write (test_fcattrstatus.TestFcAttrStatus),skipped: needs to be fixed,0
+test_status_write_invalid (test_fcattrstatus.TestFcAttrStatus),pass,0.37s 
+test_transceiver_read (test_fcattrtransceiver.TestFcAttrTransceiver),pass,2.54s 
+test_transceiver_write_error (test_fcattrtransceiver.TestFcAttrTransceiver),pass,0.44s 
+test_trunk_read (test_fcattrtrunk.TestFcAttrTrunk),pass,0.581s 
+test_trunk_write (test_fcattrtrunk.TestFcAttrTrunk),pass,1.13s 
+test_trunk_write_invalid (test_fcattrtrunk.TestFcAttrTrunk),pass,0.379s 
+test_add_members_invalid (test_portchanneladdmembers.TestPortChannelAddMembers),pass,0.757s 
+test_add_members_invalidfc (test_portchanneladdmembers.TestPortChannelAddMembers),pass,1.03s 
+test_add_members_multiple (test_portchanneladdmembers.TestPortChannelAddMembers),pass,1.71s 
+test_add_members_nonexisting (test_portchanneladdmembers.TestPortChannelAddMembers),pass,0.514s 
+test_add_members_one (test_portchanneladdmembers.TestPortChannelAddMembers),pass,1.05s 
+test_add_members_paramtype (test_portchanneladdmembers.TestPortChannelAddMembers),pass,1.08s 
+test_channel_mode_read (test_portchannelattrchannelmode.TestPortChannelAttrChannelMode),pass,1.45s 
+test_channel_mode_read_nonexisting (test_portchannelattrchannelmode.TestPortChannelAttrChannelMode),pass,1.08s 
+test_channel_mode_write (test_portchannelattrchannelmode.TestPortChannelAttrChannelMode),pass,2.41s 
+test_channel_mode_write_invalid (test_portchannelattrchannelmode.TestPortChannelAttrChannelMode),pass,14.0s 
+test_channel_mode_write_nonexisting (test_portchannelattrchannelmode.TestPortChannelAttrChannelMode),pass,0.883s 
+test_counters_clear (test_portchannelattrcounters.TestPortChannelAttrCounters),skipped: Needs to be fixed,0
+test_counters_read (test_portchannelattrcounters.TestPortChannelAttrCounters),skipped: Need to check why sometimes its None and test is failing,0
+test_counters_read_nonexisting (test_portchannelattrcounters.TestPortChannelAttrCounters),pass,0.574s 
+test_counters_write_error (test_portchannelattrcounters.TestPortChannelAttrCounters),pass,0.481s 
+test_description_read (test_portchannelattrdescription.TestPortChannelAttrDescription),pass,0.628s 
+test_description_read_nonexisting (test_portchannelattrdescription.TestPortChannelAttrDescription),pass,0.389s 
+test_description_write_beyondmax (test_portchannelattrdescription.TestPortChannelAttrDescription),pass,0.897s 
+test_description_write_max254 (test_portchannelattrdescription.TestPortChannelAttrDescription),pass,1.02s 
+test_id_read (test_portchannelattrid.TestPortChannelAttrId),pass,0.339s 
+test_id_write_error (test_portchannelattrid.TestPortChannelAttrId),pass,0.327s 
+test_members_read (test_portchannelattrmembers.TestPortChannelAttrMembers),pass,0.894s 
+test_members_read_nonexisting (test_portchannelattrmembers.TestPortChannelAttrMembers),pass,0.39s 
+test_members_write_error (test_portchannelattrmembers.TestPortChannelAttrMembers),pass,0.318s 
+test_mode_read (test_portchannelattrmode.TestPortChannelAttrMode),pass,1.02s 
+test_mode_read_nonexisting (test_portchannelattrmode.TestPortChannelAttrMode),pass,0.62s 
+test_mode_write (test_portchannelattrmode.TestPortChannelAttrMode),skipped: Needs to be fixed,0
+test_mode_write_invalid (test_portchannelattrmode.TestPortChannelAttrMode),pass,0.837s 
+test_name_read (test_portchannelattrname.TestPortChannelAttrName),pass,0.542s 
+test_name_write_error (test_portchannelattrname.TestPortChannelAttrName),pass,0.319s 
+test_speed_read (test_portchannelattrspeed.TestPortChannelAttrSpeed),pass,0.637s 
+test_speed_read_nonexisting (test_portchannelattrspeed.TestPortChannelAttrSpeed),pass,0.434s 
+test_speed_write (test_portchannelattrspeed.TestPortChannelAttrSpeed),skipped: Needs to be fixed,0
+test_speed_write_invalid (test_portchannelattrspeed.TestPortChannelAttrSpeed),pass,0.461s 
+test_status_read (test_portchannelattrstatus.TestPortChannelAttrStatus),pass,0.662s 
+test_status_read_nonexisting (test_portchannelattrstatus.TestPortChannelAttrStatus),pass,0.382s 
+test_status_write (test_portchannelattrstatus.TestPortChannelAttrStatus),pass,1.63s 
+test_status_write_invalid (test_portchannelattrstatus.TestPortChannelAttrStatus),pass,0.49s 
+test_trunk_read (test_portchannelattrtrunk.TestPortChannelAttrTrunk),pass,1.16s 
+test_trunk_read_nonexisting (test_portchannelattrtrunk.TestPortChannelAttrTrunk),pass,0.391s 
+test_trunk_write (test_portchannelattrtrunk.TestPortChannelAttrTrunk),pass,1.45s 
+test_trunk_write_invalid (test_portchannelattrtrunk.TestPortChannelAttrTrunk),pass,0.472s 
+test_create (test_portchannelcreate.TestPortChannelCreate),pass,0.757s 
+test_create_invalid (test_portchannelcreate.TestPortChannelCreate),pass,0.31s 
+test_delete (test_portchanneldelete.TestPortChannelDelete),pass,0.79s 
+test_delete_nonexisting (test_portchanneldelete.TestPortChannelDelete),pass,0.947s 
+test_remove_members_multiple (test_portchannelremovemembers.TestPortChannelRemoveMembers),pass,1.96s 
+test_remove_members_nonexisting (test_portchannelremovemembers.TestPortChannelRemoveMembers),pass,1.4s 
+test_remove_members_nonexistingpc (test_portchannelremovemembers.TestPortChannelRemoveMembers),pass,1.03s 
+test_remove_members_one (test_portchannelremovemembers.TestPortChannelRemoveMembers),pass,2.2s 
+test_remove_members_paramtype (test_portchannelremovemembers.TestPortChannelRemoveMembers),pass,1.25s 
+test_kickstart_image_read (test_switchattr_kick_sys_image.TestSwitchAttrKickstartImage),pass,0.24s 
+test_kickstart_image_write_error (test_switchattr_kick_sys_image.TestSwitchAttrKickstartImage),pass,9.99e-05s 
+test_system_image_read (test_switchattr_kick_sys_image.TestSwitchAttrKickstartImage),pass,0.238s 
+test_system_image_write_error (test_switchattr_kick_sys_image.TestSwitchAttrKickstartImage),pass,9.37e-05s 
+test_active_zonesets_read (test_switchattractivezonesets.TestSwitchAttrActiveZonesets),pass,12.8s 
+test_active_zonesets_write_error (test_switchattractivezonesets.TestSwitchAttrActiveZonesets),pass,1.19s 
+test_cores_read (test_switchattrcores.TestSwitchAttrCores),skipped: Needs to be fixed,0
+test_cores_write_error (test_switchattrcores.TestSwitchAttrCores),pass,9.78e-05s 
+test_form_factor_read (test_switchattrformfactor.TestSwitchAttrFormFactor),pass,0.00031s 
+test_form_factor_write_error (test_switchattrformfactor.TestSwitchAttrFormFactor),pass,7.58e-05s 
+test_image_string_read (test_switchattrimagestring.TestSwitchAttrImageString),pass,0.00016s 
+test_image_string_write_error (test_switchattrimagestring.TestSwitchAttrImageString),pass,7.32e-05s 
+test_interfaces_read (test_switchattrinterfaces.TestSwitchAttrInterfaces),pass,0.119s 
+test_interfaces_write_error (test_switchattrinterfaces.TestSwitchAttrInterfaces),pass,9.32e-05s 
+test_ipaddr_read (test_switchattripaddr.TestSwitchAttrIpAddr),pass,7.77e-05s 
+test_ipaddr_write_error (test_switchattripaddr.TestSwitchAttrIpAddr),pass,6.79e-05s 
+test_model_read (test_switchattrmodel.TestSwitchAttrModel),pass,0.000182s 
+test_model_write_error (test_switchattrmodel.TestSwitchAttrModel),pass,7.7e-05s 
+test_modules_read (test_switchattrmodules.TestSwitchAttrModules),pass,0.227s 
+test_modules_write_error (test_switchattrmodules.TestSwitchAttrModules),pass,0.162s 
+test_name_read (test_switchattrname.TestSwitchAttrName),pass,0.367s 
+test_name_write_beyondmax (test_switchattrname.TestSwitchAttrName),pass,0.383s 
+test_name_write_invalid (test_switchattrname.TestSwitchAttrName),pass,0.395s 
+test_name_write_max32 (test_switchattrname.TestSwitchAttrName),pass,0.543s 
+test_npv_read (test_switchattrnpv.TestSwitchAttrNpv),pass,0.702s 
+test_npv_write_error (test_switchattrnpv.TestSwitchAttrNpv),pass,0.000117s 
+test_type_read (test_switchattrtype.TestSwitchAttrType),pass,9.82e-05s 
+test_type_snum_and_others (test_switchattrtype.TestSwitchAttrType),pass,0.496s 
+test_type_write_error (test_switchattrtype.TestSwitchAttrType),pass,0.000108s 
+test_version_read (test_switchattrversion.TestSwitchAttrVersion),pass,8.75e-05s 
+test_version_write_error (test_switchattrversion.TestSwitchAttrVersion),pass,6.89e-05s 
+test_vsans_read (test_switchattrvsans.TestSwitchAttrVsans),skipped: Needs to be fixed,0
+test_vsans_write_error (test_switchattrvsans.TestSwitchAttrVsans),pass,0.000222s 
+test_config (test_switchconfig.TestSwitchConfig),pass,0.0939s 
+test_config_error (test_switchconfig.TestSwitchConfig),pass,0.0913s 
+test_feature (test_switchfeature.TestSwitchFeature),pass,5.57s 
+test_feature_invalid (test_switchfeature.TestSwitchFeature),pass,1.45s 
+test_feature_notallowed (test_switchfeature.TestSwitchFeature),pass,1.25s 
+test_feature_typeerror (test_switchfeature.TestSwitchFeature),pass,1.27s 
+test_reload (test_switchreload.TestSwitchReload),"skipped: Skipping Reload, Needs to be fixed",0
+test_show (test_switchshow.TestSwitchShow),skipped: Needs to be fixed,0
+test_show_rawtext (test_switchshow.TestSwitchShow),skipped: Needs to be fixed,0
+test_addinterfaces (test_vsanaddinterfaces.TestVsanAddInterfaces),pass,2.04s 
+test_addinterfaces_fc_invalid (test_vsanaddinterfaces.TestVsanAddInterfaces),pass,1.48s 
+test_addinterfaces_invalid (test_vsanaddinterfaces.TestVsanAddInterfaces),pass,1.51s 
+test_addinterfaces_nonexistingvsan (test_vsanaddinterfaces.TestVsanAddInterfaces),pass,0.822s 
+test_addinterfaces_portchannelnotpresent (test_vsanaddinterfaces.TestVsanAddInterfaces),pass,1.3s 
+test_addinterfaces_repeated (test_vsanaddinterfaces.TestVsanAddInterfaces),pass,2.42s 
+test_addinterfaces_type_error (test_vsanaddinterfaces.TestVsanAddInterfaces),pass,1.43s 
+test_id_read (test_vsanattrid.TestVsanAttrId),pass,0.323s 
+test_id_read_nonexistingvsan (test_vsanattrid.TestVsanAttrId),pass,0.398s 
+test_id_write_error (test_vsanattrid.TestVsanAttrId),pass,0.304s 
+test_interfaces_read (test_vsanattrinterfaces.TestVsanAttrInterfaces),pass,0.462s 
+test_interfaces_read_nonexistingvsan (test_vsanattrinterfaces.TestVsanAttrInterfaces),pass,0.325s 
+test_interfaces_write_error (test_vsanattrinterfaces.TestVsanAttrInterfaces),pass,0.283s 
+test_name_read (test_vsanattrname.TestVsanAttrName),pass,0.669s 
+test_name_read_nonexistingvsan (test_vsanattrname.TestVsanAttrName),pass,0.357s 
+test_name_write (test_vsanattrname.TestVsanAttrName),pass,2.73s 
+test_name_write_beyondmax (test_vsanattrname.TestVsanAttrName),pass,0.807s 
+test_name_write_max32 (test_vsanattrname.TestVsanAttrName),pass,1.63s 
+test_name_write_nonexistingvsan (test_vsanattrname.TestVsanAttrName),pass,1.17s 
+test_name_write_repeated (test_vsanattrname.TestVsanAttrName),pass,0.636s 
+test_state_read (test_vsanattrstate.TestVsanAttrState),pass,0.534s 
+test_state_read_nonexistingvsan (test_vsanattrstate.TestVsanAttrState),pass,0.373s 
+test_state_write_error (test_vsanattrstate.TestVsanAttrState),pass,0.243s 
+test_suspend_read_error (test_vsanattrsuspend.TestVsanAttrSuspend),pass,0.217s 
+test_suspend_write (test_vsanattrsuspend.TestVsanAttrSuspend),pass,1.11s 
+test_suspend_write_invalid (test_vsanattrsuspend.TestVsanAttrSuspend),pass,0.268s 
+test_suspend_write_nonexistingvsan (test_vsanattrsuspend.TestVsanAttrSuspend),pass,1.07s 
+test_create_boundary (test_vsancreate.TestVsanCreate),pass,0.806s 
+test_create_reserved (test_vsancreate.TestVsanCreate),pass,0.386s 
+test_create_success (test_vsancreate.TestVsanCreate),pass,0.558s 
+test_delete (test_vsandelete.TestVsanDelete),pass,0.784s 
+test_delete_default_vsan (test_vsandelete.TestVsanDelete),pass,0.483s 
+test_delete_nonexistingvsan (test_vsandelete.TestVsanDelete),pass,0.512s 
+test_database_read (test_devicealiasattrdatabase.TestDeviceAliasAttrDatabase),error,0
