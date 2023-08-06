@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: blueee
+Version: 1.1.4
+Summary: none
+Author: zba
+Author-email: 11@abc.com
+License: MIT Licence
+Keywords: pip
+Platform: any
+Requires-Dist: numpy
+Requires-Dist: pillow
+
+none of long
+
