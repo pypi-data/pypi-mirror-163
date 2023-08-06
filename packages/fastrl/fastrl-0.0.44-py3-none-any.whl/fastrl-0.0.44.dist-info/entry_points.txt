@@ -1,0 +1,2 @@
+[console_scripts]
+fastrl_make_requirements = fastrl.core:fastrl_make_requirements
