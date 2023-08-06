@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: onlinecsat
+Version: 0.1.0
+Summary: OnlineCSAT use case
+Author: John Harney
+Author-email: John.Harney@Dell.com
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
