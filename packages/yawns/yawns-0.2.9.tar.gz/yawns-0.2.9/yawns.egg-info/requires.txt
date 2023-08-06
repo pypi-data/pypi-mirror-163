@@ -1,0 +1,11 @@
+psycopg2-binary>=2.7
+django>=2.2
+djangorestframework>=3.4
+whitenoise>=3.0
+gunicorn>=19
+pyyaml>=5.1
+
+[test]
+pytest>=3.4
+pytest-cov
+flake8
