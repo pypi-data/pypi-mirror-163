@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: biab-library
+Version: 0.4.1
+Summary: A converter for band-in-a-box files
+Home-page: https://github.com/andreamust/biab
+Author: Andrea Poltronieri
+Author-email: andrea.poltronieri21@gmail.com
+Requires-Python: >=3.6
+Provides-Extra: test
+License-File: LICENSE
+
+A tool for exploring and processing Band-in-a-Box files
