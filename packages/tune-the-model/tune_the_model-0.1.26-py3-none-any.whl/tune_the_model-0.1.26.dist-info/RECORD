@@ -1,0 +1,11 @@
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/functional/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/functional/test_tune_the_model.py,sha256=rxznq3LldZlWSROXnc6t5qDrEnzVWaXE9ZwnJ2wNIDI,3996
+tune_the_model/__init__.py,sha256=aKFQeTnj0A48pyutJHU31O88mzgStHBh1ZmsO07awEo,1470
+tune_the_model/cli.py,sha256=KXPZ-_pX8SuMuLFGK8okgDD1uck48hkxQs86RJsfZAQ,19892
+tune_the_model/resource.py,sha256=Axo7sC9fAGOkAJ7gNrPqbbsfcoHMz4UTs3OteSMTqpA,4135
+tune_the_model-0.1.26.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+tune_the_model-0.1.26.dist-info/METADATA,sha256=sh7Mgfup-CqL6RAqyPM8YjbIv11a1nY8L__LTs5Vokg,2304
+tune_the_model-0.1.26.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tune_the_model-0.1.26.dist-info/top_level.txt,sha256=K_qo0WsIR0DDRI1ZNtnZRSnqpmeCbcMSOZrkLlGU0xQ,21
+tune_the_model-0.1.26.dist-info/RECORD,,
