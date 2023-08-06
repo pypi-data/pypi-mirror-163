@@ -1,0 +1,151 @@
+[commands.check]
+desc = "Check if neutralinocli and poetry are installed."
+help_on_void = false
+
+[commands.check.params.python]
+desc = "The path to the python executable."
+default = "python"
+
+[commands.create]
+desc = "Create a new project."
+
+    [commands.create.params.name]
+    aliases = ["n"]
+    type = "str"
+    desc = "The name of the project. It's used to create a directory under current directory, and also the project name in neutralinojs.config.json and pyproject.toml."
+    required = true
+
+    [commands.create.params.python]
+    desc = "The path to the python executable."
+    default = "python"
+
+    [commands.create.params.version]
+    aliases = ["v"]
+    type = "str"
+    desc = "The version of the project. It's used in neutralinojs.config.json and pyproject.toml."
+    default = "0.1.0"
+
+    [commands.create.params.description]
+    aliases = ["d"]
+    type = "str"
+    desc = "The description of the project."
+    default = ""
+
+    [commands.create.params.license]
+    aliases = ["l"]
+    type = "str"
+    desc = "The license of the project."
+    default = "MIT"
+
+    [commands.create.params.template]
+    aliases = ["t"]
+    type = "str"
+    desc = "The template used to create the project."
+    default = "default"
+
+    [commands.create.params.force]
+    desc = "Remove existing project directory and then create."
+    default = false
+
+    [commands.create.params.ext-loglevel]
+    desc = "Default logging level for the python extension."
+    default = "INFO"
+    choices = ["DEBUG", "INFO", "WARNING", "ERROR", "CRITICAL"]
+
+[commands.run]
+help_on_void = false
+desc = [
+    "Run current project. ",
+    "See also: https://neutralino.js.org/docs/cli/neu-cli/#neu-run"
+]
+
+    [commands.run.params.disable-auto-reload]
+    desc = "Disables the auto-reloading feature."
+    default = false
+
+    [commands.run.params.frontend-lib-dev]
+    desc = "Enables both frontend library's development environment and Neutralinojs's development evironment at the same time."
+    default = false
+
+    [commands.run.params.-]
+    desc = "Sets additional CLI arguments for the Neutralinojs application process. "
+    default = []
+
+[commands.add]
+desc = [
+    "Add a python dependency."
+]
+
+    [commands.add.params.""]
+    desc = "The names of the dependencies."
+    required = true
+    type = "list"
+
+    [commands.add.params.dev]
+    desc = "Add the dependencies to dev-dependencies."
+    default = false
+    aliases = ["D"]
+
+    [commands.add.params.extras]
+    desc="Extras to activate for the dependency."
+    default = []
+    aliases = ["E"]
+
+    [commands.add.params.optional]
+    desc = "Add the dependencies as optional."
+    default = false
+
+    [commands.add.params.pyver]
+    desc = "Python version for which the dependency must be installed."
+    default = ""
+
+    [commands.add.params.platform]
+    desc = "Platform for which the dependency must be installed."
+    default = ""
+
+    [commands.add.params.source]
+    desc = "Name of the source to use for the dependency."
+    default = ""
+
+    [commands.add.params.allow-prereleases]
+    desc = "Allow prereleases."
+    default = false
+
+    [commands.add.params.lock]
+    desc = "Do not perform operations (only update the lockfile)."
+    default = false
+
+[commands.remove]
+desc = [
+    "Remove a python dependency."
+]
+
+    [commands.remove.params.""]
+    desc = "The names of the dependencies."
+    required = true
+    type = "list"
+
+    [commands.remove.params.dev]
+    desc = "Remove the dependencies from dev-dependencies."
+    default = false
+    aliases = ["D"]
+
+[commands.sync]
+desc = [
+    "Sync neutrapy.toml to downstream configuration files"
+]
+help_on_void = false
+
+    [commands.sync.params.python]
+    desc = "The path to the python executable."
+    default = "python"
+
+[commands.build]
+desc = [
+    "Build the project."
+]
+help_on_void = false
+
+    [commands.build.params.force]
+    desc = "Do not check if we need to do `neutrapy sync` before building."
+    default = false
