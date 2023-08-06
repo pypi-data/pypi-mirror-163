@@ -1,0 +1,61 @@
+Metadata-Version: 2.1
+Name: scimath
+Version: 5.0.0
+Summary: scientific and mathematical calculations
+Home-page: https://github.com/enthought/scimath
+Author: Enthought, Inc
+Author-email: info@enthought.com
+Maintainer: ETS Developers
+Maintainer-email: enthought-dev@enthought.com
+License: BSD
+Download-URL: https://github.com/enthought/scimath/archive/5.0.0.tar.gz
+Platform: Windows
+Platform: Linux
+Platform: Mac OS-X
+Platform: Unix
+Platform: Solaris
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: C
+Classifier: Programming Language :: Python
+Classifier: Topic :: Scientific/Engineering
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: traits
+Requires-Dist: numpy
+Requires-Dist: scipy
+Provides-Extra: docs
+Requires-Dist: enthought-sphinx-theme ; extra == 'docs'
+Requires-Dist: sphinx ; extra == 'docs'
+
+=================================================
+scimath: Scientific and Mathematical calculations
+=================================================
+
+http://scimath.readthedocs.org/en/latest/
+
+The SciMath project includes packages to support scientific and mathematical
+calculations, beyond the capabilities offered by SciPy.
+
+- scimath.interpolate
+- scimath.mathematics
+- scimath.units
+- scimath.physical_quantities
+
+Prerequisites
+-------------
+
+* `Traits <https://pypi.python.org/pypi/traits>`_
+* `NumPy <https://pypi.python.org/pypi/numpy>`_
+* `SciPy <https://pypi.python.org/pypi/scipy>`_
+
+
