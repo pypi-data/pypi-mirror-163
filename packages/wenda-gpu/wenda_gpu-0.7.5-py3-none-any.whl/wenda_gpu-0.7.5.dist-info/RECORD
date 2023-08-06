@@ -1,0 +1,9 @@
+wenda_gpu/LBFGS.py,sha256=vGuwBma4sWq9R7O3eyzsj7MK7Z9gqHCA3Upz8ppcXCA,44012
+wenda_gpu/LBFGS_utils.py,sha256=GMYQYqEvOy6AxPt8jqDAF-FNMZYwExXgElNm5uJOjWg,6529
+wenda_gpu/utils.py,sha256=gXeZAHLOk9F55tcjgIkrXar0nLoCPmfIDjgVlOFWUY8,7987
+wenda_gpu/wenda_gpu.py,sha256=llLq_65GxMw1TPlqDO9UhHAZqEYcS3Zn63mduMAcFi0,14568
+wenda_gpu-0.7.5.dist-info/LICENSE,sha256=Ire9cYRX_2fHO3DYPHdlnggNwABmXbhSqfkRhBg4DAw,1525
+wenda_gpu-0.7.5.dist-info/METADATA,sha256=EoPZ_q3f2usm5Hh6NiLBwEw7eJAGM7jiyAgpjJ805mU,4459
+wenda_gpu-0.7.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wenda_gpu-0.7.5.dist-info/top_level.txt,sha256=9ebN7HNLMbLrP3I1D8PX7EpS87eTHMUY5Pv__8mwTVA,10
+wenda_gpu-0.7.5.dist-info/RECORD,,
