@@ -1,0 +1,68 @@
+Metadata-Version: 2.1
+Name: th-redis-session
+Version: 0.9.0
+Summary: A package to support redis session store in django project
+Author: nscctj
+Author-email: lics@nscc-tj.cn
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+##### 安装
+```bash
+pip install th-redis-session 
+```
+
+修改 django 的 settings.py
+```python
+# 导入redis的异常包
+from redis import exceptions
+
+# 1. 添加如下配置
+# session的存储配置
+SESSION_ENGINE = 'th_redis_session.RedisSessionStore'
+SESSION_CACHE_ALIAS = 'default'
+
+# 设置session失效时间,单位为秒,默认24小时
+SESSION_COOKIE_AGE = 24*60*60
+SESSION_COOKIE_NAME = 'SESSION'
+
+# redis session key 格式，默认以thsc开头
+def redis_key_func(key, key_prefix, version):
+    return 'thsc:%s' % (key)
+
+# redis 配置
+REDIS_HOST=os.environ.get('REDIS_HOST', 'your_host')
+REDIS_PORT=os.environ.get('REDIS_PORT', 'your_port')
+REDIS_DB=os.environ.get('REDIS_DB', 'your_db')
+REDIS_PASSWORD=os.environ.get('REDIS_PASSWORD', "your_pwd")
+
+CACHES = {
+    "default": {
+        "BACKEND": "django_redis.cache.RedisCache",
+        "LOCATION": "redis://%s:%s/%s" % (REDIS_HOST, REDIS_PORT, REDIS_DB),
+        "OPTIONS": {
+            "CLIENT_CLASS": "django_redis.client.DefaultClient",
+            "SERIALIZER": "django_redis.serializers.json.JSONSerializer",
+            "PASSWORD": REDIS_PASSWORD,
+            "SOCKET_CONNECT_TIMEOUT": 60,  # seconds
+            "SOCKET_TIMEOUT": 60,  # seconds
+            "CONNECTION_POOL_KWARGS": {
+                "max_connections": 20, 
+                "retry_on_timeout": True, 
+                "health_check_interval": 30, 
+                "socket_keepalive": True, 
+                "retry_on_error":[exceptions.ConnectionError]
+            }
+        },
+        "KEY_FUNCTION": redis_key_func
+    }
+}
+
+# 2. 从 INSTALLED_APPS 中删除 'django.contrib.sessions'
+
+
+```
