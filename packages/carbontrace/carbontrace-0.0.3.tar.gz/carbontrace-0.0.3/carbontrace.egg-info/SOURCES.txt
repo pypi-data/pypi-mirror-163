@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+carbontrace/__init__.py
+carbontrace/_modidx.py
+carbontrace/network.py
+carbontrace/trace.py
+carbontrace.egg-info/PKG-INFO
+carbontrace.egg-info/SOURCES.txt
+carbontrace.egg-info/dependency_links.txt
+carbontrace.egg-info/entry_points.txt
+carbontrace.egg-info/not-zip-safe
+carbontrace.egg-info/requires.txt
+carbontrace.egg-info/top_level.txt
