@@ -1,0 +1,108 @@
+
+############################## Experiment details ##############################
+
+dataset: femnist
+dataset_dir: ../data/femnist/
+output_dir: output/fedavg-femnist-2022-08-15_21:11:17/
+model: cnn
+num_rounds: 30
+eval_every: 10
+ServerType: <class 'rayleaf.entities.server.Server'>
+client_types: [(<class 'rayleaf.entities.client.Client'>, 20)]
+clients_per_round: 20
+client_lr: 0.05
+batch_size: 64
+seed: 0
+use_val_set: False
+num_epochs: 10
+gpus_per_client_cluster: 1
+num_client_clusters: 4
+save_model: False
+
+############################## Simulation ##############################
+
+Spawning 4 ClientClusters using cuda device (this may take a while)
+20 total clients: 20 Clients
+
+>>> Training Accuracy: Round 0 <<<
++------------+------------+-------------------+-------------------+
+|    average |     median |   10th percentile |   90th percentile |
+|------------+------------+-------------------+-------------------|
+| 0.00235018 | 0.00277027 |                 0 |        0.00352489 |
++------------+------------+-------------------+-------------------+
+>>> Test Accuracy: Round 0 <<<
++------------+----------+-------------------+-------------------+
+|    average |   median |   10th percentile |   90th percentile |
+|------------+----------+-------------------+-------------------|
+| 0.00130548 |        0 |                 0 |                 0 |
++------------+----------+-------------------+-------------------+
+--- Round 1 of 30: Training 20 clients: 20 Clients ---
+--- Round 2 of 30: Training 20 clients: 20 Clients ---
+--- Round 3 of 30: Training 20 clients: 20 Clients ---
+--- Round 4 of 30: Training 20 clients: 20 Clients ---
+--- Round 5 of 30: Training 20 clients: 20 Clients ---
+--- Round 6 of 30: Training 20 clients: 20 Clients ---
+--- Round 7 of 30: Training 20 clients: 20 Clients ---
+--- Round 8 of 30: Training 20 clients: 20 Clients ---
+--- Round 9 of 30: Training 20 clients: 20 Clients ---
+--- Round 10 of 30: Training 20 clients: 20 Clients ---
+>>> Training Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.519389 | 0.523138 |          0.382117 |          0.656719 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.507833 | 0.520076 |          0.366463 |          0.597005 |
++-----------+----------+-------------------+-------------------+
+--- Round 11 of 30: Training 20 clients: 20 Clients ---
+--- Round 12 of 30: Training 20 clients: 20 Clients ---
+--- Round 13 of 30: Training 20 clients: 20 Clients ---
+--- Round 14 of 30: Training 20 clients: 20 Clients ---
+--- Round 15 of 30: Training 20 clients: 20 Clients ---
+--- Round 16 of 30: Training 20 clients: 20 Clients ---
+--- Round 17 of 30: Training 20 clients: 20 Clients ---
+--- Round 18 of 30: Training 20 clients: 20 Clients ---
+--- Round 19 of 30: Training 20 clients: 20 Clients ---
+--- Round 20 of 30: Training 20 clients: 20 Clients ---
+>>> Training Accuracy: Round 20 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.726498 | 0.725703 |          0.614156 |          0.824198 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 20 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.701044 | 0.692308 |          0.583547 |          0.813902 |
++-----------+----------+-------------------+-------------------+
+--- Round 21 of 30: Training 20 clients: 20 Clients ---
+--- Round 22 of 30: Training 20 clients: 20 Clients ---
+--- Round 23 of 30: Training 20 clients: 20 Clients ---
+--- Round 24 of 30: Training 20 clients: 20 Clients ---
+--- Round 25 of 30: Training 20 clients: 20 Clients ---
+--- Round 26 of 30: Training 20 clients: 20 Clients ---
+--- Round 27 of 30: Training 20 clients: 20 Clients ---
+--- Round 28 of 30: Training 20 clients: 20 Clients ---
+--- Round 29 of 30: Training 20 clients: 20 Clients ---
+--- Round 30 of 30: Training 20 clients: 20 Clients ---
+>>> Training Accuracy: Round 30 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|   0.78775 | 0.785029 |          0.702273 |          0.878814 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 30 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.737598 | 0.746795 |          0.623611 |          0.822306 |
++-----------+----------+-------------------+-------------------+
+
+############################## Post-Simulation ##############################
+
+Total Experiment time: 0:03:45.361521

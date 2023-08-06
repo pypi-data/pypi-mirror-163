@@ -1,0 +1,23 @@
+
+############################## Experiment details ##############################
+
+dataset: speech_commands
+dataset_dir: ../data/speech_commands/
+output_dir: output/fedavg-speech_commands-2022-08-15_22:07:16/
+model: m5
+num_rounds: 30
+eval_every: 10
+ServerType: <class 'rayleaf.entities.server.Server'>
+client_types: [(<class 'rayleaf.entities.client.Client'>, 20)]
+clients_per_round: 20
+client_lr: 0.05
+batch_size: 64
+seed: 0
+use_val_set: False
+num_epochs: 10
+gpus_per_client_cluster: 1
+num_client_clusters: 4
+save_model: False
+
+############################## Simulation ##############################
+

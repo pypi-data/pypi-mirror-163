@@ -1,0 +1,3 @@
+{
+  "tests/tensorarray/test_torch_linalg_norm.py::test_simple_norm": true
+}
