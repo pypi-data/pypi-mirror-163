@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: geostat-api
+Version: 0.1.0
+Summary: A OGC api compliant REST API for geostatistical applications by hydrocode
+Author: Mirko Mälicke
+Author-email: mirko@hydrocode.de
+License: GPLv3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# geostat-api
+
+Testing OGR API - Process to power the geostat application
