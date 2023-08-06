@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: bashdict
+Version: 0.1.1
+Summary: A simple commandline dictionary
+License: MIT
+Author: Your Name
+Author-email: you@example.com
+Requires-Python: ==3.10.5
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
