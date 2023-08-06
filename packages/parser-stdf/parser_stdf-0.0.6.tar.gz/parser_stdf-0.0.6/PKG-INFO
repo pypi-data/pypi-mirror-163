@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: parser_stdf
+Version: 0.0.6
+Summary: parse stdf files
+Home-page: https://github.com/akc14/parser_stdf/
+Author: andrew.khoh
+Author-email: andrew.khoh@globalfoundries.com
+License: Apache Software License 2.0
+Keywords: stdf,csv
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+License-File: LICENSE
+
+# parser_stdf
+

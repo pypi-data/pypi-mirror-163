@@ -1,0 +1,2 @@
+[nbdev]
+parser_stdf = parser_stdf._modidx:d

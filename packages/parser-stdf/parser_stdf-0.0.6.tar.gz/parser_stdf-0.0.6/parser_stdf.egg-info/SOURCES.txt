@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+parser_stdf/__init__.py
+parser_stdf/_modidx.py
+parser_stdf/core.py
+parser_stdf.egg-info/.amlignore
+parser_stdf.egg-info/.amlignore.amltmp
+parser_stdf.egg-info/PKG-INFO
+parser_stdf.egg-info/SOURCES.txt
+parser_stdf.egg-info/dependency_links.txt
+parser_stdf.egg-info/entry_points.txt
+parser_stdf.egg-info/not-zip-safe
+parser_stdf.egg-info/requires.txt
+parser_stdf.egg-info/top_level.txt
