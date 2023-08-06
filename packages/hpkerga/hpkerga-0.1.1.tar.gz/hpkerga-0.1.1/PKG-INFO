@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: hpkerga
+Version: 0.1.1
+Summary: Description
+Home-page: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hpkerga
+
+## Setup
+
+Choose a package name and replace the template name `hpkerga` in all files:
+```bash
+./quick-start.sh MyPackageName
+rm quick-start.sh  # you can delete this file afterwards
+```
+
+
+## Upload to pypi
+```bash
+pip install --upgrade pip
+pip install wheel twine
+```
+
+Place your [pypi token](https://pypi.org/manage/account/token/) in `$HOME/.pypirc`:
+
+```
+[pypi]
+  username = __token__
+  password = # either a user-scoped token or a project-scoped token you want to set as the default
+```
+
+To upload to pypi,
+```
+make
+```
+
+## Install
+```bash
+pip install hpkerga
+pip install -e <path-to-repo>/hpkerga
+pip install git+ssh://git@github.com/<path-to-repo>.git
+```
+
+
