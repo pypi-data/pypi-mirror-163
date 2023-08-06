@@ -1,0 +1,9 @@
+premovr/__init__.py,sha256=qNq26vjuS_X_lMBoyDIyx0C27tQ6xQOaJg_nHlbE410,91
+premovr/entrypoint.py,sha256=0mkdoLVFgkbpPDYWwt8FevPPbCU_MqnILBRAfLy456o,117
+premovr/game_interfaces/__init__.py,sha256=yo4XX7rI-sOJEeaZTIKyf_XxaSberH6NwkC7s7A5N0g,26
+premovr/game_interfaces/lichess_api.py,sha256=g9q0WWGJ2q0J5cWH1xNUUoHDHyprD3ijNduVxB1hPKI,132
+premovr/hardware_interfaces/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+premovr-0.0.2.dist-info/entry_points.txt,sha256=kyQHgTuiPxfsifwoGC_RQ_Rs_J7-7DlmH4WplGmF4R8,51
+premovr-0.0.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+premovr-0.0.2.dist-info/METADATA,sha256=zoaZGGcC8yGGbB_xda0-AO4uUpQhGYhfkEN5L2oa_b8,530
+premovr-0.0.2.dist-info/RECORD,,
