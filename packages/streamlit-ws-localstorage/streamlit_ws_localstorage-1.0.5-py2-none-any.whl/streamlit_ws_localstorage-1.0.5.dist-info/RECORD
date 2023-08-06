@@ -1,0 +1,12 @@
+streamlit_ws_localstorage/__init__.py,sha256=WhHhKfzwABdZIjLJUb-kiqYg7p21prx3YW5Tn9sqJcY,3441
+streamlit_ws_localstorage/auth_redirect_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streamlit_ws_localstorage/auth_redirect_server/auth_redirect_server.py,sha256=WsZnquD9yqQHUo7K9BDfh0VMEcpG0GHt8TP-9vh2d4E,2431
+streamlit_ws_localstorage/auth_redirect_server/auth_util.py,sha256=Dxy_4NKducC2YfrRnB3zbSQwXjmVCv4IKeSXcX4t8Yg,1678
+streamlit_ws_localstorage/websocket_server/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+streamlit_ws_localstorage/websocket_server/websocket-echo-test.py,sha256=ZS8iu7LAFHlKPA6MUnHShW6d3YFL4_1wf9tTAkkDq30,604
+streamlit_ws_localstorage/websocket_server/ws_server.py,sha256=I3ADsQs5GW4IbExoQRhUl6gcEwaQowhVxrsqtBD069g,1800
+streamlit_ws_localstorage-1.0.5.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+streamlit_ws_localstorage-1.0.5.dist-info/METADATA,sha256=3sxJUar4r6mHf-4T8Sp1qvsuI49xjgbNSmUtn02_A8U,2269
+streamlit_ws_localstorage-1.0.5.dist-info/WHEEL,sha256=pqI-DBMA-Z6OTNov1nVxs7mwm6Yj2kHZGNp_6krVn1E,92
+streamlit_ws_localstorage-1.0.5.dist-info/top_level.txt,sha256=E4S-bq78ElZcqo0xTkA_8jRXpqe2nFNZoeaI_YhFw6c,26
+streamlit_ws_localstorage-1.0.5.dist-info/RECORD,,
