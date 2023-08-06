@@ -1,0 +1,11 @@
+testy_quick/__init__.py,sha256=7ZgAdPlXzsXo70gOYGdeXo3KAoYSLIVv0C3c_eDA91o,49
+testy_quick/hello.py,sha256=dwuaNZU1OcobiVXoYO3zObNPN-UQ-q00WGjyvsl99Ac,90
+testy_quick/settings.py,sha256=abeJIAH47GPxzbcb7u-xEgIWhnAwCPO8EkAJelW2x1Q,130
+testy_quick/handlers/__init__.py,sha256=ndYpJAozo27hhF6uhnVZSd3PIxsQU9jAgOlKTrfG9hc,114
+testy_quick/handlers/base_reader.py,sha256=LR30oTlvl65RFimcgRF3umBh4Jr2z8AFzYoYuzT4d-4,1714
+testy_quick/handlers/csv_reader.py,sha256=lf_68g_-Lf1Q79EiZSWJgMxWAycHra3pVozgFtlvIHo,190
+testy_quick-0.0.1.dist-info/LICENSE,sha256=2BUBoa72iBN1ho48xPBjAq2GF8VPWAsQTisyPR2xUCg,17119
+testy_quick-0.0.1.dist-info/METADATA,sha256=dvaHFx6VMsz273eppl-C2nh-ObQlOGExrmY3DnGx6es,582
+testy_quick-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+testy_quick-0.0.1.dist-info/top_level.txt,sha256=lGB5Zu6vJHbzWMzewzCrZxyuV4_uPvbLc0RDhq7WFys,12
+testy_quick-0.0.1.dist-info/RECORD,,
