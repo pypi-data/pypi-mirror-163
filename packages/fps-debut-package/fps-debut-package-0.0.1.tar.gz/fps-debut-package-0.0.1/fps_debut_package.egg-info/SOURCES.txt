@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.py
+fps_debut_package/__init__.py
+fps_debut_package/functions.py
+fps_debut_package/greet.py
+fps_debut_package.egg-info/PKG-INFO
+fps_debut_package.egg-info/SOURCES.txt
+fps_debut_package.egg-info/dependency_links.txt
+fps_debut_package.egg-info/not-zip-safe
+fps_debut_package.egg-info/top_level.txt
