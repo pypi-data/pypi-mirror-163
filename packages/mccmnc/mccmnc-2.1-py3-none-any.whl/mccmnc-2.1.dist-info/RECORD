@@ -1,0 +1,11 @@
+mccmnc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+mccmnc/mccmnc.csv,sha256=z4pgoBe-ZOOAfZSFKn_rNzZf5E1NAQtrWLkgwaV8JFM,69259
+mccmnc/mccmnc.json,sha256=2sbDaVG0GHTPaFPfaGFYrXHjgsH33xNZww6NQcgwmOU,282709
+mccmnc/mccmnc.py,sha256=lCmmcYX_ASsAGqXa1ZpZRHi2GQ2cFPWplx6TbpiAWIk,9258
+mccmnc-2.1.data/data/mccmnc/mccmnc.csv,sha256=z4pgoBe-ZOOAfZSFKn_rNzZf5E1NAQtrWLkgwaV8JFM,69259
+mccmnc-2.1.data/data/mccmnc/mccmnc.json,sha256=2sbDaVG0GHTPaFPfaGFYrXHjgsH33xNZww6NQcgwmOU,282709
+mccmnc-2.1.dist-info/LICENSE,sha256=hnN_EpIOBLqzlcs_o2JxHfWu860VLyxrhZgRV7D4NxA,1092
+mccmnc-2.1.dist-info/METADATA,sha256=lh_Rh-wLogTPqMyyKXCvz47BVsJy2yBep3Av9iiCuIg,3171
+mccmnc-2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mccmnc-2.1.dist-info/top_level.txt,sha256=HZdFA0G2iFkIV9YsEVCGhQVTirCbt7vspqtSfcEfSVQ,7
+mccmnc-2.1.dist-info/RECORD,,
