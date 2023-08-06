@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+clutch.co_scraper.egg-info/PKG-INFO
+clutch.co_scraper.egg-info/SOURCES.txt
+clutch.co_scraper.egg-info/dependency_links.txt
+clutch.co_scraper.egg-info/entry_points.txt
+clutch.co_scraper.egg-info/requires.txt
+clutch.co_scraper.egg-info/top_level.txt
+clutch_co_scraper/__init__.py
+clutch_co_scraper/clutch_co_scraper/__init__.py
+clutch_co_scraper/clutch_co_scraper/items.py
+clutch_co_scraper/clutch_co_scraper/middlewares.py
+clutch_co_scraper/clutch_co_scraper/pipelines.py
+clutch_co_scraper/clutch_co_scraper/settings.py
+clutch_co_scraper/clutch_co_scraper/spiders/__init__.py
+clutch_co_scraper/clutch_co_scraper/spiders/main.py
