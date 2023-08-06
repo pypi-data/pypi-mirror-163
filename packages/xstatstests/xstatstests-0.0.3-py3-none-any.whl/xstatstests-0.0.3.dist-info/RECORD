@@ -1,0 +1,14 @@
+xstatstests/__init__.py,sha256=4bVZDrciSruZINKIlqy7kECd-M1uEsL1vbz0rKLemZo,535
+xstatstests/_version.py,sha256=4qSgBIfwadbh5P8C0vRbO9dNs5MMMgr4EAiZS2ii764,497
+xstatstests/core.py,sha256=ZTA78IAgN2algh6rooVCyqk-cs3d6QcYXnnxijX8xP0,5140
+xstatstests/scipy.py,sha256=0YHlHM343_8VGgkaQX3KhiSV-iQakzvJEVOz8lmxYWg,38327
+xstatstests/utils.py,sha256=GSeEhOSrHa6Mfn5VhHOu7Z7isvfZCLDLcgZCPKcxUsE,1470
+xstatstests/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xstatstests/tests/fixtures.py,sha256=oCsBcEEsNGjBLNi-w95shsx5V3Ye-us4cXZXWES8qN8,1254
+xstatstests/tests/test_core.py,sha256=SLUPyMQksRH9Ch3KJMVDL9DhnL8AUeUVxqDi8XvvdBw,725
+xstatstests/tests/test_scipy.py,sha256=OAXg6wt94WmwyAuWcXFoFpA3YafohqmaSwcpHQWOH9Q,21393
+xstatstests-0.0.3.dist-info/LICENSE,sha256=PNtW_kuFUxZA24AzBZ6egPMgNyr0XnewxaF-Exm8d0c,1070
+xstatstests-0.0.3.dist-info/METADATA,sha256=pA5MmsmY-VaBkRv1Rms3CL5EBWr5G1NZfQzhYReulrE,534
+xstatstests-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xstatstests-0.0.3.dist-info/top_level.txt,sha256=zBK-G0ywTxkp1iIRZEXCf9gne5MpzN5JSuHxVLIUiOk,12
+xstatstests-0.0.3.dist-info/RECORD,,
