@@ -1,0 +1,9 @@
+tdbuild/.#__init__.py,sha256=D62CULZWeZ7IxaGwFVQrUbtjfPg2w7fKwGIOrZCknRc,29
+tdbuild/__init__.py,sha256=NUmbAqrJgaUbPjW4bd8cw8iLvy8hAvyfWUXV_HThqws,59
+tdbuild/stuff.py,sha256=nUUcj_euw0wCASqM6eza2TbZLvqqLUxS6Fq5MoO8mCo,26
+tdbuild/tdbuild.py,sha256=y50zWterkSS0UPxiw1JbGqq4F4vGfiJdRUWNRynCZGQ,786
+tdbuild/tdfile.template,sha256=wUcCgi8CNpWkVjqm4GMHOxYByTqjCzR-aTL0TMvmdXw,1146
+tdbuild/version.py,sha256=ryAfvAaW7VM8g1gnCrFCPrXmcbbm99Xw44aLkwGZzaI,23
+tdbuild-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tdbuild-0.1.0.dist-info/METADATA,sha256=QrVl9zYvay78i-O6A_scZLR0ODO7yyJqEkP_1GP-uJ4,338
+tdbuild-0.1.0.dist-info/RECORD,,
