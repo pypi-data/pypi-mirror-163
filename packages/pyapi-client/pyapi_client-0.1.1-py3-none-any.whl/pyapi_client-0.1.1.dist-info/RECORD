@@ -1,0 +1,5 @@
+pyapi/client/__init__.py,sha256=IBm4EzlxJjQI97wGLVHmNI1fe6q1gMOLHMXkALlPktk,3781
+pyapi/client/validation.py,sha256=g55HCbO8EHkUu4iR_xfumPrdkQw8CwcHj24v3N6n1ew,3580
+pyapi_client-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pyapi_client-0.1.1.dist-info/METADATA,sha256=TXuGUP4s6BMVYxxdBKxGTgMSKWA94E7Jm7LwFVn1DPc,1405
+pyapi_client-0.1.1.dist-info/RECORD,,
