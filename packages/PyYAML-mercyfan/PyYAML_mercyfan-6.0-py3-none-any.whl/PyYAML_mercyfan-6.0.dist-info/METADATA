@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: PyYAML-mercyfan
+Version: 6.0
+Summary: PyYAML_mercyfan is now PyYAML-6.0
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: PyYAML-6.0
+
+# PyYAML_mercyfan is now PyYAML-6.0
+
+This package has been renamed. Use `pip install PyYAML-6.0` instead.
+
+New package: https://pypi.org/project/PyYAML-6.0/
