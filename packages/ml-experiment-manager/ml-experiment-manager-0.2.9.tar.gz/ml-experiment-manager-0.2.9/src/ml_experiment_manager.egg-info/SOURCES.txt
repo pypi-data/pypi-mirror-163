@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/experiment_manager/__init__.py
+src/experiment_manager/experiment_manager.py
+src/experiment_manager/neural_net_config.py
+src/experiment_manager/utils/__init__.py
+src/experiment_manager/utils/dottable_config.py
+src/experiment_manager/utils/dottable_map.py
+src/ml_experiment_manager.egg-info/PKG-INFO
+src/ml_experiment_manager.egg-info/SOURCES.txt
+src/ml_experiment_manager.egg-info/dependency_links.txt
+src/ml_experiment_manager.egg-info/requires.txt
+src/ml_experiment_manager.egg-info/top_level.txt
