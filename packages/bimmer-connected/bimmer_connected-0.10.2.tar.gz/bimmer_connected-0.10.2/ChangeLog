@@ -1,0 +1,7 @@
+CHANGES
+=======
+
+0.10.2
+------
+
+* Refactor creation of vehicles from API responses (#480)
