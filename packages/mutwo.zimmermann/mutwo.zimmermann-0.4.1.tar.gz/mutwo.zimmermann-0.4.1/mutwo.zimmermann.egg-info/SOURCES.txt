@@ -1,0 +1,13 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mutwo.zimmermann.egg-info/PKG-INFO
+mutwo.zimmermann.egg-info/SOURCES.txt
+mutwo.zimmermann.egg-info/dependency_links.txt
+mutwo.zimmermann.egg-info/requires.txt
+mutwo.zimmermann.egg-info/top_level.txt
+mutwo/zimmermann_generators/__init__.py
+mutwo/zimmermann_generators/extended_chomsky.py
+mutwo/zimmermann_generators/interlockings.py
+mutwo/zimmermann_version/__init__.py
