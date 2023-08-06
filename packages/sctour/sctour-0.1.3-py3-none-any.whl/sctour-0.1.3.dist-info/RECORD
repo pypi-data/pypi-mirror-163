@@ -1,0 +1,13 @@
+sctour/__init__.py,sha256=i3DCTA-MHsOoiq6S-9xds6GBrQsCmD4MgnAyqgY9aeE,75
+sctour/_utils.py,sha256=fiVzdGw7m9q5CtdZHZhGo2_NnQbwSvK7QX5lrkgsTEE,2523
+sctour/data.py,sha256=5BMnNYfcwpSizyE-vWiEzPjD-3KwvCDIavxWzJYO-68,3712
+sctour/logger.py,sha256=vqLrt1xPEaYQhCnGz5gVCgQkhGlA84tv8t5c9k0muD8,199
+sctour/model.py,sha256=UtOFKKGj4FgKHQeqrvCKgM7QRR8C2A0mzfu-UyORAI4,6618
+sctour/module.py,sha256=WDKVz3qzMZxvs6qBMo6z2SBTJv9iliFYdnqPfP5P1LM,4016
+sctour/train.py,sha256=0uCAp7l5PFowVrcEYPU97zDOeLMBdKjDpVvlWsvsYBA,27508
+sctour/vector_field.py,sha256=Z0Vt6TcsfNAMSakxc44syiwTFFH3uPSwZ7uf4ANrfQ0,16344
+sctour-0.1.3.dist-info/LICENSE,sha256=U2uL5gKXaDcq7px15JTsru1gBQoIhlNcINL3evUeuJY,1064
+sctour-0.1.3.dist-info/METADATA,sha256=e8Ft0Am3pssW9ECaJd5PCwOK-QTf14_3iXmP3nSCdtM,2830
+sctour-0.1.3.dist-info/WHEEL,sha256=EVRjI69F5qVjm_YgqcTXPnTAv3BfSUr0WVAHuSP3Xoo,92
+sctour-0.1.3.dist-info/top_level.txt,sha256=FpvPYDbO5zcyHOGnj_uTGh0LiXQ_cHuzmkyosk9NZB0,7
+sctour-0.1.3.dist-info/RECORD,,
