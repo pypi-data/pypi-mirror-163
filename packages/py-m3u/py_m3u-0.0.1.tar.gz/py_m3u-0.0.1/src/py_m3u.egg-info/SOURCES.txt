@@ -1,0 +1,14 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/py_m3u/__init__.py
+src/py_m3u/_m3u.py
+src/py_m3u/_type_aliases.py
+src/py_m3u/_version.py
+src/py_m3u/directives.py
+src/py_m3u.egg-info/PKG-INFO
+src/py_m3u.egg-info/SOURCES.txt
+src/py_m3u.egg-info/dependency_links.txt
+src/py_m3u.egg-info/top_level.txt
