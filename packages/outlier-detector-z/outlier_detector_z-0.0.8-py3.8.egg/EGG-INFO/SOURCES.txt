@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+outlier_detector/__init__.py
+outlier_detector/outlier_detector.py
+outlier_detector_z.egg-info/PKG-INFO
+outlier_detector_z.egg-info/SOURCES.txt
+outlier_detector_z.egg-info/dependency_links.txt
+outlier_detector_z.egg-info/requires.txt
+outlier_detector_z.egg-info/top_level.txt
