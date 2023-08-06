@@ -1,0 +1,15 @@
+torchadf/__init__.py,sha256=LB1ZAJ9O030I7UZEie3qzXkdC1Hqx2BCEL-CN-0Iwno,887
+torchadf/nn/__init__.py,sha256=xdqXXc_P4T9PcyrC3kSO9iT3VihR8OOkv0-ky0BKwkg,97
+torchadf/nn/functional.py,sha256=2TG2I8IMP-eSmmg_GKFw9qtAxciBiYCytjd_hgB2l4o,32056
+torchadf/nn/modules/__init__.py,sha256=9L2FzPe4CDNQ6L9R3DyZmoKhYghuxwjty2Qxca76o3o,584
+torchadf/nn/modules/activation.py,sha256=bl9VRIWOHLmaiDkCVqK-Rpfa9NoFz2Ifmrpn9lZCsdA,619
+torchadf/nn/modules/container.py,sha256=6K9ybXBgihFZtOqEHhSRSAdNvL64-xOGk6qiOMUdoCU,539
+torchadf/nn/modules/conv.py,sha256=lY73cJC4NsNbXaEf-nk8D8SuxtVancWs-5N-YWHiZ5E,17408
+torchadf/nn/modules/flatten.py,sha256=oB1Wnnj17YSK4Yp6sgO01Q3DY04OGfENFa8mlKaASUw,3886
+torchadf/nn/modules/linear.py,sha256=7ql5fJX026bexLor5vE1ARMQKQXZgzh_msamP_Tovwk,2419
+torchadf/nn/modules/pooling.py,sha256=K4duvCCSqEJ6WQFewUiUgMLsKMm6LiM3YnC3j6XNGBI,5438
+torch_adf-22.1.0.dist-info/LICENSE,sha256=Kge6feSPJpXgyWXWMEXx9qlUbQ358WzCsGp2sX93vmE,1063
+torch_adf-22.1.0.dist-info/METADATA,sha256=-L1APzqKQKmamN6B1u6WgluvlEJEE5dDF9Sz-VclOgU,5889
+torch_adf-22.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+torch_adf-22.1.0.dist-info/top_level.txt,sha256=JpyqH6dI_5Ku3L13SKTAHAgdCj54mm83bhO8Ayw3Tok,9
+torch_adf-22.1.0.dist-info/RECORD,,
