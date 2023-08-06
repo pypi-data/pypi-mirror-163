@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: autoinstaller-backendpk
+Version: 0.0.1
+Summary: This will automatically install django, rest_framework, psycopg and everything else django needs to run properly.
+Home-page: https://github.com/Ezozbekdev/backendpk
+Author: Ezozbek Kholbutayev
+Project-URL: Bug Tracker, https://github.com/Ezozbekdev/backendpk
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE

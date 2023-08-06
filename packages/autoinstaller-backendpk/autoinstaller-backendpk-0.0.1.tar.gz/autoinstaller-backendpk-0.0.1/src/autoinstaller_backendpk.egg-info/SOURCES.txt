@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/autoinstaller_backendpk.egg-info/PKG-INFO
+src/autoinstaller_backendpk.egg-info/SOURCES.txt
+src/autoinstaller_backendpk.egg-info/dependency_links.txt
+src/autoinstaller_backendpk.egg-info/top_level.txt
+src/mypackage/__init__.py
+src/mypackage/main.py
