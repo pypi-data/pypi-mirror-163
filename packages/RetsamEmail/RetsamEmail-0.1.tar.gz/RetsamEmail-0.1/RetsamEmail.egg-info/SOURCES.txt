@@ -1,0 +1,9 @@
+README.md
+setup.py
+RetsamEmail/__init__.py
+RetsamEmail.egg-info/PKG-INFO
+RetsamEmail.egg-info/SOURCES.txt
+RetsamEmail.egg-info/dependency_links.txt
+RetsamEmail.egg-info/not-zip-safe
+RetsamEmail.egg-info/requires.txt
+RetsamEmail.egg-info/top_level.txt
