@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: vkostyanetsky.cliutils
+Version: 0.1.0
+Summary: A library of functions which make CLI apps development a bit faster.
+Home-page: https://github.com/vkostyanetsky/CLIUtils
+Author: Vlad Kostyanetsky
+Author-email: vlad@kostyanetsky.me
+License: MIT
+Keywords: cli console menu progressbar
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# 😎 🧐 😁 CLI Utils
+
+A simple library of functions intended to make console applications development a bit faster for me. Occasionally, I prefer to use it instead of a some huge third-party package which can do everything for me, including making a cup of coffee.
