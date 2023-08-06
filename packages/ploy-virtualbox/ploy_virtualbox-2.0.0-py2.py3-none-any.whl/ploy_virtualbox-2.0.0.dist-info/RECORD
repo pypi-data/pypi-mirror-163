@@ -1,0 +1,11 @@
+ploy_virtualbox/__init__.py,sha256=RBFQekm6jO-LXj73EMsOWuoe_A-XS2ZC_HU9Q-XRm5o,25797
+ploy_virtualbox/test_virtualbox.py,sha256=tyliREzTfo3_QIGc5xxONj4tX900h33OXtzSJJgNleg,27464
+ploy_virtualbox/vbox.py,sha256=pWAFm9XRgd8ZIXW-9G6ofTBMmlXWVNPYZsgMoPW5lno,5320
+ploy_virtualbox/vboxmanage4.txt,sha256=oaKeKoyt0O3ezMElzyPxVPUF323SMjMqfUdBcsj7lJo,43516
+ploy_virtualbox/vboxmanage6.txt,sha256=oaKeKoyt0O3ezMElzyPxVPUF323SMjMqfUdBcsj7lJo,43516
+ploy_virtualbox-2.0.0.dist-info/LICENSE.txt,sha256=5WXjcpOQ-LHjte5JjTfvapgn7F19ttCtEyN-U2TP_i0,1486
+ploy_virtualbox-2.0.0.dist-info/METADATA,sha256=5Vt0kXMAVvss8TuxrxJstM-TSsqsVgb7-rfz6yianTM,9808
+ploy_virtualbox-2.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+ploy_virtualbox-2.0.0.dist-info/entry_points.txt,sha256=hyqzGzIzg0lO7HSUyTGvEZXI-MmSQ9T-ZzwkDT3Zb-4,51
+ploy_virtualbox-2.0.0.dist-info/top_level.txt,sha256=dgPNRWVIXlKdkk1iQnhe2GYq7jezipEuY7JiKEGNid4,16
+ploy_virtualbox-2.0.0.dist-info/RECORD,,
