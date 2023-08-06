@@ -1,0 +1,241 @@
+- slug: title-and-description
+  name: Description
+  icon: 📝
+  markdown: |
+    A brief description of what this project does and who it's for
+
+- slug: contanct
+  name: Contact
+  icon: ☎️
+  markdown: |
+    | Name            | Mail                         | Role                  |
+    | --------------- | ---------------------------- | --------------------- |
+    | John Doe        | john@doe.com                 | Developer             |
+
+- slug: installation
+  name: Installation
+  icon: ⚙️
+  markdown: |
+    Install my-project with npm
+
+    ```bash
+      npm install my-project
+      cd my-project
+    ```
+- slug: run-locally
+  name: Run Locally
+  icon: 🚀
+  markdown: |
+    Clone the project
+
+    ```bash
+      git clone https://link-to-project
+    ```
+
+    Go to the project directory
+
+    ```bash
+      cd my-project
+    ```
+
+    Install dependencies
+
+    ```bash
+      npm install
+    ```
+
+    Start the server
+
+    ```bash
+      npm run start
+    ```
+
+- slug: screenshots
+  name: Screenshots
+  icon: 🖼️
+  markdown: |
+    ![App Screenshot](https://via.placeholder.com/468x300?text=App+Screenshot+Here)
+
+- slug: env-variables
+  name: Environment Variables
+  icon: 💡
+  markdown: |
+    To run this project, you will need to add the following environment variables to your .env file
+
+    `API_KEY`
+    `ANOTHER_API_KEY`
+
+- slug: features
+  name: Features
+  icon: 🎨
+  markdown: |
+    - Light/dark mode toggle
+    - Live previews
+    - Fullscreen mode
+    - Cross platform
+
+- slug: usage-examples
+  name: Usage Examples
+  icon: 💡
+  markdown: |
+    ```javascript
+    import Component from 'my-project'
+
+    function App() {
+      return <Component />
+    }
+    ```
+
+- slug: api
+  name: API Reference
+  icon: 🔗
+  markdown: |
+    ### Get all items
+
+    ```http
+      GET /api/items
+    ```
+
+    | Parameter | Type     | Description                |
+    | :-------- | :------- | :------------------------- |
+    | `api_key` | `string` | **Required**. Your API key |
+
+    ### Get item
+
+    ```http
+      GET /api/items/${id}
+    ```
+
+    | Parameter | Type     | Description                       |
+    | :-------- | :------- | :-------------------------------- |
+    | `id`      | `string` | **Required**. Id of item to fetch |
+
+- slug: contributing
+  name: Contributing
+  icon: 💡
+  markdown: |
+    Contributions are always welcome!
+
+    See me`contributing.md` for ways to get started.
+
+    Please adhere to this project's `code of conduct`.
+
+- slug: tests
+  name: Running Tests
+  icon: 🔎
+  markdown: |
+    To run tests, run the following command
+
+    ```bash
+      npm run test
+    ```
+
+- slug: license
+  name: License
+  icon: 🔗
+  markdown: |
+    [MIT](https://choosealicense.com/licenses/mit/)
+
+- slug: badges
+  name: Badges
+  icon: 🔗
+  markdown: |
+    Add badges from somewhere like: [shields.io](https://shields.io/)
+
+    [![MIT License](https://img.shields.io/badge/License-MIT-green.svg)](https://choosealicense.com/licenses/mit/)
+    [![GPLv3 License](https://img.shields.io/badge/License-GPL%20v3-yellow.svg)](https://opensource.org/licenses/)
+    [![AGPL License](https://img.shields.io/badge/license-AGPL-blue.svg)](http://www.gnu.org/licenses/agpl-3.0)
+
+- slug: roadmap
+  name: Roadmap
+  icon: 🛠
+  markdown: |
+    - Additional browser support
+    - Add more integrations
+
+- slug: authors
+  name: Authors
+  icon: ✍️
+  markdown: |
+    - [@katherinepeterson](https://www.github.com/octokatherine)
+
+- slug: acknowledgement
+  name: Acknowledgement
+  icon: 💡
+  markdown: |
+    - [Awesome Readme Templates](https://awesomeopensource.com/project/elangosundar/awesome-README-templates)
+    - [Awesome README](https://github.com/matiassingers/awesome-readme)
+    - [How to write a Good readme](https://bulldogjob.com/news/449-how-to-write-a-good-readme-for-your-github-project)
+
+- slug: support
+  name: Support
+  icon: 🔦
+  markdown: |
+    For support, email fake@fake.com or join our Slack channel.
+
+- slug: feedback
+  name: Feedback
+  icon: 💬
+  markdown: |
+    If you have any feedback, please reach out to us at fake@fake.com
+
+- slug: related
+  name: Related
+  icon: 🔗
+  markdown: |
+    Here are some related projects
+
+    [Awesome README](https://github.com/matiassingers/awesome-readme)
+
+- slug: demo
+  name: Demo
+  icon: 🔗
+  markdown: |
+    Insert gif or link to demo
+
+- slug: tech
+  name: Tech Stack
+  icon: 💾
+  markdown: |
+    **Client:** React, Redux, TailwindCSS
+    **Server:** Node, Express
+
+- slug: lessons
+  name: Lessons Learned
+  icon: 📝
+  markdown: |
+    What did you learn while building this project? What challenges did you face and how did you overcome them?
+
+- slug: faq
+  name: FAQ
+  icon: 💬
+  markdown: |
+    ### Question 1
+
+    Answer 1
+
+    ### Question 2
+
+    Answer 2
+
+- slug: documentation
+  name: Documentation
+  icon: 📖
+  markdown: |
+    [Documentation](https://linktodocumentation)
+
+- slug: deployment
+  name: Deployment
+  icon: 🚀
+  markdown: |
+    To deploy this project run
+
+    ```bash
+      npm run deploy
+    ```
+
+- slug: appendix
+  name: Appendix
+  icon: 📖
+  markdown: |
+    Any additional information goes here

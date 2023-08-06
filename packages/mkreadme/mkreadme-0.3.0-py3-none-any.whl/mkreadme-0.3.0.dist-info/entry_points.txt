@@ -1,0 +1,3 @@
+[console_scripts]
+mkreadme=mkreadme.__main__:main
+
