@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: haptik-code-library
+Version: 0.3
+Summary: components to handle chat flow
+Home-page: http://github.com/hellohaptik/
+Author: Haptik
+Author-email: eng@haptik.co
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: setuptools (>=42)
+Requires-Dist: wheel
+Requires-Dist: requests (<=2.28.1,>=2.22.0)
+
+UNKNOWN
+
