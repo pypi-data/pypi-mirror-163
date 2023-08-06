@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+ft300python/__init__.py
+ft300python/ft300_modbusrtu.py
+ft300python/ft300_stream.py
+ft300python.egg-info/PKG-INFO
+ft300python.egg-info/SOURCES.txt
+ft300python.egg-info/dependency_links.txt
+ft300python.egg-info/requires.txt
+ft300python.egg-info/top_level.txt
