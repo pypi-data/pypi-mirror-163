@@ -1,0 +1,11 @@
+six
+waitress
+webob
+
+[test]
+pytest
+six
+webtest
+coverage
+coveralls
+WSGIProxy2
