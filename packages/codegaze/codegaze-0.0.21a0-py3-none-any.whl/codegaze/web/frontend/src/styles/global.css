@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+@import "antd/dist/antd.css";
+body {
+  padding: 0px 64px 0px 64px;
+}
+
+.ant-tabs-tab.ant-tabs-tab-active .ant-tabs-tab-btn {
+  color: #15803d !important;
+  font-weight: 500;
+}
+
+.ant-tabs-ink-bar {
+  position: absolute;
+  background: #16a34a;
+  pointer-events: none;
+}
+
+.element.style {
+  left: 0%;
+  width: 100%;
+}
+.ant-slider-track {
+  background: #22c55e !important;
+}
+.ant-slider-handle {
+  border: solid 2px #22c55e !important;
+}
+.ant-slider-handle:hover {
+  border: solid 2px #16a34a !important;
+}
+
+.ant-switch-checked {
+  background-color: #16a34a !important;
+  border: green;
+}
+.ant-switch {
+  background-color: #d1d5db;
+  border: grey;
+}
