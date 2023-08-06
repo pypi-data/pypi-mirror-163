@@ -1,0 +1,5 @@
+setup.py
+fastzip.egg-info/PKG-INFO
+fastzip.egg-info/SOURCES.txt
+fastzip.egg-info/dependency_links.txt
+fastzip.egg-info/top_level.txt
