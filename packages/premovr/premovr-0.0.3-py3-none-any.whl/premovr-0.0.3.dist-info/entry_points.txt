@@ -1,0 +1,3 @@
+[console_scripts]
+premovr=premovr.entrypoint:main
+
