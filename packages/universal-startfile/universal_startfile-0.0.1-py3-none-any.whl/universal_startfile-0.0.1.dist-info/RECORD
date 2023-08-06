@@ -1,0 +1,10 @@
+startfile/__init__.py,sha256=YwOQOczSzmYoiTbTfNhBrVUNZCkoOkBOr0nSlSP4Mn8,271
+startfile/tests/__init__.py,sha256=LURUPwwDqcFmVe1XvEzadPdXxro8RdEF-rTaMw-AfiI,34
+startfile/tests/conftest.py,sha256=EffQgj1CGLH_NMojxA65U-shHYJ4UD_nlrPMsz7etBQ,267
+startfile/tests/test_utils.py,sha256=O-C6IXh3vYvw2Odn7v1YV99aOSHOBZxaFgkfAmNQiz0,242
+startfile/utils.py,sha256=8Akqu77js2JAh2NU8fikIyfBTVBv0vcIzOMqGrR7RE4,729
+universal_startfile-0.0.1.dist-info/entry_points.txt,sha256=3zDhozYFMDIGeffuWwgu1q1HwvKrfjhqYBTAuI6hHDs,58
+universal_startfile-0.0.1.dist-info/LICENSE.md,sha256=xM9A7xiOcLEoecEzGrjB1uCb2q5DYsP2f3SnwQmG2co,1088
+universal_startfile-0.0.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+universal_startfile-0.0.1.dist-info/METADATA,sha256=ubDUVyouy0x0wgdiVSf1Jeg_lRsnYtGYpXuqUXnLgLw,2586
+universal_startfile-0.0.1.dist-info/RECORD,,
