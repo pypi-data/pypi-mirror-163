@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+kevinpdf.egg-info/PKG-INFO
+kevinpdf.egg-info/SOURCES.txt
+kevinpdf.egg-info/dependency_links.txt
+kevinpdf.egg-info/top_level.txt
