@@ -1,0 +1,33 @@
+[project]
+name = "pezel"
+version = "0.0.1"
+authors = [
+  {name="Brok Bucholtz"},
+]
+description = "Building with Docker"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+
+[project.urls]
+"Homepage" = "https://github.com/Brok-Bucholtz/pezel"
+"Bug Tracker" = "https://github.com/Brok-Bucholtz/pezel/issues"
+
+[build-system]
+requires = ["setuptools>=42"]
+build-backend = "setuptools.build_meta"
+
+[tool.poetry]
+authors = []
+description = ""
+name = "pezel"
+version = "0.0.1"
+
+[tool.poetry.dependencies]
+python = "^3.9.5"
+diskcache = "^5.4.0"
+docker = "^5.0.3"
+inflect = "^5.6.2"
+networkx = "^2.7.1"
+pystache ="^0.6.0"
+PyYAML = "^6.0"
