@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pylibmodbus
+Version: 0.6.0
+Summary: Python wrapper for libmodbus
+Home-page: http://github.com/stephane/pylibmodbus
+Author: Stéphane Raimbault
+Author-email: stephane.raimbault@gmail.com
+Project-URL: Bug Tracker, https://github.com/stephane/pylibmodbus/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pylibmodbus
+
+Python Interface for libmodbus written with CFFI.
+This libmodbus wrapper is compatible with Python 2 and Python 3.
+
+This wrapper is only compatible with libmodbus v3.1.2 and above.
+
+Required packages:
+
+- python-dev and libffi-dev
+- libmodbus and libmodbus-dev
+
+Licensed under BSD 3-Clause (see LICENSE file for details).
+
+## Tests
+
+Before running the test suite, you need to launch a TCP server.
+You can use the server provided by libmodbus in `tests` directory:
+
+```shell
+./tests/bandwidth-server-many-up
+````
+
+Once this server is running, you can launch the Python tests with::
+
+```shell
+python -m tests
+```
