@@ -1,0 +1,10 @@
+kolorz/__init__.py,sha256=nPpWtNHzvUptHmoWXAT__Ev2iVw0v4v72HwFoTUVGF4,71
+kolorz/cli.py,sha256=Z7qNzO05gY6cokwO7xevkHFz1cVGPBZplmMr0AiVkG4,390
+kolorz/colors.py,sha256=aQqUds9NRaEDghxPszZhyTHbk1Mt0PtE-CJqOyJ9YhE,3184
+kolorz/kolor.py,sha256=NoGqLfYbFG7RivSKSRj8nHkiOZawoOJZ9sdCK8YiMno,1597
+kolorz/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kolorz-0.2.3.dist-info/entry_points.txt,sha256=1J8jRd-1VuvcE55RBKLzIwJ5PfvpihB6tNIs5q723vQ,43
+kolorz-0.2.3.dist-info/LICENSE,sha256=l5vdutBUq3mSCkLdW316p83q1PctBY6WGfZsOX_ypiM,1066
+kolorz-0.2.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+kolorz-0.2.3.dist-info/METADATA,sha256=SDQ7vtQkBZSCAYp8A7muZIOXwRDKj2UelXtOMYtkJc4,3705
+kolorz-0.2.3.dist-info/RECORD,,
