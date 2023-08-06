@@ -1,0 +1,11 @@
+Building manylinux wheels should be possible using the maturin docker image:
+```
+    docker run --rm -v $(pwd)/:/io:z ghcr.io/pyo3/maturin build --release
+```
+All maturin commands work as usual, but note that interactivity does not work.
+To publish the package, therefore use
+```
+    docker run --rm -v $(pwd)/:/io:z ghcr.io/pyo3/maturin build --release --username Microgravitas --password **********
+```
+
+If the docker commands fails it might be because of SELinux settings.

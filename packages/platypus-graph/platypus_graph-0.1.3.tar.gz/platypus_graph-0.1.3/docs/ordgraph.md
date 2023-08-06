@@ -1,0 +1,4 @@
+::: platypus.OrdGraph
+    :docstring:
+    :members:
+
