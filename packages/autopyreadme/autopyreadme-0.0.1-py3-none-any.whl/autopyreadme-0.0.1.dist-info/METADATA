@@ -1,0 +1,84 @@
+Metadata-Version: 2.1
+Name: autopyreadme
+Version: 0.0.1
+Summary: It is an Automated tool for generating Readme for python projects
+Project-URL: Github, https://github.com/nishant-ai/auto_readme
+Author-email: Nishant Sharma <nishant-ai@outlook.com>
+License: MIT License
+        
+        Copyright (c) 2022 Nishant Sharma
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+### PyAutoReadme:
+
+This is a Readme Generator for Python Projects. This can be used to generate Readme(s) faster, without putting a lot of efforts to assist the community developers in a much better and easier way!
+
+
+### How to Use?
+
+	from pyautoreaadme import readme
+
+	readme.create() # call to create a readme
+	readme.update() # call to update the readme after changing data in readme.json
+
+
+### Authors:
+
+Nishant Sharma
+
+### License:
+
+mit
+
+### Scripts:
+
+**create readme:**
+
+	readme.create() // callable function
+
+
+**update readme:**
+
+	readme.update() // callable function
+
+
+### Reader's Notes:
+
+**Main File to Use:**  readme.py
+
+**Guess What?:**  This Readme is made using this library only!
+
+**Feel free to Reach me out for collabs!:**  I am a curious developer, who wants to build 2 Impact, Eager to Connect to other Curious Developers!
+
+
+### Check These Out:
+
+[My Instagram](https://www.instagram.com/_nishan.t/) | [My LinkedIn](https://www.linkedin.com/in/nishantsh20/) 
+
+### Project Dependencies:
+
+	os
+	json
+	colorama==0.4.4
