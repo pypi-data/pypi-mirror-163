@@ -1,0 +1,16 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+neural_network_from_scratch/__init__.py
+neural_network_from_scratch/_modidx.py
+neural_network_from_scratch/activation.py
+neural_network_from_scratch/core.py
+neural_network_from_scratch.egg-info/PKG-INFO
+neural_network_from_scratch.egg-info/SOURCES.txt
+neural_network_from_scratch.egg-info/dependency_links.txt
+neural_network_from_scratch.egg-info/entry_points.txt
+neural_network_from_scratch.egg-info/not-zip-safe
+neural_network_from_scratch.egg-info/requires.txt
+neural_network_from_scratch.egg-info/top_level.txt
