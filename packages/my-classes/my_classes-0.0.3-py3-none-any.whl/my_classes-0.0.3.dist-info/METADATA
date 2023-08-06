@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: my-classes
+Version: 0.0.3
+Summary: classes
+Home-page: https://gitlab.com/netstack_course/my_package/-/tree/develop
+Author: Kamil
+Author-email: kamilsh323@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+
+my classes:Person,Student,Teacher
