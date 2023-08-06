@@ -1,0 +1,80 @@
+
+[project]
+name = "xontrib-common-fate-granted"
+version = "0.0.1"
+license = {file = "LICENSE"}
+description = "Use Common Fate's Granted CLI tool for switching AWS profiles with Xonsh shell"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: System :: Shells",
+    "Topic :: System :: System Shells",
+    "Topic :: Terminals",
+]
+requires-python = ">=3.8"
+dependencies = ["xonsh>=0.12.5"]
+authors = [
+    { name = "Eddie Peters", email = "eddie@dinogalactic.com" },
+]
+[project.readme]
+file = "README.md"
+content-type = "text/markdown"
+
+
+
+[project.urls]
+
+Homepage = "https://github.com/eppeters/xontrib-common-fate-granted"
+Documentation = "https://github.com/eppeters/xontrib-common-fate-granted/blob/master/README.md"
+Code = "https://github.com/eppeters/xontrib-common-fate-granted"
+"Issue tracker" = "https://github.com/eppeters/xontrib-common-fate-granted/issues"
+
+
+
+
+[project.optional-dependencies]
+dev = ["pytest>=7.0"]
+
+
+
+[build-system]
+requires = [
+    "setuptools>=62",
+    "wheel",               # for bdist package distribution
+]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+platforms = ["any"]
+include-package-data = true
+packages = ["xontrib"]
+
+[tool.setuptools.package-dir]
+xontrib = "xontrib_common_fate_granted"
+
+[tool.setuptools.package-data]
+xontrib = ["*.xsh"]    
+
+
+[tool.isort]
+profile = "black"
+
+[tool.black]
+include = '\.pyi?$'
+force-exclude = '''
+/(
+    \.git
+  | \.hg
+  | \.mypy_cache
+  | \.pytest_cache
+  | \.tox
+  | \.vscode
+  | \.venv
+  | _build
+  | buck-out
+  | build
+  | dist
+  | disk-cache.sqlite3
+)/
+'''

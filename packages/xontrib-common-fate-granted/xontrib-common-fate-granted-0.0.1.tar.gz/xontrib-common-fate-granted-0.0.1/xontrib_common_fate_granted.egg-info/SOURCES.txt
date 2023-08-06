@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+xontrib_common_fate_granted/__init__.py
+xontrib_common_fate_granted/common_fate_granted.xsh
+xontrib_common_fate_granted.egg-info/PKG-INFO
+xontrib_common_fate_granted.egg-info/SOURCES.txt
+xontrib_common_fate_granted.egg-info/dependency_links.txt
+xontrib_common_fate_granted.egg-info/requires.txt
+xontrib_common_fate_granted.egg-info/top_level.txt
