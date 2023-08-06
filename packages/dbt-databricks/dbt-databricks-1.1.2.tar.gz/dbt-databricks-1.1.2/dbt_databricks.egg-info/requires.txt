@@ -1,0 +1,7 @@
+dbt-spark~=1.1.0
+
+[:python_version < "3.10"]
+databricks-sql-connector>=2.0.2
+
+[:python_version == "3.10"]
+databricks-sql-connector<2.0.3,>=2.0.2
