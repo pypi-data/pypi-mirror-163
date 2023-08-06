@@ -1,0 +1,3 @@
+[console_scripts]
+stop-thread=stop_thread.__main__:app
+
