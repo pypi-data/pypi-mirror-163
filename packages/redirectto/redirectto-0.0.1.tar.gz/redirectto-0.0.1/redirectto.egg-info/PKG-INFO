@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: redirectto
+Version: 0.0.1
+Summary: Redirect TO Basic HTTP server
+Home-page: https://github.com/python33/redirectto
+Author: Petr Dovnar
+Author-email: petrdovnar@gmail.com
+License: BSD
+Project-URL: Source, https://github.com/python33/redirectto
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.0
+License-File: LICENSE

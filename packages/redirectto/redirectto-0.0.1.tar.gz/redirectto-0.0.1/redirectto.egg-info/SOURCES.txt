@@ -1,0 +1,8 @@
+LICENSE
+setup.py
+redirectto/__init__.py
+redirectto.egg-info/PKG-INFO
+redirectto.egg-info/SOURCES.txt
+redirectto.egg-info/dependency_links.txt
+redirectto.egg-info/top_level.txt
+redirectto.egg-info/zip-safe
