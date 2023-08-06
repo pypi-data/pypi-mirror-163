@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bin/ttf2dxf
+ttf2dxf/__init__.py
+ttf2dxf/__main__.py
+ttf2dxf/ttf2dxf.py
+ttf2dxf.egg-info/PKG-INFO
+ttf2dxf.egg-info/SOURCES.txt
+ttf2dxf.egg-info/dependency_links.txt
+ttf2dxf.egg-info/requires.txt
+ttf2dxf.egg-info/top_level.txt
