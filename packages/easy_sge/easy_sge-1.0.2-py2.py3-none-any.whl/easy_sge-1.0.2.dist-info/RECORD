@@ -1,0 +1,9 @@
+easy_sge/__init__.py,sha256=3owPewvZqm-KQsfWmzpUC9GZn6MkDQ8Q6JZsqJWA-4k,100
+easy_sge/experiences_manager.py,sha256=BX5xGc1iE38rr3nznF_7x8kRxHYY2gBJAOWTsSeFPFk,8656
+easy_sge/jinja2_templates/grid_template.j2,sha256=FmOlwrhkAflkkxLxyOvpfeXozYrny7nx8EtkatKa2lk,399
+easy_sge/tests/simple_workflow.py,sha256=R7RBPaZqk0uP2BSlvPxeb-x3x_MV3fpQjXGznNuZ3qo,459
+easy_sge/tests/test_e2e.py,sha256=21OfG3pXGaChQCqBLo9ocPdZufz8gecLise7nXxuSu0,843
+easy_sge-1.0.2.dist-info/LICENSE,sha256=iBuy-1bbmy63vs6Ygs8pcEuRZKIxbbHSGt1kmgc1AU4,1062
+easy_sge-1.0.2.dist-info/WHEEL,sha256=96_DCfscDnVj9fVNwi1rfifiRwfpxLjwXWglVksjj_E,99
+easy_sge-1.0.2.dist-info/METADATA,sha256=SWILxcQeTxlflMXSLMufhqzyCXQErGWCsh5X29hrN3I,4772
+easy_sge-1.0.2.dist-info/RECORD,,
