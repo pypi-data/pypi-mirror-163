@@ -1,0 +1,10 @@
+docopt
+PyYAML
+
+[tests]
+pytest
+pycodestyle
+requests-mock
+pymdstat
+jsonpath_rw
+psutil
