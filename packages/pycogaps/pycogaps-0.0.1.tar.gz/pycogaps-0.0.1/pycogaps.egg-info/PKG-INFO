@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pycogaps
+Version: 0.0.1
+Summary: Python interface to the Non-Negative Matrix Factorization Algorithm CoGAPS
+Home-page: https://github.com/FertigLab/pycogaps
+Author: Jeanette Johnson
+Author-email: jjohn450@jhmi.edu
+License-File: LICENSE
