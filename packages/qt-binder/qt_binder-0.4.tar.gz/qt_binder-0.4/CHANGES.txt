@@ -1,0 +1,75 @@
+QtBinder CHANGELOG
+==================
+
+Release 0.4
+-----------
+
+This release adds support for PySide6/Qt6. Qt6 dropped some signal overloads,
+which require some changes to the wrapping strategy. Now, the first overload is
+given the plain unqualified name of the signal, without the extra type
+information. This usually corresponds to the signal that remains in Qt6. For
+example, `QComboBox.currentIndexChanged(int)` is now the sole implementation of
+that signal in Qt6, so the trait created for it is now just
+`currentIndexChanged` and not `currentIndexChanged_int`.
+
+Features
+
+* Added support for PySide6 (#66)
+
+Release 0.3
+-----------
+
+This release drops support for Python versions older than 3.6
+
+Features
+
+* Added support for PyQt5 (#58)
+* Added support for PySide2 (#60)
+
+
+Release 0.2.1
+-------------
+
+Fixes
+
+* Fix the setting of alignment and similar flag properties (#51)
+* Travis CI setup via ETStool (#53)
+* Fixes for Python 3 compatibility (#48, #54)
+* Fix ignorable Flake8 errors (#49)
+* Add ``install_requires`` (#46)
+
+
+Release 0.2
+-----------
+
+Features
+
+* Insert Binders into UIFile in addition to mere overrides (#42)
+
+
+Release 0.1.2
+-------------
+
+Fixes
+
+* Fix validation of RangeSlider (#39)
+* Work around PySide bug with emitting events with arguments (#40)
+* Workaround PySide bug with setting some QObject properies (#37)
+* Ignore named root object when loading a .ui file (#35)
+* Exclude auxiliary classes that from Binder registry as they were not
+  intended to be looked up (#32)
+* Allow SingleChild to be childless (#33)
+
+
+Release 0.1.1
+-------------
+
+Fixes
+
+* Fix issues with creation of nested box layouts (#24, #28)
+
+
+Release 0.1
+-----------
+
+``qt_binder`` is born!

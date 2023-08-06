@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: qt_binder
+Version: 0.4
+Summary: Traits bindings for Qt
+Home-page: https://github.com/enthought/qt_binder
+Author: Enthought, Inc.
+Author-email: info@enthought.com
+License: BSD
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+QtBinder provides a way to bind Qt widgets to Traits models.
+
+
