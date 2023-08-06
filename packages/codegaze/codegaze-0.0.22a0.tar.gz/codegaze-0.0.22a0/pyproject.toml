@@ -1,0 +1,55 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "codegaze" 
+authors = [
+  { name="Victor Dibia", email="victor.dibia@gmail.com" },
+]
+description = "Debug code generation models"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+dependencies = [
+    'evaluate~=0.1.2',
+    'fastapi~=0.78.0',
+    'openai~=0.20.0',
+    'pytest~=7.1.2',
+    'setuptools~=61.2.0',
+    'transformers~=4.20.1',
+    'tree_sitter~=0.20.0',
+    'typer~=0.5.0',
+    'Levenshtein',
+    'torch ',
+    'torchvision',
+    'datasets',
+    'pydantic',
+    'uvicorn',
+    'sklearn' 
+]
+dynamic = ["version"]
+
+
+[tool.setuptools.dynamic]
+version = {attr = "codegaze.version.VERSION"}
+readme = {file = ["README.md"]}
+
+
+[tool.setuptools.packages.find] 
+exclude = ["*.tests", "*.tests.*", "tests.*", "tests","codegaze/treesitter-languages/*"]
+include = ["mkdocs.yml","notebooks","docs","codegaze*"] 
+
+
+[project.urls]
+"Homepage" = "https://github.com/victordibia/codegaze"
+"Bug Tracker" = "https://github.com/victordibia/codegaze/issues"
+
+[project.scripts]
+codegaze = "codegaze.cli:run"

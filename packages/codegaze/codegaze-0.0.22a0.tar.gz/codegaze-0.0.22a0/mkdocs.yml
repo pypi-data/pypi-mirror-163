@@ -1,0 +1,36 @@
+site_name: CodeGaze Docs
+
+theme:
+  name: "material"
+  palette:
+    # Palette toggle for automatic mode
+    # - media: "(prefers-color-scheme)"
+    #   toggle:
+    #     icon: material/brightness-auto
+    #     name: Switch to light mode
+
+    # Palette toggle for light mode
+    - media: "(prefers-color-scheme: light)"
+      primary: green
+      scheme: default
+      toggle:
+        icon: material/weather-sunny
+        name: Switch to dark mode
+
+    # Palette toggle for dark mode
+    - media: "(prefers-color-scheme: dark)"
+      primary: green
+      scheme: slate
+      toggle:
+        icon: material/weather-night
+        name: Switch to system preference
+
+plugins:
+  - mkdocstrings
+  - search
+
+nav:
+  - Welcome!: index.md
+  - tutorial.md
+  - How-To Guides: howto.md
+  - API Reference: reference.md
