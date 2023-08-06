@@ -1,0 +1,7 @@
+cbor2
+hybrid_pke
+websockets
+pyOpenSSL
+cose
+requests
+serdio
