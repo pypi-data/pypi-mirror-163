@@ -1,0 +1,21 @@
+[metadata]
+name = KnoemaUpload
+version = 0.0.1
+author = Vasanth
+author_email = vbalakrishna@knoema.com
+description = This package is for only the internal use of uploading documents to the Mckinsey portal via API
+long_description = file: README.md
+long_description_content_type = text/markdown
+url = https://github.com/pypa/sampleproject
+project_urls =
+    Bug Tracker = https://github.com/pypa/sampleproject/issues
+classifiers =
+    Programming Language :: Python :: 3
+    License :: OSI Approved :: MIT License
+    Operating System :: OS Independent
+
+[options]
+package_dir =
+    = src
+packages = find:
+python_requires = >=3.6
