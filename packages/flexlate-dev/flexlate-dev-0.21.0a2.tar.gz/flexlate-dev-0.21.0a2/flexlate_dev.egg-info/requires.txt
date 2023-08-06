@@ -1,0 +1,7 @@
+flexlate>=0.14.7
+py-app-conf>=1.1.0
+watchdog
+typer
+rich
+patch
+unidiff
