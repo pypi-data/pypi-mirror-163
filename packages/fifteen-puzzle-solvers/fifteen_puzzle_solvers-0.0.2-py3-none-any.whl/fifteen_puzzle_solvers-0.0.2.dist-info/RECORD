@@ -1,0 +1,9 @@
+fifteen_puzzle_solvers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fifteen_puzzle_solvers/algorithms.py,sha256=hVSsXV2A46JSQQryFFEOy8I5pJfgjJ5E7JFe1FdMj7o,5557
+fifteen_puzzle_solvers/puzzle.py,sha256=1kw1n_7ZFkP6ne0sm_YY-dmsEpc6dHuIv5QSATYuTcU,6011
+fifteen_puzzle_solvers/solver.py,sha256=G83UF0S4hbOGvtabb10nhAIY_8zmgu14QfMQthTr69Y,892
+fifteen_puzzle_solvers-0.0.2.dist-info/LICENSE,sha256=1Sdf_U5qkOa6HDKwagQb2mq6i7QU3xigtQi9vSBPIdE,1050
+fifteen_puzzle_solvers-0.0.2.dist-info/METADATA,sha256=2elaGCB7zmct_ajVEnkYsEO2HF0fHB0-PBzaqyPk28E,231
+fifteen_puzzle_solvers-0.0.2.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+fifteen_puzzle_solvers-0.0.2.dist-info/top_level.txt,sha256=SAGtZSs59UNHCBtmawHm-63sluempPZZNFbkR_MuH5I,23
+fifteen_puzzle_solvers-0.0.2.dist-info/RECORD,,
