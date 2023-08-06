@@ -1,0 +1,3 @@
+[console_scripts]
+atmigrate-manager = autotransform.scripts.migrations.manager:main
+autotransform = autotransform.scripts.main:main
