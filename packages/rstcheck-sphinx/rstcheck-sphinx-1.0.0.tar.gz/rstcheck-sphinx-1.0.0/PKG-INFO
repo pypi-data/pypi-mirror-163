@@ -1,0 +1,50 @@
+Metadata-Version: 2.1
+Name: rstcheck-sphinx
+Version: 1.0.0
+Summary: Builder for the sphinx documentation generator to check the source with rstcheck.
+Home-page: https://github.com/rstcheck/rstcheck-sphinx
+License: MIT
+Keywords: restructuredtext,rst,linter,static-analysis
+Author: Christian Riedel
+Author-email: cielquan@protonmail.com
+Maintainer: Christian Riedel
+Maintainer-email: cielquan@protonmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Quality Assurance
+Provides-Extra: docs
+Provides-Extra: sphinx
+Provides-Extra: testing
+Provides-Extra: toml
+Requires-Dist: coverage-conditional-plugin (>=0.5); extra == "testing"
+Requires-Dist: coverage[toml] (>=6.0); extra == "testing"
+Requires-Dist: importlib-metadata (>=1.6,<5.0); python_version < "3.8"
+Requires-Dist: m2r2 (>=0.3.2); extra == "docs"
+Requires-Dist: pytest (>=6.0); extra == "testing"
+Requires-Dist: pytest-cov (>=3.0); extra == "testing"
+Requires-Dist: pytest-mock (>=3.7); extra == "testing"
+Requires-Dist: pytest-randomly (>=3.0); extra == "testing"
+Requires-Dist: pytest-sugar (>=0.9.5); extra == "testing"
+Requires-Dist: sphinx (>=4.0,<6.0); extra == "sphinx" or extra == "docs"
+Requires-Dist: sphinx-autobuild (==2021.3.14); extra == "docs"
+Requires-Dist: sphinx-rtd-dark-mode (>=1.2.4,<2.0.0); extra == "docs"
+Requires-Dist: sphinx-rtd-theme (<1); extra == "docs"
+Requires-Dist: sphinxcontrib-spelling (>=7.3); extra == "docs"
+Project-URL: Repository, https://github.com/rstcheck/rstcheck-sphinx
+Description-Content-Type: text/x-rst
+
+===============
+rstcheck-sphinx
+===============
+
+Builder extension for the sphinx documentation generator to check the source with rstcheck.
+
+**This project is under heavy development and not yet ready for use!**
+
+**The package on PyPI is empty.**
+
