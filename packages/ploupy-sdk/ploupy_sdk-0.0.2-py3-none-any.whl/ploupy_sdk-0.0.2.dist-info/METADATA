@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: ploupy-sdk
+Version: 0.0.2
+Summary: SDK for writing bots in ploupy.plouc314.ch
+Author-email: Alexandre Goumaz <alexandre.goumaz@plouc314.ch>
+Project-URL: Homepage, https://github.com/Plouc314/ploupy-python-sdk
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: numpy (>=1.23.1)
+Requires-Dist: python-socketio[asyncio_client] (>=5.7.1)
+Requires-Dist: pydantic (>=1.9.2)
+Requires-Dist: pyjwt (>=2.4.0)
+Requires-Dist: colorlog (>=6.6.0)
+
+# Ploupy SDK
+
+* Hello world
