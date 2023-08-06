@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: geohexgrid
+Version: 1.0.0
+Summary: A Python library for making geographic hexagon grids like QGIS's `create grid` function
+Home-page: https://gitlab.com/mrcagney/geohexgrid
+License: MIT
+Author: Alex Raichev
+Author-email: araichev@mrcagney.com
+Requires-Python: >=3.9,<4
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Rtree (>=1.0.0)
+Requires-Dist: geopandas (>=0.11.1)
+Project-URL: Repository, https://gitlab.com/mrcagney/geohexgrid
