@@ -1,0 +1,12 @@
+edwardsserial/__init__.py,sha256=BVgJS0TGtxzuLTgFLAz4K9K3Rp2QGtsgO1SIhTYO2UM,21
+edwardsserial/descriptors.py,sha256=VatYvve6BKLIQYzhDKD5ELTe4MIp8eSubgBKjF2Bn38,1586
+edwardsserial/nEXT.py,sha256=AUOIzMOsd491mzk6kUcyYgIHCeP_74rG7XFyK4HETZI,1894
+edwardsserial/serial_protocol.py,sha256=JLFc-2-xrrID_AlyRmagOi-Wv8NrbQuqg9b_P28os7M,4624
+edwardsserial/tic/__init__.py,sha256=BVgJS0TGtxzuLTgFLAz4K9K3Rp2QGtsgO1SIhTYO2UM,21
+edwardsserial/tic/gauge.py,sha256=zzSl1BoWCIylILcMAdHXTKGhkcBDVPBQoUX_CrvKPhw,4620
+edwardsserial/tic/pump.py,sha256=LG7-rfoI-Mqf5hGbcFjCtdUKehBPiyBAyHvAvBJbZ8c,2875
+edwardsserial/tic/tic.py,sha256=5vGLf9DNEAMc_X12fP7nL2gGhxIeDNBWnOWziH5r5ek,2204
+edwardsserial-0.3.3.dist-info/LICENSE,sha256=eE7wNdMGyEnCsF6HSYqJA0lPhSa9C7buhNHA2E6gm3g,1073
+edwardsserial-0.3.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+edwardsserial-0.3.3.dist-info/METADATA,sha256=XUuYy2mRSJl7iJX1yP_mL3Cp1NXILrokhnRdI5MDgCg,1577
+edwardsserial-0.3.3.dist-info/RECORD,,
