@@ -1,0 +1,5 @@
+setup.py
+knowEverything.egg-info/PKG-INFO
+knowEverything.egg-info/SOURCES.txt
+knowEverything.egg-info/dependency_links.txt
+knowEverything.egg-info/top_level.txt
