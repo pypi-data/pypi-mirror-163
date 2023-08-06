@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+pytest_requestselapsed.egg-info/PKG-INFO
+pytest_requestselapsed.egg-info/SOURCES.txt
+pytest_requestselapsed.egg-info/dependency_links.txt
+pytest_requestselapsed.egg-info/entry_points.txt
+pytest_requestselapsed.egg-info/top_level.txt
+requestselapsed/__init__.py
+requestselapsed/api.py
+requestselapsed/output.py
+requestselapsed/plugin.py
