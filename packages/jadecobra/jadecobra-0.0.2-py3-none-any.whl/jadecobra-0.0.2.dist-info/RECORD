@@ -1,0 +1,11 @@
+jadecobra/toolbox.py,sha256=8PXKuE_Vna0ALzbLw7aqRYp7Qdok-H6dZ8zDsPE4Gjo,1396
+jadecobra/aws_lambda_tools/__init__.py,sha256=XowHkMiJLDrWq6nYoKjlcFYCEau0L9xqF1Wv07LbAgc,29
+jadecobra/aws_lambda_tools/deploy.py,sha256=kdWDb2ZlHmHLk0IPRRiqu5v5EKR3759mJejqO3-wLHk,1706
+jadecobra/aws_lambda_tools/lambda_deployer.py,sha256=GEJ-fcq5ko68ZOGri_eCRPFUYeGg8chb8qEpfiziAec,1197
+jadecobra/aws_lambda_tools/lambda_function.py,sha256=Gej3q_IUnlxIpbjAjYRtr1TI9s1CVfBYVMxXYRrjORU,1390
+jadecobra/aws_lambda_tools/lambda_layer.py,sha256=kyOJ6xzaeBwfRPeyxRqbdA3CS9btcVYJREozlYtOsC0,3388
+jadecobra-0.0.2.dist-info/LICENSE,sha256=I8mqICziWjTcGsZ0gzWbpuUCcIGMiauSVZ1rnqUuhkI,1066
+jadecobra-0.0.2.dist-info/METADATA,sha256=PHrd66xSmVjFmaEHKzXG6pukZwuAL3urLsFB8o46zfc,1740
+jadecobra-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jadecobra-0.0.2.dist-info/top_level.txt,sha256=0-HBsfowL17VTcWuWRss5wU5c2_sthU3CReYgtaol_I,10
+jadecobra-0.0.2.dist-info/RECORD,,
