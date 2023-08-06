@@ -1,0 +1,7 @@
+README
+setup.py
+pySearchEngines.egg-info/PKG-INFO
+pySearchEngines.egg-info/SOURCES.txt
+pySearchEngines.egg-info/dependency_links.txt
+pySearchEngines.egg-info/requires.txt
+pySearchEngines.egg-info/top_level.txt
