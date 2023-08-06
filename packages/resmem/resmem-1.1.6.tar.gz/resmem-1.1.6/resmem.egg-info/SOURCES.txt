@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+resmem/__init__.py
+resmem/model.pt
+resmem.egg-info/PKG-INFO
+resmem.egg-info/SOURCES.txt
+resmem.egg-info/dependency_links.txt
+resmem.egg-info/requires.txt
+resmem.egg-info/top_level.txt
