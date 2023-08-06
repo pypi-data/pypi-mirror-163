@@ -1,0 +1,15 @@
+data/configs.json,sha256=1p-ZOblxZgkDJnnp_zpIRO_uSYKtTKrsFZ_dlHsBsmI,95
+deployer/__init__.py,sha256=lRbADAiN8F5i9yboer9gB0A5XsqIhH835S_OFDJc3Hk,119
+deployer/__main__.py,sha256=nOCywvxonvWAOJ5eZFEfm4TcjyoShuylCW2xdFCgJfE,129
+deployer/cli.py,sha256=ijQTFVAI3pj3koFracxX_m4cgD3ZsoIXgvyK5Y4HEwQ,7048
+deployer/consts.py,sha256=euxItL7CckCXq_SNxlpnrMF-5F6USRLtKmBBHqQhlZk,127
+deployer/manipulators/__init__.py,sha256=_uizjgOnROKiI3VUg4B9oSRHJCoUS98kkj9Y6AnJXa0,138
+deployer/manipulators/command_manipulator.py,sha256=US4fFDpuAy9Hj1BEKrg77JCpmZETQkgNi6zouhukMJg,1725
+deployer/manipulators/git_manipulator.py,sha256=z5ZmbJBbXcvB76Hr_6fG4fW0WQ5N95A4Me5BW4W7h5U,1776
+log/.keep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+.keep,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+automatic_deployer-0.1.1.dist-info/entry_points.txt,sha256=jZ14z_LYyyNPXupRc0SUWXDK2pFca8ywx2JEFIlKEdM,45
+automatic_deployer-0.1.1.dist-info/WHEEL,sha256=g_UdFZqm-k6b0W64OcndB0YT_D2mFFPAYBj7-_YsSPA,87
+automatic_deployer-0.1.1.dist-info/METADATA,sha256=-xcUc5Vul-HOfP8CXaHEPM0QuC-Vz98qM_VcF3IqTuE,582
+automatic_deployer-0.1.1.dist-info/license_files/LICENSE,sha256=UWxjgf-tPuENvnGoAB5h6c6NrEIb1ObqIVt1c_K74kI,1085
+automatic_deployer-0.1.1.dist-info/RECORD,,
