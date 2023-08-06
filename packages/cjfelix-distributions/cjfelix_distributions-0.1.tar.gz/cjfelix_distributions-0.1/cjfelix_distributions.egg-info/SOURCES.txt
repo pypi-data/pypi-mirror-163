@@ -1,0 +1,12 @@
+README.md
+setup.cfg
+setup.py
+cjfelix_distributions/Binomialdistribution.py
+cjfelix_distributions/Gaussiandistribution.py
+cjfelix_distributions/Generaldistribution.py
+cjfelix_distributions/__init__.py
+cjfelix_distributions.egg-info/PKG-INFO
+cjfelix_distributions.egg-info/SOURCES.txt
+cjfelix_distributions.egg-info/dependency_links.txt
+cjfelix_distributions.egg-info/not-zip-safe
+cjfelix_distributions.egg-info/top_level.txt
