@@ -1,0 +1,9 @@
+Levenshtein
+
+[dev]
+isort>=5.5.4
+black
+flake8
+pytest
+pytest_cases
+pygments
