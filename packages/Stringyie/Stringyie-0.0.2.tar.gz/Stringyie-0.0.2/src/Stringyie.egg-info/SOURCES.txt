@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/Stringyie/Stringyie.py
+src/Stringyie/__init__.py
+src/Stringyie.egg-info/PKG-INFO
+src/Stringyie.egg-info/SOURCES.txt
+src/Stringyie.egg-info/dependency_links.txt
+src/Stringyie.egg-info/top_level.txt
