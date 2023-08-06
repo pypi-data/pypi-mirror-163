@@ -1,0 +1,2 @@
+[console_scripts]
+asciipixels = asciipixels.__main__:main
