@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: coreapi-swagger-client
+Version: 1.0.1
+Summary: FABRIC Core API
+Home-page: 
+Author-email: stealey@unc.edu
+Keywords: Swagger,FABRIC Core API
+Requires-Dist: urllib3 (>=1.15)
+Requires-Dist: six (>=1.10)
+Requires-Dist: certifi
+Requires-Dist: python-dateutil
+
+    FABRIC Core API  # noqa: E501
+    
