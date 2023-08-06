@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: gias3.testing
+Version: 3.0.0
+Summary: Tests for modules in GIAS3
+License: MPL 2.0
+Keywords: musculoskeletal,modelling
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: Mozilla Public License 2.0 (MPL 2.0)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+License-File: LICENSE
+
+GIAS3 (Geometry Image-Analysis Statistics) Testing
+==================================================
+
+The testing packages of the GIAS3 libraries.

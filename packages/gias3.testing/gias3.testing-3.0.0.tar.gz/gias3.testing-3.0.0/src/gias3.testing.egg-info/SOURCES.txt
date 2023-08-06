@@ -1,0 +1,15 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/gias3/__init__.py
+src/gias3.testing.egg-info/PKG-INFO
+src/gias3.testing.egg-info/SOURCES.txt
+src/gias3.testing.egg-info/dependency_links.txt
+src/gias3.testing.egg-info/namespace_packages.txt
+src/gias3.testing.egg-info/requires.txt
+src/gias3.testing.egg-info/top_level.txt
+src/gias3/testing/__init__.py
+src/gias3/testing/test_inptest.py
+src/gias3/testing/test_lines.py
