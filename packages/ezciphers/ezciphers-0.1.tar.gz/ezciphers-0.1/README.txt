@@ -1,0 +1,1 @@
+This is a basic set of ciphers, not meant for actual cryptography, used mostly for fun. The library supports Atbash, ROT13, ROT[x], Caesarian Shifts, Vigenere, and a limited thing for Baconian letters (encryption is good, decryption isn't too good). This is my first released Python project, don't be so hard on it.

@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: ezciphers
+Version: 0.1
+Summary: a set of basic ciphers, e.g. atbash or rot13.
+Home-page: 
+Author: Tyler Carrothers
+Author-email: itxhazrd@gmail.com
+License: MIT
+Keywords: cipher
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENSE.txt
+
+This is a basic set of ciphers, not meant for actual cryptography, used mostly for fun. The library supports Atbash, ROT13, ROT[x], Caesarian Shifts, Vigenere, and a limited thing for Baconian letters (encryption is good, decryption isn't too good). This is my first released Python project, don't be so hard on it.
+
+Change Log
+~~~~~~~~~~
+
+0.1 Aug 17, 2022
+~~~~~~~~~~~~~~~~~
+- First Release.
+- Written entirely by ITXDemi (me!)
+- Supports Atbash, Baconian, Vigenere, ROT(or Caesarian), and ROT13.
+
+- KNOWN BUG : Baconian decryption has no support for punctuation, numbers, etc.
+- Of course, there's gonna be more bugs when it's here.

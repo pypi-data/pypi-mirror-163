@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+EZCiphers/__init__.py
+ezciphers.egg-info/PKG-INFO
+ezciphers.egg-info/SOURCES.txt
+ezciphers.egg-info/dependency_links.txt
+ezciphers.egg-info/top_level.txt

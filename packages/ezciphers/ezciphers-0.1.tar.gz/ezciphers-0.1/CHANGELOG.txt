@@ -1,0 +1,11 @@
+Change Log
+~~~~~~~~~~
+
+0.1 Aug 17, 2022
+~~~~~~~~~~~~~~~~~
+- First Release.
+- Written entirely by ITXDemi (me!)
+- Supports Atbash, Baconian, Vigenere, ROT(or Caesarian), and ROT13.
+
+- KNOWN BUG : Baconian decryption has no support for punctuation, numbers, etc.
+- Of course, there's gonna be more bugs when it's here.
