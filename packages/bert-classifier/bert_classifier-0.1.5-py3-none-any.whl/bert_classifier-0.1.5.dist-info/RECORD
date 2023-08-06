@@ -1,0 +1,12 @@
+bert_classifier/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bert_classifier/bert.py,sha256=SIl22FWw0AcmcSyATd8ggyMopab5ShyP66XuoiDJ9sA,1362
+bert_classifier/data.py,sha256=fi6T3FCGIJJjFz5uHG8YAHV9mzB30Xt0K1NTyFoGdRM,1004
+bert_classifier/io.py,sha256=WUiXwKjpL2MR620QdDLPyfq9eKCtPkQA6k1w_mMW5sc,3587
+bert_classifier/metrics.py,sha256=BvAjV28mlTL57WN0JSqViXBE-tCGFQ9NJUNww-SELv0,1206
+bert_classifier/predict.py,sha256=oxLrapGQVDizzz4qMcapaX7_KOF-jCqZEcMP603DlWs,975
+bert_classifier/train.py,sha256=w3k8aGSZ6iU-XMkHT8YKUkXOExb3p8CStKvdD3taJ8A,3474
+bert_classifier-0.1.5.dist-info/LICENSE,sha256=1845XIM6fCoNDQde1iWX0yOICSS6bb0C56lf5QtLGKo,1061
+bert_classifier-0.1.5.dist-info/METADATA,sha256=I1wYgJSLWSMwWsdLgJ2VY5_RKfGabIhLj0MMUGOgEFc,1029
+bert_classifier-0.1.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bert_classifier-0.1.5.dist-info/top_level.txt,sha256=I6XYKw_Z7fZHGJs8C2glr2rdD0eq0Eo3Uu5IpQmfDE4,16
+bert_classifier-0.1.5.dist-info/RECORD,,
