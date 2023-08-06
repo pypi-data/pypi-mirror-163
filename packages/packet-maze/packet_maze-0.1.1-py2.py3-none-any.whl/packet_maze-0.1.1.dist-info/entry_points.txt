@@ -1,0 +1,2 @@
+[console_scripts]
+packet_maze = packet_maze.packet_maze:main
