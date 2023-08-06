@@ -1,0 +1,14 @@
+PyFGH/GUI.py,sha256=tNqXSe7RKlyno5_LUn4JUpk-Ln2YnL54ehGRLOVekIg,1890
+PyFGH/GUItoCalc.py,sha256=Rh2SKBWcdpmaMnfgBgmbWtCxjrOWabpAMos8rWy4dnA,7740
+PyFGH/Gmatrix.py,sha256=V9ywPmdQMpWC7WqAGDw35Ve_G0T1CBN3dBpfpaz0GZI,9663
+PyFGH/Tmatrix.py,sha256=7kTyW-3WaScB8X-7p2bQ6tw3RNYNNsszmT16tqL34Zw,11643
+PyFGH/Vmatrix.py,sha256=CY6kZylKQhQYaciRR6EKqLhHh-9BovINN1jtgFmoU4c,10049
+PyFGH/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+PyFGH/main.py,sha256=rDQubkjKlKx4ge4yCejfZx7pbxFILlDZKlFMar8yE4U,3113
+PyFGH/main2.py,sha256=eEEXyRFwMybxeB3eBAs4Vtb0__5xddSNcUROp4w2SlA,87478
+PyFGH/molecule_gui.py,sha256=b8BR79FJGytJkxhvEHH2g2EJLSbz9qP3n87R0SurgJ4,16090
+PyFGH/multiplication.py,sha256=hNuc-cDGVk4En8s8BiqHz1Ah2GYf53qvSo29761Jgc0,741
+PyFGH-0.3.1.dist-info/METADATA,sha256=32hjhSP71DdLOZzQGYruDbl0_DCid7v7XtNHM1i28gU,822
+PyFGH-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PyFGH-0.3.1.dist-info/top_level.txt,sha256=_2gHwCUdkP00pyDfeIfkdXuvsIprt7R0ZgFlUmBCBeA,6
+PyFGH-0.3.1.dist-info/RECORD,,
