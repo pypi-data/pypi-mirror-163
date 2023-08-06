@@ -1,0 +1,9 @@
+whismur/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+whismur/__main__.py,sha256=VBc0h6qRTBDGGQq9Ubdfyr2T8aMhBm7LHWgtMTI0yfA,85
+whismur/app.py,sha256=znFfjQvQ4Mg-h3ovywlaUH_h5RXWCk8LZmN3M4SAhKg,2844
+whismur/constants.py,sha256=xZ0FQD1FN1aJCQ2eYBneLG1_8cJgXBd6vYPy8wx3Jio,100
+whismur-0.0.2.dist-info/METADATA,sha256=1_00eS9qSxUGGGZLC8t4SVr-TzHeWFuUpQXdFEdgu4c,785
+whismur-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+whismur-0.0.2.dist-info/entry_points.txt,sha256=hXGm5wl7EW76KA655jM1jR7N0EI80N3nwCJX7cxBnoU,50
+whismur-0.0.2.dist-info/top_level.txt,sha256=FRpCF6SULExsNMRHKEw2kiz36tWlORJx72TyNcMxgMQ,8
+whismur-0.0.2.dist-info/RECORD,,
