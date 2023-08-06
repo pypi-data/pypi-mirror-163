@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: jhu-csse
+Version: 0.0.1
+Summary: COVID-19 Data from JHU CSSE wrapped by OpenCOVID-19
+Home-page: https://github.com/opencovid19data/jhu-csse
+Author: OpenCOVID-19
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: opencovid19-api (>=0.0.1,<0.0.2)
+Project-URL: Repository, https://github.com/opencovid19data/jhu-csse
+Description-Content-Type: text/markdown
+
+# jhu-csse
+
+COVID-19 Data from JHU CSSE wrapped by OpenCOVID-19
+
+
+
+## Installation
+
+```bash
+pip install jhu-csse
+```
+
+
+
+## Quick Start
+
+```python
+import jhu_csse
+```
+
+
+
+## Contributing
+
+
+
+
