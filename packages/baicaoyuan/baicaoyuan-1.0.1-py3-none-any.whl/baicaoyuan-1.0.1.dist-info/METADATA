@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: baicaoyuan
+Version: 1.0.1
+Summary: A community version of baicaoyuan
+Home-page: https://bcy.hello8693.xyz/
+Author: hello8693
+Author-email: hello8693@hello8693.xyz
+License: AGPL 3.0
+Keywords: dsz baicaoyuan bcy dianshizhu tvzhu
+Classifier: Programming Language :: Python :: 3
+Classifier: Intended Audience :: Developers
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Utilities
+Requires-Python: >=3
+Requires-Dist: Jinja2
+Requires-Dist: Markdown
+Requires-Dist: Pygments
+Requires-Dist: PyYAML
+Requires-Dist: docopt
+Requires-Dist: requests
+
+百草园社区版
+
+## Demo（专业版）
+[官站](https://bcy.hello8693.xyz)
+
+官站是专业版，由社区版魔改而成（所有内部结构都不一样），具有多用户、在线编辑等功能。

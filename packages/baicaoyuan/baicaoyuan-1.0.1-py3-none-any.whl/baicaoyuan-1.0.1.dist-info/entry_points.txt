@@ -1,0 +1,2 @@
+[console_scripts]
+baicaoyuan = baicaoyuan.cmd:main
