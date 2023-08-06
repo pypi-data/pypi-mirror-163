@@ -1,0 +1,7 @@
+numpy
+scipy
+math
+time
+os
+csv
+scipy
