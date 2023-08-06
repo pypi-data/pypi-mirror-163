@@ -1,0 +1,69 @@
+Metadata-Version: 2.1
+Name: aws-pcluster-bootstrap-helpers
+Version: 0.4.0
+Summary: Helpers to bootstrap a AWS PCluster + SLURM + Custom AMIs
+Home-page: https://github.com/dabble-of-devops-bioanalyze/aws_pcluster_bootstrap_helpers
+Author: Jillian Rowe
+Author-email: jillian@dabbleofdevops.com
+License: Apache Software License 2.0
+Keywords: aws_pcluster_bootstrap_helpers
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+License-File: LICENSE
+Requires-Dist: prefect (<2,>=1)
+Requires-Dist: pendulum
+
+==============================
+aws_pcluster_bootstrap_helpers
+==============================
+
+
+.. image:: https://img.shields.io/pypi/v/aws_pcluster_bootstrap_helpers.svg
+        :target: https://pypi.python.org/pypi/aws_pcluster_bootstrap_helpers
+
+.. image:: https://img.shields.io/travis/dabble-of-devops-bioanalyze/aws_pcluster_bootstrap_helpers.svg
+        :target: https://travis-ci.com/dabble-of-devops-bioanalyze/aws_pcluster_bootstrap_helpers
+
+.. image:: https://readthedocs.org/projects/aws-pcluster-bootstrap-helpers/badge/?version=latest
+        :target: https://aws-pcluster-bootstrap-helpers.readthedocs.io/en/latest/?version=latest
+        :alt: Documentation Status
+
+
+
+
+Helpers to bootstrap a AWS PCluster + SLURM + Custom AMIs
+
+
+* Free software: Apache Software License 2.0
+* Documentation: https://aws-pcluster-bootstrap-helpers.readthedocs.io.
+
+
+Features
+--------
+
+* TODO
+
+Credits
+-------
+
+This package was created with Cookiecutter_ and the `audreyr/cookiecutter-pypackage`_ project template.
+
+.. _Cookiecutter: https://github.com/audreyr/cookiecutter
+.. _`audreyr/cookiecutter-pypackage`: https://github.com/audreyr/cookiecutter-pypackage
+
+
+=======
+History
+=======
+
+0.1.0 (2022-08-11)
+------------------
+
+* First release on PyPI.
