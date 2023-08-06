@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: backbone-network
+Version: 1.1.3
+Summary: Extracts the multiscale backbone of complex weighted networks
+Home-page: https://github.com/malcolmvr/backbone_network
+Download-URL: https://github.com/malcolmvr/backbone_network/archive/v1.1.2.tar.gz
+Author: Malcolm van Raalte
+Author-email: malcolm@van.raalte.ca
+License: MIT
+Keywords: network,backbone,multiscale,serrano et al. 2009
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE.txt
+Requires-Dist: networkx
+Requires-Dist: numpy
+Requires-Dist: scipy
+
