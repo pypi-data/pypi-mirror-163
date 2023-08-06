@@ -1,0 +1,10 @@
+LICENSE
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+gias3.egg-info/PKG-INFO
+gias3.egg-info/SOURCES.txt
+gias3.egg-info/dependency_links.txt
+gias3.egg-info/requires.txt
+gias3.egg-info/top_level.txt
