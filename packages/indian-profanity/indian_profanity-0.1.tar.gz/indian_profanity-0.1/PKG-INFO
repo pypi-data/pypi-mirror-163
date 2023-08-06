@@ -1,0 +1,20 @@
+Metadata-Version: 1.1
+Name: indian_profanity
+Version: 0.1
+Summary: To detect slang indian words
+Home-page: https://github.com/Geeks-Vegeta
+Author: Shreyas Mohite
+Author-email: shreyasmohite786@gmail.com
+License: MIT
+Download-URL: https://github.com/Geeks-Vegeta/indian_profanity/archive/refs/tags/0.1.tar.gz
+Description: UNKNOWN
+Keywords: indian_profanity,HINDI,MARATHI,HINDI SLNG,SLANG,SWEAR wORD
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
