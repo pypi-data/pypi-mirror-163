@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+percentile_rank/__init__.py
+percentile_rank/rank.py
+percentile_rank.egg-info/PKG-INFO
+percentile_rank.egg-info/SOURCES.txt
+percentile_rank.egg-info/dependency_links.txt
+percentile_rank.egg-info/top_level.txt
