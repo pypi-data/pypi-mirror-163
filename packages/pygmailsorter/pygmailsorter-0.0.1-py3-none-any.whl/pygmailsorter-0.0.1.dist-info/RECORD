@@ -1,0 +1,17 @@
+pygmailsorter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygmailsorter/__main__.py,sha256=TsrGnH--f1iLD1hoaNZ7bBNHiNDLNVcl0aS9z_1SaV0,1138
+pygmailsorter/_version.py,sha256=06Q_2Ra-mZ4m2dn9lg3xGHs5CF83_IT93HsksiRdjVI,18501
+pygmailsorter/interface.py,sha256=VgYa434iGoSCY1VYEZMLsTdksFaj0wQvCD58tgmrusQ,3855
+pygmailsorter/base/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygmailsorter/base/database.py,sha256=A08RWKi_hPYs4aMgcj9JwfDn8OR6ieriv0REGRUIOv4,15217
+pygmailsorter/base/message.py,sha256=hNlS318sBpykYj6eDaE_YMZQhansEXUelcJSgYxdWSA,1827
+pygmailsorter/google/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygmailsorter/google/mail.py,sha256=8r8JM4yz5xAz9tjmLxajPlq5Tx_o1eYS4iZl-iAWzpk,16943
+pygmailsorter/google/message.py,sha256=oVrTinu8StdDv-hcBRGVPS_tJ2xZTdJQ7PP4fhwSlNw,4450
+pygmailsorter/ml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pygmailsorter/ml/base.py,sha256=PVcIUHccCaO1CTHxXOyWkNthxdogL1aLTtorMq5tdEs,10820
+pygmailsorter-0.0.1.dist-info/LICENSE,sha256=NkrhccIxPXCbbvp_upyVojt7DNTwZIco3z9wsYpSLqU,1511
+pygmailsorter-0.0.1.dist-info/METADATA,sha256=-yBtBUbyHBnJBj7JqC2OqTLTlQCQXSK2pesObirjU2s,4063
+pygmailsorter-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pygmailsorter-0.0.1.dist-info/top_level.txt,sha256=M90Rxe-w_f0gaw_VhpOgyGoaVxPVX2kg1wLaV0GGCSE,14
+pygmailsorter-0.0.1.dist-info/RECORD,,
