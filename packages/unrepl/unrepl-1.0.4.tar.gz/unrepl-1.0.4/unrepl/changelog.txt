@@ -1,0 +1,33 @@
+Changelog unrepl
+
+version 1.0.4  2022-08-12
+-------------------------
+Code lines where the actual code starts with # are ignored now.
+
+If you import with
+    from unrepl import unrepl
+the IncorrectClipboardError and __version__ were not reachable anymore.
+Now the function unrepl supports these two variables as
+    unrepl.IncorrectClipboardError
+and
+    unrepl.__version__
+
+version 1.0.3  2022-08-11
+-------------------------
+Lines that just start with >>> or ... without any content are now ignored completely
+
+version 1.0.2  2022-08-10
+-------------------------
+The package is now also available on PyPI.
+
+
+version 1.0.1  2022-08-09
+-------------------------
+When 'use_print_statements is True, _ is calculated as well.
+This also simplifies the print statement itself.
+
+version 1.0.0  2022-08-08
+-------------------------
+Initial version
+
+
