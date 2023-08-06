@@ -1,0 +1,11 @@
+slipcover/bytecode.py,sha256=gptXqWCUJkQwuxjspGgZdoAkpSXDlopXBdSOU2h1x18,25061
+slipcover/tracker.cpython-310-x86_64-linux-gnu.so,sha256=E5gYtViO2B4SLRlIrpE4jMN_O1uGb7YyvnEYK3X9IE4,51648
+slipcover/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+slipcover/branch.py,sha256=BW1Avno9g4-93CksEgwbH-7cE6KbFyOxe8KyryZsPcs,4765
+slipcover/slipcover.py,sha256=nFvaaGvezQxpWuTV2AtOU9OLk6hDHnqZBDqvwxFJoCs,21233
+slipcover/__main__.py,sha256=YzqDVly-Tb_RBBB8WPB9HWDX81X6OKRaXKtJtadkjLg,8071
+slipcover-0.1.9.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+slipcover-0.1.9.dist-info/METADATA,sha256=Q-zmUcs7e5hFPXqdjIOmfd_LS2NPb-kHXUEYhSvgmiE,8382
+slipcover-0.1.9.dist-info/top_level.txt,sha256=5VXLPH9Pwp6leK8l70xKGMYUOtHuCaL-XVui6MGDwlY,10
+slipcover-0.1.9.dist-info/WHEEL,sha256=7L5hTRZxVi7NkeK16iBSwjWO6svAahmKFVLyJz0SER0,114
+slipcover-0.1.9.dist-info/RECORD,,
