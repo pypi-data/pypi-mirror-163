@@ -1,0 +1,13 @@
+nemseer/__init__.py,sha256=Vwn-NkDQO-hjXwavan6Ldatg8bFXw79rwvx71GSMHjM,683
+nemseer/data_handlers.py,sha256=z8ibAqh1fXGbHUQvxPNUu8acdyNkXjlZBHJjm9C6jy4,2239
+nemseer/downloader.py,sha256=yp3ynB8DLJGdy2ztPeblSlt-sRP52CHQh-aNzCJOtkg,13524
+nemseer/downloader_helpers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nemseer/downloader_helpers/data.py,sha256=sEAjToYtalShqSpeZvOQMcAd01Ceqa1FSYOqrWG0BVw,2316
+nemseer/downloader_helpers/validators.py,sha256=kTp_CaqvLDEILTBO3OXD0mvzOqzSqpfpWOiA5bGPaW0,572
+nemseer/loader.py,sha256=lgMw6JZHfHSSxIDv3oSSXO_QaqchPvhzSeeXM2iCveo,9335
+nemseer/nemseer.py,sha256=kzk0SKeYiJl03Np1kVLB1aMscyyG3padN48GPWRoEt8,1651
+nemseer/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nemseer-0.2.0.dist-info/LICENSE,sha256=7cfSCLuKew5B0d2f-2ty9gX2mvEttStqAGq_3ftLHBA,1518
+nemseer-0.2.0.dist-info/WHEEL,sha256=FWzWAvOOsDP6aqtZj_z3pIhVEk8S9F03Xwafa0tLqIY,90
+nemseer-0.2.0.dist-info/METADATA,sha256=ufz9WLcN6rQzNH5uXJAVEK19o2FAPlf6YDzIFkDO1gw,2677
+nemseer-0.2.0.dist-info/RECORD,,
