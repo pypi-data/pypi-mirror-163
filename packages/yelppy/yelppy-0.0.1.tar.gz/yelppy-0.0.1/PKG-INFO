@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: yelppy
+Version: 0.0.1
+Summary: Yelp results
+Home-page: UNKNOWN
+Author: Goutam Konapala
+Author-email: <goutam.iitbbs@gmail.com>
+License: UNKNOWN
+Platform: UNKNOWN
+
+Using Yelp API to create a pandas dataframe
+
