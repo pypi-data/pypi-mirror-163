@@ -1,0 +1,12 @@
+commit_message_validator/__init__.py,sha256=Vjpyo5dh7RjZo4unT7BqDCbb25BlNZYe6zWLvCeI-dk,7215
+commit_message_validator/message_validator.py,sha256=HQ-RrV1diy2deCkQ4SIMjVhhk2ex9TChkltWRr04wLo,2990
+commit_message_validator/validators/GerritMessageValidator.py,sha256=tRELqo-AizfS6NmZ6mDefvcfA0jjeGpTvu8NVXP6tco,6949
+commit_message_validator/validators/GitHubMessageValidator.py,sha256=Bhoz0MKZRNi6pwyJZp2fCHQmZxHHOu0shghZN1Akmsw,1178
+commit_message_validator/validators/GlobalMessageValidator.py,sha256=V-_MQ5aLPiTESM5uPTedQsOCyAVsYAimp9T7QIx-qSQ,1212
+commit_message_validator/validators/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+commit_message_validator-1.0.0.dist-info/COPYING,sha256=gXf5dRMhNSbfLPYYTY_5hsZ1r7UU1OaKQEAQUhuIBkM,18092
+commit_message_validator-1.0.0.dist-info/METADATA,sha256=sydKSLfeQpMRCWq1VXhmfU9btrlebvhKr6Q5c0TfRVE,618
+commit_message_validator-1.0.0.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+commit_message_validator-1.0.0.dist-info/entry_points.txt,sha256=tM1Kc3q-qq8CDSs3I1Ax_iZdq6uXfqTgGe24L41YuMc,76
+commit_message_validator-1.0.0.dist-info/top_level.txt,sha256=o7o2SedY3W06vDO2bHIq4yQNQw3zsvEHBIoXaoOrDCE,25
+commit_message_validator-1.0.0.dist-info/RECORD,,
