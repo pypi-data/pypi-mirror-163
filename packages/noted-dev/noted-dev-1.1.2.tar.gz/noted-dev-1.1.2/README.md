@@ -1,0 +1,114 @@
+# NOTED: a framework to optimise network traffic via the analysis of data from File Transfer Services
+
+Features:
+
+- Get data from `CRIC database` to understand the topology of the network for a given {src, dst} pair:
+    - Get `rc_site`, `federation`, `endpoints` and `IPv4/IPv6 addresses`.
+    - Generate a dataframe with the associated parameters per {src, dst} endpoint.
+- Based on the parameters inserted by the user in `src/noted/config/config.yaml`:
+    - Get `max_threshold`, `min_threshold` and `action` to execute once the link is saturated.
+    - Generate the `query` files to access `FTS parameters` in CERN Monit Kibana database per {src, dst} pair.
+    - `Curl` to `FTS CERN Monit Kibana` based on the query files.
+- If the `bidirectional` link is chosen by the user: launch two threads per {src, dst} for monitoring the transfers: {src -> dst}, {dst -> src}. Otherwise only one thread is created {src -> dst}
+- While monitoring:
+    - If `throughput > max_threshold`: 
+        - If NOTED interprets that the link will be `saturated` for a long period of time: 
+            - Generate an `alert` (email notification).
+            - `Provide dynamic circuit` with `SENSE-O AutoGole` for the given {src, dst} pair.
+            - Wait until NOTED interprets that the link will `not be saturated` anymore.
+            - `Cancel dynamic circuit` with `SENSE-O AutoGole`.
+    - `Log `file to store the transfers per {src, dst} pair.
+
+Copyright:
+```
+© Copyright 2022 CERN. This software is distributed under the terms of 
+the GNU General Public Licence version 3 (GPL Version 3), copied verbatim 
+in the file "LICENCE.txt". In applying this licence, CERN does not waive 
+the privileges and immunities granted to it by virtue of its status as an 
+Intergovernmental Organization or submit itself to any jurisdiction.
+```
+
+Compilation steps:
+```
+MY_AUTH_TOKEN=my_personal_auth_token
+echo $MY_AUTH_TOKEN
+sed -i "" "s/auth_token =.*/auth_token = $MY_AUTH_TOKEN/g" src/noted/params/params.ini
+noted src/noted/config/config-example.yaml [--verbosity debug/info/warning]
+```
+
+Program description:
+```
+python3 main.py -h
+usage: main.py [-h] [-v VERBOSITY] config_file
+
+NOTED: a framework to optimise network traffic via the analysis of data from File Transfer Services.
+
+positional arguments:
+  config_file                           the name of the configuration file [config-example.yaml]
+
+optional arguments:
+  -h, --help                            show this help message and exit
+  -v VERBOSITY, --verbosity VERBOSITY   defines the logging level [debug, info, warning]
+```
+
+Structure of the project:
+```
+noted_transfer_broker
+.
+├── README.md
+└── noted_transfer_broker
+    ├── COPYRIGHT.txt
+    ├── LICENCE.txt
+    ├── README.md
+    ├── build
+    │   └── lib
+    │       └── noted
+    │           ├── __init__.py
+    │           ├── main.py
+    │           └── plot_transfers.py
+    ├── dist
+    │   └── noted-dev-1.0.2.tar.gz
+    ├── setup.cfg
+    ├── setup.py
+    ├── src
+    │   ├── noted
+    │   │   ├── __init__.py
+    │   │   ├── config
+    │   │   │   └── config-example.yaml
+    │   │   ├── documentation
+    │   │   │   ├── noted_main_function_documentation.pdf
+    │   │   │   ├── noted_transfer_broker_class_documentation.pdf
+    │   │   │   ├── reduced_noted_main_function_documentation.pdf
+    │   │   │   └── reduced_noted_transfer_broker_class_documentation.pdf
+    │   │   ├── html
+    │   │   │   ├── TransferBroker.html
+    │   │   │   └── main.html
+    │   │   ├── logs
+    │   │   │   ├── noted_email.txt
+    │   │   │   ├── transfer_broker_1660577038.log
+    │   │   │   └── transfer_broker_1660577485.log
+    │   │   ├── main.py
+    │   │   ├── modules
+    │   │   │   ├── plot_transfers.py
+    │   │   │   └── transferbroker.py
+    │   │   ├── params
+    │   │   │   └── params.ini
+    │   │   ├── query
+    │   │   │   ├── query_monit_prod_fts_raw_queue_dst_rcsite
+    │   │   │   └── query_monit_prod_fts_raw_queue_src_rcsite
+    │   │   ├── requirements.txt
+    │   │   ├── sense-o
+    │   │   │   ├── sense-cancel.sh
+    │   │   │   └── sense-provision.sh
+    │   │   └── transfers
+    │   │       ├── transfer_broker_all_transfers_1660577038.txt
+    │   │       ├── transfer_broker_dst_rcsite_1660577038.txt
+    │   │       └── transfer_broker_src_rcsite_1660577038.txt
+    │   └── noted_dev.egg-info
+    │       ├── PKG-INFO
+    │       ├── SOURCES.txt
+    │       ├── dependency_links.txt
+    │       ├── entry_points.txt
+    │       ├── requires.txt
+    │       └── top_level.txt
+```
