@@ -1,0 +1,15 @@
+dyce/__init__.py,sha256=_ahkr-ssHoR40mf3n7bLccG6x-eHdCayCNjfr7F3fBI,1197
+dyce/_version.py,sha256=E5E7ybbUhoxz19raqbYDN8dXF5gsYDbs70bLysMndVA,48
+dyce/evaluation.py,sha256=RUIGDwZuMbcM821DfKQtnAIs1RfHW98ePe3ZY_hEVKo,33729
+dyce/h.py,sha256=79aw3vzdAFhqkpC9NNn0HxxVBfxCkWMMncVxpcqPJo8,68940
+dyce/lifecycle.py,sha256=xnaT6PZexXzuCuFDminKUw-5W0FCIAxkZidzeOgjsGc,2039
+dyce/p.py,sha256=zIUw8PzU1448eF55pac4SgZ5s9-SlxDykwGxqOTa8qU,42203
+dyce/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dyce/r.py,sha256=DO_P5GccbCsxckM8cDy8U_FBE7Zldu95oDjf0Tf-FHY,93866
+dyce/rng.py,sha256=39_0nNSmWCRfk_dzvsQoAN2KgvJdvtIGb3NLQBPjGfo,4684
+dyce/types.py,sha256=jwQ1eOXRamRQYAtChfz77yhbNRlnzakld-caSAcUyqI,2873
+dyce-0.6.0.dist-info/LICENSE,sha256=WmUL-IVfRaesuQ5qOOAEjJpDonVVHmgUD4s-j4VWr60,2132
+dyce-0.6.0.dist-info/METADATA,sha256=9x6GukMMaLt4xPU2B-cRcrJ8u_BxUi4aV0qdGdQkk9s,20482
+dyce-0.6.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dyce-0.6.0.dist-info/top_level.txt,sha256=zp1IGWxuFFhoGaYiMicYyjDwvYArkxZl5iM_XUGZnsE,5
+dyce-0.6.0.dist-info/RECORD,,
