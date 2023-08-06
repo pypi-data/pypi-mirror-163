@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: math-extension
+Version: 1.0
+Summary: It's an extension to perform mathematics effectively.
+Home-page: UNKNOWN
+Author: KyungHyunEun
+Author-email: eunandy09@naver.com
+License: UNKNOWN
+Keywords: math
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+
+# math-extension
+
