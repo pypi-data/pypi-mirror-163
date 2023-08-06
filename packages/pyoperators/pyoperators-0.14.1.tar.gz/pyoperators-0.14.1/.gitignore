@@ -1,0 +1,12 @@
+*.pyc
+*.so
+.coverage
+MANIFEST
+build
+dist
+_site
+htmlcov
+pyoperators/utils/cythonutils.c
+pyoperators/utils/ufuncs.c
+__pycache__
+*.egg-info
