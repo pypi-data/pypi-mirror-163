@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+vacc/__init__.py
+vacc/rsync.py
+vacc/submitter.py
+vacc.egg-info/PKG-INFO
+vacc.egg-info/SOURCES.txt
+vacc.egg-info/dependency_links.txt
+vacc.egg-info/top_level.txt
