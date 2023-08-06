@@ -1,0 +1,12 @@
+numexpr>=2
+numpy>=1.6
+scipy>=0.9
+
+[fft]
+pyfftw
+
+[mpi]
+mpi4py
+
+[wavelet]
+pywt
