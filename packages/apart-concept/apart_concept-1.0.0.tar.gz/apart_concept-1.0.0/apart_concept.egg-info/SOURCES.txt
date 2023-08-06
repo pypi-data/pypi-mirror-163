@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+apart_concept/__init__.py
+apart_concept.egg-info/PKG-INFO
+apart_concept.egg-info/SOURCES.txt
+apart_concept.egg-info/dependency_links.txt
+apart_concept.egg-info/requires.txt
+apart_concept.egg-info/top_level.txt
+apart_concept.egg-info/zip-safe

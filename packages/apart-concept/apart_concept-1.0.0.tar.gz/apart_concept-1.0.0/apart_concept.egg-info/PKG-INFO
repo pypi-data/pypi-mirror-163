@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: apart-concept
+Version: 1.0.0
+Summary: Basic Python Module for Apart Concept Amplifiers
+Home-page: https://github.com/adamxp12/apart_concept
+Download-URL: https://github.com/adamxp12/apart_concept/archive/1.0.0.tar.gz
+Author: Adam Blunt
+Author-email: letstalk@adamblunt.me
+License: MIT
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+License-File: LICENSE
