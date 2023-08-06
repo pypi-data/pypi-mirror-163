@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: optom-automator
+Version: 0.3.1
+Summary: Automating the boring stuff in optometry.
+License: MIT License
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE

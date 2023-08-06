@@ -1,0 +1,10 @@
+LICENSE
+pyproject.toml
+setup.cfg
+setup.py
+src/optom_automator.egg-info/PKG-INFO
+src/optom_automator.egg-info/SOURCES.txt
+src/optom_automator.egg-info/dependency_links.txt
+src/optom_automator.egg-info/entry_points.txt
+src/optom_automator.egg-info/requires.txt
+src/optom_automator.egg-info/top_level.txt
