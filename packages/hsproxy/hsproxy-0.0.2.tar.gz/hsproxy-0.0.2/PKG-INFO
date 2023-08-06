@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: hsproxy
+Version: 0.0.2
+Summary: hsproxy
+Home-page: https://github.com/iuser-dev/iuser_i18n/
+Author: iuser
+Author-email: iuser.link@gmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# hsproxy
+
+```
+pip3 install --upgrade iuser-i18n
+```
