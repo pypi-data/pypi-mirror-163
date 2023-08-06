@@ -1,0 +1,40 @@
+MIT License
+
+Copyright (c) 2022 megacodist
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+
+
+Attributions
+Python packages
+1. tksheet at https://pypi.org/project/tksheet/
+2. Pillow at https://pypi.org/project/Pillow/
+3. mutagen at https://pypi.org/project/mutagen/
+4. pygame at https://pypi.org/project/pygame/
+5. watchdog at https://pypi.org/project/watchdog/
+
+Images
+1. 'lyrics.png' is designed by 'Freepik' in https://flaticon.com/.
+2. 'pause.png' is designed by 'Pixel perfect' in https://flaticon.com/.
+3. 'play.png' is designed by 'IYAHICON' in https://flaticon.com/.
+4. 'wait.gif' is downloaded from https://gifer.com/en/CNIr.
+5. 'volume.png' is designed by 'Dave Gandy' in https://flaticon.com/.
+6. 'music.png' is designed by 'Becris' in https://flaticon.com/.
+7. 'repeat.png' is designed by 'Gregor Cresnar' in https://flaticon.com/.
