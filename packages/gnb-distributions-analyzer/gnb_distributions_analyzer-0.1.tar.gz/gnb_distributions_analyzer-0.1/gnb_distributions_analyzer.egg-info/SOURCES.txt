@@ -1,0 +1,10 @@
+setup.py
+gnb_distributions_analyzer/Binomialdistribution.py
+gnb_distributions_analyzer/Gaussiandistribution.py
+gnb_distributions_analyzer/Generaldistribution.py
+gnb_distributions_analyzer/__init__.py
+gnb_distributions_analyzer.egg-info/PKG-INFO
+gnb_distributions_analyzer.egg-info/SOURCES.txt
+gnb_distributions_analyzer.egg-info/dependency_links.txt
+gnb_distributions_analyzer.egg-info/not-zip-safe
+gnb_distributions_analyzer.egg-info/top_level.txt
