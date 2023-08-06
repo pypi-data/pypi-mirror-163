@@ -1,0 +1,9 @@
+azure_ddns/__init__.py,sha256=IMjkMO3twhQzluVTo8Z6rE7Eg-9U79_LGKMcsWLKBkY,22
+azure_ddns/cli.py,sha256=rHlND38Vj_agyzEDGBfqbRWQdVfkfxdPP2HUgOYFd9E,2704
+azure_ddns/example-config.json,sha256=K_Z-8qSgHNxb4Ux_BOwlxeF71L1wGYEQHY6YRTmOIhU,159
+azure_ddns/setup.cfg,sha256=VBCRX3Unxq6s89NL_Y7EBLSRxMYmWPPaFO6HxiHDjk0,423
+azure_ddns/setup.py,sha256=Ww4UbZc_gJERA1Hz9Gut1akF2strsIJ5AUoA29jJkh8,37
+azure_ddns-0.0.3.dist-info/entry_points.txt,sha256=n_nvvXwiXr5UPiY4RsGUc3x_P38AQz0ykOz3k16MBHM,50
+azure_ddns-0.0.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+azure_ddns-0.0.3.dist-info/METADATA,sha256=bFgkbKt3ZKGDiCFw10qHZaAl7J_oYvsXJD-Y_e49tU4,1210
+azure_ddns-0.0.3.dist-info/RECORD,,
