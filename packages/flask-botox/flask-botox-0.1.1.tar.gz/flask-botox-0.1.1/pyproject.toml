@@ -1,0 +1,36 @@
+[tool.poetry]
+name = "flask-botox"
+version = "0.1.1"
+description = "Flask extension that ties boto3 clients and resources to the application context."
+authors = ["Joel Perras <joel@nerderati.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/jperras/flask-botox"
+repository = "https://github.com/jperras/flask-botox"
+classifiers=[
+    "Environment :: Web Environment",
+    "Intended Audience :: Developers",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Topic :: Internet :: WWW/HTTP :: Dynamic Content",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+]
+keywords = ["flask", "boto3", "aws"]
+include = [
+    "LICENSE",
+]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4"
+boto3 = "^1.24.49"
+Flask = "^2.1.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pytest-cov = "^3.0.0"
+coverage = "^6.4.3"
+pytest-mock = "^3.8.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
