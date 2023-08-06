@@ -1,0 +1,7 @@
+LICENSE
+README.md
+account_management_sdk.egg-info/PKG-INFO
+account_management_sdk.egg-info/SOURCES.txt
+account_management_sdk.egg-info/dependency_links.txt
+account_management_sdk.egg-info/requires.txt
+account_management_sdk.egg-info/top_level.txt
