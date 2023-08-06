@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=46.4.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "package_david"
+version = "0.0.2"
+authors = [
+  { name="David Felipe Bautista", email="dfbau2002@gmail.com" },
+]
+description = "Un paquete de prueba para la monitoria de la clase de ML"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/BautistaDavid/package_david"
+"Bug Tracker" = "https://github.com/BautistaDavid/package_david/issues"
