@@ -1,0 +1,11 @@
+papermill_origami/CHANGELOG.md,sha256=fLW43jMX4rw6PpwaWsl9gQgECXsFszo92F51OQs6JSk,319
+papermill_origami/__init__.py,sha256=_HqfMjphxw67VJiRoZ8XLniJvFHkn5OOKcpTsvvOTc8,145
+papermill_origami/_version.py,sha256=CactNZqrHHYTPrkHKccy2WKXmaiUdtTgPqSjFyVXnJk,18
+papermill_origami/client.py,sha256=vkh6Zs1yNQ0bXPX7wlOTgsrQvRPqQGQA7eznofKmohw,867
+papermill_origami/engine.py,sha256=7qRlv8OtPiv479m0MFPDJch3nsaZMnWP1mw3Bikk7Ko,9092
+papermill_origami/iorw.py,sha256=iLswj8_OQ3X-W9ipwnNdaL773Dr5Iwm0sIuolGVarcs,1570
+papermill_origami/manager.py,sha256=BzbLE6wus1ea-xAyEpW_REJqP6z5TJRoLEnXPdvoCA0,4847
+papermill_origami-0.0.1.dist-info/LICENSE,sha256=po5Ol0sz0K1rSraSUEGBfuLmOMrt522TX5CS9p9gYDs,1516
+papermill_origami-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+papermill_origami-0.0.1.dist-info/METADATA,sha256=-H6OlAYhqnQ2nsV1O1QX1sUmByEkos-R2K_pkPD5wWk,2869
+papermill_origami-0.0.1.dist-info/RECORD,,
