@@ -1,0 +1,3 @@
+[console_scripts]
+basic_shading_correction=scripts.basic_shading_correction:main
+
