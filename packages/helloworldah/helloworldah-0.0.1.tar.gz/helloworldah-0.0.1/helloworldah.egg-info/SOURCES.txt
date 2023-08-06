@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+helloworldah/__init__.py
+helloworldah.egg-info/PKG-INFO
+helloworldah.egg-info/SOURCES.txt
+helloworldah.egg-info/dependency_links.txt
+helloworldah.egg-info/top_level.txt
