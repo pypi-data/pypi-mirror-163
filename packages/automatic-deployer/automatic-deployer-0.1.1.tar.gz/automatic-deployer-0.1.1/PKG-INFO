@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: automatic-deployer
+Version: 0.1.1
+Summary: A CLI App to watch git repo and automatically run a command (deploy command, ex. build and run docker container) after inspecting some changes.
+License: MIT
+Author-email: Reza Mohammadi <rmm.dev.backend@gmail.com>
+Requires-Python: >=3.10
+Description-Content-Type: text/markdown
+
+# Automatic Deployer
+A CLI App to watch git repo and automatically run a command (deploy command, ex. build and run docker container) after inspecting some changes.
+
