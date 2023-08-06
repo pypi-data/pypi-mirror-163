@@ -1,0 +1,7 @@
+rampy
+matplotlib
+pandas
+scipy
+numpy
+lmfit
+pybroom
