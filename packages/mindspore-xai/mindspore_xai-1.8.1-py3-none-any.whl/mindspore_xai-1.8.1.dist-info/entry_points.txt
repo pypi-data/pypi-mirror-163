@@ -1,0 +1,3 @@
+[console_scripts]
+mindspore_xai = mindspore_xai.tool.cli:cli_entry
+
