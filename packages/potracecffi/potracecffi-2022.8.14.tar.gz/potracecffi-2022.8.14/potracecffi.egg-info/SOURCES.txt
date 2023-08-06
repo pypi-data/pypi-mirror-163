@@ -1,0 +1,12 @@
+LICENSE
+README
+setup.cfg
+setup.py
+potracecffi/__init__.py
+potracecffi/potracecffi_build.py
+potracecffi.egg-info/PKG-INFO
+potracecffi.egg-info/SOURCES.txt
+potracecffi.egg-info/dependency_links.txt
+potracecffi.egg-info/not-zip-safe
+potracecffi.egg-info/requires.txt
+potracecffi.egg-info/top_level.txt
