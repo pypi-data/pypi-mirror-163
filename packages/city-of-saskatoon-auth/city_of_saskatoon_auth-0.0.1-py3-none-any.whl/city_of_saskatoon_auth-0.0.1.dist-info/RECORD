@@ -1,0 +1,10 @@
+city_of_saskatoon_auth/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+city_of_saskatoon_auth/cos_login.py,sha256=mrrnA2tp-vjFzxRcww3t_SQWCyL9dsFLqqf_TkPCYLM,2175
+city_of_saskatoon_auth/exceptions.py,sha256=Cj4q73GIBE-bBS8lJ3mYhWbBSTCeWg8Efmn6zT5Q8fc,90
+city_of_saskatoon_auth/parse.py,sha256=f5PE-HGmDVW8p6v7A8R809sXLQzCgEISJIU6ZW5tc2g,655
+city_of_saskatoon_auth/session.py,sha256=whcztREeLMp9SxHTn6nXOn_WHJAF8HY4-hrDRCwFDmE,1734
+city_of_saskatoon_auth/smart_util_login.py,sha256=a5U2xn2CfG3ZJ2lZToPzd8AiNLYuVJliJiDtyAung0A,1806
+city_of_saskatoon_auth-0.0.1.dist-info/METADATA,sha256=moZFwrUlo7cRoxuxd1tW3WupGj7ZQPhoVioohevD3t4,3481
+city_of_saskatoon_auth-0.0.1.dist-info/WHEEL,sha256=mTpyHZdE4B2t1DYxhmMgnTxt0ZtBkjfoCIsV-xO8A7M,86
+city_of_saskatoon_auth-0.0.1.dist-info/licenses/LICENSE,sha256=0t1zUjYyLzNY5DVBi0xmg8Mp5_AKQjpmJhydyXKZmRI,1068
+city_of_saskatoon_auth-0.0.1.dist-info/RECORD,,
