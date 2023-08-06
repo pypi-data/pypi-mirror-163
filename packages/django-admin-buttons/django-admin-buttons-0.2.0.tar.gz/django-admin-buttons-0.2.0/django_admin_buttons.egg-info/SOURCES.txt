@@ -1,0 +1,14 @@
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+django_admin_button/admin_button.py
+django_admin_button/boot_django.py
+django_admin_button/static/django_admin_button/django_admin_button.js
+django_admin_button/templates/admin/change_list.html
+django_admin_buttons.egg-info/PKG-INFO
+django_admin_buttons.egg-info/SOURCES.txt
+django_admin_buttons.egg-info/dependency_links.txt
+django_admin_buttons.egg-info/requires.txt
+django_admin_buttons.egg-info/top_level.txt
