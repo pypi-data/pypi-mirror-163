@@ -1,0 +1,9 @@
+[
+  "test/test_Spendingizer.py::test_AddExtraExpenses",
+  "test/test_Spendingizer.py::test_FormatStatement_other",
+  "test/test_Spendingizer.py::test_FormatStatement_total_tot",
+  "test/test_Spendingizer.py::test_GetMonths_total",
+  "test/test_Spendingizer.py::test_LoadStatements",
+  "test/test_Spendingizer.py::test_LoadStatements_nofiles",
+  "test/test_Spendingizer.py::test_SpendlyAnalysis"
+]
