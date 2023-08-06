@@ -1,0 +1,9 @@
+frictionless_ckan_mapper/VERSION,sha256=bWuSMN2LiqxSf4kpt8L8H6A2XezMqFYhbel51vXGpv4,6
+frictionless_ckan_mapper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+frictionless_ckan_mapper/ckan_to_frictionless.py,sha256=ZqEZ5Gi-lzZ9yS1CMSr8tSD9_Sou0tPW5KE9XBB1804,6706
+frictionless_ckan_mapper/frictionless_to_ckan.py,sha256=78rdYDdr10gVU2b2hFsXKRnslYKtQ1-81ig6AzVqhyE,4782
+frictionless_ckan_mapper-1.0.7.dist-info/LICENSE.md,sha256=VjR5OLAsjEOPg-iOhvDicdHV2qUcSkmqaAnpNLyGChI,1095
+frictionless_ckan_mapper-1.0.7.dist-info/METADATA,sha256=Q7TpFzXnay-pcVYdk5T6z8BQgSHnUmUau7lGhonpb9k,8575
+frictionless_ckan_mapper-1.0.7.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+frictionless_ckan_mapper-1.0.7.dist-info/top_level.txt,sha256=582AuWMeB5fmqCNuXTE6SAw9h8emMV9ak5VN1_XgK_Q,25
+frictionless_ckan_mapper-1.0.7.dist-info/RECORD,,
