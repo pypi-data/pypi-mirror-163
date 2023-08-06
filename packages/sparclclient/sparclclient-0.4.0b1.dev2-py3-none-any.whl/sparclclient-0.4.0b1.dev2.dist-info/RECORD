@@ -1,0 +1,15 @@
+sparcl/Results.py,sha256=cl59w74snsgMGcjKWEk7mJO5Km9DERVzvpKI9JV58jA,3014
+sparcl/__init__.py,sha256=cFX9NN1eAjMep-YJiALi7zHaXESEvdSbVUgxohOR1M8,688
+sparcl/client.py,sha256=iQu60Yv4xmYHSsVIuznvFZTQYBtCzFmymkw2b26juh4,28330
+sparcl/conf.py,sha256=O9l4-vpWBZK0QjhHxjskGO8kHPxBj7mkWlchd2rot1c,953
+sparcl/exceptions.py,sha256=_uFJMGLpm-Q8X5ZAAlaf9YnDN-Q2uCTDRGWNfXtCzqA,3271
+sparcl/fields.py,sha256=4ZfL8WsE8PEKOR2SY_KNGeKMsFbtqAo2zIoz5D8koyc,5022
+sparcl/type_conversion.py,sha256=4IZhSDAhEDfmiuBonOYOyq1wl7n5rN1Z39TR_llJcXY,13105
+sparcl/utils.py,sha256=ZcDdOiyKNWcByh67f96utDyCxn7HeB1S6CNkY7A6gJM,3965
+sparcl/benchmarks/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sparcl/benchmarks/benchmarks.py,sha256=SNYk2uE3jYP3JfpNlr9WtKfwGtu1MvaZjrEuu9NwXv0,9658
+sparclclient-0.4.0b1.dev2.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+sparclclient-0.4.0b1.dev2.dist-info/METADATA,sha256=_iOuq8H6mx6U5G6zGhaZr3tuSp0Mr8-CZLouq9H7qkk,1059
+sparclclient-0.4.0b1.dev2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sparclclient-0.4.0b1.dev2.dist-info/top_level.txt,sha256=d5CZ3Duxq3MyQTB2ZqOrdtSBv4GdVceF-pOZFmsuHZY,7
+sparclclient-0.4.0b1.dev2.dist-info/RECORD,,
