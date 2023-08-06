@@ -1,0 +1,10 @@
+browser-cookie3
+fake-useragent
+lxml
+pornhub-api
+pyeventroute
+pylogconf
+pytconf
+requests
+tqdm
+youtube-dl
