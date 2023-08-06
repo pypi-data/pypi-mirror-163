@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: torch-wild
+Version: 0.1
+Summary: your mind
+Home-page: https://github.com/onesun14/onesun_project_python
+Author: wildpika123
+Author-email: gprud0124@gmail.com
+License: UNKNOWN
+Keywords: torch
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+# test
+
