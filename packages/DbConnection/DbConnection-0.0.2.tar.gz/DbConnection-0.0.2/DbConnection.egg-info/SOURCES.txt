@@ -1,0 +1,11 @@
+Licence
+README.md
+setup.cfg
+setup.py
+DbConnection/DbConnectionCreator.py
+DbConnection/__init__.py
+DbConnection.egg-info/PKG-INFO
+DbConnection.egg-info/SOURCES.txt
+DbConnection.egg-info/dependency_links.txt
+DbConnection.egg-info/requires.txt
+DbConnection.egg-info/top_level.txt

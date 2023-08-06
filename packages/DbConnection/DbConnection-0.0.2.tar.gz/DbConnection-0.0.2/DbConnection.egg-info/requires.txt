@@ -1,0 +1,5 @@
+SQLAlchemy==1.4.25
+urllib3==1.26.7
+pyodbc==4.0.34
+psycopg2==2.9.3
+cx_Oracle==8.3.0
