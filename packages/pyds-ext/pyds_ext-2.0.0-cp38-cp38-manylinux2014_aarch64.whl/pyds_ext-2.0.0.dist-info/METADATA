@@ -1,0 +1,97 @@
+Metadata-Version: 2.1
+Name: pyds-ext
+Version: 2.0.0
+Summary: Extra binding patches for nvidia deepstream.
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pyds_ext
+
+python bindings for nvidia deepstream
+
+[pybind11](https://github.com/pybind/pybind11) bindings to access Nvidia
+[DeepStream](https://developer.nvidia.com/deepstream-sdk) metadata from Python - uses patched [deepstream_python_apps](https://github.com/rmclabs-io/deepstream_python_apps). This package offers the same
+functionality as the [default nvidia bindings](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps),
+as well as some additional funcitonality:
+
+* Allow to install with pip: wheels for x86-64 (GPU) and aarch64 (jetson) are available
+* Patch pybind bindings to allow maskrcnn masks extraction
+
+Previous version:
+
+The following patches were included in the previous version (<2), and are no longer
+required because they are included in the vanilla bindings:
+
+* Tracker meta info (`NvDsPastFrame...` classes)
+* Detector and tracker bbox info (`NvDsObjectMeta.[tracker/detector]_bbox_info...` attrs) from Python.
+* Analytics Metadata (`NvDsAnalyticsFrameMeta` and `NvDsAnalyticsObjInfo`) from Python.
+
+## Installation
+
+
+### Prerequisites
+
+1. python3.8
+2. Jetson (Xavier only tested) or Nvidia GPU
+3. Deepstream>=6 (6.1 only tested)
+4. [Option A] [pep-517](https://www.python.org/dev/peps/pep-0517/) compatible pip:
+
+   ```console
+   pip install "pip>=10"
+   ```
+
+5. [Option B] Only necessary for old `pip<10`:
+   * [pybind11](https://github.com/pybind/pybind11):
+     * [Option B.1] You might try simply `pip install pybind11`.
+     * [Option B.2] The recommended way is to [build it from source](https://pybind11.readthedocs.io/en/stable/basics.html?highlight=install#compiling-the-test-cases)
+
+### Install package
+
+```console
+pip install --upgrade pip>=10
+pip install pyds_ext
+```
+
+## Usage
+
+This meta-package provides a single package:
+
+### Standard pyds
+1. `pyds`: Patched pyds from `/opt/nvidia/deepstream/deepstream/lib`
+See oficial documentation [here](https://github.com/NVIDIA-AI-IOT/deepstream_python_apps)
+
+
+
+### Maskrcnn extraction
+
+Use the following as a reference to extract the `np.ndarray` of the mask:
+
+```python
+import pyds
+
+def osd_sink_pad_buffer_probe(pad, info, u_data):
+
+    # ... code to acquire frame_meta
+    l_obj = frame_meta.obj_meta_list
+    while l_obj is not None:
+        try:
+            obj_meta = pyds_bbox_meta.NvDsObjectMeta.cast(l_obj.data)
+        except StopIteration:
+            break
+        mask_array = obj_meta.mask_params.data
+        print(f"mask_array: {mask_array}")
+        try: 
+            l_obj = l_obj.next
+        except StopIteration:
+            break
+        ...
+```
+
+To convert the mask to an `uint8` bidimensional matrix, see [this code](https://github.com/rmclabs-io/deepstream_python_apps/blob/e8779bc27b72fa876708cbca990192c4940f9711/3rdparty/pyds_labs/pyds_labs/maskrcnn.py#L83).
+
+For this and other utilities, consider using the [pythia](https://github.com/rmclabs-io/pythiags) package, which builds on
+this and adds pythonic iteration and common deepstream boilerplate.
+
+## References
+
+* [mask patch](https://forums.developer.nvidia.com/t/accessing-mask-parameters-from-nvosd-maskparams-in-python-not-using-triton/216724/6)
