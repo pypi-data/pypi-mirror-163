@@ -1,0 +1,3 @@
+[console_scripts]
+htsct = htsct.cli.main:main
+htsct-db = htsct.cli.db.main:main
