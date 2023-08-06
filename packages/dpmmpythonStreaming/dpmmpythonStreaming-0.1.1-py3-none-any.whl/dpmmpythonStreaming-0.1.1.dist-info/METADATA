@@ -1,0 +1,94 @@
+Metadata-Version: 2.1
+Name: dpmmpythonStreaming
+Version: 0.1.1
+Summary: Python wrapper for DPMMSubClustersStreaming julia package
+Home-page: https://github.com/BGU-CS-VIL/DPMMPythonStreaming
+Author: Or Dinari
+Author-email: dinari@post.bgu.ac.il
+License: MIT
+Project-URL: Source, https://github.com/BGU-CS-VIL/DPMMPythonStreaming
+Project-URL: Tracker, https://github.com/BGU-CS-VIL/issues
+Project-URL: Documentation, https://bgu-cs-vil.github.io/DPMMSubClusters.jl/latest/
+Keywords: julia python
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: julia
+Requires-Dist: wget
+Provides-Extra: test
+Requires-Dist: numpy ; extra == 'test'
+Requires-Dist: ipython ; extra == 'test'
+Requires-Dist: pytest (>=4.4) ; extra == 'test'
+Requires-Dist: mock ; extra == 'test'
+
+## DPMMSubClustersStreaming
+
+This package is a Python wrapper for the [DPMMSubClustersStreaming.jl](https://github.com/BGU-CS-VIL/DPMMSubClustersStreaming.jl) Julia package.<br>
+(for our paper [Sampling in Dirichlet Process Mixture Models for Clustering Streaming Data](https://dinarior.github.io/papers/Dinari_AISTATS_streaming.pdf), AISTATS 2022.).
+
+<br>
+<p align="center">
+<img src="appended.gif" alt="Streaming DPGMM">
+</p>
+
+
+### Installation
+
+1. Install Julia from: https://julialang.org/downloads/platform
+2. Add our DPMMSubClusterStreaming package from within a Julia terminal via Julia package manager:
+```
+] add DPMMSubClustersStreaming
+```
+3. Add our dpmmpythonStreaming package in python: pip install dpmmpythonStreaming
+4. Add Environment Variables:
+	#### On Linux:
+	1. Add to the "PATH" environment variable the path to the Julia executable (e.g., in .bashrc add: export PATH =$PATH:$HOME/julia/julia-1.6.0/bin).
+	#### On Windows:
+	1. Add to the "PATH" environment variable the path to the Julia executable (e.g., C:\Users\<USER>\AppData\Local\Programs\Julia\Julia-1.6.0\bin).
+5. Install PyJulia from within a Python terminal:
+```
+	import julia;julia.install();
+```
+
+### Usage Example:
+
+```
+from julia.api import Julia
+jl = Julia(compiled_modules=False)
+from dpmmpythonStreaming.dpmmwrapper import DPMMPython
+from dpmmpythonStreaming.priors import niw
+import numpy as np
+data,gt = DPMMPython.generate_gaussian_data(10000, 2, 10, 100.0)
+batch1 = data[:,0:5000]
+batch2 = data[:,5000:]
+prior = DPMMPython.create_prior(2, 0, 1, 1, 1)
+model= DPMMPython.fit_init(batch1,100.0,prior = prior,verbose = True, burnout = 5, gt = None, epsilon = 0.0000001)
+labels = DPMMPython.get_labels(model)
+model = DPMMPython.fit_partial(model,1, 2, batch2)
+labels = DPMMPython.get_labels(model)
+print(labels)
+```
+### Misc
+
+For any questions: dinari@post.bgu.ac.il
+
+Contributions, feature requests, suggestion etc.. are welcomed.
+
+If you use this code for your work, please cite the following:
+
+```
+@inproceedings{dinari2022streaming,
+  title={Sampling in Dirichlet Process Mixture Models for Clustering Streaming Data},
+  author={Dinari, Or and  Freifeld, Oren},
+  booktitle={International Conference on Artificial Intelligence and Statistics},
+  year={2022}
+}
+```
