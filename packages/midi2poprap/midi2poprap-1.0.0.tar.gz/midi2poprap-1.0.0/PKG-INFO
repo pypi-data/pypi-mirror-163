@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: midi2poprap
+Version: 1.0.0
+Summary: Convert midi to poprap png, the industry standard for bubble wrap music devices
+Home-page: https://github.com/kenseehart/midi2poprap/poprap
+Download-URL: https://github.com/kenseehart/midi2poprap/archive/refs/tags/v1.0.0.tar.gz
+Author: Ken Seehart
+Author-email: ken@seehart.com
+Keywords: midi,bubblewrap
