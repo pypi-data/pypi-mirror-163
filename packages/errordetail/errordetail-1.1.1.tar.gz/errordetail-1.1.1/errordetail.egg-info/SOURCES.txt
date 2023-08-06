@@ -1,0 +1,8 @@
+setup.py
+errordetail/__init__.py
+errordetail/error_detail.py
+errordetail.egg-info/PKG-INFO
+errordetail.egg-info/SOURCES.txt
+errordetail.egg-info/dependency_links.txt
+errordetail.egg-info/not-zip-safe
+errordetail.egg-info/top_level.txt
