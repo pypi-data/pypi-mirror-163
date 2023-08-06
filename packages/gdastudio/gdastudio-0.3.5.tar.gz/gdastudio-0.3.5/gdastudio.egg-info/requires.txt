@@ -1,0 +1,4 @@
+pypyodbc
+tqdm
+colorama
+psycopg2

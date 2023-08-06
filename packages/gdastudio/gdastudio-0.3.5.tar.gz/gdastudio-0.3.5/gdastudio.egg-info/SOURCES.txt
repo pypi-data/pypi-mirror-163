@@ -1,0 +1,7 @@
+LICENSE
+setup.py
+gdastudio.egg-info/PKG-INFO
+gdastudio.egg-info/SOURCES.txt
+gdastudio.egg-info/dependency_links.txt
+gdastudio.egg-info/requires.txt
+gdastudio.egg-info/top_level.txt
