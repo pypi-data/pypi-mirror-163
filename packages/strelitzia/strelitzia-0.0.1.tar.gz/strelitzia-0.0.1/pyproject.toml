@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "strelitzia"
+version = "0.0.1"
+authors = [
+  { name="Sash Nortier", email="author@example.com" },
+]
+description = "A python package for understanding the state of your requirements in table format"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/sxgd/strelitzia"
+"Bug Tracker" = "https://github.com/sxgd/strelitzia/issues"
