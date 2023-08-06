@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "spdx_licenses"
+version = "0.1.13"
+description = "A powerful API to grab spdx list licenses, great for boilerplate gen and way more (not official)"
+authors = ["aarmn <aarmn80@gmail.com>"]
+license = "GPT3"
+packages = [
+    {include = "spdx_licenses"},
+    # {include = "spdx_licenses/data"},
+]
+include = [
+    # { path = 'CHANGELOG.rst', format = 'sdist' },
+    { path = 'spdx_licenses/data/*.json' }
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^1.9.1"
+beautifulsoup4 = "^4.11.1"
+aiohttp = "^3.8.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+poetry = "^1.1.14"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
