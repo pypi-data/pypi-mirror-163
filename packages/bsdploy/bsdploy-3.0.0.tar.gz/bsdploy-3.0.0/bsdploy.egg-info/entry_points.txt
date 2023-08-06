@@ -1,0 +1,8 @@
+[ansible_paths]
+bsdploy = bsdploy:ansible_paths
+
+[console_scripts]
+ploy-download = bsdploy.download:run
+
+[ploy.plugins]
+bsdploy = bsdploy:plugin
