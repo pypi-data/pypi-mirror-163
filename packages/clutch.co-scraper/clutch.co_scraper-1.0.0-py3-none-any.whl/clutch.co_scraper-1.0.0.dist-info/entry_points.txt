@@ -1,0 +1,2 @@
+[console_scripts]
+clutch.co-scraper = clutch_co_scraper.clutch_co_scraper.spiders.main:run_spider

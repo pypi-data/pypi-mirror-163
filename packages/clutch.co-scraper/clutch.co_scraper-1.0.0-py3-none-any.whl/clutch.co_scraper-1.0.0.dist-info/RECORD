@@ -1,0 +1,14 @@
+clutch_co_scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clutch_co_scraper/clutch_co_scraper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+clutch_co_scraper/clutch_co_scraper/items.py,sha256=nlm4QSfMLXudYeL9gxSwLwWctxmkKlFJytRwvIWBwVM,497
+clutch_co_scraper/clutch_co_scraper/middlewares.py,sha256=pe2BFvt5ep6cbHi9KRdlBmpVa0OK4MbGu_fp0eFER64,3495
+clutch_co_scraper/clutch_co_scraper/pipelines.py,sha256=4CMB2MZVwym0LZetfXzwmqiVD5tU6D5I_LT3sW3ZTDc,2034
+clutch_co_scraper/clutch_co_scraper/settings.py,sha256=2mkm12p_H4XKPe4gyIIPA64SIEQ24Jfs_lmuoMzbdhs,3186
+clutch_co_scraper/clutch_co_scraper/spiders/__init__.py,sha256=ULwecZkx3_NTphkz7y_qiazBeUoHFnCCWnKSjoDCZj0,161
+clutch_co_scraper/clutch_co_scraper/spiders/main.py,sha256=Mq_QiDLSjaV6BkFpmo9v2HaELeAS-Pzz2QCe5Rxb5ac,7790
+clutch.co_scraper-1.0.0.dist-info/LICENSE,sha256=UcUOLl_MiQM4GpOo_f4iMcBN29WhoBTSw52Bscs4ZnY,1091
+clutch.co_scraper-1.0.0.dist-info/METADATA,sha256=urokD5diuCbh-cmZDh9n0lvh6kQ8YYjMsPY2uo6GIIQ,2081
+clutch.co_scraper-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+clutch.co_scraper-1.0.0.dist-info/entry_points.txt,sha256=6IN_DXuFOdhc8uIH0UfW3q1gzpm7-FBU3AP2dnvQskk,98
+clutch.co_scraper-1.0.0.dist-info/top_level.txt,sha256=xB2MJ9EGfAIdKk46Vz_Uy1_ZLotT_GI2ZnzvZ8ImVtQ,18
+clutch.co_scraper-1.0.0.dist-info/RECORD,,
