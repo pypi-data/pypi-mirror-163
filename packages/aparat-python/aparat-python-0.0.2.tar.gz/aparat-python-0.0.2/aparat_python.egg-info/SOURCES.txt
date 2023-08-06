@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+aparat/__init__.py
+aparat/aparat.py
+aparat_python.egg-info/PKG-INFO
+aparat_python.egg-info/SOURCES.txt
+aparat_python.egg-info/dependency_links.txt
+aparat_python.egg-info/requires.txt
+aparat_python.egg-info/top_level.txt
+test/test_aparat.py
