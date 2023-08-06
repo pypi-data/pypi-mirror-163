@@ -1,0 +1,175 @@
+Metadata-Version: 2.1
+Name: ejtraderCT
+Version: 1.0.4
+Summary: Ctrader Fix API
+Home-page: https://ejtraderCT.readthedocs.io/
+Download-URL: https://ejtrader.com
+Author: Emerson Pedroso & Douglas Barros
+Author-email: support@ejtrader.com
+License: MIT License
+Project-URL: Bug Reports, https://github.com/traderpedroso/ejtraderCT/issues
+Project-URL: Source, https://github.com/traderpedroso/ejtraderCT
+Project-URL: Documentation, https://ejtraderCT.readthedocs.io/
+Keywords: ctrader,fix-api,historical-data,financial-data,stocks,funds,etfs,indices,currency crosses,bonds,commodities,crypto currencies
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Office/Business :: Financial
+Classifier: Topic :: Office/Business :: Financial :: Investment
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Libraries
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Provides-Extra: docs
+License-File: LICENSE
+
+# Python Ctrader Fix API
+
+## Installation
+#### Tested on python 3.7 to 3.9
+```
+pip install ejtraderCT -U
+```
+#### Or install from source
+
+```
+git clone https://github.com/ejtraderLabs/ejtraderCT
+cd ejtraderCT
+python setup.py install
+
+```
+
+### Import librarys 
+
+```python
+from ejtraderCT import Ctrader
+
+import time
+import logging
+from datetime import datetime
+
+logging.getLogger().setLevel(logging.INFO)
+
+
+```
+
+### Fix login account and details
+
+```python
+SERVER="h8.p.c-trader.cn"
+BROKER="icmarkets"
+LOGIN="3152339"
+PASSWORD="393214"
+CURRENCY="EUR"
+
+api = Ctrader(SERVER,BROKER,LOGIN,PASSWORD,CURRENCY)
+```
+### Real time quote
+
+##### Subscribe to symbol 
+```python
+api.symbolSubscribe("EURUSD", "GBPUSD")
+```
+##### All symbols quote list
+```python
+quote = api.quote()
+print(quote)
+
+# Output
+
+{'EURUSD': {'bid': 1.02616, 'ask': 1.02618}, 'GBPUSD': {'bid': 1.21358, 'ask': 1.21362}}
+```
+
+#### Single symbol quote 
+```python
+quote = api.quote("EURUSD")
+print(quote)
+
+# Output
+
+{'bid': 1.02612, 'ask': 1.02614}
+
+```
+### Market position and pending order.
+
+##### Market Position
+
+```python
+api.buy("EURUSD", 0.01, 1.18, 1.19)
+api.sell("EURUSD", 0.01, 1.19, 1.18)
+```
+
+##### Limit Orders 
+
+```python
+api.buyLimit("EURUSD", 0.01, 1.17, 1.19, 1.18)
+api.sellLimit("EURUSD", 0.01, 1.23, 1.17, 1.22)
+```
+
+#### Stop Orders
+
+```python
+api.buyStop("EURUSD", 0.01, 1.20, 1.24, 1.22)
+api.sellStop("EURUSD", 0.01, 1.19, 1.17, 1.18)
+```
+
+#### List Positions
+
+```python
+positions = api.positions()
+print(positions)
+
+```
+#### List limit and stop Orders
+
+```python
+orders = api.orders()
+print(orders)
+
+```
+#### Cancle order by id
+
+```python
+orders = api.orders()
+for order in orders:
+    api.orderCancelById(order['ord_id'])
+
+```
+#### Close position by id
+
+```python
+for position in positions:
+    api.positionCloseById(position['pos_id'], position['amount'])
+
+```
+
+#### cancel all Orders
+
+```python
+api.cancel_all()
+```
+
+#### close all positions
+
+```python
+api.close_all()
+```
+
+### ToDo
+
+- [ ] Account Information
+- [x] SL and TP
+- [x] Modify Orders 
+- [x] Modify position 
+- [x] real time bid & ask
+
+# Thanks for 
+@HarukaMa
+@douglasbarros
+
+
