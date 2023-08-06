@@ -1,0 +1,11 @@
+MANIFEST.in
+README.md
+setup.py
+fifteen_puzzle_solvers/__init__.py
+fifteen_puzzle_solvers/algorithms.py
+fifteen_puzzle_solvers/puzzle.py
+fifteen_puzzle_solvers/solver.py
+fifteen_puzzle_solvers.egg-info/PKG-INFO
+fifteen_puzzle_solvers.egg-info/SOURCES.txt
+fifteen_puzzle_solvers.egg-info/dependency_links.txt
+fifteen_puzzle_solvers.egg-info/top_level.txt
