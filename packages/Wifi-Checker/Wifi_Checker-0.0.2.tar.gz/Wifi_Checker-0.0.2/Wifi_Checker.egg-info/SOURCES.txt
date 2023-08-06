@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+setup.py
+Wifi_Checker.egg-info/PKG-INFO
+Wifi_Checker.egg-info/SOURCES.txt
+Wifi_Checker.egg-info/dependency_links.txt
+Wifi_Checker.egg-info/requires.txt
+Wifi_Checker.egg-info/top_level.txt
+wifi_checker/__init__.py
