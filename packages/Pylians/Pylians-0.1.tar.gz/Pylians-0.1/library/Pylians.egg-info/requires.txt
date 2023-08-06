@@ -1,0 +1,4 @@
+Cython
+h5py
+pyfftw
+scipy
