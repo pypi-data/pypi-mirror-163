@@ -1,0 +1,4 @@
+[console_scripts]
+ms-install=morningstreams.main:install
+ms-run=morningstreams.main:run
+
