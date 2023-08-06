@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: hdaf_filter
+Version: 0.1.0
+Summary: Fourier filtering using the Hermite Distributed Approximation Functions as the low-pass filter
+Home-page: https://github.com/paul-hernandez-herrera/hdaf_filtering
+Author: Paúl Hernández-Herrera
+Author-email: paul.hernandez@ibt.unam.mx
+License: BSD 3-clause
+Platform: UNKNOWN
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.8
+
+UNKNOWN
+
