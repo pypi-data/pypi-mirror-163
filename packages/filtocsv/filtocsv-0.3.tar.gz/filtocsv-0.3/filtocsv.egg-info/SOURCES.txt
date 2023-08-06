@@ -1,0 +1,10 @@
+.pypirc
+README.md
+runtest.py
+setup.py
+filtocsv/__init__.py
+filtocsv.egg-info/PKG-INFO
+filtocsv.egg-info/SOURCES.txt
+filtocsv.egg-info/dependency_links.txt
+filtocsv.egg-info/not-zip-safe
+filtocsv.egg-info/top_level.txt
