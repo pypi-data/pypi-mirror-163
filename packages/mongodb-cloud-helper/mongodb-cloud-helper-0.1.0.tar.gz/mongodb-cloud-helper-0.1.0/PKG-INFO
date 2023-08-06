@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: mongodb-cloud-helper
+Version: 0.1.0
+Summary: Helper Microservice when a MongoDB Cloud instance is required.
+Author: Craig Trim
+Author-email: craigtrim@gmail.com
+Requires-Python: ==3.8.5
+Classifier: Programming Language :: Python :: 3
+Requires-Dist: baseblock
