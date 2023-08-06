@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "premovr"
+version = "0.0.3a"
+description = "This is a python library to talk to robot arms to control a chessboard"
+authors = ["Karan Vivek Bhargava <karan.bhargava93@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.9"
+python-lichess = "^0.10"
+python-chess = "^1.999"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.poetry.scripts]
+premovr = "premovr.entrypoint:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
