@@ -1,0 +1,16 @@
+cftools/__init__.py,sha256=n_yXWQ1IIIf0rVDEcpEZkJ-0pZh5PAXmpnVEgAl1UKg,121
+cftools/__main__.py,sha256=8xAp3ndF53JEntQwkGhcR5vno8smI7n_EMrVdsDtp3s,2985
+cftools/_http.py,sha256=QGhilVUOx2ecJ5OKZiSNsMpAfvBw3KLsU7YZJ4g0rcY,3575
+cftools/_ws.py,sha256=WpadwgStwHd4xcMgtnps6QobejXqhZXJrkhTu79Mj04,710
+cftools/account.py,sha256=2Yl7CT-0I5MPVF-fmoXZ8HYiICaIwCAw3pOAjQnEqcc,1899
+cftools/color.py,sha256=Hbwvrc4BUcOcrMVP3eZ3fiw-VEFB_XlwYQqm_hTNIK4,1037
+cftools/config.py,sha256=rLSbYu2HlCKVHUpXR_MeT0ITNGdHdiS64fGTJt2-SFc,3465
+cftools/contest.py,sha256=7IKtF2u74hX5UrtjzfkikGPUY8w4QJ4oSNj-K3TndKo,12975
+cftools/problem.py,sha256=kmiMyFVom0dtdvfMi2H-mmKiKLI3fjB2BHWVG_-T-Go,2676
+cftools/util.py,sha256=VhxXWsaT5HDMwNC1ys1-rqpbUoISd4P7mei_7c1CFlA,654
+cftools-0.4.0.dist-info/LICENSE,sha256=aiJTslo-qYZa6RWoVFtGM_PWKrSWLjebO4mgkqi4W6U,1071
+cftools-0.4.0.dist-info/METADATA,sha256=0Jv9yWlesuru-w4z98GZCeoS83O4gG2Od0KTK5hSuec,175
+cftools-0.4.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cftools-0.4.0.dist-info/entry_points.txt,sha256=j1aEUGGDNyiRdb65pMhMB0wBcuoHm1COJNFegcndURg,45
+cftools-0.4.0.dist-info/top_level.txt,sha256=_nT6QNWGW-cfClIegXQ5ZR6u4MV_X73CZZD5KjsiOII,8
+cftools-0.4.0.dist-info/RECORD,,
