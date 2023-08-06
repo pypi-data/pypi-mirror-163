@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: gmaps-tracker
+Version: 1.0.0
+Summary: Tool for storing shared locations
+Home-page: https://github.com/BercziSandor/gmaps_tracker/
+License: MIT
+Keywords: Google,Tracking,gmap
+Author: Sandor Berczi
+Author-email: Berczi.Sandor@gmail.com
+Maintainer: Sandor Berczi
+Maintainer-email: Berczi.Sandor@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: geographiclib (>=2.0,<3.0)
+Requires-Dist: locationsharinglib (>=4.1.8,<5.0.0)
+Project-URL: Repository, https://github.com/BercziSandor/gmaps_tracker/
+Project-URL: issues, https://github.com/BercziSandor/gmaps_tracker/issues
+Description-Content-Type: text/markdown
+
+# gmaps_tracker
+Logging of locations of shared connections from Google Maps.
+
+The project is under construction.
+
+## Prerequisits
+ - Cookies for authentication. See next chapter how to get them.
+
+### How to get get cookies.txt for Google maps
+Firefox:
+ - Install addon: [export-cookies-txt](https://addons.mozilla.org/en-US/firefox/addon/export-cookies-txt)
+ - Log in with your user to open [google.com/maps](https://www.google.com/maps)
+ - Click on addon logo / "Export cookies for google.com"
+ - Save the file as cookies.txt in the root of this project
+
+Chrome:
+ - Extension: [get-cookiestxt](https://chrome.google.com/webstore/detail/get-cookiestxt/bgaddhkoddajcdgocldbbfleckgcbcid) extension for Chrome
+   - Log in with your user to open [google.com/maps](https://www.google.com/maps)
+   - Click on the icon of the extension & export the cookies as file
+
+
+
+

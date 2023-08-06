@@ -1,0 +1,3 @@
+[console_scripts]
+gmaps_tracker=gmaps_tracker.gmaps_tracker:run
+
