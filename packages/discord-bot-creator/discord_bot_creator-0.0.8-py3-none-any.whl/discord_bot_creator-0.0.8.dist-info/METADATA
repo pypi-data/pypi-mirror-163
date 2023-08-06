@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: discord-bot-creator
+Version: 0.0.8
+Author: CedricXBG
+Author-email: levistimmy@gmail.com
+License: MIT
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: License.txt
+
+# Bot Creator
+## This module uses [discord.py v2.0](https://github.com/Rapptz/discord.py)
+### Install it with this command: 
+`pip install git+https://github.com/Rapptz/discord.py`
+### Verify you have git installed in your computer or this command doesn't work.
+---
+## Create() method: 
+### In this method you have:
+- cog
+- bot(coming soon)
+### Usage:
+`create("filename.py").cog(type)`: Create a cog
+Cogs Types:
+- 1 = Normal
+- 2 = With groups
