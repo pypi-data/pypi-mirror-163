@@ -1,0 +1,14 @@
+pytabular/__init__.py,sha256=_cu3v6U8OMO20xvNTHtZOgdkbkbjLWnjbsuBNpLlzDo,1077
+pytabular/basic_checks.py,sha256=PYbxC_MiPdREmiqFIB_S2BVdrSFz7kyk8hwuzDcGH3w,2965
+pytabular/logic_utils.py,sha256=qIUFxEqQ_wm0Iz1x-XgZCyj8XGc5vGdQEfRjDJQbjpQ,3970
+pytabular/pytabular.py,sha256=x4Sr73CyyhP3fwxVI3lg3f7GY4FFPQwknTHCG8LC2J4,25810
+pytabular/dll/Microsoft.AnalysisServices.AdomdClient.dll,sha256=Yrfmeu0NOEZyVOMVz6P7lv81b_AG8ZOB7Xg84-xuDL0,2633120
+pytabular/dll/Microsoft.AnalysisServices.Core.dll,sha256=2KGCIduA5IhlKo5Q6XAOwKh4zfUo8hzzrtft4oJK6eE,1440152
+pytabular/dll/Microsoft.AnalysisServices.Tabular.Json.dll,sha256=RqSRmhea0cVR-4r-dVMRpQj0NI4l2nclv83M07rELz4,562592
+pytabular/dll/Microsoft.AnalysisServices.Tabular.dll,sha256=3VKiXcCyWmEgRYiL1Vy01gWbgziFdvn6pDEXqGy4C18,1265592
+pytabular/dll/Microsoft.AnalysisServices.dll,sha256=AbK4zJihRTYnR3Sl9NSdj2HeJe3LGWR3nBCTimWP4nk,693648
+python_tabular-0.0.40.dist-info/LICENSE.txt,sha256=kXPKYEotYlb0UppjZ3XBzltBPX5w9kGkVFQn85UDlcg,1092
+python_tabular-0.0.40.dist-info/METADATA,sha256=-YHqygZRdv_MBlyQcaCarrZkN_mFyHW2SlFBNdqxGIM,3985
+python_tabular-0.0.40.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+python_tabular-0.0.40.dist-info/top_level.txt,sha256=qYx-4cCG1ia_PXiCZGgPWTmcNI17ZCBJ1K8rTeaE-Rc,10
+python_tabular-0.0.40.dist-info/RECORD,,
