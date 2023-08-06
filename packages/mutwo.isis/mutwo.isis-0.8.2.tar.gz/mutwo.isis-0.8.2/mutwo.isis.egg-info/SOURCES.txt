@@ -1,0 +1,17 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mutwo.isis.egg-info/PKG-INFO
+mutwo.isis.egg-info/SOURCES.txt
+mutwo.isis.egg-info/dependency_links.txt
+mutwo.isis.egg-info/requires.txt
+mutwo.isis.egg-info/top_level.txt
+mutwo/isis_converters/__init__.py
+mutwo/isis_converters/configurations.py
+mutwo/isis_converters/isis.py
+mutwo/isis_converters/constants/XSAMPA.py
+mutwo/isis_converters/constants/__init__.py
+mutwo/isis_utilities/__init__.py
+mutwo/isis_utilities/exceptions.py
+mutwo/isis_version/__init__.py
