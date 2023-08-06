@@ -1,0 +1,11 @@
+LICENSE.md
+README.md
+setup.py
+pypatchify/__init__.py
+pypatchify/np.py
+pypatchify/patch.py
+pypatchify/pt.py
+pypatchify.egg-info/PKG-INFO
+pypatchify.egg-info/SOURCES.txt
+pypatchify.egg-info/dependency_links.txt
+pypatchify.egg-info/top_level.txt
