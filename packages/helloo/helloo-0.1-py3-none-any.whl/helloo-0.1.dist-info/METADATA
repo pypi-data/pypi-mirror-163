@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: helloo
+Version: 0.1
+Summary: your mind
+Home-page: https://github.com/ab070522
+Author: seongjun choi
+Author-email: ab070522@gmail.com
+License: UNKNOWN
+Keywords: torch
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+
+## hello
+
+
