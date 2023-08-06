@@ -1,0 +1,8 @@
+README.md
+setup.py
+secure_hash/__init__.py
+secure_hash/secure_hash.py
+securehash.egg-info/PKG-INFO
+securehash.egg-info/SOURCES.txt
+securehash.egg-info/dependency_links.txt
+securehash.egg-info/top_level.txt
