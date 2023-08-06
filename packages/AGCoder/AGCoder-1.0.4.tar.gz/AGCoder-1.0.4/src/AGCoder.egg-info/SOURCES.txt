@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/AGCoder/__init__.py
+src/AGCoder/coder.py
+src/AGCoder/coder_utilities.py
+src/AGCoder.egg-info/PKG-INFO
+src/AGCoder.egg-info/SOURCES.txt
+src/AGCoder.egg-info/dependency_links.txt
+src/AGCoder.egg-info/top_level.txt
