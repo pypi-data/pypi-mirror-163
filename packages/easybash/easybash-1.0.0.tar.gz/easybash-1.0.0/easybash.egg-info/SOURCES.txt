@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+easybash/__init__.py
+easybash/basher.py
+easybash.egg-info/PKG-INFO
+easybash.egg-info/SOURCES.txt
+easybash.egg-info/dependency_links.txt
+easybash.egg-info/top_level.txt
