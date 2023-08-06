@@ -1,0 +1,11 @@
+__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+voiceflow/__init__.py,sha256=HOF_Zfxqw8gYByMMnNzCimWJWjiRZoW0X_pWsFCo5Go,765
+voiceflow/defaults.py,sha256=5XFQ1a5vZwuD-_FRri1uXwwr2EJDNc9Ii1my-ZaDszA,273
+voiceflow/interact.py,sha256=v83SRi2sZ-IKH8CJAUr-IK8wgW3V547iYIJaY40NzRo,1302
+voiceflow/user.py,sha256=Av1hPxm7wVAFxeSQ-tLYiR81rPnxSDHuRBUNbZf24BA,1046
+voiceflow/variables.py,sha256=rEvDzn-YoV3-Qe1R8zQA_ijzdZugC9H5rS8ahwsuH0E,619
+voiceflow-1.0.6.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+voiceflow-1.0.6.dist-info/METADATA,sha256=96iULtfcITehqKaWW97C9QOCCIi0pJy26UXfAJQi4LI,3505
+voiceflow-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+voiceflow-1.0.6.dist-info/top_level.txt,sha256=IHKTw5n95-_opTNnqgce8TC4Q0IhUVLsxVSbPGy2Hkg,19
+voiceflow-1.0.6.dist-info/RECORD,,
