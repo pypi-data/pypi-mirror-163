@@ -1,0 +1,79 @@
+Metadata-Version: 2.1
+Name: mongodex
+Version: 0.0.1
+Summary: MongoDB Index migration tool
+Project-URL: Homepage, https://github.com/pinio/mongodex
+Project-URL: Bug Tracker, https://github.com/pinio/mongodex/issues
+Author-email: Danilo Martins <mawkee@gmail.com>, Evandro Arruda <ecarruda@gmail.com>, Murilo Viana <murilo.vianamo@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 PiniOn
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Database
+Requires-Python: >=3.7
+Requires-Dist: loguru
+Requires-Dist: pymongo
+Description-Content-Type: text/markdown
+
+# mongodex
+
+Mongodex is a Python library to migrate your MongoDB database indexes.
+
+## Installation
+
+```
+pip install mongodex
+```
+
+## How to use
+
+To migrate your indexes to a MongoDB database, you need to create a dictionary that contains each collection index. The indexes must be a `mongodex.Index` instance. For example:
+
+```python
+from pymongo import ASCENDING, DESCENDING
+import mongodex
+
+collections = {
+    "<COLLECTION_NAME>": [
+        mongodex.Index({"<FIELD_NAME>": ASCENDING}, unique=True),
+        mongodex.Index({"<FIELD_NAME>": ASCENDING, "<FIELD_NAME>": ASCENDING}),
+    ],
+    "<COLLECTION_NAME>": [
+        mongodex.Index({"<FIELD_NAME>": DESCENDING}, name="custom_index_name"),
+    ]
+}
+```
+
+Then you can migrate your indexes by calling the `mongodex.migrate` function with your database URI.
+
+```python
+mongodex.migrate("<DATABASE_URI>", collections)
+```
+
+## Markdown docs generator
+
+You can also create a markdown file with all your indexes using the same collection index dictionary mentioned in the previous topic. For example:
+
+```python
+mongodex.md_generator(collections)
+```
