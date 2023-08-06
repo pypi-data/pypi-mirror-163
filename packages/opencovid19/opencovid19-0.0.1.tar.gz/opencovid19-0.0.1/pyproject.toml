@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "opencovid19"
+version = "0.0.1"
+description = "COVID-19 Data wrapped by OpenCOVID-19"
+authors = ["OpenCOVID-19"]
+license = ""
+readme = "README.md"
+homepage = "https://github.com/opencovid19data/opencovid19"
+repository = "https://github.com/opencovid19data/opencovid19"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+opencovid19-api = "^0.0.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^4.0.1"
+yapf = "^0.32.0"
+
+[tool.poetry.extras]
+jhu-csse = ["jhu-csse"]
+owid = ["owid"]
+oxcgrt = ["oxcgrt"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
