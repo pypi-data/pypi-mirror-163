@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: yasf
+Version: 0.0.1
+Summary: Yet Another Structured Formatter
+Home-page: https://github.com/jamesabel/yasf
+Download-URL: https://github.com/jamesabel/yasf/archive/master.zip
+Author: James Abel
+Author-email: j@abel.co
+License: MIT License
+Keywords: formatting,utility
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: LICENSE.txt
+
+
+# yasf
+Yet Another Structured Formatter
+
+Function `sf` takes any number of positional or keyword arguments and attempts to turn them into a string.
+
+## Usage
+
+```python
+from yasf import sf
+
+s = sf("user", name="James", id=123)
+print(s)  # 'user <> {"name": "James", "id": 123} <>'
+```
