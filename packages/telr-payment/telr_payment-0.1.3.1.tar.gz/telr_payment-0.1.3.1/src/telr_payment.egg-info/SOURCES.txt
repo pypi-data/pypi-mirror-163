@@ -1,0 +1,11 @@
+LICENSE.txt
+README.md
+setup.cfg
+setup.py
+src/telr_payment/__init__.py
+src/telr_payment/api.py
+src/telr_payment.egg-info/PKG-INFO
+src/telr_payment.egg-info/SOURCES.txt
+src/telr_payment.egg-info/dependency_links.txt
+src/telr_payment.egg-info/requires.txt
+src/telr_payment.egg-info/top_level.txt
