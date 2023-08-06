@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+[project]
+name = "spendingizer_djmgrant"
+version = "0.0.3"
+authors = [
+  { name="D Grant", email="djmgrant@gmail.com" },
+]
+description = "A package to import and analyse persomal spending"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+dependencies = [ 
+"plotly.express",
+"pandas"
+]
+[project.urls]
+"Homepage" = "https://github.com/djmgrant/spendingizer"
+"Bug Tracker" = "https://github.com/djmgrant/spendingizer/issues"
