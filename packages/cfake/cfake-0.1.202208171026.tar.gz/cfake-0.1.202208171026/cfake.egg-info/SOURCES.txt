@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+cfake/fake.py
+cfake/idno_gen.py
+cfake.egg-info/PKG-INFO
+cfake.egg-info/SOURCES.txt
+cfake.egg-info/dependency_links.txt
+cfake.egg-info/entry_points.txt
+cfake.egg-info/top_level.txt

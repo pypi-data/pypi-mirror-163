@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: cfake
+Version: 0.1.202208171026
+Summary: 一个简单的测试数据生成器
+Author: hammer
+Author-email: liuzhuogood@foxmail.com
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# cfake
+##### 说明
+[[github](https://github.com/liuzhuogood/cfake)] 
+
+一个简单的测试数据生成器
+
+### 安装
+``` shell
+pip3 install cfake
+```
+
+### Python Console
+``` python
+
+
+```
+
+
+
+
