@@ -1,0 +1,3 @@
+[gunicorn.loggers]
+gunicorn=she_logging.gunicorn_logger:Logger
+
