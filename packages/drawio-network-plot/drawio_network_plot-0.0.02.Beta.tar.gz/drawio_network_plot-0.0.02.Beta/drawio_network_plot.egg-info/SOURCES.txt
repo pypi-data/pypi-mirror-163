@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+drawio_network_plot/__init__.py
+drawio_network_plot/drawio_network_plot.py
+drawio_network_plot.egg-info/PKG-INFO
+drawio_network_plot.egg-info/SOURCES.txt
+drawio_network_plot.egg-info/dependency_links.txt
+drawio_network_plot.egg-info/top_level.txt
+tests/__init__.py
+tests/unit_test.py
