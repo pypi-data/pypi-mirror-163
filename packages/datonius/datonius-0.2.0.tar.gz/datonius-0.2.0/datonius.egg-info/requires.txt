@@ -1,0 +1,6 @@
+peewee==3.14.4
+psycopg2-binary~=2.9.3
+boto3==1.17.53
+tabulate==0.8.9
+click==7.1.2
+simplejson==3.17.2
