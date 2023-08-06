@@ -1,0 +1,73 @@
+# pyBound
+
+Allows you to access multiple useful tools in your python code quick and easy.
+
+---
+### Documentation:
+
+ - clear() - clears terminal
+
+ - wait(time=___) - pauses code for number for seconds inputed
+```
+print("Hello, welcome to pyBound!")
+print("This is some extra text!")
+wait(4)
+```
+will display:
+```
+Hello, welcome to pyBound!
+This is some extra text!
+```
+for 4 seconds, and then will clear the terminal and the final output will be:
+```
+```
+
+ - slow_print(*strings, 
+time=___
+, end=___
+, sep=___
+, file=___) - prints text in a typing sort of animation. The time attribute defaults to a good speed, but you can change the time (in seconds) between each printed character. It will print one letter at a time.
+ - rgb(r, g, b) - equate a variable to this function and just put in the rgb code of a color. When you want to change color of text, just use concatenation.
+ - rgb_reset() - resets colors to white. Equate this function to a variable. Make sure to reset or the rest of you printed text will be the color it chooses
+
+```
+red = rgb(255, 0, 0)
+print(red + "Hello, there!")
+print("I love pyBound!")
+```
+will print
+```
+Hello there!
+I love pyBound
+```
+entirely in red. However, you can use rgb_reset() to fix this.
+
+```
+red = rgb(255, 0, 0)
+reset = rgb_reset()
+print(red + "Hello, there!" + reset)
+print("I love pyBound!")
+```
+will print "Hello, there!" in red and will print "I love pyBound!" in the default terminal text color, usually white.
+
+There are also more formatting options for your python text. They are used the same way the rgb() is used. They are listed here:
+
+end() - Deletes all existing formatting
+
+bold() - Bolds text
+
+faint() - Decreases the opacity of text
+
+italic() - Italicizes text
+
+underline() - Underlines text
+
+blink_slow() - Makes text blink slowly
+
+blink_fast() - Makes text blink quickly
+
+negative() - Inverts the background color and the foreground color of text
+
+conceal() - Makes text invisible
+
+crossed() - Adds text strikethrough
