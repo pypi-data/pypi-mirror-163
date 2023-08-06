@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: ppg-pre
+Version: 0.1.1
+Summary: Simple PPG preprocessing
+Home-page: https://github.com/epsilon-deltta/ppg
+Author: epsilon (nickN: kokomong)
+Author-email: kokomong1316@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >= 3.7
+License-File: LICENSE
+Requires-Dist: matplotlib (==3.1.2)
+Requires-Dist: numpy (==1.17.0)
+Requires-Dist: pandas (==1.1.5)
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: setuptools (==58.0.4)
+
+UNKNOWN
+
