@@ -1,0 +1,13 @@
+mensajes/__init__.py,sha256=-8H5W0Sre1mNWvNSdpdOYRdi5LSaVou3nOvKVscdAa8,37
+mensajes/adios/__init__.py,sha256=1i1Kcl2sbC9RKdmelGwMpb_1jgibEPkOZLhDZjWQerY,47
+mensajes/adios/despedida.py,sha256=qT5ovzAdaNFP0uVqNkbpn_yyg_hOP4p3JVWkewkz9Pg,182
+mensajes/hola/__init__.py,sha256=s_hOspQaE4P8EZuSyMaV4mSupAdgaWvTmu_CdXJ8U6w,46
+mensajes/hola/saludos.py,sha256=Ff6dvIslwXXKc_iHdfd1u2cgLEwEw-ZhOhHuqMQBaEY,385
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_adios.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_hola.py,sha256=KfGUPy5a6eetp3eTc_SEj28U3q4h4zBNkZLaIeSlkPA,412
+Mensajes_LucasBoff-5.0.dist-info/LICENSE,sha256=-RFQckruZSsxXRU1QXJsGLwRF1vPL5KkipMfUc0zdXM,1090
+Mensajes_LucasBoff-5.0.dist-info/METADATA,sha256=kd1WZOfdZLVks9_ncBwYA_XsI7YtWrjhMH2jwZ_FEO8,527
+Mensajes_LucasBoff-5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Mensajes_LucasBoff-5.0.dist-info/top_level.txt,sha256=gD40JdIxiaPRvMl4iCu3Edq1ctVrOdqjON-Ms9kPSQk,15
+Mensajes_LucasBoff-5.0.dist-info/RECORD,,
