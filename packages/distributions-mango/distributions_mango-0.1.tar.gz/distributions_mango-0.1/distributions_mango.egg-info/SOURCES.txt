@@ -1,0 +1,10 @@
+setup.py
+distributions_mango/Binomialdistribution.py
+distributions_mango/Gaussiandistribution.py
+distributions_mango/Generaldistribution.py
+distributions_mango/__init__.py
+distributions_mango.egg-info/PKG-INFO
+distributions_mango.egg-info/SOURCES.txt
+distributions_mango.egg-info/dependency_links.txt
+distributions_mango.egg-info/not-zip-safe
+distributions_mango.egg-info/top_level.txt
