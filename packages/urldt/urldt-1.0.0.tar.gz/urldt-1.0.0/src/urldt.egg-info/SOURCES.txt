@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+src/urldt/__init__.py
+src/urldt/__main__.py
+src/urldt/__version__.py
+src/urldt/cli.py
+src/urldt/scanner.py
+src/urldt/url_asset.py
+src/urldt/utils.py
+src/urldt.egg-info/PKG-INFO
+src/urldt.egg-info/SOURCES.txt
+src/urldt.egg-info/dependency_links.txt
+src/urldt.egg-info/entry_points.txt
+src/urldt.egg-info/requires.txt
+src/urldt.egg-info/top_level.txt
