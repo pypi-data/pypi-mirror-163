@@ -1,0 +1,33 @@
+Metadata-Version: 2.1
+Name: linear-operator
+Version: 0.1.1
+Summary: A linear operator implementation, primarily designed for finite-dimensional positive definite operators (i.e. kernel matrices).
+Home-page: UNKNOWN
+Author: Geoff Pleiss
+Author-email: gpleiss@gmail.com
+License: MIT
+Project-URL: Documentation, https://linear_operator.readthedocs.io
+Project-URL: Source, https://github.com/cornellius-gp/linear_operator/
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: torch (>=1.11)
+Requires-Dist: scipy
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+Requires-Dist: pre-commit ; extra == 'dev'
+Provides-Extra: test
+Requires-Dist: flake8 (==4.0.1) ; extra == 'test'
+Requires-Dist: flake8-print (==4.0.0) ; extra == 'test'
+
+# linear_operator
+
+A LinearOperator implementation to wrap the numerical nuts and bolts of GPyTorch
+
+[![Run Test Suite](https://github.com/cornellius-gp/linear_operator/actions/workflows/run_test_suite.yml/badge.svg)](https://github.com/cornellius-gp/linear_operator/actions/workflows/run_test_suite.yml)
+[![Documentation Status](https://readthedocs.org/projects/linear-operator/badge/?version=latest)](https://linear-operator.readthedocs.io/en/latest/?badge=latest)
+
+
