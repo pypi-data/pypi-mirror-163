@@ -1,0 +1,6 @@
+flask_session/__init__.py,sha256=s0gYbQkI34BKNPT1Wf1XOck8n4BrZPDSqnsNaqNcw5k,6203
+flask_session/sessions.py,sha256=z-gfyySUr91sb9AhVTgZD-bzwDZWBbW61_OHNWyDdsY,33326
+flask_session2-1.2.0.dist-info/LICENSE,sha256=S3lNnKCO6cV706SpiqaHVtNMshfWXZAIhYnZx-1W4q4,1455
+flask_session2-1.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+flask_session2-1.2.0.dist-info/METADATA,sha256=NU-JXvcaI413HLlOwHBLhBCzZ2EdRmRkSYtiDADvv2s,8965
+flask_session2-1.2.0.dist-info/RECORD,,
