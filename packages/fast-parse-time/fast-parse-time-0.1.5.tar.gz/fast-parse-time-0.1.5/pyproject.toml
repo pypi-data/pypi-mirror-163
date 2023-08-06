@@ -1,0 +1,19 @@
+[tool.poetry]
+authors = ["Craig Trim <craigtrim@gmail.com>"]
+description = "Natural Language (NLP) Extraction of Date and Time"
+name = "fast-parse-time"
+version = "0.1.5"
+
+[tool.poetry.dependencies]
+baseblock = "*"
+python = "3.8.5"
+word2number = "*"
+
+[tool.poetry.dev-dependencies]
+autopep8 = "*"
+plac = "*"
+pytest = "*"
+
+[build-system]
+build-backend = "poetry.core.masonry.api"
+requires = ["poetry-core>=1.0.0"]
