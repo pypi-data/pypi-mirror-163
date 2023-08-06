@@ -1,0 +1,67 @@
+Metadata-Version: 2.1
+Name: husky_simplex
+Version: 0.0.3
+Summary: A text pre-processing package
+Project-URL: Homepage, https://github.com/Sudhendra/Husky_Simplex
+Project-URL: Download URL, https://github.com/Sudhendra/Husky_Simplex/archive/refs/tags/0.0.3.tar.gz
+Author-email: "Sudhendra Kambhamettu, Nikhil, Karan, Arya, Harshal" <sudhendrakambhamettu@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Sudhendra
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Husky_Simplex
+Text processing package
+
+Data preprocessing is the first and most essential stage in developing a machine learning
+model as it affects the overall accuracy and efficiency of the outcome. Ordinary text data
+contains non-contextual words, noise, misspelled words, symbols, punctuations, and
+unnecessary syntactic connotations. To circumvent these hindrances, we need to clean
+raw text data into data that is acceptable for statistical and computational analysis.
+
+The purpose of the package is to provide a one-stop platform for most of the necessary
+text preprocessing techniques. These steps are used to augment the computational
+significance of text data for Natural Language Processing tasks.
+
+## Package Functions
+1. Tokenization - Converting string input to a list of words.
+2. Word counter - Counting the total number of words in the input.
+3. Stopword removal - Removing non-contextual words that are only used for the
+grammatical structure.
+4. Punctuation removal - Removing punctuations.
+5. Symbol removal - Removing symbols.
+6. Stemming - Removing tense connotations.
+7. Bag of words - Quantifying words.
+8. Count vectorization - Vectorization of text based on term frequency.
+9. TF-IDF vectorization - Vectorization of text based on term frequency in relation to
+document frequency
+
+## Installation
+``` pip install husky_simplex ```
+
+or <br />
+``` git clone https://github.com/Sudhendra/Husky_Simplex.git ```<br />
+``` cd Husky_Simplex ```<br />
+``` pip install - r requirements.txt ```
