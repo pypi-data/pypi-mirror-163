@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lark-bitable-sdk
+Version: 0.0.0.2
+Summary: A python-made lark bitable sdk.
+Home-page: UNKNOWN
+Author: Tianhao Zhang
+Author-email: genji9071@gmail.com
+License: MIT
+Project-URL: Source, https://github.com/genji9071/lark-bitable-sdk
+Project-URL: Tracker, https://github.com/genji9071/lark-bitable-sdk/issues
+Keywords: lark bitable
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
+Requires-Dist: pydantic (==1.8.2)
+Requires-Dist: requests (==2.28.1)
+
+# lark-bitable-sdk
+飞书多维表格，关于记录增删改查相关的api
+
+## 安装方法
+    pip install lark-bitable-sdk
+
+## 使用方法
+    Auth(app_id="your_app_id", app_secret="your_app_secret")
+    fetch_records("app_token", "table_id", field_names='["field_name"]', page_size=3)
+
+## 一个例子
+    test/__init__.py
+
