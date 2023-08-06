@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: chdimage
+Version: 0.1.5
+Classifier: Programming Language :: Rust
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: MacOS :: MacOS X
+Summary: Python bindings to the chdimage part of https://github.com/Manorhos/imageparse
+Requires-Python: >=3.8
