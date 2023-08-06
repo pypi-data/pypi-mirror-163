@@ -1,0 +1,9 @@
+codestamper/__init__.py,sha256=rt8POeQKeGbzHEFZ4DZMI7A3GYVLggErShcl83GmyQw,144
+codestamper/codestamper.py,sha256=eRKx8JXWwKnK2o8B4oFZf8pNKN04k3QsT6261kSVwO4,5989
+codestamper/gitutils.py,sha256=62VVJWJBOfoe9P60SuEeRUJW3sBAOXwy2kmJcuBkVhc,4667
+codestamper/pythonenv.py,sha256=qiNMESntEPl6m8jH0Ls-f4tkJIYv-hMxdobAEuTlwDw,3378
+codestamper-0.3.0.dist-info/LICENSE,sha256=POQIK59radFQUk1PvTrfeBLES0ROaTWy7vCUPJQpT9M,1070
+codestamper-0.3.0.dist-info/METADATA,sha256=NDmK9qL0TU-pyKLmjBfDr5RZBMrH_4ugjO_lgZIp0sc,8055
+codestamper-0.3.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+codestamper-0.3.0.dist-info/top_level.txt,sha256=TyINbevmK7ZS1QY0Yz3g_aOEbqzbXIGcbMEOuMF7brw,12
+codestamper-0.3.0.dist-info/RECORD,,
