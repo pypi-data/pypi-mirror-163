@@ -1,0 +1,90 @@
+from .base import BaseModule
+
+import base64
+import string
+from PIL import Image
+from io import BytesIO
+from pathlib import Path
+from selenium import webdriver
+from selenium.webdriver.chrome import options
+from selenium.common.exceptions import TimeoutException
+from selenium.webdriver.support.ui import WebDriverWait
+from selenium.webdriver.support import expected_conditions as EC
+from webdriver_manager.core.utils import ChromeType
+from webdriver_manager.chrome import ChromeDriverManager
+
+
+class webscreenshot(BaseModule):
+    watched_events = ["URL"]
+    produced_events = ["SCREENSHOT"]
+    flags = ["active"]
+    options = {"timeout": 10}
+    options_desc = {"timeout": "Max time to wait for page to load"}
+    deps_apt = ["chromim-browser"]
+    deps_pip = ["selenium", "webdriver-manager", "Pillow"]
+
+    def setup(self):
+        self.cwd = Path.cwd()
+        self.screenshot_path = self.cwd / f"webscreenshots_{self.helpers.make_date()}"
+        self.screenshot_path_rel = self.screenshot_path.relative_to(self.cwd)
+        self.helpers.mkdir(self.screenshot_path)
+
+        self.timeout = self.config.get("timeout", 10)
+
+        try:
+            driver_dir = self.helpers.cache_dir / "webdriver-manager"
+            self.chromepath = ChromeDriverManager(path=str(driver_dir), chrome_type=ChromeType.CHROMIUM).install()
+            self.debug(f"Successfully configured Chrome driver: {self.chromepath}")
+            return True
+        except Exception as e:
+            self.warning(f"Error configuring Chrome driver: {e}")
+
+        return False
+
+    def handleEvent(self, event):
+        url = event.data
+        user_agent = self.scan.useragent
+        chrome_options = options.Options()
+        chrome_options.add_argument("--headless")
+        chrome_options.add_argument("--no-sandbox")
+        chrome_options.add_argument("--disable-dev-shm-usage")
+        chrome_options.add_argument("--start-maximized")
+        chrome_options.add_argument("--ignore-certificate-errors")
+        chrome_options.add_argument(f"user-agent={user_agent}")
+        chrome_options.add_experimental_option("prefs", {"download.default_directory": "/dev/null"})
+
+        driver = webdriver.Chrome(executable_path=self.chromepath, options=chrome_options)
+        driver.set_page_load_timeout(timeout)
+
+        self.debug(f"Screenshotting {url} with timeout {self.timeout}")
+
+        try:
+            # Visit the webpage
+            driver.get(url)
+            # Set a realistic window size
+            driver.set_window_size(1536, 745)
+            # Wait until page is loaded
+            try:
+                load_timeout = max(timeout - 1, 1)
+                WebDriverWait(driver, load_timeout).until(
+                    lambda d: d.execute_script("return document.readyState") == "complete"
+                )
+            except TimeoutException:
+                self.warning(f"Screenshot of {url} timed out after {load_timeout} seconds.")
+
+            filename = self.screenshot_path / f"{self.helpers.sanitize_string(url)}.jpg"
+            filename_rel = filename.relative_to(self.cwd)
+
+            with open(str(filename), "wb") as f:
+                screenshot = driver.get_screenshot_as_base64()
+                im = Image.open(BytesIO(base64.b64decode(screenshot)))
+                rgb_im = im.convert("RGB")
+                rgb_im.save(f, format="JPEG", Quality=50, optimize=True, progressive=True)
+
+            self.hugesuccess(f"Screenshot captured for {url}")
+
+        finally:
+            driver.quit()
+
+
+# End of sfp_tool_web_screenshot class

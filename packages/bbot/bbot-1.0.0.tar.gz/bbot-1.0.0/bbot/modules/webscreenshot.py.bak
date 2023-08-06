@@ -1,0 +1,38 @@
+import atexit
+from pathlib import Path
+from threading import Lock
+from playwright.sync_api import sync_playwright
+
+from .base import BaseModule
+
+class webscreenshot(BaseModule):
+    watched_events = ["URL"]
+    produced_events = ["SCREENSHOT"]
+    deps_pip = ["playwright"]
+
+    def setup(self):
+        self.playwright_setup = False
+        self.playwright_setup_lock = Lock()
+        playwright_install = self.helpers.run(["playwright", "install"])
+        return playwright_install.returncode == 0
+
+    def setup_playwright(self):
+        with self.playwright_setup_lock:
+            if not self.playwright_setup:
+                self.playwright = sync_playwright()
+                self.playwright_started = self.playwright.start()
+                self.browser = self.playwright_started.chromium.launch()
+                self.playwright_setup = True
+                atexit.register(self.browser.close)
+
+    def handle_event(self, event):
+        self.setup_playwright()
+        filename = Path(f"{event.parsed.scheme}_{event.host}.png").resolve()
+        self.screenshot_url(event.data, filename)
+
+    def screenshot_url(self, url, filename):
+        page = self.browser.new_page()
+        page.goto(url)
+        self.hugesuccess(f"Saving screenshot of {url} to {filename}")
+        page.screenshot(path=str(filename))
+        page.close()
