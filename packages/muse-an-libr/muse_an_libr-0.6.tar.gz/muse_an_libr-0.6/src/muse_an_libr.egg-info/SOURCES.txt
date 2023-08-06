@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+src/muse_an_libr/__init__.py
+src/muse_an_libr/base.py
+src/muse_an_libr/filter.py
+src/muse_an_libr/randomdata.py
+src/muse_an_libr/visualize.py
+src/muse_an_libr.egg-info/PKG-INFO
+src/muse_an_libr.egg-info/SOURCES.txt
+src/muse_an_libr.egg-info/dependency_links.txt
+src/muse_an_libr.egg-info/requires.txt
+src/muse_an_libr.egg-info/top_level.txt
