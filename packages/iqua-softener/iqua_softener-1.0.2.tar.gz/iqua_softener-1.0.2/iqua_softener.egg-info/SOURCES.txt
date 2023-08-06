@@ -1,0 +1,11 @@
+.gitignore
+LICENSE
+README.md
+setup.cfg
+setup.py
+iqua_softener/__init__.py
+iqua_softener/iqua.py
+iqua_softener.egg-info/PKG-INFO
+iqua_softener.egg-info/SOURCES.txt
+iqua_softener.egg-info/dependency_links.txt
+iqua_softener.egg-info/top_level.txt
