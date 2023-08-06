@@ -1,0 +1,11 @@
+fsdev/__init__.py,sha256=pvj6ykSFv88qjU6ybH8f0nZWBfcCLHphSLWE1-VDaKE,65
+fsdev/__main__.py,sha256=2uGp-B3SmPnqJGmSX4M3fExBoEZq1k2EHAsFzPLU1xo,29
+fsdev/cli.py,sha256=nLx6b1GsOIZkMcIVNEEhVZZD1fUEL2_QXVhH4-ndX_I,1258
+fsdev/errors.py,sha256=Hf0hHl-osHNtHcIy06DpOIU7olP32W5yF50hTkGTfK0,287
+fsdev/fs.py,sha256=C75aL2cHrAgJ4wGllS3eT1kWKOuyxuiBVGvZxgWBdug,925
+fsdev/web.py,sha256=362Ri1WhLrV0q627e_oYrTK1ADrF-GXfP2oQqymN4aU,1212
+fsdev-0.1.0.dist-info/entry_points.txt,sha256=bRL03B0Asqy4wnPJX_ycJQnBmiShbUJOT7wVCa1yXVA,39
+fsdev-0.1.0.dist-info/LICENSE,sha256=_-vL4gWaeEJIhQwegvKU7EICU_6GD-1s7DLQNj50pKM,1071
+fsdev-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+fsdev-0.1.0.dist-info/METADATA,sha256=8z_X_F-oejgKVzBnsfWdnnSmJSl5MLw6QP-K7SZk95U,381
+fsdev-0.1.0.dist-info/RECORD,,
