@@ -1,0 +1,8 @@
+git_commit="5082ae2f2bb0ccd9ff70f79f05240ed83996958a"
+git_commit_timestamp="2022-08-16_23:08:41_+0530"
+git_describe="5082ae2"
+build_os="Linux mr-0xh1 4.15.0-142-generic #146~16.04.1-Ubuntu SMP Tue Apr 13 09:27:15 UTC 2021 x86_64 x86_64 x86_64 GNU/Linux"
+build_machine="mr-0xh1"
+build_date="Tue Aug 16 11:27:32 PDT 2022"
+build_user="jenkins"
+version="0.0.4"
