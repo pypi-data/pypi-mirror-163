@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "ngrammer-keras"
+version = "0.1.0"
+description = ""
+authors = ["Pieter Blomme"]
+license = "MIT"
+
+[tool.poetry.dependencies]
+python = ">=3.8,<3.11"
+einops = "sympy"
+sympy = "^1.10.1"
+keras = "^2.9.0"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
