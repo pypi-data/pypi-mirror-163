@@ -1,0 +1,16 @@
+thumbor_libs_blackhand/loaders/__init__.py,sha256=nV8fNIBKmaoVxKGfrWw9SZeFf-mSP2hU3o4kPsYXghU,131
+thumbor_libs_blackhand/loaders/mongodb_loader.py,sha256=WyYjnF6QVDQwGk5O4R3D91ncMY--omlaTEKdEqK2Ep8,1943
+thumbor_libs_blackhand/loaders/spec_http_or_specb_loader.py,sha256=HtfbCDFx3ATyHaedY862-GjmopvZuWvvO-OFQLzc4wQ,525
+thumbor_libs_blackhand/loaders/specb_file_fallback_file_loader.py,sha256=RBm-xHlL5H8IMBXdgh23fIhwk8wUcntJjVfuD25cm8k,2526
+thumbor_libs_blackhand/metrics/__init__.py,sha256=6gKtOH-H56nSRFvER0qDOdPQ9mfdZbTjLqEKhVEpQq4,132
+thumbor_libs_blackhand/result_storages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thumbor_libs_blackhand/result_storages/mongodb_webp_result_storage.py,sha256=mrvJlldfy8IYjWjD4-S1qR4mukcdZVQObIoQi4Imu2Q,4294
+thumbor_libs_blackhand/storages/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thumbor_libs_blackhand/storages/mongodb_webp_storage.py,sha256=IwDcB3sSjZy3mL7FRkpxeckkECwfJEXi2R3CCz4V_ms,4654
+thumbor_libs_blackhand/url_signers/__init__.py,sha256=6gKtOH-H56nSRFvER0qDOdPQ9mfdZbTjLqEKhVEpQq4,132
+thumbor_libs_blackhand/url_signers/base64_hmac_sha1_trim.py,sha256=HrvGLZoH5rmumHCnEijuP4jw3AHCKyZ9TysAZEH-NtQ,556
+thumbor_libs_blackhand-0.1.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+thumbor_libs_blackhand-0.1.4.dist-info/METADATA,sha256=2vk90byE0QT_y39ohRdpJ0BY2oUEmhI9pKmuYfN47F4,836
+thumbor_libs_blackhand-0.1.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thumbor_libs_blackhand-0.1.4.dist-info/top_level.txt,sha256=qs2ZPZFH1pQYGF-qqZzRbRbPHdtBugtefP7mUslef90,23
+thumbor_libs_blackhand-0.1.4.dist-info/RECORD,,
