@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: lectioscraper
+Version: 0.0.1
+Summary: A simple python package to scrape useful data from Lectio.dk
+Author: Tovborg (Emil Tovborg-Jensen)
+Author-email: <emil@tovborg-jensen.dk>
+Keywords: python,Lectio,Scraping,webscraping
+Description-Content-Type: text/markdown
+
+A simple python package to scrape useful data off of the danish school system website Lectio (www.lectio.dk). Lectio doesn't have an official API, so this is just a good alternative to scraping the website directly.
+
+This package is a work in progress and is not yet ready for use. It will be updated and maintained as needed.
