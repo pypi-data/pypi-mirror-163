@@ -1,0 +1,13 @@
+bcmc/__init__.py,sha256=NlV-VZXnuyGVVbt8mWj4xqw681Kq8sd0hUQAi1d8xzc,195
+bcmc/__main__.py,sha256=z3pWxmD89849raug7BOtXgfgExOKgYclO3sQq7ydSkI,2859
+bcmc/__version__.py,sha256=9NXDd7OBLkJrHJjT79isSDYUNfZuJEjodfOh484Jr9A,502
+bcmc/appsetup.py,sha256=_9qWVY6AVxqCHdGpNG6U4bGrpcL6L1VFHG0htkVTciM,5498
+bcmc/broadcast.py,sha256=0ePVbvsVegtSDK7hipACjsEXWuEvyP_zRp9ZPHfcmgQ,8340
+bcmc/helpers.py,sha256=2wXwwyddkocaSn3Qbgu1cB_tZPJxKX19x1pi2YI7YAc,169
+bcmc/multicast.py,sha256=tZRqg3TdYpvIOxMNP23EIVqadYltFndZXMYnVBXPglo,8905
+bcmc-0.0.6.dist-info/LICENSE,sha256=UOVLCcDn6Ogal4ZYFCbR8BISn4jbAzGCmToGe7bOYrs,1511
+bcmc-0.0.6.dist-info/METADATA,sha256=K8GuyD2Q2kbXQtEK2lP8mt1vmDciQgBURICou4avm4w,4727
+bcmc-0.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+bcmc-0.0.6.dist-info/entry_points.txt,sha256=E18lpkJrOAV0IpBLhMh0WflUQcGPCsmw2Y7ae0X7lSA,44
+bcmc-0.0.6.dist-info/top_level.txt,sha256=BYwYlwBTRuFSVnS2T_S5OwfwBvONudi1NUz9cOqHlR4,5
+bcmc-0.0.6.dist-info/RECORD,,
