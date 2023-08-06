@@ -1,0 +1,14 @@
+[tool.poetry]
+name = "anton_test"
+version = "2.0.0"
+description = "ask func"
+authors = ["Skazko Anton <sk.anton06@gmail.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.6"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=2.0.0"]
+build-backend = "poetry.core.masonry.api"
