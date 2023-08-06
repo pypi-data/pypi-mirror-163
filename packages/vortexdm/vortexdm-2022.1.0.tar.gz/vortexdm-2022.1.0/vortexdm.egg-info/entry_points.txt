@@ -1,0 +1,2 @@
+[console_scripts]
+vdm = vdm.VDM:main
