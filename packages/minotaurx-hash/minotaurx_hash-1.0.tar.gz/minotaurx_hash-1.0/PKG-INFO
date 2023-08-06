@@ -1,0 +1,5 @@
+Metadata-Version: 2.1
+Name: minotaurx_hash
+Version: 1.0
+Summary: Bindings for proof of work used by MinotaurX
+License-File: LICENSE
