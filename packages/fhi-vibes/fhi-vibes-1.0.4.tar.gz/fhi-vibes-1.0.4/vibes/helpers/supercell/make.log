@@ -1,0 +1,225 @@
+gfortran -O3 -c linalg.f90
+f2py -c linalg.f90 supercell.f90 -m supercell
+running build
+running config_cc
+unifing config_cc, config, build_clib, build_ext, build commands --compiler options
+running config_fc
+unifing config_fc, config, build_clib, build_ext, build commands --fcompiler options
+running build_src
+build_src
+building extension "supercell" sources
+f2py options: []
+f2py:> /tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercellmodule.c
+creating /tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9
+appenddecl: "dimension" not implemented.
+appenddecl: "dimension" not implemented.
+appenddecl: "dimension" not implemented.
+appenddecl: "dimension" not implemented.
+appenddecl: "dimension" not implemented.
+Reading fortran codes...
+	Reading file 'linalg.f90' (format:free)
+	Reading file 'supercell.f90' (format:free)
+Post-processing...
+	Block: supercell
+			Block: linalg
+				Block: determinant_3x3_real
+In: :supercell:linalg.f90:linalg:determinant_3x3_real
+analyzevars: prefix ('pure') were not used
+				Block: trace_3x3_real
+In: :supercell:linalg.f90:linalg:trace_3x3_real
+analyzevars: prefix ('pure') were not used
+				Block: frobnorm_3x3_real
+In: :supercell:linalg.f90:linalg:frobnorm_3x3_real
+analyzevars: prefix ('pure') were not used
+				Block: matinv3x3
+In: :supercell:linalg.f90:linalg:matinv3x3
+analyzevars: prefix ('pure') were not used
+			Block: supercell
+				Block: fractional
+In: :supercell:supercell.f90:supercell:fractional
+analyzevars: prefix ('pure') were not used
+				Block: get_deviation
+In: :supercell:supercell.f90:supercell:get_deviation
+analyzevars: prefix ('pure') were not used
+				Block: find_optimal_cell
+				Block: find_lattice_points
+				Block: remap_force_constants
+Post-processing (stage 2)...
+	Block: supercell
+		Block: unknown_interface
+			Block: linalg
+				Block: determinant_3x3_real
+				Block: trace_3x3_real
+				Block: frobnorm_3x3_real
+				Block: matinv3x3
+			Block: supercell
+				Block: fractional
+				Block: get_deviation
+				Block: find_optimal_cell
+				Block: find_lattice_points
+				Block: remap_force_constants
+Building modules...
+	Building module "supercell"...
+		Constructing F90 module support for "linalg"...
+		Creating wrapper for Fortran function "determinant_3x3_real"("determinant_3x3_real")...
+			Constructing wrapper function "linalg.determinant_3x3_real"...
+			  det = determinant_3x3_real(a)
+		Creating wrapper for Fortran function "trace_3x3_real"("trace_3x3_real")...
+			Constructing wrapper function "linalg.trace_3x3_real"...
+			  trace = trace_3x3_real(a)
+		Creating wrapper for Fortran function "frobnorm_3x3_real"("frobnorm_3x3_real")...
+			Constructing wrapper function "linalg.frobnorm_3x3_real"...
+			  frob = frobnorm_3x3_real(a)
+		Creating wrapper for Fortran function "matinv3x3"("matinv3x3")...
+			Constructing wrapper function "linalg.matinv3x3"...
+			  b = matinv3x3(a)
+		Constructing F90 module support for "supercell"...
+		Creating wrapper for Fortran function "fractional"("fractional")...
+			Constructing wrapper function "supercell.fractional"...
+			  frac_pos = fractional(pos,inv_lattice)
+		Creating wrapper for Fortran function "get_deviation"("get_deviation")...
+			Constructing wrapper function "supercell.get_deviation"...
+			  deviation = get_deviation(cell,target_metric,[norm])
+		Creating wrapper for Fortran function "find_optimal_cell"("find_optimal_cell")...
+			Constructing wrapper function "supercell.find_optimal_cell"...
+			  smatrix = find_optimal_cell(cell,target_metric,target_size,[deviation,lower_limit,upper_limit,verbose])
+		Creating wrapper for Fortran function "find_lattice_points"("find_lattice_points")...
+			Constructing wrapper function "supercell.find_lattice_points"...
+			  all_lattice_points = find_lattice_points(lattice,inv_superlattice,n_lattice_points,max_iterations,tolerance)
+		Creating wrapper for Fortran function "remap_force_constants"("remap_force_constants")...
+			Constructing wrapper function "supercell.remap_force_constants"...
+			  fc_out = remap_force_constants(positions,pairs,fc_in,map2prim,inv_lattice,tol,eps)
+	Wrote C/API module "supercell" to file "/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercellmodule.c"
+	Fortran 90 wrappers are saved to "/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90"
+  adding '/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/fortranobject.c' to sources.
+  adding '/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9' to include_dirs.
+copying /Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/f2py/src/fortranobject.c -> /tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9
+copying /Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/f2py/src/fortranobject.h -> /tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9
+  adding '/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90' to sources.
+build_src: building npy-pkg config files
+running build_ext
+customize UnixCCompiler
+customize UnixCCompiler using build_ext
+get_default_fcompiler: matching types: '['gnu95', 'nag', 'absoft', 'ibm', 'intel', 'gnu', 'g95', 'pg']'
+customize Gnu95FCompiler
+Found executable /opt/homebrew/bin/gfortran
+customize Gnu95FCompiler
+customize Gnu95FCompiler using build_ext
+building 'supercell' extension
+compiling C sources
+C compiler: clang -Wno-unused-result -Wsign-compare -Wunreachable-code -DNDEBUG -fwrapv -O2 -Wall -fPIC -O2 -isystem /Users/flokno/miniforge3/include -arch arm64 -fPIC -O2 -isystem /Users/flokno/miniforge3/include -arch arm64
+
+creating /tmp/tmpu8_118y4/tmp
+creating /tmp/tmpu8_118y4/tmp/tmpu8_118y4
+creating /tmp/tmpu8_118y4/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9
+compile options: '-DNPY_DISABLE_OPTIMIZATION=1 -I/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9 -I/Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include -I/Users/flokno/miniforge3/include/python3.9 -c'
+clang: /tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercellmodule.c
+clang: /tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/fortranobject.c
+In file included from /tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/fortranobject.c:2:
+In file included from /tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/fortranobject.h:13:
+In file included from /Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include/numpy/arrayobject.h:4:
+In file included from /Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include/numpy/ndarrayobject.h:12In file included from /tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercellmodule.c::
+16In file included from :
+/Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include/numpy/ndarraytypes.hIn file included from :/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/fortranobject.h1944::
+13:
+In file included from /Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include/numpy/arrayobject.h:/Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h4::
+17In file included from :/Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include/numpy/ndarrayobject.h2::12 :
+In file included from /Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include/numpy/ndarraytypes.h:1944warning: "Using deprecated NumPy API, disable it with "          "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+:
+/Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include/numpy/npy_1_7_deprecated_api.h:17:2: #warning "Using deprecated NumPy API, disable it with " \
+ ^
+warning: "Using deprecated NumPy API, disable it with "          "#define NPY_NO_DEPRECATED_API NPY_1_7_API_VERSION" [-W#warnings]
+#warning "Using deprecated NumPy API, disable it with " \
+ ^
+1 warning generated.
+1 warning generated.
+compiling Fortran 90 module sources
+Fortran f77 compiler: /opt/homebrew/bin/gfortran -Wall -g -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops
+Fortran f90 compiler: /opt/homebrew/bin/gfortran -Wall -g -fno-second-underscore -fPIC -O3 -funroll-loops
+Fortran fix compiler: /opt/homebrew/bin/gfortran -Wall -g -ffixed-form -fno-second-underscore -Wall -g -fno-second-underscore -fPIC -O3 -funroll-loops
+compile options: '-I/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9 -I/Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include -I/Users/flokno/miniforge3/include/python3.9 -c'
+extra options: '-J/tmp/tmpu8_118y4/ -I/tmp/tmpu8_118y4/'
+gfortran:f90: linalg.f90
+gfortran:f90: supercell.f90
+compiling Fortran sources
+Fortran f77 compiler: /opt/homebrew/bin/gfortran -Wall -g -ffixed-form -fno-second-underscore -fPIC -O3 -funroll-loops
+Fortran f90 compiler: /opt/homebrew/bin/gfortran -Wall -g -fno-second-underscore -fPIC -O3 -funroll-loops
+Fortran fix compiler: /opt/homebrew/bin/gfortran -Wall -g -ffixed-form -fno-second-underscore -Wall -g -fno-second-underscore -fPIC -O3 -funroll-loops
+compile options: '-I/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9 -I/Users/flokno/miniforge3/lib/python3.9/site-packages/numpy/core/include -I/Users/flokno/miniforge3/include/python3.9 -c'
+extra options: '-J/tmp/tmpu8_118y4/ -I/tmp/tmpu8_118y4/'
+gfortran:f90: /tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90
+/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90:5:53:
+
+    5 |       subroutine f2pywrap_linalg_determinant_3x3_real (determinant_3x3_r&
+      |                                                     1
+......
+   35 |       subroutine f2pywrap_linalg_determinant_3x3_real (determinant_3x3_r&
+      |                                                     2
+Warning: Rank mismatch in argument 'determinant_3x3_real' (0/2) between (1) and (2)
+/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90:19:50:
+
+   19 |       subroutine f2pywrap_linalg_frobnorm_3x3_real (frobnorm_3x3_realf2p&
+      |                                                  1
+......
+   47 |       subroutine f2pywrap_linalg_frobnorm_3x3_real (frobnorm_3x3_realf2p&
+      |                                                  2
+Warning: Rank mismatch in argument 'frobnorm_3x3_real' (0/2) between (1) and (2)
+/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90:26:42:
+
+   26 |       subroutine f2pywrap_linalg_matinv3x3 (matinv3x3f2pywrap, a)
+      |                                          1
+......
+   53 |       subroutine f2pywrap_linalg_matinv3x3 (matinv3x3f2pywrap, matinv3x3&
+      |                                          2
+Warning: 'f2pywrap_linalg_matinv3x3' has the wrong number of arguments between (1) and (2)
+/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90:12:47:
+
+   12 |       subroutine f2pywrap_linalg_trace_3x3_real (trace_3x3_realf2pywrap,&
+      |                                               1
+......
+   41 |       subroutine f2pywrap_linalg_trace_3x3_real (trace_3x3_realf2pywrap,&
+      |                                               2
+Warning: Rank mismatch in argument 'trace_3x3_real' (0/2) between (1) and (2)
+/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90:98:55:
+
+   98 |       subroutine f2pywrap_supercell_find_lattice_points (find_lattice_po&
+      |                                                       1
+......
+  171 |       subroutine f2pywrap_supercell_find_lattice_points (find_lattice_po&
+      |                                                       2
+Warning: Shape mismatch in dimension 2 of argument 'find_lattice_points' between (1) and (2)
+/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90:83:53:
+
+   83 |       subroutine f2pywrap_supercell_find_optimal_cell (find_optimal_cell&
+      |                                                     1
+......
+  158 |       subroutine f2pywrap_supercell_find_optimal_cell (find_optimal_cell&
+      |                                                     2
+Warning: Type mismatch in argument 'find_optimal_cell' (INTEGER(4)/REAL(8)) between (1) and (2)
+/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90:66:46:
+
+   66 |       subroutine f2pywrap_supercell_fractional (fractionalf2pywrap, pos,&
+      |                                              1
+......
+  143 |       subroutine f2pywrap_supercell_fractional (fractionalf2pywrap, frac&
+      |                                              2
+Warning: Shape mismatch in dimension 2 of argument 'pos' between (1) and (2)
+/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90:74:49:
+
+   74 |       subroutine f2pywrap_supercell_get_deviation (get_deviationf2pywrap&
+      |                                                 1
+......
+  150 |       subroutine f2pywrap_supercell_get_deviation (get_deviationf2pywrap&
+      |                                                 2
+Warning: Rank mismatch in argument 'get_deviation' (0/2) between (1) and (2)
+/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.f90:111:57:
+
+  111 |       subroutine f2pywrap_supercell_remap_force_constants (remap_force_c&
+      |                                                         1
+......
+  182 |       subroutine f2pywrap_supercell_remap_force_constants (remap_force_c&
+      |                                                         2
+Warning: Rank mismatch in argument 'remap_force_constants' (4/2) between (1) and (2)
+/opt/homebrew/bin/gfortran -Wall -g -Wall -g -undefined dynamic_lookup -bundle /tmp/tmpu8_118y4/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercellmodule.o /tmp/tmpu8_118y4/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/fortranobject.o /tmp/tmpu8_118y4/linalg.o /tmp/tmpu8_118y4/supercell.o /tmp/tmpu8_118y4/tmp/tmpu8_118y4/src.macosx-11.0-arm64-3.9/supercell-f2pywrappers2.o -L/opt/homebrew/Cellar/gcc/11.3.0/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11 -L/opt/homebrew/Cellar/gcc/11.3.0/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -L/opt/homebrew/Cellar/gcc/11.3.0/bin/../lib/gcc/11/gcc/aarch64-apple-darwin21/11/../../.. -lgfortran -o ./supercell.cpython-39-darwin.so
+ld: warning: dylib (/opt/homebrew/Cellar/gcc/11.3.0/lib/gcc/11/libgfortran.dylib) was built for newer macOS version (12.2) than being linked (11.0)
+Removing build directory /tmp/tmpu8_118y4
