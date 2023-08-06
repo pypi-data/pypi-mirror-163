@@ -1,0 +1,7 @@
+dep_mongo/__init__.py,sha256=Zy1BCeJyRKdNKKBcFtnLpPqkKNYmmo1jCoKptLmlzwM,2552
+pyproject.toml,sha256=sY4VxjOIEvl3DJGP-FdUI4X3AlBbzIInEdKeU6mkQ9s,458
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_dep_plugin_mongo.py,sha256=wTrWJCRQH7ffJuvqR2FwWOWcOJpmhPZjmUDW8nNwxG4,97
+dep_module_mongo-0.3.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dep_module_mongo-0.3.1.dist-info/METADATA,sha256=WdmHJIa7kqoWexMtGHrpEz_vwLET1UtVFoyqzpSDX_w,375
+dep_module_mongo-0.3.1.dist-info/RECORD,,
