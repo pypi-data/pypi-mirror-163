@@ -1,0 +1,11 @@
+Metadata-Version: 1.0
+Name: pytocpp
+Version: 0.1
+Summary: Convert Python Code To C++ Code
+Home-page: https://github.com/savirsingh/pytocpp
+Author: Savir Singh
+Author-email: kopichiki@gmail.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: py to cpp,pytocpp,python to c++
+Platform: UNKNOWN
