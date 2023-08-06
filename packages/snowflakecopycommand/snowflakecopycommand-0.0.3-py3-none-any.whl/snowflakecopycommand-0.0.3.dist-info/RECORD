@@ -1,0 +1,12 @@
+snowflakecopycommand/__init__.py,sha256=KFz9I4Wg1PNLHb8CwUnCdjXTrz97PD-ofo6nBjWFsLs,620
+snowflakecopycommand/bases.py,sha256=KnmyaFynv7QYI8sXqb9g2Xk3odTemVYokA9qYUKGn2Q,486
+snowflakecopycommand/copy_command.py,sha256=90DJErVMIS4nbzxBqkYG5i06QYn-kJGN9XIDMRH-6Ks,3698
+snowflakecopycommand/copy_options.py,sha256=wwfFIjDJIA6YfxUbhX0yiYmzteOlnYN0g1gHCEcxfnw,1410
+snowflakecopycommand/enums.py,sha256=4PCWCAI2vvv4Eaz1ZL9TsxdcMpfBZt8jJv3JM7iJ8Yg,1275
+snowflakecopycommand/exceptions.py,sha256=MyrgyigQy86HVo5aDeCaZg_Ct8a3Db7qiQaQnA6t3R8,137
+snowflakecopycommand/file_format.py,sha256=YyxkqSv0X0T0ip0jAaH9HLnUsKTGyuDfdOcBEfFziMI,5011
+snowflakecopycommand/locations.py,sha256=6pcIfJLLByxUS4lVp9G22WxScZEx-2wVBUsGk7Ou7vU,2272
+snowflakecopycommand/table.py,sha256=gHOBWe7L5GcpHbj6vHiznbem3Sq92BNnR4Btc9Z3f4I,838
+snowflakecopycommand-0.0.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+snowflakecopycommand-0.0.3.dist-info/METADATA,sha256=M4qnLchRMp2BUweNWTSxK9kB5I4tF_v5KzprG3_3bi0,293
+snowflakecopycommand-0.0.3.dist-info/RECORD,,
