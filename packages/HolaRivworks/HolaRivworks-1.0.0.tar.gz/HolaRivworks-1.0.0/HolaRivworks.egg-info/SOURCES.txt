@@ -1,0 +1,8 @@
+setup.py
+HolaRivworks/__init__.py
+HolaRivworks/main.py
+HolaRivworks.egg-info/PKG-INFO
+HolaRivworks.egg-info/SOURCES.txt
+HolaRivworks.egg-info/dependency_links.txt
+HolaRivworks.egg-info/entry_points.txt
+HolaRivworks.egg-info/top_level.txt
