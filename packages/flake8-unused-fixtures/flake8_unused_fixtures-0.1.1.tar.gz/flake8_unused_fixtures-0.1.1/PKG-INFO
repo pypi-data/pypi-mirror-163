@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: flake8-unused-fixtures
+Version: 0.1.1
+Summary: Warn about unnecesary fixtures in tests definition.
+Home-page: https://github.com/MarcinBinkowski/flake8_unused_fixtures
+License: BSD-2-Clause
+Keywords: flake8,lint
+Author: Marcin Binkowski
+Author-email: binq661@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: astpretty (>=3.0.0,<4.0.0)
+Requires-Dist: flake8 (>=5.0.4,<6.0.0)
+Project-URL: Repository, https://github.com/MarcinBinkowski/flake8_unused_fixtures
