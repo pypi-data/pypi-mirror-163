@@ -1,0 +1,15 @@
+django_rrweb/__init__.py,sha256=wBsF7D5vlDhqtIbVV1E_p0RqXW4aLztwQW65tgArGTM,160
+django_rrweb/admin.py,sha256=BdOqIwJQuRDNrPT6cYxb271IgvddLw8YISduDwB6QgM,4742
+django_rrweb/models.py,sha256=i5eRkyZcURB4h4X8vg2UtXVG7r6G9yrMJKu4v2SP83M,1819
+django_rrweb/urls.py,sha256=1I6ulPeTB3Y6gN_c3TiPEm7yXN4wtj0GOv3zXRTQgc0,325
+django_rrweb/views.py,sha256=SqH0bRFafM6bJbdx_TZWJEduwdosXVWUi_PMxEA__Jc,1097
+django_rrweb/static/django-rrweb/rrweb-player-0-7-14-style.css,sha256=Gu_1A_X_A3IFN8tcy5DAVffoS5wvyaXq4ieWQ9FI_Nc,4896
+django_rrweb/static/django-rrweb/rrweb-player-0-7-14.js,sha256=ufHf-ug9UFeR1RqtBnhaW4qsW3DBZrOJmbIg6TM93oQ,91462
+django_rrweb/static/django-rrweb/rrweb-record-1-1-3.js,sha256=DcunDlkXRgpBhCBKTdkb7FHO_tppxuciXq7qD4Nt2Qc,51724
+django_rrweb/templates/django-rrweb/record-script.js,sha256=3iC2NOBZW5Sh1x9U4T4NukQ7IhlgpMp7SAD8Zp58NlI,781
+django_rrweb/templates/django-rrweb/session-replay.html,sha256=0pA3b2y_zO4XfClzNhLSnNhWv71M3BuPt0w5-MSvoi0,1600
+django_rrweb-3.3.1.dist-info/LICENSE,sha256=HXl69bZNbMGr3E6nNJ0iLyutb83p7DYVrs8GcNz7luo,554
+django_rrweb-3.3.1.dist-info/METADATA,sha256=bddz6qtP895TVkWAMBH11ldDAGTnQc7aDHnNybB1N5I,3121
+django_rrweb-3.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_rrweb-3.3.1.dist-info/top_level.txt,sha256=HV4JiNqz6f3U6i9zVDHw-Z-SnGTsWbtRaoqLvFm06Xc,13
+django_rrweb-3.3.1.dist-info/RECORD,,
