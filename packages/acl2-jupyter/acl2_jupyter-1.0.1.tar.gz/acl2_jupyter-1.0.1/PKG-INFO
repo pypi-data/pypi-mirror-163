@@ -1,0 +1,17 @@
+Metadata-Version: 1.1
+Name: acl2_jupyter
+Version: 1.0.1
+Summary: Jupyter Kernel for ACL2
+Home-page: https://github.com/rubengamboa/acl2_jupyter
+Author: Ruben Gamboa
+Author-email: ruben@uwyo.edu
+License: bsd-3-clause
+Download-URL: https://github.com/rubengamboa/acl2_jupyter/archive/v1_0.1.zip
+Description: This package allows you to connect an ACL2 process running with the ACL2 Bridge to a Jupyter notebook server.
+Keywords: ACL2,theorem proving,verification
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Education
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Programming Language :: Python :: 3.8
