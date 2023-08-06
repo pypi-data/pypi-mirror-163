@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+mutwo.mbrola.egg-info/PKG-INFO
+mutwo.mbrola.egg-info/SOURCES.txt
+mutwo.mbrola.egg-info/dependency_links.txt
+mutwo.mbrola.egg-info/requires.txt
+mutwo.mbrola.egg-info/top_level.txt
+mutwo/mbrola_converters/__init__.py
+mutwo/mbrola_converters/mbrola.py
+mutwo/mbrola_version/__init__.py
