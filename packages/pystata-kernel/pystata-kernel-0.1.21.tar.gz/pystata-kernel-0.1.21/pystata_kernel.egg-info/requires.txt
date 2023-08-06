@@ -1,0 +1,4 @@
+jupyter-client
+ipython
+ipykernel
+packaging
