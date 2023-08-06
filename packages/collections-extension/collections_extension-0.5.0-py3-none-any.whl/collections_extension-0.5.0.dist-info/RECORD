@@ -1,0 +1,11 @@
+collections_extension/__init__.py,sha256=XXuqw5wGNqvgjkdiiGaCa8iFA4vsNoGPoj0pTP3apUY,73
+collections_extension/exception.py,sha256=kxc6lMsIF42mQqMkgwTP7O3T_PgtG0ZDn4_RALTUF9o,1584
+collections_extension/native.py,sha256=SKkO7-LuIHvVk8QjcLUYZKYvfdCdftf3JXpuoyEy9wI,3685
+collections_extension/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+collections_extension/sqlalchemy/__init__.py,sha256=gjgXKkN6_W0hpygZSqWrWTdrNztvXoFY1q5emPtknoo,43
+collections_extension/sqlalchemy/model.py,sha256=tIJ5BdtuK1HydPMNW2n47leC12eL3wXosYyZGBOoZ6c,1376
+collections_extension/sqlalchemy/schema.py,sha256=IlU9jNKS1goN37LNiIsgEtZTLD4pKPIfTsy9xbr7bUw,2583
+collections_extension-0.5.0.dist-info/LICENSE.txt,sha256=fOFTXh_zBd051kG8VfcMKHGRrcAWwF2bD1uyJhHr6iE,1052
+collections_extension-0.5.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+collections_extension-0.5.0.dist-info/METADATA,sha256=Ecjt0fOSJGtdNswLe4Cq1QmS9l3em8mB040iRzijNyE,5709
+collections_extension-0.5.0.dist-info/RECORD,,

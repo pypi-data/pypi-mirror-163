@@ -1,0 +1,178 @@
+Metadata-Version: 2.1
+Name: collections-extension
+Version: 0.5.0
+Summary: Extra core collecions package additionals.
+Home-page: https://bitbucket.org/bfg-soft/collections_extension
+License: MIT
+Author: BFG-Soft LLC
+Author-email: info@bfg-soft.ru
+Maintainer: Vladimir V. Pivovarov
+Maintainer-email: pvv@bfg-soft.ru
+Requires-Python: >=3.8,<4.0
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Typing :: Typed
+Provides-Extra: marshmallow-sqlalchemy
+Provides-Extra: sqlalchemy
+Requires-Dist: SQLAlchemy (>=1.4.0,<2.0.0); extra == "sqlalchemy" or extra == "marshmallow-sqlalchemy"
+Requires-Dist: marshmallow (>=3.0.0,<4.0.0); extra == "marshmallow-sqlalchemy"
+Requires-Dist: marshmallow-sqlalchemy (>=0.28.1,<0.29.0); extra == "marshmallow-sqlalchemy"
+Project-URL: Repository, https://bitbucket.org/bfg-soft/collections_extension
+Description-Content-Type: text/markdown
+
+# Some extra python data containers (extra collections).
+
+This project extends python\`s core library `collections` module.
+ 
+
+## Getting started.
+
+### Installation.
+
+We have no pypi account yet and we have no private pypi repository.
+So, you should install this package as usual with `pip` package manager in 
+virtualenv or just globally from source:
+```bash
+pip install git+https://bitbucket.org/bfg-soft/collections_extension.git
+```
+If you want to install specific version or branch, you should execute:
+```bash
+pip install git+https://bitbucket.org/bfg-soft/collections_extension.git@v0.1.0
+```
+
+
+### Content.
+
+#### Native-like containers.
+
+As we know, it is not recommended to inherit your own types from python\`s 
+core types like `dict` or `tuple`.
+This package provides some native-like types, such as:
+
+ * `Tuple` - `tuple`-like container for user types (immutable),
+ * `List` - `list`-like container for user types (mutable),
+ * `Dict` - `dict`-like container for user types (mutable),
+ * `Map` - `MappingProxyType`-like (`dict` without mutability) container for user 
+ types (immutable),
+ * `Set` - `set`-like container for user types (mutable)
+ 
+ 
+#### Exception map container.
+
+Container implements map of exception classes with inheritance check during 
+searching key in map. For example, we have ``ExceptionMap``:
+
+```python
+from collections_extension import ExceptionMap
+
+m = ExceptionMap({ValueError: 'somevalue'})
+```
+
+Imagine, that we catch `UnicodeError` somewere in program and we want to 
+process it. Our processing is based on defined ``ExceptionMap`` `m` and we 
+want to know what value we should send futher to the program runtime.
+
+```python
+from collections_extension import ExceptionMap
+
+m = ExceptionMap({ValueError: 'somevalue'})
+
+...
+
+
+def somefn():
+ try:
+  ...
+
+ except UnicodeError:
+  value = m[UnicodeError]
+
+ except TypeError:
+  value = m.get(TypeError)
+  if value is None:
+   raise
+
+ else:
+  value = None
+
+ return value
+```
+
+``ExceptionMap`` will search the hierarchy of key exception until it comes to 
+``Exception`` class. Only after that, map will raise ``KeyError`` exception.
+
+Our map doesn\`t contain ``UnicodeError`` key, but it contains 
+``ValueError``. We know, that ``UnicodeError`` inherits ``ValueError`` 
+exception class, so `value` during handling ``UnicodeError`` will be 
+assigned to `somevalue` string.
+
+During handling of ``TypeError`` exception we use method `get` of 
+``ExceptionMap``. It doesn\`t raise any exception, like method of type 
+``dict`` and returns default value (second argument, that should be passing to 
+the method) or ``None``. 
+
+Becides that, ``ExceptionMap`` allow to defined `default_value` during it\`s 
+initialization like:
+
+```python
+from collections_extension import ExceptionMap
+
+m = ExceptionMap({ValueError: 'somevalue'}, default_value='not none')
+```
+
+It overrides default value ``None``, that will be returned when key does not 
+exist and not default value has been passed.
+
+
+#### Sqlalchemy declarative model map container.
+
+Container implements map of [sqlalchemy](https://sqlalchemy.org) declarative 
+meta classes as values and their tablenames as keys.
+
+For example, you have module `your_package.data.model` with sqlalchemy 
+declarative models.
+
+You can make map of declarative models withthis code:
+
+```python
+from collections_extension import SqlalchemyModelMap
+
+MODEL_MAP = SqlalchemyModelMap.from_module_name('your_package.data.model')
+```
+
+After that, you can find all declarative model classes in this map (if your 
+structured module correctly) by their tablename. For example 
+`MODEL_MAP['my_table']` will get you declarative model for `my_table` table.
+
+
+#### Sqlalchemy declarative model schema map container.
+
+Container implements map of 
+[marshmallow](https://github.com/marshmallow-code/marshmallow) schema 
+instances as values and tablenames of declarative model classes as keys.
+
+Each marshmallow schema creates with special library 
+[marshmallow-sqlalchemy](https://github.com/marshmallow-code/marshmallow-sqlalchemy),
+which inspects declarative model classes and makes schema class as a result.
+
+Typical usage:
+
+```python
+from collections_extension import SqlalchemyModelMap, SqlalchemyModelSchemaMap
+
+MODEL_MAP = SqlalchemyModelMap.from_module_name('your_package.data.model')
+MODEL_SCHEMA_MAP = SqlalchemyModelSchemaMap.from_sqlalchemy_model_map(MODEL_MAP)
+```
+
+
+## License.
+
+This project is licensed under the MIT License - see the 
+[LICENSE.txt](LICENSE.txt) file for details.
+
