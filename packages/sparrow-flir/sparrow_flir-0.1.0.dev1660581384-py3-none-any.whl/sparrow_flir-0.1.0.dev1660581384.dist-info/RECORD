@@ -1,0 +1,7 @@
+sparrow_flir/__init__.py,sha256=Ad2SnGSWKbwcz07LNKov2QCjeUIpkJjOiHq4Bs0OSYI,48
+sparrow_flir/thermal_extractor.py,sha256=uOemOw94sbOlyzmJI3ybkd4lEGUJv1XzwcQ-1joRZaY,6460
+sparrow_flir/thermal_extractor_test.py,sha256=2SRJn3XA8kUYWms5KZfdrmRPuDZevG88vn2e7cTx2NE,300
+sparrow_flir-0.1.0.dev1660581384.dist-info/LICENSE,sha256=ogEPNDSH0_dhiv_lT3ifVIdgIzHAqNA_SemnxUfPBJk,7048
+sparrow_flir-0.1.0.dev1660581384.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+sparrow_flir-0.1.0.dev1660581384.dist-info/METADATA,sha256=WEYQbAKOUSGO137s8nPN7U-pD4Cd8tyYeeyDYyBdnQk,536
+sparrow_flir-0.1.0.dev1660581384.dist-info/RECORD,,
