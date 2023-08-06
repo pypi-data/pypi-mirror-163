@@ -1,0 +1,77 @@
+# Site configurations
+site:
+
+    # Site title
+    title: Baicaoyuan
+
+    # Site logo
+    # logo: /path/to/your/site/logo
+
+    # Site cover
+    # cover: /path/to/your/site/cover
+
+    # Base url
+    # url: https://xxx.github.io
+
+    # Description
+    description: Yet another site powered by Baicaoyuan
+
+# Author configurations
+author:
+
+    # Author name
+    name: Your Name
+
+    # Author avatar url
+    # avatar: /path/to/your/avatar
+
+    # Author url
+    # url: /posts/about.html
+
+    # Author bio
+    # bio: your bio
+
+    # Author location
+    # location: Beijing, China
+
+
+# Path configurations
+# path:
+    # Draft path
+    # draft: drafts
+
+    # Post url template
+    # post: posts/{slug}.html
+
+    # Tag url template
+    # tag: tags/{title}/
+
+    # Pagination url template
+    # pagination: page/{num}/
+
+    # Archive url
+    # archive: archive.html
+
+    # Sitemap url
+    # sitemap: sitemap.xml
+
+    # RSS url
+    # rss: rss.xml
+
+    # Assert files url
+    # asset: /assets/
+
+# Whether to create sitemap or not
+# sitemap: True
+
+# Whether to create rss or not
+# rss: True
+
+# Whether to create archive page
+# archive: True
+
+# Theme name or path
+# theme: default
+
+# How many posts each page.
+# pagination: 10
