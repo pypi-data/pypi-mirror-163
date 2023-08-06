@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: th2_grpc_read_db
+Version: 0.0.1.dev2861425751
+Summary: th2_grpc_read_db
+Home-page: https://github.com/th2-net/th2-read-db
+Author: TH2-devs
+Author-email: th2-devs@exactprosystems.com
+License: Apache License 2.0
+Description: # th2-read-db
+        The read-db is a component for extracting data from databases using JDBC technology. If database has JDBC driver the read can work with the database
+        
+Platform: UNKNOWN
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
