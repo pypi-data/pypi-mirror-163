@@ -1,0 +1,14 @@
+pregex/__init__.py,sha256=W4UPBmnicRxmwZMCl4m_SxrQ5qgCn8Td_20_VaXI9q8,248
+pregex/assertions.py,sha256=XvqGEJjDa89RtASJ8kG3eQDce7Dg8u2Or_jp_HYEf54,14515
+pregex/classes.py,sha256=cbdIdLe103mt9TcjfR4j76wc9WprWBLLCRt6k9qJ5Yg,47004
+pregex/exceptions.py,sha256=t4VUMxHTH2KmyxFDg5GePNwtehpSGUwZ-DhmomJpX7Y,10205
+pregex/groups.py,sha256=Ibd6vO46ZzzT_h9iiS9LPgJMH6GsdJx2tnta6Ryih3g,10968
+pregex/operators.py,sha256=dA2SCI5OTKqvg4kgu3aSmqZ3TMVYLRBVqIPxCDdxmLA,3843
+pregex/pre.py,sha256=8oeU-9CELj7tVERX-BCcq1kICKouxNXfYRPfXjwW_qM,42935
+pregex/quantifiers.py,sha256=DdtDL9LCS1JE1nP8gLgLORF9KFmy2KrOuOmxFcVOQOM,16192
+pregex/tokens.py,sha256=DlBHa77nYLvTUidXj4HmV5BBlXDq1HoePYvMkHrB25E,5779
+pregex-1.5.4.dist-info/LICENSE,sha256=fDsAjkvD7I0OdvphEwChXc9t2nwVh0SYF9-DvB7uu6I,1094
+pregex-1.5.4.dist-info/METADATA,sha256=8zbCt4zqH4D86N-nJRNwSE2rTm5nZbfWYqFKyu7ASvc,6056
+pregex-1.5.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pregex-1.5.4.dist-info/top_level.txt,sha256=s1O8mov59SfEgju6DJvi7FjuOTjmm6uJjuZ5nfNZVO8,7
+pregex-1.5.4.dist-info/RECORD,,
