@@ -1,0 +1,5 @@
+setup.py
+kusozako_text_multiplication.egg-info/PKG-INFO
+kusozako_text_multiplication.egg-info/SOURCES.txt
+kusozako_text_multiplication.egg-info/dependency_links.txt
+kusozako_text_multiplication.egg-info/top_level.txt
