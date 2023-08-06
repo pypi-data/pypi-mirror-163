@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: a-bigelow.cdk-eventbridge-partner-processors
+Version: 0.0.4
+Summary: cdk-eventbridge-partner-processors
+Home-page: https://github.com/a-bigelow/cdk-eventbridge-partner-processors.git
+Author: a-bigelow<adam@adambigelow.com>
+License: Apache-2.0
+Project-URL: Source, https://github.com/a-bigelow/cdk-eventbridge-partner-processors.git
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: JavaScript
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Typing :: Typed
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: License :: OSI Approved
+Requires-Python: ~=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Eventbridge SaaS Partner fURLs
+
+This CDK Construct library provides CDK constructs for the 1st-party (i.e. developed by AWS) lambda fURL webhook receivers for:
+
+* GitHub
+* Stripe (TODO)
+* Twilio (TODO)
+
+See [here](https://docs.aws.amazon.com/eventbridge/latest/userguide/eb-saas-furls.html) for additional information.
+
+
