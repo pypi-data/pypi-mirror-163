@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: s2-wrapper
+Version: 0.1.0
+Summary: A wrapper for the Semantic Scholar API
+License: MIT
+Author: Gabriel Martín Blázquez
+Author-email: gmartinbdev@gmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: pydantic (>=1.9.2,<2.0.0)
