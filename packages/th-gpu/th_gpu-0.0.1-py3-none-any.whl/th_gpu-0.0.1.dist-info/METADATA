@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: th-gpu
+Version: 0.0.1
+Summary: th-gpu
+Author: ssbuild
+Author-email: 9727464@qq.com
+Requires-Python: >=3.6.0
+
