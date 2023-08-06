@@ -1,0 +1,110 @@
+Metadata-Version: 2.1
+Name: cndprint
+Version: 0.1.2
+Summary: The definitive tools to print pretty error log message
+Home-page: https://changendevops.com
+Author: Denis FABIEN
+Author-email: denis.fabien@changendevops.com
+License: MIT/X11
+Project-URL: Documentation, https://changendevops.com
+Project-URL: Source, https://gitlab.com/changendevops/cndversion
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# CndPrint
+
+CndPrint is a simple and elegant log display library. It allow you from one place to display more or less log message.
+
+```python
+>>>> import cndprint
+>>>> cnd_print = CndPrint()
+>>>> cnd_print.log_e("Hello")
+25/07/2022 22:59:54#|#Hello
+```
+
+## instanciate the class
+### uuid
+UUID will be display in beginning of each log message (after date). It can allow you to identify a unique run ID (very usefull if you use a log agregator)
+
+### level
+Switch to log, info or trace to display more or less message
+
+### silent mode
+use this for example in automated testing mode, when you don't need any message
+
+## Multiple event familly with color
+
+You can use 5 event familly :
+- e : Usually use for **E**rror (red)
+- s : Any **S**uccess event (green)
+- d : Use when i decide to go **D**own into a method(blue)
+- c : Use when you **C**all another method (cyan)
+- v : use for warning of simply **V**erbose (yellow)
+
+Some exemple :
+```python
+>>>> import cndprint
+>>>> cnd_print = CndPrint()
+cnd_print.log_e("You failed ! that's not good !")
+cnd_print.log_s("You got it baby !")
+cnd_print.log_d("Start looping into for")
+cnd_print.log_c("Now calling sub method")
+cnd_print.log_v("what the waether today ?")
+```
+
+## Multiple level for printing
+
+You can define 3 level for log filtering : 'trace', 'log', 'info'
+
+
+trace error can be identify with trace_
+trace display trace, log and info
+log display log and info
+info display only info
+
+By default Info is actif, to use another level simplye use this
+
+### level=log (default)
+```python
+import cndprint
+cnd_print = CndPrint()
+cnd_print.log_e("Hello Log")
+cnd_print.info_e("Hello Info")
+cnd_print.trace_e("Hello Trace")
+```
+will result in this
+```bash
+25/07/2022 22:59:54#|#Hello Log
+```
+### level=info
+But the same code, if you just replace
+```python
+import cndprint
+cnd_print = CndPrint(level='info')
+cnd_print.log_e("Hello Log")
+cnd_print.info_e("Hello Info")
+cnd_print.trace_e("Hello Trace")
+```
+the print is now
+```bash
+25/07/2022 22:59:54#|#Hello Log
+25/07/2022 22:59:54#|#Hello Info
+```
+
+
+### level=trace
+But the same code, if you just replace
+```python
+import cndprint
+cnd_print = CndPrint(level='trace')
+cnd_print.log_e("Hello Log")
+cnd_print.info_e("Hello Info")
+cnd_print.trace_e("Hello Trace")
+```
+the print is now
+```bash
+25/07/2022 22:59:54#|#Hello Log
+25/07/2022 22:59:54#|#Hello Info
+25/07/2022 22:59:54#|#Hello Trace
+```
