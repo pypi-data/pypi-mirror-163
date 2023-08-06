@@ -1,0 +1,2 @@
+[covalent.executor.executor_plugins]
+awsbatch = covalent_awsbatch_plugin.awsbatch
