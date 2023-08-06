@@ -1,0 +1,11 @@
+fsspec_xrootd/__init__.py,sha256=35jzICnqnW5WdvGms_STk3u5FFJUKlIl_JcltybL_RM,306
+fsspec_xrootd/_version.py,sha256=F4OaytDPTe_UhnRxWr5M85fOkPtvP11Guus85TlgY6M,176
+fsspec_xrootd/_version.pyi,sha256=j5kbzfm6lOn8BzASXWjGIA1yT0OlHTWqlbyZ8Si_o0E,118
+fsspec_xrootd/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+fsspec_xrootd/xrootd.py,sha256=KHD6UODLNog0Pi0Vep5_NZUtth0C5fXnYC8OyKoOp4M,25195
+fsspec_xrootd-0.2.1.dist-info/LICENSE,sha256=X3qCub9uW7eD98fT-PLR30VCrp4T2uazKpzBLQVCgOk,1524
+fsspec_xrootd-0.2.1.dist-info/METADATA,sha256=Y4iGy0vXMfCSvrBRWmJ43Xwpxe4MkpPRQsJMXnSVqgA,4156
+fsspec_xrootd-0.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fsspec_xrootd-0.2.1.dist-info/entry_points.txt,sha256=6Vup5oAiKnKi7hlecqjFzbW4PAP8ESIIWPtt99CDL3A,53
+fsspec_xrootd-0.2.1.dist-info/top_level.txt,sha256=EMYsi3sT_CP6LckfFCeKQTt1fNVi9q-sZGvKWdh9Yhw,14
+fsspec_xrootd-0.2.1.dist-info/RECORD,,
