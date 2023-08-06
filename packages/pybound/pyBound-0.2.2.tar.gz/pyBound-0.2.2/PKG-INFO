@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: pybound
+Version: 0.2.2
+Summary: pyBound is a collection of useful functions that can be used in many situations in python files.
+Author: Xhaiden D'Souza
+Author-email: xhaidendsouza@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
