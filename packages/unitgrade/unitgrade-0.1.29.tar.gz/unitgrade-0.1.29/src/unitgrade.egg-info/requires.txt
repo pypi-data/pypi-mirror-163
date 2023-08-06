@@ -1,0 +1,8 @@
+numpy
+tabulate
+pyfiglet
+coverage
+colorama
+tqdm
+importnb
+requests
