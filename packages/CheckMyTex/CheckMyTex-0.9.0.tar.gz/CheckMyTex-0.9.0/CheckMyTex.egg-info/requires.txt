@@ -1,0 +1,4 @@
+pyspellchecker
+flachtex>=0.3.2
+yalafi
+proselint
