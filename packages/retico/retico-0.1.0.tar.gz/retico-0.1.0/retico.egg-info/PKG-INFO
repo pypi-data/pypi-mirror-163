@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: retico
+Version: 0.1.0
+Summary: Retico is an open source framework for building state-of-the-art incremental processing systems.
+Home-page: https://github.com/retico-team/retico
+Download-URL: https://github.com/retico-team/retico
+Author: Thilo Michael
+Author-email: uhlomuhlo@gmail.com
+Keywords: retico,framework,incremental,dialogue,dialog,asr,speech
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.6, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# retico
+
+Retico is an open-source framework for building state-of-the-art incremental processing
+systems. 
