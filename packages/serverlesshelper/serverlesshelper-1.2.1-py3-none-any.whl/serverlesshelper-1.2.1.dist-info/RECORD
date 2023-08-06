@@ -1,0 +1,9 @@
+serverlesshelper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+serverlesshelper/creds.py,sha256=2Xs5Utw5bovPkRGLn7fCFAx-pzVCKOI8MVTflXKBylY,1453
+serverlesshelper/deploy.py,sha256=41qUllzjo1D0MXO1_Ga5BE8-QpYo1OWRp7SRGUM-OAU,2376
+serverlesshelper/logs.py,sha256=3VlzVp7AuoW6IBEVrPfs5TprPz-SYng2RmQ10T37NFs,2065
+serverlesshelper-1.2.1.dist-info/METADATA,sha256=qkE91O41dHjFMUhfujp_a2QomvEchqD5UeWv4Ns1EEU,528
+serverlesshelper-1.2.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+serverlesshelper-1.2.1.dist-info/entry_points.txt,sha256=zhE3ebB971nmxL2TIM_Xb6oDn8V-VxeB_ZByQoRDbUM,130
+serverlesshelper-1.2.1.dist-info/top_level.txt,sha256=V3qV2ES5AYEAmiqh8o-jtaC771A4yiAD3IJwv2zNcG4,17
+serverlesshelper-1.2.1.dist-info/RECORD,,
