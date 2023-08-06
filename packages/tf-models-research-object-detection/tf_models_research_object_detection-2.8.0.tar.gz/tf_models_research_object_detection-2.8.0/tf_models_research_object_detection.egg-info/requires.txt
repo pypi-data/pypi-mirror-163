@@ -1,0 +1,15 @@
+pillow
+lxml
+matplotlib
+Cython
+contextlib2
+tf-slim
+six
+pycocotools
+lvis
+scipy
+pandas
+tf-models-official>=2.5.1
+tensorflow_io
+keras
+pyparsing==2.4.7
