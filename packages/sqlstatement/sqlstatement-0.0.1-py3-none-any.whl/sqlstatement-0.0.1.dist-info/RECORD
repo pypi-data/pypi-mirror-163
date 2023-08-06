@@ -1,0 +1,9 @@
+sqlstatement/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sqlstatement/sql.py,sha256=N9ze0xN5Bv3oTlI9JoPui4rz8FBIFPY7dLvlPHP1-Eo,14223
+sqlstatement/sqlactions.py,sha256=091mhRSHWjG4Sd1Ejh187sur1EV-2mriwwfWvrsMsEE,869
+sqlstatement/sqlentities.py,sha256=YRFfoJHXLXlseDFhH51u4GRF633RGl5h5Gc-EaUy4cc,2471
+sqlstatement/sqlparseutils.py,sha256=vqfPv-14SPbLpLg6zV49yVTvv6RvvPYeYpQUEiv_314,4966
+sqlstatement-0.0.1.dist-info/METADATA,sha256=09x2ZtPa1GRAnVy7qmnFSAmRDe1G9ZXQvWpKjff6pKs,5391
+sqlstatement-0.0.1.dist-info/WHEEL,sha256=3DSmSyYE1SDERO2-rI3qUbMVovBs7--ggc7mubOemsc,86
+sqlstatement-0.0.1.dist-info/licenses/LICENSE,sha256=d0gWVyHmJpMFiVXRKWuXEhajfn63jiThVVCK9JJ-o0o,1513
+sqlstatement-0.0.1.dist-info/RECORD,,
