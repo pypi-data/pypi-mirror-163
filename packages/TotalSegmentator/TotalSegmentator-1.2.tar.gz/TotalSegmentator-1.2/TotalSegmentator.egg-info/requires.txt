@@ -1,0 +1,10 @@
+numpy
+psutil
+SimpleITK==2.0.2
+nibabel>=2.3.0
+tqdm
+p_tqdm
+xvfbwrapper
+fury
+batchgenerators==0.21
+nnunet-customized
