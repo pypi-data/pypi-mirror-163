@@ -1,0 +1,11 @@
+jsonnotate/__init__.py,sha256=IUnuPmQV0yaqpgGOZug1d1XexaWGjVMsOaYc9VeGL3U,246
+jsonnotate/attributes.py,sha256=28toj-GWeDaCfnA0wx5Q7tLe57j5LqQZIjIhEGlJmWM,1813
+jsonnotate/mypy_plugin.py,sha256=A6kNzL-DzOu7MS7JyO0xecirt6_MSs_zwVXIa5pPHmI,323
+jsonnotate/protocol.py,sha256=Ue_0iJgEjx89HMu1wcTucnfRMu_S0Zmlmbu07KYHuaI,303
+jsonnotate/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+jsonnotate/rfc3339.py,sha256=_lf2jIbWZD7urcEx9lcmF6Klx94vIZvbnk7CLXpr-rk,1971
+jsonnotate/schema.py,sha256=-lVkw2FJC76nFTYpp79F-77GGZWpyd32gxe4smTQPwA,4548
+jsonnotate/serialisation.py,sha256=1NqeamjKCvsag0OOjtWZSh0v9XrpabvOWPwHp0LEMLU,2780
+jsonnotate-0.1.6.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+jsonnotate-0.1.6.dist-info/METADATA,sha256=fVQLOCkJsiGkuTZgBAfTUVG10AabQoT18mdwefONr38,350
+jsonnotate-0.1.6.dist-info/RECORD,,
