@@ -1,0 +1,13 @@
+README.md
+setup.py
+dissect_site/__init__.py
+dissect_site/__main__.py
+dissect_site/dissect_site.py
+dissect_site.egg-info/PKG-INFO
+dissect_site.egg-info/SOURCES.txt
+dissect_site.egg-info/dependency_links.txt
+dissect_site.egg-info/entry_points.txt
+dissect_site.egg-info/requires.txt
+dissect_site.egg-info/top_level.txt
+dissect_site/tests/__init__.py
+dissect_site/tests/test_dissect_site.py

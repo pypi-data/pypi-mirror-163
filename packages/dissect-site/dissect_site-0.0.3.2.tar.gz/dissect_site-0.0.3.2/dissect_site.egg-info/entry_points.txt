@@ -1,0 +1,2 @@
+[console_scripts]
+dissect_site = dissect_site.__main__:main
