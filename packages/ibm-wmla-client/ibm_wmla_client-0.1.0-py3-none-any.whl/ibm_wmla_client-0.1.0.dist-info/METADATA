@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ibm-wmla-client
+Version: 0.1.0
+Summary: A python based client to simplify using Watson Machine Learning Accelerator
+Author: Shuang Yu
+Author-email: shuang.yu@ibm.com
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: ibm-cloud-sdk-core (>=3.15.3,<4.0.0)
+Requires-Dist: python_dateutil (>=2.5.3,<3.0.0)
+Requires-Dist: requests (>=2.20,<3.0)
