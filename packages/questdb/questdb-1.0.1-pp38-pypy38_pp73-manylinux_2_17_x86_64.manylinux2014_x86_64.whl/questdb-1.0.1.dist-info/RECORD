@@ -1,0 +1,11 @@
+questdb/ingress.pyx,sha256=bCOvwqGVt43e4-xLTs9eLi9r1bNmxJRWGTHx2t4dyVg,48145
+questdb/ingress.pypy38-pp73-x86_64-linux-gnu.so,sha256=JZoAvU4mndIdji_WOnnh8C5VdpzKEPqmnNPHNBq_V8Q,9382160
+questdb/line_sender.pxd,sha256=lqssxvufChIdGyy4Y2IFUc_J-9HNv21BhAMRC3KOzLo,7505
+questdb/ingress.html,sha256=qeWCQQHvGOZx4nUxyW9R365gf_goeMHfhz2zdEufqGs,551832
+questdb/ingress.c,sha256=7rNmWW_mI2to4brA_9DGSC5r2RJ9ZteNklewQWgoHjI,833564
+questdb/__init__.py,sha256=3KXfAcA5rzzQXMtfwpHphgbJNZdA0XWaW96kdWVSZJw,22
+questdb-1.0.1.dist-info/top_level.txt,sha256=HGuEvKvrA6CsAGIzg_BbIUwsy_YWi87tzsCvqcX1ajs,8
+questdb-1.0.1.dist-info/WHEEL,sha256=ew2YEZL4tYBu-7alY4_Jtys4Qo0IihLmNDA4uB16AP4,162
+questdb-1.0.1.dist-info/METADATA,sha256=WTSlQdY51BhwYqJ4Hu6C2QZLg8TFegwC_excBa6orR4,2920
+questdb-1.0.1.dist-info/RECORD,,
+questdb-1.0.1.dist-info/LICENSE.txt,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
