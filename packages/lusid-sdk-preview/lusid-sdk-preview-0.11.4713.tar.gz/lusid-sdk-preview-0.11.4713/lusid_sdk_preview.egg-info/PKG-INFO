@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: lusid-sdk-preview
+Version: 0.11.4713
+Summary: Python Preview SDK for LUSID API
+Home-page: https://github.com/finbourne/lusid-sdk-python-preview
+Author: FINBOURNE Technology
+Author-email: engineering@finbourne.com
+License: MIT
+Keywords: OpenAPI,FINBOURNE,LUSID,LUSID API
