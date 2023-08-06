@@ -1,0 +1,2 @@
+[console_scripts]
+salmorejo = salmorejo.__main__:main
