@@ -1,0 +1,16 @@
+fastreg/__init__.py,sha256=zfWhswpI26lQEW_ehO9QXM4ep6B7XA1_TgfO3omV_2o,525
+fastreg/formula.py,sha256=f1GmmUAQxyChOA6Ix8gldBrlqYheNCbF4pVbV4iDh3Q,22095
+fastreg/general.py,sha256=SE3o67QozrGX7vIQhCBGA9tUTru9zbKrsxqRtlg22Oo,13519
+fastreg/linear.py,sha256=xCPlAblNJUEqKBX0uaZHJALjn93ebuB7bJmz1019HUE,6186
+fastreg/meta.py,sha256=N3tMNrkPtYOhV-F8UKgONo1Rlb21Ka27UwqYxCOgVT8,197
+fastreg/summary.py,sha256=qlQybbh5yvl22lYbRYvBcvUGgv_RxzP5BBU5-o8uLBU,945
+fastreg/testing.py,sha256=WZmyyXo0CzFR4QDNce1yXmmuzxY9s3ocuY4B-tmJoYU,4204
+fastreg/tools.py,sha256=vzMH79Ezwyo9lGySQKB8bXizQWnlBYP7QTY-sC6agP0,6550
+fastreg/tests/conftest.py,sha256=rbw02jYBMAQ90xUblBjsAyBYG5eVTMqY0kMEZ6hycVk,206
+fastreg/tests/test_formula.py,sha256=gH0K9gKe1gC696Nlb2FkQHBMW-HWOi5C_Kr_VIMIYjs,2802
+fastreg/tests/test_linear.py,sha256=XOk6gEdyk-46tYuTBzeLOVnfIO3ZffE-Nr9GOQpi2rQ,3113
+fastreg-1.1.dist-info/LICENSE,sha256=0VT76Ur7QUGSg9K6Wb-1d8CSZI2eXEIYoZfcvX5M1Ek,1084
+fastreg-1.1.dist-info/METADATA,sha256=rSkj6azJxC_BlabAOrwi9SwUhhCc1O9PioSdKHB3liE,13127
+fastreg-1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+fastreg-1.1.dist-info/top_level.txt,sha256=TvLo5lA5CRuiaSNLbe8lnC5WOPteUYPY2J7eOFGxhNw,8
+fastreg-1.1.dist-info/RECORD,,
