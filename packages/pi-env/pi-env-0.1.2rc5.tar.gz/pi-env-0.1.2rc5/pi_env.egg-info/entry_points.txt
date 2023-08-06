@@ -1,0 +1,2 @@
+[console_scripts]
+pi = pi.__main__:main

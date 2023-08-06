@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: pi-env
+Version: 0.1.2rc5
+Summary: Command-line interface for your projects
+Home-page: https://github.com/vmagamedov/pi
+Author: Vladimir Magamedov
+Author-email: vladimir@magamedov.com
+License: BSD-3-Clause
+Requires-Python: >=3.7
+License-File: LICENSE.txt
