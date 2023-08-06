@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lib-V7
+Version: 0.0.1
+Summary: Local packages for development
+Home-page: http://pypi.python.org/pypi/lib-V7/0.0.1
+Author: hypothesisbase
+Author-email: support@hypothesisbase.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: bs4
+Requires-Dist: leveldb
+Requires-Dist: paramiko
+Requires-Dist: selenium
+
+UNKNOWN
+
+
