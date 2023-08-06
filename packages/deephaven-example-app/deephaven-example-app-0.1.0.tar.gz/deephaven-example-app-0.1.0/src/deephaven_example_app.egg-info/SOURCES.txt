@@ -1,0 +1,11 @@
+README.md
+pyproject.toml
+setup.cfg
+src/deephaven_example_app/__init__.py
+src/deephaven_example_app/__main__.py
+src/deephaven_example_app/coinbase.py
+src/deephaven_example_app.egg-info/PKG-INFO
+src/deephaven_example_app.egg-info/SOURCES.txt
+src/deephaven_example_app.egg-info/dependency_links.txt
+src/deephaven_example_app.egg-info/requires.txt
+src/deephaven_example_app.egg-info/top_level.txt
