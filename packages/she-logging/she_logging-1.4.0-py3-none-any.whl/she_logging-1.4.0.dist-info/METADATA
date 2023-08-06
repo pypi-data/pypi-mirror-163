@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: she-logging
+Version: 1.4.0
+Summary: Common logging configuration for Polaris microservices
+Home-page: https://github.com/draysontechnologies/she-logging
+Keywords: Polaris,Platform,Logging
+Author: Duncan Booth
+Author-email: duncan.booth@sensynehealth.com
+Requires-Python: >=3.6.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: colour
+Requires-Dist: JSON-log-formatter (<1.0.0)
+Requires-Dist: PyYAML (>=5.0.0,<6.0.0)
+Requires-Dist: contextvars (>=2.0.0,<3.0.0); python_full_version >= "3.6.0" and python_full_version < "3.7.0"
+Requires-Dist: environs
+Requires-Dist: rich (>=10.0.0,<11.0.0); extra == "colour"
+Project-URL: Repository, https://github.com/draysontechnologies/she-logging

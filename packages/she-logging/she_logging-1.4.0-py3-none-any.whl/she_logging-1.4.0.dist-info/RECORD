@@ -1,0 +1,11 @@
+she_logging/__init__.py,sha256=My_tzjrWWLasPrxVnniQo2FQXegkNIk6la87eTtQVvw,92
+she_logging/fastapi_request_id.py,sha256=17Cq1AgFK7H3MeevNMLNBrcCl4AFcx0is2pDAavwHgw,810
+she_logging/gunicorn_logger.py,sha256=E4SL49g1ZKt2GGIg6uddB7YUsgBafb2IMmKoB7CMqPM,261
+she_logging/logging.py,sha256=afURqRR2WmCSbWczoHVPZIRk8xAUY5QAvYzn8v1gY3w,7099
+she_logging/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+she_logging/request_id.py,sha256=8qY9k-UmelH3S1MizFiJKJ9g-q2fEkNNGuDRznCOQOA,1120
+she_logging-1.4.0.dist-info/entry_points.txt,sha256=PPtcLqEW8WqXjL7yM8Ehwo_Geq4zkogB_pkwaaSogBc,64
+she_logging-1.4.0.dist-info/LICENSE.md,sha256=jHZIE2pZ90zZkySCHSNl9xusKwWtiVtCv6Zvb_4C2Kc,1076
+she_logging-1.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+she_logging-1.4.0.dist-info/METADATA,sha256=HkEgQglqPOf1eTyaSzewHRCbyLQOU_5O-kd83dqsaSs,934
+she_logging-1.4.0.dist-info/RECORD,,
