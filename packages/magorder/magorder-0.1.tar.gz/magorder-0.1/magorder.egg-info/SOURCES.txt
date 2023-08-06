@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+magorder.egg-info/PKG-INFO
+magorder.egg-info/SOURCES.txt
+magorder.egg-info/dependency_links.txt
+magorder.egg-info/top_level.txt
+tests/__init__.py
+tests/test_data.py
+tests/test_stdsi.py
