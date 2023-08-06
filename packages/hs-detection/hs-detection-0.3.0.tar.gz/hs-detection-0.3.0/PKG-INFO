@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: hs-detection
+Version: 0.3.0
+Summary: Spike detection from HS2, used for integration in SpikeInterface
+Home-page: https://github.com/lkct/hs2-detection
+Author: Rickey K. Liang @ Matthias Hennig Lab, University of Edinburgh
+Author-email: liangkct@yahoo.com
+License: GPLv3
+Project-URL: Source, https://github.com/lkct/hs2-detection
+Keywords: spikes sorting electrophysiology detection
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Cython
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3 :: Only
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: tests
+License-File: LICENSE
+
+# hs2-detection
+Adapted from [HS2](https://github.com/mhhennig/HS2)
+
+To be filled...
