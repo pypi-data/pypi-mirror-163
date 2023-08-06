@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: pyonlinesim
+Version: 1.0.0
+Summary: Asynchronous wrapper to interact with onlinesim.ru API
+Home-page: https://github.com/marple-git/pyonlinesim
+Author: Marple
+Requires-Python: >=3.6.1,<4.0.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiohttp (>=3.7.3)
+Requires-Dist: pydantic (>=1.9.2,<2.0.0)
+Project-URL: Repository, https://github.com/marple-git/pyonlinesim
+Description-Content-Type: text/markdown
+
+# pyonlinesim
