@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+lilyweight/__init__.py
+lilyweight/constants.py
+lilyweight/main.py
+lilyweight/utils.py
+lilyweight.egg-info/PKG-INFO
+lilyweight.egg-info/SOURCES.txt
+lilyweight.egg-info/dependency_links.txt
+lilyweight.egg-info/requires.txt
+lilyweight.egg-info/top_level.txt
