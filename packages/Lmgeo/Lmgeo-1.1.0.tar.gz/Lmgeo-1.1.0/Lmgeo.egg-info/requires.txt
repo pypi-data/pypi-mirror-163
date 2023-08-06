@@ -1,0 +1,11 @@
+pyshp>=2.1.0
+pyproj>=1.9.5.1
+numpy>=1.14.3
+tifffile>=2019.3.18
+tables>=3.5.2
+pylibtiff>=0.4.2
+pygeopkg>=0.1.2
+delaunay_triangulation>=1.0.3
+
+[netCDF4]
+netCDF4
