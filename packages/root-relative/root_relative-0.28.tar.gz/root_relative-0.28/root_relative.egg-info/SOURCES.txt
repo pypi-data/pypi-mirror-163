@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+setup.cfg
+setup.py
+root_relative/__init__.py
+root_relative/__main__.py
+root_relative.egg-info/PKG-INFO
+root_relative.egg-info/SOURCES.txt
+root_relative.egg-info/dependency_links.txt
+root_relative.egg-info/top_level.txt
