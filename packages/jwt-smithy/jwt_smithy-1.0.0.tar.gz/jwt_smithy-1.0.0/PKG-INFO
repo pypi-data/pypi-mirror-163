@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: jwt-smithy
+Version: 1.0.0
+Summary: Simple cli tool for jwt keys generation
+Home-page: https://github.com/KochankovID/jwt_smithy
+License: MIT
+Author: ilyakochankov
+Author-email: ilyakochankov@yandex.ru
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyJWT[crypto] (>=2.4.0,<3.0.0)
+Requires-Dist: typer[all] (>=0.6.1,<0.7.0)
+Project-URL: Repository, https://github.com/KochankovID/jwt_smithy
+Description-Content-Type: text/markdown
+
+# JWT smithy 🔨
+
+---
+
+Simple cli tool for jwt keys generation
+
