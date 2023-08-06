@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/project_help_create.egg-info/PKG-INFO
+src/project_help_create.egg-info/SOURCES.txt
+src/project_help_create.egg-info/dependency_links.txt
+src/project_help_create.egg-info/top_level.txt
+src/projhc/__init__.py
+src/projhc/main.py
+src/projhc/utils/__init__.py
+src/projhc/utils/setup_django.py
