@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+py_rclone/__init__.py
+py_rclone/rclone.py
+py_rclone/remote_types.py
+rclone_python.egg-info/PKG-INFO
+rclone_python.egg-info/SOURCES.txt
+rclone_python.egg-info/dependency_links.txt
+rclone_python.egg-info/requires.txt
+rclone_python.egg-info/top_level.txt
