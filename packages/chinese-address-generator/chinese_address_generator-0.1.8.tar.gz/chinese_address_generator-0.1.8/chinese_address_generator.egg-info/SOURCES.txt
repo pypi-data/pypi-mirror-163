@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+chinese_address_generator/__init__.py
+chinese_address_generator/__main__.py
+chinese_address_generator/generator.py
+chinese_address_generator.egg-info/PKG-INFO
+chinese_address_generator.egg-info/SOURCES.txt
+chinese_address_generator.egg-info/dependency_links.txt
+chinese_address_generator.egg-info/top_level.txt
+chinese_address_generator/src/level3.json
+chinese_address_generator/src/level4.txt

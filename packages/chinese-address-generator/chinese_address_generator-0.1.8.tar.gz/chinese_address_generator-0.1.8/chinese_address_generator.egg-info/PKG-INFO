@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: chinese-address-generator
+Version: 0.1.8
+Summary: Random generation of Chinese place names
+Home-page: https://github.com/uint8-t/chinese-address-generator
+Author: uint8_t
+Author-email: nmjbh@qq.com
+License: MIT
+License-File: LICENSE
