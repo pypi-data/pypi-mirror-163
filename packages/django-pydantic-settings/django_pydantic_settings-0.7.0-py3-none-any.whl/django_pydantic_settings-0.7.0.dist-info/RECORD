@@ -1,0 +1,11 @@
+pydantic_settings/__init__.py,sha256=vyxX1zl4bDbO0Pp_IHrRkqCXe3sJebqQMC1wF-BWhus,83
+pydantic_settings/cache.py,sha256=vTkP9b8gPINLaJPKiIMOTts9uTyUzr9N33ejtwXGcMw,4388
+pydantic_settings/database.py,sha256=LGD1XxI-wCc773I_u0Z3rzL00hyIVahdQezeW7ViKs0,3046
+pydantic_settings/models.py,sha256=_dCj25dOZS9W5yiKuC8X8MdKPrmh8qnNTjMzHA1Wf1k,1782
+pydantic_settings/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pydantic_settings/sentry.py,sha256=taf9SZBkFhX3_KLGbamyNeuvawanoEkQDajpwomjPMA,692
+pydantic_settings/settings.py,sha256=0ry1AhijIR-mMojuYYrqrVvD0qf73BpPkwYgjzFkH_k,17902
+django_pydantic_settings-0.7.0.dist-info/LICENSE,sha256=UvE2ZCmAIS9NTt6Owiu_ubHBdSMatUBihQWTVVXrjd4,1072
+django_pydantic_settings-0.7.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+django_pydantic_settings-0.7.0.dist-info/METADATA,sha256=yYLxZd8ckJg_opQuFeHqD1HPMqTrMYiJugD9NWduJ8k,8558
+django_pydantic_settings-0.7.0.dist-info/RECORD,,
