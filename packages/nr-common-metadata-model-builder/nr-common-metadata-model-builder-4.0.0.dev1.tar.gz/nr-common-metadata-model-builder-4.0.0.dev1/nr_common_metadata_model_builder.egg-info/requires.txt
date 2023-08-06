@@ -1,0 +1,2 @@
+python>=3.8
+oarepo-model-builder>=0.9.24
