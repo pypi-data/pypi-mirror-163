@@ -1,0 +1,11 @@
+spraakbanken/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spraakbanken/__main__.py,sha256=_Cvf78oeUBJ-7XbP8GhEHedCFWdzYFXw6GOTMVn-rSw,3320
+spraakbanken/dataset.py,sha256=SpooEAvRM3aATmelp_9PrTlekv4YdL0vL7XeHCeWc94,3327
+spraakbanken/dataset_custom_rules.py,sha256=soemSQHXgJRZftuN6g15Z97Ak6TE6iijK5tH-3-7EKc,1232
+spraakbanken/sprakbanken_scraping.py,sha256=tGUGOTqH0u4jtAgCM-bpfmhR-rzxcghm-2ZdnxEk0O4,3544
+spraakbanken/util.py,sha256=fX2jtIchffaT4rnbzg4s-tqB6aavJJ_ABueskrbWwKc,1299
+spraakbanken_downloader-0.1.0.dist-info/LICENSE,sha256=T0R6fyVxdB0gi0JkrYzKNDhMRCjuaNvAqH52MWrCviM,1074
+spraakbanken_downloader-0.1.0.dist-info/METADATA,sha256=Ms4HhDhH-mIQHl9jCJksKkrPXBK93B2lsAcupEsulBE,6145
+spraakbanken_downloader-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+spraakbanken_downloader-0.1.0.dist-info/top_level.txt,sha256=oVdr3h3PzZ0eNfwEOMKflFW2jPG50QbufEicGk5qgmk,13
+spraakbanken_downloader-0.1.0.dist-info/RECORD,,
