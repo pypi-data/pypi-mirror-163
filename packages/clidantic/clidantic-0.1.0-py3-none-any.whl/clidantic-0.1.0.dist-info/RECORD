@@ -1,0 +1,10 @@
+clidantic/__init__.py,sha256=tzEQBapIzq0p5GntnvG-XLkKYKY7d6GdN3V3aCbL78Q,78
+clidantic/click.py,sha256=mD_f5hzv3q_-AyUe1QcKd-TDN2tqORUNYDqCzfoCw5k,9699
+clidantic/convert.py,sha256=UIi3ROsJCE-EzvhhYOCtkwMqdTJ5VHp_0eHRQsipuL8,5841
+clidantic/core.py,sha256=1pazyjgagEblcGXDuGBetc_1Xf7OgZ6ZPCJH7eAW6Ok,8322
+clidantic/testing.py,sha256=6u6YATUuWa8-0DbBO0F56J2-_F5161sq3fSWOEqAznw,771
+clidantic/types.py,sha256=GvA4VC8u_8-jptW5VigfbLW0rwZP_2A0YUhnXE7YsEk,3249
+clidantic-0.1.0.dist-info/LICENSE,sha256=Pkrro9s1Kj4sVjEMHzi5k0yKc8jEh6oliSOlvNCHC8g,1072
+clidantic-0.1.0.dist-info/WHEEL,sha256=Jaj29f-PvHzZb5kImTcJS9QszpaO6CVzAqOolIz_WEw,90
+clidantic-0.1.0.dist-info/METADATA,sha256=oMdGJN0PJTEveekdNuONiysk7ym2S2axzrZb_fYXRCA,2729
+clidantic-0.1.0.dist-info/RECORD,,
