@@ -1,0 +1,11 @@
+collective.transmogrifier
+plone.app.transmogrifier
+Products.CMFPlone
+setuptools
+zope.interface
+
+[test]
+zope.testrunner
+plone.app.testing
+plone.uuid
+zope.component

@@ -1,0 +1,82 @@
+<configure
+    xmlns="http://namespaces.zope.org/zope"
+    xmlns:zcml="http://namespaces.zope.org/zcml"
+    i18n_domain="collective.jsonmigrator"
+    >
+
+  <utility
+      name="collective.jsonmigrator.datafields"
+      component=".datafields.DataFields"
+      />
+
+  <utility
+      name="collective.jsonmigrator.local_roles"
+      component=".local_roles.LocalRoles"
+      />
+
+  <utility
+      name="collective.jsonmigrator.mimetype"
+      component=".mimetype.Mimetype"
+      />
+
+  <utility
+      name="collective.jsonmigrator.order"
+      component=".order.OrderSection"
+      />
+
+  <utility
+      name="collective.jsonmigrator.owner"
+      component=".owner.Owner"
+      />
+
+  <utility
+      name="collective.jsonmigrator.partialcommit"
+      component=".partialcommit.PartialCommit"
+      />
+
+  <utility
+      name="collective.jsonmigrator.permissions"
+      component=".permissions.Permissions"
+      />
+
+  <utility
+      name="collective.jsonmigrator.properties"
+      component=".properties.Properties"
+      />
+
+  <utility
+      name="collective.jsonmigrator.skipitems"
+      component=".skipitems.SkipItems"
+      />
+
+  <utility
+      name="collective.jsonmigrator.catalogsource"
+      component=".source_catalog.CatalogSourceSection"
+      />
+
+  <utility
+      name="collective.jsonmigrator.jsonsource"
+      component=".source_json.JSONSource"
+      />
+
+  <utility
+      name="collective.jsonmigrator.remotesource"
+      component=".source_remote.RemoteSource"
+      />
+
+  <utility
+      name="collective.jsonmigrator.statistics"
+      component=".statistics.Statistics"
+      />
+
+  <utility
+      name="collective.jsonmigrator.workflowhistory"
+      component=".workflowhistory.WorkflowHistory"
+      />
+
+  <utility
+      name="collective.jsonmigrator.translations"
+      component=".translations.Translations"
+      />
+
+</configure>
