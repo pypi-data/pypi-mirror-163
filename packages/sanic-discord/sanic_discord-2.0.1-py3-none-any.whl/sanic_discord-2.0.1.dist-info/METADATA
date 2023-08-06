@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: sanic-discord
+Version: 2.0.1
+Summary: Sanic Discord OAuth2 and Interaction
+Home-page: https://github.com/tuna2134/sanic-discord
+Author: tuna2134
+Author-email: support@mc-fdc.live
+License: MIT
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+Requires-Dist: httpx
+Requires-Dist: sanic
+Requires-Dist: PyNaCl
+
+# sanic-discord
+
+[![Discord](https://img.shields.io/discord/961916734137315358?label=support&logo=discord)](https://discord.gg/TsxAB8ssSm)
+
+[Documentation](https://tuna2134.github.io/sanic-discord)
+
+[![Downloads](https://pepy.tech/badge/sanic-discord)](https://pepy.tech/project/sanic-discord)
+[![Downloads](https://pepy.tech/badge/sanic-discord/month)](https://pepy.tech/project/sanic-discord)
+[![Downloads](https://pepy.tech/badge/sanic-discord/week)](https://pepy.tech/project/sanic-discord)
+
+## Install
+
+```bash
+pip install sanic-discord
+```
+
+or
+
+```bash
+pip install git+https://github.com/tuna2134/sanic-discord.git@rewrite
+```
