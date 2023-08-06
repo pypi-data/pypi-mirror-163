@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: matplotlib-mercyfan
+Version: 3.5.3
+Summary: matplotlib_mercyfan is now matplotlib-3.5.3
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: matplotlib-3.5.3
+
+# matplotlib_mercyfan is now matplotlib-3.5.3
+
+This package has been renamed. Use `pip install matplotlib-3.5.3` instead.
+
+New package: https://pypi.org/project/matplotlib-3.5.3/
