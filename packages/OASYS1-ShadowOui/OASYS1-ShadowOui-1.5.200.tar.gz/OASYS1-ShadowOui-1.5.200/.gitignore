@@ -1,0 +1,6 @@
+dist*
+build/*
+.idea/*
+ShadowOui.egg-info/*
+*.pyc
+/OASYS1_ShadowOui.egg-info/
