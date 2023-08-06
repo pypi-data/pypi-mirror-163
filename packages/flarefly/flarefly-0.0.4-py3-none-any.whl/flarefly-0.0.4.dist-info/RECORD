@@ -1,0 +1,10 @@
+flarefly/__init__.py,sha256=Mam16zfedyXU6ZLEjBF8rDVwt5TdM0MHc65SgdLKuC4,144
+flarefly/data_handler.py,sha256=wfAEZOZFStql_hQjrsCpI1mMMlpBE8gefLr6gASeS4k,8652
+flarefly/fitter.py,sha256=r25RvGFLx81fHSH3udB_sVF3G4Nf_j0skytOoyaDvSE,22162
+flarefly/utils.py,sha256=V68sxscMqNS13_3xqgag3YFJeo2ohOGqGbDq8_FyucA,4321
+flarefly-0.0.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+flarefly-0.0.4.dist-info/METADATA,sha256=__8IrLtNvVeG3wl9JXAW2Vx1fcHv3AjK9PFA99aOc48,1947
+flarefly-0.0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+flarefly-0.0.4.dist-info/entry_points.txt,sha256=Rg919I8nEgraBp8roanFaBqyf8wpOcCKRTfa-dmFJ24,50
+flarefly-0.0.4.dist-info/top_level.txt,sha256=dygIz1HItZdvzsElwrzFGrxalo7969yfv9fPIaLD9SM,9
+flarefly-0.0.4.dist-info/RECORD,,
