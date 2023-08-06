@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+testy_quick/__init__.py
+testy_quick/hello.py
+testy_quick.egg-info/PKG-INFO
+testy_quick.egg-info/SOURCES.txt
+testy_quick.egg-info/dependency_links.txt
+testy_quick.egg-info/top_level.txt
