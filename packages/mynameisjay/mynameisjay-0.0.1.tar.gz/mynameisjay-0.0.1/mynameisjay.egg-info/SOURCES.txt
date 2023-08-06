@@ -1,0 +1,11 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+mynameisjay/__init__.py
+mynameisjay/jay.py
+mynameisjay.egg-info/PKG-INFO
+mynameisjay.egg-info/SOURCES.txt
+mynameisjay.egg-info/dependency_links.txt
+mynameisjay.egg-info/top_level.txt

@@ -1,0 +1,64 @@
+Metadata-Version: 2.1
+Name: mynameisjay
+Version: 0.0.1
+Summary: Who is Jay?
+Home-page: https://github.com/pattarinmsp
+Author: Jay
+Author-email: test01@gmail.com
+License: MIT
+Download-URL: https://github.com/pattarinmsp
+Keywords: Jay,ASCII ART
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Education
+Classifier: Topic :: Utilities
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: 3.5
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+License-File: LICENSE
+License-File: LICENSE.txt
+
+แพ็คเกจนี้เป็นแพ็คเกจ python ที่โชว์ข้อมูลเกี่ยวกับเจย์
+=======================================================
+
+PyPi: https://pypi.org/project/mynameisjay/
+
+สวัสดีจ้าาาา นี่คือแพ็คเกจที่แสดงข้อมูลเกี่ยวกับเจย์ ท่านสามารถดูลิงค์
+Facebook Youtube Page และแสดงภาพศิลปะ ascii
+
+วิธีติดตั้ง
+~~~~~~~~~~~
+
+เปิด CMD / Terminal
+
+.. code:: python
+
+   pip install mynameisjay
+
+วิธีใช้งานแพ็คเพจนี้
+~~~~~~~~~~~~~~~~~~~~
+
+-  เปิด IDLE ขึ้นมาแล้วพิมพ์…
+
+.. code:: python
+
+   from mynameisjay import Jay
+
+   jay = Jay() # ประกาศชื่อคลาส
+   jay.show_name() # โชว์ชื่อ
+   jay.show_youtube() # โชว์ link youtube
+   jay.show_page() # โชว์ link page
+   jay.about() #  เกี่ยวกับเจย์
+   jay.show_art() # โชว์ภาพศิลปะ
+
+พัฒนาโดย: เจย์ FB: https://www.facebook.com/
+
+YouTube: https://www.youtube.com/
+
+
