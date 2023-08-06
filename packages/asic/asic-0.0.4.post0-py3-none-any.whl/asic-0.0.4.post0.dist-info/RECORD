@@ -1,0 +1,15 @@
+asic/__init__.py,sha256=rSwEr3ZD-AQEAMl_bXciqGjguSYVYbDmrmbzyWy3vxo,346
+asic/__main__.py,sha256=Huz0dExiaH0XTMLhfe3skkFD9-VH7ZUiWMbDR_J8TIY,28
+asic/cli.py,sha256=vz8BDKxvdaPD6GBDXR6Wh6qEnmNic69xtNIDEpKhB_8,8108
+asic/config.py,sha256=WJbeneuSg-SS1DqvCKbl0Pm9cdLGNN68LUhB4f90OdY,2102
+asic/metadata.py,sha256=6NAjR-Nri4Fn-t8wJmZBEh8eEs3NhLKvWK7UzOIPyrg,4021
+asic/publication.py,sha256=trto3Z8zrx0ebylvguFti1-YCzJrIHVOluYsXtiXak8,5649
+asic/reader.py,sha256=dHBtFVjD-1fqcomDC4UWJRV1dOAxXBPgVCVax77Vf-8,1759
+asic/ftp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+asic/ftp/ftp.py,sha256=ArntnGOgNwwNA-nJyiUsaofFVPAZKVgFyqiYjPb-j6g,4641
+asic-0.0.4.post0.dist-info/LICENSE,sha256=eDCQrA7kmvMs2mCwyrgJkH-pMzHznfoxEWGMbRR2bB0,1064
+asic-0.0.4.post0.dist-info/METADATA,sha256=skpxiYmMZVW9zZeaGRile5qx9XOyqch6tZhr8cI_xc0,3488
+asic-0.0.4.post0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+asic-0.0.4.post0.dist-info/entry_points.txt,sha256=VuMvvMHfTG6gvq-TCjITv3gijYkDY2bvywMuh6MvCmo,38
+asic-0.0.4.post0.dist-info/top_level.txt,sha256=Vd5f1zRxqpsw9TJw_EcIR1z0nJI4PbF0d51dlBtrbj8,5
+asic-0.0.4.post0.dist-info/RECORD,,
