@@ -1,0 +1,10 @@
+enumagic/__init__.py,sha256=rIgSS0TBfWtn1SISNN9B9PZXIKTMEvU5OcfA2zDRIvY,1067
+enumagic/_iter.py,sha256=b4ZIqrm8Y6n_yfQ2Xpp-QoPavbW0DyGNBIa2DaFZpP0,2725
+enumagic/_mapping.py,sha256=qu9KxeUm_b3nCxcI7MmwxBleEvKE4nwO5vomhBzZTEI,5142
+enumagic/_str.py,sha256=ulAA_nd6fQCoDSj0A78tpPd4V9C7vBwp4p3El_DXFlM,1548
+enumagic/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+enumagic-0.2.0.dist-info/LICENSE.rst,sha256=nsT4i0LTgHR0-v90x0_fkqGvMzjxZdChdn2D1945m48,860
+enumagic-0.2.0.dist-info/METADATA,sha256=mWEd67uXrhw73ozZMz_eBqWdyxrNehq54CGIxPXKoDQ,2331
+enumagic-0.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+enumagic-0.2.0.dist-info/top_level.txt,sha256=lSCKmAMfcst1LrTrSaLkS-FkwTFhQvqnHQdmpdpecHQ,9
+enumagic-0.2.0.dist-info/RECORD,,
