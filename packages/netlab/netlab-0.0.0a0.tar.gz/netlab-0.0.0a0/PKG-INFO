@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: netlab
+Version: 0.0.0a0
+Summary: A powerful templating tool for your projects.
+Home-page: https://github.com/parafoxia/netlab
+Author: Ethan Henderson
+Author-email: ethan.henderson.1998@gmail.com
+License: BSD 3-Clause 'New' or 'Revised' License
+Project-URL: Documentation, https://netlab.readthedocs.io
+Project-URL: Source, https://github.com/parafoxia/netlab
+Project-URL: Bug Tracker, https://github.com/parafoxia/netlab/issues
+Project-URL: CI, https://github.com/parafoxia/netlab/actions
+Project-URL: Changelog, https://github.com/parafoxia/netlab/releases
+Classifier: Development Status :: 1 - Planning
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: Science/Research
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: Unix
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Scientific/Engineering :: Artificial Intelligence
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Topic :: Utilities
+Classifier: Typing :: Typed
+Requires-Python: >=3.7.0,<3.12
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NetLab
+
+Coming soon.
