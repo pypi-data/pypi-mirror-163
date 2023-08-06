@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+array_field_select/__init__.py
+array_field_select/fields.py
+array_field_select/forms.py
+django_array_field_select_multiple.egg-info/PKG-INFO
+django_array_field_select_multiple.egg-info/SOURCES.txt
+django_array_field_select_multiple.egg-info/dependency_links.txt
+django_array_field_select_multiple.egg-info/requires.txt
+django_array_field_select_multiple.egg-info/top_level.txt
