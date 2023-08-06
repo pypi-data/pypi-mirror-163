@@ -1,0 +1,13 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+paradigm_panes/__init__.py,sha256=VRLhrt2-dlEX16nddy0tDCE4AFtqMBAoeTTst4132Kg,133
+paradigm_panes/generation.py,sha256=BnO7kxwFaPZ8nRRdAqiglTqbbOB23MKx1rr14QTpxOk,1235
+paradigm_panes/helpers.py,sha256=RjeofneaErfMWdWxMyPaHQoFMJu_oRwS4sgoyherVDM,2026
+paradigm_panes/manager.py,sha256=VI3EvXT7tXFgxIhrOgfHwl5b_XbZ2AaJcnFjcD67nAM,10080
+paradigm_panes/pane_generator.py,sha256=VYL9O0uSKz9PQJGsB-zQQtZFSnwhnI95TTSJ0NMtEPU,4147
+paradigm_panes/panes.py,sha256=Ej-c6MfJTPJXq0K04DNa7ntCriQ0hey4uvBJBN4A-ao,26455
+paradigm_panes/running_scenario.txt,sha256=fCjjymqCwmr-iw-8ivTmd9OUJH7VwlS2y3PCZfXHz5A,962
+paradigm_panes/settings.py,sha256=6kNpan4LWIZBsiyJKBqrkT9kmqo11YKSAR0M69FSB4o,3179
+paradigm_panes-0.3.4.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+paradigm_panes-0.3.4.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+paradigm_panes-0.3.4.dist-info/METADATA,sha256=8YJkxrRpHbeQMPdLR-_v-aOag5EerGmacDxkza07_2Y,5487
+paradigm_panes-0.3.4.dist-info/RECORD,,
