@@ -1,0 +1,12 @@
+cloudnetpy_qc/__init__.py,sha256=gT_5e9QMm5rcrOMNnAxnpFmjLtlMXlIUuvdpvV216YM,29
+cloudnetpy_qc/data_quality_config.ini,sha256=OrJDFxhk-eFDVgNqlZq-4n8sVUNBqaIqqEYGbtzb-dk,1089
+cloudnetpy_qc/metadata_config.ini,sha256=l48UnrsoYueFAyFUSMkyV7XwwDDIP3taR4Cn6m2V3LE,5697
+cloudnetpy_qc/quality.py,sha256=XHSbDYrz0GufTtcUQGaKYHrlaMV_YYUqxu6sq4gKy8A,7081
+cloudnetpy_qc/version.py,sha256=gzxG5nmqaqpH1UDAAnXxOXCBh2w4XLnNzI-sl9E3nR0,71
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_qc.py,sha256=OfML5vPfsdNIQaY65EBCEnuB833wao2yy98V3e1g7N4,994
+cloudnetpy_qc-0.2.0.dist-info/LICENSE,sha256=VNFXKGDSbcOIpR-dMHbzkuUK0RA6EdYhy--nirHoGUc,1072
+cloudnetpy_qc-0.2.0.dist-info/METADATA,sha256=t3-4R3auo9Wi99EIeUXz5dTOwrdTpijTT4Oay4SApUY,1233
+cloudnetpy_qc-0.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cloudnetpy_qc-0.2.0.dist-info/top_level.txt,sha256=igl0tEoaRE_LiGJu-45XdT-nIJyG6AZhZ0bewpZ8lRY,20
+cloudnetpy_qc-0.2.0.dist-info/RECORD,,
