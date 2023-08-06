@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: big-slpp
+Version: 1.0.0
+Summary: SirAnthony's SLPP, but modernized code (also, trailing comma's)
+License: MIT
+Author: NostraDavid
+Author-email: 55331731+nostradavid@users.noreply.github.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
