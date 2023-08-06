@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: kha-cli
+Version: 1.1.0
+Summary: kha
+Author: khahux
+Author-email: khahux@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# kha
+
+## Dev
+
+```shell
+virtualenv --python=python3.8 venv
+source venv/bin/activate
+pip install --editable .
+```
+
+## Publish to PyPI
+
+```shell
+python setup.py sdist --formats=zip --owner=root --group=root
+python setup.py install
+
+twine upload dist/*
+```
