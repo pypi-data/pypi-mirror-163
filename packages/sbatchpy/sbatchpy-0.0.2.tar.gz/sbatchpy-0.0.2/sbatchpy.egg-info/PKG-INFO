@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: sbatchpy
+Version: 0.0.2
+Summary: Python package to easily run sbatch jobs.
+Home-page: https://github.com/killiansheriff/sbatchpy
+Author: Killian Sheriff
+Author-email: ksheriff@mit.edu
+License: MIT
+Keywords: sbatch,slurm,python,hpc
+License-File: LICENCE
