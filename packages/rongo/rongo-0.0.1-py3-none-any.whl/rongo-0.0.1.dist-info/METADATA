@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: rongo
+Version: 0.0.1
+Summary: This is not a python web framework, it's a complement to such mini frameworks like fastapi sanic. Mainly refer to Thinkphp Laravel Django Masonite.
+Home-page: https://github.com/goophps/rongo.git
+Author: randolph
+Author-email: goophps@gmail.com
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# rongo
+This is not a python web framework, it's a complement to such mini-frameworks as fastapi, sanic, etc. Mainly refer to Thinkphp, Laravel, Django, Masonite.
+
+这不是 python web 框架，它作为fastapi sanic等这种迷你框架的补充。主要参考Thinkphp Laravel Django Masonite。
