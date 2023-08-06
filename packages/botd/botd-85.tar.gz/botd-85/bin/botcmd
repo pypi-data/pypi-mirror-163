@@ -1,0 +1,48 @@
+#!/usr/bin/env python3
+# pylint: disable=E1101,E0611,C0116,C0115,C0413,R0903
+# This file is placed in the Public Domain.
+
+
+"bot"
+
+
+import os
+import sys
+
+
+from op.obj import Wd
+from op.hdl import Cfg, Client, docmd, parse
+from op.scn import scan
+from bot.irc import Config
+
+
+Config.channel = "#botd"
+Config.nick = "botd"
+Config.realname = "BOTD - 24/7 channel daemon"
+Config.username = "botd"
+
+
+Wd.workdir = "/var/lib/botd/"
+
+from bot import bsc,irc,rss
+
+
+scan(bsc)
+scan(irc)
+scan(rss)
+
+
+class CLI(Client):
+
+    @staticmethod
+    def raw(txt):
+        print(txt)
+
+
+def main():
+    parse(" ".join(sys.argv[1:]))
+    cli = CLI()
+    docmd(cli, Cfg.otxt)
+
+
+main()
