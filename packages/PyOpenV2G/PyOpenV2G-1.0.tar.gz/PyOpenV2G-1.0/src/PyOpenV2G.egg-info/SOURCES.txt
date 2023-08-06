@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/PyOpenV2G.egg-info/PKG-INFO
+src/PyOpenV2G.egg-info/SOURCES.txt
+src/PyOpenV2G.egg-info/dependency_links.txt
+src/PyOpenV2G.egg-info/requires.txt
+src/PyOpenV2G.egg-info/top_level.txt
