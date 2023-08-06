@@ -1,0 +1,30 @@
+[build-system]
+requires = ["flit_core >=3.2,<4"]
+build-backend = "flit_core.buildapi"
+
+[project]
+name = "cryptpickle"
+authors = [{name = "Privacy-Dad", email = "privacy-dad@protonmail.com"}]
+dynamic = ["version"]
+license = {file = "LICENSE.txt"}
+description = "Encrypted python object serialization"
+readme = "README.md"
+requires-python = ">=3.7"
+dependencies = [
+    "pyzipper"
+]
+
+classifiers = [
+    "Programming Language :: Python :: 3.7",
+    "Programming Language :: Python :: 3.8",
+    "Programming Language :: Python :: 3.9",
+    "Programming Language :: Python :: 3.10",
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: European Union Public Licence 1.2 (EUPL 1.2)",
+    "Operating System :: OS Independent",
+    "Topic :: Scientific/Engineering",
+    "Topic :: Security"
+]
+
+[project.urls]
+Home = "https://github.com/privtools/CryptPickle"
