@@ -1,0 +1,54 @@
+# Where you store your data
+# -------------------------
+# your data must be organized this way:
+#|- /[path_to_data]
+#     |- samples.csv
+#     |- library.csv
+#     |- ref.fasta
+#     |- [your_sample_1]_R1_001.fastq.gz
+#     |- [your_sample_1]_R2_001.fastq.gz
+#     |- [your_sample_2]_R1_001.fastq.gz
+#     |- [your_sample_2]_R2_001.fastq.gz
+#     |- [your_sample_3]_R1_001.fastq.gz
+#     |- [your_sample_3]_R2_001.fastq.gz
+#     |- ...
+
+path_to_data: /Users/ymdt/src/dreem_herschlag/test/resources/  
+fastq_zipped: False
+
+# The samples that you want to process today
+# ------------------------------------------
+# These names must correspond to
+#     - the sample column in samples.csv
+#     - the name of your data folders
+#
+# Nota bene: obviously, the name of your data folders must match the sample column of samples.csv
+
+samples:
+  - case_1
+ # - case_2
+
+
+# The arguments to pass direcly to DREEM
+# --------------------------------------
+# More information about hese arguments here: https://github.com/jyesselm/dreem#run
+
+dreem_args:
+    overwrite: False             # Re-compute the bitvector if it already exists. Takes more time.
+   # RNAstructure_path:          # where RNAstructure/exe is located on your computer. Remove if you don't want to run RNAstructure
+    temperature: False           # Use samples.csv col 'temperature_k' as an input for RNAstructure
+    poisson: True                # Add Poisson confidence interval
+
+
+# Print more information during run time
+verbose: True
+
+
+# There's a bunch of folders in output/. This option creates a folder such that:
+# /mh_only
+#   |- [your_sample_1]_mh.p
+#   |- [your_sample_2]_mh.p
+#   |- [your_sample_3]_mh.p
+#   ...
+
+mut_hist_only_folder: True
