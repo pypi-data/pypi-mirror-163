@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lilyweight
+Version: 0.0.1
+Summary: Hypixel SkyBlock Weight Calculator.
+Home-page: UNKNOWN
+Author: timnoot
+Author-email: <hypixelskyhub@gmail.com>
+License: UNKNOWN
+Keywords: python,hypixel,skyblock,lily weight,weight,lappysheep,lilly
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: aiohttp
+
+UNKNOWN
+
