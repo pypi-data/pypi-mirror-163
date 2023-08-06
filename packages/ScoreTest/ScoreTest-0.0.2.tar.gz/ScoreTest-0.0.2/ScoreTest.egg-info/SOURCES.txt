@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+ScoreTest/ScoreTest.py
+ScoreTest/__init__.py
+ScoreTest.egg-info/PKG-INFO
+ScoreTest.egg-info/SOURCES.txt
+ScoreTest.egg-info/dependency_links.txt
+ScoreTest.egg-info/top_level.txt
