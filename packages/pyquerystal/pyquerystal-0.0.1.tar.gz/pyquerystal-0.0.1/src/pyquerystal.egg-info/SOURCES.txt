@@ -1,0 +1,8 @@
+README.md
+setup.cfg
+setup.py
+src/pyquerystal.egg-info/PKG-INFO
+src/pyquerystal.egg-info/SOURCES.txt
+src/pyquerystal.egg-info/dependency_links.txt
+src/pyquerystal.egg-info/requires.txt
+src/pyquerystal.egg-info/top_level.txt
