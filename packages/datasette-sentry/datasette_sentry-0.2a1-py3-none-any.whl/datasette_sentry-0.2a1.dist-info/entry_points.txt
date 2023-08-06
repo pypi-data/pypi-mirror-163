@@ -1,0 +1,2 @@
+[datasette]
+sentry = datasette_sentry
