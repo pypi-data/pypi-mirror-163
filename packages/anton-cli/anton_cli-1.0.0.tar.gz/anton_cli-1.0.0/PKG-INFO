@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: anton-cli
+Version: 1.0.0
+Summary: Returns the number of unique characters in the string
+License: MIT
+Author: Skazko Anton
+Author-email: sk.anton06@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Description-Content-Type: text/markdown
+
+# Collection Framework
+ 
+**anton_cli** is a commands-line program that takes a string and returns the number of unique characters in the string.
+
+### Install
+
+```python
+pip install anton-cli
+```
+
+### How to Use
+```python
+from anton_cli import split_letters, read_from_file
+
+print(split_letters('hello')) # 3
+```
+also you can get a unique numbers of string from the file
+
+```python
+print(read_from_file('words.txt')) # SOME RESULT
+```
+
+
+### Launch
+
+You can use this program from the terminal
+
+if you want to pass a string use --string [YOUR STRING]
+```python
+python -m anton_cli.cli --string [YOUR STRING]
+```
+or if you want to pass a file use --file [YOUR FILE PATH]
+```python
+python -m anton_cli.cli --file [YOUR PATH TO FILE]
+```
+
+<br>
+
+See the source at  [Link](https://git.foxminded.com.ua/foxstudent102894/task-5-create-the-python-package)
+<br>
+© 2022 Anton Skazko
