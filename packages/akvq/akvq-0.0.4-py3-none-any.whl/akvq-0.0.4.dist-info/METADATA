@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: akvq
+Version: 0.0.4
+Summary: Get secrets from azure key vaults quick and easy
+Home-page: https://github.com/viktorfreiman/akvq
+License: MIT
+Author: Viktor Freiman
+Author-email: freiman.viktor@gmail.com
+Requires-Python: >=3.6.2,<4.0.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: azure-identity (>=1.10.0,<2.0.0)
+Requires-Dist: azure-keyvault-secrets (>=4.4.0,<5.0.0)
+Project-URL: Documentation, https://akvq.readthedocs.io
+Project-URL: Repository, https://github.com/viktorfreiman/akvq
+Description-Content-Type: text/markdown
+
+# AKVQ
+
+Azure Key Vault Quick
+
+(pronounced: A Quick (a /kwɪk/))
+
+Get secrets from azure key vaults quick and easy
+
