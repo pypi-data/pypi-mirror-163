@@ -1,0 +1,23 @@
+Metadata-Version: 1.1
+Name: mechpress
+Version: 0.0.1
+Summary: package for mechanical press design
+Home-page: UNKNOWN
+Author: Sanchit
+Author-email: sanchitsharma84@gmail.com
+License: MIT
+Description: This package contains set of modules for mechanical press design. 
+        
+        Change Log
+        ==========
+        
+        0.0.1 (15/08/2022)
+        -------------------
+        - First Release
+Keywords: mechanical press
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
