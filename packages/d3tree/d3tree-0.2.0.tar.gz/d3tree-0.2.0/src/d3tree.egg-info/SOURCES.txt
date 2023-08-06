@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/d3tree/__init__.py
+src/d3tree/cli.py
+src/d3tree/html_template.py
+src/d3tree/node.py
+src/d3tree/utils.py
+src/d3tree.egg-info/PKG-INFO
+src/d3tree.egg-info/SOURCES.txt
+src/d3tree.egg-info/dependency_links.txt
+src/d3tree.egg-info/entry_points.txt
+src/d3tree.egg-info/requires.txt
+src/d3tree.egg-info/top_level.txt
