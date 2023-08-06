@@ -1,0 +1,12 @@
+LICENSE
+LICENSE.txt
+README.rst
+setup.cfg
+setup.py
+untitleoop/School.py
+untitleoop/Untitled.py
+untitleoop/__init__.py
+untitleoop.egg-info/PKG-INFO
+untitleoop.egg-info/SOURCES.txt
+untitleoop.egg-info/dependency_links.txt
+untitleoop.egg-info/top_level.txt
