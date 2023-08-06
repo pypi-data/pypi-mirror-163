@@ -1,0 +1,12 @@
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/botlog/__init__.py
+src/botlog/delayed.py
+src/botlog/embed.py
+src/botlog/logger.py
+src/botlogging.egg-info/PKG-INFO
+src/botlogging.egg-info/SOURCES.txt
+src/botlogging.egg-info/dependency_links.txt
+src/botlogging.egg-info/top_level.txt
