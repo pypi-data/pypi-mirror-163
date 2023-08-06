@@ -1,0 +1,8 @@
+
+[test]
+mock
+pytest
+pytest-asyncio
+pytest-cov
+requests
+testpath
