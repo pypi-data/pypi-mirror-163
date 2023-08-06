@@ -1,0 +1,3 @@
+[console_scripts]
+touchpy = touchpy:touchpy.main
+
