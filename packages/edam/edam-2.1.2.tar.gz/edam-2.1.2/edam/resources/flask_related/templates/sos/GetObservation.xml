@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<om:ObservationCollection
+        xmlns:gml="http://www.opengis.net/gml"
+        xmlns:xlink="http://www.w3.org/1999/xlink"
+        xmlns:sos="http://www.opengis.net/sos/1.0"
+        xmlns:om="http://www.opengis.net/om/1.0"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.opengis.net/om/1.0 http://schemas.opengis.net/om/1.0.0/om.xsd">
+    <gml:description>**{{ junction.observable.name}}** measurements observed with
+        **{{ junction.sensor.name }}** from **{{ station.name}}** station
+    </gml:description>
+    <gml:name>{{ station.name}}:{{ junction.observable.name }}
+    </gml:name>
+    <om:member>
+        <om:samplingTime>
+            <gml:TimePeriod gml:id="ST">
+                <gml:beginPosition>{{ measurements[0].timestamp }}
+                </gml:beginPosition>
+                <gml:endPosition>{{ measurements[-1].timestamp }}
+                </gml:endPosition>
+            </gml:TimePeriod>
+        </om:samplingTime>
+        {% for measurement in measurements %}
+        <sos:observationData>
+            <om:Observation gml:id="{{ junction.observable.name }}">
+                <om:phenomenonTime>
+                    <gml:TimeInstant
+                            gml:id="#{{ hash(measurement.timestamp) }}">
+                        <gml:timePosition>{{ measurement.timestamp }}
+                        </gml:timePosition>
+                    </gml:TimeInstant>
+                </om:phenomenonTime>
+                <om:resultTime xlink:href="#{{ hash(measurement.timestamp) }}"/>
+                <om:procedure>{{ station.name }}:{{ junction.sensor.name }}
+                </om:procedure>
+                <om:observedProperty
+                        xlink:href="{{ junction.observable.ontology }}"/>
+                <om:result uom="{{ junction.unit.name }}">{{ measurement.value
+                    }}
+                </om:result>
+            </om:Observation>
+        </sos:observationData>
+        {% endfor %}
+    </om:member>
+</om:ObservationCollection>

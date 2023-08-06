@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<sml:SensorML
+        xmlns:sml="http://www.opengis.net/sensorML/1.0.1"
+        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+        xsi:schemaLocation="http://www.opengis.net/sensorML/1.0.1 http://schemas.opengis.net/sensorML/1.0.1/sensorML.xsd"
+        version="1.0.1">
+    <sml:identification>
+        <sml:IdentifierList>
+            <sml:identifier name="longName">
+                <sml:Term>
+                    <sml:value>{{ junction.sensor.name }} observes {{
+                        junction.observable.name }}. It is manufactured
+                        by {{ junction.sensor.manufacturer }}
+                    </sml:value>
+                </sml:Term>
+            </sml:identifier>
+            <sml:identifier name="shortName">
+                <sml:Term>
+                    <sml:value>{{ junction.sensor.name }}</sml:value>
+                </sml:Term>
+            </sml:identifier>
+            <sml:identifier name="SensorId">
+                <sml:Term>
+                    <sml:value>{{ station.name }}:{{ junction.sensor.name}}
+                    </sml:value>
+                </sml:Term>
+            </sml:identifier>
+        </sml:IdentifierList>
+    </sml:identification>
+</sml:SensorML>
