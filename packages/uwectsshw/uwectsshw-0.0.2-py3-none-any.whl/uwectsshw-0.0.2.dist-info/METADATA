@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: uwectsshw
+Version: 0.0.2
+Summary: Another Hello World
+Home-page: UNKNOWN
+Author: Thomas Paine
+Author-email: <paineta@uwec.edu>
+License: UNKNOWN
+Keywords: python,hello world
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Education
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
