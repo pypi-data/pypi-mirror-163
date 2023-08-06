@@ -1,0 +1,10 @@
+README.md
+setup.py
+tg_handler/__init__.py
+tg_handler/buffer.py
+tg_handler/handler.py
+tg_log_handler.egg-info/PKG-INFO
+tg_log_handler.egg-info/SOURCES.txt
+tg_log_handler.egg-info/dependency_links.txt
+tg_log_handler.egg-info/requires.txt
+tg_log_handler.egg-info/top_level.txt
