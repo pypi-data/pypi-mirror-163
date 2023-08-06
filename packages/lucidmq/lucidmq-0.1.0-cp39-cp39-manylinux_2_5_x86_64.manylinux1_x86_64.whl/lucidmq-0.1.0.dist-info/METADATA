@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: lucidmq
+Version: 0.1.0
+Classifier: Programming Language :: Rust
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+License: Apache-2.0
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown; charset=UTF-8; variant=GFM
+
+# PyLucidMQ
+
+## What is it
+
+This is the python implementation and client library using LucidMQ
+
+## Installation
+
+Deploy wheel binary to pypi so people can pip install.
+
+## Examples
+
+For now look at test.py
+
