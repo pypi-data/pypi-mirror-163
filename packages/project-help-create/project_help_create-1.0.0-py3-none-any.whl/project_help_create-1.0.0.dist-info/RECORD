@@ -1,0 +1,9 @@
+projhc/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+projhc/main.py,sha256=F4vq0hIzz1LLGmvL7RRCoQfrjq5yTV4LyCmClCfrVaw,724
+projhc/utils/__init__.py,sha256=_ErczcmWlmn6Wi4J3BMt1tvodvg_VACmw6Thk5NOuRA,47
+projhc/utils/setup_django.py,sha256=gJVCuuaKnJojUPLkodS08yEKKpOcDNnmen3hU8sBmv4,276
+project_help_create-1.0.0.dist-info/LICENSE,sha256=8tsAGEF08VdBDeQGsWNTpEKHT92HUJKzzkaPTvVI6ng,1065
+project_help_create-1.0.0.dist-info/METADATA,sha256=V55P4MnCkihnLt7j4ViNAJLTPksJlHhjo7WQWC42MZQ,557
+project_help_create-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+project_help_create-1.0.0.dist-info/top_level.txt,sha256=i6VZeouQVyu8I7yrm0rmgQb-7bnJ-ou5f7rTKw5pCCY,7
+project_help_create-1.0.0.dist-info/RECORD,,
