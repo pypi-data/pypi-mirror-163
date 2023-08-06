@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: metadrive
+Version: 1.4.34
+Summary: Integration of controllers to drive tools.
+Home-page: https://gitlab.com/wefindx/metadrive
+Author: Mindey
+Author-email: mindey@qq.com
+License: Apache 2.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+License-File: AUTHORS.md
+
+Integration of controllers to drive tools.
+
