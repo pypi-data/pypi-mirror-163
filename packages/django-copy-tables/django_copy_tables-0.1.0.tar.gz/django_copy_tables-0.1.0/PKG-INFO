@@ -1,0 +1,29 @@
+Metadata-Version: 2.1
+Name: django_copy_tables
+Version: 0.1.0
+Summary: Library to add a view (server) and management command (client) to copy model data
+Home-page: https://github.com/paradxum/django_copy_tables
+Author: Eric Schultz
+Author-email: eric.schultz@cyvon.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.1
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django_copy_tables
+
+This utility allows for copying tables from a production/staging server to a development copy. This allows developing against full datasets.
+
+## Installation
+It's on pypi, so install via pip (or add to your requirements.txt)
+```
+pip3 install django_copy_tables
+```
+
+
+
+### Usage
+
+
