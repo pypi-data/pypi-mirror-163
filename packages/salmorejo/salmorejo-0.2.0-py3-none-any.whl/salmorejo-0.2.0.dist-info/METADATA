@@ -1,0 +1,139 @@
+Metadata-Version: 2.1
+Name: salmorejo
+Version: 0.2.0
+Summary: Tool for testing and debugging Kubernetes events/changes in real time
+Author-email: Gonzalo Gabriel Jiménez Fuentes <iam@mendrugory.com>
+License: The MIT License (MIT)
+        
+        Copyright (c) 2022 Gonzalo Gabriel Jiménez Fuentes
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+        
+Project-URL: Homepage, https://github.com/mendrugory/salmorejo
+Keywords: salmorejo,kubernetes,watcher
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: click (==8.1.3)
+Requires-Dist: kubernetes (==24.2.0)
+Provides-Extra: dev
+Requires-Dist: beautifultable (==1.1.0) ; extra == 'dev'
+
+# Salmorejo
+
+Salmorejo is a command line tool which will help you to run your own Python scripts in order to test, debug and/or analyze the status of your Kubernetes cluster in real time.
+
+> Salmorejo is under heavy development
+
+## How does it work?
+
+Salmorejo will connect to your "current-connected" Kubernetes cluster (check `$ kubectl cluster-info`) and it will received changes in the desired objects. These events will be forwarded to your custom Python script.
+
+Your python script must contain a function call `callback` which has the argument `event`. Every event will contain 3 main fields:
+
+* 'type': The type of event such as "ADDED", "DELETED", etc.
+* 'raw_object': a dict representing the watched object.
+* 'object': A model representation of raw_object. The name of
+            model will be determined based on
+            the func's doc string. If it cannot be determined,
+            'object' value will be the same as 'raw_object'.
+
+> Event information has been defined by the [kubernetes library](https://github.com/kubernetes-client/python).
+
+## Supported Objects
+
+Currently, Salmorejo supports:
+
+* Configmaps ("configmap", "configmaps", "cm")
+* Daemonsets ("daemonset", "daemonsets", "ds")
+* Deployments ("deployments", "deployment")
+* Ingresses ("ingress", "ingresses", "ing")
+* Pods ("pods", "pod", "po")
+* Secrets ("secret", "secrets")
+* Services ("services", "service", "svc")
+* Statefulsets  ("statefulset", "statefulsets", "sts")
+
+## Installation
+
+### From Pypi
+
+```bash
+$ python -m pip install salmorejo
+```
+
+### From Code
+
+```bash
+$ python -m pip install -e .
+```
+
+## How to use it?
+
+### CLI
+
+```bash
+$ salmorejo watch <python script path> <comma-separated-list of kubernetes objects>
+```
+
+### From Code repository
+
+```bash
+$ python main.py watch <python script path> <comma-separated-list of kubernetes objects>
+```
+
+### Example
+
+```bash
+$ salmorejo watch ./scripts/counter.py pod,svc,deployments
+
++------------+--------------------+-------+
+|    KIND    |     NAMESPACE      | COUNT |
++------------+--------------------+-------+
+|  Service   |      default       |   2   |
++------------+--------------------+-------+
+| Deployment |    kube-system     |   1   |
++------------+--------------------+-------+
+|    Pod     |    kube-system     |   8   |
++------------+--------------------+-------+
+| Deployment | local-path-storage |   1   |
++------------+--------------------+-------+
+|  Service   |    kube-system     |   1   |
++------------+--------------------+-------+
+|    Pod     | local-path-storage |   1   |
++------------+--------------------+-------+
+|    Pod     |      default       |   4   |
++------------+--------------------+-------+
+```
+
+### Examples
+
+Examples of Scripts can be found under [here](./scripts/)
+
+
+## Why Python
+
+Although [Go](https://go.dev/) is the lingua franca to code against Kubernetes, [Python](https://go.dev/) could be considered the most used programming language by SysAdmins, SREs or Platform Engineers. Salmorejo was thought for this kind of people, and we hope that they enjoy it.
+
+## What actually is Salmorejo?
+
+Salmorejo is a traditional Andalusian food, originally from Córdoba. [Wiki](https://en.wikipedia.org/wiki/Salmorejo).
