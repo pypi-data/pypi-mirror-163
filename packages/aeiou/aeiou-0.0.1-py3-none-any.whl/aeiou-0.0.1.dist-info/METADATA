@@ -1,0 +1,49 @@
+Metadata-Version: 2.1
+Name: aeiou
+Version: 0.0.1
+Summary: audio engineering i/o utils
+Home-page: https://github.com/drscotthawley/aeiou/
+Author: Scott Hawley
+Author-email: scott.hawley@belmont.edu
+License: Apache Software License 2.0
+Keywords: nbdev
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: einops
+Requires-Dist: fastcore
+Requires-Dist: librosa (>=0.8.1)
+Requires-Dist: matplotlib
+Requires-Dist: numpy
+Requires-Dist: pandas
+Requires-Dist: pillow
+Requires-Dist: torch
+Requires-Dist: torchaudio
+Requires-Dist: tqdm
+Requires-Dist: wandb
+Provides-Extra: dev
+
+# aeiou
+> audio engineering i/o utils
+
+
+## Install
+
+```sh
+pip install aeiou
+```
+
+## How to use
+
+Don't. Yet. Working on it.
+
+
