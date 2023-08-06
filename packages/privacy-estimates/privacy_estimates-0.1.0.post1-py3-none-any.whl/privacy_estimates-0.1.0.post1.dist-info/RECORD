@@ -1,0 +1,11 @@
+privacy_estimates/__init__.py,sha256=oCnZZYiPUuRNzqcvnvLVtVPDhToICyU6f3I5sXIcX6E,4951
+privacy_estimates/binomial_proportion.py,sha256=rANvKKvd1MdSpHzlwE5X48ZzfqkxdmC3qQiDpVnwGpI,5084
+privacy_estimates/joint_density.py,sha256=1qHMnzZ3UdGHuSe4mgTYGBFtVjz1eZh_IgwyhJKoUEg,6859
+privacy_estimates/privacy_region.py,sha256=QMYwn0g8sq6WDJyhmEdWLRUXlzRpTuvOkNdd0I1rD7s,3200
+privacy_estimates/utils.py,sha256=EL9xlu5TX0xfpwdQDGHU7NK9uUI2yDFT-wgEipPTuNQ,2703
+privacy_estimates-0.1.0.post1.data/scripts/estimate-epsilon.py,sha256=c46HXogewFRCS0h9XMYYg1SX-iHQkYeAc7lGcDFJQzM,2422
+privacy_estimates-0.1.0.post1.dist-info/LICENSE,sha256=ws_MuBL-SCEBqPBFl9_FqZkaaydIJmxHrJG2parhU4M,1141
+privacy_estimates-0.1.0.post1.dist-info/METADATA,sha256=9eWZFwi941oZCVMVXpJ3yxaZ76PKxGTCbtAJDgotwvQ,3182
+privacy_estimates-0.1.0.post1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+privacy_estimates-0.1.0.post1.dist-info/top_level.txt,sha256=u0tMCkRgzs0qfdUX2idUOr6tbbyKTty-yZ3q7rdu34c,18
+privacy_estimates-0.1.0.post1.dist-info/RECORD,,
