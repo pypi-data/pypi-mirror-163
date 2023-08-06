@@ -1,0 +1,70 @@
+# Alexandria
+
+**Alexandria** is a Python package for Bayesian time-series econometrics applications. This is the first official release of the software. For its first release, Alexandria includes only the most basic model: the linear regression. However, it proposes a wide range of Bayesian linear regressions:
+
+- maximum likelihood / OLS regression (non-Bayesian)
+- simple Bayesian regression
+- hierarchical (natural conjugate) Bayesian regression
+- independent Bayesian regression with Gibbs sampling
+- heteroscedastic Bayesian regression
+- autocorrelated Bayesian regression
+
+Alexandria is user-friendly and can be used from a simple Graphical User Inteface (GUI). More experienced users can also run the models directly from the Python console by using the model classes and methods.
+
+===============================
+
+**Installing Alexandria**
+
+Alexandria can be installed from pip: 
+
+	pip install alexandria-python
+
+A local installation can also obtain by copy-pasting the folder containing the toolbox programmes. The folder can be downloaded from the project website or Github repo:  
+https://alexandria-toolbox.github.io  
+https://github.com/alexandria-toolbox  
+
+===============================
+
+**Getting started**
+
+Simple Python example:
+
+	# imports
+	from alexandria.linear_regression import IndependentBayesianRegression
+	from alexandria.datasets import data_sets as ds
+	import numpy as np
+
+	# load Taylor dataset, split as train/test
+	taylor_data = ds.load_taylor()
+	y_train, X_train = taylor_data[:198,0], taylor_data[:198,1:]
+	y_test, X_test = taylor_data[198:,0], taylor_data[198:,1:]
+
+	# set prior mean and prior variance for the model
+	b = np.array([1.5, 0.5])
+	b_const = 1
+	V = np.array([0.01, 0.0025])
+	V_const = 0.01
+
+	# create and train regression
+	br = IndependentBayesianRegression(endogenous=y_train, exogenous=X_train,
+	constant=True, b_exogenous=b, V_exogenous=V, b_constant=b_const, V_constant=V_const)
+	br.estimate()
+
+	# get predictions on test sample, run forecast evaluation, display log score
+	estimates_forecasts = br.forecast(X_test, 0.95)
+	br.forecast_evaluation(y_test)
+	print('log score on test sample : ' + str(round(br.forecast_evaluation_criteria['log_score'], 2)))
+
+===============================
+
+**Documentation**
+
+Complete manuals and user guides can be found on the project website and Github repo:  
+https://alexandria-toolbox.github.io  
+https://github.com/alexandria-toolbox  
+
+===============================
+
+**Contact**
+
+alexandria.toolbox@gmail.com
