@@ -1,0 +1,44 @@
+[build-system]
+requires = ["setuptools>=61.0.0", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "delta-env"
+version = "1.0.0"
+description = "A simple tool to analyze how a shell script modifies environment variables"
+readme = "README.md"
+authors = [
+  { name = "Cetin Alanyalioglu", email = "cetinalanyalioglu@gmail.com" }
+]
+license = { file = "LICENSE.md" }
+requires-python = ">=3.0.0"
+classifiers = [
+  "Programming Language :: Python :: 3 :: Only",
+  "License :: OSI Approved :: MIT License"
+]
+
+[project.urls]
+Homepage = "https://github.com/cetinalanyalioglu/delta-env"
+
+[project.scripts]
+delta-env = "delta_env.cmd:delta_env_command_line"
+
+[project.optional-dependencies]
+dev = ["black", "flake8", "pip-tools", "bumpver"]
+
+[tool.black]
+line-length = 120
+target-version = ["py38"]
+experimental-string-processing = true
+
+[tool.bumpver]
+current_version = "1.0.0"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message  = "Bump version {old_version} -> {new_version}"
+commit          = true
+tag             = true
+push            = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = ['current_version = "{version}"', 'version = "{version}"']
+"delta_env/__init__.py" = ["{version}"]

@@ -1,0 +1,2 @@
+[console_scripts]
+delta-env = delta_env.cmd:delta_env_command_line

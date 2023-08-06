@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+delta_env/__init__.py
+delta_env/cmd.py
+delta_env/common.py
+delta_env.egg-info/PKG-INFO
+delta_env.egg-info/SOURCES.txt
+delta_env.egg-info/dependency_links.txt
+delta_env.egg-info/entry_points.txt
+delta_env.egg-info/requires.txt
+delta_env.egg-info/top_level.txt
