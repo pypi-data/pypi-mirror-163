@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+briefstats/__init__.py
+briefstats/bstats.py
+briefstats.egg-info/PKG-INFO
+briefstats.egg-info/SOURCES.txt
+briefstats.egg-info/dependency_links.txt
+briefstats.egg-info/requires.txt
+briefstats.egg-info/top_level.txt
