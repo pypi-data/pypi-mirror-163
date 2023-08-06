@@ -1,0 +1,20 @@
+include \
+    COPYRIGHT.txt \
+    installation.txt \
+    LICENCE.txt \
+    MANIFEST.in \
+    README.md \
+    requirements.txt \
+    setup.cfg \
+    setup.py \
+    
+recursive-include \
+    src/noted/config * \
+    src/noted/documentation * \
+    src/noted/html * \
+    src/noted/logs * \
+    src/noted/modules * \
+    src/noted/params * \
+    src/noted/query * \
+    src/noted/sense-o * \
+    src/noted/transfers * \
