@@ -1,0 +1,3 @@
+[console_scripts]
+xsession-manager = xsession_manager.main:run
+xsm = xsession_manager.main:run
