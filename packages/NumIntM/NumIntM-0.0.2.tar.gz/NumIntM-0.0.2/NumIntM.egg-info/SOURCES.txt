@@ -1,0 +1,9 @@
+LICENCE.txt
+README.txt
+setup.py
+NumIntM/__init__.py
+NumIntM/metodos.py
+NumIntM.egg-info/PKG-INFO
+NumIntM.egg-info/SOURCES.txt
+NumIntM.egg-info/dependency_links.txt
+NumIntM.egg-info/top_level.txt
