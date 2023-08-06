@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: bert-classifier
+Version: 0.1.1
+Summary: Bert based NLP classification models
+Author: ming_gao@outlook.com
+License: MIT
+License-File: LICENSE
+Requires-Dist: torch
+Requires-Dist: transformers
+
