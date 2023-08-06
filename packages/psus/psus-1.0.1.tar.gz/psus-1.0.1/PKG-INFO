@@ -1,0 +1,56 @@
+Metadata-Version: 2.1
+Name: psus
+Version: 1.0.1
+Summary: Script to send suspend/continue signals to processes through psutil
+Project-URL: Homepage, https://github.com/4ndrs/psus
+Project-URL: Bug Tracker, https://github.com/4ndrs/psus/issues
+Author-email: 4ndrs <andres.degozaru@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 4ndrs <andres.degozaru@gmail.com>
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: psutil~=5.9.1
+Description-Content-Type: text/markdown
+
+# psus
+
+Change the status of a given process (or a group of processes) sending SIGSTOP/SIGCONT.
+
+## Usage
+
+```console
+$ psus firefox suspend
+Signaled 101 processes
+
+$ psus firefox continue
+Signaled 101 processes
+```
+The script will search for processes with the string in the first command-line argument and execute the action specified in the second command-line argument. The action can be either suspend, or continue.
+
+
+## Installation
+```console
+pip install psus
+```
