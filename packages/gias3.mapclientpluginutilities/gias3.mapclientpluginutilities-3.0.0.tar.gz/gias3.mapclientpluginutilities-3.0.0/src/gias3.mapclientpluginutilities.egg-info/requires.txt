@@ -1,0 +1,5 @@
+PySide2
+mayavi
+traits
+traitsui
+gias3.fieldwork
