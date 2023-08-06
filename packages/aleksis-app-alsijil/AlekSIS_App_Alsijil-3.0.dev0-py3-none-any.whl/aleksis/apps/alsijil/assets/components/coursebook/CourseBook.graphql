@@ -1,0 +1,80 @@
+query CourseBook($lessonId: ID!) {
+  excuseTypes {
+    id
+    name
+    shortName
+  }
+  lesson: lessonById(id: $lessonId) {
+    groups {
+      name
+      shortName
+      members {
+        id
+        fullName
+      }
+    }
+    subject {
+      name
+    }
+    plannedLessonperiodsDatetimes {
+      year
+      week
+      datetimeStart
+      lessonPeriod{
+        id
+        period{
+          period
+        }
+      }
+    }
+  }
+  lessonDocumentations: lessonDocumentationsByLessonId(id: $lessonId) {
+    id
+    topic
+    homework
+    groupNote
+    year
+    week
+    lessonPeriod {
+      id
+      period {
+        id
+        period
+      }
+    }
+    event {
+      id
+    }
+    extraLesson {
+      id
+    }
+    period
+    date
+    personalNotes {
+      id
+      person {
+        id
+        fullName
+      }
+      late
+      absent
+      excused
+      excuseType {
+        id
+        name
+        shortName
+      }
+      remarks
+      extraMarks {
+        id
+        name
+        shortName
+      }
+    }
+  }
+  extraMarks {
+    id
+    name
+    shortName
+  }
+}

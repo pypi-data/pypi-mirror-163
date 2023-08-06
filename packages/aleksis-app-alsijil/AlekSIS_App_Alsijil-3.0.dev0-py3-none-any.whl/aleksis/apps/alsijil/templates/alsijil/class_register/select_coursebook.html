@@ -1,0 +1,52 @@
+{% extends "core/vue_base.html" %}
+{% load static i18n %}
+
+{% block page_title %}{% trans "Select Coursebook" %}{% endblock %}
+{% block browser_title %}{% trans "Select Coursebook" %}{% endblock %}
+{% block content %}
+  <v-row>
+    {% for lesson in lessons %}
+      <v-col xs="12" sm="6" md="6" lg="4" xl="3" class="d-flex">
+        <v-card class="flex-grow-1">
+          <v-card-title>
+            {% for group in lesson.groups.all %}{{ group.short_name }}{% if not forloop.last %},{% endif %}{% endfor %}
+            · {{ lesson.subject.name }}
+          </v-card-title>
+          <v-card-subtitle>
+            {{ lesson.validity.date_start }}-{{ lesson.validity.date_end }}
+          </v-card-subtitle>
+          <v-card-text>
+            {{ lesson.teachers.all|join:"," }}
+          </v-card-text>
+{#          <v-spacer></v-spacer>#}
+          <v-card-actions>
+            <v-btn :href="urls.coursebook({{ lesson.pk }})" text color="secondary">
+              <v-icon left>mdi-book-search-outline</v-icon>
+              {% trans "Open in coursebook" %}
+            </v-btn>
+          </v-card-actions>
+        </v-card>
+      </v-col>
+    {% empty %}
+      <v-container
+        class="text-center fill-height"
+        style="height: calc(100vh - 58px);"
+      >
+        <v-row align="center">
+          <v-col>
+            <h1 class="text-h3 primary--text">
+              <v-icon color="error" x-large>mdi-book-off-outline</v-icon>
+              {% trans "No Coursebook" %}
+            </h1>
+
+            <p>{% trans "There are no courses where you are a teacher." %} </p>
+          </v-col>
+        </v-row>
+      </v-container>
+    {% endfor %}
+  </v-row>
+{% endblock %}
+
+{% block extra_body %}
+  {#  <script type="module" src="{% static "js/vue/alsijil/LoadComponents.js" %}"></script>#}
+{% endblock %}

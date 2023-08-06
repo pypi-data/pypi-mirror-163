@@ -1,0 +1,16 @@
+{% extends "core/vue_base.html" %}
+{% load static i18n %}
+{% load render_bundle from webpack_loader %}
+
+{% block page_title %}
+  {% trans "Coursebook" %}
+{% endblock %}
+{% block browser_title %}{% trans "Coursebook" %} {{ lesson }}{% endblock %}
+{% block content %}
+<div class="text-h5">{{ lesson }}</div>
+<router-view save-lesson-documentations-per-week={{ SITE_PREFERENCES.alsijil__save_lesson_documentations_by_week }} />
+{% endblock %}
+
+{% block extra_body %}
+  {% render_bundle "aleksis.apps.alsijil" %}
+{% endblock %}
