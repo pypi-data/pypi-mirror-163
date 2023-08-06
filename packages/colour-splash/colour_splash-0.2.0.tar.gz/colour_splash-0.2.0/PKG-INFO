@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: colour_splash
+Version: 0.2.0
+Summary: A simple tool enabling easy colouring of terminal outputs
+Project-URL: Homepage, https://github.com/lachlan2357/python-colour-splash
+Project-URL: Bug Tracker, https://github.com/lachlan2357/python-colour-splash/issues
+Project-URL: Source, https://github.com/lachlan2357/python-colour-splash
+Author-email: Lachlan Rehder <lachlan2357@outlook.com>
+Classifier: Development Status :: 4 - Beta
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# Colour Splash
+A simple tool enabling easy colouring of terminal outputs
+
+# Download
+## Using PIP to use a imported Module
+`pip install colour_splash`
+## Manually to embed into a project
+`git clone https://github.com/lachlan2357/python-colour-splash` into your project directory
+
+# Usage
+Include `import colour_splash` at the top of your file
+
+## Functions
+### `colour_splash.colour()`
+Changes the foreground, background or both-grounds of text
+#### Parameters:
+- `text` the text you wish to be coloured
+- `foreground` (optional): the string value of the name of the colour you wish to use as the foreground (text) colour
+- `background` (optional): the string value of the name of the colour you wish to use as the background (highlighted) colour
+
+### `colour_splash.style()`
+Changes the style of text
+#### Parameters:
+- `text`: the text you wish to be styled
+- `style` (optional): the string value of the name of the style you wish to use
+
+### `colour_splash.colour_start()`
+Starts a specific colour for all proceeding text
+#### Parameters:
+- `foreground` (optional): the string value of the name of the colour you wish to use as the foreground (text) colour
+- `background` (optional): the string value of the name of the colour you wish to use as the background (highlighted) colour
+
+### `colour_splash.style_start()`
+Starts a specific style for all proceeding text
+#### Parameters:
+- `style` (optional): the string value of the name of the style you wish to use
+
+### `colour_splash.colour_end()`
+Returns the proceeding text to its previous colour/style
+
+### `colour_splash.style_end()`
+Returns the proceeding text to its previous colour/style
+
+### `colour_splash.help()`
+Lists colours and styles and how they appear on your system
