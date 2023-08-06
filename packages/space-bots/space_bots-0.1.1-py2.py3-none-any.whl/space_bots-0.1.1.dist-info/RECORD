@@ -1,0 +1,12 @@
+space_bots/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+space_bots/actor.py,sha256=Z-D4eDKirt4ILfTJXR40ZAjaKQYm_69JJsqpm2YslZY,2191
+space_bots/display_adapter.py,sha256=ygJkMg8ab3bBbIA21ETqPpqBlxa5qpm7-oYUQJAed00,2987
+space_bots/planet.py,sha256=RuHPyTvSEbr6txKCZGwP54RFWy6Hb1zr9z-WLaHgfP8,1348
+space_bots/ship.py,sha256=FbFCXWNzJz9GDLXY1pAWWzEIJVJoZ3D2luTF762H774,1292
+space_bots/universe.py,sha256=UvxCn86R8_nSjt9GSsTEUTRnYH3yTfLkYK52EecCpHw,2348
+space_bots/images/Readme.md,sha256=c4kbYqaaQBzCKlzfalfcQtjJRCPDsxPssYU1x2Te4K8,120
+space_bots-0.1.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+space_bots-0.1.1.dist-info/METADATA,sha256=MOKrIe2D_ymfV0Tw3vA_CduXD8sdF9d5mvSohTr4fjU,1179
+space_bots-0.1.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+space_bots-0.1.1.dist-info/top_level.txt,sha256=OhY9PDuLM0EcGtDpDcink45K09V-8v42NkCMI-Jaefs,11
+space_bots-0.1.1.dist-info/RECORD,,
