@@ -1,0 +1,10 @@
+gias3.testing-3.0.0-py3.9-nspkg.pth,sha256=PEnRT41eJiri6gTfQdvyhApVMBT-pF7WkV7IwIw00zU,535
+gias3/testing/__init__.py,sha256=wWsUtVaCD-FnOG-dUzjgTZe5y3gg-pRYxu_RuSocoSo,840
+gias3/testing/test_inptest.py,sha256=Oddula_wNwnXxx5_LruzqmyM6HkPtd-H41ciPUjgJ1w,2023
+gias3/testing/test_lines.py,sha256=wd9Vt0OhOguv12gVHTWzgxFkJRq6q3WA_U0c9-FDI4Q,2090
+gias3.testing-3.0.0.dist-info/LICENSE,sha256=zeIV5bQjY-soyiRixFWP9IB7OPODxTdiTDHkRlesWPQ,17099
+gias3.testing-3.0.0.dist-info/METADATA,sha256=GysYNC_7FJFGJcfXBuWwsv-Z3TEA0j6JCHe4xGIC-a0,631
+gias3.testing-3.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gias3.testing-3.0.0.dist-info/namespace_packages.txt,sha256=neP4R9WpCbvFzj7C-M-F1mpO4l255wLIwrSSkGGXNAw,6
+gias3.testing-3.0.0.dist-info/top_level.txt,sha256=neP4R9WpCbvFzj7C-M-F1mpO4l255wLIwrSSkGGXNAw,6
+gias3.testing-3.0.0.dist-info/RECORD,,
