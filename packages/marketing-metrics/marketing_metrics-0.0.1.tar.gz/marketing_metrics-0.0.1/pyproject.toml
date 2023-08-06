@@ -1,0 +1,27 @@
+[project]
+name = "marketing-metrics"
+version = "0.0.1"
+description = "Calculate Marketing Metrics"
+authors = [
+    {name = "Mohsen Ebrahimi", email = "mohsenebrahimy.ir@gmail.com"}
+]
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.8"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+packages = [
+    { include = "marketing_metrics", from = "src" }
+]
+
+[project.urls]
+homepage = "https://mohsenebrahimyir.github.io/marketing-metrics/"
+repository = "https://github.com/mohsenebrahimyir/marketing-metrics.git"
+
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
