@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "Redditsfinder"
+version = "2.1.0"
+description = "Archive a reddit user's post history. Formatted overview of a profile, JSON containing every post, and picture downloads."
+authors = ["fitzy1293 <berkshiremind@gmail.com>"]
+# New attributes
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/Fitzy1293/redditsfinder"
+repository = "https://github.com/Fitzy1293/redditsfinder"
+keywords = ["reddit", "webscraping", "reddit-crawler", "pushshift"]
+
+include = [
+    "LICENSE",
+]
+
+
+[tool.poetry.scripts]
+redditsfinder = 'redditsfinder:main'
+
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+requests = "2.28.1"
+rich = "12.5.1"
