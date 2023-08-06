@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+iscurse/__init__.py
+iscurse/analyzer.py
+iscurse.egg-info/PKG-INFO
+iscurse.egg-info/SOURCES.txt
+iscurse.egg-info/dependency_links.txt
+iscurse.egg-info/top_level.txt
