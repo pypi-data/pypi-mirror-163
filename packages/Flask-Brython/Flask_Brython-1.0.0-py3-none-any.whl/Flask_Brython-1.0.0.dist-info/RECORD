@@ -1,0 +1,8 @@
+flask_brython/__init__.py,sha256=e4YH0ey4m0IpUKV61DM30_Zxn8NacROI41rWTWavSGU,1492
+flask_brython/static/js/brython.min.js,sha256=XrtdD75rFxj7BLsh7aGOrAEulXUUxbdsYRgU67ZiMDU,973456
+flask_brython/static/js/brython_stdlib.min.js,sha256=TXD2kmwFqddjaOiAYGopsmbuhEbnUqYKg7EEOvPYf8Y,7438562
+Flask_Brython-1.0.0.dist-info/LICENSE,sha256=pE5Ka8q0oDXUeKyzK3c-bs0d3bwu1F5n-ta-t18uxLY,1084
+Flask_Brython-1.0.0.dist-info/METADATA,sha256=uhQ2wF90XIkrpKN2udRqliZzaomDHauo2K_So2alZbQ,1353
+Flask_Brython-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Flask_Brython-1.0.0.dist-info/top_level.txt,sha256=uULtpIm6B5W_cdY62oED4ZJrXJfboEGaDRMEb4ZM_K0,14
+Flask_Brython-1.0.0.dist-info/RECORD,,
