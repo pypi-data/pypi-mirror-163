@@ -1,0 +1,13 @@
+Metadata-Version: 1.1
+Name: xueqiudanjuan
+Version: 0.0.2
+Summary: This is a package provided by BugMakerH.
+Home-page: https://github.com/
+Author: BugMakerH
+Author-email: BugMakerH@gmail.com
+License: UNKNOWN
+Description: Text/markdown
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent

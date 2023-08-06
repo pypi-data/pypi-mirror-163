@@ -1,0 +1,7 @@
+setup.py
+xueqiudanjuan/__init__.py
+xueqiudanjuan/test.py
+xueqiudanjuan.egg-info/PKG-INFO
+xueqiudanjuan.egg-info/SOURCES.txt
+xueqiudanjuan.egg-info/dependency_links.txt
+xueqiudanjuan.egg-info/top_level.txt
