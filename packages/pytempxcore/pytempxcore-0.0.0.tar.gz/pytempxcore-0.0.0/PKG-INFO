@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pytempxcore
+Version: 0.0.0
+Summary: a simple package that allows you to convert Celsius to Fahrenheit, and vice versa
+Home-page: https://github.com/GreatPack/pytemp-core
+Author: GreatPack
+Author-email: m6338687@gmail.com
+License: MIT
