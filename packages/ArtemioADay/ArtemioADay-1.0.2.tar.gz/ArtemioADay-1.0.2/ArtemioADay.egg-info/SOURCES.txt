@@ -1,0 +1,12 @@
+CHANGELOG.txt
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+ArtemioADay/__init__.py
+ArtemioADay/latemix.py
+ArtemioADay.egg-info/PKG-INFO
+ArtemioADay.egg-info/SOURCES.txt
+ArtemioADay.egg-info/dependency_links.txt
+ArtemioADay.egg-info/top_level.txt
