@@ -1,0 +1,7 @@
+README.rst
+setup.cfg
+setup.py
+src/ctrlaltdileep_cowsay.egg-info/PKG-INFO
+src/ctrlaltdileep_cowsay.egg-info/SOURCES.txt
+src/ctrlaltdileep_cowsay.egg-info/dependency_links.txt
+src/ctrlaltdileep_cowsay.egg-info/top_level.txt
