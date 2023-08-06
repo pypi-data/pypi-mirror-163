@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "nchainz"
+version = "1.0.0"
+description = "Like 2 Chainz but better!"
+authors = ["Lars Quentin <lars@lquenti.de>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/lquenti/nchainz"
+repository = "https://github.com/lquenti/nchainz"
+
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+tox = "^3.25.1"
+flake8 = "^5.0.4"
+flake8-bugbear = "^22.7.1"
+pep8-naming = "^0.13.1"
+flake8-builtins = "^1.5.3"
+flake8-comprehensions = "^3.10.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
