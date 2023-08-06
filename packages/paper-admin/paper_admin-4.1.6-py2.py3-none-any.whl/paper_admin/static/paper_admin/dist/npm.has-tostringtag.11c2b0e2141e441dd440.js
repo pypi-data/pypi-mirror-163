@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpaper_admin=self.webpackChunkpaper_admin||[]).push([[440],{3695:(e,a,n)=>{var p=n(5419);e.exports=function(){return p()&&!!Symbol.toStringTag}}}]);
+//# sourceMappingURL=npm.has-tostringtag.11c2b0e2141e441dd440.js.map
