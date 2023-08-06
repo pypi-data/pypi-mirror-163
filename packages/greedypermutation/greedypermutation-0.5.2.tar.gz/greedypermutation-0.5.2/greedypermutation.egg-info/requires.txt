@@ -1,0 +1,16 @@
+ds2>=0.2.4
+metricspaces
+Click
+
+[dev]
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-bibtex
+sphinx-click
+pytest
+pycodestyle
+autopep8
+pytest-cov
+
+[viz]
+ds2viz
