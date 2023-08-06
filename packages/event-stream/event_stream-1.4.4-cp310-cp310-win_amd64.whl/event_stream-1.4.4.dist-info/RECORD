@@ -1,0 +1,5 @@
+event_stream.cp310-win_amd64.pyd,sha256=HeQ8MAU2AO1BIbscXhQaU9e7RjRCINzWjjq59YrRZLY,119296
+event_stream-1.4.4.dist-info/METADATA,sha256=xShFnLKPOw94cV9sQWZijVS1GVMNfIMZR2qriOtUk8k,11226
+event_stream-1.4.4.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+event_stream-1.4.4.dist-info/top_level.txt,sha256=4VVeEVByGUHmvcc1vRJxDCfzwq82t_-qU4_EJCS_7lI,13
+event_stream-1.4.4.dist-info/RECORD,,
