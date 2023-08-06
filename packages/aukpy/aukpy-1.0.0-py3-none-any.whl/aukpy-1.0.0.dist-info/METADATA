@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: aukpy
+Version: 1.0.0
+Summary: Reimplementation of auk in Python
+Author-email: Vincent Luczkow <vincent.luczkow@gmail.com>
+License: MIT License        
+        Copyright (c) 2021 Vincent Luczkow        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: Homepage, https://github.com/vluzko/aukpy
+Project-URL: Bug Tracker, https://github.com/vluzko/aukpy/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: numpy (==1.23.1)
+Requires-Dist: pandas (==1.4.3)
+Provides-Extra: docs
+Requires-Dist: Sphinx (==5.1.1) ; extra == 'docs'
+Requires-Dist: sphinx-rtd-theme (==1.0.0) ; extra == 'docs'
+Provides-Extra: tests
+Requires-Dist: black (==22.6.0) ; extra == 'tests'
+Requires-Dist: pytest (==7.1.2) ; extra == 'tests'
+Requires-Dist: mypy (==0.971) ; extra == 'tests'
+Requires-Dist: pandas-stubs (==1.4.3.220807) ; extra == 'tests'
+
+# aukpy
+[![CircleCI](https://circleci.com/gh/vluzko/aukpy.svg?style=shield)](https://circleci.com/gh/vluzko/aukpy)
+[![Documentation Status](https://readthedocs.org/projects/aukpy/badge/?version=latest)](https://aukpy.readthedocs.io/en/latest/?badge=latest)
+
+A reimplementation of [auk](https://github.com/CornellLabofOrnithology/auk) in Python.
+
+Note that this is *not* a direct port: aukpy does not use `awk` to access data. Instead it provides a similar API, but uses sqlite to index and query the dataset.
+
+For detailed usage, [see the full documentation](https://aukpy.readthedocs.io/en/latest/)
+
+## Usage
+To load and filter a set of eBird observations stored in `observations.txt`:
+```
+from aukpy import db, queries
+db_conn = db.build_db_pandas('observations.txt')
+df = queries.species('Sturnus vulgaris').run(db_conn)
+```
