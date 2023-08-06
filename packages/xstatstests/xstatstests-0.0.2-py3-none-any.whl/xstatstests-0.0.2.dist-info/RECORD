@@ -1,0 +1,11 @@
+xstatstests/__init__.py,sha256=xK7k1BJfHrUpCJnM1skWDQa9NbUsWWfW4sDs2c7IXRU,397
+xstatstests/_version.py,sha256=vICHnDj3d3bgqmPctJ0467pD42PwG0vmvaEqYi57MPg,497
+xstatstests/core.py,sha256=W4wORjF4hIG_YEcMgK1v3-Sm71ylEHMHx2P_sZqNtfs,33520
+xstatstests/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xstatstests/tests/fixtures.py,sha256=oCsBcEEsNGjBLNi-w95shsx5V3Ye-us4cXZXWES8qN8,1254
+xstatstests/tests/test_core.py,sha256=gEeBO3t2zzfSsfyf0oTP7kGh9PTobRPxSB_4XZj06bE,17503
+xstatstests-0.0.2.dist-info/LICENSE,sha256=PNtW_kuFUxZA24AzBZ6egPMgNyr0XnewxaF-Exm8d0c,1070
+xstatstests-0.0.2.dist-info/METADATA,sha256=J5MDmuR8Q0_x2GBAVIiU556XLJcz8yHjIHdH-QIiv_A,498
+xstatstests-0.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+xstatstests-0.0.2.dist-info/top_level.txt,sha256=zBK-G0ywTxkp1iIRZEXCf9gne5MpzN5JSuHxVLIUiOk,12
+xstatstests-0.0.2.dist-info/RECORD,,
