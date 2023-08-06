@@ -1,0 +1,17 @@
+LICENSE
+README.md
+setup.py
+modelfun/__init__.py
+modelfun/classify.py
+modelfun/client.py
+modelfun/embeddings.py
+modelfun/error.py
+modelfun/extract.py
+modelfun/generation.py
+modelfun/response.py
+modelfun/tokenize.py
+modelfun.egg-info/PKG-INFO
+modelfun.egg-info/SOURCES.txt
+modelfun.egg-info/dependency_links.txt
+modelfun.egg-info/requires.txt
+modelfun.egg-info/top_level.txt
