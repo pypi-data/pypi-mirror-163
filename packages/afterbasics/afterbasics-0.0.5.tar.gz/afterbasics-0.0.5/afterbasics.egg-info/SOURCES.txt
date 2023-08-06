@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+afterbasics/__init__.py
+afterbasics/afterbasic.py
+afterbasics.egg-info/PKG-INFO
+afterbasics.egg-info/SOURCES.txt
+afterbasics.egg-info/dependency_links.txt
+afterbasics.egg-info/not-zip-safe
+afterbasics.egg-info/requires.txt
+afterbasics.egg-info/top_level.txt

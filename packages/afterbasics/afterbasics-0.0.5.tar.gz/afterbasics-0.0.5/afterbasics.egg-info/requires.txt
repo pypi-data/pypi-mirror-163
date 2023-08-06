@@ -1,0 +1,4 @@
+requests>=2
+
+[dev]
+pytest>=6.0pytest-cov>=2.0mypy>=0.910flake8>=3.9
