@@ -1,0 +1,3 @@
+[console_scripts]
+multi_exe_maker = multi_exe_maker.multi_exe_maker:run
+
