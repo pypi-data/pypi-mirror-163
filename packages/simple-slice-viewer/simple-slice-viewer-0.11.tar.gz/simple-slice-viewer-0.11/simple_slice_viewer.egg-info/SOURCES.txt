@@ -1,0 +1,13 @@
+README.md
+setup.py
+simple_slice_viewer.egg-info/PKG-INFO
+simple_slice_viewer.egg-info/SOURCES.txt
+simple_slice_viewer.egg-info/dependency_links.txt
+simple_slice_viewer.egg-info/entry_points.txt
+simple_slice_viewer.egg-info/not-zip-safe
+simple_slice_viewer.egg-info/requires.txt
+simple_slice_viewer.egg-info/top_level.txt
+sitk_tools/__init__.py
+sitk_tools/dicom_reader.py
+sitk_tools/image.py
+sitk_tools/statistics.py
