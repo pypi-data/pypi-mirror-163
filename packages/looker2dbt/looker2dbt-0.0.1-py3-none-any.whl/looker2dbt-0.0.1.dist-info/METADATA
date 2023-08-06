@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: looker2dbt
+Version: 0.0.1
+Summary: A package to translate lookml to dbt yaml.
+Author: Rasgo Intelligence
+Author-email: patrick@rasgoml.com
+License: GNU Affero General Public License v3 or later (AGPLv3+)
+Project-URL: Source, https://github.com/rasgointelligence/looker2dbt
+Project-URL: Changelog, https://github.com/rasgointelligence/looker2dbt/blob/main/CHANGELOG.md
+Project-URL: Rasgo, https://www.rasgoml.com/
+Classifier: Development Status :: 1 - Planning
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3 or later (AGPLv3+)
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Database
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Software Development :: Code Generators
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Looker 2 dbt
+Coming soon...
