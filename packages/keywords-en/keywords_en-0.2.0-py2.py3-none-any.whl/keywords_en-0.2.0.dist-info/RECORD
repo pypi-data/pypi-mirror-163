@@ -1,0 +1,17 @@
+keywords_en/__init__.py,sha256=6xiGAG7PRqQ_L4Qk02el8zEEdAFN1mk7XEYLOO4OaOY,1667
+keywords_en/cli.py,sha256=kYSL1NLfefnGMM2etOoZHSTXKW3RNgu9Z_qjrpqsB-A,411
+keywords_en/keywords_en.py,sha256=DnUYZUnO0o47RH5_dxCFRiWPJMjR-hthfQsc1B6m8Tg,1185
+keywords_en/utils/__init__.py,sha256=5qe2ot1dbsj8RO4CeudXaRYZeqUDguMFjvaXA16k75c,273
+keywords_en/utils/key_bert_kw.py,sha256=NHiuerPnFAxqhPqSMPPu2e4RjTWhkzE9tMXxR_DsbJw,3948
+keywords_en/utils/stop_keywords.py,sha256=rX5oGIyCM0TIddusHFJ0zGvzcj3NLC_Ni9aovGyCiYk,1127
+keywords_en/utils/text_rank_kw.py,sha256=rJOu3wPD30nzdTAodeqyVL6BfJ5cKgzrRXpZBqareSE,369
+keywords_en/utils/tf_idf_kw.py,sha256=oOTc_o5eh58ovfSzppkNFkMlgADlgCqTOI6bxV-xnP0,4593
+keywords_en/utils/topic_rank_kw.py,sha256=928ZwH1EF1pxtAATFV2yVr1hjzsXJrC5WT-fh5yHCaE,3877
+keywords_en/utils/yake_kw.py,sha256=JBbW8jDXzYO7fWAoB-Kl9hQLFnPAm9PDxK-M2J-4Bsg,4020
+keywords_en-0.2.0.dist-info/AUTHORS.rst,sha256=3dOUVlrJ56XQT8jieU3YBcD6vUY0Oml7j02qmk-_7IA,154
+keywords_en-0.2.0.dist-info/LICENSE,sha256=PSBdb2OX5y460jL1OOjP16q1WgutwNSgvlGevi7whLY,1530
+keywords_en-0.2.0.dist-info/METADATA,sha256=1KIGxIIw1GDJ9aeERVLA1GlaqTfR0VBZ1Wqv2emjvrY,9029
+keywords_en-0.2.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+keywords_en-0.2.0.dist-info/entry_points.txt,sha256=LV658d0jZGoOUYF2IJ8KvusFlX8FL51kFMOIgFHN0WQ,54
+keywords_en-0.2.0.dist-info/top_level.txt,sha256=tr7NoJrvj-aZ-La9Ximl1c_GxLxNNmkngJDO8pVrn-8,12
+keywords_en-0.2.0.dist-info/RECORD,,
