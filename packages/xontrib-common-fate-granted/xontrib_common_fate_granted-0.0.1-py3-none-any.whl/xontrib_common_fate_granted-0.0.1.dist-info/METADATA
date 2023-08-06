@@ -1,0 +1,85 @@
+Metadata-Version: 2.1
+Name: xontrib-common-fate-granted
+Version: 0.0.1
+Summary: Use Common Fate's Granted CLI tool for switching AWS profiles with Xonsh shell
+Author-email: Eddie Peters <eddie@dinogalactic.com>
+License: MIT License        
+        Copyright (c) 2022, Eddie Peters        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.        
+Project-URL: Homepage, https://github.com/eppeters/xontrib-common-fate-granted
+Project-URL: Documentation, https://github.com/eppeters/xontrib-common-fate-granted/blob/master/README.md
+Project-URL: Code, https://github.com/eppeters/xontrib-common-fate-granted
+Project-URL: Issue tracker, https://github.com/eppeters/xontrib-common-fate-granted/issues
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: System :: Shells
+Classifier: Topic :: System :: System Shells
+Classifier: Topic :: Terminals
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: xonsh (>=0.12.5)
+Provides-Extra: dev
+Requires-Dist: pytest (>=7.0) ; extra == 'dev'
+
+<p align="center">
+Use <a href="https://granted.dev">Common Fate's Granted CLI tool</a> for switching AWS profiles in <a href="https://xon.sh/">Xonsh shell</a>
+</p>
+
+<p align="center">  
+If you like the idea click ⭐ on the repo and <a href="https://twitter.com/intent/tweet?text=Nice%20xontrib%20for%20the%20xonsh%20shell!&url=https://github.com/eppeters/xontrib-common-fate-granted" target="_blank">tweet</a>.
+</p>
+
+## Prerequisites
+
+Install [Granted](https://granted.dev) and ensure the `assumego` command is in your path already (try `which assumego`).
+
+## Installation
+
+To install use pip:
+
+```bash
+xpip install xontrib-common-fate-granted
+# or: xpip install -U git+https://github.com/eppeters/xontrib-common-fate-granted
+```
+
+## Usage
+
+Load the plugin in your `.xonshrc`.
+
+e.g.:
+
+```
+xontrib load common_fate_granted
+```
+
+You can use `assume` now, just like people who use boring old shells!
+
+...
+
+## Known issues
+
+* Please file an issue if you encounter a bug!
+
+...
+
+## Credits
+
+* This package was created with [xontrib template](https://github.com/xonsh/xontrib-template).
+* This port was first documented by [Eddie Peters](https://github.com/eppeters) in a [blog post on dinogalactic.com](https://www.dinogalactic.com/using-common-fates-granted-cli-tool-for-aws-profiles-with-xonsh-shell.html)
