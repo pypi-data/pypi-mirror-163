@@ -1,0 +1,16 @@
+hypernova/__init__.py,sha256=z6E3yn9RYF2YkD6X0EOovVDICC_5rQzeqbY7YjWdQE0,106
+hypernova/build_c_code.py,sha256=d3g_X4usu2eB7twUVKgwAbym_wPuOO2hayGwij-xp7M,3278
+hypernova/hypernova_c.pyd,sha256=NhObijCrSVvOLRZ_cEimWsG2ORFo_W-l3z_vO-a-WVQ,36864
+hypernova/propagation.py,sha256=-abN6YQD1YL7p6yHZx4wUU9mFjSWVD78zy34KEy-UPQ,2269
+hypernova/examples/__init__.py,sha256=yONeAsboLJhRRZiy_Ary9YbEVfnRXrVtF5GMSrLUuHI,54
+hypernova/examples/basic_orbit_and_plot.py,sha256=jCu3fAbhJm7M-y6UonS4vqPPLbjs1vHHUQgbZyRykoU,597
+hypernova/solvers/__init__.py,sha256=baiUnlOFIUh9-WOta9aGknCqjgySfKXKEXx6TasS1v8,119
+hypernova/solvers/solver_configurations.py,sha256=HmSpyEEhSr1g7yGstcZ2E6yCHLkRvMr5GoXTTHqWB-Y,172
+hypernova/solvers/solver_solution.py,sha256=9YW05DbpgbM63G-mYWbroWxlyn3oenk489P6cP5-Hj8,1594
+hypernova/visualization/__init__.py,sha256=abHkCLq90m29RUqsbnM8BXOEtwRBwP3-egP4rq3CYaY,36
+hypernova/visualization/mpl_plotters.py,sha256=N-4mKjPao9pFb7VoC7w-JZpD9BtIGX3kHrmrLaolxaI,1608
+hypernova_orbit-0.1.0.dist-info/LICENSE,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+hypernova_orbit-0.1.0.dist-info/METADATA,sha256=Un0FQKxG3f7rcejBOvUL4jf-E3cPALzx1RsuRFQ7lj4,2231
+hypernova_orbit-0.1.0.dist-info/WHEEL,sha256=W26pYN7HLsBT1jrDSL9udgf_mdNKJmYmL23sIP-FcgM,102
+hypernova_orbit-0.1.0.dist-info/top_level.txt,sha256=qeqbXT5j4D5n-xIu9IT7Emc0KDoJSX7MzUj9Kyg2mcY,10
+hypernova_orbit-0.1.0.dist-info/RECORD,,
