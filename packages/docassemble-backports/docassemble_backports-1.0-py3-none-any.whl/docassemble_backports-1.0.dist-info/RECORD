@@ -1,0 +1,7 @@
+backports/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+backports/zoneinfo/__init__.py,sha256=4IJbEFT8DCWddMijbXxEaEG_t93fahC5r2nsst2TdFk,23
+docassemble_backports-1.0.dist-info/LICENSE.txt,sha256=DBe0aC0JiRPLaQWW32xpxV2UyEKOhotMyDXpVE3BTMQ,1080
+docassemble_backports-1.0.dist-info/METADATA,sha256=XmO67KvanaA3BBUphlLzeNGrwa4mJ3HCJ1eEvizlizw,362
+docassemble_backports-1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+docassemble_backports-1.0.dist-info/top_level.txt,sha256=cGjaLMOoBR1FK0ApojtzWVmViTtJ7JGIK_HwXiEsvtU,10
+docassemble_backports-1.0.dist-info/RECORD,,
