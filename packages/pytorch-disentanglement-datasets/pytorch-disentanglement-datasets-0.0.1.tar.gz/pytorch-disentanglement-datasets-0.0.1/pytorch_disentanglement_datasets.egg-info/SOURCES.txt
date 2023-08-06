@@ -1,0 +1,15 @@
+LICENSE
+README.md
+pyproject.toml
+disentanglement_datasets/__init__.py
+disentanglement_datasets/base.py
+disentanglement_datasets/dsprites.py
+disentanglement_datasets/mpi3d.py
+disentanglement_datasets/resource.py
+pytorch_disentanglement_datasets.egg-info/PKG-INFO
+pytorch_disentanglement_datasets.egg-info/SOURCES.txt
+pytorch_disentanglement_datasets.egg-info/dependency_links.txt
+pytorch_disentanglement_datasets.egg-info/requires.txt
+pytorch_disentanglement_datasets.egg-info/top_level.txt
+test/test_dsprites.py
+test/test_mpi3d_toy.py
