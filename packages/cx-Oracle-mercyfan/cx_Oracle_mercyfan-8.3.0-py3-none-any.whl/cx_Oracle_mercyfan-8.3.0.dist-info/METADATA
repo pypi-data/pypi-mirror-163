@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: cx-Oracle-mercyfan
+Version: 8.3.0
+Summary: cx_Oracle_mercyfan is now cx_Oracle-8.3.0
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: cx-Oracle-8.3.0
+
+# cx_Oracle_mercyfan is now cx_Oracle-8.3.0
+
+This package has been renamed. Use `pip install cx_Oracle-8.3.0` instead.
+
+New package: https://pypi.org/project/cx_Oracle-8.3.0/
