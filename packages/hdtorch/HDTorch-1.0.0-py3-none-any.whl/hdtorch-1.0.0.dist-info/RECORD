@@ -1,0 +1,10 @@
+hdtorch/__init__.py,sha256=CGhfSQI7Fszk1Q__g6Ky4UETwVm44Jvmlu3MuhD7UF8,819
+hdtorch/cuda/hdtorch.cpp,sha256=UZF8a6DdCGEcP9vYqRyT4lw4KIwV6z5ioqIwrsNZ1Ko,1229
+hdtorch/cuda/hdtorch_cu.cu,sha256=00txp6Y0OmcBwsNLNS7YxyFUO61paw71NfegSy8AW68,14809
+hdtorch/cuda/setup.py.back,sha256=IE_4mAZKI5BHa89H3qSzAeB8eh9RLTK53APHETCtfwM,349
+hdtorch/hyperdimGenerators.py,sha256=MQS2rARR_CiHAtu-Uja-JIfB77aGQ3AhuRNgycgwY2Y,3681
+hdtorch/model.py,sha256=O09YLnCxLCMUHf2Q1h_oc2tQd91af91dPZ2xdrEu160,6140
+hdtorch/util.py,sha256=y9eBIUjvX1KudoJCoNtejSKYLe1kpGSOKCWai1a48gE,1558
+hdtorch-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+hdtorch-1.0.0.dist-info/METADATA,sha256=z5NgWzHV16KcSv8CdHXo8qH7UhQmn973B0VEmKKYxbI,762
+hdtorch-1.0.0.dist-info/RECORD,,
