@@ -1,0 +1,39 @@
+[tool.poetry]
+name = "wernstrom"
+version = "0.4.2"
+description = "A minimal set of tools for working with the KITTI dataset in Python"
+authors = ["walchko <walchko@users.noreply.github.com>"]
+readme = "readme.md"
+license = "MIT"
+homepage = "https://pypi.org/project/wernstrom/"
+repository = 'https://github.com/MomsFriendlyRobotCompany/wernstrom'
+# documentation = "http://..."
+keywords = ["numpy", "camera", "kitti", "data", "robotics","vision","image processing"]
+classifiers = [
+    'Development Status :: 4 - Beta',
+    'Intended Audience :: Developers',
+    'License :: OSI Approved :: MIT License',
+    'Operating System :: OS Independent',
+    'Programming Language :: Python :: 3.8',
+    'Programming Language :: Python :: 3.9',
+    'Programming Language :: Python :: 3.10',
+    'Topic :: Software Development :: Libraries',
+    'Topic :: Software Development :: Libraries :: Python Modules',
+    'Topic :: Software Development :: Libraries :: Application Frameworks'
+]
+
+# [tool.poetry.scripts]
+# # script_name = 'myscript:main'
+
+[tool.poetry.dependencies]
+python = ">=3.8"
+numpy = "*"
+pillow = "*"
+squaternion = "*"
+
+[tool.poetry.dev-dependencies]
+pytest = "*"
+
+[build-system]
+requires = ["poetry>=1.1.0"]
+build-backend = "poetry.masonry.api"
