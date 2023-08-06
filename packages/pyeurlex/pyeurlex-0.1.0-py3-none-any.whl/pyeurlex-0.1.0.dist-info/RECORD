@@ -1,0 +1,9 @@
+eurlex/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+eurlex/eurlex.py,sha256=T48qesNmm1shMiStvbHP8KzSzXeYI1TOsE-IIEQEc2A,28717
+eurlex/q-py.test,sha256=qFywQwy0YOn_H9rv6QC-_7TS9_WrdgSmQ9xqiqbdVmU,1289
+eurlex/q-r.test,sha256=e3cW7eSkrMvuLX-sVD1oznK1PJ98W5GPix1ZNBRptPo,1491
+eurlex/temp.py,sha256=GLB2EWSDD8d6OkesWiBw4XI-jxFVi_grsSYuXjTDy2w,1081
+pyeurlex-0.1.0.dist-info/LICENSE,sha256=hIahDEOTzuHCU5J2nd07LWwkLW7Hko4UFO__ffsvB-8,34523
+pyeurlex-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pyeurlex-0.1.0.dist-info/METADATA,sha256=0s2BXyF1M8_lwRnXwE0u4_O9k8yUy_mOR1bjSLtC6uA,523
+pyeurlex-0.1.0.dist-info/RECORD,,
