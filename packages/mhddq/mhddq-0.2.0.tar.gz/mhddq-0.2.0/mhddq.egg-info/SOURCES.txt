@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+mhddq/__init__.py
+mhddq/_impl.py
+mhddq/mhddq.py
+mhddq.egg-info/PKG-INFO
+mhddq.egg-info/SOURCES.txt
+mhddq.egg-info/dependency_links.txt
+mhddq.egg-info/top_level.txt
