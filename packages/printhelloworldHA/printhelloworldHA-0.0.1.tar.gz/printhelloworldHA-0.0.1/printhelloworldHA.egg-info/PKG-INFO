@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: printhelloworldHA
+Version: 0.0.1
+Summary: Print Hello World
+Home-page: UNKNOWN
+Author: Ashim Khanal,Hanieh Rastegar
+Author-email: <ashimkhanal18@gmail.com>
+License: MIT
+Keywords: HelloWorld
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+License-File: LICENCE.txt
+
+A Package that print Hello WOrld Statement
+

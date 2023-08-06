@@ -1,0 +1,10 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+libname/__init__.py
+printhelloworldHA.egg-info/PKG-INFO
+printhelloworldHA.egg-info/SOURCES.txt
+printhelloworldHA.egg-info/dependency_links.txt
+printhelloworldHA.egg-info/top_level.txt
