@@ -1,0 +1,13 @@
+pyi18n/__init__.py,sha256=lnrta8GwnF85H1RAsVSa5crY63ft92x5wxgRL0Colv0,48
+pyi18n/loaders.py,sha256=Fv7rPAY6tvDOF-HYts0_3r2ROJj_9HM1oWej6MjgVx8,3075
+pyi18n/pyi18n.py,sha256=uFa__PQ55bdwvn9DmjTBNmqz9DY1FJKsz-Blc-dEtAw,4390
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/helpers.py,sha256=Tv-Ztj7y2v6eKpDkrsqsoCcek35WW1t2FPrMnuCMe0U,3022
+tests/run_tests.py,sha256=lePi0Bf0q6gnPkyjm-QZhPXb68WnlRdTHi9IviwkPNM,1169
+tests/test_custom_loader.py,sha256=Pc6zeDrT2rlLRAjDddkd0GcCJLB_8N-Zx6Q8uwAYIkY,335
+tests/test_loaders.py,sha256=HdRtG0IAOFbiilvPkZ4nKXce4DM0WYB7-TPtd43l-wE,2427
+tests/test_pyi18n.py,sha256=XGAYR6fAA9qDHnZdlXwnytSbFf6yCfAmxAfjlSEmy8s,11399
+pyi18n_v2-1.0.0.dist-info/METADATA,sha256=Vu3sCiPfkzKrXzK1JtzDR0mQKTdCh2olnBXN50YMSdo,3709
+pyi18n_v2-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyi18n_v2-1.0.0.dist-info/top_level.txt,sha256=wzdQTr2tsXDyZfe8pO_w5mx_aVohtho3r7fon4JUS-E,13
+pyi18n_v2-1.0.0.dist-info/RECORD,,
