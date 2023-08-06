@@ -1,0 +1,38 @@
+Metadata-Version: 2.0
+Name: datonius
+Version: 0.1.2
+Summary: Python model package for the CFSAN Datonius framework (we're probably not calling it that.)
+Home-page: https://github.com/crashfrog/datonius
+Author: Justin Payne
+Author-email: justin.payne@fda.hhs.gov
+License: UNKNOWN
+Keywords: datonius
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.7
+Requires-Dist: peewee (==3.14.4)
+Requires-Dist: psycopg2-binary (~=2.9.3)
+Requires-Dist: boto3 (==1.17.53)
+Requires-Dist: tabulate (==0.8.9)
+Requires-Dist: click (==7.1.2)
+Requires-Dist: simplejson (==3.17.2)
+
+# datonius
+
+Look, the name's not great - but it's a Python package for interacting with the OAO data integration project.
+
+=======
+History
+=======
+
+0.1.0 (2021-04-06)
+------------------
+
+* First release on PyPI.
+
+
