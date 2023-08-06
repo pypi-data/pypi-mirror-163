@@ -1,0 +1,8 @@
+README.md
+setup.py
+pysmtb.egg-info/PKG-INFO
+pysmtb.egg-info/SOURCES.txt
+pysmtb.egg-info/dependency_links.txt
+pysmtb.egg-info/entry_points.txt
+pysmtb.egg-info/requires.txt
+pysmtb.egg-info/top_level.txt
