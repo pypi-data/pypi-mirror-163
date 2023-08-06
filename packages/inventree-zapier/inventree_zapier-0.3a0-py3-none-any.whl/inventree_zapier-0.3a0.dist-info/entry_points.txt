@@ -1,0 +1,2 @@
+[inventree_plugins]
+ZapierPlugin = inventree_zapier.zapier_plugin:ZapierPlugin
