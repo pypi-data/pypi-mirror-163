@@ -1,0 +1,10 @@
+requestselapsed/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+requestselapsed/api.py,sha256=2VIhdMdc_p4XmoWN4eI2OEu1UVuK8pHOm-Z0fyQd6Kw,2258
+requestselapsed/output.py,sha256=-iKQnr4fTPyREJTnqErF-0FF-sFU0Jjtk3Z3CZTsebc,593
+requestselapsed/plugin.py,sha256=hg7Y0IYjeyaAETODL7Ha-T-gMsJM6erkvZnBuzBMiB4,1427
+pytest_requestselapsed-0.0.3.dist-info/LICENSE,sha256=gytpHlw9ggPpQoKgLPKi9l2iX4dgvvT3BB66R3ObC3c,1066
+pytest_requestselapsed-0.0.3.dist-info/METADATA,sha256=3ym4PYpBkFEAkMqwN2530kun-QGmL1gborie24O9CDg,5581
+pytest_requestselapsed-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pytest_requestselapsed-0.0.3.dist-info/entry_points.txt,sha256=dOSIVyXSEKjtfImlcs4_Hgo8wTnAHz8iYKtjnlsWpSA,52
+pytest_requestselapsed-0.0.3.dist-info/top_level.txt,sha256=gC6T88Aa4ZQF883NeTmPHfVZ-7VmtC7q8AbEOBW9RFg,16
+pytest_requestselapsed-0.0.3.dist-info/RECORD,,
