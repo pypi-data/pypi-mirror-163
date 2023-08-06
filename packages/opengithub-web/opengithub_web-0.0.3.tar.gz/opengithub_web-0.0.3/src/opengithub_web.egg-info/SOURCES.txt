@@ -1,0 +1,9 @@
+LICENSE
+pyproject.toml
+setup.cfg
+src/opengithub_web.egg-info/PKG-INFO
+src/opengithub_web.egg-info/SOURCES.txt
+src/opengithub_web.egg-info/dependency_links.txt
+src/opengithub_web.egg-info/top_level.txt
+src/package/__init__.py
+src/package/main.py
