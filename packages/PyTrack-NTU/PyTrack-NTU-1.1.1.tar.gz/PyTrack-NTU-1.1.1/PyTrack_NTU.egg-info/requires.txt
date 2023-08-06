@@ -1,0 +1,8 @@
+numpy
+scipy
+matplotlib
+pandas
+Pillow>=5.4.0
+sqlalchemy>=1.2.15
+statsmodels
+pingouin==0.2.2
