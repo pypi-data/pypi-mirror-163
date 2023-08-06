@@ -1,0 +1,11 @@
+README.md
+setup.cfg
+setup.py
+OSDU-OnePF-BE/app.py
+OSDU-OnePF-BE/log.py
+OSDU-OnePF-BE/shell.py
+OSDU_OnePF_BE.egg-info/PKG-INFO
+OSDU_OnePF_BE.egg-info/SOURCES.txt
+OSDU_OnePF_BE.egg-info/dependency_links.txt
+OSDU_OnePF_BE.egg-info/requires.txt
+OSDU_OnePF_BE.egg-info/top_level.txt
