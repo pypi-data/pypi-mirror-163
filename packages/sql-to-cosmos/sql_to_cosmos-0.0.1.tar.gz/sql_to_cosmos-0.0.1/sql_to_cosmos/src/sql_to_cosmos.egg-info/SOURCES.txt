@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+sql_to_cosmos/src/sql_to_cosmos.py
+sql_to_cosmos/src/sql_to_cosmos.egg-info/PKG-INFO
+sql_to_cosmos/src/sql_to_cosmos.egg-info/SOURCES.txt
+sql_to_cosmos/src/sql_to_cosmos.egg-info/dependency_links.txt
+sql_to_cosmos/src/sql_to_cosmos.egg-info/requires.txt
+sql_to_cosmos/src/sql_to_cosmos.egg-info/top_level.txt
