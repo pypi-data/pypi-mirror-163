@@ -1,0 +1,12 @@
+gph/_version.py,sha256=zNaLio9YiQnFor8HbLnWbMBnlN2LlgclQXwemOiwKaU,598
+gph/__init__.py,sha256=Kp2TDJvgynZcWFsi9FNPfjd_ciAEDz_bIRnXIsjywhY,141
+gph/modules/gph_ripser_coeff.cpython-38-x86_64-linux-gnu.so,sha256=vF5-9I7NvDfRIY5Q6er25EX9bgNPXl2UNkDbA-884qc,541240
+gph/modules/gph_collapser.cpython-38-x86_64-linux-gnu.so,sha256=MN4ebAGvXv1HtlDeWjm4nD31UxaSFxpwtSALfzvRvEQ,196344
+gph/modules/gph_ripser.cpython-38-x86_64-linux-gnu.so,sha256=7LWU-TcydrAxHGwgBOe0i7pohogd_6ie7iZgDbio71g,528952
+gph/python/ripser_interface.py,sha256=91UXlgPMWULqC_WLTChpZaouANyI9Bo6z5JUYvQaI9U,28232
+gph/python/__init__.py,sha256=1QXkIWM8CgI_Ld3ZAKSzHhAPo8nYnTChD8q-paAjR8A,84
+giotto_ph-0.2.2.dist-info/top_level.txt,sha256=VY7JNFK1ziu4gNFeDEd7UqJthhMsYdylwSXFxf4CX6U,4
+giotto_ph-0.2.2.dist-info/WHEEL,sha256=paN2rHE-sLfyg0Z4YvQnentMRWXxZnkclRDH8E5J6qk,148
+giotto_ph-0.2.2.dist-info/METADATA,sha256=upQt4U0_wqRQaf3U6nkq2rSNli17im-DqalzqX6R7P4,10667
+giotto_ph-0.2.2.dist-info/RECORD,,
+giotto_ph-0.2.2.dist-info/LICENSE,sha256=wiv9A2iMcIYnFR9B2R0f9McuWnQYBHxQ5zLh3j7mN4g,35192
