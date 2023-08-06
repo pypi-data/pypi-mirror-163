@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: moabdx
+Version: 0.1.0
+Summary: MoabDX
+Author-email: Jackson Coxson <jkcoxson@gmail.com>
+Description-Content-Type: text/markdown
+Classifier: License :: OSI Approved :: MIT License
+Requires-Dist: pandas
+Project-URL: Home, https://moabdx.com
+
+# MoabDX
+The official Python library for Moab Data Exchange.
