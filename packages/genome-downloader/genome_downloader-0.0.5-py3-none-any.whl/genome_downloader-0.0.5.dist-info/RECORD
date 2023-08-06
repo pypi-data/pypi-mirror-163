@@ -1,0 +1,8 @@
+genome_downloader/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+genome_downloader/__main__.py,sha256=0grdHQfR--T3MHHNoAEILNyFNnpBHuqykMPlVltovT8,63
+genome_downloader/download.py,sha256=iQb8SdlAD_KFLiqT4WUMwJABvn8lPb6C-CHf9ccvvuo,8596
+genome_downloader/gff_longest_transcript.py,sha256=xSItbtKdk1bF3EnI5aHUuQmVMwqV2sNFPtBBGhVoyUY,4121
+genome_downloader-0.0.5.dist-info/METADATA,sha256=T5HsmsU1J6u27CIU3F4lm4rXtzKgW3D7RCWNhePq3FA,491
+genome_downloader-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+genome_downloader-0.0.5.dist-info/top_level.txt,sha256=M_b63agkDOiFJaddxsSUcPybVOU13gP3TyUGnAbZpi8,18
+genome_downloader-0.0.5.dist-info/RECORD,,
