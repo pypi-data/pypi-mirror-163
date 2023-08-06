@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: socket-plotter
+Version: 0.1.0
+Summary: A simple live plotter via socket.
+Home-page: https://github.com/KosukeMizuno/socket-plotter
+License: MIT
+Description: # socket-plotter
+        
+        Instant plotter via socket communication.
+        
+        [![MIT License](http://img.shields.io/badge/license-MIT-blue.svg?style=flat)](LICENSE)
+        
+        
+        ## Usage
+        
+        TBD
+        
+        
+        ### dependency
+        
+        - PySide2
+        - pyqtgraph
+        - numpy
+        
+        ## Change log
+        ### [0.1.0]
+        - released
+        
+        
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
