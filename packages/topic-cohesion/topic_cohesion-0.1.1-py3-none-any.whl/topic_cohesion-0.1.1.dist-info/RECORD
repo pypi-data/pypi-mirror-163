@@ -1,0 +1,11 @@
+cohesion/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cohesion/calculations.py,sha256=QbMXKpDzc-J5dk8uyM7vLFH_bpmp5s3GwDnpeuUO6hU,1177
+cohesion/formula.py,sha256=mB0zdSe1VcOosqP7N6LKXBp9KIyRzqIP4PZEydfS_98,3579
+cohesion/topic_cohesion.py,sha256=PJ0MYjTgazW5xFAyBrEq96uwQDa4RXN-dzgpao_JLiI,1367
+cohesion/utils.py,sha256=KdQpVS1TLrU7dL1_s-b3NwXwNadlIy1utNvodFNp3xs,8003
+cohesion/zero_shot_classifier.py,sha256=qi2Po5RE4XHUZwNd8x9m8B41qRIxgmnytkFAhSn9hDk,6876
+topic_cohesion-0.1.1.dist-info/LICENSE.txt,sha256=ZggDEO2M7p9FGmOH6GqG7C-ChkWSdR0P67ZS9Au-j9w,1077
+topic_cohesion-0.1.1.dist-info/METADATA,sha256=cqfwi3RdBazcRVdtrdZZyd58qWDuEpgbCHNbfHKfrBw,2781
+topic_cohesion-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+topic_cohesion-0.1.1.dist-info/top_level.txt,sha256=3XQwS9lTsRj9MigE1EZ6UH6dtF69m6eedh73cKfIpn8,9
+topic_cohesion-0.1.1.dist-info/RECORD,,
