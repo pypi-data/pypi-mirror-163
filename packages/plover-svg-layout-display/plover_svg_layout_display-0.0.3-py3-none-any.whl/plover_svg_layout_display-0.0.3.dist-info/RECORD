@@ -1,0 +1,15 @@
+plover_svg_layout_display/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plover_svg_layout_display/config_ui.py,sha256=rdoU5XBBAZnk4mZ0d_i3yKtXOnQpEhQXV45G4P0q5AA,6741
+plover_svg_layout_display/layout_config.py,sha256=P0xg08T7-K5HfL-OaxQavaDBk_370GmaJ1wKzhKQ93A,1740
+plover_svg_layout_display/layout_ui.py,sha256=-xEN51dato9zLt1vgGT0TECN3J9p-APGBwkd1rB1lj0,8305
+plover_svg_layout_display/qt_utils.py,sha256=GiiB37ViGGbV9CZNW9pCrev0sbLp0LJFsZNYb_7H3n4,466
+plover_svg_layout_display/resources_rc.py,sha256=-14uiXXa6v5AnwPyDfOghceDT2fV45rRuEF1U0tpDfI,50469
+plover_svg_layout_display/svg_parser.py,sha256=ys2bBw__KuW10PnRgrtd8gRqc0RnI3cF3YHU5ZYhCJA,1694
+plover_svg_layout_display/svg_widget.py,sha256=cEGU5wo1gv_agDeCMIv3R8BfgqWIwj3yrm8MHP9MPaw,1553
+plover_svg_layout_display-0.0.3.dist-info/LICENSE.txt,sha256=atsv_q-P_2PI0BQ1dlBTveHlDp0WeiZwrk8fFnv8Wr8,1050
+plover_svg_layout_display-0.0.3.dist-info/METADATA,sha256=iLcJD9lC3bMwGLg5UWhIlLISxtRRMXyy7HH7Jql0A2I,2980
+plover_svg_layout_display-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+plover_svg_layout_display-0.0.3.dist-info/entry_points.txt,sha256=J5qA0PuV6zlulbRduonYCntSc8ryt-axN_hZxjg88dQ,99
+plover_svg_layout_display-0.0.3.dist-info/top_level.txt,sha256=nXltpZiUjtwAVFmdewoQIShtofBd4LMcH7GfuIvSHwU,26
+plover_svg_layout_display-0.0.3.dist-info/zip-safe,sha256=AbpHGcgLb-kRsJGnwFEktk7uzpZOCcBY74-YBdrKVGs,1
+plover_svg_layout_display-0.0.3.dist-info/RECORD,,
