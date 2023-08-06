@@ -1,0 +1,11 @@
+hubcap/__init__.py,sha256=5Kn5MuvdMoOJyhPHuEENqr0ewtBtW3pPq8XMwz9fCwc,1095
+hubcap/base.py,sha256=_WzTtlQnjqNZKnnAStkAcVii0Xa43aa9RXoz8AAOTPs,7665
+hubcap/examples/__init__.py,sha256=PDodntdED6YOiOpH8prdD-S_-v7VlG8P3kW32UqlRDQ,5227
+hubcap/examples/diagnose_repositories.py,sha256=T63ZyTUxL6A3fBb25y3EwrUi9IuP0pRYMtIEYanc_NM,2269
+hubcap/scrap/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+hubcap/scrap/direct_github_api.py,sha256=GDzmG5jN-wwUeQ0L26Y6NgB1n27Av4IgwvGHE6eserQ,3627
+hubcap-0.0.7.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+hubcap-0.0.7.dist-info/METADATA,sha256=sJtB2dzS4gCn6EjpRHdhfU_uCKyme2YTkIgwp6GyidY,6448
+hubcap-0.0.7.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+hubcap-0.0.7.dist-info/top_level.txt,sha256=hV-qgzIgn4QoG6zpkU48BwSzUOImKBTkC7IjIzy7SHM,7
+hubcap-0.0.7.dist-info/RECORD,,
