@@ -1,0 +1,15 @@
+zen3geo/__init__.py,sha256=ncC8jNpIY2mcTCQVGEOZbtEuPn5Q1BkSo84IkuZ0aWY,207
+zen3geo/datapipes/__init__.py,sha256=GCQSECU3adAbmBI0hmLvmp1mFqxXRh0kTutdXWVeHjU,488
+zen3geo/datapipes/datashader.py,sha256=iGjpVQeQy2LA_yRWmpYvvbkDeP4ZLwLsR9vb3bhafqw,15106
+zen3geo/datapipes/pyogrio.py,sha256=wJKVGUKk1hTI0Aie3PpSG44Dr1iCUryRvrjtV4EP_n4,3350
+zen3geo/datapipes/rioxarray.py,sha256=dKI3Qg8u3giiU2zrrsGaD6SjALNCJVmkjpWLpbcGE8A,2723
+zen3geo/datapipes/xbatcher.py,sha256=4mTSEQqFDcd5o6BFTDBZb2uB6MhXqjJe4lkwoZftOJA,4177
+zen3geo/tests/test_datapipes_datashader.py,sha256=oNVhmi274PO1arSpFDAAuoBRQp5sCDgqsWLtw5hB5HE,5852
+zen3geo/tests/test_datapipes_pyogrio.py,sha256=x72-WmkUhyIWtoOvpEUM8-YFJn_zVBQlQGlSe_p0WVg,920
+zen3geo/tests/test_datapipes_rioxarray.py,sha256=jRBTZ2-A6kAsMw1FU4wd9DMXdwQcJzmgLDZFVsfFtLc,811
+zen3geo/tests/test_datapipes_xbatcher.py,sha256=6e5xiroziVamax-Hk3n9dUFX9HimamAkw65nffYCJ2A,1915
+zen3geo/tests/test_zen3geo.py,sha256=eBQshi_8OnqeXSY7qC8x5qfIav5yLMDmM6iFNBr9Dug,161
+zen3geo-0.3.0.dist-info/LICENSE.md,sha256=uW6MIcko6eXXs3EVKA4LSTS_cLcHhES_y51AR-51V1M,7652
+zen3geo-0.3.0.dist-info/WHEEL,sha256=Jaj29f-PvHzZb5kImTcJS9QszpaO6CVzAqOolIz_WEw,90
+zen3geo-0.3.0.dist-info/METADATA,sha256=AXUsvRPyncSC0bqGrkOueAmCkLSa6rETctu5h-P7_I0,2313
+zen3geo-0.3.0.dist-info/RECORD,,
