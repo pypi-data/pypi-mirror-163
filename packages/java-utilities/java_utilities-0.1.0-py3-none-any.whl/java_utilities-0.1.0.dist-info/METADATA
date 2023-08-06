@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: java-utilities
+Version: 0.1.0
+Summary: Java utilities
+Home-page: https://github.com/devinrsmith/java-utilities
+Author: Devin Smith
+Author-email: devinsmith@deephaven.io
+Project-URL: Source Code, https://github.com/devinrsmith/java-utilities
+Project-URL: Bug Tracker, https://github.com/devinrsmith/java-utilities/issues
+Keywords: java,utility
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
