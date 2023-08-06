@@ -1,0 +1,8 @@
+README.md,sha256=W6syOxetyRdSdAtlkbAHtx0U3e9HXrWfURcQWOBZHI4,1236
+os_exitcodes/__init__.py,sha256=lwo_LTvYauSPAFQovNNsBrF0cHw_8EPBJwfLPu0fNME,748
+os_exitcodes/enum_variant.py,sha256=SbhucvkJuFA9h6LxGTLOzs0Q2AYruJpfZC8-2dZPdBQ,3049
+os_exitcodes/int_variant.py,sha256=JJPTKKCTQ54rIjNo01jPjWoJDbv2-R5pom1GB6YFswQ,1342
+os_exitcodes/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+os_exitcodes-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+os_exitcodes-1.0.0.dist-info/METADATA,sha256=OUkpm-2BjMw2InvZzTdLCMnSUwegcvuLVxbLzsZucL8,2111
+os_exitcodes-1.0.0.dist-info/RECORD,,
