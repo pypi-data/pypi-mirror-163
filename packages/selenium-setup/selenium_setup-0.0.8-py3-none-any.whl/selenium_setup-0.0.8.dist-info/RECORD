@@ -1,0 +1,8 @@
+selenium_setup/__init__.py,sha256=bn2V7836WbmpkdsdoYHTxupaPgMnbtkbka28YfEyipc,847
+selenium_setup/__main__.py,sha256=3Q52s0hyuouhvSSqFEQFDr6mtJ-azkCwI2AD4c7f7A8,28
+selenium_setup/_drivers.py,sha256=3sSkBWRV3EMwbEiyBI-XoSUhGMqINGC4embZG6gHmPE,3681
+selenium_setup-0.0.8.dist-info/entry_points.txt,sha256=tZOsJp_ZPYQMiIjNLTLvynDaondme99rvVYabFI0Ah0,54
+selenium_setup-0.0.8.dist-info/LICENSE,sha256=Ylf6FzAThADwyAZ_kF3_G1FqZElfl64mJdJo-IpJAXM,1065
+selenium_setup-0.0.8.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+selenium_setup-0.0.8.dist-info/METADATA,sha256=AOu4BNrFQfJXrBUao2mIPKzJpvo-WdDcHZzmiUNQ53s,2379
+selenium_setup-0.0.8.dist-info/RECORD,,
