@@ -1,0 +1,10 @@
+pydualsense/__init__.py,sha256=2P-yLnGOJN_rclAwCoedJ0FMghZyvVXthL_eifqldoY,199
+pydualsense/enums.py,sha256=weNYjcwBJPVI1wIMIbpEXfL5DLij8zSDV6CcQSxRvUQ,807
+pydualsense/event_system.py,sha256=_AY70hRcAaACyXkqHaYYdHokmOZ2kwBng0HpCA6H34Q,1265
+pydualsense/hidguardian.py,sha256=oFriGpLs9qX3GndK2hRAzeYQULmlXwCcwWb37Fgj-Ec,671
+pydualsense/pydualsense.py,sha256=IWKd8I6Gzfn1nSJGnHvdxPc1wgHuo60sj6aHGRoTzXQ,24764
+pydualsense-0.6.1.dist-info/LICENSE,sha256=p9j5yzoHQspnRz11qCeP3tk99CvHn7eaGyPvvY7cWI0,1066
+pydualsense-0.6.1.dist-info/METADATA,sha256=fQ_ygMnlQUCgImSBEIPXqAfWsl1mX8uEB7NS96AeBD4,2309
+pydualsense-0.6.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pydualsense-0.6.1.dist-info/top_level.txt,sha256=kTDGyajY6zDHe_PDlSjG-N_nHVaQ9SuAQrmnU-drulE,12
+pydualsense-0.6.1.dist-info/RECORD,,
