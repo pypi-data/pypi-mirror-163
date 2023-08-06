@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+capitalise_delimit/__init__.py
+capitalise_delimit/capitalise_delimit.py
+capitalise_delimit.egg-info/PKG-INFO
+capitalise_delimit.egg-info/SOURCES.txt
+capitalise_delimit.egg-info/dependency_links.txt
+capitalise_delimit.egg-info/top_level.txt
