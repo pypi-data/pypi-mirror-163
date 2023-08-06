@@ -1,0 +1,13 @@
+LICENSE
+README.rst
+setup.cfg
+setup.py
+tse/__init__.py
+tse/epson.py
+tse/exceptions.py
+tse.py.egg-info/PKG-INFO
+tse.py.egg-info/SOURCES.txt
+tse.py.egg-info/dependency_links.txt
+tse.py.egg-info/not-zip-safe
+tse.py.egg-info/requires.txt
+tse.py.egg-info/top_level.txt
