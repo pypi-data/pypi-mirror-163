@@ -1,0 +1,12 @@
+README.md
+setup.py
+nmdc_runtime/client/__init__.py
+nmdc_runtime/client/main.py
+nmdc_runtime_client.egg-info/PKG-INFO
+nmdc_runtime_client.egg-info/SOURCES.txt
+nmdc_runtime_client.egg-info/dependency_links.txt
+nmdc_runtime_client.egg-info/entry_points.txt
+nmdc_runtime_client.egg-info/requires.txt
+nmdc_runtime_client.egg-info/top_level.txt
+requirements/dev.in
+requirements/main.in
