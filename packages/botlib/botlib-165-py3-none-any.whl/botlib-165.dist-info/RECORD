@@ -1,0 +1,11 @@
+bot/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+bot/bsc.py,sha256=svJdXWWi-xcdZBmMynwx7E8mgbJLdf1rfVHOirTKIxg,316
+bot/irc.py,sha256=_jJBgIbIsM5OBoHPPXldP8G7OsT9hufIjN6l8eZ7Dz8,16720
+bot/rss.py,sha256=A9EIn02rAKcWo5Gn0XEQIYKxJJKTtTvj5046I2sKI2w,7364
+botlib-165.data/data/share/doc/botlib/README.rst,sha256=E33FYjBXSthC-O01EYucCvP8IrDdKR4UrtWxWI08jsk,3825
+botlib-165.data/scripts/bot,sha256=ZV65gFNejgNQVWkaZfu5lXchZ6Bje4w4shZaQ8g0IAc,1857
+botlib-165.data/scripts/botc,sha256=YHQdOK24xjSzTWt-VvDKlATQEpPYu47PMOvCJsH5D-Y,848
+botlib-165.dist-info/METADATA,sha256=HkAK9ObgpOfDy6EB9qCkOIpLlVjBwSmtpXdHkpBzNAY,4260
+botlib-165.dist-info/WHEEL,sha256=g4nMs7d-Xl9-xC9XovUrsDHGXt-FT0E17Yqo92DEfvY,92
+botlib-165.dist-info/top_level.txt,sha256=BfGEUPXgtCpne5POfPQ8gBzacfrzBulmV45hd8vheOI,4
+botlib-165.dist-info/RECORD,,
