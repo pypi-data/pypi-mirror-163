@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+l33tapi/__init__.py
+l33tapi/api.py
+l33tapi.egg-info/PKG-INFO
+l33tapi.egg-info/SOURCES.txt
+l33tapi.egg-info/dependency_links.txt
+l33tapi.egg-info/requires.txt
+l33tapi.egg-info/top_level.txt
