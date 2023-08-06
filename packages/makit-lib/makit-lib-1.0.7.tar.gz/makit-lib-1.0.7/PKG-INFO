@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: makit-lib
+Version: 1.0.7
+Summary: 实用工具包，对python基础库的扩展
+Home-page: https://gitee.com/liangchao0728/makit-lib
+Author: LiangChao
+Author-email: liang20201101@163.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >3.3
