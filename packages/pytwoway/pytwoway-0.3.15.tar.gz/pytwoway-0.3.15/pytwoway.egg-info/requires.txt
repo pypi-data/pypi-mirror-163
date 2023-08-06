@@ -1,0 +1,11 @@
+numpy
+pandas
+numba
+bipartitepandas>=1.0.35
+scipy
+statsmodels
+pyamg
+qpsolvers
+quadprog
+matplotlib
+tqdm
