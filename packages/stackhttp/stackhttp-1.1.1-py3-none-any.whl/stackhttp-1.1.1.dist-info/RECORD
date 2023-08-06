@@ -1,0 +1,13 @@
+stack/__init__.py,sha256=IHQrhA3TqhlVLzgu9pgKfmUdczjwtFEFbhGZ_Oz0k9Q,142
+stack/request.py,sha256=593N_CAA5jCROqYPRbta_5GzLobQ0UvSU0ZyUW8uWDs,2483
+stack/response.py,sha256=gJQY7-kfHCgWTjwvUqAwnPLPwbjk4rKGN70tW1V6CRc,3179
+stack/servers.py,sha256=1FBAuqND7uNwSC2xM-IuANO_ImSuXhc9Lezl7EaGzlA,2917
+stackhttp/__init__.py,sha256=hG0UzNDp0TkdpOcpCPqGrDPkdfrMg-clENvfpAz701Y,142
+stackhttp/request.py,sha256=K0eHfq6chc3TsdBbxj8K5KWwigBXFOx6yNmaRTjAftk,2639
+stackhttp/response.py,sha256=tVtqF1umqNaD060y2C1HzhWXQv-wUk-NkDXunCrYly4,3527
+stackhttp/servers.py,sha256=7PnN2OtRSTn59y1TBVDcajeabfJxGorc938oacPLZZM,3302
+stackhttp-1.1.1.dist-info/LICENSE,sha256=HrhfyXIkWY2tGFK11kg7vPCqhgh5DcxleloqdhrpyMY,11558
+stackhttp-1.1.1.dist-info/METADATA,sha256=QndP7m-6u2rBF9GeRjtdyzukzlxQHsNDoybIfV0Estk,802
+stackhttp-1.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stackhttp-1.1.1.dist-info/top_level.txt,sha256=GKIWTdzUfK1d_RVI0X9DTwVS6wrMC3iZ6n5WOLASies,10
+stackhttp-1.1.1.dist-info/RECORD,,
