@@ -1,0 +1,11 @@
+sidserver/__init__.py,sha256=5sWaJLSMis83q7X5luGCxDyvBlzMGh9DXR4XIPgNNhk,458
+sidserver/client.py,sha256=d7S6DleKiyG8Z-7SsAoxlreg1K4uwcITubmvfTdVr2U,3363
+sidserver/lib/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+sidserver/lib/util/__init__.py,sha256=kbvBvMBxCj4NliiKP297xk6UwxdNAEgM0_COg--NqR4,69
+sidserver/lib/util/device.py,sha256=wzY0XpOqhRobByqOxS0xmg1VEBO90xl6ZDq8wbEcrAQ,977
+sidserver/lib/util/headers.py,sha256=YgJGmK92Z4cxm1Awu-7C6hVISi6EFZI1MLbkX3P4zfM,1001
+sidserver/lib/util/helpers.py,sha256=fEID8uONbQPnqdmluv-1_QciFwFAE_syhub1RPpk3Oo,1439
+sidserver-2.2.dist-info/METADATA,sha256=O7RUjJ2QQBk_ylY0n6Jx0xQUFAzHNn41aLPHYSYzvnU,501
+sidserver-2.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+sidserver-2.2.dist-info/top_level.txt,sha256=7dtPmE4_gsWyOqShdi0uHKQjKm_Qq1ExYAMGpBwfhJk,10
+sidserver-2.2.dist-info/RECORD,,
