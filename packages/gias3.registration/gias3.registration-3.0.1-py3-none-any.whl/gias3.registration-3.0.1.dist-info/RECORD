@@ -1,0 +1,12 @@
+gias3.registration-3.0.1-py3.9-nspkg.pth,sha256=PEnRT41eJiri6gTfQdvyhApVMBT-pF7WkV7IwIw00zU,535
+gias3/registration/RBF.py,sha256=rHCs2s5KdjL7nkfXJ8xWg7In7B4RXm65ie33RZOJoBU,41767
+gias3/registration/__init__.py,sha256=RohLuANPzGmBiDiIq1825ILcjt6ZNDLmu3QgoIFctMQ,838
+gias3/registration/alignment_analytic.py,sha256=d9yCzQD6_4yEhuK3wx74nLteQp4iu_r1Q3Bw5C8tDnI,3615
+gias3/registration/alignment_fitting.py,sha256=72ponfJG30DZ_2cixNRX_9gRcsM5iCjKZ5jrWfOCSr8,19072
+gias3/registration/shapemodel.py,sha256=zdEXTL2VLoRMnlbzafWZ2fSpD9K9ZKqnsHkpr35LmqM,10939
+gias3.registration-3.0.1.dist-info/LICENSE,sha256=zeIV5bQjY-soyiRixFWP9IB7OPODxTdiTDHkRlesWPQ,17099
+gias3.registration-3.0.1.dist-info/METADATA,sha256=8ZEfDJzeQTLkiwz2FgOIrm0cSi3qRfEx8eoSFk2yUCs,622
+gias3.registration-3.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gias3.registration-3.0.1.dist-info/namespace_packages.txt,sha256=neP4R9WpCbvFzj7C-M-F1mpO4l255wLIwrSSkGGXNAw,6
+gias3.registration-3.0.1.dist-info/top_level.txt,sha256=neP4R9WpCbvFzj7C-M-F1mpO4l255wLIwrSSkGGXNAw,6
+gias3.registration-3.0.1.dist-info/RECORD,,
