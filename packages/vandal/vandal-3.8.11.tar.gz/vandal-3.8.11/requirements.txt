@@ -1,0 +1,7 @@
+duality >= 5.1.0
+logistics >= 0.0.12
+colorama
+pandas >= 1.2.3
+numpy >= 1.19.5
+matplotlib >= 3.4.3
+openpyxl
