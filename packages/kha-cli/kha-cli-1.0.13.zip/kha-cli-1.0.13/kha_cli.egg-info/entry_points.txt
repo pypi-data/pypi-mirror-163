@@ -1,0 +1,2 @@
+[console_scripts]
+kha = kha.cli:cli

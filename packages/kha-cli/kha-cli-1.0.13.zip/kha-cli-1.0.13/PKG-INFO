@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: kha-cli
+Version: 1.0.13
+Summary: kha
+Author: khahux
+Author-email: khahux@gmail.com
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+## kha
+
