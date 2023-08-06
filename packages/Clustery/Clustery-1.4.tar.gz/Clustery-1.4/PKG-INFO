@@ -1,0 +1,143 @@
+Metadata-Version: 2.1
+Name: Clustery
+Version: 1.4
+Summary: Database system that makes life way easier than SQL.
+Author: JKlijzing
+Author-email: jklijzing@shrp.tv
+Keywords: clustery,db,database
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
+Description-Content-Type: text/markdown
+
+Database system that makes life way easier than SQL.
+
+Example
+===
+
+First, we need to make a Clustery file. For this example, we're going to name it `test.clustery`.
+
+Let's put the following Clustery code in this file:
+
+```py
++--+
+
+# These are all the assignments, you can also put variables, functions, classes, etc. Just make sure to use escape characters when using this syntax since the Clustery parser is not perfect and won't ignore comments in terms of this syntax :/
+
+db.name = "Test" # Database name
+db.use_ids = true # This means we're going to use an ID in every table in this database
+
++--+
+
+db.set_table ( # Adding a table
+    name = "Users", # Table name
+    keys = {
+        "username" = t.string, # A string key
+        "password" = t.string # A string key
+    }
+)
+```
+
+Now in your Python script, you're going to put this:
+
+```py
+import clustery
+
+DATABASE = clustery.Database("test.clustery") # Initialize the database
+
+DATABASE.set_itemv(
+    table    = "Users",
+    username = "CoolGuy69",
+    password = "ImpossibleToHackPassword123"
+) # Create an item in the 'Users' table, with those values
+# In a real scenario you would encrypt the password, but this is just to show how to use Clustery
+
+print(DATABASE.get_itemv("Users", id=0)) # Get the item in the 'Users' table where the 'id' key is equal to 0
+# Remember when we put db.use_ids = true? That made it so that table has  the ID key!
+```
+
+Now this should print:
+```py
+{'username': 'CoolGuy69', 'password': 'ImpossibleToHackPassword123', 'id': 0}
+```
+
+It automatically stores the data in `/.clustery/Test.clud`.
+
+Documentation
+===
+
+### Types
+
+* t.string
+* t.int
+* t.float
+* t.bool
+* t.date
+* t.datetime
+* t.list (You can use `t.list[type]`, e.g. `t.list[t.string]`)
+
+`Database(path:str)` (`db`)
+===
+
+All variable assignments must be at the top of your .clustery file in between `+--+` and `+--+`.
+
+Keep in mind that, when you're doing stuff with the database in side a .clustery file, everything part of the database is part of the `db` variable, so you should put `db.` before every function, run variable assignment, etc.
+
+### `name:str`
+The name of the database.
+
+### `enc_key:str`
+This would be the encryption key for your .clud file. It's basically useless.
+
+### `use_ids:bool`
+Whether to use IDs in all tables.
+
+### `set_table(name:str, keys:str) -> Table`
+Sets a table as shown in the example.
+
+### `get_table(table:str) -> Table`
+Returns a table by the name.
+
+### `clear_table(table:str) -> dict`
+Clears a table and returns it in Dict form (`{}`) for no reason at all.
+
+### `set_item(table:str, keys:dict) -> dict` (Legacy)
+Sets an item but instead of through arguments it goes through dict.
+
+### `set_itemv(table:str, *args, **kwargs) -> dict`
+Sets an item as shown in the example.
+
+### `get_item(table:str, key:str, value:Any) -> dict` (Legacy)
+Gets the item where the key matches the value.
+
+### `get_itemv(table:str, *args, **kwargs) -> dict`
+Gets an item as shown in the example.
+
+### `delete_item(table:str, key:str, value:Any) -> dict` (Legacy)
+Does the same as `get_item` but it deletes it.
+
+### `delete_itemv(table:str, *args **kwargs) -> dict`
+Does the same as `get_itemv` but it deletes it.
+
+### `update_item(table:str, key:str, value:Any, new_key:str, new_value:Any) -> dict` (Legacy)
+Updates an item. `table` is the table name, `key` is the key used to find the item, `value` is the value `key` must be, `new_key` is the key to update, and `new_value` is the value `new_key` must be set to.
+
+### `update_itemv(table:str, item:dict, *args, **kwargs) -> dict`
+Updates an item. `table` is the table name, `item` is the dict of the item (which you can get with `get_itemv`), and then you just put the arguments of the keys you want to change, e.g. `update_itemv("Users", get_itemv("Users", id=0), username="BetterUsername")`
+
+### `item_count(table:str) -> int`
+Returns the item count of a table by name.
+
+### `load_data() -> dict`
+Returns all the data of the database.
+
+### `save_data(data:dict)`
+Sets all the data of the database.
+
+### `query(q:str)`
+Runs a query in a string.
