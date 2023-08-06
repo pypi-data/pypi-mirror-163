@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.cfg
+setup.py
+completions/completion.bash
+completions/completion.fish
+dotref/__init__.py
+dotref.egg-info/PKG-INFO
+dotref.egg-info/SOURCES.txt
+dotref.egg-info/dependency_links.txt
+dotref.egg-info/entry_points.txt
+dotref.egg-info/requires.txt
+dotref.egg-info/top_level.txt
