@@ -1,0 +1,2 @@
+[console_scripts]
+nmdc-runtime-client = nmdc_runtime.client.main:cli

@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: nmdc-runtime-client
+Version: 0.1.0
+Summary: Client for the NMDC Runtime
+Home-page: https://github.com/microbiomedata/nmdc-runtime
+Author: Donny Winston
+Author-email: donny@polyneme.xyz
+Classifier: Development Status :: 3 - Alpha
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: click
+Requires-Dist: fastjsonschema
+Requires-Dist: git-root
+Requires-Dist: nmdc-schema
+Requires-Dist: requests
+Requires-Dist: tenacity
+Requires-Dist: toolz
+Requires-Dist: tqdm
+Provides-Extra: dev
+Requires-Dist: black ; extra == 'dev'
+Requires-Dist: coverage ; extra == 'dev'
+Requires-Dist: flake8 ; extra == 'dev'
+Requires-Dist: invoke ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pytest-asyncio ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Requires-Dist: setuptools-scm ; extra == 'dev'
+Requires-Dist: twine ; extra == 'dev'
+
