@@ -1,0 +1,7 @@
+anton_cli/__init__.py,sha256=QtXgH-dT57O6T9x5eF9AokDis-Ms-Uqjkln2TbSqF2M,52
+anton_cli/cli.py,sha256=PaYaF-HiPnmcB7hSUTMK31IVZ5xhwdqcfN2nLxS_eeQ,666
+anton_cli/collect_framework.py,sha256=J1YT6xCefymYnJuappvaoXcsHBtVRLwkRzVcZEEPJJw,509
+anton_cli/words.txt,sha256=e91g2H6NFvy_if0tvZXdoJ2pXF3y04Iaww54xei2NXs,76
+anton_cli-0.1.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+anton_cli-0.1.2.dist-info/METADATA,sha256=5EaMjT7MHVI_rT5h7nQ8CI6atNgVyexdHlHSMoGwRh4,1279
+anton_cli-0.1.2.dist-info/RECORD,,
