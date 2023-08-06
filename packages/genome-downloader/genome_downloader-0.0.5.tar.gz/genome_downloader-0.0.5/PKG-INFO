@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: genome_downloader
+Version: 0.0.5
+Summary: A package to download genome, annotations and bowtie2 indexes
+Home-page: https://github.com/brainbreaks/genome_downloader
+Author: Sergej Andrejev
+Author-email: sandrejev@gmail.com
+Keywords: genomics,bioinformatics
+Requires-Python: >=3.8
