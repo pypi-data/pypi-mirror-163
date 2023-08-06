@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "fabric_calc"
+version = "1.2.11"
+authors = ["Antoine Wood <antoinewood@gmail.com>"]
+description = "Promail: The Python Email Automation Framework"
+license = "GNU"
+readme = "readme.md"
+include = []
+
+[tool.poetry.dependencies]
+rectpack = "~=0.2.2"
+
+[tool.coverage.paths]
+source = ["src", "*/site-packages"]
+
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.pytest.ini_options]
+pythonpath = ["src"]
