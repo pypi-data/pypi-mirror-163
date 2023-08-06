@@ -1,0 +1,17 @@
+flask_aceeditor/__init__.py,sha256=HReJb6HDCJRFICO1HAdp96hEVKIaOoCG9BeK-uXEIGk,2950
+flask_aceeditor/static/js/ace.min.js,sha256=qikFrdwa1ZMtCxc9jZsaBEnliu1BNZOFXBwQAbx4O08,364813
+flask_aceeditor/static/js/brython.min.js,sha256=XrtdD75rFxj7BLsh7aGOrAEulXUUxbdsYRgU67ZiMDU,973456
+flask_aceeditor/static/js/brython_stdlib.min.js,sha256=TXD2kmwFqddjaOiAYGopsmbuhEbnUqYKg7EEOvPYf8Y,7438562
+flask_aceeditor/static/js/ext-beautify.min.js,sha256=WpI1qK4eMt8qt6al5zfp4eP4XS8nUL9nL4GV0ZtN92M,4224
+flask_aceeditor/static/js/ext-language_tools.min.js,sha256=aoQ-0OXLJ0567Pi3enaBVkVrBcak1kKtO22tjsECdho,38579
+flask_aceeditor/static/js/ext-searchbox.min.js,sha256=gR7gCkf5ifnW_j-ocWihysMP-eyakSYnddlRZq7JsqQ,11613
+flask_aceeditor/static/js/jquery-3.6.0.min.js,sha256=zp0HUArZHsK1JMJwdk7EyaM-eDINjTdOxADt5Ij2JRs,89503
+flask_aceeditor/static/js/mode-python.min.js,sha256=kqReggrb3SJcf7LwYqbBb-RS3NSqHq1O48W8kvAMQLI,7963
+flask_aceeditor/static/js/python.min.js,sha256=NadZp4qPrPTa4EtPPouufEhEp9pU-DUTIPRdYK5NqW4,3962
+flask_aceeditor/static/js/theme-monokai.min.js,sha256=-Q3hwZfv1x3xq2qPf3pYTorZDm_NDzBct5wOOxBs1pA,2496
+flask_aceeditor/static/js/theme-xcode.min.js,sha256=S2NL7ApiSsdqlsEnLjfNUdcGtgxofYdILzr5ysa1asg,2037
+Flask_AceEditor-1.0.6.dist-info/LICENSE,sha256=pE5Ka8q0oDXUeKyzK3c-bs0d3bwu1F5n-ta-t18uxLY,1084
+Flask_AceEditor-1.0.6.dist-info/METADATA,sha256=HNAFRPc8ZC1umzWn3bj-HW0j3SVMp4V6jwMKkaJ3vdc,1990
+Flask_AceEditor-1.0.6.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Flask_AceEditor-1.0.6.dist-info/top_level.txt,sha256=GXjfIoJ29bqw2ILHBTQIFmdc7M33qS3ewK9wvwQeJ0s,16
+Flask_AceEditor-1.0.6.dist-info/RECORD,,
