@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: flake8-postponed-annotations
+Version: 1.3.0
+Summary: Flake8 postponed annotations validation
+Home-page: https://github.com/plinss/flake8-postponed-annotations/
+Author: Peter Linss
+Author-email: pypi@linss.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Framework :: Flake8
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU Lesser General Public License v3 or later (LGPLv3+)
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Quality Assurance
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+
+# [flake8-postponed-annotations](https://github.com/plinss/flake8-postponed-annotations)
+
+flake8 plugin to validate Postponed Evaluations of Annotations per PEP 563.
+
+This plugin has been replaced by [flake8-modern-annotations](https://pypi.org/project/flake8-modern-annotations/).
+
+
+## Installation
+
+Standard python package installation:
+
+    pip install flake8-modern-annotations
+
