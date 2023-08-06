@@ -1,0 +1,16 @@
+napari_spatialdata/__init__.py,sha256=fvWCro9lC5EUccZ-iApCezmbpH7bL13K1qY0GmKiqCQ,352
+napari_spatialdata/_model.py,sha256=F_rHNRaKsLLOu4lnB2EaGDXjeh5q3-PWVRs2sSZDAtg,10094
+napari_spatialdata/_utils.py,sha256=9BIhhcHxpL8QWq19Aey4zrOs2yaoxuWfC9Stb0OKbSw,5819
+napari_spatialdata/_view.py,sha256=FA7nmTV3ueVGm1RrSgZsa_rLKwRst-Yk6ZHyLEbfeJA,8284
+napari_spatialdata/_widgets.py,sha256=u8uhZtNOl8hJbXKUa0pyp7vYbBpnPl9o53tNNdGMYK0,15578
+napari_spatialdata/napari.yaml,sha256=Y3F6Et1h_EAZJyUXglgGH3WoxVgy6VdUvC1EP5N80jA,334
+napari_spatialdata/_constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+napari_spatialdata/_constants/_constants.py,sha256=_UtGdtiv_EG-dg52zheYh9RxWzPJ3hmYiot2LkX_D94,325
+napari_spatialdata/_constants/_pkg_constants.py,sha256=Clq4gY27pj-bCsTpyqGW-dGF3AaVsz1p4zBPd1iQrz8,2565
+napari_spatialdata/_constants/_utils.py,sha256=AgbO3bKMj25bFC9HZji2nAOAizZ3OX97JFw_kcSjypU,2463
+napari_spatialdata-0.1.0.dist-info/LICENSE,sha256=EN6Gs71j9NK6ukYqABJv2uu-9KYZJjPyUQsGxGCDxxo,1491
+napari_spatialdata-0.1.0.dist-info/METADATA,sha256=O9ia6Z89_Ae1ymQWC9PKDWwDcxHjFmCSXQX7UGXKorc,4662
+napari_spatialdata-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+napari_spatialdata-0.1.0.dist-info/entry_points.txt,sha256=jDwNVLGLpNeJBNCD6Uk5JACf0XYSi5STMW1_-i7ZMTc,70
+napari_spatialdata-0.1.0.dist-info/top_level.txt,sha256=4MkCpZvtvq8RtS1ZagymDV2Shl3P2wH3sKB2nl4w0p4,19
+napari_spatialdata-0.1.0.dist-info/RECORD,,
