@@ -1,0 +1,10 @@
+Py4DMath/__init__.py,sha256=mXVbo3l00OYIrQFnrKjAs-rnrWvos-zIyW8W8Ud2oFY,231
+Py4DMath/matrix3d.py,sha256=2C9Lr_-6Ow3R6e0gbPlvvZyzmM7f6gomwYG_Un-rh4I,10902
+Py4DMath/quaternion.py,sha256=ddvVwgG8mdoBe8YDVufztRyyIihngFLTKLkm_t3SWAk,5698
+Py4DMath/vector3d.py,sha256=36LZ2Pdo469gQut3rdWzASAQlvkOH3WbzTE4OL8OJ6Y,6219
+Py4DMath/version.py,sha256=Dg7tt0G0oVb1YtynGMIagMseIXP-pFa9tKptP6hRoZc,122
+Py4DMath-0.5.0.dist-info/LICENSE.txt,sha256=nyZfnBxXrEJVtqzevp8u2-ZzZAP9-0su4jh5LGPIfNU,1076
+Py4DMath-0.5.0.dist-info/METADATA,sha256=dakDGJ7geLrZKFw71DpYwztnOh109FyyGBIUTz0z0Ac,4178
+Py4DMath-0.5.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Py4DMath-0.5.0.dist-info/top_level.txt,sha256=GVGCMAOZRQCaB5uSKfxWVHUPcbKZZBzui8wYTWA-dN4,9
+Py4DMath-0.5.0.dist-info/RECORD,,
