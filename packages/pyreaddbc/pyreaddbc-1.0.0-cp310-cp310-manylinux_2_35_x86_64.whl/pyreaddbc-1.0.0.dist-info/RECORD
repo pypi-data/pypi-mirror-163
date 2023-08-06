@@ -1,0 +1,14 @@
+pyreaddbc/__init__.py,sha256=djTb4m5KjMYE5IGQwTGX2U1ziqmxqObgNdyllgBm9Ec,58
+pyreaddbc/_build_readdbc.py,sha256=oDdlSj3RAFaapolgL0nLyWq8R7Elepv8uqetCbV3Gn4,1043
+pyreaddbc/_readdbc.c,sha256=UEyoRbPkpWtZRCETo-jpZGSAt67Zm5PSYReYZ2qD-u0,34705
+pyreaddbc/_readdbc.so,sha256=t1GvegCEiwEtKd8SEhW1jCq-e34Fmt0kJzQ9nh4mKNE,47240
+pyreaddbc/blast.c,sha256=7l60hcgbNzAYXeiIx8qJ6-B0HiOEMaLzp4uc8-K1Kgo,37068
+pyreaddbc/blast.h,sha256=gl4vkMYFEzyW3BNKzmtitwzAgVbHMGopm8iEf4-7jss,3433
+pyreaddbc/c-src/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pyreaddbc/c-src/blast.c,sha256=NMrTo8cIHuDjKbdPS2SNVAQJT7gEtQ17MM1PG0qtjC4,16648
+pyreaddbc/c-src/blast.h,sha256=gl4vkMYFEzyW3BNKzmtitwzAgVbHMGopm8iEf4-7jss,3433
+pyreaddbc/c-src/dbc2dbf.c,sha256=RNY2M0ax2ooVoqHLlZF3AzM8-9KT9iRGVaziYqHI1UQ,4087
+pyreaddbc/readdbc.py,sha256=R_rkoDFMhIAXAUCnIDv5mU061d5CWyta5wkaXxZB_24,2754
+pyreaddbc-1.0.0.dist-info/WHEEL,sha256=A32-AnITah9vVYPDN6GDlBmZ1pgH0amueaBkGdcRMwQ,105
+pyreaddbc-1.0.0.dist-info/METADATA,sha256=SEedh34oPsbWjYSwtp0TQ2ZU5Hm2fpdOCRJrhWI9LRk,560
+pyreaddbc-1.0.0.dist-info/RECORD,,
