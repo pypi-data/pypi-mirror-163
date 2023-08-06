@@ -1,0 +1,17 @@
+LICENSE
+pyproject.toml
+setup.cfg
+setup.py
+src/bicleaner_ai_glove.egg-info/PKG-INFO
+src/bicleaner_ai_glove.egg-info/SOURCES.txt
+src/bicleaner_ai_glove.egg-info/dependency_links.txt
+src/bicleaner_ai_glove.egg-info/requires.txt
+src/bicleaner_ai_glove.egg-info/top_level.txt
+src/glove/__init__.py
+src/glove/corpus.py
+src/glove/corpus_cython.cpp
+src/glove/glove.py
+src/glove/glove_cython.c
+src/glove/metrics/__init__.py
+src/glove/metrics/accuracy.py
+src/glove/metrics/accuracy_cython.c
