@@ -1,0 +1,15 @@
+robojob/__init__.py,sha256=-ZjA3beMIhlmVk9UpsMzc9JeJuscHCtMcgQWNmufZuM,1336
+robojob/backend.py,sha256=q2s9OGQW41djNAapSJWzWWaMpRC_QCkAwJqEX9Nf09I,3227
+robojob/bcp.py,sha256=ROtkRiPkRb8hb_3fAc2vcYshhkrvJ-ssfflDfW_gXAY,3529
+robojob/email.py,sha256=B8K55C6iDmICUThb4rAK0TVEO_nZgzWhcUEpIoseGXo,1719
+robojob/function.py,sha256=o6gJeRAJy-woeSpbhkIm2Aann9YxQBktQltD80XU9Nw,472
+robojob/job_execution.py,sha256=m9LOs061emUWViqt1tcMZ56t71MjyENBgd8rHJXmGJc,7514
+robojob/parameter_collection.py,sha256=xfshqce_GyCaakL2P_yI9iy7W6DYqtkwqqrjFrytVH0,1266
+robojob/powershell.py,sha256=i8LKaYVniSTV-t9b7CA9pDaMCgs2xTSTi6NGiiioWLs,1309
+robojob/r.py,sha256=N42UW0Z1_ziauneBBDk4LRJLnM2GDmZ_ubk1za3GSjg,1221
+robojob/sql.py,sha256=NhUAkJzDwRf2at46tkwM3PN35jdvqZ6SMNt7XMN60mc,1312
+robojob/task_execution.py,sha256=iWl8BHBqVT4MWNfr0Sudy4DAR20HHXDR-4cUwoyyhaI,1537
+robojob-0.1.9.dist-info/METADATA,sha256=-t0APVRghz941BuOaOt8JgucRrz-lCych9yDyAy6Db4,150
+robojob-0.1.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+robojob-0.1.9.dist-info/top_level.txt,sha256=0n6c-LZNmSKRrvgnpOTmuvB9ve9HkeiFVv3PLvdCQp8,8
+robojob-0.1.9.dist-info/RECORD,,
