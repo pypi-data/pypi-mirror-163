@@ -1,0 +1,15 @@
+.flake8
+.gitignore
+LICENSE
+README.md
+calcu.py
+pyproject.toml
+usage.gif
+.github/workflows/publish.yml
+calcu.egg-info/PKG-INFO
+calcu.egg-info/SOURCES.txt
+calcu.egg-info/dependency_links.txt
+calcu.egg-info/entry_points.txt
+calcu.egg-info/requires.txt
+calcu.egg-info/top_level.txt
+calcu.egg-info/zip-safe
