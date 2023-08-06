@@ -1,0 +1,70 @@
+Metadata-Version: 2.1
+Name: encoderPy
+Version: 1.0
+Summary: Simple encoder & text decryptor
+Home-page: UNKNOWN
+Author: AlmazCode
+Author-email: diamondplay43@gmail.com
+License: Apache License, Version 2.0, see LICENSE file
+Platform: UNKNOWN
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Classifier: Programming Language :: Python :: Implementation :: CPython
+
+
+ENG:
+
+enscrypt(text) -> encrypt text
+
+decrypt(text) -> decrypt the text
+
+Encryption example:
+    text = encrypt('this is text')
+
+    print(text)
+
+Conclusion:
+    l2=z116S%$L8=!104S%$lv=y105S%$ln=5115S%$S%=632S%$Lb==105S%$...
+
+decryption example:
+    text = decrypt('l2=z116S%$L8=!104S%$lv=y105S%$ln=5115S%$S%=632S%$Lb==105S%$...')
+
+    print(text)
+
+Conclusion:
+    this is text
+
+RU:
+
+enscrypt(text) -> шифрует текст
+
+decrypt(text) -> расшифровает текст
+
+Пример enscryption:
+    text = enscrypt('this is text')
+
+    print(text)
+
+Вывод:
+    l2=z116S%$L8=!104S%$lv=y105S%$ln=5115S%$S%=632S%$Lb==105S%$...
+
+Пример decryption:
+    text = decrypt('l2=z116S%$L8=!104S%$lv=y105S%$ln=5115S%$S%=632S%$Lb==105S%$...')
+
+    print(text)
+
+Вывод:
+    this is text
+
+
+
