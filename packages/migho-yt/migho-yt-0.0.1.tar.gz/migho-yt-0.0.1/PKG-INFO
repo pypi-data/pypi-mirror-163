@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: migho-yt
+Version: 0.0.1
+Summary:  with This Package can download from YouTube so Fast :/
+Home-page: UNKNOWN
+Author: Migho Ahmed
+Author-email: migho.ahmed@gmail.com
+License: MIT
+Description: YouTube fast downloader in the World :/
+        
+        
+        Change Log :
+        ==========
+        
+        1.0.1 (16/08/2022)
+        -------------------
+        - First Release
+        
+        ===============
+        <b> EXAMPLE :
+        
+        ```
+        from migho_yt import mp4
+        from migho_yt import info
+        from migho_yt import mp3
+        
+        
+        url = input('[+] YOUTUBE URL : ')
+        
+        infos = info(url)
+        print(infos)           #to return video info.
+        
+        mp4(url, storage=None) #storage -> Keep it default or choose a folder name
+        
+        mp3(url,path=None)      #path -> Keep it default or choose a folder name
+        
+        ```
+        
+Keywords: Youtube,SoundCloud,migho,instagram,tool,pypi
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown

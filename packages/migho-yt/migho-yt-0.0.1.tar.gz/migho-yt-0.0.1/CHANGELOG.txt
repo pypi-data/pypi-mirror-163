@@ -1,0 +1,26 @@
+Change Log :
+==========
+
+1.0.1 (16/08/2022)
+-------------------
+- First Release
+
+===============
+<b> EXAMPLE :
+
+```
+from migho_yt import mp4
+from migho_yt import info
+from migho_yt import mp3
+
+
+url = input('[+] YOUTUBE URL : ')
+
+infos = info(url)
+print(infos)           #to return video info.
+
+mp4(url, storage=None) #storage -> Keep it default or choose a folder name
+
+mp3(url,path=None)      #path -> Keep it default or choose a folder name
+
+```
