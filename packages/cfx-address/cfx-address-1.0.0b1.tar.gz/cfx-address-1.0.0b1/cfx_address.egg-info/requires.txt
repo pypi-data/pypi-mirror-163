@@ -1,0 +1,17 @@
+eth-utils<3.0.0,>=2.0.0
+hexbytes<1.0.0,>=0.1.0
+
+[dev]
+pytest<7,>=6.2.5
+sphinx<5,>=4.2.0
+sphinx_rtd_theme>=0.1.9
+wheelpycryptodome
+
+[docs]
+sphinx<5,>=4.2.0
+sphinx_rtd_theme>=0.1.9
+
+[linter]
+
+[tester]
+pytest<7,>=6.2.5
