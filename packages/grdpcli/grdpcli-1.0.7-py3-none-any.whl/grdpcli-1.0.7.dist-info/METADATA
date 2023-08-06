@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: grdpcli
+Version: 1.0.7
+Summary: Gitlab Rapid Development Platform CLI client
+Home-page: https://onix-systems.com
+Author: Anton Marusenko
+Author-email: anton.marusenko@onix-systems.com
+Requires-Python: >=3
+Requires-Dist: requests
+Requires-Dist: rich
+
