@@ -1,0 +1,4 @@
+large-image>=1.16.1.dev53
+
+[girder]
+girder-large-image>=1.16.1.dev53
