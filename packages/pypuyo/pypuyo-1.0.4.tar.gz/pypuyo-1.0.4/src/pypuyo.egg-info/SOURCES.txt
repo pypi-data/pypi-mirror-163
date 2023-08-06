@@ -1,0 +1,10 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/pypuyo/__init__.py
+src/pypuyo/pypuyo.py
+src/pypuyo.egg-info/PKG-INFO
+src/pypuyo.egg-info/SOURCES.txt
+src/pypuyo.egg-info/dependency_links.txt
+src/pypuyo.egg-info/top_level.txt

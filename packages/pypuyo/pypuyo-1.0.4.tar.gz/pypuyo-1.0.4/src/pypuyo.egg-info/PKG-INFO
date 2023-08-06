@@ -1,0 +1,90 @@
+Metadata-Version: 2.1
+Name: pypuyo
+Version: 1.0.4
+Summary: A package to make Puyo-Puyo-ish games.
+Author-email: nnamaco <eureka5129@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Alfred Namaco
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+        
+Project-URL: Homepage, https://github.com/nnmaco/pypuyo
+Project-URL: Bug Tracker, https://github.com/nnmaco/pypuyo/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# pypuyo
+A pip package to make Puyo-Puyo-ish games.
+```python
+>>> import pypuyo as ppy
+>>> game = ppy.start(width=3, height=3, frames_to_fall=1)
+>>> game.update()
+>>> game.update()
+>>> print(game.get())
+[[None, "Yellow", None]
+ [None, None, None]
+ [None, None, None]]
+>>> game.update()
+>>> print(game.get())
+[[None, "Yellow", None]
+ [None, "Blue", None]
+ [None, None, None]]
+```
+# Installation
+### pip
+`$ python3 -m pip install pupuyo`
+# Cloning repo
+`$ git clone https://github.com/nnamaco/pypuyo/`
+# Examples
+- A GUI example -> https://github.com/nnamaco/pypuyo-example
+- A shell CLI example -> https://github.com/nnamaco/pypuyo-example-cli<br>
+  (Still making)
+# Usage
+## Quickstart
+1. Create game instance by:
+```python
+game = pypuyo.Game()
+```
+2. Go to next frame by:
+```python
+game.update()
+```
+3. Get array by:
+```python
+game.get()
+```
+## Documentation
+### Methods
+|method      |desciption                    |arguments                                        |
+|----        |----                          |----                                             | 
+|`start`     |Returns new game instance.    |`width`: Width of the game.<br>`height`: Height of the game.<br>`types`: Array of possible puyos to fall.<br>`frames_to_fall`: Frames that take puyos to fall.|
+|`move_right`|Move falling puyos right.     |-                                                |
+|`move_left` |Move falling puyos right.     |-                                                |
+|`spin_right`|Move falling puyos right.     |-                                                |
+|`spin_left` |Move falling puyos right.     |-                                                |
+|`is_over`   |Returns boolean `is_gameover`.|-                                                |
+|`update`    |Update game to next frame.    |-                                                |
+|`get`       |Get game as array.            |-                                                |
+# License
+This software is released under the MIT License, see LICENSE.
