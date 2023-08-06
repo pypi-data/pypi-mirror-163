@@ -1,0 +1,12 @@
+MANIFEST.in
+MIT-LICENSE
+README.rst
+pre_commit_config_shellcheck.py
+setup.cfg
+setup.py
+pre_commit_config_shellcheck.egg-info/PKG-INFO
+pre_commit_config_shellcheck.egg-info/SOURCES.txt
+pre_commit_config_shellcheck.egg-info/dependency_links.txt
+pre_commit_config_shellcheck.egg-info/not-zip-safe
+pre_commit_config_shellcheck.egg-info/requires.txt
+pre_commit_config_shellcheck.egg-info/top_level.txt
