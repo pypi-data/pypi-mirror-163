@@ -1,0 +1,9 @@
+msgpack
+numpy
+requests
+pandas
+six
+urllib3
+websocket-client
+protobuf>=3.11.3
+grpcio
