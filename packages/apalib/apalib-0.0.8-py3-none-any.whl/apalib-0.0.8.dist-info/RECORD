@@ -1,0 +1,16 @@
+apalib/AminoAcid.py,sha256=ns9jZTaxFZX-aX7BsA5m9m66KVUhTDAq8fTsD_sfqyE,10832
+apalib/Atom.py,sha256=8wSQajxQ_BkmkyeCwcGOrU7_uUcoTbFgHgwc6vhMKTo,9106
+apalib/Container.py,sha256=ZcbjttJugRLmhA5i8KGYqeuHIUptwAOeqr1clOmWnDI,6111
+apalib/DNA.py,sha256=hcy1OXRLjeq1J-o1wjZlorpoyGu3aww17WVowguNQPE,3171
+apalib/Data.py,sha256=DQGlWx7Im_0VOPNNxXsDc6ukNzbZyTMJU_lz6ikV4s4,2634
+apalib/HETATM.py,sha256=BaGNMnACsDKTCu_bZKv8BxoNe9UEPmlhVCslubEazlM,2415
+apalib/RNA.py,sha256=dCqQ38TYWJR2klTpBVyPJ-IT0OKp0UoXMCU5A5bajoY,2814
+apalib/__init__.py,sha256=9RCFPjUKzsV22k9w0jeNgNs9dfidAl52q8kP769ToBM,8409
+apalib/apalibExceptions.py,sha256=BehBvDaEaSFu7cW7xkoxzRNfJGXKDlvQyaOXGBmFpGs,1028
+apalib/config.py,sha256=_AiPUX_bQPmiQcwgzfZbujaAwClRe-tcrPeUjrUp8Fg,653
+apalib/pdb.py,sha256=CaRN0VHxCZE_VOeLptm31mUUZzbIVYU-nRh_RpVQwzc,4196
+apalib/json/chemistry.json,sha256=g3KdLqIY3VrJDY-14A8o5tYLsFHHlO71FQhy9U9G8Ko,118344
+apalib-0.0.8.dist-info/METADATA,sha256=znMc0Z5jyGq1EmW_yDtwaqyVTJ-9cug_bHZvONLGgwA,519
+apalib-0.0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+apalib-0.0.8.dist-info/top_level.txt,sha256=ogGcU5yJbpeCGfYFgm2X2bjYRYZH43mNhE8fI7qermI,7
+apalib-0.0.8.dist-info/RECORD,,
