@@ -1,0 +1,11 @@
+pip
+packaging
+python-magic
+html2text
+colorama
+pyyaml
+lxml
+pandas
+pyarrow
+
+[dev]
