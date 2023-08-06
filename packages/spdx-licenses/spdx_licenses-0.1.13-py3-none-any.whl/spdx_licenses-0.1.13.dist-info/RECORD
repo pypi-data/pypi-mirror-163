@@ -1,0 +1,12 @@
+spdx_licenses/__init__.py,sha256=535I8Lb8xlG9iu6XqZ7FTm8ZZfQtrXIMFNDeZtlSnvQ,108
+spdx_licenses/data/licenses_nonobsolete_only.json,sha256=PW2R8JKnLOQVggCpmbVqury--ERUHc9TAxOuV0ijXxE,5042295
+spdx_licenses/error.py,sha256=PKoVbwrceNaZSUX7yh04htj9eWNJnikWz8qr6pEfhS0,626
+spdx_licenses/parse.py,sha256=GvR8Wi0E7Sx4P85e2zLcVye_yCMRZM6EPfZG97hOzHs,1576
+spdx_licenses/scrap.py,sha256=ldrKUa3j-ZjrRGKRVz2t2kF_MdoimkVUjNqrNkVIjBY,3248
+spdx_licenses/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spdx_licenses/tmp.py,sha256=EbXLAua1oZcNnqH3ybKJJsJeryjLi2_ODxe1-d7BMlA,593
+spdx_licenses/type.py,sha256=9ztzgf3nGxFIjEP-41QkzcfYpesCE12a67FDuQEYdSQ,1990
+spdx_licenses-0.1.13.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spdx_licenses-0.1.13.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+spdx_licenses-0.1.13.dist-info/METADATA,sha256=j_Tc3ZNOGN5rOFisApX0ohVzP8fivyssBcgEOgEqZm8,579
+spdx_licenses-0.1.13.dist-info/RECORD,,
