@@ -1,0 +1,13 @@
+gbit/__init__.py,sha256=C7CRpuj3SPNtwohYSSCLRWEsQJx89fBBiWKOJcND-hU,60
+gbit/runner_.py,sha256=1aSweaq76J7ZPbMY_kqTXoPMTAiIpPbgOLtibVmGYI0,694
+gbit/var.py,sha256=jVT4k3_p1orzUonX-e8qt4yz05iDwWiBqC7iMZEu1l8,1177
+gbit/bin/bash.py,sha256=z-Lkxqq_ShQuYKNtOPp-aiNs-4kVASMsgcJnImXDLLY,4497
+gbit/bin/crontab.py,sha256=O55W_h_KZkM1cHZh9LGSHCm54ksanJ6ywiTufHpf9yk,733
+gbit/bin/find.py,sha256=s79RirI5X26u_JI6UwC8raD5zjxhzL1iux9s59PD3og,1363
+gbit/bin/less.py,sha256=53VK0OAaaYBpkphP08KBuBAcLusoDnaElBC7Ttz_jyo,2321
+gbit/bin/pkexec.py,sha256=frUxClPFnpx7Nds2zviwpftsacu8Ad8f35iSCfHlf3c,322
+gbit-0.2.4.dist-info/entry_points.txt,sha256=vpEfziXdUHL4DodfgOuecJOtNp1-UkGEk-L1FYJnn6s,41
+gbit-0.2.4.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+gbit-0.2.4.dist-info/WHEEL,sha256=j3d_2VkBU36k09xOc4O9RZyJJ8uFqn4BR2AtKD7MOp8,99
+gbit-0.2.4.dist-info/METADATA,sha256=yIk1m1MXHYKiLDXYfkhX2Ur2GnQcvTrxyggC92eBN-E,490
+gbit-0.2.4.dist-info/RECORD,,
