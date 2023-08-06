@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpaper_admin=self.webpackChunkpaper_admin||[]).push([[6122],{7672:(e,t,r)=>{e.exports=function(){if("object"==typeof globalThis)return globalThis;var e;try{e=this||new Function("return this")()}catch(e){if("object"==typeof window)return window;if("object"==typeof self)return self;if(void 0!==r.g)return r.g}return e}()}}]);
+//# sourceMappingURL=npm.expose-loader.02a9e157879030f76559.js.map
