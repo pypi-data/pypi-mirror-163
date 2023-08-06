@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+src/gcstructuredlogger/__init__.py
+src/gcstructuredlogger/structuredlogger.py
+src/google_cloud_structured_logger.egg-info/PKG-INFO
+src/google_cloud_structured_logger.egg-info/SOURCES.txt
+src/google_cloud_structured_logger.egg-info/dependency_links.txt
+src/google_cloud_structured_logger.egg-info/requires.txt
+src/google_cloud_structured_logger.egg-info/top_level.txt
