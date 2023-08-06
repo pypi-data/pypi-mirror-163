@@ -1,0 +1,8 @@
+LICENSE.txt
+setup.cfg
+setup.py
+keepass_dropbox_sync.egg-info/PKG-INFO
+keepass_dropbox_sync.egg-info/SOURCES.txt
+keepass_dropbox_sync.egg-info/dependency_links.txt
+keepass_dropbox_sync.egg-info/requires.txt
+keepass_dropbox_sync.egg-info/top_level.txt
