@@ -1,0 +1,2 @@
+[console_scripts]
+sharefiles = sharefiles.command_line:main
