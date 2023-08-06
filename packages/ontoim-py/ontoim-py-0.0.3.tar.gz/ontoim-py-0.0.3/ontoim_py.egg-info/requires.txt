@@ -1,0 +1,2 @@
+rdflib>=6.0.0
+ontopia_py>=0.1.0
