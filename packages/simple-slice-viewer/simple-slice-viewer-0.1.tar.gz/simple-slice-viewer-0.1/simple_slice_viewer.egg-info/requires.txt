@@ -1,0 +1,6 @@
+SimpleITK
+numpy
+matplotlib
+pyqtgraph
+pyqt5
+pyyaml
