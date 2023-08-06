@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: labedf
+Version: 1.0.0
+Summary: Merge the lab.js csv file and the edf file.
+Home-page: https://github.com/s-n-1-0/labedf.py
+Download-URL: https://github.com/s-n-1-0/labedf.py
+Author: sn-10
+License: MIT
+Keywords: labjs,lab.js
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# labedf.py
+ Merge the lab.js csv file and the edf file.
