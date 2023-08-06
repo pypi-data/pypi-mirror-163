@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: feeluown-bilibili
+Version: 0.1.3
+Summary: Bilibili provider for FeelUOwn player.
+Home-page: https://github.com/BruceZhang1993/feeluown-bilibili
+License: GPL-3.0
+Author: Bruce Zhang
+Author-email: zttt183525594@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: beautifulsoup4
+Requires-Dist: cachetools
+Requires-Dist: feeluown (>=3.8.7)
+Requires-Dist: pycryptodomex
