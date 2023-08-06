@@ -1,0 +1,9 @@
+thor_mlops/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+thor_mlops/clean.py,sha256=du619AXK5Mu52-GrrAC-hWpzgL4KjLjqXp01QU3YeGU,9794
+thor_mlops/ops.py,sha256=Johyq6FZLgo2WXsd11aGyd4yCxhdI0zJkhG_trGuujg,1153
+thor_mlops/starschema.py,sha256=7E_YkbSFN6z0zT6gHmUCgYqzG06M4ADRe6LDWYGnV4Y,3120
+thor_mlops-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+thor_mlops-0.0.1.dist-info/METADATA,sha256=a5QizGAHj-Wjuua8GsxpSDLaZdcEGSDv9-AVm_IvYys,13360
+thor_mlops-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+thor_mlops-0.0.1.dist-info/top_level.txt,sha256=L2ywZLMvkECMQ2TF9MnfUQREkvfikuPq5fsj9SAoX_E,11
+thor_mlops-0.0.1.dist-info/RECORD,,
