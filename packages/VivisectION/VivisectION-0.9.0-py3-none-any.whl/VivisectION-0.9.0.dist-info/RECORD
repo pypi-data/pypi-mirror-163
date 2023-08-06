@@ -1,0 +1,15 @@
+VivisectION-0.9.0.data/scripts/launchVivisectION,sha256=A-W4tHkvZ_DnR-aXI9SmRKGSA9QQy-Hd9n47BbnZvDk,1164
+VivisectION-0.9.0.data/scripts/vivisection_activate,sha256=FBBNM2yWMX7qQZjHDNpfSKJa3lY4fGAIRwIR3McLxQA,1103
+VivisectION-0.9.0.data/scripts/vivisection_deactivate,sha256=U0ETHGIoWiUNMHt3YE7vSirHCBHzf-WSxF2gpUeFVjA,1020
+vivisection/__init__.py,sha256=hdYlfr4_tUgx1f7mLWlJNbKz7Kt2e5_Z3wDoBWlgL6U,911
+vivisection/emutils.py,sha256=n4pdSogfoU5OvG1jocMvfXC1J8phswBJIHVp_VXaGQA,184065
+vivisection/example_func_setup.py,sha256=lGKefQW9rnjemxaU1Npu8d4neUAS3kkHQfTNjn2taZ8,2764
+vivisection/viv_plugin/__init__.py,sha256=_oLq4nMlAz6afcKg7LIWEawK6U3pEvznES1gsDplq40,55
+vivisection/viv_plugin/emuclient.py,sha256=5Jo7UlllCb9STi1GFr9SG-u_OBuynZYS9Xh27kYEMtQ,1744
+vivisection/viv_plugin/plugin.py,sha256=0ZCAmhXLeKET0U60wdzKFP4nhnOXtpV4eRVBvMdBe0Q,6237
+vivisection/viv_plugin/share.py,sha256=KXrN_s5E4ejHxWAMyDnnaGPAeub0aTV2cxtyJlm-Zw4,1786
+VivisectION-0.9.0.dist-info/LICENSE,sha256=E3ix6XSVrXFvff49Lm1_60sjLWIimoI3NwT-3O4e6Jg,1321
+VivisectION-0.9.0.dist-info/METADATA,sha256=utMF8bBudC6YWP2bpzhQEMSdg53Hx2ma8lXCXaquSP8,398
+VivisectION-0.9.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+VivisectION-0.9.0.dist-info/top_level.txt,sha256=Hh-x1C8kQil2qHkTIdURvv9s8ndzX2Ew3kX1PXmNvQM,12
+VivisectION-0.9.0.dist-info/RECORD,,
