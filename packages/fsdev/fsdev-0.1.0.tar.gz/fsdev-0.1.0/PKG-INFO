@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: fsdev
+Version: 0.1.0
+Summary: A super simple filesystem dev server
+License: MIT
+Author: Tristan Slater
+Author-email: hello@trslater.ca
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: Jinja2 (>=3.0.3,<4.0.0)
