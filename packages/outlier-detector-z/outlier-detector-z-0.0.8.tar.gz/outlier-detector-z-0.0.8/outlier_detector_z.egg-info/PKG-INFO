@@ -1,0 +1,6 @@
+Metadata-Version: 2.1
+Name: outlier-detector-z
+Version: 0.0.8
+Summary: Application is used to detect the outliers in a list or tuple
+Author: Mohamed Naji Aboo
+License-File: LICENSE
