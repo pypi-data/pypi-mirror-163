@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: get_useragents
+Version: 0.3
+Summary: This library is used to make it easier for developers or users to get random user agents from https://useragents.io.
+Home-page: https://github.com/g4rzk/get_useragents
+Download-URL: https://github.com/g4rzk/get_useragents/archive/get_useragents.tar.gz
+Author: Angga Kurniawan
+Author-email: g4rzkurniawan@gmail.com
+License: MIT
+Keywords: get useragents,get-useragents,useragent random
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+GET-USERAGENTS
+=================
+
+This library is used to make it easier for developers or users to get random user agents from https://useragents.io
+
+Installation
+~~~~~~~
+You can install get-useragents by running the following command:
+.. code:: sh
+   pip install get-useragents
+
+Or you can download direct from Github and install it manually.
+
+Usage
+~~~~~
+.. code:: python
+   from get_useragents import *
+
+   ua = UserAgents()
+   ua.GetUserAgent()
+
+Function
+~~~~~~~
+1. Get more than 100+ user agents 
+2. Get a random user agent
+
+License
+~~~~~~
+The MIT License (MIT). Please see License File for more information.
+
+User Agent Source
+~~~~~~~~~~~~~
+special thanks to https://useragents.io for providing real user agents.
