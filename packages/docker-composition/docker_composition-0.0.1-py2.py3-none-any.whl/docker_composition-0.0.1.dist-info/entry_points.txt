@@ -1,0 +1,2 @@
+[console_scripts]
+composition = composition.composition:entrypoint
