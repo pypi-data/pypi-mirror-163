@@ -1,0 +1,6 @@
+sentry-sdk
+datasette>=0.62
+
+[test]
+pytest
+pytest-asyncio
