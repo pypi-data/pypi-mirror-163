@@ -1,0 +1,15 @@
+starsessions/__init__.py,sha256=8z8dMyBdP3pX0UcyI-nHQIixGnq8IK_xT00ntxHULj0,815
+starsessions/backends/__init__.py,sha256=Sq3aO4lD-QOhrkkXRLVVzXKJrjy9h6vFzcy9Cbxd7lM,169
+starsessions/backends/base.py,sha256=Hy6Mq9aDATQAINUmjyEcir_0NGOqqReaA5BNzGG_RUI,882
+starsessions/backends/cookie.py,sha256=75tCjtr52xLpd5Qkj4sLTr43y-6_4xHF2VAcwZzY4Pc,1192
+starsessions/backends/memory.py,sha256=ZAz75iIJ0TIbEZx8gCwTmnm6X-UrapYbL15Q34ZKaN0,684
+starsessions/backends/redis.py,sha256=UHKweeDFQ9HUq3phsxzB9KKTaPzYeh5KGSdDmUj4Rmg,2296
+starsessions/exceptions.py,sha256=fuCAGy4DLJyg3wgQwLdAmTpaMsUvxvjazKNkWKWgS_o,341
+starsessions/middleware.py,sha256=AWv-BBTWhDkBZipF-ClieJ-1L7A9CxQc_Ar1NWeWot8,4761
+starsessions/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+starsessions/serializers.py,sha256=6Ti-TFNB5mIHQEXU0cuTyFMlWPtt1542ECfCLAetEB4,970
+starsessions/session.py,sha256=Hctf6f9HIClYI8cZx-UCOg20sD-83icNSEkfd9HLW9E,2853
+starsessions-2.0.0a0.dist-info/LICENSE,sha256=oExVKTnRFzohx9tmIZ4hWFN-fIZzT2tUgxPguQBwmmU,1073
+starsessions-2.0.0a0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+starsessions-2.0.0a0.dist-info/METADATA,sha256=3ilz2tRfwfjdU_oUDXWwNBvo82vJpr0yTdrsY7RIHKw,9693
+starsessions-2.0.0a0.dist-info/RECORD,,
