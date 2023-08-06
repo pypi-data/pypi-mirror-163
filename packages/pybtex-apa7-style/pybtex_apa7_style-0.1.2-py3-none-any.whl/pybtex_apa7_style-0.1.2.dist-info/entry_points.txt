@@ -1,0 +1,9 @@
+[pybtex.style.formatting]
+apa7=formatting.apa:APAStyle
+
+[pybtex.style.labels]
+apa7=labels.apa:LabelStyle
+
+[pybtex.style.names]
+firstlast=names.firstlast:NameStyle
+
