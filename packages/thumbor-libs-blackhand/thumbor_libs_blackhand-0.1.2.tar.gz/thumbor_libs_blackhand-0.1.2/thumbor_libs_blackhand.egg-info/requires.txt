@@ -1,0 +1,2 @@
+thumbor>=7.1.0
+pymongo>=3.11.3
