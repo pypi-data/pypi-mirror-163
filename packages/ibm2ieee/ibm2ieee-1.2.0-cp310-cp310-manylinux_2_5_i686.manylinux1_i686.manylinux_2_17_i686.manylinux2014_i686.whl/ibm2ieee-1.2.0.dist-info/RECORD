@@ -1,0 +1,11 @@
+ibm2ieee/version.py,sha256=SiXU3Wa7vYRi-UuacmwiLgHkTLbgtC8tlCXDcpHVNrA,444
+ibm2ieee/_ibm2ieee.cpython-310-i386-linux-gnu.so,sha256=PgfibH7DkyJMgUGAAh8X5cvDxQ8ky4bXJDIJjRGbYTQ,37276
+ibm2ieee/__init__.py,sha256=ryF53gKSxiwrVnFs5OjFvAL7qyVqY8a5EHKrXECaKW0,572
+ibm2ieee/test/test_ibm2ieee.py,sha256=h5ocgoSPVMs1yBHKXoPVPSpuZEiep0inSki-S6ywYkg,20833
+ibm2ieee/test/__init__.py,sha256=Uu7t9fDwln-zj2nILmJPv17LNmOObxGSZCnj8uPNeKM,407
+ibm2ieee/test/test_version.py,sha256=ZPlZsi3xLLn4_Bj5zfLRrzx8QM1uqWMEN5HhSI6pebQ,983
+ibm2ieee-1.2.0.dist-info/top_level.txt,sha256=iOx6O5Xyrf2drc_ZdLBiReKQ4JhU4oQhMrB8JZIm05Y,9
+ibm2ieee-1.2.0.dist-info/WHEEL,sha256=tcHunuE4GtldHhEQgq2Ayqfv5z497HVr7yC3qVoml6g,217
+ibm2ieee-1.2.0.dist-info/METADATA,sha256=26V1_zbSaf14UnV1cQ5IAJ92RXVaY_HzZ7_pJ8fGvg0,7156
+ibm2ieee-1.2.0.dist-info/RECORD,,
+ibm2ieee-1.2.0.dist-info/LICENSE.txt,sha256=HRNaawsGqazmBeitQGAhT_zafno8sp27oUrI0Hx_OT8,1531
