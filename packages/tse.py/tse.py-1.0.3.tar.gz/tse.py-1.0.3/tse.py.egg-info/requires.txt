@@ -1,0 +1,10 @@
+
+[develop]
+pytest
+pytest-cov
+mypy
+flake8
+flake8-docstrings
+sphinx
+sphinx-rtd-theme
+sphinxcontrib-mermaid
