@@ -1,0 +1,12 @@
+evaluate~=0.1.2
+fastapi~=0.78.0
+openai~=0.20.0
+transformers~=4.21.1
+tree_sitter~=0.20.0
+typer~=0.5.0
+Levenshtein
+torch
+torchvision
+datasets
+pydantic
+uvicorn
