@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: mkdocs_zhcorrect
+Version: 0.0.3
+Summary: zh correct
+Home-page: UNKNOWN
+License: BSD
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Provides-Extra: i18n
+License-File: LICENSE
+
+nothing
+
