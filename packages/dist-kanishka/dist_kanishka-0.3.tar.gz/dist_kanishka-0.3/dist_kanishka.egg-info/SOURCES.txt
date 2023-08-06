@@ -1,0 +1,10 @@
+setup.py
+dist_kanishka/Binomialdistribution.py
+dist_kanishka/Gaussiandistribution.py
+dist_kanishka/Generaldistribution.py
+dist_kanishka/__init__.py
+dist_kanishka.egg-info/PKG-INFO
+dist_kanishka.egg-info/SOURCES.txt
+dist_kanishka.egg-info/dependency_links.txt
+dist_kanishka.egg-info/not-zip-safe
+dist_kanishka.egg-info/top_level.txt
