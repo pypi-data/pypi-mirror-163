@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: nchainz
+Version: 0.1.0
+Summary: Like 2 Chainz but better!
+License: MIT
+Author: Lars Quentin
+Author-email: lars@lquenti.de
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
