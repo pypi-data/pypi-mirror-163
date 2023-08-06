@@ -1,0 +1,7 @@
+README.md
+setup.py
+sixl/__init__.py
+sixl.egg-info/PKG-INFO
+sixl.egg-info/SOURCES.txt
+sixl.egg-info/dependency_links.txt
+sixl.egg-info/top_level.txt

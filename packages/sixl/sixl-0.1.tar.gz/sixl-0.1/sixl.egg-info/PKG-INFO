@@ -1,0 +1,42 @@
+Metadata-Version: 2.1
+Name: sixl
+Version: 0.1
+Summary: IPython inline plots and images through Sixel.
+Home-page: https://github.com/mkardas/sixl
+Author: Marcin Kardas
+License: MIT
+Keywords: sixel ipython
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Topic :: Software Development :: Libraries
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+
+# sixl
+
+## Installation
+
+```
+pip install sixl
+```
+
+## Examples
+
+### Matplotlib
+
+```python
+%matplotlib inline
+import sixl
+from matplotlib import pyplot as plt
+
+plt.plot([1,2,3], [1,4,9])
+```
+
+### Pillow
+
+```python
+import PIL.Image
+img = PIL.Image.load("image.png")
+```
+
+
