@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: yt_stream_recorder
+Version: 22.0.6
+Summary: tool for recording youtube streams
+Project-URL: Homepage, https://github.com/gmankab/yt_stream_recorder
+Project-URL: Documentation, https://github.com/gmankab/yt_stream_recorder
+Project-URL: Bug Tracker, https://github.com/gmankab/yt_stream_recorder/issues
+Author-email: gmanka <gmankab@gmail.com>
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.10
+Requires-Dist: rich
+Requires-Dist: yt-dlp
+Description-Content-Type: text/markdown
+
+# yt stream recorder
+
+tool for recording youtube streams
+
+## license
+
+[gnu gpl 3](https://gnu.org/licenses/gpl-3.0.en.html)
