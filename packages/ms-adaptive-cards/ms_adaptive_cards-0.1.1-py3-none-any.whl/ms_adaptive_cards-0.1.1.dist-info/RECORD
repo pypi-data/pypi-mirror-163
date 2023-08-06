@@ -1,0 +1,11 @@
+msadaptivecards/__init__.py,sha256=bZqHMn3oubQ43LBXNXHHn1rfONpUZ_qKTT-_bJSeI3c,163
+msadaptivecards/actions.py,sha256=HtGFegJJcK_eNQ58P2ogZhvm3yVqKz3Kb7sDB0KVOVE,1861
+msadaptivecards/base.py,sha256=GvnUjCqPShZdtjpF0THZ6Eeq1LdFjAY5FN18ts7NIF4,16208
+msadaptivecards/cards.py,sha256=oq7pMku67boDb9ADzmL9MgciFeU8UbdAkIEMnObCZbo,4822
+msadaptivecards/containers.py,sha256=9wKelSpcY0vPYfzg_Z41B35OQ7zLtDewJn6_TfImx1w,18088
+msadaptivecards/elements.py,sha256=YNjN4mDcQ6gVuh-x2z04okWlB7oUIMcqMLwhwUkQLmk,1606
+msadaptivecards/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+ms_adaptive_cards-0.1.1.dist-info/LICENSE,sha256=0BHeWToE0sOutj7TqxIUULJOahtd0gIKwC1qw6f-Dmg,1082
+ms_adaptive_cards-0.1.1.dist-info/WHEEL,sha256=Jaj29f-PvHzZb5kImTcJS9QszpaO6CVzAqOolIz_WEw,90
+ms_adaptive_cards-0.1.1.dist-info/METADATA,sha256=YITf4iZSLPMKXzOJnmwVlnZmORqMyqySklYRrY4yMRc,6465
+ms_adaptive_cards-0.1.1.dist-info/RECORD,,
