@@ -1,0 +1,11 @@
+cl_bindgen/__init__.py,sha256=skxY9zqjIVRRc7mpDqcE8sdCJ5biiqX9-39IOd9lAcU,252
+cl_bindgen/__main__.py,sha256=8Y-gpyCttKPT5rViGf-pzdpV3cZ3ZiS2cNNgDee0Xbw,1211
+cl_bindgen/mangler.py,sha256=SfvoImKSzgbQMatfyI_q_ReAXpfZxSvKwZcne2oW9ag,2629
+cl_bindgen/processfile.py,sha256=vhM1w6WZHD-BxOEWKa-wys2io3mvB_jtVbLcuoRnvDU,18503
+cl_bindgen/util.py,sha256=OoAs33p071P6A-G9GB-uBTxmvJrKnuRurqS6lvrOL7E,7968
+cl_bindgen-1.2.0.dist-info/LICENSE,sha256=z51P79lKt9EA98IBx7EQt4U74bVWL8aFE0RK6UsH3MI,1069
+cl_bindgen-1.2.0.dist-info/METADATA,sha256=XQ6aonMKAHfS5aVDvMvd9Ml5ikXK013ZhvPEGyerD3c,7573
+cl_bindgen-1.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cl_bindgen-1.2.0.dist-info/entry_points.txt,sha256=eFF5QTNR3LJLV6IY1s19iNU5cVoXxjWK8Ug2APKDxNQ,56
+cl_bindgen-1.2.0.dist-info/top_level.txt,sha256=tj5FFhnBZk0y9WNz-gZDMsSAS4g0CrPFtACaZ3KfnsE,11
+cl_bindgen-1.2.0.dist-info/RECORD,,
