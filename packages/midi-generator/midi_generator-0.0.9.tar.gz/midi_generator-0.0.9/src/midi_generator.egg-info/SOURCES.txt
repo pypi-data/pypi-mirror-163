@@ -1,0 +1,17 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/midi_generator/__init__.py
+src/midi_generator/config.py
+src/midi_generator/genetic.py
+src/midi_generator/main.py
+src/midi_generator/note.py
+src/midi_generator/output.py
+src/midi_generator/syncopation.py
+src/midi_generator.egg-info/PKG-INFO
+src/midi_generator.egg-info/SOURCES.txt
+src/midi_generator.egg-info/dependency_links.txt
+src/midi_generator.egg-info/entry_points.txt
+src/midi_generator.egg-info/requires.txt
+src/midi_generator.egg-info/top_level.txt
