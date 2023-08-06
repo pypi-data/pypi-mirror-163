@@ -1,0 +1,110 @@
+{% extends "base.html" %}
+
+{% block body %}
+<div class="container">
+    &nbsp;
+    <div id="alert_container"></div>
+
+    &nbsp;
+
+    <div class="form-group d-flex flex-row">
+        <select class="form-control" aria-label="Key" name="type" id="watch_type">
+            <option value="title" selected>Title</option>
+            <option value="filename">File name</option>
+        </select>
+
+        <select class="form-control" aria-label="MatchType" name="mode" id="watch_mode">
+            <option value="contains" selected>contains</option>
+            <option value="equals">equals</option>
+        </select>
+
+        <input type="text" class="form-control" placeholder="Input" name="text" id="watch_text">
+
+        <button class="btn btn-primary" onclick="addWatch()">Add</button>
+    </div>
+    &nbsp;
+    {% if results %}
+    <table class="table table-striped table-responsive table-bordered">
+        <thead>
+        <tr class="d-flex">
+            <th class="col-1">#</th>
+            <th class="col-2">Type</th>
+            <th class="col-2">Mode</th>
+            <th class="col-6">Text</th>
+            <th class="col-1">Actions</th>
+        </tr>
+        </thead>
+        {% for item in results %}
+        <tr class="d-flex" id="row-{{ item._id }}">
+            <td class="col-1">{{ loop.index }}</td>
+            <td class="col-2">{{ item.type }}</td>
+            <td class="col-2" id="match-type-{{ loop.index }}">{{ item.mode }}</td>
+            <td class="col-6" id="content-{{ loop.index }}">{{ item.text }}</td>
+            <td class="col-1">
+                <button class="btn btn-outline-danger" onclick="deleteWatch('{{ item._id }}')">Delete</button>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+</div>
+<script src="/static/js/common.js"></script>
+<script>
+function addAlert(data) {
+    console.log(data)
+    let container = document.getElementById("alert_container");
+
+    let alert = document.createElement("div");
+    let header = document.createElement("h4");
+    alert.appendChild(header);
+    alert.innerText = data["text"];
+    alert.classList.add("alert");
+    if (data["error"]) {
+        alert.classList.add("alert-danger");
+    } else {
+        alert.classList.add("alert-success");
+    }
+    alert.innerHTML += "&nbsp;";
+    container.appendChild(alert);
+
+    setTimeout(function () {
+        container.removeChild(alert);
+    }, 5000);
+}
+
+function onAddWatchResponse(data) {
+    if (data.hasOwnProperty("error")) {
+        if (data["error"]) {
+            addAlert(data);
+        } else {
+            location.reload();
+        }
+    }
+}
+
+function addWatch() {
+    let match_type = document.getElementById("watch_type");
+    let match_mode = document.getElementById("watch_mode");
+    let match_text = document.getElementById("watch_text");
+
+    let url = getBaseUrl() + "/api/watches/add";
+
+    let data = JSON.stringify({
+        "type": match_type.value,
+        "mode": match_mode.value,
+        "text": match_text.value
+    });
+
+    fetch(url, {method: "POST", body: data, headers:{"Content-Type": "application/json"}})
+        .then((rsp) => rsp.json()).then((data) => onAddWatchResponse(data));
+}
+
+function deleteWatch(id) {
+    let url = getBaseUrl() + "/api/watches/delete";
+    fetch(url, {method: "POST", body: JSON.stringify({"Id": id}), headers:{"Content-Type": "application/json"}})
+        .then((rsp) => rsp.json()).then((data) => addAlert(data));
+    let row = document.getElementById("row-" + id);
+    row.parentNode.removeChild(row);
+}
+</script>
+{% endblock %}

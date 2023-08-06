@@ -1,0 +1,34 @@
+{% macro result_table(results) %}
+    {% if not results or results|length == 0 %}
+    <div class="alert" role="alert">
+        <h4 class="alert-heading">No results</h4>
+        No data to build the table with.
+    </div>
+    {% else %}
+    <table class="table">
+        <thead>
+        <tr class="d-flex">
+            <th class="col-1">#</th>
+            <th class="col-4">Name</th>
+            <th class="col-1">Tags</th>
+            <th class="col-2">Total size</th>
+            <th class="col-1">Files</th>
+            <th class="col-2">First seen</th>
+            <th class="col-1">Actions</th>
+        </tr>
+        </thead>
+        {% for item in results %}
+            <tr class="d-flex" onclick="window.location = '/torrent/{{ item.InfoHash }}';">
+                <td class="col-1">{{ loop.index }}</td>
+                <td class="col-4" style="white-space:pre-wrap; word-wrap:break-word">{{ item.Name }}</td>
+                <td class="col-1">{% if item.Tags %}{% for tag in item.Tags %}{{ tag }} {% endfor %}{% endif %}</td>
+                <td class="col-2">{{ item.TotalSize }}</td>
+                <td class="col-1">{{ item.Files | length }}</td>
+                <td class="col-2">{{ item.DiscoveredOn }}</td>
+                <td class="col-1"><a href="magnet:?xt=urn:btih:{{ item.InfoHash }}&amp;dn={{ item.Name }}" type="button"
+                                     class="btn btn-outline-info">Open</a></td>
+            </tr>
+        {% endfor %}
+    </table>
+    {% endif %}
+{% endmacro %}

@@ -1,0 +1,19 @@
+{% extends "base.html" %}
+{% include "settings_sidebar.html" %}
+
+{% block body %}
+&nbsp;
+<div class="container with-sidebar">
+    {% block settings_sidebar %}{% endblock %}
+
+    <div class="content-wrapper">
+        <form action="/settings" method="post" class="form-inline">
+            <div class="form-group">
+                <label for="delete-database-button">Delete:</label>
+                <input class="btn btn-danger" type="submit" value="database">
+            </div>
+        </form>
+    </div>
+
+</div>
+{% endblock %}

@@ -1,0 +1,11 @@
+fastapi~=0.79.0
+pytelegrambotapi
+beanie~=1.11.6
+pydantic~=1.9.1
+motor~=3.0.0
+uvicorn~=0.18.2
+fastapi-users[beanie]
+hurry.filesize
+python-multipart
+pymongo~=4.1.1
+starlette~=0.19.1

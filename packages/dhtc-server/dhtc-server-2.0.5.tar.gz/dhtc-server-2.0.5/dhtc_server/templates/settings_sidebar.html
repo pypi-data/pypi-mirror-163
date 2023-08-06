@@ -1,0 +1,25 @@
+{% block settings_sidebar %}
+    <div class="sidebar">
+        <div class="sidebar-menu">
+            <a href="#" class="sidebar-brand">&nbsp;</a>
+
+            <div class="sidebar-content">
+                <h5>Settings</h5>
+            </div>
+
+            <h5 class="sidebar-title">Authentication</h5>
+            <div class="sidebar-divider"></div>
+            <a href="/settings/users" class="sidebar-link">Users</a>
+            <a href="/settings/clients" class="sidebar-link">Clients</a>
+
+            <br/>
+
+            <h5 class="sidebar-title">General</h5>
+            <div class="sidebar-divider"></div>
+            <a href="/settings/database" class="sidebar-link">Database</a>
+            <a href="/settings/indexing" class="sidebar-link">Indexing</a>
+            <a href="/settings/telegram" class="sidebar-link">Telegram</a>
+
+        </div>
+    </div>
+{% endblock %}

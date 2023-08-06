@@ -1,0 +1,40 @@
+Metadata-Version: 2.1
+Name: dhtc-server
+Version: 2.0.5
+Summary: distributed hash table crawler ui and api server
+Home-page: https://github.com/nbdy/dhtc-server
+Author: Pascal Eberlein
+Author-email: pascal@eberlein.io
+License: UNKNOWN
+Keywords: dhtc server
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dhtc-server
+
+[dhtc](https://github.com/nbdy/dhtc) ui part with api endpoints<br>
+use [dhtc-client](https://github.com/nbdy/dhtc-client) with this
+
+## usage
+
+```shell
+(venv) nbdy@c0:~$ python3 dhtc_server --help
+usage: [-h] [--host HOST] [--port PORT]
+
+options:
+  -h, --help            show this help message and exit
+  --host HOST           server address
+  --port PORT           server port
+```
+
+## [specification](dhtc_server.md)
+
+## video
+
+https://user-images.githubusercontent.com/12073272/184382122-2dee4c7c-2786-40eb-9b79-1383d36c97cf.mp4
+
+

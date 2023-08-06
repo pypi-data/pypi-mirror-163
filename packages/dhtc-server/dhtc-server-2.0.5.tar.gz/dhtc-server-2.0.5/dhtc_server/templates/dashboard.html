@@ -1,0 +1,72 @@
+{% extends "base.html" %}
+
+{% block body %}
+    <div class="container">
+        &nbsp;
+        <h2>Statistics</h2>
+        <h4>Collected info hashes: <span id="info_hash_count">{{ info_hash_count }}</span></h4>
+
+        <div class="custom-checkbox">
+            <input type="checkbox" id="metrics_live_update_checkbox" checked="checked">
+            <label for="metrics_live_update_checkbox">Live update</label>
+        </div>
+
+        <div class="row">
+            <div class="col-sm" id="minutely_metrics_container"></div>
+            <div class="col-sm" id="hourly_metrics_container"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm" id="daily_metrics_container"></div>
+            <div class="col-sm" id="weekly_metrics_container"></div>
+        </div>
+
+        <div class="row">
+            <div class="col-sm" id="category_metrics_container"></div>
+            <div class="col-sm" id=""></div>
+            <div class="col-sm" id=""></div>
+            <div class="col-sm" id=""></div>
+        </div>
+    </div>
+
+    <script src="/static/js/common.js"></script>
+    <script src="/static/js/livechart.js"></script>
+    <script>
+    window.onload = function () {
+        let liveUpdateCheckbox = document.getElementById("metrics_live_update_checkbox");
+        liveUpdateCheckbox.checked = true;
+
+        let minutelyChart = new LiveTorrentChart("minutely_metrics_container", "Last minute", 60, 60, "%-S", 1000);
+        let hourlyChart = new LiveTorrentChart("hourly_metrics_container", "Last hour", 3600, 60, "%-M", 60000);
+        let dailyChart = new LiveTorrentChart("daily_metrics_container", "Last 24h", 86400, 24, "%-H", 60000);
+        let weeklyChart = new LiveTorrentChart("weekly_metrics_container", "Last week", 604800, 7, "%A", 60000);
+        TorrentCategoryChart("category_metrics_container", "Categories");
+
+        let infoHashCount = document.getElementById("info_hash_count");
+        let infoHashInterval = setInterval(function() {
+            fetch(getTorrentCountUrl()).then((rsp) => rsp.json()).then((data) => infoHashCount.innerText = data["count"]);
+        }, 1000);
+
+        liveUpdateCheckbox.onchange = function () {
+            if(liveUpdateCheckbox.checked) {
+                minutelyChart.start();
+                hourlyChart.start();
+                dailyChart.start();
+                weeklyChart.start();
+
+                infoHashInterval = setInterval(function() {
+                    fetch(getTorrentCountUrl()).then((rsp) => rsp.json()).then((data) => infoHashCount.innerText = data["count"]);
+                }, 1000);
+            } else {
+                minutelyChart.stop();
+                hourlyChart.stop();
+                dailyChart.stop();
+                weeklyChart.stop();
+
+                clearInterval(infoHashInterval);
+            }
+        }
+    }
+    </script>
+
+{% endblock %}

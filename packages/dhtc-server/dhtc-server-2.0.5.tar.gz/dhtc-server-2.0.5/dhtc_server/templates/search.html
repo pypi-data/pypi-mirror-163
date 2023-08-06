@@ -1,0 +1,33 @@
+{% extends "base.html" %}
+{% from "result_table.html" import result_table %}
+
+{% block body %}
+    <div class="container">
+        &nbsp;
+
+        <div class="mw-full">
+            <form class="form-inline" action="/search" method="post">
+                <select class="form-control" aria-label="Key" name="type">
+                    <option value="title" selected>Title</option>
+                    <option value="filename">File name</option>
+                </select>
+
+                <select class="form-control" aria-label="MatchType" name="mode">
+                    <option value="contains" selected>contains</option>
+                    <option value="equals">equals</option>
+                </select>
+
+                <input type="text" class="form-control" placeholder="Input" name="text" value="{{ query }}">
+
+                <button class="btn btn-primary" type="submit">Search</button>
+            </form>
+ &nbsp;
+
+        </div>
+
+    <div style="word-break: break-all;">
+        {{ result_table(results) }}
+    </div>
+    </div>
+    &nbsp;&nbsp;
+{% endblock %}

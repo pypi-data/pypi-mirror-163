@@ -1,0 +1,10 @@
+{% extends "base.html" %}
+{% from "result_table.html" import result_table %}
+
+{% block body %}
+<div class="container">
+    &nbsp;
+    {{ result_table(results) }}
+</div>
+    &nbsp;&nbsp;
+{% endblock %}
