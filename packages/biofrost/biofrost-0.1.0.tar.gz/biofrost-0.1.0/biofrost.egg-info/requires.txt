@@ -1,0 +1,17 @@
+argparse>=1.2.1
+matplotlib>=3.5.1
+pandas>=1.1.5
+scikit-learn>=1.0.2
+pysam>=0.19.1
+
+[bert]
+bert-serving-server>=1.8.6
+bert-serving-client>=1.8.6
+pytorch-transformer
+flair
+
+[vision]
+opencv-python>=4.0.0
+imagehash>=4.0
+image
+peakutils

@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: biofrost
+Version: 0.1.0
+Summary: The magic bifrost bridge of bioinformatic
+Home-page: https://github.com/Kevinzjy/biofrost
+Author: Jinyang Zhang
+Author-email: zhangjinyang@biols.ac.cn
+Maintainer: Jinyang Zhang
+Maintainer-email: zhangjinyang@biols.ac.cn
+License: BSD-3
+Keywords: bioinformatics
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Intended Audience :: Developers
+Classifier: Operating System :: OS Independent
+Requires-Python: >3.7.0
+Description-Content-Type: text/markdown
+Provides-Extra: bert
+Provides-Extra: vision
+License-File: LICENSE
+
+# biofrost
+
+<img src="https://raw.githubusercontent.com/FortAwesome/Font-Awesome/6.x/svgs/solid/bridge.svg" width="50" height="50">
+
+The magic bifrost bridge of bioinformatic
+
