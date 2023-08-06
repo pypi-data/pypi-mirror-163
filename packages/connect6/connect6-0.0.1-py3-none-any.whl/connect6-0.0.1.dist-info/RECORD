@@ -1,0 +1,10 @@
+connect6/__init__.py,sha256=q-xz8ikXHRYV-IuHKh7k4AEp8wqQJ45V2IFg4Daiyj0,128
+connect6/__main__.py,sha256=T0V7lH7JEKSlOAEDlZrZ-5gaOOQejOlSQ_IjmypzkVc,85
+connect6/env.py,sha256=mBIui3XtRdqby92qIhkP3gAMVY1LV2S18tROTh4TT68,3776
+connect6/game.py,sha256=K55E523D50BmfhzMSUViVo0Ut3q85Lu3fJoMhDKJ-H4,6026
+connect6/version.py,sha256=p_cbjnOdzdkirDYJRmTSszSnabneP1gRIKJU5dD8tTg,19
+connect6-0.0.1.dist-info/LICENSE,sha256=ImdMZogU05ozXioY4bHOOyuf0zw5zJZhTVzsQC5f7Cg,1090
+connect6-0.0.1.dist-info/METADATA,sha256=MNjLt1n_8rBkBGVqacvJtVcVH7R2cBXT-Y1PYRpAOy0,704
+connect6-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+connect6-0.0.1.dist-info/top_level.txt,sha256=sUHCAdXfSbrfajqWVgktM9NPF5Rcarvf7Dl3HZBo_6E,9
+connect6-0.0.1.dist-info/RECORD,,
