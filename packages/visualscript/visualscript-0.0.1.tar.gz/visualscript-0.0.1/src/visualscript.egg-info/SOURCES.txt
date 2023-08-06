@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+src/visualscript/__init__.py
+src/visualscript/main.py
+src/visualscript.egg-info/PKG-INFO
+src/visualscript.egg-info/SOURCES.txt
+src/visualscript.egg-info/dependency_links.txt
+src/visualscript.egg-info/top_level.txt
+src/visualscript/editor/editor_window.py
