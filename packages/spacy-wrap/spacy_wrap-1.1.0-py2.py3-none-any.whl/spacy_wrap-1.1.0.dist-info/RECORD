@@ -1,0 +1,15 @@
+spacy_wrap/__init__.py,sha256=FDmw7It60iV8rxlq35SmpisTwaeOgGt_ycCsHx1OTEw,252
+spacy_wrap/about.py,sha256=vEHL-wNDBnBAVbiwyHgD_tnyxJIBeO_dBQnHkKpB2gc,185
+spacy_wrap/architectures.py,sha256=9spB_xpreUQ1G_D-w2ZUUavjskk5_kPgJYLUSW7VijU,2976
+spacy_wrap/pipeline_component.py,sha256=ZlA0yq4lCK4xW0jUS2oahPQ71z1Aw1D98UZTjqSs1uY,13315
+spacy_wrap/util.py,sha256=npkbsvDsRX-QrpywQ0IQB_8HtzbTdcua0ZWNJlkaMIc,2689
+spacy_wrap/layers/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacy_wrap/layers/clf_transformer_model.py,sha256=7_C14Th8wE5svxD3vII5EC4ny45ANc7sMYY-NQNss6g,5480
+spacy_wrap/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+spacy_wrap/tests/test_clf_transformer.py,sha256=wxznXfB37BsByDzfUMR93c_2zIEF27o3D0QzigtZJD8,1227
+spacy_wrap-1.1.0.dist-info/LICENSE,sha256=9_dOqC-aENfOK6Bd1-RgyMK7QqbMfZrnGrNWYbX3HJs,1073
+spacy_wrap-1.1.0.dist-info/METADATA,sha256=k10mKo9eDXvlYHFSQcs6KKcw-rbazuIqrpqkrVZ9jJo,8042
+spacy_wrap-1.1.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+spacy_wrap-1.1.0.dist-info/entry_points.txt,sha256=2rULFSOjhjmtHWFbgexD_QVSdpb4JI5FWVCQTVTt7xU,234
+spacy_wrap-1.1.0.dist-info/top_level.txt,sha256=UQ9KuOMaFBejqZkrCoKhRTf93h-V56Y_wGBcXbQeXGI,11
+spacy_wrap-1.1.0.dist-info/RECORD,,
