@@ -1,0 +1,81 @@
+LICENSE
+MANIFEST.in
+README.rst
+pyproject.toml
+setup.cfg
+setup.py
+src/gias3/__init__.py
+src/gias3.examples.egg-info/PKG-INFO
+src/gias3.examples.egg-info/SOURCES.txt
+src/gias3.examples.egg-info/dependency_links.txt
+src/gias3.examples.egg-info/namespace_packages.txt
+src/gias3.examples.egg-info/requires.txt
+src/gias3.examples.egg-info/top_level.txt
+src/gias3/examples/ASM_profile_matching.py
+src/gias3/examples/HRV.py
+src/gias3/examples/HRV_single_image_params_test.py
+src/gias3/examples/STL_nearest_distance.py
+src/gias3/examples/__init__.py
+src/gias3/examples/csgcup.py
+src/gias3/examples/hmf_inp_2_surf.py
+src/gias3/examples/hmf_mat_map_inp.py
+src/gias3/examples/inp_read_write.py
+src/gias3/examples/inp_sample_dicom.py
+src/gias3/examples/integral_image_cython.py
+src/gias3/examples/modelio.py
+src/gias3/examples/surface_to_surface_distance.py
+src/gias3/examples/tetgen_meshes.py
+src/gias3/examples/view_fieldwork_model_elements.py
+src/gias3/examples/view_fieldwork_model_elements_script.py
+src/gias3/examples/view_fieldwork_pca.py
+src/gias3/examples/vtk_read_write.py
+src/gias3/examples/data/2008_1741_tibia_fibula.wrl
+src/gias3/examples/data/BN00104_E14727_S01_mc1 4_001.wrl
+src/gias3/examples/data/autoCarpal1_outer.stl
+src/gias3/examples/data/hip_test_image.npy
+src/gias3/examples/data/manualCarpal1.stl
+src/gias3/examples/data/prox_femur.inp
+src/gias3/examples/data/prox_femur_out.inp
+src/gias3/examples/data/tibia_left.ens
+src/gias3/examples/data/tibia_left.geof
+src/gias3/examples/data/tibia_left.mesh
+src/gias3/examples/data/tibia_morphed.stl
+src/gias3/examples/data/tibia_surface.stl
+src/gias3/examples/data/tibia_volume.inp
+src/gias3/examples/data/tetgen_mesh/femur_interior.1.edge
+src/gias3/examples/data/tetgen_mesh/femur_interior.1.ele
+src/gias3/examples/data/tetgen_mesh/femur_interior.1.face
+src/gias3/examples/data/tetgen_mesh/femur_interior.1.node
+src/gias3/examples/data/tetgen_mesh/femur_interior.1.smesh
+src/gias3/examples/fieldwork/__init__.py
+src/gias3/examples/fieldwork/build_2d_mesh.py
+src/gias3/examples/fieldwork/fit_whole_pelvis.py
+src/gias3/examples/fieldwork/host_mesh_fit_data.py
+src/gias3/examples/fieldwork/host_mesh_fit_surface_data.py
+src/gias3/examples/fieldwork/normalsmoother.py
+src/gias3/examples/fieldwork/quartic_element_fitting.py
+src/gias3/examples/fieldwork/quartic_elements.py
+src/gias3/examples/fieldwork/remove_elements.py
+src/gias3/examples/fieldwork/data/BN00104_E14727_S01_mc1 4_001.wrl
+src/gias3/examples/fieldwork/data/BN00105_E15006_S01_mc1 8_001.wrl
+src/gias3/examples/fieldwork/data/BN00105_E15006_S01_tpm 7_001.wrl
+src/gias3/examples/fieldwork/data/BN00105_E15006_S01_tpm 7_001_deci.1.node
+src/gias3/examples/fieldwork/data/BN00105_E15006_S01_tpm 7_001_deci.stl
+src/gias3/examples/fieldwork/data/BN00105_E15006_S01_tpm 7_001_deci.xyz
+src/gias3/examples/fieldwork/data/test_mesh_1.0.ens
+src/gias3/examples/fieldwork/data/test_mesh_1.0.geof
+src/gias3/examples/fieldwork/data/test_mesh_1.0.mesh
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/2007_5028_short_closedsacrum.wrl
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/LH_params.py
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/RH_params.py
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/left_hemi_cubic.ens
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/left_hemi_cubic.geof
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/left_hemi_cubic.mesh
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/right_hemi_cubic.ens
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/right_hemi_cubic.geof
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/right_hemi_cubic.mesh
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/sac_params.py
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/sacrum_cubic.ens
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/sacrum_cubic.geof
+src/gias3/examples/fieldwork/fit_whole_pelvis_data/sacrum_cubic.mesh
+src/gias3/examples/outputs/readme.md

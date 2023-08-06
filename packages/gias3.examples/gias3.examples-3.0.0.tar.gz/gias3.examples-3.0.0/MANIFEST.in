@@ -1,0 +1,5 @@
+include src/gias3/examples/data/*
+include src/gias3/examples/outputs/*.md
+include src/gias3/examples/data/tetgen_mesh/*
+include src/gias3/examples/fieldwork/data/*
+include src/gias3/examples/fieldwork/fit_whole_pelvis_data/*
