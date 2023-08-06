@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: jw_plyflatten
+Version: 0.0.1
+Summary: Take a series of ply files and produce a digital elevation map
+Home-page: https://github.com/JaeWangL/plyflatten
+Download-URL: https://pypi.org/project/jw-plyflatten
+Author: JaeWang Lee
+Author-email: JaeWangL <jnso5072@outlook.kr>
+Project-URL: Bug Tracker, https://github.com/JaeWangL/plyflatten/issues
+Project-URL: Source Code, https://github.com/JaeWangL/plyflatten
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+Provides-Extra: dev
+Provides-Extra: test
+License-File: LICENSE
+
+# jw_plyflatten
