@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "test_anton"
+version = "1.5.0"
+description = "it is mini desc"
+readme = "README.md"
+authors = ["Skazko Anton <sk.anton06@gmail.com>"]
+license = "@copiripe anton skazko liciense"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
