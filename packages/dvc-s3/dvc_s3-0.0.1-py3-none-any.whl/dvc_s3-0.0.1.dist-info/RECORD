@@ -1,0 +1,13 @@
+dvc_s3/__init__.py,sha256=4zlm94HM2m2hV7UqksS6YdYSBtz5aFEI54YysoawwBg,6421
+dvc_s3/_dvc_s3_version.py,sha256=LMm5XNCiIX0-d8PhBu6GowizEsy50WYpNYJ8Jet6s64,176
+dvc_s3/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dvc_s3/tests/cloud.py,sha256=Df0WBZmBm5d7wZKyyX7dvljt5FBK5TykrJyq6x4E6kM,2186
+dvc_s3/tests/conftest.py,sha256=UNhnW-wCMbleRbl2FIyk9oVuZiuhkOlbUsnL9XLf_yo,170
+dvc_s3/tests/docker-compose.yml,sha256=_xVpPqcQSZAE0lbpDgpQ_rOQ_wa-9kyWlpXsu-4CYUI,96
+dvc_s3/tests/fixtures.py,sha256=AbmXtbuDlbk4S-DqeqKu7vmoiK208dWwBovJ1BnWanc,1919
+dvc_s3/tests/test_dvc.py,sha256=pe__RF47LmznIHWCeLqS7b3njoff6tJd0IrV0Sps2Ns,1103
+dvc_s3-0.0.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+dvc_s3-0.0.1.dist-info/METADATA,sha256=ni956q959OWZdq4s3y-BtHve5IHTdjTb-0sN8r5L39U,2106
+dvc_s3-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+dvc_s3-0.0.1.dist-info/top_level.txt,sha256=wmhe5BYuFIFaeqSv_6-C_9PKFpDQruZUVFaixEWky2o,7
+dvc_s3-0.0.1.dist-info/RECORD,,
