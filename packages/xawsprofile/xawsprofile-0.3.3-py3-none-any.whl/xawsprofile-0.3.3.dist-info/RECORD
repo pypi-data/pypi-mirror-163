@@ -1,0 +1,9 @@
+xawsprofile/__init__.py,sha256=dVjV7o6A3hTUCvA14wqWKOUu2ujYwVkmL-dG5-NI7TM,77
+xawsprofile/__main__.py,sha256=GPgKkodtw3yjylDjA_zVe_aQ0M_zhR7Z2aeguiin6ys,27
+xawsprofile/aws.py,sha256=S4EGtBKYAsVlCprYy54PzPp0-7N2-lgPwUE2YVNi0Uo,7632
+xawsprofile/cli.py,sha256=cs7hjE_97Qw7vLMBUGxHp7kHgnhO-s0vKrWUcwAted4,5585
+xawsprofile-0.3.3.dist-info/entry_points.txt,sha256=gGPpiKMntTD0rpbGWjKjeQuUsgWi8MwRpb519wZFVNo,51
+xawsprofile-0.3.3.dist-info/LICENSE,sha256=ca4iaZDAyFJ763f2QbnK7otN73XVsakJZQtlZVhowdE,1097
+xawsprofile-0.3.3.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+xawsprofile-0.3.3.dist-info/METADATA,sha256=pU4nIyo1-qPDR1pF_TWAJ59la4FSgGQlATxZhM-tyg4,4612
+xawsprofile-0.3.3.dist-info/RECORD,,
