@@ -1,0 +1,21 @@
+[tool.poetry]
+name = "fsdev"
+version = "0.1.1"
+description = "A super simple filesystem dev server"
+authors = ["Tristan Slater <hello@trslater.ca>"]
+license = "MIT"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+Jinja2 = "^3.0.3"
+
+[tool.poetry.dev-dependencies]
+pdoc = "^9.0.0"
+
+[tool.poetry.scripts]
+fsdev = "fsdev.cli:run"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
