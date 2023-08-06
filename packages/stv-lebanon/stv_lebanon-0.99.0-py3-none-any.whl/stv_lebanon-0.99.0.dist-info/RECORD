@@ -1,0 +1,14 @@
+stv_lebanon/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stv_lebanon/cli_interface.py,sha256=Jvo6vqaaUod4Uw7aymHp5JDax7mruzEkasR1i3-14rA,7001
+stv_lebanon/lambda_function.py,sha256=RgrWUgnfIjfu-Sh_Ot_0HEaA7CYCeyj0lPZGOE0cgds,3548
+stv_lebanon/samples/Candidates.csv,sha256=OmYicnNhDBURKmHfY2_Lsj9aoM4gKC2VZ_AWs_v4FYE,410
+stv_lebanon/samples/Groups.csv,sha256=IlWzJUecqcw6maCM3hUzgwyJTb8C0-5AFci8ziE8pZ8,28
+stv_lebanon/samples/Votes.csv,sha256=xH4R2Hy6sDhzGKY91dd_2RQk5dZ-pA5lXe3lfRQywEs,753
+stv_lebanon/samples/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+stv_lebanon/stv.py,sha256=ty1iVvdm6TZ21KSxqnMwMy1DndHvDp4t9XMPtmMrrok,14431
+stv_lebanon/stv_progress.py,sha256=WvOv7mvVb3f3csx8OVv1KQrqWZ2Da2xPyRcLgEr8dFU,4151
+stv_lebanon-0.99.0.dist-info/entry_points.txt,sha256=XWRfQkP9o_bLrm9YZz_CuCRhE4zftFpUEcP_2j4Y_OM,61
+stv_lebanon-0.99.0.dist-info/LICENSE,sha256=ixuiBLtpoK3iv89l7ylKkg9rs2GzF9ukPH7ynZYzK5s,35148
+stv_lebanon-0.99.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+stv_lebanon-0.99.0.dist-info/METADATA,sha256=rm0O0jcJFI05ivKiaNF4v7EqHeCvpEyIkGFSbHvQeqk,522
+stv_lebanon-0.99.0.dist-info/RECORD,,
