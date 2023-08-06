@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: JCryptor
+Version: 0.1.70
+Summary: JCryptor: The Encryptor and Decryptor Module
+Home-page: https://github.com/ScripNewbie/JCryptor
+Author: CodeBoard
+Author-email: jdmaster888@gmail.com
+License: UNKNOWN
+Keywords: encrypt,decrypt,jcryptor
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENCE
+
+# JCryptor
+
+* `JCryptor` is used to `Encrypt` and `Decrypt`.
+* `JCryptor` latest version [0.1.70](https://github.com/ScripNewbie/JCryptor/tree/main)
+
+
+# How to Use?
+
+## Encrypting:
+### Code
+```python
+from jcryptor import JCryptor
+
+cryptor = JCryptor()
+
+encrypt = cryptor.encrypt_text(original_text, print_it=True)
+```
+### Result
+```python
+>> <[\\o Vo|\@
+```
+
+## Decrypting:
+### Code
+```python
+from jcryptor import JCryptor
+
+cryptor = JCryptor()
+original_text = "Hello World"
+encrypt = cryptor.encrypt_text(original_text)
+decrypt = cryptor.decrypt_text(encrypt, print_it=True)
+```
+### Result
+```
+>> Hello World
+```
+ 
+# How to install?
+ 
+**On Windows:**
+```
+$ pip install JCryptor
+$ pip install jcryptor==0.1.50
+```
+
+
