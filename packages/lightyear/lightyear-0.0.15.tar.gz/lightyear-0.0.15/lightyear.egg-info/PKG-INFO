@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: lightyear
+Version: 0.0.15
+Summary: lightyear
+Home-page: https://github.com/alvations/lightyear
+Author: 
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
