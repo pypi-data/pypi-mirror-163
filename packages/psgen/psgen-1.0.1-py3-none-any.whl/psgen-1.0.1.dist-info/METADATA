@@ -1,0 +1,76 @@
+Metadata-Version: 2.1
+Name: psgen
+Version: 1.0.1
+Summary: Random Password Generator
+Home-page: https://github.com/Nneji123/psgen
+Author: Ifeanyi Nneji
+Author-email: ifeanyinneji@gmail.com
+License: MIT
+Project-URL: Funding, https://github.com/sponsors/Nneji123
+Project-URL: Source, https://nneji123.github.io/psgen/
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Software Development :: Code Generators
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# psgen
+[![Pypi](https://img.shields.io/pypi/v/psgen.svg)](https://pypi.org/project/psgen/1.0.0/)
+[![tests](https://github.com/Nneji123/psgen/actions/workflows/test.yml/badge.svg)](https://github.com/Nneji123/psgen/actions/workflows/test.yml)
+[![docs](https://github.com/Nneji123/psgen/actions/workflows/publish-docs.yml/badge.svg)](https://github.com/Nneji123/psgen/actions/workflows/publish-docs.yml)
+[![MIT licensed](https://img.shields.io/badge/license-MIT-green.svg)](https://raw.githubusercontent.com/Nneji123/psgen/dev/LICENSE)
+
+## Description
+
+Random password generator made with python.
+
+## Installation & usage
+
+```bash
+$> pip3 install psgen
+
+$> psgen
+52db9s%NhA1C
+```
+
+## Install from source
+```
+git clone https://github.com/Nneji123/psgen.git
+cd psgen
+pip install -e .
+```
+
+## Use within another Python script
+
+```python
+>>> from src.psgen import generate_password
+
+>>> generate_password(12) # this will print out a 12 character password
+'52db9s%NhA1C'
+```
+
+## Advanced options
+
+```
+$ psgen -h
+usage: psgen [-h] [--number NUMBER]
+
+Generate a random password with numbers, symbols and letters.
+
+optional arguments:
+  -h, --help       show this help message and exit
+  --number NUMBER  Write the length of the password you want to generate.The default value is 12. Example psgen --number 12
+
+Happy password creating! :)
+```
