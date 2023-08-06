@@ -1,0 +1,80 @@
+Metadata-Version: 2.1
+Name: pydmo
+Version: 0.0.0
+Summary: Pydmo: Build a database pydantic schema from its collection of data tables
+Home-page: https://gitlab.com/strayMat/pydmo
+License: EUPL-v1.2
+Keywords: pydantic,data schema
+Author: Matthieu Doutreligne
+Author-email: matt.dout@gmail.com
+Requires-Python: >=3.8,<4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: Other/Proprietary License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Provides-Extra: docs
+Requires-Dist: click (>=8.0.4,<9.0.0)
+Requires-Dist: datamodel-code-generator (>=0.13.1,<0.14.0)
+Requires-Dist: importlib-metadata (>=4.11.3,<5.0.0); extra == "docs"
+Requires-Dist: jinja2 (<3.1); extra == "docs"
+Requires-Dist: jupyter (>=1.0.0,<2.0.0)
+Requires-Dist: jupytext (>=1.13.7,<2.0.0)
+Requires-Dist: myst-parser (>=0.17.0,<0.18.0); extra == "docs"
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: pydata-sphinx-theme (>=0.8.0,<0.9.0); extra == "docs"
+Requires-Dist: pygments (>=2.11.2,<3.0.0); extra == "docs"
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Requires-Dist: sphinx (>=4.4.0,<5.0.0); extra == "docs"
+Requires-Dist: sphinx-autodoc-typehints (>=1.17.0,<2.0.0); extra == "docs"
+Requires-Dist: sphinx-click (>=3.1.0,<4.0.0); extra == "docs"
+Requires-Dist: sphinxcontrib-apidoc (>=0.3.0,<0.4.0); extra == "docs"
+Project-URL: Repository, https://gitlab.com/strayMat/pydmo
+Description-Content-Type: text/markdown
+
+# pydmo
+
+**Documentation**: [https://strayMat.gitlab.io/pydmo](https://strayMat.gitlab.io/pydmo)
+
+**Source Code**: [https://gitlab.com/strayMat/pydmo](https://gitlab.com/strayMat/pydmo)
+
+This projects implements the creation of [pydantic] data models from a collection of dataset (eg. pandas dataset). 
+
+
+## Motivation
+
+Having typed data models in python files is very useful for :
+
+- Code testing thanks to dummy data generation
+- Data validation
+- Documentation generation
+
+These usages are motivated by the blog post: [data templates with pydantic](https://ianwhitestone.work/data-templates-with-pydantic/)
+
+## Links with other projects
+
+The [Table-schema-translator](https://framagit.org/interhop/library/table-schema-translator/-/tree/master) takes yaml as input to generate scala data models for spark.  
+
+We use the [pydantic code generation package](https://koxudaxi.github.io/datamodel-code-generator/jsonschema/).
+
+The python API should be installed with pip as [recommanded in the documentation](https://koxudaxi.github.io/datamodel-code-generator/using_as_module/). 
+
+> 📝 **Note**
+> Use English for all content in this project
+
+Might be useful if we want to integrate some features existing only on table schema: [Pandas api for table schema](https://pandas.pydata.org/docs/reference/api/pandas.io.json.build_table_schema.html)
+---
+
+## Overview
+
+- TODO
+
+## Features
+
+- TODO
+
