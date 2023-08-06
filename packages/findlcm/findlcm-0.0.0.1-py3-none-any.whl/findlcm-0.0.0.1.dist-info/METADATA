@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: findlcm
+Version: 0.0.0.1
+Summary: A package that helps find Lowest common multiple of a number
+Home-page: https://github.com/santisantosh/lcmfinder
+Author: santi
+Author-email: santi.santosh@gmail.com
+License: MIT
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: pandas
+
+This is a simple program that helps you calculate the lowest common multiple of two numbers.
+
+
