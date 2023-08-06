@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: pybasic-illumination-correction
+Version: 0.1.0
+Summary: Python Implementation of the BaSiC shading correction algorithm
+Home-page: https://github.com/linum-uqam/PyBaSiC
+Author: Joël Lefebvre
+Author-email: lefebvre.joel@uqam.ca
+Requires-Python: >=3.10,<3.12
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Requires-Dist: opencv-python (>=4.6.0,<5.0.0)
+Requires-Dist: scipy (>=1.9.0,<2.0.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
+Project-URL: Repository, https://github.com/linum-uqam/PyBaSiC
