@@ -1,0 +1,32 @@
+mutation UpdateOrCreateLessonDocumentation($year:Int!, $week:Int!, $lessonPeriodId:ID, $topic:String, $homework:String, $groupNote:String) {
+  updateOrCreateLessonDocumentation(year:$year, week:$week, lessonPeriodId:$lessonPeriodId, topic:$topic, homework:$homework, groupNote:$groupNote) {
+    lessonDocumentation{
+      id
+      topic
+      homework
+      groupNote
+      date
+      personalNotes {
+        id
+        person {
+          id
+          fullName
+        }
+        late
+        absent
+        excused
+        excuseType {
+          id
+          name
+          shortName
+        }
+        remarks
+        extraMarks {
+          id
+          name
+          shortName
+        }
+      }
+    }
+  }
+}
