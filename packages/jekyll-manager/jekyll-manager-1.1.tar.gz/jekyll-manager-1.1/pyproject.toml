@@ -1,0 +1,10 @@
+[project]
+name = "jekyll-manager"
+version = "1.01"
+dependencies = [
+    "pyyaml",
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
