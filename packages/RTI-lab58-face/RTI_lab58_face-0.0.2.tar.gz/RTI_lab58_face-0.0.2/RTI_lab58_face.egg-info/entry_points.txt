@@ -1,0 +1,3 @@
+[console_scripts]
+RTI_lab58_face = RTI_lab58_face.main:cli
+
