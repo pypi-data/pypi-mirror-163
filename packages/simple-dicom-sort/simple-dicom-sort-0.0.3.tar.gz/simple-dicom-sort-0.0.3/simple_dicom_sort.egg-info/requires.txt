@@ -1,0 +1,6 @@
+pydicom
+progress
+pathvalidate
+
+[GUI]
+PySide2
