@@ -1,0 +1,28 @@
+[tool.poetry]
+name = "jwt_smithy"
+version = "1.1.0"
+description = "Simple cli tool for jwt keys generation"
+homepage = "https://github.com/KochankovID/jwt_smithy"
+repository = "https://github.com/KochankovID/jwt_smithy"
+authors = ["ilyakochankov <ilyakochankov@yandex.ru>"]
+license = "MIT"
+readme = "README.md"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[tool.poetry.scripts]
+smithy = 'jwt_smithy.__main__:app'
+
+[tool.poetry.dependencies]
+python = "^3.10"
+PyJWT = {extras = ["crypto"], version = "^2.4.0"}
+typer = {extras = ["all"], version = "^0.6.1"}
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
