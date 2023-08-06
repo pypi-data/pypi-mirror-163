@@ -1,0 +1,9 @@
+cindi/__init__.py,sha256=CHXw1eKX2pWG-RPjVXnxLlON1KV2Z6p0qZkgJuB_uts,172
+cindi/__init__.py~,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+cindi/cindi.py,sha256=_5imVk89Pc2qNOvVhBBxZeJ7hKBB8yBr2bQG6FlgHdo,65253
+cindi/cindi.py~,sha256=ZxTWCmxlTfI4UBDXX-xw2EJEsIsZEC2guMGrtahVskc,64920
+cindi/cindi_tests.py,sha256=mY6KQMEDTQuBTHx0PhByDs1IYK25ucOMi5nLNX5Xx7M,5567
+cindi-0.9.1.dist-info/METADATA,sha256=k3fvxXBdf4tTDs8bZXefz_mz7vZiYKH1-Fm5UPIGPxg,10813
+cindi-0.9.1.dist-info/WHEEL,sha256=mTpyHZdE4B2t1DYxhmMgnTxt0ZtBkjfoCIsV-xO8A7M,86
+cindi-0.9.1.dist-info/licenses/LICENSE,sha256=OHWp35prTjePOTXBiDEOyBp8LGXwDDCo_beig4D95hc,1580
+cindi-0.9.1.dist-info/RECORD,,
