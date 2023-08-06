@@ -1,0 +1,2 @@
+[console_scripts]
+kma-url-api = kma_url_api.scripts:kma_url_api

@@ -1,0 +1,13 @@
+aiohttp
+click
+click_loglevel
+clutter>=2022.8.2
+dask[diagnostics]
+netCDF4
+parse
+ray[default]
+requests
+s3fs
+tenacity
+xarray
+zarr
