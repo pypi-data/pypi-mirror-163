@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+marginmodel/__init__.py
+marginmodel/main.py
+marginmodel.egg-info/PKG-INFO
+marginmodel.egg-info/SOURCES.txt
+marginmodel.egg-info/dependency_links.txt
+marginmodel.egg-info/top_level.txt
