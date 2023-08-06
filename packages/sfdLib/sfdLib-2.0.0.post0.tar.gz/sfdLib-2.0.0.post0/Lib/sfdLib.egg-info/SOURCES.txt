@@ -1,0 +1,17 @@
+AUTHORS
+LICENSE
+LICENSE.orig
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+Lib/sfdLib/__init__.py
+Lib/sfdLib/__main__.py
+Lib/sfdLib/parser.py
+Lib/sfdLib/utils.py
+Lib/sfdLib.egg-info/PKG-INFO
+Lib/sfdLib.egg-info/SOURCES.txt
+Lib/sfdLib.egg-info/dependency_links.txt
+Lib/sfdLib.egg-info/entry_points.txt
+Lib/sfdLib.egg-info/requires.txt
+Lib/sfdLib.egg-info/top_level.txt
