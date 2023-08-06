@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: keepass-dropbox-sync
+Version: 0.0.2
+Summary: If like me you are using keepass with dropbox to use one DB across multiple devices, this tool is designed to get the conflict entries back to the main DB
+Home-page: UNKNOWN
+Author: regis longchamp
+Author-email: 
+License: UNKNOWN
+Description: 
+        ## Introduction
+        If like me you are using keepass with dropbox to use one DB across multiple devices, this tool is designed to get the conflict entries back to the main DB.
+        
+        When many users use keepass in the save time (or if one user forget to close it), conflict can arise and dropbox create a side db. This tool has been developed to merge the duplicate item to the main DB.
+        
+        ## Installation instructions 
+        - rename secrets_template.toml into secrets.toml and set your password
+        - define folder and main db paths into settings.toml
+        - Add external packages : ```pip install -r requirements.txt```
+        
+        ## Usage 
+        Just run main.py
+        
+Keywords: python
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
