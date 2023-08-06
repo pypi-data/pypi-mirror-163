@@ -1,0 +1,2 @@
+[console_scripts]
+snapbatch = snapbatch.cli:main
