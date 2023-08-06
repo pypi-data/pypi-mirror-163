@@ -1,0 +1,8 @@
+Metadata-Version: 2.1
+Name: pycolmap
+Version: 0.3.0
+Summary: COLMAP bindings
+Author: Mihai Dusmanu
+Author-email: mihai.dusmanu@inf.ethz.ch
+License-File: LICENSE
+
