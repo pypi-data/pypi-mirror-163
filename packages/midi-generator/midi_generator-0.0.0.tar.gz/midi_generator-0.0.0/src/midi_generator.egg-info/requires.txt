@@ -1,0 +1,5 @@
+midiutil
+simplecoremidi
+numpy
+matplotlib
+seaborn
