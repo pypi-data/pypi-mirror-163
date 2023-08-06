@@ -1,0 +1,57 @@
+# This workflow will upload a Python Package using Twine when a release is created
+# For more information see: https://help.github.com/en/actions/language-and-framework-guides/using-python-with-github-actions#publishing-to-package-registries
+
+# This workflow uses actions that are not certified by GitHub.
+# They are provided by a third-party and are governed by
+# separate terms of service, privacy policy, and support
+# documentation.
+
+name: Upload Python Package
+
+on:
+  release:
+    types: [published]
+
+permissions:
+  contents: read
+
+jobs:
+  release-package:
+    name: Build and publish package to pypi.org
+    runs-on: ubuntu-20.04
+    steps:
+    - uses: actions/checkout@v2
+      with:
+        fetch-depth: 1
+
+    - uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+
+    - run: pip install hatch
+
+    - name: Build package
+      run: make build-package 
+
+    - name: Publish package
+      run: make publish-package
+      env:
+        PYPI_USERNAME: ${{ secrets.PYPI_USERNAME }}
+        PYPI_PASSWORD: ${{ secrets.PYPI_API_TOKEN }}
+
+
+  pypi-check:
+    needs: release-package
+    name: Test package to pypi.org
+    runs-on: ubuntu-20.04
+
+    steps:
+    - uses: actions/setup-python@v1
+      with:
+        python-version: 3.8
+
+    - name: Install package
+      run: |
+          python -m pip install --upgrade pip
+          pip install ocrpy
+          python -c "import ocrpy; print(ocrpy.__version__)"
