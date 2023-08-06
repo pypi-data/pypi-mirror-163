@@ -1,0 +1,8 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+src/crystallize.egg-info/PKG-INFO
+src/crystallize.egg-info/SOURCES.txt
+src/crystallize.egg-info/dependency_links.txt
+src/crystallize.egg-info/top_level.txt
