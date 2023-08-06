@@ -1,0 +1,13 @@
+Metadata-Version: 2.0
+Name: stored-variable
+Version: 0.1
+Summary: It creates stored variable
+Home-page: UNKNOWN
+Author: Saksham Jain
+Author-email: UNKNOWN
+License: UNKNOWN
+Platform: UNKNOWN
+
+This is a package that stores value for you in computer memory permanently
+
+
