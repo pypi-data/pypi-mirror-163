@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: www-robot
+Version: 1.0.2
+Summary: A WWW Robot library for Python
+Home-page: https://github.com/Camroku/www-robot
+Author: Cinar Yilmaz
+Author-email: cinaryilmaz.gnu@gmail.com
+License: MIT
+Keywords: www,robot,python,scraping
+Platform: UNKNOWN
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# www_robot
+A WWW Robot library, made for Python.
+
+## Installation
+```sh
+pip install www_robot
+```
+
+## Usage
+```python
+import www_robot
+```
+
+## Contributing
+Please feel free to fork and contribute!
+
+## License
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+

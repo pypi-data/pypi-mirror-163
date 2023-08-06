@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+www_robot/__init__.py
+www_robot.egg-info/PKG-INFO
+www_robot.egg-info/SOURCES.txt
+www_robot.egg-info/dependency_links.txt
+www_robot.egg-info/requires.txt
+www_robot.egg-info/top_level.txt
