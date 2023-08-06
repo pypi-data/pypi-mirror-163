@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/afterbasics.egg-info/PKG-INFO
+src/afterbasics.egg-info/SOURCES.txt
+src/afterbasics.egg-info/dependency_links.txt
+src/afterbasics.egg-info/requires.txt
+src/afterbasics.egg-info/top_level.txt
