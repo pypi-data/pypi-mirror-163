@@ -1,0 +1,13 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+inventree_zapier/__init__.py
+inventree_zapier/models.py
+inventree_zapier/version.py
+inventree_zapier/zapier_plugin.py
+inventree_zapier.egg-info/PKG-INFO
+inventree_zapier.egg-info/SOURCES.txt
+inventree_zapier.egg-info/dependency_links.txt
+inventree_zapier.egg-info/entry_points.txt
+inventree_zapier.egg-info/top_level.txt
