@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: usvisa4uk
+Version: 0.0.1
+Summary: US Visa Slot Alert in the UK (London, Belfast)
+Home-page: https://github.com/qwweerdf/Visa-Slot-Checker
+Author: PiggyZ
+Author-email: 1563470117@qq.com
+Project-URL: Bug Tracker, https://github.com/qwweerdf/Visa-Slot-Checker
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests (~=2.27.1)
+Requires-Dist: playsound (~=1.3.0)
+Requires-Dist: beautifulsoup4 (~=4.11.1)
+Requires-Dist: lxml (~=4.9.0)
+
+US Visa Slot Alert in the UK (London, Belfast)
