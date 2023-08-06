@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: little-t
+Version: 0.0.6
+Summary: Package to make nlp model off twitter user data
+Home-page: UNKNOWN
+Author: Alex McCune
+Author-email: alexmccune1224@gmail.com
+License: UNKNOWN
+Keywords: python
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Package to make nlp model off twitter user data with Markov Chains
+
