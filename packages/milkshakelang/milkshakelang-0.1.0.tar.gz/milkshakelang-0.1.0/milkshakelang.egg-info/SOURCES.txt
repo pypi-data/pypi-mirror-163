@@ -1,0 +1,12 @@
+README.md
+setup.py
+milkshakelang/__init__.py
+milkshakelang/__main__.py
+milkshakelang/interpreter.py
+milkshakelang/milkshake.py
+milkshakelang/utils.py
+milkshakelang.egg-info/PKG-INFO
+milkshakelang.egg-info/SOURCES.txt
+milkshakelang.egg-info/dependency_links.txt
+milkshakelang.egg-info/entry_points.txt
+milkshakelang.egg-info/top_level.txt
