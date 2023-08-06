@@ -1,0 +1,10 @@
+LICENCE
+README.md
+pyproject.toml
+setup.cfg
+bangla_character/__init__.py
+bangla_character/bangla.py
+bangla_character.egg-info/PKG-INFO
+bangla_character.egg-info/SOURCES.txt
+bangla_character.egg-info/dependency_links.txt
+bangla_character.egg-info/top_level.txt
