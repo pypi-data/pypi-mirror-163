@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+trenalyze__python/__init__.py
+trenalyze_python.egg-info/PKG-INFO
+trenalyze_python.egg-info/SOURCES.txt
+trenalyze_python.egg-info/dependency_links.txt
+trenalyze_python.egg-info/requires.txt
+trenalyze_python.egg-info/top_level.txt
