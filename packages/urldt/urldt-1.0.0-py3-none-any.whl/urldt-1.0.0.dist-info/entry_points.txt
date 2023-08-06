@@ -1,0 +1,2 @@
+[console_scripts]
+urldt = urldt.__main__:main

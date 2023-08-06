@@ -1,0 +1,78 @@
+Metadata-Version: 2.1
+Name: urldt
+Version: 1.0.0
+Summary: Detect if url is available.
+Author-email: Yingjie Shang <me@shangcode.cn>
+License: MIT License        
+        Copyright (c) [2022] [Yingjie Shang]        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/shangcode/urldt
+Keywords: cyber security,network,url,detect,available
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: certifi (>=2022.6.15)
+Requires-Dist: charset-normalizer (>=2.1.0)
+Requires-Dist: idna (>=3.3)
+Requires-Dist: requests (>=2.28.1)
+Requires-Dist: toml (>=0.10.2)
+Requires-Dist: urllib3 (>=1.26.11)
+Provides-Extra: dev
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: pycodestyle ; extra == 'dev'
+Requires-Dist: pip-tools ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+
+# URLdt
+URLdt is a tool used to detect the amount of URL if it is available.
+
+
+## Installation
+You can install urldt by:
+`pip install urldt`
+*(please use the latest pip to install)*
+
+## Usage
+
+
+### Required
+
+The targets that you want to check should be put in a CSV file,
+the CSV header should at least contain *url* and *title*.
+
+For example:
+
+```csv
+url,title
+http://shangcode.cn, blog of shangcode
+http://dokebi.cn, blog of a cool guy
+```
+
+### Running
+
+1. check if targets are available
+    `urldt -f my_targets.csv` or `urldt --file my_targets.csv`
+
+    The result will be output to the terminal in real-time.
+
+2. output result to file
+    `urldt -f my_targets.csv -o result.csv` or `urldt --file my_targets.csv --output result.csv`
+
+    Save the available URL information into a CSV file.
