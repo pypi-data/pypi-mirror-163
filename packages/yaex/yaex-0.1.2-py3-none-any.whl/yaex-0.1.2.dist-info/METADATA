@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: yaex
+Version: 0.1.2
+Summary: 
+Home-page: https://github.com/emersonmx/yaex
+License: MIT
+Author: Emerson Max de Medeiros Silva
+Author-email: emersonmx@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Project-URL: Repository, https://github.com/emersonmx/yaex
+Description-Content-Type: text/markdown
+
+# Yet Another EX command library
+
+This is a library based on the ex command. So, it works the same way :)
+
+## Usage
+
+```python
+from yaex import *
+
+result = yaex(
+    append("Hello"),
+    append("World"),
+)
+print(result)
+# >Hello
+# >World
+# >
+
+result = yaex(
+    append("first line"),
+    append("second line"),
+    append("third line"),
+    go_to(2),
+    delete(),
+)
+print(result)
+# >first line
+# >third line
+# >
+
+result = yaex(
+    append("# yaex\n\nThis is a library based on the ex command.\n"),
+    go_to_first_line(),
+    delete(),
+    insert("# Yet Another EX command library"),
+)
+print(result)
+# ># Yet Another EX command library
+# >
+# >This is a library based on the ex command.
+# >
+```
+
