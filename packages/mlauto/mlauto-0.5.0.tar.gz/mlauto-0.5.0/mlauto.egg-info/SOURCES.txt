@@ -1,0 +1,8 @@
+setup.py
+mlauto/__init__.py
+mlauto/mlauto.py
+mlauto.egg-info/PKG-INFO
+mlauto.egg-info/SOURCES.txt
+mlauto.egg-info/dependency_links.txt
+mlauto.egg-info/requires.txt
+mlauto.egg-info/top_level.txt
