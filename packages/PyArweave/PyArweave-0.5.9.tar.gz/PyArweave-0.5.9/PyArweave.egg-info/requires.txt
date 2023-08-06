@@ -1,0 +1,5 @@
+arrow
+erlang_py
+pycryptodome
+python-jose
+requests
