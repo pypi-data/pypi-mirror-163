@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: strawberry-django-dataloaders
+Version: 0.1.0
+Summary: 
+Author: vojtech
+Author-email: petru.vojtech@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Django (>=3.2)
+Requires-Dist: strawberry-graphql-django (>=0.4,<0.5)
