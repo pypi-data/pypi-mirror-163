@@ -1,0 +1,12 @@
+LICENCE
+README.md
+pyproject.toml
+setup.py
+sharefiles/__init__.py
+sharefiles/__main__.py
+sharefiles/command_line.py
+sharefiles.egg-info/PKG-INFO
+sharefiles.egg-info/SOURCES.txt
+sharefiles.egg-info/dependency_links.txt
+sharefiles.egg-info/entry_points.txt
+sharefiles.egg-info/top_level.txt
