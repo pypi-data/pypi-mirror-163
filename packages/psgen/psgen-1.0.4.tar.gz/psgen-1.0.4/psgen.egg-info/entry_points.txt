@@ -1,0 +1,2 @@
+[console_scripts]
+psgen = psgen.psgen:main
