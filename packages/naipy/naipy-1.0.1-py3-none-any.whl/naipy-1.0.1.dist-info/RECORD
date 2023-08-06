@@ -1,0 +1,9 @@
+naipy/async_client.py,sha256=eSqAxB7H-eeEFxCYZV93IKW_U2iPuvQuRNpTDqUzrm4,5435
+naipy/client.py,sha256=wouZvX8oBv95iC6_VUS93v0JBlSueRj1a4YPc4euopE,5300
+naipy/error.py,sha256=f3usforYTXN0O0k3bMCLhe6TaYf0zU37hOVt6ph8tM0,36
+naipy/http.py,sha256=M2zCmhkFnPoHRV9PPCz9dZM1KA3M5uIhP0-m8ziBsXQ,4017
+naipy/model.py,sha256=JFA44arAsCvfuScmau5bHiosOkD7vMj22Dpj7EmW_k4,11920
+naipy-1.0.1.dist-info/METADATA,sha256=JV8UOERWWqkauthWK9tOs4oVabcn5tA0o1kz3DuGqns,272
+naipy-1.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+naipy-1.0.1.dist-info/top_level.txt,sha256=N_ZWsw7NLhhN49t1JC_nxpET_j5ykTdReisc2h58jrs,13
+naipy-1.0.1.dist-info/RECORD,,
