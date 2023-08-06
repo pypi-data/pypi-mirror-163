@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: password_reset_token
+Version: 0.0.1
+Summary: Simple and easy to use Python 3 module to generate password reset tokens, based on JWT.
+Author: Valtteri Remes
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
