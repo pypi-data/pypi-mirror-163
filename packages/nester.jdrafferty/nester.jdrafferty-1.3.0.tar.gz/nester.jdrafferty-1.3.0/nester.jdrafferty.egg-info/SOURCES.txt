@@ -1,0 +1,6 @@
+nester.py
+setup.py
+nester.jdrafferty.egg-info/PKG-INFO
+nester.jdrafferty.egg-info/SOURCES.txt
+nester.jdrafferty.egg-info/dependency_links.txt
+nester.jdrafferty.egg-info/top_level.txt
