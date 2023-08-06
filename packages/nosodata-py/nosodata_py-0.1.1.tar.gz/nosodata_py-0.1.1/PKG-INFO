@@ -1,0 +1,74 @@
+Metadata-Version: 2.1
+Name: nosodata_py
+Version: 0.1.1
+Summary: Set of classes to read the data from Noso files
+Home-page: https://github.com/Friends-Of-Noso/NosoData-Py
+Author: Gustavo 'Gus' Carreno
+Author-email: guscarreno@gmail.com
+License: MIT
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# NosoP-Py
+
+Set of classes to read the data from Noso files.
+
+Currently we have:
+
+- NosoBlock: The block file
+- NosoFileStream: A small class to mimic the Stream funtionality of other langauges
+
+## Instruction for use
+
+### Noso Block
+
+```py
+from nosodata_py.block import NosoBlock
+
+block_filename = 'path/to/NOSODATA/BLOCKS/48028.blk'
+
+block = NosoBlock()
+block.load_from_file(block_filename)
+
+print('Block #:', block.number)
+print('Time Start:', block.time_start)
+print('Time End:', block.time_end)
+print('Time Total:', block.time_total)
+print('Time Last 20:', block.time_last_20)
+print('Difficulty:', block.time_last_20)
+print('Target Hash:', block.target_hash)
+print('Solution:', block.solution)
+print('Last Block Hash:', block.last_block_hash)
+print('Next Block Diff:', block.next_block_diff)
+print('Miner:', block.miner)
+print('Fee:', block.fee)
+print('Reward:', block.reward)
+
+if len(block.orders) > 0:
+    print('    Orders:')
+    for order in block.orders:
+        print('------------------------------------')
+        print('        Block #:', order.block)
+        print('        Order ID:', order.order_id)
+        print('        Transder ID:', order.transfer_id)
+        print('        Type:', order.order_type)
+        print('        Timestamp:', order.timestamp)
+        print('        Reference:', order.reference)
+        print('        Sender:', order.sender)
+        print('        Address:', order.address)
+        print('        Receiver:', order.receiver)
+        print('        Fee:', order.fee)
+        print('        Amount:', order.amount)
+        print('        Signature:', order.signature)
+
+if len(block.pos_list) > 0:
+    print('    PoS:')
+    for address in block.pos_list:
+        print('        Address:', address)
+
+if len(block.mns_list) > 0:
+    print('    MNs:')
+    for address in block.mns_list:
+        print('        Address:', address)
+```
+
