@@ -1,0 +1,146 @@
+Metadata-Version: 2.1
+Name: virtue-skill
+Version: 0.3.2
+Summary: Cadence Virtuoso SKILL library
+Keywords: circuit design,design automation,Cadence,virtuoso,SKILL,Python
+Author-email: Curtis Mayberry <Curtisma3@gmail.com>
+Maintainer-email: Curtis Mayberry <Curtisma3@gmail.com>
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+Classifier: Topic :: Scientific/Engineering :: Electronic Design Automation (EDA)
+Classifier: Topic :: Scientific/Engineering
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Other Scripting Engines
+Classifier: Programming Language :: Other
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Software Development :: Testing
+Classifier: Topic :: Software Development :: Testing :: Unit
+Requires-Dist: typer >= 0.6.1, < 1.0.0
+Requires-Dist: rich >= 12.5.1, < 13.0.0
+Requires-Dist: pluggy >= 1.0.0, < 2.0.0
+Requires-Dist: pre-commit == 2.20.0 ; extra == "dev"
+Requires-Dist: sphinx == 4.5.0 ; extra == "doc"
+Requires-Dist: pydata-sphinx-theme == 0.9.0 ; extra == "doc"
+Requires-Dist: sphinx-panels == 0.6.0 ; extra == "doc"
+Requires-Dist: sphinx_copybutton == 0.5.0 ; extra == "doc"
+Requires-Dist: sphinx-autobuild == 2021.3.14 ; extra == "doc"
+Requires-Dist: sphinx-github-changelog == 1.2.0 ; extra == "doc"
+Requires-Dist: sphinx-sitemap == 2.2.0 ; extra == "doc"
+Requires-Dist: sphinx-click == 4.3.0 ; extra == "doc"
+Requires-Dist: softworks ; extra == "optional"
+Requires-Dist: skillbridge ; extra == "optional"
+Requires-Dist: pytest >=7.1.2 ; extra == "test"
+Requires-Dist: pylint >= 2.14.4 ; extra == "test"
+Requires-Dist: mypy >= 0.961 ; extra == "test"
+Project-URL: Documentation, http://www.cascode-labs.org/virtue/
+Project-URL: Home, http://www.cascode-labs.org/virtue/
+Project-URL: Source, https://github.com/cascode-labs/virtue
+Provides-Extra: dev
+Provides-Extra: doc
+Provides-Extra: optional
+Provides-Extra: test
+
+![Virtue](docs/source/_static/logo/virtue_banner_with_tagline.png "Virtue")
+
+[![GitHub release (latest by date including pre-releases)](https://img.shields.io/github/v/release/cascode-labs/virtue?include_prereleases)](https://github.com/cascode-labs/virtue/releases/latest)
+[![Conda](https://img.shields.io/conda/v/conda-forge/virtue?label=conda-forge)](https://anaconda.org/conda-forge/virtue)
+[![PyPI](https://img.shields.io/pypi/v/virtue-skill)](https://pypi.org/project/virtue-skill/)
+[![GitHub issues](https://img.shields.io/github/issues/cascode-labs/virtue)](https://github.com/cascode-labs/virtue/issues)
+[![PyPI - License](https://img.shields.io/pypi/l/virtue-skill)](https://choosealicense.com/licenses/mit/)
+
+A SKILL and Python Framework for automating IC design in
+[Cadence Virtuoso](https://www.cadence.com/en_US/home/tools/custom-ic-analog-rf-design/circuit-design.html).
+
+## Projects Built with Virtue
+
+- [Softworks](https://github.com/cascode-labs/softworks):
+  Software and documentation view types in the Cadence Virtuoso IC design environment.
+- [Data-panels](https://github.com/cascode-labs/data-panels):
+  Export rich data reports from simulation results to pptx slides and
+  xlsx tables
+- [Morpheus](https://github.com/cascode-labs/morpheus):
+  Generate Maestro test benches in a standard way compatible with an associated
+  data-panels report
+
+## Features
+
+- A [SKILL standard library](https://www.cascode-labs.org/virtue/reference/skill_api/index.html) of "batteries included" modules
+- A [SKILL test framework](https://www.cascode-labs.org/virtue/overview/testing_framework.html) modeled after [pytest](https://docs.pytest.org/en/7.1.x/)
+- A [SKILL TOML config file reader and writer](https://www.cascode-labs.org/virtue/overview/toml.html)
+  for the [TOML standard](https://toml.io)
+- A SKILL package manager
+  - Define [SKILL++ modules](https://www.cascode-labs.org/virtue/overview/packaging/modules.html)
+  - Import modules into a SKILL++ lexical scope using the top-level "Import" table
+  - Create [SKILL++ packages](https://www.cascode-labs.org/virtue/overview/packaging/skill_packages.html)
+- SKILL environment manager using
+  [Conda](https://docs.conda.io/en/latest/) or
+  [Pip](https://pip.pypa.io/en/stable/reference/build-system/pyproject-toml/)
+  Python environments
+- Seamless execution of SKILL from Python using
+  [SkillBridge](https://unihd-cag.github.io/skillbridge/)
+
+## Example Test File
+
+Note the package imports at the top
+
+``` scheme
+let(((Str Import['Str])
+     (Test Import['Test])
+     (Virtue Import['Virtue])
+    )
+
+procedure(Test_emptyp()
+    assert(Str->emptyp(""))
+    assert(!Str->emptyp("test"))
+)
+
+procedure(Test_str2bool()
+    assert(Str->str2bool("true"))
+    assert(Str->str2bool("TRUE"))
+    assert(!Str->str2bool("false"))
+)
+
+procedure(Test_str2bool_error()
+    assert(!errset(Str->str2bool("Nothing")))
+)
+
+Test->RunFile(list(nil
+  'Test_emptyp Test_emptyp
+  'Test_str2bool Test_str2bool
+  'Test_str2bool_error Test_str2bool_error
+  )
+  ?filepath Virtue->GetCurrentFilePath()
+)
+
+)
+```
+
+Prints out the following when ran in the CIW:
+
+``` sh
+FILE: /path/to/file/test_Str.ils
+  passed: Test_emptyp
+  passed: Test_str2bool
+  passed: Test_str2bool_error
+3 / 3 tests passed
+```
+
+## Installation
+
+Virtue requires Python >= 3.7 and can be installed using several methods:
+
+- Conda
+- Pip
+- From source
+
+See the
+[installation instructions in the documentation](https://www.cascode-labs.org/virtue/overview/index.html#installation)
+for detailed instructions.
+

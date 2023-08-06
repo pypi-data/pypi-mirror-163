@@ -1,0 +1,59 @@
+let((Maestro
+     (Module Import['Module])
+    )
+
+; Skill Functions for Maestro views
+Maestro = let(()
+
+  procedure(ExportCellImage(lib cell view filepath) let((win (out nil))
+  	win = geOpen(?lib lib ?cell cell ?view view ?mode "r")
+  	when(win
+  		out = hiExportImage(
+  			?fileName filepath
+  			?window win
+  			?exportRegion 'entireDesign
+  			?bgColor "white"
+  			?fgColor "black"
+  			?colorType 'biColor
+  			?windowProps list( list("drawAxesOn" nil) list("drawGridOn" nil))
+  			?width 2048)
+  		hiCloseWindow(win)
+  	)
+  	out
+  ))
+
+  ; Returns the test's design LCV (Library, Cell, View) information
+  ;  If the view is a config, then it also has the LCV of the top-level cell of the config.
+  procedure(GetTestDesign(sessionName testName) let((test out config)
+  	"Returns the test's design LCV (Library, Cell, View) information.
+  	If the view is a config, then it also has the LCV of the top-level cell of the config."
+  	test = maeGetTestSession(testName ?session sessionName)
+  	out = list(asiGetDesignLibName(test) asiGetDesignCellName(test) asiGetDesignViewName(test))
+  	; Find the config view
+  	if(hdbIsConfig(car(out) cadr(out) caddr(out)) then
+  		config = hdbOpen(car(out) cadr(out) caddr(out) "r")
+  		out = append(out list(hdbGetTopLibName(config) hdbGetTopCellName(config) hdbGetTopViewName(config)))
+  		hdbClose(config)
+  	)
+  	out
+  ))
+
+
+
+  procedure(GetEnabledAnalysisNames(testSession) let((out)
+  	foreach(analysis asiGetEnabledAnalysisList(testSession)
+  		out = append1(out symbolToString(asiGetAnalysisName(analysis)))
+  	)
+  	out
+  ))
+
+  list(nil
+  	'ExportCellImage ExportCellImage
+  	'GetTestDesign GetTestDesign
+		'GetEnabledAnalysisNames GetEnabledAnalysisNames
+  )
+)
+
+Module->New('Maestro Maestro
+             ?project Import['Virtue])
+)
