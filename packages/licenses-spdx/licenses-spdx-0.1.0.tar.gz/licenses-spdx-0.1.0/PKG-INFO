@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: licenses-spdx
+Version: 0.1.0
+Summary: A powerful API to grab spdx list licenses, great for boilerplate gen and way more (not official)
+License: GPT3
+Author: aarmn
+Author-email: aarmn80@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: Other/Proprietary License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: pydantic (>=1.9.1,<2.0.0)

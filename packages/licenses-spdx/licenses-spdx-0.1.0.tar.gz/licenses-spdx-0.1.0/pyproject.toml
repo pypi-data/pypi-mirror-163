@@ -1,0 +1,22 @@
+[tool.poetry]
+name = "licenses-spdx"
+version = "0.1.0"
+description = "A powerful API to grab spdx list licenses, great for boilerplate gen and way more (not official)"
+authors = ["aarmn <aarmn80@gmail.com>"]
+license = "GPT3"
+packages = [
+    { include = "src" },
+    { include = "src/**/*.py" },
+    { include = "./data/*"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.9"
+pydantic = "^1.9.1"
+
+[tool.poetry.dev-dependencies]
+poetry = "^1.1.14"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
