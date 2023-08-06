@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: akpycalc
+Version: 0.0.7
+Summary: demo package
+Home-page: https://github.com/ankit48365/akpycalc
+Author: ankiz
+Author-email: ankit48365@gmail.com
+Project-URL: Bug Tracker, https://github.com/ankit48365/akpycalc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# akpycalc
+Package Demo on pypi.org
