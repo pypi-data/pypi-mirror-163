@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "llunar"
+version = "0.1.0"
+description = "A PVM language"
+authors = ["andy <andy.development@protonmail.com>"]
+
+homepage = "https://github.com/an-dyy/Lunar"
+packages = [{include = "llunar"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^22.6.0"
+isort = "^5.10.1"
+rply = "^0.7.8"
+astpretty = "^3.0.0"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
