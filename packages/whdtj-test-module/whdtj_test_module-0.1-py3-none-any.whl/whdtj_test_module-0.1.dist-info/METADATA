@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: whdtj-test-module
+Version: 0.1
+Summary: First whdtj's pip
+Home-page: https://github.com/jongs9012/login_sys
+Author: JongSeo Yoon
+Author-email: whdtj9012@gmail.com
+License: MIT
+Keywords: Streamlit test server
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Requires-Python: >=3.6
+Requires-Dist: streamlit
+
+# whdtj's pip testing file
+## Welcome !
+
