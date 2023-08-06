@@ -1,0 +1,15 @@
+pymsis/__init__.py,sha256=htJYtFS-qsg3xI-XxPzp3jXUu3n3_xsR0foelon6dfM,860
+pymsis/msis.py,sha256=yWe4TKWwfbAZo34S0opFkbt8iGin6OUr23HDeDS0frQ,9617
+pymsis/msis00f.cp311-win_amd64.pyd,sha256=QXwTTl09gUhxCpzmfWYJcU-ZnBtj7vo2vfuZXgSYpzo,88064
+pymsis/msis2.0.parm,sha256=z2Enlq8E9HP8mxRFRgwwqkl83JyZHTUHGQiTV3wSRgI,536576
+pymsis/msis20f.cp311-win_amd64.pyd,sha256=nJQu_ddOeVWGA6MusF8TkuD6u2S73Jmve_qEiGQe1UQ,32768
+pymsis/msis21.parm,sha256=oyKnSfNo5zEX3SDz_c9zidq8VQn0wnBzzFWAmZOBtQg,536576
+pymsis/msis21f.cp311-win_amd64.pyd,sha256=OeuN1--o1Zn6hPr1gbVLO--DviZFeFyq15pI0CS82DY,32768
+pymsis/.libs/libmsis00.RM77PKWQH5FXGJJDH32DRDN4ITEIVRON.gfortran-win_amd64.dll,sha256=rRSBAtY7zLcRWgoI2giSRXdkjrz8vXTrm-1Swb470F0,823661
+pymsis/.libs/libmsis_con.LYEVIRECV3LRJDBDVMPLCTKAPJ266UWO.gfortran-win_amd64.dll,sha256=Zqz_QPrVwxmAWcx3mwwrqqj34i5YjNWgDmbgXdAx-dw,855775
+pymsis/.libs/libmsis_con.NMIXL5XHJ4EWWNZBOFBRJQ5B4US7DDXD.gfortran-win_amd64.dll,sha256=gEoCDa5v3vddy2h5BMfUNQXgwm9wsAHHfOVGBsWKpQc,858999
+pymsis-0.5.0.dist-info/LICENSE,sha256=Dfuks8Di1rCiWBvUpyQIScvwLFRZraSwGbiPpioQB0Q,1116
+pymsis-0.5.0.dist-info/METADATA,sha256=wnBa_vwjZ2pylg642-wRLzxSzgzaf1Te0BbDZR7mwc0,4788
+pymsis-0.5.0.dist-info/WHEEL,sha256=TxwUeV-3HEbjjXVQ7qnUZIKQ4IinhZYV_rmkwq84M_Y,102
+pymsis-0.5.0.dist-info/top_level.txt,sha256=TiYeKYHnA9nfW3aAzoqJpgM341ljEG0AymtrZvFSGeQ,7
+pymsis-0.5.0.dist-info/RECORD,,
