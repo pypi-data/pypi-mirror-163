@@ -1,0 +1,115 @@
+Metadata-Version: 2.1
+Name: dict-from-annotation
+Version: 0.0.2
+Summary: Command-line interface (CLI) to create a pronunciation dictionary based on annotations.
+Author: Stefan Taubert
+Author-email: pypi@stefantaubert.com
+Maintainer: Stefan Taubert
+Maintainer-email: pypi@stefantaubert.com
+License: MIT
+Project-URL: Homepage, https://github.com/stefantaubert/dict-from-annotation
+Project-URL: Issues, https://github.com/stefantaubert/dict-from-annotation/issues
+Keywords: ARPAbet,IPA,X-SAMPA,CMU,TTS,Text-to-speech,Speech synthesis,praat,Language,Linguistics
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Operating System :: OS Independent
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: POSIX
+Classifier: Operating System :: POSIX :: BSD
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Operating System :: Unix
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# dict-from-annotation
+
+[![PyPI](https://img.shields.io/pypi/v/dict-from-annotation.svg)](https://pypi.python.org/pypi/dict-from-annotation)
+[![PyPI](https://img.shields.io/pypi/pyversions/dict-from-annotation.svg)](https://pypi.python.org/pypi/dict-from-annotation)
+[![MIT](https://img.shields.io/github/license/stefantaubert/dict-from-annotation.svg)](LICENSE)
+[![PyPI](https://img.shields.io/pypi/wheel/dict-from-annotation.svg)](https://pypi.python.org/pypi/dict-from-annotation/#files)
+![PyPI](https://img.shields.io/pypi/implementation/dict-from-annotation.svg)
+[![PyPI](https://img.shields.io/github/commits-since/stefantaubert/dict-from-annotation/latest/main.svg)](https://github.com/stefantaubert/dict-from-annotation/compare/v0.0.2...master)
+
+Command-line interface (CLI) to create pronunciation dictionaries based on manual annotations.
+
+## Installation
+
+```sh
+pip install dict-from-annotation --user
+```
+
+## Usage
+
+```sh
+dict-from-annotation-cli
+```
+
+## Example
+
+```sh
+# Create example vocabulary
+cat > /tmp/vocabulary.txt << EOF
+Test?
+abc,
+/X|MM|L/
+/X|MM||L/
+EOF
+
+dict-from-annotation-cli \
+  /tmp/vocabulary.txt \
+  /tmp/dictionary.dict \
+  --rest-out /tmp/rest_vocabulary.txt
+
+cat /tmp/dictionary.dict
+# -------
+# Output:
+# -------
+# /X|MM|L/  X MM L
+# -------
+
+cat /tmp/rest_vocabulary.txt
+# -------
+# Output:
+# -------
+# Test?
+# abc,
+# /X|MM||L/
+# -------
+```
+
+## Dependencies
+
+- `iterable-serialization>=0.0.1`
+- `pronunciation_dictionary>=0.0.4`
+- `ordered_set>=4.1.0`
+- `tqdm`
+
+## License
+
+MIT License
+
+## Acknowledgments
+
+Funded by the Deutsche Forschungsgemeinschaft (DFG, German Research Foundation) – Project-ID 416228727 – CRC 1410
+
+## Citation
+
+If you want to cite this repo, you can use this BibTeX-entry:
+
+```bibtex
+@misc{tsdfa22,
+  author = {Taubert, Stefan},
+  title = {dict-from-annotation},
+  year = {2022},
+  publisher = {GitHub},
+  journal = {GitHub repository},
+  howpublished = {\url{https://github.com/stefantaubert/dict-from-annotation}}
+}
+```
