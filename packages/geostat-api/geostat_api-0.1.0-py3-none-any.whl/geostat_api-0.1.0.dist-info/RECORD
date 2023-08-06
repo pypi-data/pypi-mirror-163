@@ -1,0 +1,14 @@
+geostat_api/__init__.py,sha256=AX89QyBsVKlcPmLk5yFDM_ETTfNICOKv380pXagzwKo,877
+geostat_api/__main__.py,sha256=SyjOwXytK1feoDNsyzsqsnLfxw1XGWaLXz2aZsRrcOM,203
+geostat_api/api.py,sha256=53Kt8Ga5eUcVDFy5DQuq4YVhABD6IVXu-uPFTZUSy1Q,378
+geostat_api/client.py,sha256=uyx9zfHtLv248kqQ4tFuWjlSxCV0ZDirVxFFoQrvKqA,2830
+geostat_api/feature_provider.py,sha256=cem12nYdArcpNI0Zdozjzd6j_f9W56dNyhOUPEKskDY,4190
+geostat_api/update_api.py,sha256=6KS8XrNOsPv6UFIDKu8eG2_FwpUq-n8Lr5P3dXOxisU,5487
+geostat_api/processes/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+geostat_api/processes/util.py,sha256=BhFy-G2d4YaDa10PdI_WWj1sbwuZ2WWDOyjXV6r2vLk,1660
+geostat_api/processes/variogram.py,sha256=ruLRKvdafC4cic88fkIHLlHp_W7UAdUf24xPTNWkiOw,7877
+geostat_api-0.1.0.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+geostat_api-0.1.0.dist-info/METADATA,sha256=QBcputVTvxGCzr9RmnKeiVNc2SL4CgfdQsZBW8ZlPlQ,552
+geostat_api-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+geostat_api-0.1.0.dist-info/top_level.txt,sha256=WHVZYylj4jEUNV3q-Mv0-kn11r3p4d5UTJW988o7T_M,12
+geostat_api-0.1.0.dist-info/RECORD,,
