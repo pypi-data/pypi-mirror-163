@@ -1,0 +1,9 @@
+duck_jenkins/__init__.py,sha256=biE0suSH22Abn8bv1S1uAMhR59vVWy75-A864TWgjnY,54
+duck_jenkins/_app.py,sha256=fOtcduFGNQgKPvUw9rRb186tRsB6NBwkJpEmZM3TeIY,17028
+duck_jenkins/_model.py,sha256=jUXlTO4hToVI5wIvY60BnK9Xwf0trgvlANEemmdP89A,14805
+duck_jenkins/_utils.py,sha256=EBoLlIdrTd-cAjaGxplO8MzeFCMDRtU4K4yQMuzhu84,3110
+duck_jenkins-0.0.22.dist-info/LICENSE,sha256=TYypf7IzpMBoOjfiMQ_wEQF8ucHMeYaPApzLaXFKzBY,1064
+duck_jenkins-0.0.22.dist-info/METADATA,sha256=vULFPNWIe1NDW_LgqKiCl61TwSdu1t59Y-IZU0PosM0,5976
+duck_jenkins-0.0.22.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+duck_jenkins-0.0.22.dist-info/top_level.txt,sha256=BRdZNF7-J30c5m8hDFhYZCIadMEMDKxmcMzrIeULjMc,13
+duck_jenkins-0.0.22.dist-info/RECORD,,
