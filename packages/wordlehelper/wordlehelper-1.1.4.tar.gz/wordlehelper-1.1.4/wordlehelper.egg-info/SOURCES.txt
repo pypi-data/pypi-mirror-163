@@ -1,0 +1,8 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+wordlehelper.egg-info/PKG-INFO
+wordlehelper.egg-info/SOURCES.txt
+wordlehelper.egg-info/dependency_links.txt
+wordlehelper.egg-info/top_level.txt
