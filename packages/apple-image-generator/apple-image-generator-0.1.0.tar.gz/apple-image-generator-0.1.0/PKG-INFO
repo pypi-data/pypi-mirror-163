@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: apple-image-generator
+Version: 0.1.0
+Summary: Generate images according Apple applications needs
+Author: Leonard TAVAE
+Author-email: leonard.tavae@administration.gov.pf
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: Pillow (>=9.2.0,<10.0.0)
+Requires-Dist: typer (>=0.6.1,<0.7.0)
+Description-Content-Type: text/markdown
+
+apple-image-generator
+
+
+- create Content.json
+- create all size for multi-platform app development
+
