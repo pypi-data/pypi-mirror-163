@@ -1,0 +1,11 @@
+data/licenses_nonobsolete_only.json,sha256=PW2R8JKnLOQVggCpmbVqury--ERUHc9TAxOuV0ijXxE,5042295
+src/error.py,sha256=wqhWCeefxJLXojNfsNIoIpb7hv2kHaP_frdrtQivw50,600
+src/parse.py,sha256=vXe6qF5itgrI99-KOCjnTwUK78ym66sB3vAbbrRMxI0,1321
+src/scrap.py,sha256=hSNt3pQraTxqcITmrhy369R4Rr07ehlU6XJbXmsKfoY,3270
+src/test.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/tmp.py,sha256=EbXLAua1oZcNnqH3ybKJJsJeryjLi2_ODxe1-d7BMlA,593
+src/type.py,sha256=jM0-wAa5baqzP_31_PEOJBMIiFoFoOljezM4snrAvyo,1957
+licenses_spdx-0.1.0.dist-info/LICENSE,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+licenses_spdx-0.1.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+licenses_spdx-0.1.0.dist-info/METADATA,sha256=-8Z1pmPSnZyV1J-sBzQ4IklHNDxkXLnuSx4x5076qWA,490
+licenses_spdx-0.1.0.dist-info/RECORD,,
