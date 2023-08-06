@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: experiment-wrapper
+Version: 1.1.0
+Summary: Wrapper for self-defined dynamics experiments
+Author: Sander Tonkens
+Author-email: sandertonkens@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+License-File: LICENSE.txt
+Requires-Dist: pandas (>=1.1.5)
+Requires-Dist: matplotlib (>=3.3)
+Requires-Dist: seaborn (>=0.11)
+Requires-Dist: tqdm (>=4.0)
+
+UNKNOWN
+
