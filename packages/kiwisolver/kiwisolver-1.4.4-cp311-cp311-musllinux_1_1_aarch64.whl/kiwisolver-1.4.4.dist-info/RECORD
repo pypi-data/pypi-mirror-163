@@ -1,0 +1,11 @@
+kiwisolver/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kiwisolver/__init__.py,sha256=gw3vhMmR4fBrpB0oHn7ziwB9UYk1AdHzsHXTv3yJfbY,985
+kiwisolver/_cext.cpython-311-aarch64-linux-musl.so,sha256=rA6OeWFMD35eTO5Ck_7B35j48JNk6v4VIbjARb2hCaI,5188176
+kiwisolver/_cext.pyi,sha256=WYDl3Oe2C2ao6_Grd8NgHW_8gMoLLIvvlPS8BvaTF0Y,8812
+kiwisolver-1.4.4.dist-info/LICENSE,sha256=JtqNSXRHlvJgH7X-nl2LnoECBkymCo3Bglthd8sFRQw,3279
+kiwisolver-1.4.4.dist-info/METADATA,sha256=9_nhZ3v6Sg-E6FWD3SbiP_v2MqOf6vyvvE0_9KRvSuY,6326
+kiwisolver-1.4.4.dist-info/top_level.txt,sha256=BhbDDMpSTWllCy1Ln0h8gA5zHkrOZogmbr5Ngm3vOhM,15
+kiwisolver-1.4.4.dist-info/WHEEL,sha256=myYIOhGB5wJzuOH-YvHWLvGsIE_ynLTQh0WN2-SI1qA,114
+kiwisolver-1.4.4.dist-info/RECORD,,
+kiwisolver.libs/libstdc++-fd9f4683.so.6.0.28,sha256=XLQiJUPxlLGekvmKndI-xQ01R9j97l1rRG9fsKW_aEM,2599040
+kiwisolver.libs/libgcc_s-4e37474d.so.1,sha256=WBzDvfDtV_TAoLo5udTXKv5-zRXooDHRxUDPGOuojK0,134392
