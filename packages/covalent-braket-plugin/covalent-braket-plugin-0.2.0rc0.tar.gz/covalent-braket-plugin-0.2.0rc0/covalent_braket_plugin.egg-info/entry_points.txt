@@ -1,0 +1,2 @@
+[covalent.executor.executor_plugins]
+braket = covalent_braket_plugin.braket
