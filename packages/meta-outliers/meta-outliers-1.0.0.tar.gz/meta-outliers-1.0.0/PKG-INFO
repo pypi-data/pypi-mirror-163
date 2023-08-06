@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: meta-outliers
+Version: 1.0.0
+Summary: Research oriented library for outlier detection.
+Home-page: https://github.com/Selozhd/meta-outliers
+Author: Ahmet Zahid Balcıoğlu
+Author-email: zahidbalcioglu@gmail.com
+Project-URL: Bug Tracker, https://github.com/Selozhd/meta-outliers/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# meta-outliers
+Meta algorithms in outlier detection

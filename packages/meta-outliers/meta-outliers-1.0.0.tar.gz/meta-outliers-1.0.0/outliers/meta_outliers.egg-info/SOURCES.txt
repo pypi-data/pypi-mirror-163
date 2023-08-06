@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+outliers/meta_outliers.egg-info/PKG-INFO
+outliers/meta_outliers.egg-info/SOURCES.txt
+outliers/meta_outliers.egg-info/dependency_links.txt
+outliers/meta_outliers.egg-info/top_level.txt
+outliers/training/__init__.py
+outliers/training/config.py
+outliers/training/summary.py
+outliers/training/trainer.py
