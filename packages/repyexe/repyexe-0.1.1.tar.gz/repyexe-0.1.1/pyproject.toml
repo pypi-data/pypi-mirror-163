@@ -1,0 +1,44 @@
+[build-system]
+requires      = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "repyexe"
+version = "0.1.1"
+description = "Reverse engineer Windows executable file compiled using Python"
+readme = "README.md"
+authors = [{ name = "Boxuan Tang", email = "tangboxuan@gmail.com" }]
+classifiers = [
+    "Natural Language :: English",
+    "Programming Language :: Python",
+    "Programming Language :: Python :: 3",
+    "Operating System :: OS Independent"
+]
+keywords = ["exe", "reverse", "engineer", "malware", "analysis"]
+dependencies = [
+    "pefile",
+    "uncompyle6"
+]
+
+[project.urls]
+Homepage = "https://github.com/tangboxuan/reverse-python-exe"
+
+[project.scripts]
+repyexe = "repyexe.__main__:main"
+
+[tool.bumpver]
+current_version = "0.1.1"
+version_pattern = "MAJOR.MINOR.PATCH"
+commit_message = "bump version {old_version} -> {new_version}"
+commit = false
+tag = false
+push = false
+
+[tool.bumpver.file_patterns]
+"pyproject.toml" = [
+    'current_version = "{version}"',
+    'version = "{version}"'
+]
+"src/repyexe/__init__.py" = [
+    '__version__ = "{version}"'
+]
