@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: apilookup
+Version: 1.0.3
+Summary: An easy way to lookup APIs.
+Home-page: UNKNOWN
+Author: Hamdi Vazim
+Author-email: <coding.wizard4@gmail.com>
+License: UNKNOWN
+Keywords: python,api,apicalls,requests,json,sockets
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+A package that makes API requests much easier.
+
