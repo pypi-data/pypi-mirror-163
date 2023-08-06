@@ -1,0 +1,11 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+src/falconlib/__init__.py
+src/falconlib/falconlib.py
+src/falconlib.egg-info/PKG-INFO
+src/falconlib.egg-info/SOURCES.txt
+src/falconlib.egg-info/dependency_links.txt
+src/falconlib.egg-info/requires.txt
+src/falconlib.egg-info/top_level.txt
