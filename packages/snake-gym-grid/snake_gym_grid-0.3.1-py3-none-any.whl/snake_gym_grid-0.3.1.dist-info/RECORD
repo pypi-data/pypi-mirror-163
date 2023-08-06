@@ -1,0 +1,10 @@
+snake_gym_grid/snake_gym_grid/__init__.py,sha256=pSyTb_5j2FwvylLvJRDY61yoy7FXAPIgTEAL5bpivTE,445
+snake_gym_grid/snake_gym_grid/envs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+snake_gym_grid/snake_gym_grid/envs/controller.py,sha256=R96bcAf6VL6m-VGRam4bMAcIvTStoiKEe8PkZMqKavs,3241
+snake_gym_grid/snake_gym_grid/envs/snake_gym_grid.py,sha256=9__RE_8-GarHXH5aFX-pV9y9uUQkM20XLVkH1LIkFcU,3410
+snake_gym_grid/snake_gym_grid/envs/view.py,sha256=5sIgr-dr6bdHr5aOAa8S3bpu-1iONYMwuZucGxWZa-c,2253
+snake_gym_grid-0.3.1.dist-info/LICENSE,sha256=S7yRouPTjaAE2Qh-Mx9KSJI6Uo_igbVPThmeYPgujBg,1066
+snake_gym_grid-0.3.1.dist-info/METADATA,sha256=8X_q_VrXg_oo2hJiRV3aSFN93o4gAyR8R2RceGoU3rU,1465
+snake_gym_grid-0.3.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+snake_gym_grid-0.3.1.dist-info/top_level.txt,sha256=qVEvm6HEeOAg3ee58Ycr9Ekz-AK6kkZffuy01xrNGEk,15
+snake_gym_grid-0.3.1.dist-info/RECORD,,
