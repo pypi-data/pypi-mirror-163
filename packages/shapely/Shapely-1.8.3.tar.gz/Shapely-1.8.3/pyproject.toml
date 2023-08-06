@@ -1,0 +1,6 @@
+[build-system]
+requires = [
+    "Cython>=0.29.24,<3",
+    "oldest-supported-numpy",
+    "setuptools<64",
+]
