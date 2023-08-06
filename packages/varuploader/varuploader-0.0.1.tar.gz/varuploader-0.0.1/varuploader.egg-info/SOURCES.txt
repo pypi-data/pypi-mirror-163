@@ -1,0 +1,15 @@
+README.md
+setup.py
+varuploader/__init__.py
+varuploader/config.py
+varuploader/ftp.py
+varuploader/menubar.py
+varuploader/release.py
+varuploader/utils.py
+varuploader/varuploader.py
+varuploader/welcome.py
+varuploader.egg-info/PKG-INFO
+varuploader.egg-info/SOURCES.txt
+varuploader.egg-info/dependency_links.txt
+varuploader.egg-info/entry_points.txt
+varuploader.egg-info/top_level.txt

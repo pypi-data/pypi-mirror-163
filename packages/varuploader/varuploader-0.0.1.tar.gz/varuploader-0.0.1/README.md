@@ -1,0 +1,129 @@
+<a name="readme-top"></a>
+
+[![Contributors][contributors-shield]][contributors-url]
+[![Forks][forks-shield]][forks-url]
+[![Stargazers][stars-shield]][stars-url]
+[![Issues][issues-shield]][issues-url]
+[![MIT License][license-shield]][license-url]
+[![LinkedIn][linkedin-shield]][linkedin-url]
+
+<br />
+<div align="center">
+  <a href="https://github.com/dorta/var-uploader">
+    <img src="docs/images/logo.png" alt="Logo">
+  </a>
+
+<h3 align="center">Recovery SD Card Uploader Tool</h3>
+
+  <p align="center">
+    Internal tool to help the R&D Software team upload new releases to the FTP
+    <br />
+    <a href="https://github.com/dorta/var-uploader/issues">Report Bug</a>
+    ·
+    <a href="https://github.com/dorta/var-uploader/issues">Request Feature</a>
+  </p>
+</div>
+
+## About 
+
+The Variscite Recovery SD Card Uploader tool helps the internal R&D Software
+team upload new recovery SD cards for **Yocto**, **Debian**, and **B2Qt**
+releases to the [Variscite FTP](https://ftp.variscite.com/files) server,
+automatically updating the changelog file in the [YAML](https://yaml.org/)
+file format.
+
+[![Product Name Screen Shot][product-screenshot]](https://example.com)
+
+### Roadmap
+
+#### Main Features
+
+ * [x] Create New Release
+ * [ ] Edit an Existing Release
+ * [ ] Remove an Existing Release
+
+#### Release Types
+
+ * [x] Support for Yocto Releases
+ * [ ] Support for Debian Releases
+ * [ ] Support for B2Qt Releases
+
+
+## 1. <a name='Getting Started'></a>Getting Started
+
+### Prerequisites
+
+Install the following packages in your system:
+  ```sh
+  apt install python3-stdeb fakeroot python-all
+  ```
+
+### Build the Recovery SD Card Uploader Tool
+
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/dorta/var-uploader && cd var-uploader
+   ```
+2. Generate the debian (.deb) package:
+   ```sh
+   python3 setup.py --command-packages=stdeb.command bdist_deb
+   ```
+
+### Install the Recovery SD Card Uploader Tool
+
+Install the debian (.deb) package in your system:
+   ```sh
+   dpkg -i deb_dist/python3-varuploader_<version>.deb
+   ```
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 2. <a name='Usage'></a>Usage
+
+To use the tool, run in the terminal:
+   ```sh
+   varuploader
+   ```
+
+### Create New Release
+
+The following steps automatically updates the `changelog` file and uploads the
+recovery SD card to the FTP:
+
+1. Choose the recovery SD card to upload to the Variscite FTP, then press the **`Create New Release`** button.
+    * __NOTE:__ The recovery SD card tool automatically renames the recovery SD card image.
+
+2. Fill the fields according, then press the **`Export Release`** button:
+    * __NOTE:__ The `date`, `path`, `sha224`, and the `file size` are automatically filled.
+
+3. Review the information, then press the **`Ok`** button:
+
+4. Enter the Variscite FTP credentials, then press the **`Ok`** button:
+    * __NOTE:__ The `user` and `password` values are the FTP credentials with root
+      permission that allows the _var-uploader_ tool to upload and update files in
+      the FTP server. These credentials are managed by the R&D Software Team.
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+
+## 3. <a name='Copyright and License'></a>Copyright and License
+
+Copyright 2022 Variscite LTD. Free use of this software is granted under
+the terms of the [BSD 3-Clause License](https://github.com/dorta/var-uploader/blob/master/LICENSE).
+
+<p align="right">(<a href="#readme-top">back to top</a>)</p>
+
+[contributors-shield]: https://img.shields.io/github/contributors/dorta/var-uploader.svg?style=for-the-badge
+[contributors-url]: https://github.com/dorta/var-uploader/graphs/contributors
+[forks-shield]: https://img.shields.io/github/forks/dorta/var-uploader.svg?style=for-the-badge
+[forks-url]: https://github.com/dorta/var-uploader/network/members
+[stars-shield]: https://img.shields.io/github/stars/dorta/var-uploader.svg?style=for-the-badge
+[stars-url]: https://github.com/dorta/var-uploader/stargazers
+[issues-shield]: https://img.shields.io/github/issues/dorta/var-uploader.svg?style=for-the-badge
+[issues-url]: https://github.com/dorta/var-uploader/issues
+[license-shield]: https://img.shields.io/github/license/dorta/var-uploader.svg?style=for-the-badge
+[license-url]: https://github.com/dorta/var-uploader/blob/master/LICENSE.txt
+[linkedin-shield]: https://img.shields.io/badge/-LinkedIn-black.svg?style=for-the-badge&logo=linkedin&colorB=555
+[linkedin-url]: https://linkedin.com/company/variscite-ltd-
+[product-screenshot]: docs/images/main_window.png
