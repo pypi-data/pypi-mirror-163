@@ -1,0 +1,36 @@
+Metadata-Version: 2.1
+Name: peter-69
+Version: 0.1.2
+Summary: Demo library
+Home-page: https://peter-69.readthedocs.io/
+Author: Reuben Devanesan
+Author-email: reubendevanesan@gmail.com
+License: MIT
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+# PeTeR_69
+A small demo library that describes the input number through PeTeR.
+
+### Installation
+```
+pip install peter-69
+```
+
+### Get started
+How to describe your number with this library:
+
+```Python
+from peter_69 import PeTeR
+
+# Instantiate a PeTeR object
+peter = PeTeR()
+
+# Call the says method
+result = peter.says(-42069)
+```
