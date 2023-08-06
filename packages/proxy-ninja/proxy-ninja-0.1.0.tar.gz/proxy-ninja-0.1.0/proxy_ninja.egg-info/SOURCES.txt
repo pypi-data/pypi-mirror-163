@@ -1,0 +1,8 @@
+README.md
+setup.py
+proxy_ninja/__init__.py
+proxy_ninja.egg-info/PKG-INFO
+proxy_ninja.egg-info/SOURCES.txt
+proxy_ninja.egg-info/dependency_links.txt
+proxy_ninja.egg-info/requires.txt
+proxy_ninja.egg-info/top_level.txt
