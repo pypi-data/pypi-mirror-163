@@ -1,0 +1,8 @@
+goifer/__init__.py,sha256=x1mFhBv66UUnbBDdfS-okYCYZN3b1ZxjtbbkCVFskW0,1120
+goifer/client.py,sha256=udBVLinZZE61k4lODVTH5oIGkFRhxm8U4UdweEjW3Q0,3053
+goifer/errors.py,sha256=_5PAR8dwn_3M1Q8VeIaqx8gYGW89j0p7V83LAAGJfts,532
+goifer/response.py,sha256=itHhgm1mPDDCONrarIUSd4BGIJGWslWhUDWFQXHH_1o,9225
+goifer-0.0.2.dist-info/LICENSE.md,sha256=1YoUtXOCAj5UXW26Og1Aqs63_qFFhxSrmi4XVMvsapY,1057
+goifer-0.0.2.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+goifer-0.0.2.dist-info/METADATA,sha256=B2uhs7BJke8h3pFkGJ4NUfc_GJWPm_IaTUDPBQevN2g,5998
+goifer-0.0.2.dist-info/RECORD,,
