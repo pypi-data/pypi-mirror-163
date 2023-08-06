@@ -1,0 +1,6 @@
+midi2poprap.py
+setup.py
+midi2poprap.egg-info/PKG-INFO
+midi2poprap.egg-info/SOURCES.txt
+midi2poprap.egg-info/dependency_links.txt
+midi2poprap.egg-info/top_level.txt
