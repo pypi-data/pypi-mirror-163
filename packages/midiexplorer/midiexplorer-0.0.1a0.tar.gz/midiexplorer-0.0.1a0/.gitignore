@@ -1,0 +1,9 @@
+.idea
+midiexplorer.ini
+/.pytest_cache/
+/.coverage*
+/.github/
+/.run/
+/dist/
+/RELEASE.md
+/TODO.md
