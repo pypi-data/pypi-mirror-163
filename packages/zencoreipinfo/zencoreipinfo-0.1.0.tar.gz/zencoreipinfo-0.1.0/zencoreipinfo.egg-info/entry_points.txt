@@ -1,0 +1,4 @@
+[console_scripts]
+ipinfo = zencoreipinfo:main
+zencoreipinfo = zencoreipinfo:main
+

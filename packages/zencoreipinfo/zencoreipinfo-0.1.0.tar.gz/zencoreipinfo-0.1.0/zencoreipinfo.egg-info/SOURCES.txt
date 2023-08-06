@@ -1,0 +1,13 @@
+LICENSE
+MANIFEST.in
+README.md
+requirements.txt
+setup.py
+zencoreipinfo.py
+zencoreipinfo.egg-info/PKG-INFO
+zencoreipinfo.egg-info/SOURCES.txt
+zencoreipinfo.egg-info/dependency_links.txt
+zencoreipinfo.egg-info/entry_points.txt
+zencoreipinfo.egg-info/not-zip-safe
+zencoreipinfo.egg-info/requires.txt
+zencoreipinfo.egg-info/top_level.txt
