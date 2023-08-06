@@ -1,0 +1,8 @@
+py2zenodo/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+py2zenodo/cli.py,sha256=_W3iLuqOzGQ-OfqeKV_gLcCNGTMDKaoQu4RrnKDvSbo,577
+py2zenodo/py2zenodo.py,sha256=Wsrr8EgUoZAQi_6c_TPes7RFJtHTSipkQDCoMkXGYro,1923
+py2zenodo-0.1.0a1.dist-info/entry_points.txt,sha256=nTQ0oOabk8xmiaRraY15tkLXTkEPo7kbE8Ol7xIm7dY,48
+py2zenodo-0.1.0a1.dist-info/LICENSE,sha256=6wsL3I5EalDM8_dw9qYacWm6sKCET2gJI-Fva422Zdc,1065
+py2zenodo-0.1.0a1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+py2zenodo-0.1.0a1.dist-info/METADATA,sha256=ObnR8btmYkqYAlgu3cId44jj_KuqQVwovsLQ8FjLMQM,1156
+py2zenodo-0.1.0a1.dist-info/RECORD,,

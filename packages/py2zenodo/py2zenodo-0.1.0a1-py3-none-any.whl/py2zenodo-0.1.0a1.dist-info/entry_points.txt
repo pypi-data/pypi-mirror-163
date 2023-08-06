@@ -1,0 +1,3 @@
+[console_scripts]
+py2zenodo=py2zenodo.cli:main
+
