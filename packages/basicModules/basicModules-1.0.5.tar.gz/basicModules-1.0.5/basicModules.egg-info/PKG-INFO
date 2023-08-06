@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: basicModules
+Version: 1.0.5
+Summary: A python package gives basic modules.
+Author: PandaGamerYT
+Author-email: zachgameryt08@gmail.com
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# basicModules
+## Release history:
+## `--- V1.0.4 ---`
+
+`- Added StackOverFlow Functions -`
+
+`- Added Ip Functions -`
+
+`- Removed Roblox Functions due to it being broken -`
+
+`- Added Integer Functions -`
+
+`- Added Sudo Kill App -`
+
+`- Added String Functions -`
+
+`- Added Package Functions -`
+
+`- Made all Functions to Scripts folder -`
+
+## `--- V1.0.3 ---`
+
+`- Added Roblox Functions -`
+
+`- Added Shell Functions -`
+
+`- Removed Emails due to insecurity -`
+
+## `--- V1.0.2 ---`
+
+`- Added Web Functions -`
+
+`- Fixed issues with Emails -`
+## `--- V1.0.1 ---`
+
+`- V1.0.1 was recalled. -`

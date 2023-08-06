@@ -1,0 +1,5 @@
+requests
+luddite
+bs4
+lxml
+pexpect
