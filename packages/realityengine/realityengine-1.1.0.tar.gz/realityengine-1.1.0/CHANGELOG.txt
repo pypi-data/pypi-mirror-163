@@ -1,0 +1,12 @@
+CHANGELOG
+=========
+
+1.0.0 (26/07/2022)
+------------------
+- First Release
+
+1.1.0 (13/8/2022)
+- Added basic line drawing capabilities with the `draw_line()` method
+- You can now get the tkinter canvas with the `get_canvas()` method in the screen
+- Added the `top`, `bottom`, `left` and `right` properties to gameobjects
+- When using the `run` function in the Window class it displays a message that tells you the version of realityengine.
