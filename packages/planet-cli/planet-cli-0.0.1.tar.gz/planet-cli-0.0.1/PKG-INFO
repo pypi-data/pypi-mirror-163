@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: planet-cli
+Version: 0.0.1
+Summary: planets plan project cli.
+License: MIT
+Author-email: RyomaHan <ryomahan1996@gmail.com>
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+
+# planet-cli
+
+planets plan project cli.
+
