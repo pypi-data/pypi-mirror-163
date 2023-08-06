@@ -1,0 +1,7 @@
+README.md
+setup.py
+findlcm.egg-info/PKG-INFO
+findlcm.egg-info/SOURCES.txt
+findlcm.egg-info/dependency_links.txt
+findlcm.egg-info/requires.txt
+findlcm.egg-info/top_level.txt
