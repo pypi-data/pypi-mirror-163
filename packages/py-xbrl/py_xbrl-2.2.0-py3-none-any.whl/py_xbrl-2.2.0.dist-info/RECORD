@@ -1,0 +1,17 @@
+xbrl/__init__.py,sha256=vREVM8xUx4Rivi4neuO6xc0i2RFmK9kJdWZ0y8z4SDk,2701
+xbrl/cache.py,sha256=g3-3A7_tyann1kGrYQIgEySBRHlwo8L4KbkLksCKMlM,7430
+xbrl/instance.py,sha256=JtyAAxhWx7JlHC8_XMfzgYlXj7dy3byk3jpQHwd818s,32376
+xbrl/linkbase.py,sha256=Yr_I1AMGnScn0ndNgVP7vSs7QdpXBPinqZKSXRUSAAo,27537
+xbrl/taxonomy.py,sha256=BMT5x1g3knce0MJjarDWBhJIjgFG4cpap5RsV7lZQcM,52475
+xbrl/helper/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xbrl/helper/connection_manager.py,sha256=0UT3URyPL6-mWZtoN2xWFiID61KzaHSeGxe-BjWkEbo,2929
+xbrl/helper/text2num.py,sha256=MGNe_fsisASPqwVtx2O25B6O83EsWnvp7Nit06jxW3M,2976
+xbrl/helper/uri_helper.py,sha256=yGc00XtCms67TFestA_u8Z3ffqgoSEw2hCj_eBzkhms,2753
+xbrl/helper/xml_parser.py,sha256=PuEINB3NWsZGyFRjS2fFyCPMhK1_shj3FBo_QHibqMY,986
+xbrl/transformations/__init__.py,sha256=XJYdfklqF9AbaYnToBaVBArPUnNHfTLIMXXn510YUkI,19164
+xbrl/transformations/text2num.py,sha256=Ve6KF1RcYwhIPLYXwxi9_e6vqiVPchEBLNHIQ_Ccc-E,3497
+py_xbrl-2.2.0.dist-info/LICENSE,sha256=gcuuhKKc5-dwvyvHsXjlC9oM6N5gZ6umYbC8ewW1Yvg,35821
+py_xbrl-2.2.0.dist-info/METADATA,sha256=DYv_PB69xReT9_9r4-RdR0UFhx1GvFAiphG10Edkgwk,3982
+py_xbrl-2.2.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+py_xbrl-2.2.0.dist-info/top_level.txt,sha256=llBe0HskYqZQcLph1ru5I8voSOuyDixfUKhuj7veBY8,5
+py_xbrl-2.2.0.dist-info/RECORD,,
