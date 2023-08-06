@@ -1,0 +1,22 @@
+[build-system]
+requires = ["setuptools", "wheel"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "mssev"
+license = { text = "GPL-3.0-only" }
+authors = [
+    { name="Alejandro Caravaca Puchades", email="acaravacapuchades@icloud.com" },
+]
+dynamic = ["version", "readme", "dependencies"]
+
+[tool.setuptools]
+packages = ["mssev"]
+
+[tool.setuptools.dynamic]
+version = {attr = "mssev.VERSION"}
+readme = {file = "README.md"}
+dependencies = {file = "requirements.txt"}
+
+[tool.setuptools.package-data]
+mypkg = ["*.txt", "*.rst", "*.tsv"]
