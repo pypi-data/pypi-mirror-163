@@ -1,0 +1,10 @@
+gdal
+rasterio
+fiona
+pyproj
+rtree
+shapely
+geopandas
+opencv-python
+notebook
+tqdm
