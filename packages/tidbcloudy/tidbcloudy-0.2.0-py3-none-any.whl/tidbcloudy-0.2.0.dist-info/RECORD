@@ -1,0 +1,16 @@
+tidbcloudy/__init__.py,sha256=0zXSn7092KO92AiCSutL977f77_5XXfzL9Y0x-TkoLo,382
+tidbcloudy/backup.py,sha256=r-DW_LMRQRAuSsJwbcXqtd_D6z3ehjgr65s2BGAwXZo,3057
+tidbcloudy/cluster.py,sha256=Muajlh7H4p2uvjzRrHyy5uMKgplR6Rocd4OH7gpN0k4,10730
+tidbcloudy/context.py,sha256=ef__GupCYqkgmvWMXIwVHw7UOT4BPjg3g_d5Tehfta4,2076
+tidbcloudy/exception.py,sha256=UOF2I1LIThsFVyoMm_TLK8whlfvycrdvnZgkvDzpYaI,656
+tidbcloudy/project.py,sha256=8lQ0p0DsCDXF0dXpmADsZCmwFNWvksWq1jUkAd9rZKg,10284
+tidbcloudy/restore.py,sha256=InAgm2f_t0CamVzu083rGA7HSM5gAsYWcvL_rpg2Gic,2230
+tidbcloudy/specification.py,sha256=UCditlFjrstKcnDAj-37xxbmMd4iFswzsSF4c93DoHc,23276
+tidbcloudy/tidbcloud.py,sha256=iYwdb0t2lYr0jHpYR9qMnVwdrFUftHDPrDOukpn8bxs,3964
+tidbcloudy/util/ip.py,sha256=hXTAHvrXNLnCBh6fwM1JaLTwMJMjgjHtbgItmlkVsQQ,434
+tidbcloudy/util/log.py,sha256=vz2lKJM_D91v0HITrMKF_FSGjkzT0DeyEVtHXRWC8Rs,192
+tidbcloudy/util/page.py,sha256=h75ar_bngQCEqBJI6ZY_vZ5lndgyBzShVu28tfG3Dmw,541
+tidbcloudy/util/timestamp.py,sha256=IUA6M2D9GsI_LVEuCZ1LMKqxXrj6YGp2y6MAEg7vEtc,278
+tidbcloudy-0.2.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tidbcloudy-0.2.0.dist-info/METADATA,sha256=JJv88R1JP3dsuYLdEkUDk3hJHkM6UTduG8_RAmDZdkk,474
+tidbcloudy-0.2.0.dist-info/RECORD,,
