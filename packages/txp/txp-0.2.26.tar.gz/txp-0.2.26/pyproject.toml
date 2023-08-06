@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "txp"
+version = "0.2.26"
+description = "Txp is the main Python Package from Tranxpert predictive maintenance solution"
+authors = ["Tranxpert"]
+readme = "README.md"
+repository = "https://github.com/Traxpert/txp"
+keywords = [
+    "IOT",
+    "IIOT",
+    "Predictive Maintenance"
+    ]
+packages = [
+    { include = "txp", from = "src" },
+    { include = "IpMgrConnectorSerial", from = "thirdparties/SmartMeshSDK" },
+    { include = "IpMgrConnectorMux", from = "thirdparties/SmartMeshSDK" },
+    { include = "SerialConnector", from = "thirdparties/SmartMeshSDK" },
+    { include = "SmartMeshSDK", from = "thirdparties" },
+    { include = "iCOMOXSDK", from = "thirdparties" },
+    { include = "common", from = "thirdparties/iCOMOXSDK"},
+    { include = "ArmSDK", from = "thirdparties" }
+]
+
+exclude = [
+    "./src/txp/common/credentials"
+]
+
+[tool.poetry.scripts]
+txp = "txp.cli:txp_cli_entrypoint"
+
+[tool.poetry.dependencies]
+python = "^3.7"
+fastapi = "^0.78.0"
+
+
+[tool.poetry.extras]
+dummy = ["pydantic ==1.9.1"]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
