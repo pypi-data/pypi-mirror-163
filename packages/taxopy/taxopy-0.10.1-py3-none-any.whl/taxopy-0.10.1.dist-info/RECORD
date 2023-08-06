@@ -1,0 +1,8 @@
+taxopy/__init__.py,sha256=KytN7lOmP3gx9oqzklzDXAjySr7UCKrRf1Ru4u4_lCc,1117
+taxopy/core.py,sha256=llSaoiLNSMTnZXdd3lscDxNUsdkE5D5B7FL4gjpmXBU,15469
+taxopy/exceptions.py,sha256=gcI_WULOc6CdmxCZ1-gbuQ6h2N5mUkoQyjmJd_9tMpA,1030
+taxopy/utilities.py,sha256=qMl2UWpZEKVFi3G0qyQQf9BV8vguLZ33jcBjvw1nOT0,8664
+taxopy-0.10.1.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+taxopy-0.10.1.dist-info/WHEEL,sha256=4TfKIB_xu-04bc2iKz6_zFt-gEFEEDU_31HGhqzOCE8,81
+taxopy-0.10.1.dist-info/METADATA,sha256=VjcA4LroBTy2jJ3txzX3VDGgG-_Ab8U83en8d1w_acU,5847
+taxopy-0.10.1.dist-info/RECORD,,
