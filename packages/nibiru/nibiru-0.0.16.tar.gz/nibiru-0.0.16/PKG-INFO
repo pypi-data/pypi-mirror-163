@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: nibiru
+Version: 0.0.16
+Summary: Python SDK for interacting with Nibiru.
+License: MIT
+Author: Nibiru Chain
+Author-email: you@example.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: aiocron (>=1.8,<2.0)
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: bech32 (>=1.2.0,<2.0.0)
+Requires-Dist: bip32 (>=3.1,<4.0)
+Requires-Dist: coincurve (>=17.0.0,<18.0.0)
+Requires-Dist: ecdsa (>=0.18.0,<0.19.0)
+Requires-Dist: eip712-structs (>=1.1.0,<2.0.0)
+Requires-Dist: grpcio (>=1.48.0,<2.0.0)
+Requires-Dist: hdwallets (>=0.1.2,<0.2.0)
+Requires-Dist: mnemonic (>=0.20,<0.21)
+Requires-Dist: protobuf (==3.20.1)
+Requires-Dist: pysha3 (>=1.0.2,<2.0.0)
+Requires-Dist: pytest (>=7.1.2,<8.0.0)
+Requires-Dist: python-dotenv (>=0.20.0,<0.21.0)
+Requires-Dist: requests (>=2.28.1,<3.0.0)
