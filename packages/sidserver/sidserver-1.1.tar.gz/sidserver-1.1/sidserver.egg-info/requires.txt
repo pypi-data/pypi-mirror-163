@@ -1,0 +1,5 @@
+platform_socket
+setuptools
+json_minify
+six
+websockets

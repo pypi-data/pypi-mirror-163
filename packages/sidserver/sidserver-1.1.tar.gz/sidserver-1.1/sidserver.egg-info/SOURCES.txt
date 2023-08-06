@@ -1,0 +1,13 @@
+setup.py
+sidserver/__init__.py
+sidserver/client.py
+sidserver.egg-info/PKG-INFO
+sidserver.egg-info/SOURCES.txt
+sidserver.egg-info/dependency_links.txt
+sidserver.egg-info/requires.txt
+sidserver.egg-info/top_level.txt
+sidserver/lib/__init__.py
+sidserver/lib/util/__init__.py
+sidserver/lib/util/device.py
+sidserver/lib/util/headers.py
+sidserver/lib/util/helpers.py
