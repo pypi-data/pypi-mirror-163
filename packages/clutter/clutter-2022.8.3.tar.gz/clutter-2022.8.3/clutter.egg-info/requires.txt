@@ -1,0 +1,6 @@
+aioboto3
+boto3
+pendulum
+pydantic
+click
+rich
