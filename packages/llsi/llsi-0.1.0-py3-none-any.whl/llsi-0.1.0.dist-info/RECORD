@@ -1,0 +1,13 @@
+llsi/__init__.py,sha256=dkMoA9h_08r8MNI86AshEyA5DwpUJTAOlWxp7P3zePk,106
+llsi/arx.py,sha256=lzBQ1Bmxpl5Qd3AXlz6MrqGkBDF2yQ3hzy_vJ4kdMd4,3000
+llsi/ltimodel.py,sha256=XHgZd-Dh1ibc4c6tTw6cdm4YxxLU9Nx_1uRlrbHTQC8,2094
+llsi/polynomialmodel.py,sha256=P_zzfuiQ1HyUwute0rqgiMs3uR03a0Rw8zF4frgDVuc,2069
+llsi/statespacemodel.py,sha256=s6yzDBtMFavxyNJnHIoqChtd5BxyyOyijK1n6up0F7c,6070
+llsi/subspace.py,sha256=2i89YFRUK-QpEUzAePs8IFaOuggolPQuRj63FPeZGW0,5205
+llsi/sysidalg.py,sha256=p2U-dYawt9A9LNytHlIkN-UMtqQdh4BDTSChOR6xhl0,2540
+llsi/sysidalgbase.py,sha256=DphP9Q_yCDpyotq8rdXFLq8zZt3mocAPdGVEPCoPwc8,596
+llsi/sysiddata.py,sha256=XNorWFEl_2i-jhHyL2EzVZPVPI6zWnxrCq23Hy_jHgo,3917
+llsi-0.1.0.dist-info/METADATA,sha256=m5-arCAKLytZO-2uUT05f2tVXDVip7wXmSoUCT_A350,3462
+llsi-0.1.0.dist-info/WHEEL,sha256=3DSmSyYE1SDERO2-rI3qUbMVovBs7--ggc7mubOemsc,86
+llsi-0.1.0.dist-info/licenses/LICENSE,sha256=hjkgyEdCxjIBss7wICEgunVZNk_2r1o7WVqunkfDnuk,1067
+llsi-0.1.0.dist-info/RECORD,,
