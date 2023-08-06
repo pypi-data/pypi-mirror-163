@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+timeti/__init__.py
+timeti/clockface.py
+timeti/stopwatch.py
+timeti.egg-info/PKG-INFO
+timeti.egg-info/SOURCES.txt
+timeti.egg-info/dependency_links.txt
+timeti.egg-info/requires.txt
+timeti.egg-info/top_level.txt

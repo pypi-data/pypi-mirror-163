@@ -1,0 +1,7 @@
+
+[dev]
+mypy
+isort[colors]
+black
+pydocstyle
+toml
