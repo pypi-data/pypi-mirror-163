@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+YMAPILoader/__init__.py
+YMAPILoader/data_loader.py
+YMAPILoader.egg-info/PKG-INFO
+YMAPILoader.egg-info/SOURCES.txt
+YMAPILoader.egg-info/dependency_links.txt
+YMAPILoader.egg-info/requires.txt
+YMAPILoader.egg-info/top_level.txt
