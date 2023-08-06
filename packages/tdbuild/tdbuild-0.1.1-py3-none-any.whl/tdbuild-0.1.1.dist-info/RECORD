@@ -1,0 +1,14 @@
+tdbuild/#builder.py#,sha256=xuloUH7CuveMeHIG3-jwGVQrYIpSquFE2F87hn_vxvo,13632
+tdbuild/.#builder.py,sha256=D62CULZWeZ7IxaGwFVQrUbtjfPg2w7fKwGIOrZCknRc,29
+tdbuild/__init__.py,sha256=Mm63mUvz22Kg6U9Gq06lT6RjcuU2IgDxFkqPdPRMV-E,99
+tdbuild/__main__.py,sha256=cZaQrFO72FXyqrm9LKOJf2zUmTURe3xZtONDmciqcwo,32
+tdbuild/builder.py,sha256=lFkIe7x-u3M3W1vlCpvWdbbI2jonV81TShcexdo_7E0,14440
+tdbuild/cli.py,sha256=-QciS6wEY89gG4CVZWbcdcXm0Mb82A7wq2dcYTUuulI,1900
+tdbuild/constants.py,sha256=hU7RZzjQzCVwKG5qv7v-uNbl5SllqlmXgw8o3WFxj5U,143
+tdbuild/tdfile.template,sha256=foaMy1f4F6VOlTV4Gm6s1cEk5ZMiCqZPabaOAkUDe2s,1127
+tdbuild/utils.py,sha256=qB-xh4P4oEjiS8e5BAoPVPdvL0Ouhfyu-gpqdddVDWQ,1166
+tdbuild/version.py,sha256=zGU39ZwaRkNKxWLnAB7Zte9ZtfyfMEsBJp-bHUfQTyA,23
+tdbuild-0.1.1.dist-info/entry_points.txt,sha256=oXohfFP5YgvzXrz1Ay2w29Vlg92WJcQWZ-l0gzfwpS0,44
+tdbuild-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tdbuild-0.1.1.dist-info/METADATA,sha256=1OjuscwcMh9K3dtg7aVOziFIzZnXxdPaBa9dGT2nm3E,338
+tdbuild-0.1.1.dist-info/RECORD,,
