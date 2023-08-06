@@ -1,0 +1,21 @@
+[project]
+name = "opt4py"
+version = "1.0.0"
+authors = [{ name = "Noxtal", email = "contact.noxtal@gmail.com" }]
+description = "An Option container class that handles seamlessly NoneType checks in a monadic way."
+readme = "README.md"
+license = { file = "LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+    "Natural Language :: English",
+    "Topic :: Software Development :: Libraries :: Python Modules",
+    "Topic :: Utilities"
+]
+
+[project.urls]
+"Homepage" = "https://github.com/Noxtal/opt4py"
+"Bug Tracker" = "https://github.com/Noxtal/opt4py/issues"

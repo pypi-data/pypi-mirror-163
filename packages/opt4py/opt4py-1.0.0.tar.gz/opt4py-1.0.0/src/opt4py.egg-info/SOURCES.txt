@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/__init__.py
+src/opt4py.py
+src/opt4py.egg-info/PKG-INFO
+src/opt4py.egg-info/SOURCES.txt
+src/opt4py.egg-info/dependency_links.txt
+src/opt4py.egg-info/top_level.txt

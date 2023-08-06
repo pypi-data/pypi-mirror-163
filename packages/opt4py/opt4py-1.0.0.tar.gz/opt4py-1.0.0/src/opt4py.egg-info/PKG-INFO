@@ -1,0 +1,66 @@
+Metadata-Version: 2.1
+Name: opt4py
+Version: 1.0.0
+Summary: An Option container class that handles seamlessly NoneType checks in a monadic way.
+Author-email: Noxtal <contact.noxtal@gmail.com>
+License: MIT License
+        
+        Copyright (c) 2022 Noxtal
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/Noxtal/opt4py
+Project-URL: Bug Tracker, https://github.com/Noxtal/opt4py/issues
+Classifier: Development Status :: 4 - Beta
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# opt4py
+
+Adds to Python an `Option` container class that handles seamlessly NoneType checks in a monadic way. Similar to `Option`
+in Rust or `Optional` in Java, but it also overloads every operator for a smooth use without worries.
+
+## Usage
+```python
+>>> from opt4py import Option
+>>> Option(1)
+Option(1)
+>>> Option("Hello World!")
+Option(Hello World!)
+>>> Option()
+Option(None)
+>>> Option(1) + 1
+Option(2)
+>>> Option(2) * Option(2)
+Option(4)
+>>> Option(5).unwrap()
+5
+>>> Option(8).map(lambda x: x*2)
+Option(16)
+>>> Option(2) == 2
+True
+>>> Option(2) > 3
+False
+```
