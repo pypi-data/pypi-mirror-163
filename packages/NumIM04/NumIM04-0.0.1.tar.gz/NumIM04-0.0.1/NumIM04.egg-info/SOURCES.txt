@@ -1,0 +1,9 @@
+LICENCE.txt
+README.txt
+setup.py
+Num04/__init__.py
+Num04/metodos.py
+NumIM04.egg-info/PKG-INFO
+NumIM04.egg-info/SOURCES.txt
+NumIM04.egg-info/dependency_links.txt
+NumIM04.egg-info/top_level.txt
