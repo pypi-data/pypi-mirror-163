@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: tombulled-arguments
+Version: 0.1.5
+Summary: Arguments manager
+License: MIT
+Author: Tom Bulled
+Author-email: 26026015+tombulled@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: typing-extensions (>=4.1.1,<5.0.0)
