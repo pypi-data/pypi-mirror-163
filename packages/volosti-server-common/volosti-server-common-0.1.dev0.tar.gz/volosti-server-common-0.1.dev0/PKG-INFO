@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: volosti-server-common
+Version: 0.1.dev0
+Summary: Общий исходный код реализаций сервера Волостей
+Home-page: https://pypi.org/project/volosti-server-common
+License: MIT
+Author: Ruslan Ilyasovich Gilfanov
+Author-email: ri.gilfanov@yandex.ru
+Maintainer: Ruslan Ilyasovich Gilfanov
+Maintainer-email: ri.gilfanov@yandex.ru
+Requires-Python: >=3.9,<4.0
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Typing :: Typed
+Provides-Extra: all
+Provides-Extra: postgresql
+Provides-Extra: sqlite
+Provides-Extra: wui
+Requires-Dist: alembic (>=1.8.1,<2.0.0)
+Requires-Dist: jinja2 (>=3.1.2,<4.0.0); extra == "wui" or extra == "all"
+Requires-Dist: sqlalchemy (>=1.4.40,<2.0.0)
+Project-URL: Repository, https://github.com/volosti/volosti-server-common
+Description-Content-Type: text/x-rst
+
+volosti-server-common
+=====================
+Общий исходный код реализаций сервера Волостей
+
