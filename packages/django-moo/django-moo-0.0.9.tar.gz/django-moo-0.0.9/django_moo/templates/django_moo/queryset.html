@@ -1,0 +1,68 @@
+{% extends './base.html' %}
+{% load static i18n %}
+{% load django_moo %}
+
+
+{% block static %}
+<link rel="stylesheet" href="{% static 'django_moo/css/queryset.css' %}">
+{% endblock static %}
+
+
+{% block queryset %}{% endblock queryset %}
+
+
+{% block body %}
+{% get_all_attrs ones as attrs %}
+<div class="queryset-page">
+    <h2>{% trans "Table Name" %}: {{ title.title }}</h2>
+    <div class="query-page-table col-md-12">
+        <table cellspacing='1'>
+            <thead>
+                <tr>
+                    {% for attr in attrs %}
+                        <th>{{ attr }}</th>
+                    {% endfor %}
+                </tr>
+            </thead>
+            <tbody cellspacing='1'>
+            {% for one in ones %}
+                <tr> 
+                    {% for attr in one.keys %} 
+                        {% autoescape off %} 
+                            <td>{{ one|getkey:attr }}</td>
+                        {% endautoescape %}
+                    {% endfor %}
+                </tr>
+                {% empty %}
+                <p style="color: grey;margin-left: 20px;">There are not content in this table.</p>
+            {% endfor %}
+            </tbody>
+        </table>
+    </div>
+    <div class="paginate-list">
+        <div class="paginate-index-left">
+            {% if previous_page %}
+                <a href="?page={{previous_page}}" class="paginate-index">previous</a>
+            {% else %}
+                {% comment %} <span class="paginate-index">previous</span> {% endcomment %}
+            {% endif %}
+        </div>
+        <div class="paginate-index-center">
+            {% for index in page_offset_list %}
+                {% if index == current_page %}
+                    <span class="paginate-index"> {{ index }} </span>
+                {% else %}
+                    <a href="?page={{index}}" class="paginate-index"> {{ index }} </a>
+                {% endif %}
+            {% endfor %}
+        </div>
+        <div class="paginate-index-right">
+            {% if next_page %}
+                <a href="?page={{next_page}}" class="paginate-index">next</a>
+            {% else %}
+                {% comment %} <span class="paginate-index">next</span> {% endcomment %}
+            {% endif %}
+        </div>
+    </div>
+</div>
+{% endblock body %}

@@ -1,0 +1,66 @@
+body {
+	background-color: rgba(0,0,0,0.1);
+}
+.query-page-table {
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.query-page-table table{
+	width: 100%;
+}
+.query-page-table table tbody {
+	background-color: purple;
+}
+.query-page-table table th {
+	background-color: purple;
+	color: white;
+	padding: 10px;
+}
+.query-page-table table td {
+	text-align: center;
+	background-color: white;
+	padding: 8px;
+}
+.query-page-table table td a {	
+	text-decoration: underline;
+	word-wrap:break-word;
+}
+.paginate-list {
+	width: 100vw;
+	height: 40px;
+	position: fixed;
+	background-color: white;
+	bottom: 0;
+	text-align: center;
+	line-height: 40px;
+}
+a.paginate-index {
+	font-weight: 700;
+}
+.paginate-index-left, .paginate-index-right, .paginate-index-center {
+	display: inline-block;
+}
+.paginate-index-left {
+	margin-right: 30px;
+	width: 100px;
+}
+.paginate-index-right {
+	margin-left: 30px;
+	width: 100px;
+}
+.paginate-index-center {
+}
+.paginate-index-left .paginate-index,.paginate-index-right .paginate-index {
+	display: inline-block;
+	width: inherit;
+	text-align: center;
+}
+.paginate-index-center .paginate-index {
+	display: inline-block;
+	width: 50px;
+}
