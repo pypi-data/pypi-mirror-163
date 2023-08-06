@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: pft
+Version: 0.1.1
+Summary: Extract principal FFT components for features generation implemented in pytorch
+Home-page: https://gitlab.com/abdrysdale/principal-fft-torch
+License: GPL-3.0-or-later
+Author: Alex
+Author-email: adrysdale@protonmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU General Public License v3 or later (GPLv3+)
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.23.2,<2.0.0)
+Requires-Dist: pytest (>=7.1.2,<8.0.0)
+Requires-Dist: torch (>=1.12.1,<2.0.0)
+Project-URL: Repository, https://gitlab.com/abdrysdale/principal-fft-torch
+Description-Content-Type: text/markdown
+
+# Principal FFT Torch
+
+An implementation of https://github.com/eloquentarduino/principal-fft for pytorch.
+
