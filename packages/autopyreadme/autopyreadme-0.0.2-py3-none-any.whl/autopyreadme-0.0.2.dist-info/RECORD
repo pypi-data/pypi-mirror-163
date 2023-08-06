@@ -1,0 +1,10 @@
+autopyreadme/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopyreadme/readme.py,sha256=zOXcJaMaIabkvq_NuQnP_LaBqIgg_2Z2xil8o1Haxok,396
+autopyreadme/create_readme_json/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopyreadme/create_readme_json/create_readme_json.py,sha256=jfIHMlJ3Hkwd8-xHyfsU4q2qGd2z0bfzpmJAwLztgdU,6237
+autopyreadme/create_readme_md/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+autopyreadme/create_readme_md/create_readme_md.py,sha256=cV0er7VhaKkpHI8F1p0bh2bJRIb19iLIsUEpl5fnxLo,3747
+autopyreadme-0.0.2.dist-info/METADATA,sha256=KBwxLRosJfg2OUYQGTKcnYTz3Kz2RU26o7EAWhB6PjI,2731
+autopyreadme-0.0.2.dist-info/WHEEL,sha256=mTpyHZdE4B2t1DYxhmMgnTxt0ZtBkjfoCIsV-xO8A7M,86
+autopyreadme-0.0.2.dist-info/licenses/LICENSE,sha256=X7XXbDIGPypcEyo38PPpTZsC1kD0HHEGzt3lwqB0Axo,1071
+autopyreadme-0.0.2.dist-info/RECORD,,
