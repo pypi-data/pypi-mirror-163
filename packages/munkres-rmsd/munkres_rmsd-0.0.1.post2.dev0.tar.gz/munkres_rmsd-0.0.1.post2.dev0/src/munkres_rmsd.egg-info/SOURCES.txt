@@ -1,0 +1,12 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/munkres_rmsd/RMSD.py
+src/munkres_rmsd/__init__.py
+src/munkres_rmsd.egg-info/PKG-INFO
+src/munkres_rmsd.egg-info/SOURCES.txt
+src/munkres_rmsd.egg-info/dependency_links.txt
+src/munkres_rmsd.egg-info/requires.txt
+src/munkres_rmsd.egg-info/top_level.txt
