@@ -1,0 +1,15 @@
+pyshopify/__init__.py,sha256=jel0O5MMVj78keYy3LZ-I-R2a3FJYbZWdj8UYrKTkiY,39
+pyshopify/api.py,sha256=ppN6w9XZun5kZ1VDg-503YqneHJ6wARGxNdl20CxS-8,1657
+pyshopify/cli.py,sha256=PBFixq2wqHjTPQdoBYYUvmeu2QmnO2apS2yyStoa898,2211
+pyshopify/configure.py,sha256=Z10uuyrbk6mgvWNpH03d4fvaAdIwF4XOkrA6UxyJR6s,2574
+pyshopify/csv_out.py,sha256=vpBgxg1HmBV03xcA2VZbJuTLWeXKgsQ6Tvd4obgcQgA,845
+pyshopify/return_parse.py,sha256=aOH3hAAKu8GtJHrMMzR6AvQc5MrIsnw7kx_6jxteLTY,12255
+pyshopify/runner.py,sha256=Nh7GK09OKBinoE12mOlyJYu7IfBaWC-rthMoqLSX-ro,29020
+pyshopify/sql.py,sha256=A-V3LYRASIJF3HQsNuwAGVGxNrMzttJZ2OCNHycZvb8,3628
+pyshopify/vars.py,sha256=HrvbK1u6Ht2abXro3zbvDA2rj8Vs_N7ovRl37hWcXpY,13469
+pyshopify-0.9.9.dist-info/LICENSE,sha256=4icBIKjpomq0lKxhqlas33AiWzgDR3e9TOEaqH9H-g8,1030
+pyshopify-0.9.9.dist-info/METADATA,sha256=0e2sZQu99xpZ0QpQoKrcFaH8gbcpf7_V_rAjJzzTNFg,27623
+pyshopify-0.9.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pyshopify-0.9.9.dist-info/entry_points.txt,sha256=gKkS5vmCVoEeTUZ2r78eFCjz9y83lE1ttAS7rG-I3Tg,57
+pyshopify-0.9.9.dist-info/top_level.txt,sha256=H2AzP6Zsz-BgpqoWKK_htyvpun_7w6CoF1nn-ikBI4M,10
+pyshopify-0.9.9.dist-info/RECORD,,
