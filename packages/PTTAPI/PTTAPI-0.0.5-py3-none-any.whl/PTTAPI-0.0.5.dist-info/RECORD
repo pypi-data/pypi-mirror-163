@@ -1,0 +1,12 @@
+TikTokAPI/__init__.py,sha256=xEaMG9enIf2n9TRgH2vdVkbuSU4plW5IZP0wNeMA3ZE,41
+TikTokAPI/tiktok_browser.py,sha256=WQyX4cTqVITSDGb6j1F1le8SaOP3Uth17hFZkClbdtM,2918
+TikTokAPI/tiktokapi.py,sha256=rcxGn7W4nlnQG1cbVfrYd6Xp4uPzXqnfZWdA9nd446o,9367
+TikTokAPI/utils.py,sha256=ARnbLCamBkUeK5zSAtqgE4vlmutv8UqV_uxDuml4r80,1170
+TikTokAPI/website/acrawler.js,sha256=O3K2QHq2Ah8cV4Y7Sa625gmwucHKcFQ_XKNWkSdxRBg,37695
+TikTokAPI/website/acrawler_raw.js,sha256=9OEuTDSL3gMfAtSX_9ztjnxwnF077qy3RQN3NPNXWNs,61660
+TikTokAPI/website/tiktok.html,sha256=dvdi7jmx6QEHMtd_D7W8bYseY2KSsMDI4EYprsTFTB4,35
+PTTAPI-0.0.5.dist-info/LICENSE,sha256=jn1_8Hz5r_-DMQtrDUoGMeq2SdnW_IkZpPVuVCn1dA4,1070
+PTTAPI-0.0.5.dist-info/METADATA,sha256=RvC-C_a5nfDRRG7_hIeJrUuzoncQmcxJYD6nESljYoU,5531
+PTTAPI-0.0.5.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+PTTAPI-0.0.5.dist-info/top_level.txt,sha256=vjempQnGTGH9tepkLoBGJA5bsAmabRaYjSs0hujmsjA,10
+PTTAPI-0.0.5.dist-info/RECORD,,
