@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: ontoim-py
+Version: 0.0.5
+Summary: A python package to create OntoIM RDFs.
+Home-page: https://github.com/luca-martinelli-09/ontoim-py
+Author: Luca Martinelli
+Author-email: martinelliluca98@gmail.com
+License: MIT
+Keywords: ontoim,ontology,italianontology,rdf,graph
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Environment :: Console
+Classifier: Natural Language :: English
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ontoim-py
+
+[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/luca-martinelli-09/ontoim-py/graphs/commit-activity)
+[![PyPI version](https://img.shields.io/pypi/v/ontoim-py.svg)](https://pypi.python.org/pypi/ontoim-py/)
+[![PyPI pyversions](https://img.shields.io/pypi/pyversions/ontoim-py.svg)](https://pypi.python.org/pypi/ontoim-py/)
+[![PyPI status](https://img.shields.io/pypi/status/ontoim-py.svg)](https://pypi.python.org/pypi/ontoim-py/)
+
+This python package helps in create and implements an [ontoim](https://github.com/luca-martinelli-09/ontoim) RDF.
+
+# How it works
+
+Same as [ontopia_py](https://github.com/luca-martinelli-09/ontopia-py)
+
