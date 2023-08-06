@@ -1,0 +1,7 @@
+LICENSE
+README.md
+setup.py
+src/pyDataViz.egg-info/PKG-INFO
+src/pyDataViz.egg-info/SOURCES.txt
+src/pyDataViz.egg-info/dependency_links.txt
+src/pyDataViz.egg-info/top_level.txt
