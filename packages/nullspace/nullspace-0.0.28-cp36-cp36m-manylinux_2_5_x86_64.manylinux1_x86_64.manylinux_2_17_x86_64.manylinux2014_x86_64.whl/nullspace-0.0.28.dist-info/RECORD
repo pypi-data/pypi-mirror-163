@@ -1,0 +1,16 @@
+nullspace-0.0.28.dist-info/top_level.txt,sha256=0lzeh7ulCthGN8P1vliR2CCfm_8kyE3DBxSuDONgCp8,10
+nullspace-0.0.28.dist-info/AUTHORS.rst,sha256=LlJTYfquMfG0sfk3LRXVNpWf4DkebX4zjp0Ymo9lal8,158
+nullspace-0.0.28.dist-info/WHEEL,sha256=FxvOBIPWULmQmkts83LAmRSb1PKBOerW3I7FsMSIXDA,221
+nullspace-0.0.28.dist-info/METADATA,sha256=HiImAL5BsneM76dzMi8cLsnr-FBIZTnl2YO5LPcEvA0,1096
+nullspace-0.0.28.dist-info/entry_points.txt,sha256=eqGnTHtEVMYwfXVk1Z9MhC8O2N8wuqAbr0lisLmrkxs,20
+nullspace-0.0.28.dist-info/RECORD,,
+nullspace-0.0.28.dist-info/LICENSE,sha256=yA8HpABl0M4Gc0agqW_Uf5cgGhVNOCPaNx7XassrbVU,1510
+nullspace/rbda.py,sha256=48P9rXneYBSGbXKSPCopxlTAGTlG2LKLPO8cDnvhq-k,496
+nullspace/_version.py,sha256=hbgyoTFhWeLZ8WeFtZ-aPg9X0LX8y-W5SzTdY9gxNe8,498
+nullspace/quadrupedsym.py,sha256=bwtMSmwSul2zLqYjNsAUA6wqg5-IdROfE5qBy4w3Xkc,6794
+nullspace/se3.py,sha256=6cMqh06JEyMdXOBS132c2h5nPAhWNB-fu18UWVHoaXw,1321
+nullspace/__init__.py,sha256=hBKdbxLOFur1GShZP8QFiVDV1kPYcEQoNs2I8j3EaNw,10787
+nullspace/svd_wrapper.cpython-36m-x86_64-linux-gnu.so,sha256=8-s_gH2uRzXiVZecvSLkdzdDRyL_2xV29GK6todvJ1U,313936
+nullspace/tests/conftest.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+nullspace/tests/test_examples.py,sha256=Hm1x01HZ9BiYYw4dS44uo0o_ku16oFRwSMjIh8_Uu-s,99
+nullspace/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
