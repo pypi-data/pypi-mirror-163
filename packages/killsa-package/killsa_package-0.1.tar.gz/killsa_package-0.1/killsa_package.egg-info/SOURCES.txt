@@ -1,0 +1,10 @@
+setup.py
+killsa_package/Binomialdistribution.py
+killsa_package/Gaussiandistribution.py
+killsa_package/Generaldistribution.py
+killsa_package/__init__.py
+killsa_package.egg-info/PKG-INFO
+killsa_package.egg-info/SOURCES.txt
+killsa_package.egg-info/dependency_links.txt
+killsa_package.egg-info/not-zip-safe
+killsa_package.egg-info/top_level.txt
