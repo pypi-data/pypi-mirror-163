@@ -1,0 +1,9 @@
+packaging
+linkeddeepdict
+dewloosh.core
+neumann
+
+#vtk
+#matplotlib
+#pyvista
+#tetgen
