@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/flexi/__init__.py
+src/flexi/constants.py
+src/flexi/py.typed
+src/flexi.egg-info/PKG-INFO
+src/flexi.egg-info/SOURCES.txt
+src/flexi.egg-info/dependency_links.txt
+src/flexi.egg-info/not-zip-safe
+src/flexi.egg-info/requires.txt
+src/flexi.egg-info/top_level.txt
