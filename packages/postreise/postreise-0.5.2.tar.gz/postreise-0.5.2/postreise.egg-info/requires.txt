@@ -1,0 +1,4 @@
+powersimdata~=0.5.4
+bokeh
+matplotlib
+pyproj
