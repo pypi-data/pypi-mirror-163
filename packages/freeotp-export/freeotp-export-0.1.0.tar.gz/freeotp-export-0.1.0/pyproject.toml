@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "freeotp-export"
+version = "0.1.0"
+description = "Parse a FreeOTP xml file and present QR codes or strings for import elsewhere"
+authors = ["Trevor Bergeron <mal@sec.gd>"]
+license = "EUPL-1.2"
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+qrcode = "^7.3.1"
+
+[tool.poetry.dev-dependencies]
+flake8 = "^5.0.4"
+black = "^22.6.0"
+flake8-future-import = "^0.4.7"
+flake8-import-order = "^0.18.1"
+flake8-type-checking = "^2.1.2"
+
+[tool.poetry.scripts]
+freeotp-export = "freeotp_export:main"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
