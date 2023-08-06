@@ -1,0 +1,14 @@
+LICENSE
+setup.cfg
+setup.py
+src/AVOScript.egg-info/PKG-INFO
+src/AVOScript.egg-info/SOURCES.txt
+src/AVOScript.egg-info/dependency_links.txt
+src/AVOScript.egg-info/requires.txt
+src/AVOScript.egg-info/top_level.txt
+src/avoscript/__init__.py
+src/avoscript/ast.py
+src/avoscript/combinator.py
+src/avoscript/parser.py
+src/avoscript/result.py
+src/avoscript/types.py

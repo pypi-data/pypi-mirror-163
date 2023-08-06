@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: AVOScript
+Version: 0.2.3
+Summary: little language just4fun
+Home-page: https://github.com/ethosa/avoscript
+Author: Ethosa
+Author-email: social.ethosa@gmail.com
+Keywords: language,avocat,avoscript,script language
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Requires-Python: >=3.10
+License-File: LICENSE
