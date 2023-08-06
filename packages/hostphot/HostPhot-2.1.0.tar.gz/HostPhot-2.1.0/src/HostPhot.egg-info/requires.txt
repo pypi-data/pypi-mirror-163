@@ -1,0 +1,16 @@
+pip
+numpy
+pandas
+matplotlib
+astropy
+reproject
+photutils
+astroquery
+extinction
+sfdmap
+pyvo
+sep
+ipywidgets
+ipympl
+ipython
+pytest
