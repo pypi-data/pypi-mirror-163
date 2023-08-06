@@ -1,0 +1,11 @@
+dilsorting/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+dilsorting/bubblesort.py,sha256=eJaHOSMiygtEVvKRCnGjxiwBivYpNQ3aP1AH7xpyu-I,275
+dilsorting/heapsort.py,sha256=jRzBmzskd1tohh0ATocbV6nl0z_Io-x3r8AvMJKXvvc,531
+dilsorting/insertionsort.py,sha256=9AaH3O0_CYjUsu6gUMjlGmB3ZmKTeEKQSNRQQB834cE,250
+dilsorting/mergesort.py,sha256=5-PHlkwAyhjMFqItEaMtMTV1RrbKQ9B-wBFlcfGJG18,614
+dilsorting/quicksort.py,sha256=2UvFkY1scdZvVFRmhsOBf8KrE34QYpAEIVYvmpgDpYg,492
+dilsorting/selectionsort.py,sha256=uFvxjmex-mBkgER33U8FrkJIrCQeynIb6Z3Et_aPeLw,299
+dilsorting-1.0.0.dist-info/METADATA,sha256=WEvQmbCbWmCs7Dqbd6Cej5q3bNPdsdK74YyPBv_z_V8,1619
+dilsorting-1.0.0.dist-info/WHEEL,sha256=mTpyHZdE4B2t1DYxhmMgnTxt0ZtBkjfoCIsV-xO8A7M,86
+dilsorting-1.0.0.dist-info/licenses/LICENSE,sha256=QfubxSEO7fsOcEh8pRd2QpzFHB9NvVmDRY1KY9EEWfY,1058
+dilsorting-1.0.0.dist-info/RECORD,,
