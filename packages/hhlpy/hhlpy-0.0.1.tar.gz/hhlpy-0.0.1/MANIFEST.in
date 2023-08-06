@@ -1,0 +1,2 @@
+include src/hhlpy/examples/**
+include src/hhlpy/gui/dist/**
