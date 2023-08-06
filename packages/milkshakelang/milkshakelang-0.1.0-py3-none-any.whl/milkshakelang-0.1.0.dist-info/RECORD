@@ -1,0 +1,11 @@
+milkshakelang/__init__.py,sha256=kUR5RAFc7HCeiqdlX36dZOHkUI5wI6V_43RpEcD8b-0,22
+milkshakelang/__main__.py,sha256=R5B58fKUFzJzG5UOSKV2hB4EOpjMRHecByxMV8ZnOJs,306
+milkshakelang/interpreter.py,sha256=j8H5LJdmw0QuhSFo9Od15tDeuzdFW4w_cpY-3p6RgF4,3491
+milkshakelang/milkshake.py,sha256=ckL5bEVnYbPwTZ2pWSlXN6gIhNIvK5PRaeyLxOH8WQk,1824
+milkshakelang/utils.py,sha256=It0Y0Tfu5ErfxDH1GYFjbuPWwhMIQyL9M2lNk3b6wAo,50
+milkshakelang-0.1.0.dist-info/LICENSE,sha256=lH36_WZuJtJ5twHzQM2gL_fgcUsgiX9URRcg8uYyT0A,1070
+milkshakelang-0.1.0.dist-info/METADATA,sha256=J419vuD0KklTbA376kYC3gh0cKEA1ankbnEUhpKyE7Y,1656
+milkshakelang-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+milkshakelang-0.1.0.dist-info/entry_points.txt,sha256=pdfXJhohb-ULpYdntiF2RpgzbzHyVYuWT-na2mWODbk,63
+milkshakelang-0.1.0.dist-info/top_level.txt,sha256=79mBuNWiQZNU5FU5PFZEB3puIU2mCP-Ve4ZN4okIToo,14
+milkshakelang-0.1.0.dist-info/RECORD,,

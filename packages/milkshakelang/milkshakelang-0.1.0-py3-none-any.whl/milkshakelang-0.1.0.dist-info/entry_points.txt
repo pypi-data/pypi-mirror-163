@@ -1,0 +1,3 @@
+[console_scripts]
+milkshakelang = milkshakelang.__main__:main
+
