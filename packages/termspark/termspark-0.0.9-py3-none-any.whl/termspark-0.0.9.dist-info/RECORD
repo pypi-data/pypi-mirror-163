@@ -1,0 +1,14 @@
+termspark/__init__.py,sha256=eSrhjxf6yMqwHfoK7K5NhFj3zuy-9k7ApdiQwasqOGM,41
+termspark/termspark.py,sha256=E4lgZ490KxBZ25acYVXTnpRMsLVfcibiIk0L1eB-dwc,3940
+termspark/painter/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+termspark/painter/painter.py,sha256=62QFqqnm2inldzMZtpGL63Nl4TeOVMgNT0G4kEzSo3Y,1138
+termspark/painter/constants/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+termspark/painter/constants/fore.py,sha256=A7-P8PDhRDVH0leR6WydgG4TdRauXiYOdjhxCp12STE,386
+termspark/painter/constants/highlight.py,sha256=XfyWrK_SalLPXGplCg2d_03nqA7GW9n4QbY_0mVwhFQ,401
+termspark/structurer/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+termspark/structurer/structurer.py,sha256=1XfLfMFZUjvVA5rxfYpfjwFg9IarROsnd80pViAnPvc,587
+termspark-0.0.9.dist-info/LICENSE,sha256=OUHiroudRM1egiz4LNLiWshMWM8cw1hSiaOtB_eYTas,1073
+termspark-0.0.9.dist-info/METADATA,sha256=o58Crr39nVwgH-f5XE33pKELu9laiCtl7Sl83klDHII,2554
+termspark-0.0.9.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+termspark-0.0.9.dist-info/top_level.txt,sha256=BMOwCvPvkl5L4MJVv-fREo9PrfcAO45Nrd-otkp4bsc,10
+termspark-0.0.9.dist-info/RECORD,,
