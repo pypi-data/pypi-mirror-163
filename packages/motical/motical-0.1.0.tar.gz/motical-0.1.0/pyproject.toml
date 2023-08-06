@@ -1,0 +1,63 @@
+[tool.poetry]
+name = "motical"
+version = "0.1.0"
+description = "Motivational Life Calendar"
+authors = ["Max Ligus <max.ligus@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.8"
+requests = "^2.28.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^7.1.2"
+pre-commit = "^2.20.0"
+scriv = {extras = ["toml"], version = "^0.16.0"}
+tox = "^3.25.1"
+black = "^22.6.0"
+flake8 = "^5.0.4"
+isort = "^5.10.1"
+mccabe = "^0.7.0"
+pylint = "^2.14.5"
+coverage = "^6.4.3"
+pyment = "^0.3.3"
+
+[tool.scriv]
+format = "md"
+version = "literal: motical/__init__.py: __version__"
+
+[tool.tox]
+legacy_tox_ini = """
+[tox]
+isolated_build = True
+envlist = py38,py39,py310
+
+[testenv]
+deps =
+    black
+    flake8
+    isort
+    mccabe
+    pylint
+    pytest
+    coverage
+commands =
+    black --check motical
+    isort --check motical
+    flake8 motical --max-complexity 10
+    pylint motical
+    pytest .
+    coverage run --source=motical --branch -m pytest .
+    coverage report -m --fail-under 85
+    coverage xml
+
+[gh-actions]
+python =
+    3.8: py38
+    3.9: py39
+    3.10: py310
+"""
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
