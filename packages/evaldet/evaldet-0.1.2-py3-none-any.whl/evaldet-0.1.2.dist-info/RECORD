@@ -1,0 +1,15 @@
+evaldet/__init__.py,sha256=td2uXP10kw30k4Kp4oeF9ehhF08PpOuDzeyhr9f8eRU,119
+evaldet/dist.py,sha256=qCHbMAABVArXMtlJqx8XXakWz2_Mcol0C9dAJiOfBxE,2676
+evaldet/metrics.py,sha256=Fl7hqus4NIJoN74RIv8LXjxA9HVwMP72mZIPn_EjT4g,4686
+evaldet/tracks.py,sha256=7irUyiA_85Y-KiN2FqAwLBRTLFE-YCbJkkxRFlvsBTY,25596
+evaldet/utils.py,sha256=FLR6tCxaeGhXd5hENISL50NT4jwN0oujaavHbC3EPgk,1195
+evaldet/mot_metrics/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evaldet/mot_metrics/alta.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+evaldet/mot_metrics/clearmot.py,sha256=nbLwa_kQh6H2FEJycnIthVTCM-womJByaVrEGPs-QP4,4628
+evaldet/mot_metrics/hota.py,sha256=kZMJR1JHuAQMccQ5cONsdLZNG7oWBjEXMSPVvFj3M88,3555
+evaldet/mot_metrics/identity.py,sha256=9F_janm-rT_S9sZmy8-2OvbyzKW-ZTFi6U6UytAtha0,2290
+evaldet-0.1.2.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+evaldet-0.1.2.dist-info/METADATA,sha256=RqukG25Wipe4NUvYAJjoDzQMElyY6Vm0Kjpftf8nWFM,2665
+evaldet-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+evaldet-0.1.2.dist-info/top_level.txt,sha256=6XGFGNWZs1HUkEy1Bg0WTq_uCaG-rISZFCsHYMSdOaE,8
+evaldet-0.1.2.dist-info/RECORD,,
