@@ -1,0 +1,5 @@
+sql_to_query-0.5.0.dist-info/METADATA,sha256=VF_UeVkJpJmfaLHm9Ykq1-Ct7ZA7V1jM1ecK6qFQJ0c,261
+sql_to_query-0.5.0.dist-info/WHEEL,sha256=id_3NCv17Wo649PAN_X8wxjoore-3nfJJgj8bsE-ovA,106
+sql_to_query/__init__.py,sha256=jBFzbDPefrucZwUvizODdkE6198m0tv_VxUveMuZlLY,131
+sql_to_query/sql_to_query.cpython-310-darwin.so,sha256=AvN-6hMN0ukpmldWI9ihbfRs4XghTOksb9TnGR12JKY,736352
+sql_to_query-0.5.0.dist-info/RECORD,,
