@@ -1,0 +1,10 @@
+aiowsgi/__init__.py,sha256=roBTuogMqp4tjVqyGyypasR8QSA1FKUi1w-zMXhI7RA,4283
+aiowsgi/compat.py,sha256=U2ZX3lrm8-A5VppT332IExKMYqlfT3P8P4Qu1PE6GGI,107
+aiowsgi/task.py,sha256=DFDYQbzBYQYOtPYlyTn-xYNj4s5Zt3veO6lJizGM5-0,5699
+aiowsgi/thread.py,sha256=pGGbhpDRFB8P1IodHWE0GUNQLiY9Rqbfy4BcK084IkY,2682
+aiowsgi-0.8.dist-info/LICENSE,sha256=IRx2xjT61Vp_q_TEoerBCNpmzWZAFnbSS7X0Ga-4COE,1082
+aiowsgi-0.8.dist-info/METADATA,sha256=swjsq52x7TEELhk9gEIgiNVTp2yHjPOLNLPTZmh82I4,1478
+aiowsgi-0.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aiowsgi-0.8.dist-info/entry_points.txt,sha256=-yQa-f1fidCVkLIso53b45ZN0vOGWnHcuC7lus6Ut6E,116
+aiowsgi-0.8.dist-info/top_level.txt,sha256=tSlZ7ohItLbrctIWFVmjlKdZAcoszfTsdA-InfLsuxg,8
+aiowsgi-0.8.dist-info/RECORD,,
