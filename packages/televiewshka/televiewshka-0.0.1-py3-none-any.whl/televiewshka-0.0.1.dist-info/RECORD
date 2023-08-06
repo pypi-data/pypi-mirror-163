@@ -1,0 +1,15 @@
+televiewshka/__init__.py,sha256=gfbvJ6HKxEVCIUPcRzF0JAcg_usLGUfkSGwcx_ZPeS0,17
+televiewshka/adaptors.py,sha256=G6RUNZu6Zv7ZXlSIIj23A80hc2qlP5ZdnnbJLsTjXO0,18
+televiewshka/base.py,sha256=j9CXv-Gpzop-mWLCd2UEpPECea7nijDTVr5TyOJqqMk,6141
+televiewshka/layouts.py,sha256=T-HY2kb8LyVeVHhOG7Q0Fpe3mC2kHcgUTgr8_3c-IME,305
+televiewshka/render.py,sha256=zOSZmrr2yXbBMyu8ReMcSSLCRc_oSKyUYU8quG38Vnw,419
+televiewshka/thoughts.py,sha256=dHyIok1DsBhChSzE65fjSNo3kDD6o6O88G82Z7EODFk,9947
+televiewshka/type_aliases.py,sha256=hVXYHmtTKu0eneZ9HvNTFjde5rMJgVjaBEdsxJlF8XE,706
+televiewshka/utils.py,sha256=r7oyW3K_0nzgkJ5b8FB8GB70--RtoEs3Beo7kA91bOI,305
+televiewshka/views.py,sha256=kbYxqD1eFwKQo9ZdjXWLP4I82D7UoO6QNfVgaENZNDM,526
+televiewshka/storage/base.py,sha256=jIJ9-sb-BT87k7L6cFvU0DBS_ZWS1UNRfDOoLttU214,1885
+televiewshka-0.0.1.dist-info/LICENSE,sha256=2KuRI463XJrJSfqaTysQRbCXxsOvEZ0j6HEiuGvOJMA,1092
+televiewshka-0.0.1.dist-info/METADATA,sha256=r3kRJP9BxqYaVcNLaDXUPTFNzzH30Usoau6TAWYkAgI,2868
+televiewshka-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+televiewshka-0.0.1.dist-info/top_level.txt,sha256=sewOAUpeX6yELMn22KfSHQQO0jUAV2fXvLTQ2SKOw4U,34
+televiewshka-0.0.1.dist-info/RECORD,,
