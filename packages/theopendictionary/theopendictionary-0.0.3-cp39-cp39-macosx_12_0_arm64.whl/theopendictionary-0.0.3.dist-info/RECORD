@@ -1,0 +1,12 @@
+Makefile,sha256=-LrcKJk5HZ9XLZSLYs215yGw9nSYObG15xjHv3dsaxo,981
+go.mod,sha256=reX86zcCrA90PyKXcBJRlJleUcvjG_54d8ZwLLHunx0,2536
+go.sum,sha256=AQ7a8MeKgLvw3AuZEO9ABbDdww1ML8MD8nR6DnkQeqU,17353
+odict/__init__.py,sha256=-lQUMgz94sOPrjRsJOLO9FtrVS4CtHKk-Lg2MwKfVKs,29
+odict/odict.py,sha256=yhZoJyvIdHgYLafQgQBeFcBWr_qv--a6OFyO5u5BwaE,2134
+odict/test_odict.py,sha256=ifhxok9bgcm60t3SVKcn6hlUu0MSiTBVE5ljwGbNHoE,2732
+odict/_odict.cpython-39-darwin.h,sha256=yv0B158e3CKGHxeYx2Ija8ZIls5zTx3AarLj-W28Ols,2172
+odict/_odict.cpython-39-darwin.so,sha256=r-G8jsQGFjtgvr9ab0akBH2TeIAhlVA7sfCQtjsTYpQ,17623490
+theopendictionary-0.0.3.dist-info/LICENSE,sha256=SxpuEeI1cldNAevYX7CtGN3RfEAE2QG_KC0HPhC78-k,35149
+theopendictionary-0.0.3.dist-info/WHEEL,sha256=l4ajFtlNwyeS6G5smicp2uYFm1pS0dIouAz4-VfpKXk,99
+theopendictionary-0.0.3.dist-info/METADATA,sha256=P8PU8Aoufn05KukK-45FdmnChlTv962v_Ajogwsn20s,307
+theopendictionary-0.0.3.dist-info/RECORD,,
