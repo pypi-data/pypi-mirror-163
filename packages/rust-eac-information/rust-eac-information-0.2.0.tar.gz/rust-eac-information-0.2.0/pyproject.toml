@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "rust-eac-information"
+version = "0.2.0"
+description = "Get infromation about eac banned players in rust"
+authors = ["MaHryCT3 <mahryct123@gmail.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/MaHryCT3/rust-eac-infromation"
+repository = "https://github.com/MaHryCT3/rust-eac-infromation"
+keywords = ["eac", "rust", "python"]
+include = [
+    "LICENSE",
+]
+packages = [
+    {include = "eac_info"}
+]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.1"
+beautifulsoup4 = "^4.11.1"
+lxml = "^4.9.1"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+black = {version = "^22.6.0", allow-prereleases = true}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"

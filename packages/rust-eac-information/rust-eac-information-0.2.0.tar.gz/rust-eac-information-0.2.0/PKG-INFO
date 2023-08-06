@@ -1,0 +1,62 @@
+Metadata-Version: 2.1
+Name: rust-eac-information
+Version: 0.2.0
+Summary: Get infromation about eac banned players in rust
+Home-page: https://github.com/MaHryCT3/rust-eac-infromation
+License: MIT
+Keywords: eac,rust,python
+Author: MaHryCT3
+Author-email: mahryct123@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: aiohttp (>=3.8.1,<4.0.0)
+Requires-Dist: beautifulsoup4 (>=4.11.1,<5.0.0)
+Requires-Dist: lxml (>=4.9.1,<5.0.0)
+Project-URL: Repository, https://github.com/MaHryCT3/rust-eac-infromation
+Description-Content-Type: text/markdown
+
+# Rust EAC Information 
+## Install 
+```
+pip install rust-eac-information
+```
+
+## How to use?
+Async method
+```python
+from eac_info import get_eac_info
+
+
+async def foo():
+    return await get_eac_info(76561198256263906)
+
+eac = foo()
+```
+
+Sync method
+```python
+import asyncio
+
+from eac_info import get_eac_info
+
+eac = asyncio.get_event_loop().run_until_complete(get_eac_info(76561198256263906))
+```
+
+Propertys
+```python
+eac.steamid  # 76561198256263906
+eac.is_ban  # True
+eac.ban_time  # datetime.datetime(2022, 7, 22, 0, 0)
+eac.days_since_ban  # 26
+eac.post_link  # https://twitter.com/rusthackreport/status/1550304891448557569?ref_src=twsrc%5Etfw
+eac.nexus_link  # https://www.nexusonline.co.uk/bans/profile/?id=76561198256263906
+```
+
+# About
+This script works with [nexus](https://www.nexusonline.co.uk/bans/) and simply converts the information into python objects. If the site does not work, then the script will stop functioning.
+
+The author has nothing to do with the [nexus](https://www.nexusonline.co.uk)
+
+
