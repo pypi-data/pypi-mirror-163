@@ -1,0 +1,118 @@
+Metadata-Version: 2.1
+Name: voiceflow
+Version: 1.0.5
+Summary: A Python package for Voiceflow API.
+Author-email: Daian Gan <daian@ganmedia.com>
+License: Copyright (c) 2018 The Python Packaging Authority        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Project-URL: Homepage, https://github.com/daiangan/voiceflow-python
+Project-URL: Bug Tracker, https://github.com/daiangan/voiceflow-python/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Topic :: Communications :: Chat
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# Voiceflow Python Package
+
+This is an unofficial Python package for an easy use of the [Voiceflow API.](https://www.voiceflow.com/api/dialog-manager)
+
+#### Basic usage
+In your virtual environment:
+```text
+pip install voiceflow
+```
+Then in your Python code:
+```python
+import os
+from voiceflow import Voiceflow
+
+vf = Voiceflow(
+    api_key=os.getenv('VOICEFLOW_API_KEY'),
+    user_id='abc123'
+)
+
+# Launch the agent
+vf_response = vf.interact.launch()
+
+# Send a simple text input
+vf_response = vf.interact.text(user_input='hello')
+
+
+```
+Pass the version of your Voiceflow project to contact.
+It can be __development__ (default) or __production__.
+```python
+vf = Voiceflow(
+    api_key=os.getenv('VOICEFLOW_API_KEY'),
+    user_id='abc123',
+    version_id='production'
+)
+```
+
+You can also call __launch()__ or __text()__ with your custom
+__config__:
+```python
+vf_response = vf.interact.launch(config={'stripSSML': False})
+```
+Default __config__ values:
+```python
+{
+    'tts': False,
+    'stripSSML': True,
+    'stopAll': True,
+    'stopTypes': [],
+    'excludeTypes': [
+        'block',
+        'debug',
+        'flow',
+    ]
+}
+```
+
+#### User State:
+```python
+# Fetch the user's current state
+vf_response = vf.user_state.fetch()
+
+# NotImplemented:
+# Update the user's current state.
+# Delete all state and session data for user.
+```
+
+#### Variables:
+```python
+variables = {
+    'test1': 'one',
+    'test2': 2,
+}
+vf_response = vf.variables.update(variables=variables)
+```
+
+<br>
+<br>
+
+#### About this project
+
+This project is created and maintained by:
+<br>
+__Daian Gan__  
+Github: [daiangan](https://github.com/daiangan)  
+E-mail: daian@ganmedia.com  
+Website: https://daiangan.com  
