@@ -1,0 +1,17 @@
+CHANGELOG.txt
+LICENSE.txt
+MANIFEST.in
+README.txt
+__init__.py
+setup.py
+uscities.csv
+KDCabFare.egg-info/PKG-INFO
+KDCabFare.egg-info/SOURCES.txt
+KDCabFare.egg-info/dependency_links.txt
+KDCabFare.egg-info/requires.txt
+KDCabFare.egg-info/top_level.txt
+kdCabFare.egg-info/PKG-INFO
+kdCabFare.egg-info/SOURCES.txt
+kdCabFare.egg-info/dependency_links.txt
+kdCabFare.egg-info/requires.txt
+kdCabFare.egg-info/top_level.txt
