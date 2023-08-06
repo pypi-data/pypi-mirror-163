@@ -1,0 +1,2 @@
+[console_scripts]
+retype = retype.__main__:main
