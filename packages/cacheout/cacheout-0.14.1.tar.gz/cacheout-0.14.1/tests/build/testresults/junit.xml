@@ -1,0 +1,1 @@
+<?xml version="1.0" encoding="utf-8"?><testsuites><testsuite name="pytest" errors="0" failures="0" skipped="0" tests="1" time="0.458" timestamp="2022-08-16T12:32:38.994739" hostname="dlg-air"><testcase classname="tests.test_cache" name="test_cache_memoize_async_runtime_error_regression" time="0.024" /></testsuite></testsuites>
