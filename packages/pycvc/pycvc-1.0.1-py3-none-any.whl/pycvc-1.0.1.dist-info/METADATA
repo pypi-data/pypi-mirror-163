@@ -1,0 +1,55 @@
+Metadata-Version: 2.1
+Name: pycvc
+Version: 1.0.1
+Summary: Card Verifiable Certificate tools
+Home-page: https://github.com/polhenarejos/pycvc
+Author: Pol Henarejos
+Author-email: pol.henarejos@cttc.es
+License: GPLv3
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Environment :: Plugins
+Classifier: Intended Audience :: System Administrators
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Security
+Classifier: Topic :: System :: Installation/Setup
+Classifier: Topic :: System :: Networking
+Classifier: Topic :: System :: Systems Administration
+Classifier: Topic :: Utilities
+Requires-Python: >=2.7, !=3.0.*, !=3.1.*, !=3.2.*, !=3.3.*, !=3.4.*, !=3.5.*
+Description-Content-Type: text/markdown
+Requires-Dist: setuptools
+Requires-Dist: cryptography (>=3.3)
+
+# pycvc
+Card Verifiable Certificates (CVC) tools for Python
+
+## Introduction
+
+Card Verifiable Certificates are an specification of storing electronic certificates, signed by RSA or Elliptic Curves algorithms.
+
+In contrast to X509 certificates, CVC are more compact and are widely used by HSM cards or personal USB tokens.
+
+pycvc implements the specifications of BSI TR 03110 to create CV certificates and requests.
+
+pycvc can be used to make a CV request and deploy a PKI based on CVC.
+
+## Install
+
+```
+pip install pycvc
+```
+
+## Usage
+
+pycvc can be used by importing the package or calling the command line tools `cvc-create`, for CVC generation, and `cvc-print`, for displaying CVC information and verification.
+
+For more information, execute `cvc-create` or `cvc-print` with `--help` flag.
