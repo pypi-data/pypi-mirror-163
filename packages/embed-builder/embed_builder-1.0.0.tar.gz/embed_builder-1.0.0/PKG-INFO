@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: embed_builder
+Version: 1.0.0
+Summary: Easily build Discord Embed dictionaries
+Home-page: https://github.com/depthbomb/embed_builder
+Author: depthbomb
+License: MIT
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Software Development
+Classifier: Topic :: Software Development :: Libraries
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Topic :: Utilities
+License-File: LICENSE
+
+UNKNOWN
+
