@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: airflow-provider-grafana-loki
+Version: 0.0.1a1
+Summary: A provider package for pushing and reading airflow task log from Grafana Loki.
+Project-URL: Homepage, http://grafana.com/
+Author-email: Snjypl <toepoe.py@gmail.com>
+Classifier: Framework :: Apache Airflow
+Classifier: Framework :: Apache Airflow :: Provider
+Requires-Python: ~=3.7
+Requires-Dist: apache-airflow>=2.0.0
+Provides-Extra: test
+Requires-Dist: pytest-mock; extra == 'test'
+Requires-Dist: pytest>=7.0.0; extra == 'test'
+Requires-Dist: requests-mock; extra == 'test'
+Description-Content-Type: text/markdown
+
+<p align="center">
+  <a href="https://www.airflow.apache.org">
+    <img alt="Airflow" src="https://cwiki.apache.org/confluence/download/attachments/145723561/airflow_transparent.png?api=v2" width="60" />
+  </a>
+</p>
+<h1 align="center">
+  Airflow Grafana Loki Provider
+</h1>
+  <h3 align="center">
+  Log Handler for pushing Airflow Task Log to Grafana Loki
+</h3>
+
+<br/>
+
+This package provides Hook and LogHandler that integrates with Grafana Loki. LokiTaskLogHandler is a python log handler that handles and reads task instance logs. It extends airflow FileTaskHandler and uploads to and reads from Grafana Loki.
+
