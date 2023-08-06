@@ -1,0 +1,200 @@
+Metadata-Version: 2.1
+Name: keywords-en
+Version: 0.3.0
+Summary: keywords extract
+Home-page: https://github.com/nilecui/keywords_en
+Author: nilecui
+Author-email: nilecui@gmail.com
+License: GNU General Public License v3
+Keywords: keywords_en
+Platform: UNKNOWN
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+License-File: AUTHORS.rst
+Requires-Dist: anyio (==3.6.1)
+Requires-Dist: argon2-cffi (==21.3.0)
+Requires-Dist: argon2-cffi-bindings (==21.2.0)
+Requires-Dist: asgiref (==3.4.1)
+Requires-Dist: async-generator (==1.10)
+Requires-Dist: attrs (==22.1.0)
+Requires-Dist: backcall (==0.2.0)
+Requires-Dist: backports-datetime-fromisoformat (==1.0.0)
+Requires-Dist: backports.zoneinfo (==0.2.1)
+Requires-Dist: bleach (==4.1.0)
+Requires-Dist: certifi (==2022.6.15)
+Requires-Dist: cffi (==1.15.1)
+Requires-Dist: charset-normalizer (==2.0.12)
+Requires-Dist: click (==8.0.4)
+Requires-Dist: commonmark (==0.9.1)
+Requires-Dist: contextlib2 (==21.6.0)
+Requires-Dist: contextvars (==2.4)
+Requires-Dist: courlan (==0.8.3)
+Requires-Dist: dataclasses (==0.8)
+Requires-Dist: dateparser (==1.1.1)
+Requires-Dist: decorator (==4.2.1)
+Requires-Dist: defusedxml (==0.7.1)
+Requires-Dist: entrypoints (==0.4)
+Requires-Dist: fastapi (==0.79.0)
+Requires-Dist: filelock (==3.4.1)
+Requires-Dist: h11 (==0.13.0)
+Requires-Dist: htmldate (==1.3.0)
+Requires-Dist: huggingface-hub (==0.4.0)
+Requires-Dist: idna (==3.3)
+Requires-Dist: immutables (==0.18)
+Requires-Dist: importlib-metadata (==4.8.3)
+Requires-Dist: importlib-resources (==5.4.0)
+Requires-Dist: ipykernel (==5.5.6)
+Requires-Dist: ipython (==7.16.3)
+Requires-Dist: ipython-genutils (==0.2.0)
+Requires-Dist: ipywidgets (==7.7.1)
+Requires-Dist: jedi (==0.17.2)
+Requires-Dist: jellyfish (==0.9.0)
+Requires-Dist: Jinja2 (==3.0.3)
+Requires-Dist: joblib (==1.1.0)
+Requires-Dist: jsonschema (==3.2.0)
+Requires-Dist: jupyter-client (==7.1.2)
+Requires-Dist: jupyter-core (==4.9.2)
+Requires-Dist: jupyterlab-pygments (==0.1.2)
+Requires-Dist: jupyterlab-widgets (==1.1.1)
+Requires-Dist: jusText (==3.0.0)
+Requires-Dist: keybert (==0.6.0)
+Requires-Dist: keywords-en (==0.1.0)
+Requires-Dist: langcodes (==3.3.0)
+Requires-Dist: langdetect (==1.0.7)
+Requires-Dist: lxml (==4.9.1)
+Requires-Dist: MarkupSafe (==2.0.1)
+Requires-Dist: mistune (==0.8.4)
+Requires-Dist: nbclient (==0.5.9)
+Requires-Dist: nbconvert (==6.0.7)
+Requires-Dist: nbformat (==5.1.3)
+Requires-Dist: nest-asyncio (==1.5.5)
+Requires-Dist: networkx (==2.1)
+Requires-Dist: nltk (==3.6.6)
+Requires-Dist: notebook (==6.4.10)
+Requires-Dist: numpy (==1.17.0)
+Requires-Dist: packaging (==21.3)
+Requires-Dist: pandocfilters (==1.5.0)
+Requires-Dist: parso (==0.7.1)
+Requires-Dist: pexpect (==4.8.0)
+Requires-Dist: pickleshare (==0.7.5)
+Requires-Dist: Pillow (==8.4.0)
+Requires-Dist: prometheus-client (==0.14.1)
+Requires-Dist: prompt-toolkit (==3.0.30)
+Requires-Dist: ptyprocess (==0.7.0)
+Requires-Dist: pycparser (==2.21)
+Requires-Dist: pydantic (==1.9.2)
+Requires-Dist: Pygments (==2.12.0)
+Requires-Dist: pyparsing (==3.0.9)
+Requires-Dist: pyrsistent (==0.18.0)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.2)
+Requires-Dist: pytz-deprecation-shim (==0.1.0.post0)
+Requires-Dist: PyYAML (==6.0)
+Requires-Dist: pyzmq (==23.2.1)
+Requires-Dist: regex (==2022.3.2)
+Requires-Dist: requests (==2.27.1)
+Requires-Dist: rich (==12.5.1)
+Requires-Dist: sacremoses (==0.0.53)
+Requires-Dist: scikit-learn (==0.19.1)
+Requires-Dist: scipy (==1.0.0)
+Requires-Dist: segtok (==1.5.11)
+Requires-Dist: Send2Trash (==1.8.0)
+Requires-Dist: sentence-transformers (==2.2.2)
+Requires-Dist: sentencepiece (==0.1.97)
+Requires-Dist: six (==1.11.0)
+Requires-Dist: sniffio (==1.2.0)
+Requires-Dist: starlette (==0.19.1)
+Requires-Dist: summa (==1.2.0)
+Requires-Dist: tabulate (==0.8.10)
+Requires-Dist: terminado (==0.12.1)
+Requires-Dist: testpath (==0.6.0)
+Requires-Dist: threadpoolctl (==3.1.0)
+Requires-Dist: tld (==0.12.6)
+Requires-Dist: tokenizers (==0.12.1)
+Requires-Dist: torch (==1.10.1)
+Requires-Dist: torchvision (==0.11.2)
+Requires-Dist: tornado (==6.1)
+Requires-Dist: tqdm (==4.64.0)
+Requires-Dist: trafilatura (==1.3.0)
+Requires-Dist: traitlets (==4.3.3)
+Requires-Dist: transformers (==4.18.0)
+Requires-Dist: typing-extensions (==4.1.1)
+Requires-Dist: tzdata (==2022.1)
+Requires-Dist: tzlocal (==4.2)
+Requires-Dist: urllib3 (==1.26.11)
+Requires-Dist: uvicorn (==0.16.0)
+Requires-Dist: wcwidth (==0.2.5)
+Requires-Dist: webencodings (==0.5.1)
+Requires-Dist: widgetsnbextension (==3.6.1)
+Requires-Dist: zipp (==3.6.0)
+
+# keywords extract
+---
+英文关键词抽取
+支持方法：
+- tfIdf
+- yake
+- topicRank
+- textRank
+- keyBert
+
+# Install
+
+```
+pip install keywords_en
+```
+或者
+
+```
+pip install -r requirements_dev.txt
+pip install -e git+https://github.com/smirnov-am/pytopicrank.git#egg=pytopicrank
+pip install git+https://github.com/LIAAD/yake
+
+
+python setup.py install
+```
+
+# github
+https://github.com/nilecui/keywords_en
+
+# 示例
+
+``` 
+from keywords_en import KeyWordsEn
+print(dir(KeyWordsEn))
+
+
+text = 'The Free Software Foundation (FSF) is a nonprofit with a worldwide mission to promote computer user freedom. Escape to Freedom now also available in Mandarin and Spanish "Escape to Freedom" is a new animated video from the Free Software Foundation (FSF), giving an introduction to the concepts behind software freedom: both what we gain by having it, and what rights are at stake. We now have the video available in Mandarin and Spanish language tracks. 2022 Bulletin: "Unjust Algorithms" by Zoë Kooyman Developments in artificial intelligence (AI) injustices have rapidly taken a turn for the worse in recent years. Algorithmic decision-making systems are used more than ever by organizations, educational institutions, and governments looking for ways to increase understanding and make predictions. The Free Software Foundation (FSF) is working through this issue, and its many scenarios, to be able to say useful things about how this relates to software freedom. Our call for papers on Copilot was a first step in this direction. Free software means that the users have the freedom to run, edit, contribute to, and share the software. Thus, free software is a matter of liberty, not price. We have been defending the rights of all software users for the past 35 years. Help sustain us for many more; become an associate member today. Subscribe to our monthly newsletter, the Free Software Supporter: Our initiatives Defective by Design is a grassroots campaign to eliminate Digital Restrictions Management (DRM) in media and devices. Read the Email Self-Defense Guide to get started with email encryption, a skill necessary to combat bulk surveillance. The End Software Patents initiative fights to abolish software patents around the world. Join us in calling for a Web that respects our freedom by being compatible with free software and stand up against nonfree JavaScript. The Free Software Directory is a collaborative catalog of computer programs and apps that are fully free. The GNU operating system is a continuously evolving, complete operating system made entirely of free software. LibrePlanet is our global network of free software activism, including events like our annual conference, and online collaboration spaces. The Licensing and Compliance Lab is the preeminent resource for public education on licensing best practices and enforcing the GPL. The "Respects Your Freedom" program certifies retailers who sell hardware in a manner that respects the rights of their users. "This community that we have, that were building, that does so much, has to grow. We cant compete with Apple, we cant compete with Google, directly, in the field of resources. What we can eventually do is head count and heart count. We can compete on the ground of ideology because ours is better." -- Edward Snowden, NSA whisteblower, speaking at LibrePlanet 2016. Take Action Bulletin Old but not forgotten Unjust Algorithms Verifying free software: The basics The need for free software education now Overcoming the hurdle of "industry standard" in education technology Read the current issue of the Bulletin and check out the archives. Shop Beat the summer heat with a stylish GNU baseball cap!'
+
+algo_name = "tfIdf"
+kw = KeyWordsEn(algo_name=algo_name, text=text)
+print(kw.keywords)
+
+
+algo_name = "yake"
+kw = KeyWordsEn(algo_name=algo_name, text=text)
+print(kw.keywords)
+
+algo_name = "topicRank"
+kw = KeyWordsEn(algo_name=algo_name, text=text)
+print(kw.keywords)
+
+algo_name = "textRank"
+kw = KeyWordsEn(algo_name=algo_name, text=text)
+print(kw.keywords)
+
+algo_name = "keyBert"
+kw = KeyWordsEn(algo_name=algo_name, text=text)
+print(kw.keywords)
+```
+
+
