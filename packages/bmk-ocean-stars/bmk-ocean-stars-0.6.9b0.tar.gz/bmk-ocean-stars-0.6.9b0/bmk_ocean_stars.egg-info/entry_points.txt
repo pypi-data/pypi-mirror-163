@@ -1,0 +1,2 @@
+[console_scripts]
+bmkos = bmkos.__main__:main

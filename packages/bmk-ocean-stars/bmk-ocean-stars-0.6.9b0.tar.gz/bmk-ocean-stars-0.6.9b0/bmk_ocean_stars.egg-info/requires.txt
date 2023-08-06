@@ -1,0 +1,12 @@
+numpy
+scipy
+pandas
+tqdm
+setuptools>=18.0
+editdistance
+pysam
+parasail
+bioframe>=0.3.0
+jinja2
+plotly
+bmk-cell-calling>=0.2.1
