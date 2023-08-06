@@ -1,0 +1,4 @@
+setuptools>=42
+wheel
+pytz==2021.1
+openpyxl==3.0.7
