@@ -1,0 +1,6 @@
+README.md
+setup.py
+akpycalc.egg-info/PKG-INFO
+akpycalc.egg-info/SOURCES.txt
+akpycalc.egg-info/dependency_links.txt
+akpycalc.egg-info/top_level.txt
