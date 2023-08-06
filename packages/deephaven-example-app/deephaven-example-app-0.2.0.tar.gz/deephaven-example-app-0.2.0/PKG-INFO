@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: deephaven-example-app
+Version: 0.2.0
+Summary: Deephaven Example Application
+Home-page: https://github.com/deephaven-examples/deephaven-server-pypi-app
+Author: Devin Smith
+Author-email: devinsmith@deephaven.io
+Project-URL: Source Code, https://github.com/deephaven-examples/deephaven-server-pypi-app
+Project-URL: Bug Tracker, https://github.com/deephaven-examples/deephaven-server-pypi-app/issues
+Keywords: deephaven,streaming,websockets,coinbase
+Platform: any
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 3 - Alpha
+Description-Content-Type: text/markdown
+
+# deephaven-example-app
+
+This is an example [Deephaven](https://github.com/deephaven/deephaven-core) application
+built using the [deephaven-server](https://pypi.org/project/deephaven-server/) PyPi package.
+
+It demonstrates connecting to a real-time data source, performing simple operations on that data,
+and presenting the data to the user in the [web UI](https://github.com/deephaven/web-client-ui).
+
+The [Coinbase websocket exchange feed](https://docs.cloud.coinbase.com/exchange/docs/websocket-overview)
+was chosen as a data source for this example as it's simple to get up and running. It is not meant to
+have exhaustive coverage.
+
+
+## Requirements
+ 
+ * Python >= 3.7
+ * Java >= 11
+
+A [virtual environment](https://docs.python.org/3/tutorial/venv.html) is recommended.
+
+
+## Quickstart
+
+```shell
+export JAVA_HOME=/path/to/java_home
+source /path/to/venv/bin/activate
+
+pip install deephaven-example-app
+
+python -m deephaven_example_app
+```
+
+## Development
+
+
+```shell
+export JAVA_HOME=/path/to/java_home
+source /path/to/dev-venv/bin/activate
+
+pip install -e .
+
+python -m deephaven_example_app
+```
