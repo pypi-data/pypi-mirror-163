@@ -1,0 +1,9 @@
+django_g/__init__.py,sha256=SS6PASX0dO3ftPnQdh3lnu_OqoHJQHYbw2r_ox0euHs,263
+django_g/local.py,sha256=xIOCm2lqHxamshWtWAzItyxGwLQir_-iU2_vWE21QpM,187
+django_g/middleware.py,sha256=fCtfGS8KSBABODXQLvku9iu5A2-PzH6FFm_pN9JVT9A,259
+django_g/tests.py,sha256=NGkD2-pNdwkcWJ_E7q1wMJyCb06YUkGSEhTxftoUD3k,301
+django_g-0.0.1.dist-info/LICENSE,sha256=WCrACBAhY03FEn7ElB0qQnSoAijADbacPNNN-CajK_A,1062
+django_g-0.0.1.dist-info/METADATA,sha256=mxzU8Ct82nQqQt0FrkrvgPGUv6sl9BKIxcAVCAT2CHw,739
+django_g-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+django_g-0.0.1.dist-info/top_level.txt,sha256=W_HRyZwdR5qQpkizC3GmVNpdC-ujqVbn1g7eL10xZt8,9
+django_g-0.0.1.dist-info/RECORD,,
