@@ -1,0 +1,10 @@
+LICENSE.txt
+README.rst
+pyproject.toml
+setup.cfg
+backports/__init__.py
+backports/zoneinfo/__init__.py
+docassemble_backports.egg-info/PKG-INFO
+docassemble_backports.egg-info/SOURCES.txt
+docassemble_backports.egg-info/dependency_links.txt
+docassemble_backports.egg-info/top_level.txt

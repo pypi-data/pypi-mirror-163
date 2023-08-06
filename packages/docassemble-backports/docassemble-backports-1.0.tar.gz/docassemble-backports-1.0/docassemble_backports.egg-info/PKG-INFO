@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: docassemble-backports
+Version: 1.0
+Summary: Backwards compatible support for backports.zoneinfo
+Home-page: https://github.com/jhpyle/docassemble-backports
+Author: Jonathan Pyle
+Author-email: jhpyle@gmail.com
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+
+This package supports loading zoneinfo as backports.zoneinfo.
