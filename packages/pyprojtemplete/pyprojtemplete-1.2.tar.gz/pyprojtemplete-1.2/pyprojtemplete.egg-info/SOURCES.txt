@@ -1,0 +1,10 @@
+LICENCE
+README.md
+setup.py
+pyprojtemplete/__init__.py
+pyprojtemplete/pdf2image.py
+pyprojtemplete/pdf2text.py
+pyprojtemplete.egg-info/PKG-INFO
+pyprojtemplete.egg-info/SOURCES.txt
+pyprojtemplete.egg-info/dependency_links.txt
+pyprojtemplete.egg-info/top_level.txt
