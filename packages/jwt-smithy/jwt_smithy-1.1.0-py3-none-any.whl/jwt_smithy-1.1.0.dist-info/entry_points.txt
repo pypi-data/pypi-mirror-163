@@ -1,0 +1,3 @@
+[console_scripts]
+smithy=jwt_smithy.__main__:app
+
