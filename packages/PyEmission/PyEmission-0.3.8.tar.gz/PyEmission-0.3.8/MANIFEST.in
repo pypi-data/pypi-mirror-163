@@ -1,0 +1,2 @@
+include pyemission/*.pkl
+include pyemission/*.xlsx

@@ -1,0 +1,13 @@
+MANIFEST.in
+README.md
+setup.py
+PyEmission.egg-info/PKG-INFO
+PyEmission.egg-info/SOURCES.txt
+PyEmission.egg-info/dependency_links.txt
+PyEmission.egg-info/requires.txt
+PyEmission.egg-info/top_level.txt
+pyemission/Data.xlsx
+pyemission/__init__.py
+pyemission/db.pkl
+pyemission/example.py
+pyemission/pyemission.py
