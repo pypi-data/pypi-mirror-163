@@ -1,0 +1,17 @@
+examples/invoke_echo.py,sha256=Jp3u3om1Kg3qc2TdMFOL2FhmwMKqQpFb5T-gnWJ3lOs,878
+examples/run_echo.py,sha256=7vje7w-umols6rh63lxcGrYYzafzxB5gqsVOA9soZes,669
+examples/run_mean.py,sha256=FZdLFejcecscRbWh420h_874egvhF-3ZeSI1TnV79EU,687
+examples/echo/app.py,sha256=hcOCWiNKsDz9wfP--NbIHybH8W1iOVzU3ljVllr-3sg,46
+examples/mean/app.py,sha256=7OHu-FQ96AmAQAfm7pNIY7DbcErwZlvTbZsop8a2iMo,258
+pycape/__init__.py,sha256=7PVe5QMcCjMReW26dr_zGi0LbwTgA-cFJSZGSnmndQk,138
+pycape/attestation.py,sha256=gY66XSxw8jbxNFN2ymtFJn_xn7qnv57Z_WFErWMQPXs,3798
+pycape/attestation_test.py,sha256=mZ5Oqx8as181-sOb4-zeYnBYvpyMskMuycgiL1bMg0o,5879
+pycape/cape.py,sha256=TF4wdaS-ukKqVC2lrXmFg-e309vz65OayMFXy2_929c,15138
+pycape/enclave_encrypt.py,sha256=qRas4gjJSglZfp3Na88CpRyNTG6sRydJCaZwjtCTiWg,354
+pycape/enclave_encrypt_test.py,sha256=uPlqdBTcpr8KFYLzGd7Fha9EunoqMELQrBT-8f-fPNE,1159
+pycape/function_ref.py,sha256=ZuKpJGTVooy15cJudMN4icJaefU000kl-bZpv4No04c,1605
+pycape-1.0.0.dist-info/LICENSE,sha256=QwcOLU5TJoTeUhuIXzhdCEEDDvorGiC6-3YTOl4TecE,11356
+pycape-1.0.0.dist-info/METADATA,sha256=xz9IXoPZV3hcA4X5UdAOj5QpmaQuTPUsmyQd7tRTjr0,17223
+pycape-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+pycape-1.0.0.dist-info/top_level.txt,sha256=lY-Dm13O8aaY5BQAixJPkHuFT3ehOtL86Ker6X_uktQ,16
+pycape-1.0.0.dist-info/RECORD,,
