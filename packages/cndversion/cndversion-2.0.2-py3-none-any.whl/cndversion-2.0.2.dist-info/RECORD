@@ -1,0 +1,10 @@
+cndversion/VERSION,sha256=MRhnIb5Q0QM1Rd_u6dbuEYtU-xuXTqkJqy6WDgt8BJs,5
+cndversion/__init__.py,sha256=rvMUXWseKVXpz6bH4c_BfgcFbHHj7M8E2tofp5Jz-DA,113
+cndversion/__version__.py,sha256=dWpmgsPo_6_uDnhIAVLwq7tb6SkzmhxoTyoaeu98qmQ,119
+cndversion/cli.py,sha256=ayaMNmtj1HnIFsKcJjACwKLrThaf3BH5nv_7r-yWJnE,1133
+cndversion/cnd_version.py,sha256=tEi2hko_KSTsnj_eUaFtJ-bpbYTnyQzfggxxy-VrCwM,4298
+cndversion-2.0.2.dist-info/METADATA,sha256=VdL7xN-GroHSxkfycu1rx1u6d7xCqotKLGe-0SsNM1I,2191
+cndversion-2.0.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cndversion-2.0.2.dist-info/entry_points.txt,sha256=Ij98MqiGuXB7iZtOsn7bWPu1NLNgjhgnpG3Wou25HG4,51
+cndversion-2.0.2.dist-info/top_level.txt,sha256=nnb_DLPu9eXFo96di3PHZ5vWFc96lY6km2Dp5NAvIdA,11
+cndversion-2.0.2.dist-info/RECORD,,
