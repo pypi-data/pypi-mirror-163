@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: thtagger
+Version: 0.0.3
+Summary: A easy to use music metadata tagger
+Home-page: https://github.com/weilinfox/haku-thtagger
+License: GPL2
+License-File: LICENSE
+
+A easy to use music metadata tagger based on PySide6 and Mutagen
