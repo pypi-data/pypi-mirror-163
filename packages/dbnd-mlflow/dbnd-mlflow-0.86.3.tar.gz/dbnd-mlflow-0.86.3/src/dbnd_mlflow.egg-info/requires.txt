@@ -1,0 +1,4 @@
+dbnd==0.86.3
+six
+
+[tests]
