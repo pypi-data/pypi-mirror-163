@@ -1,0 +1,11 @@
+stactools/goes_glm/__init__.py,sha256=XxWpEdEpMrN13k4I7sQml6Cp2_NKP54u0TxoJxozNwM,397
+stactools/goes_glm/commands.py,sha256=yRIbI5zC_AnAShaoWnodbnXJAix6FxrNlRJNe_J5Ilo,3533
+stactools/goes_glm/constants.py,sha256=oKo1qxOFFYR0k2GiV6BF3HH630mTfD7mwzCnwp1fWw0,5151
+stactools/goes_glm/netcdf.py,sha256=bvdYjbmpx9cGsyvYzgbRaqaBTLJfW45aL0mAlhFhAWo,2853
+stactools/goes_glm/parquet.py,sha256=-hRiIj5lOUA-Qm0RNGnJE6OcwSvyZU14b9WNXCzX3-8,7039
+stactools/goes_glm/stac.py,sha256=5ZCZIyM8ZwzEbepsikJ7PIp99DF9rEuiTVXBB4Ci1AI,9032
+stactools_goes_glm-0.1.0.dist-info/LICENSE,sha256=IRRRQBNP16YPBgr-j8ZhkG2ce2OzxMopr6IUIO6-TDM,662
+stactools_goes_glm-0.1.0.dist-info/METADATA,sha256=-bWAPrJFmWl5MsGyl0HoNCRMB5QbUU1L0CHT9AaQjrw,4382
+stactools_goes_glm-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+stactools_goes_glm-0.1.0.dist-info/top_level.txt,sha256=0eoUA-AbTfjFtxXr3W-vQdRyNmpGnA0wlTL3ppTPCG8,10
+stactools_goes_glm-0.1.0.dist-info/RECORD,,
