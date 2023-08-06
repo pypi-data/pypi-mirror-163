@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "solufo-env"
+version = "0.1.0"
+description = ""
+authors = ["Your Name <you@example.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+dxtr-app-manager = {path = "../dxtr-app-manager"}
+dxtr-cloud = {path = "../dxtr-cloud"}
+dxtr-dev-ui = {path = "../dxtr-dev-ui"}
+dxtr-logics = {path = "../dxtr-logics"}
+dxtr-logs = {path = "../dxtr-logs"}
+dxtr-mch-ctrl = {path = "../dxtr-mch-ctrl"}
+dxtr-mtr-ctrl = {path = "../dxtr-mtr-ctrl"}
+dxtr-sys-store = {path = "../dxtr-sys-store"}
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
