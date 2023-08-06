@@ -1,0 +1,4 @@
+db_url: http://0.0.0.0:8000
+SQLALCHEMY_DATABASE_URL: sqlite:///./database.db
+ACTIVE_CONFIG: default
+TASK_DESCRIPTION: ""

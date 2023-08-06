@@ -1,0 +1,88 @@
+[structGamParams]
+optcell = [[1, 0, 0, ], [0, 0, 0, ], [0, 0, 0, ], ]
+system = "system"
+nelmin = 6
+lwave = false
+lcharg = false
+lreal = "Auto"
+algo = "Fast"
+prec = "Normal"
+encut = 500
+ismear = 0
+ispin = 2
+nsw = 1000
+ibrion = 2
+ediffg = -0.1
+nfree = 2
+ncore = 12
+
+[structParams]
+optcell = [[1, 0, 0, ], [0, 0, 0, ], [0, 0, 0, ], ]
+subdivisions = [6, 1, 1, ]
+system = "system"
+nelmin = 6
+nelm = 100
+lwave = false
+lcharg = false
+lreal = "Auto"
+algo = "Fast"
+prec = "Normal"
+encut = 500
+ismear = 0
+ispin = 2
+sigma = 0.05
+nsw = 1000
+ibrion = 2
+ediffg = -0.02
+nfree = 2
+isif = 3
+ncore = 12
+
+[scfParams]
+optcell = [[1, 0, 0, ], [0, 0, 0, ], [0, 0, 0, ], ]
+subdivisions = [6, 1, 1, ]
+system = "system"
+nelmin = 6
+nelm = 100
+lwave = true
+lcharg = true
+lvhar = true
+lreal = "Auto"
+algo = "Fast"
+prec = "Accurate"
+encut = 500
+ismear = 0
+ispin = 2
+sigma = 0.05
+ediffg = 1e-6
+ibrion = -1
+nsw = 0
+ncore = 1
+lorbit = 11
+
+[bandParams]
+kpaths = ["GAMMA", "X", "GAMMA", ]
+density = 20
+system = "system"
+nelmin = 6
+nelm = 100
+lwave = false
+lcharg = false
+lreal = "Auto"
+algo = "Fast"
+prec = "Accurate"
+encut = 500
+ismear = 0
+ispin = 2
+sigma = 0.05
+ediffg = 1e-6
+icharg = 11
+ibrion = -1
+lorbit = 11
+nedos = 1600
+nsw = 0
+ncore = 1
+
+[bandParams.specialKpoints]
+GAMMA = [0.0, 0.0, 0.0, ]
+X = [0.5, 0.0, 0.0, ]
