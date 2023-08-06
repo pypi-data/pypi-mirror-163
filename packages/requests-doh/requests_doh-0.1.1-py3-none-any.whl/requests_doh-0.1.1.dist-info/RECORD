@@ -1,0 +1,12 @@
+requests_doh/__init__.py,sha256=NUSVDWolqgcsncp_QoRzp7Kx8HTLCsuChjdvu3dSdBw,339
+requests_doh/adapter.py,sha256=8D-kHi2852ABfOkxiDon-C77sI-hXOQoTZ5bFwLD4S4,1267
+requests_doh/cachemanager.py,sha256=LpOUiIwazQsYYoHZm4FzOcYxNTJXYrbZXGWbLwYwyrM,1218
+requests_doh/connector.py,sha256=k1ZFiAny-eBPKdg06nE5fyn6H00rY5cBon0xKrojF0s,5252
+requests_doh/exceptions.py,sha256=Z58qgtSzgTjZmaJUE7NRxKiM0TQfEvbRc1HXcdp6uPQ,87
+requests_doh/resolver.py,sha256=BCr_3EfMz6JeMqWNfx_n2z3tLdZeBzCcOLehDc0A8_k,2526
+requests_doh/utils.py,sha256=LX7_eUR_rqd5AyktZiMqzAbOwQ49F1f0ioL7wBjwSsc,773
+requests_doh-0.1.1.dist-info/LICENSE,sha256=pXQRFjAmgiQbB_JmMOP0ps8Ffj1hfn0RRcUmnFd9_Qk,1069
+requests_doh-0.1.1.dist-info/METADATA,sha256=DOrSdRxHRL1e504FCvctYzOviaLkptTsooax3Ns0Nqc,2491
+requests_doh-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+requests_doh-0.1.1.dist-info/top_level.txt,sha256=2BecmH4-h5cO3VxXULUROblvT95wJp-fVcaUSWYaM_o,13
+requests_doh-0.1.1.dist-info/RECORD,,
