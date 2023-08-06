@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: async_get_vedio
+Version: 1.2
+Summary: Get vedio
+Home-page: https://github.com/wutljs/async_get_vedio
+Author: wut_2021_dx_ljs
+Author-email: 3480339804@qq.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+
+解决了由pyautogui引起的输入法混乱问题.
+
