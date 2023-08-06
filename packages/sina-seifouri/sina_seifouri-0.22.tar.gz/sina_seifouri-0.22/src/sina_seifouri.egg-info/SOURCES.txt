@@ -1,0 +1,9 @@
+README.rst
+setup.cfg
+setup.py
+src/sina_seifouri/__init__.py
+src/sina_seifouri/test.py
+src/sina_seifouri.egg-info/PKG-INFO
+src/sina_seifouri.egg-info/SOURCES.txt
+src/sina_seifouri.egg-info/dependency_links.txt
+src/sina_seifouri.egg-info/top_level.txt
