@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: count_in_list
+Version: 0.0.3
+Summary: A sample test package
+Home-page: https://github.com/khalidjshaikh/test-package
+Author: Khalid Shaikh
+Author-email: k@ruby.run
+License: MIT
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# count_in_list
+
+Install the package
+```
+pip install count_in_list
+```
+
+From Python or IPython
+```
+from count_in_list import count_in_list
+l = ["gfg", "dsa", "gfg"]
+count = count_in_list(l, "gfg")
+print(count)
+```
+
+---
+
+Packages required to generate packages.
+```
+pip install setuptools wheel
+```
+
+Generate build, dist, and test_package.egg-info.
+```
+python setup.py sdist bdist_wheel
+```
+
+Package required to deploy.
+```
+pip install twine
+```
+
+Upload the package
+```
+twine upload --repository pypi dist/*
+```
