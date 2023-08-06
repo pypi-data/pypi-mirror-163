@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: eth-multicall
+Version: 0.2.2
+Summary: Uses Multicall v3 and eth_abi encode + decoder api to fetch multiple json-rpc queries all at once
+Home-page: https://github.com/NFEL/eth_muticall
+Author: Nfel
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: web3 (>=5.30.0,<6.0.0)
+Project-URL: Repository, https://github.com/NFEL/eth_muticall
+Description-Content-Type: text/markdown
+
+# MultiCall
+
+call web3 multiple times instead of one time
+
+helps with querying list of data from multiple contracts 
+
+# MultiChain 
+
+Supports Multicall at proposed chains listed below :
+
+
