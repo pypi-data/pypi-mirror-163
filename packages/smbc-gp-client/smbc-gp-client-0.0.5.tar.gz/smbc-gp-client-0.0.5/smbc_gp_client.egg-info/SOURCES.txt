@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+smbc_gp_client/__init__.py
+smbc_gp_client/smbc_gp_client.py
+smbc_gp_client.egg-info/PKG-INFO
+smbc_gp_client.egg-info/SOURCES.txt
+smbc_gp_client.egg-info/dependency_links.txt
+smbc_gp_client.egg-info/requires.txt
+smbc_gp_client.egg-info/top_level.txt
+test/test_smbc_gp_client.py
