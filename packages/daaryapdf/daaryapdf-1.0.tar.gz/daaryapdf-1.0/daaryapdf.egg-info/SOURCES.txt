@@ -1,0 +1,6 @@
+README.md
+setup.py
+daaryapdf.egg-info/PKG-INFO
+daaryapdf.egg-info/SOURCES.txt
+daaryapdf.egg-info/dependency_links.txt
+daaryapdf.egg-info/top_level.txt
