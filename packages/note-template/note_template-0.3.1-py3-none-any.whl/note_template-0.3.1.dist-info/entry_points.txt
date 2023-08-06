@@ -1,0 +1,3 @@
+[console_scripts]
+note-template=note_template.cli:commands
+
