@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: yjb-scraper
+Version: 2.0
+Summary: Scrape a user's VSCO profile data
+Author: yJb
+Author-email: bob@glob.com
+Keywords: none
+License-File: LICENSE.txt
+Requires-Dist: tqdm
+Requires-Dist: requests
+Requires-Dist: beautifulsoup4
+
