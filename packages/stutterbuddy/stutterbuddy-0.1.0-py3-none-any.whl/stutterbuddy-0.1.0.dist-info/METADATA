@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: stutterbuddy
+Version: 0.1.0
+Summary: Automate video editing with Stutterbuddy
+Home-page: https://stutterbuddy.ch
+Author: Jonas Briguet
+Author-email: briguetjo@yahoo.de
+License: UNKNOWN
+Project-URL: Homepage, https://stutterbuddy.ch
+Keywords: stutterbuddy video editing automation auto-editor ai machine-learning
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: requests
+Requires-Dist: requests-toolbelt
+Requires-Dist: urllib3
+
+# StutterBuddy
+
+Set of tools to interact with the API of StutterBuddy.
+
+## Installation
+```
+pip install stutterbuddy
+```
+
+## Usage
+```
+from stutterbuddy import Worker
+
+api_key = ''
+
+sb = Worker(api_key)
+
+response, job_id = sb.submit_file('test.mp4')
+
+status = sb.get_info(job_id)
+
+print(status)
+```
+
+## Features
+
+* Bulk processing and automatized upload of files to stutterbuddy.ch
+* submit videos or audio both as links or as files
+* retrieve status of jobs
+
+## Dependencies
+* requests-toolbelt
+
+## Known Bugs
+* None atm
+
