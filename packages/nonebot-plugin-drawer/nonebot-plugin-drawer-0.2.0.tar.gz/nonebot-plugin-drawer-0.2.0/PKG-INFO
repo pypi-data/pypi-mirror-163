@@ -1,0 +1,18 @@
+Metadata-Version: 2.1
+Name: nonebot-plugin-drawer
+Version: 0.2.0
+Summary: 适用于 Nonebot2 的AI画画插件(对接文心大模型API)
+License: MIT
+Author: CrazyBoyM
+Author-email: ai-lab@foxmail.com
+Requires-Python: >=3.7,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: asyncio (>=3.4.3,<4.0.0)
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: nonebot (>=1.9.1,<2.0.0)
+Requires-Dist: pydantic (>=1.9.2,<2.0.0)
