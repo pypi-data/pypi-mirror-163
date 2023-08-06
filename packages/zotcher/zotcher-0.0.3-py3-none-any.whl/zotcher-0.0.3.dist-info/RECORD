@@ -1,0 +1,13 @@
+zotcher/__init__.py,sha256=AWtg_NF1YkfP8uS8Y700DfY2QUuntoms-2wdZFkjMGc,139
+zotcher/api.py,sha256=WI0g_CdZBsujm3aSy209qv2kv5OzwjjD5SSYCkqMFuI,2547
+zotcher/configurator.py,sha256=lDKPAt_53WIbywEeYSkulh-wBffQM_GVnLttMEs41Is,2550
+zotcher/constants.py,sha256=dYPIfPlfgZgITzj9D0qcl8CLi1Hv_DCxbtGXEQOrUYI,1039
+zotcher/payload.py,sha256=mj709IVcOWHcRWZMux6UY956I4ZY9FYS6w0Lqml0nYU,1053
+zotcher/runner.py,sha256=hlHqncDXneeHjmGNl4T1pcuWs91IS59m0E-3Qci3h8E,4475
+zotcher/utils.py,sha256=O8L2P4LHW2PU4V-IdKbPi5H8IDJGjlNNCfSFtW4TTpU,1373
+zotcher-0.0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+zotcher-0.0.3.dist-info/METADATA,sha256=G_ijZQcUrQxi4JFrLMxitgHajd5yKVb-nU38LP4Tuk0,3204
+zotcher-0.0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+zotcher-0.0.3.dist-info/entry_points.txt,sha256=3lH6sVilemjoKq6KkqP5JY8z5Jm7tAqRKSfBWYgCI4c,47
+zotcher-0.0.3.dist-info/top_level.txt,sha256=RsgGXeo_3boOmPTckyY9pnGH3xerjC0fOp5Nl7FrEyk,8
+zotcher-0.0.3.dist-info/RECORD,,
