@@ -1,0 +1,13 @@
+caraml/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caraml/upi/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caraml/upi/version.py,sha256=CpXi3jGlx23RvRyU7iytOMZrnspdWw4yofS8lpP1AJU,18
+caraml/upi/v1/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+caraml/upi/v1/upi_pb2.py,sha256=gKpKfzRQyGtsQ44wcXaQ20iHCh43IV1dYCc6fiSwaFc,7308
+caraml/upi/v1/upi_pb2_grpc.py,sha256=u5NYG6fQSx7MdpTvM-WQaQmYqouIopN5RxK2FaAfuvY,2741
+caraml/upi/v1/value_pb2.py,sha256=F6PRyCRzSYCY7sIq1At21yne20SSTjB4zkLgCQjbgRc,2357
+caraml/upi/v1/value_pb2_grpc.py,sha256=1oboBPFxaTEXt9Aw7EAj8gXHDCNMhZD2VXqocC9l_gk,159
+caraml_upi_protos-0.1.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+caraml_upi_protos-0.1.0.dist-info/METADATA,sha256=gGRs4S2qYjV-c4L-xsaagKM_sPBukhU0oZ2XPOhjuHM,4113
+caraml_upi_protos-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+caraml_upi_protos-0.1.0.dist-info/top_level.txt,sha256=1Uiq-cka9CclI-mDTyWOKsDSX3ZbfWqktXN9jKGGkI4,7
+caraml_upi_protos-0.1.0.dist-info/RECORD,,
