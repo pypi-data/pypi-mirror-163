@@ -1,0 +1,75 @@
+Metadata-Version: 2.1
+Name: counter_pack
+Version: 0.0.9
+Summary: A small package for counting unique characters in a string or text file
+Author-email: Oleh Holub <golub.zp@google.com>
+License: Copyright (c) 2018 The Python Packaging Authority
+        
+        Permission is hereby granted, free of charge, to any person obtaining a copy
+        of this software and associated documentation files (the "Software"), to deal
+        in the Software without restriction, including without limitation the rights
+        to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+        copies of the Software, and to permit persons to whom the Software is
+        furnished to do so, subject to the following conditions:
+        
+        The above copyright notice and this permission notice shall be included in all
+        copies or substantial portions of the Software.
+        
+        THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+        IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+        FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+        AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+        LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+        OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+        SOFTWARE.
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+# Counter_pack
+
+This is a simple package for counting unique characters in a string or text file.
+
+# Software requirements
+
+Python 3.8+
+pip
+
+# Installation
+
+Counter_pack is available on PyPI and can be installed with pip.
+
+`pip install counter_pack`
+
+# License
+
+Counter_pack is distributed under the terms of the MIT license.
+
+# Running Counter_pack commands with CLI
+
+usage: `your_code.py [-h] [-s STRING] [-f FILE]`
+
+optional arguments:
+
+  `-h,  --help                  ` show help message and exit
+
+  `-s STRING,  --string STRING  ` some string for count unique characters
+
+  `-f FILE,  --file FILE        ` some file for count unique characters
+
+
+for example: `python main.py -f 'tests/test.txt'`
+          or `python main.py -s 'another string'`
+
+
+_main.py_
+```
+from counter_paсk import counter
+
+
+if __name__ == '__main__':
+    print(counter.main())
+
+```

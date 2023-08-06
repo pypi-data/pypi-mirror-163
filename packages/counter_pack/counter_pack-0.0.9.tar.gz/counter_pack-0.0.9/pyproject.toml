@@ -1,0 +1,45 @@
+[build-system]
+    requires = ["hatchling"]
+    build-backend = "hatchling.build"
+
+[project]
+    name = "counter_pack"
+    version = "0.0.9"
+    authors = [
+      { name="Oleh Holub", email="golub.zp@google.com" },
+    ]
+    description = "A small package for counting unique characters in a string or text file"
+    readme = "README.md"
+    license = { file="LICENSE" }
+    requires-python = ">=3.8"
+    classifiers = [
+        "Programming Language :: Python :: 3",
+        "License :: OSI Approved :: MIT License",
+        "Operating System :: OS Independent",
+    ]
+#    dependencies = [
+#      "argparse",
+#    ]
+
+#[project.scripts]
+#counter = "counter_pack.counter:main"
+
+#
+#[tool.hatch.build.targets.wheel]
+#packages = ["counter_pack"]
+
+[tool.hatch.build]
+#include = [
+#  "/counter_pack",
+#]
+exclude = [
+  "requirements.txt",
+  "/tests",
+  "/.idea",
+  "/venv",
+]
+#only-include = ["/counter_pack"]
+#sources = ["/src/counter_pack"]
+
+#[tool.hatch.build.sources]
+#"src/counter_pack" = "counter_pack"
