@@ -1,0 +1,9 @@
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+alexbasiccalculator2/__init__.py
+alexbasiccalculator2.egg-info/PKG-INFO
+alexbasiccalculator2.egg-info/SOURCES.txt
+alexbasiccalculator2.egg-info/dependency_links.txt
+alexbasiccalculator2.egg-info/top_level.txt
