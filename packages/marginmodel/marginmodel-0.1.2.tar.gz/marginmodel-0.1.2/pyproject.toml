@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "marginmodel"
+version = "0.1.2"
+authors = [
+  { name="Will Bradley", email="williambbradley@gmail.com" },
+]
+description = "A small signature package"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.9"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/wbbradley/marginmodel-pypi"
+"Bug Tracker" = "https://github.com/wbbradley/marginmodel-pypi/issues"
