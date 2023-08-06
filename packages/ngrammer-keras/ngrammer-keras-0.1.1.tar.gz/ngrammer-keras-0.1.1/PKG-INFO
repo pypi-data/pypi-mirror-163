@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: ngrammer-keras
+Version: 0.1.1
+Summary: 
+License: MIT
+Author: Pieter Blomme
+Requires-Python: >=3.8,<3.11
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: einops
+Requires-Dist: keras (>=2.9.0,<3.0.0)
+Requires-Dist: sympy (>=1.10.1,<2.0.0)
