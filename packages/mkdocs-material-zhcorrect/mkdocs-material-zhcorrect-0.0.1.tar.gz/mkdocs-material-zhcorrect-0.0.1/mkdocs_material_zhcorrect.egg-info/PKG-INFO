@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: mkdocs-material-zhcorrect
+Version: 0.0.1
+Summary: no mkdocs
+Home-page: https://squidfunk.github.io/mkdocs-material/
+Author: Martin Donath
+Author-email: martin.donath@squidfunk.com
+License: MIT
+Keywords: mkdocs,documentation,theme
+Platform: UNKNOWN
+Requires-Python: >=3.7
+License-File: LICENSE
+
+nothing
+
