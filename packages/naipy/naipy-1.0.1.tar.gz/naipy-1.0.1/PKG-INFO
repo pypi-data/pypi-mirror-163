@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: naipy
+Version: 1.0.1
+Summary: 네이버 API를 사용한 다기능 라이브러리
+Home-page: https://github.com/VoidAsMad/Naipy
+Author: VoidAsMad
+Author-email: voidasmad@gmail.com
+License: MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3
