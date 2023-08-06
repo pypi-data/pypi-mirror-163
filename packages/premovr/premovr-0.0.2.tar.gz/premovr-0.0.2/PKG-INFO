@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: premovr
+Version: 0.0.2
+Summary: This is a python library to talk to robot arms to control a chessboard
+License: MIT
+Author: Karan Vivek Bhargava
+Author-email: karan.bhargava93@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: python-chess (>=1.999,<2.0)
+Requires-Dist: python-lichess (>=0.10,<0.11)
