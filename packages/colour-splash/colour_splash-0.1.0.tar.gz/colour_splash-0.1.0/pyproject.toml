@@ -1,0 +1,24 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "colour_splash"
+version = "0.1.0"
+authors = [
+  { name="Lachlan Rehder", email="lachlan2357@outlook.com" },
+]
+description = "A simple tool enabling easy colouring of terminal outputs"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: GNU General Public License v3 (GPLv3)",
+    "Operating System :: OS Independent",
+    "Development Status :: 4 - Beta",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/lachlan2357/python-colour-splash"
+"Bug Tracker" = "https://github.com/lachlan2357/python-colour-splash/issues"
