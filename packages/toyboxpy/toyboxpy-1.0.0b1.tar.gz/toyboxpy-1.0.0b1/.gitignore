@@ -1,0 +1,4 @@
+/.nova
+/.pytest_cache
+__pycache__
+.DS_Store
