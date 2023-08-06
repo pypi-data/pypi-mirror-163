@@ -1,0 +1,3 @@
+[console_scripts]
+icons=apple_image_generator.main:run
+
