@@ -1,0 +1,9 @@
+nosop_py/__init__.py,sha256=nlr5IxYU2IH2-xpmFPC_gWByFS2d9rslbMvrtZuXE04,5431
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_NosoNodeInfo.py,sha256=0gvEB3b8SzcD764iusKa5MiNHNEAlMY3RkATszccFkw,2224
+tests/test_NosoPoolInfo.py,sha256=3ytem7Tv1_3hplPHre8gFT-eaDSiJ9U-0UDkQOGUUFY,736
+nosop_py-0.4.8.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+nosop_py-0.4.8.dist-info/METADATA,sha256=hPtqyzsPcPnbqBMuXvTmPoxssXROOyZzTWIpUswqhTk,2514
+nosop_py-0.4.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+nosop_py-0.4.8.dist-info/top_level.txt,sha256=Xksgqy5Aep93CDs_L9wGXda5fhZEouVoS9WEAGSapQY,15
+nosop_py-0.4.8.dist-info/RECORD,,
