@@ -1,0 +1,3 @@
+[console_scripts]
+neutrapy=neutrapy.__main__:main
+
