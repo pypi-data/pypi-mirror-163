@@ -1,0 +1,7 @@
+licence.txt
+setup.py
+packageFarooq/__init__.py
+packageFarooq.egg-info/PKG-INFO
+packageFarooq.egg-info/SOURCES.txt
+packageFarooq.egg-info/dependency_links.txt
+packageFarooq.egg-info/top_level.txt
