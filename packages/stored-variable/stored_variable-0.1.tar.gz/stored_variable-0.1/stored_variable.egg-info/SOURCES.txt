@@ -1,0 +1,6 @@
+setup.py
+stored_variable/__init__.py
+stored_variable.egg-info/PKG-INFO
+stored_variable.egg-info/SOURCES.txt
+stored_variable.egg-info/dependency_links.txt
+stored_variable.egg-info/top_level.txt
