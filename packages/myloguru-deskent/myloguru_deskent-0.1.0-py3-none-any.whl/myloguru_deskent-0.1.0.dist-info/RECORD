@@ -1,0 +1,10 @@
+myloguru/__init__.py,sha256=EOCC_DzWtgObuMcOS9cSGWgCNpkCI-_zFKklADqiOxQ,144
+myloguru/_resources.py,sha256=yO87sLY1JBQExgsgcJ8nu2jVIq-RItvatoyHi3h90vg,91
+myloguru/mailer.py,sha256=i56W4NsswnYPDZFymiC54h_ojyR-38MfEa8UNPp7Brc,1350
+myloguru/my_loguru.py,sha256=X9IQDI1OcxvBMD-WI0td3YNXRPhGU_acmWePanGWCgc,4873
+myloguru_deskent-0.1.0.data/scripts/my_loguru.py,sha256=X9IQDI1OcxvBMD-WI0td3YNXRPhGU_acmWePanGWCgc,4873
+myloguru_deskent-0.1.0.dist-info/LICENSE,sha256=2bm9uFabQZ3Ykb_SaSU_uUbAj2-htc6WJQmS_65qD00,1073
+myloguru_deskent-0.1.0.dist-info/METADATA,sha256=-_FY3kOcTJ6DCe0V8CuhG1w8fJokur2oqB6m83Sdphg,410
+myloguru_deskent-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+myloguru_deskent-0.1.0.dist-info/top_level.txt,sha256=lA2sk5qCNVROB4jlc_O1CVlC93EiCJxQHJQZvW1xBjE,9
+myloguru_deskent-0.1.0.dist-info/RECORD,,
