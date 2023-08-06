@@ -1,0 +1,3 @@
+[console_scripts]
+media-filesize-estimator=media_filesize_estimator.__main__:app
+
