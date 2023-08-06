@@ -1,0 +1,9 @@
+akshare
+notebook
+numpy
+orange3
+orange3-timeseries
+pandas
+rise
+rpy2
+visualpython

@@ -1,0 +1,24 @@
+Metadata-Version: 2.1
+Name: Orange3-Finecon
+Version: 0.5.9
+Summary: Add-on containing 金融及经济 widgets
+Home-page: http://orange.biolab.si/download
+Author: He Ray
+Author-email: hcmray@qq.com
+License: MIT
+Keywords: FinEcon,金融计量分析,金融数据分析
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+Orange3 Explain
+===============
+
+Short description for the PyPI.
+See [documentation](http://orange3-imageanalytics.readthedocs.org/).
+
+Features
+--------
+#### List of key features
+* Feature 1
+* Feature 2
+

@@ -1,0 +1,12 @@
+[orange.canvas.help]
+html-index = orangecontrib.finecon.widgets:WIDGET_HELP_PATH
+
+[orange.widgets]
+FinEcon = orangecontrib.finecon.widgets
+
+[orange.widgets.tutorials]
+exampletutorials = orangecontrib.finecon.tutorials
+
+[orange3.addon]
+FinEcon = orangecontrib.finecon
+

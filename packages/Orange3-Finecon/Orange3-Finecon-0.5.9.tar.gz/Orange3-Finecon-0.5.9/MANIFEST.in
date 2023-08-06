@@ -1,0 +1,2 @@
+include orangecontrib/FinEcon/tutorials/*.ows
+include orangecontrib/FinEcon/widgets/icons/*
