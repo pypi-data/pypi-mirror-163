@@ -1,0 +1,8 @@
+git_commit="f06b49e03219a1f7669007d5992265628c2cf2e7"
+git_commit_timestamp="2022-08-16_18:23:52_+0530"
+git_describe="f06b49e"
+build_os="Linux aef5421d2950 4.15.0-132-generic #136-Ubuntu SMP Tue Jan 12 14:58:42 UTC 2021 x86_64 GNU/Linux"
+build_machine="aef5421d2950"
+build_date="Tue Aug 16 13:17:17 UTC 2022"
+build_user="2117"
+version="0.0.4"
