@@ -1,0 +1,6 @@
+README.md
+setup.py
+Skills_game.egg-info/PKG-INFO
+Skills_game.egg-info/SOURCES.txt
+Skills_game.egg-info/dependency_links.txt
+Skills_game.egg-info/top_level.txt

@@ -1,0 +1,37 @@
+Metadata-Version: 2.1
+Name: Skills-game
+Version: 1.0.0
+Summary: UNKNOWN
+Home-page: UNKNOWN
+Author: Sean Balzereit
+Author-email: skills.game.org@gmail.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+Hello and welcome,
+
+this is an game platform on which you can play diffrent games.
+
+To play those game you shoud import at first this 
+libary and then call up the game which ypou want to play.
+
+==========
+ 
+"The game is imported"
+
+from Skills_Game import < Game name >
+
+"The game is started"
+
+< Game name >.Start()
+
+==========
+
+Games:
+
+[Pong]
+
