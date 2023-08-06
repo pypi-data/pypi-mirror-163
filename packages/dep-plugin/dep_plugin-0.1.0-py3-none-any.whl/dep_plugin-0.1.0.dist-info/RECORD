@@ -1,0 +1,9 @@
+.gitignore,sha256=JIrAzlsdZb8H-UoAoDi0OsJHXVKPjowt15GvecuS7MQ,335
+README.md,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+plugin/__init__.py,sha256=k2VkQrhHl1ikoxlJjx6iH_eVTvUli7yc83S3zbYNbvU,3406
+pyproject.toml,sha256=2buE9Zu8tcaiO8ja_6slOc4lDqbcGBjYsjliLDKvHjM,767
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/test_plug.py,sha256=2tuCSB8zy1NmJTDY49VHSbKEV2lhL0SChTv0t1sNT1E,2108
+dep_plugin-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+dep_plugin-0.1.0.dist-info/METADATA,sha256=Dej1TfQ2qUEUhqDxbXRgfg5c5ZmyS_1CklHRW-2oT0o,297
+dep_plugin-0.1.0.dist-info/RECORD,,
