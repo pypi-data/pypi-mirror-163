@@ -1,0 +1,10 @@
+skia-python
+fonttools[unicode]
+numpy
+uharfbuzz
+python-bidi
+unicodedata2
+blackrenderer
+
+[mp4]
+pyffmpeg==1.6.1
