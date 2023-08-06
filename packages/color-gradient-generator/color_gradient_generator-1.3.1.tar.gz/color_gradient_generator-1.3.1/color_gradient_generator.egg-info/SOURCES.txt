@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+color_gradient_generator/__init__.py
+color_gradient_generator/errors.py
+color_gradient_generator/generate.py
+color_gradient_generator/typing.py
+color_gradient_generator.egg-info/PKG-INFO
+color_gradient_generator.egg-info/SOURCES.txt
+color_gradient_generator.egg-info/dependency_links.txt
+color_gradient_generator.egg-info/top_level.txt
