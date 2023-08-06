@@ -1,0 +1,14 @@
+##fileformat=VCFv4.2
+##source=aldy-v4.0
+##INFO=<ID=ANN,Number=1,Type=String,Description="Location within CYP2D6">
+##INFO=<ID=TYPE,Number=1,Type=String,Description="Mutation kind">
+##INFO=<ID=GENE,Number=1,Type=String,Description="Gene">
+##FORMAT=<ID=GT,Number=1,Type=String,Description="Genotype">
+##FORMAT=<ID=DP,Number=1,Type=Integer,Description="Read Depth">
+##FORMAT=<ID=MA,Number=1,Type=String,Description="Major genotype star-allele calls">
+##FORMAT=<ID=MI,Number=1,Type=String,Description="Minor genotype star-allele calls">
+#CHROM	POS	ID	REF	ALT	QUAL	FILTER	INFO	FORMAT	NA10860:0:*1/*4+*4.021	NA10860:1:*4+*4/*139
+22	42522613	rs1135840	C	G	0	PASS	EFFECT=S486T;GENE=CYP2D6	GT:DP:MA:MI	1|1|1:15:*1,*4,*4.021:*1.001,*4,*4.021	1|1|1:15:*4,*139,*4:*4,*139.001,*4
+22	42523528	rs1058172	C	T	0	PASS	EFFECT=R365H;GENE=CYP2D6	GT:DP:MA:MI	0|1|1:21:-,*4,*4.021:-,*4,*4.021	0|1|1:21:-,*139,*4:-,*139.001,*4
+22	42524947	rs3892097	C	T	0	PASS	EFFECT=splicing_defect/169frameshift;GENE=CYP2D6	GT:DP:MA:MI	1|1|1:32:*1,*4,*4.021:*1.001,*4,*4.021	1|1|1:32:*4,*139,*4:*4,*139.001,*4
+22	42526694	rs1065852	G	A	0	PASS	EFFECT=P34S;GENE=CYP2D6	GT:DP:MA:MI	1|1|1:18:*1,*4,*4.021:*1.001,*4,*4.021	1|1|1:18:*4,*139,*4:*4,*139.001,*4
