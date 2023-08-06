@@ -1,0 +1,14 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+compatibilityer/__init__.py
+compatibilityer/__version__.py
+compatibilityer/convert.py
+compatibilityer/converter.py
+compatibilityer.egg-info/PKG-INFO
+compatibilityer.egg-info/SOURCES.txt
+compatibilityer.egg-info/dependency_links.txt
+compatibilityer.egg-info/top_level.txt
+compatibilityer/test/__init__.py
+compatibilityer/test/test_converter.py
