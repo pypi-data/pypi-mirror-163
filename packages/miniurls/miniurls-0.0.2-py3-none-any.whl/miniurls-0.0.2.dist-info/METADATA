@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: miniurls
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: https://github.com/heromr/miniurls
+Author: Hero
+License: UNKNOWN
+Keywords: miniurlsminiurlminiurlpyheromrshort linkshortenershortshort urlurl shortener
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+
+# mini urls
+A library to short urls with [shrtco.de](https://shrtco.de) api
+
+## Installation
+
+```bash
+pip install miniurls
+```
+
+## Example
+
+```python
+import miniurls
+
+url = "https://example.com"
+shorten = miniurls.Short()
+shorten_url = shorten.shortUrl(url=url)
+
+print(shorten_url)
+```
+
