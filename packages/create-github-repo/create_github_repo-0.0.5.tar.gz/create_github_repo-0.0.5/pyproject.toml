@@ -1,0 +1,23 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "create_github_repo"
+version = "0.0.5"
+authors = [
+  { name="Caleb Grant", email="grantcaleb22@gmail.com" },
+]
+description = "Simple CLI to initialize repos on GitHub."
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/geocoug/create-github-repo"
+"Bug Tracker" = "https://github.com/geocoug/create-github-repo/issues"
