@@ -1,0 +1,9 @@
+kopf==1.35.6
+python-dotenv==0.20.0
+kubernetes_asyncio==23.*
+kubernetes==23.*
+Jinja2==3.1.2
+networkx==2.8.5
+pydantic[email]==1.9.1
+PyYAML
+click
