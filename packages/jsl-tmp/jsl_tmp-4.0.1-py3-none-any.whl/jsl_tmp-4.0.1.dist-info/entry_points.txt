@@ -1,0 +1,4 @@
+[console_scripts]
+hello-world = custom_lib:hi.hello_world
+slut = custom_lib:hi.hello_slut
+
