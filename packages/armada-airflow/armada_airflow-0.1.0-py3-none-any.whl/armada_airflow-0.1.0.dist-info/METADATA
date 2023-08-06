@@ -1,0 +1,28 @@
+Metadata-Version: 2.1
+Name: armada-airflow
+Version: 0.1.0
+Summary: Armada Airflow Operator
+Author-email: Armada-GROSS <armada@armadaproject.io>
+License: Apache Software License
+Requires-Python: <3.9,>=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: armada-client
+Requires-Dist: apache-airflow (~=2.3.1)
+Requires-Dist: grpcio (~=1.46.3)
+Requires-Dist: grpcio-tools (~=1.46.3)
+Requires-Dist: types-protobuf (~=3.19.22)
+Provides-Extra: docs
+Requires-Dist: sphinx ; extra == 'docs'
+Requires-Dist: sphinx-jekyll-builder ; extra == 'docs'
+Provides-Extra: format
+Requires-Dist: black (~=22.3.0) ; extra == 'format'
+Requires-Dist: flake8 (~=4.0.1) ; extra == 'format'
+Requires-Dist: mypy (~=0.971) ; extra == 'format'
+Provides-Extra: test
+Requires-Dist: pytest (~=7.1.2) ; extra == 'test'
+Requires-Dist: mypy (~=0.971) ; extra == 'test'
+
+# armada-airflow-operator
+
+An Airflow operator for interfacing with the armada client
