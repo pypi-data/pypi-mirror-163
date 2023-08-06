@@ -1,0 +1,46 @@
+Metadata-Version: 2.1
+Name: opencovid19
+Version: 0.0.1
+Summary: COVID-19 Data wrapped by OpenCOVID-19
+Home-page: https://github.com/opencovid19data/opencovid19
+Author: OpenCOVID-19
+Requires-Python: >=3.7,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Provides-Extra: jhu-csse
+Provides-Extra: owid
+Provides-Extra: oxcgrt
+Requires-Dist: opencovid19-api (>=0.0.1,<0.0.2)
+Project-URL: Repository, https://github.com/opencovid19data/opencovid19
+Description-Content-Type: text/markdown
+
+# opencovid19
+
+COVID-19 Data wrapped by OpenCOVID-19
+
+
+
+## Installation
+
+```bash
+pip install opencovid19
+```
+
+
+
+## Quick Start
+
+```python
+import opencovid19
+```
+
+
+
+## Contributing
+
+
+
+
