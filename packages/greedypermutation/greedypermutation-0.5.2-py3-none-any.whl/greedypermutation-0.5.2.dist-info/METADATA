@@ -1,0 +1,32 @@
+Metadata-Version: 2.1
+Name: greedypermutation
+Version: 0.5.2
+Summary: A package for computing greedy permutations
+Home-page: https://github.com/donsheehy/greedypermutation
+Author: Donald R. Sheehy
+Author-email: don.r.sheehy@gmail.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.6
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: ds2 (>=0.2.4)
+Requires-Dist: metricspaces
+Requires-Dist: Click
+Provides-Extra: dev
+Requires-Dist: sphinx ; extra == 'dev'
+Requires-Dist: sphinx-rtd-theme ; extra == 'dev'
+Requires-Dist: sphinxcontrib-bibtex ; extra == 'dev'
+Requires-Dist: sphinx-click ; extra == 'dev'
+Requires-Dist: pytest ; extra == 'dev'
+Requires-Dist: pycodestyle ; extra == 'dev'
+Requires-Dist: autopep8 ; extra == 'dev'
+Requires-Dist: pytest-cov ; extra == 'dev'
+Provides-Extra: viz
+Requires-Dist: ds2viz ; extra == 'viz'
+
+# greedypermutation
+A python package for computing greedy permutations of metric data.
+
+Full documentation can be found at http://donsheehy.github.io/greedypermutation
