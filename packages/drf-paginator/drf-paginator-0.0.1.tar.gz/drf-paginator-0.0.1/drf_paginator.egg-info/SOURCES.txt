@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+drf_paginator.egg-info/PKG-INFO
+drf_paginator.egg-info/SOURCES.txt
+drf_paginator.egg-info/dependency_links.txt
+drf_paginator.egg-info/requires.txt
+drf_paginator.egg-info/top_level.txt
+source/__init__.py
+source/base.py
+source/drf-paginator.py

@@ -1,0 +1,21 @@
+Metadata-Version: 2.1
+Name: drf-paginator
+Version: 0.0.1
+Summary: DjangoRestFramework paginated response
+Home-page: UNKNOWN
+Author: anqov
+Author-email: jamoliddin.bakhriddinov@gmail.com
+License: UNKNOWN
+Keywords: python,django,djangorestframework,drf,pagination
+Platform: UNKNOWN
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: Unix
+Classifier: Operating System :: MacOS :: MacOS X
+Classifier: Operating System :: Microsoft :: Windows
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+A package that makes paginated response of QuerySet with given serializer.
+
