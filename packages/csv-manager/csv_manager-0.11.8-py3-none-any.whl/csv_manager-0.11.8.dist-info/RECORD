@@ -1,0 +1,10 @@
+csv_manager/__init__.py,sha256=4E86Kx07ZCmohdYL4Y0XBGRQT8ICGJa-oChoAS9D3zA,132
+csv_manager/database.py,sha256=sgQODmNGXqe2P8pxOnz4ICtliYTU1H6Kd0mBkPCJNvM,12872
+csv_manager/datafile.py,sha256=3fWEXNstIcKwES0w3Kx3V2aWcy52g85c-DxT2HRrJOY,15939
+csv_manager/misc.py,sha256=5ZiLrPbZKaaQXM7OsN1jeEJs65VeMXbSBjgKRmI-GMs,1341
+csv_manager/plotter.py,sha256=Y0LUg-s2sX70NUzm1q-OpEa3u-RFAQNfmfzPc-A8dXE,3710
+csv_manager/writer.py,sha256=hlQgPPdjBvLwZy9vmkzB_h1PBLV-W9JoLYrmT3FnAlk,1498
+csv_manager-0.11.8.dist-info/METADATA,sha256=PuZQhP6_fIYGQgjWDpBvV6pokcrNxpUgv8Vhy1j7Wzw,4125
+csv_manager-0.11.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+csv_manager-0.11.8.dist-info/top_level.txt,sha256=rQmueD_q0Goz681zCoaHMaiRzEWX9kWsmFAxnya0ccM,12
+csv_manager-0.11.8.dist-info/RECORD,,
