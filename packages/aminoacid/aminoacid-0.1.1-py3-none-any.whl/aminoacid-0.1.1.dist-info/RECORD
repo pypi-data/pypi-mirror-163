@@ -1,0 +1,13 @@
+aminoacid/__init__.py,sha256=srHgvDjYkXq2Y_hixuUgxgamMoBTr1o8U1YferT1wcY,8075
+aminoacid/_socket.py,sha256=84L1Ccdr_ZQtEwplniqEcICXD4BQgy4-oBgP9ridvk8,3638
+aminoacid/abc.py,sha256=rNwEDnXJbRFlupf61qcBeTwce-RzcWToB4Qu6nJDqVk,11948
+aminoacid/client.py,sha256=QPxZdQ3rF1LKe27H1zu8BHKOGCsfQqJxjbLegezcEtQ,6498
+aminoacid/exceptions.py,sha256=SEpjTBSHCu9tVHKR5B4hn5-GBLdPVhoXblpTvCrapPM,1472
+aminoacid/util/__init__.py,sha256=gDZKKta6rf-kska6g4YmVaMvGg69EI357D7LOHxheRc,1252
+aminoacid/util/commands.py,sha256=knTQTfFu28wLm5rbm55u1VB-8JUZzzws0dq1VPrJYOM,4593
+aminoacid/util/enums.py,sha256=vGsceDhkD0A3j_mUSaaDtpe7tK6NWgj4G822yG5ZrCM,1629
+aminoacid-0.1.1.dist-info/LICENSE,sha256=sIzSrM5ZjQI-SC-ZhD-BmZxJ_6WdIW3FTy3c7FTA07s,1065
+aminoacid-0.1.1.dist-info/METADATA,sha256=YhHWrnd6UTVMKyF-Q4tbzloObcbt5LW131jEJw2_ruQ,3583
+aminoacid-0.1.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+aminoacid-0.1.1.dist-info/top_level.txt,sha256=dAHhbDZzJJ7-LVNUyi998aYo0tXyELMxnpternap3m8,10
+aminoacid-0.1.1.dist-info/RECORD,,
