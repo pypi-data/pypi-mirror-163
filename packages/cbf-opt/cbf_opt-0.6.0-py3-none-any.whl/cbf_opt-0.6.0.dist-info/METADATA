@@ -1,0 +1,15 @@
+Metadata-Version: 2.1
+Name: cbf-opt
+Version: 0.6.0
+Summary: CBF QP implementation in Python
+Author: Sander Tonkens
+Author-email: sandertonkens@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Requires-Python: >=3.6
+Requires-Dist: numpy (>=1.18.0)
+Requires-Dist: scipy (>=1.4.1)
+Requires-Dist: cvxpy (>=1.0.0)
+
+UNKNOWN
+
