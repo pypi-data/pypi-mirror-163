@@ -1,0 +1,8 @@
+setup.cfg
+setup.py
+from_root/__init__.py
+from_root/__main__.py
+root_relative.egg-info/PKG-INFO
+root_relative.egg-info/SOURCES.txt
+root_relative.egg-info/dependency_links.txt
+root_relative.egg-info/top_level.txt
