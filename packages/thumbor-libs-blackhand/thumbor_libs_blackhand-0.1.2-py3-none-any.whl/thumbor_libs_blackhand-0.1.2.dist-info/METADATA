@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: thumbor-libs-blackhand
+Version: 0.1.2
+Summary: libs thumbor
+Home-page: https://github.com/Bkhand/thumbor_libs_blackhand
+Author: Bertrand Thill
+Author-email: github@blackhand.org
+License: GNU
+Keywords: thumbor,fallback,images,nfs,mongodb
+Classifier: Development Status :: 4 - Beta
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Natural Language :: English
+Classifier: Operating System :: POSIX :: Linux
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Multimedia :: Graphics :: Presentation
+License-File: LICENSE
+Requires-Dist: thumbor (>=7.1.0)
+Requires-Dist: pymongo (>=3.11.3)
+
+This module test support for file.
