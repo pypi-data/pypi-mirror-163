@@ -1,0 +1,77 @@
+Metadata-Version: 2.1
+Name: recc
+Version: 2.0.0.dev10
+Summary: The Answer, No-Code Development Platform.
+Home-page: https://answerdoc.bogonets.com
+Author: zer0
+Author-email: osom8979@gmail.com
+Maintainer: zer0
+Maintainer-email: osom8979@gmail.com
+License: MIT License
+Project-URL: Documentation, https://answerdoc.bogonets.com
+Project-URL: Source, https://github.com/bogonets/answer
+Keywords: Answer,No-code,Visual Graph,Visual Programming,Machine Learning,Deep Learning
+Platform: UNKNOWN
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Web Environment
+Classifier: Environment :: GPU :: NVIDIA CUDA
+Classifier: Framework :: AsyncIO
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: System Administrators
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: JavaScript
+Classifier: Topic :: Scientific/Engineering :: Image Processing
+Classifier: Topic :: Scientific/Engineering :: Image Recognition
+Classifier: Topic :: Scientific/Engineering :: Information Analysis
+Classifier: Topic :: Scientific/Engineering :: Visualization
+Classifier: Topic :: Software Development
+Classifier: Topic :: Utilities
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: License :: OSI Approved :: MIT License
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+Requires-Dist: aiodns (>=3.0.0)
+Requires-Dist: aiohttp-swagger (>=1.0.16)
+Requires-Dist: aiohttp[speedups] (>=3.8.1)
+Requires-Dist: aiohttp-cors (>=0.7.0)
+Requires-Dist: aioredis (>=2.0.1)
+Requires-Dist: async-timeout (>=4.0.2)
+Requires-Dist: asyncpg (>=0.26.0)
+Requires-Dist: brotlipy (>=0.7.0)
+Requires-Dist: cchardet (>=2.1.7)
+Requires-Dist: colorama (>=0.4.5)
+Requires-Dist: coloredlogs (>=15.0.1)
+Requires-Dist: docker (>=5.0.3)
+Requires-Dist: grpcio (>=1.47.0)
+Requires-Dist: minio (>=7.1.10)
+Requires-Dist: msgpack (>=1.0.4)
+Requires-Dist: numpy (>=1.22.4)
+Requires-Dist: orjson (>=3.7.5)
+Requires-Dist: overrides (>=6.1.0)
+Requires-Dist: protobuf (>=4.21.2)
+Requires-Dist: psutil (>=5.9.1)
+Requires-Dist: pycryptodome (>=3.15.0)
+Requires-Dist: pyjwt (>=2.4.0)
+Requires-Dist: python-dateutil (>=2.8.2)
+Requires-Dist: pyyaml (>=6.0)
+Requires-Dist: shapely (>=1.8.2)
+Requires-Dist: type-serialize (>=1.1.1)
+Requires-Dist: uvloop (>=0.16.0)
+Requires-Dist: xmltodict (>=0.13.0)
+
+# ANSWER (RECC CORE)
+
+Restructured Engine for the Cyclops Cloud - CORE
+
+## Upgrade and maintenance
+
+## Debugging
+
+```bash
+./core -v -d -k public -p 20000
+```
+
+
+
