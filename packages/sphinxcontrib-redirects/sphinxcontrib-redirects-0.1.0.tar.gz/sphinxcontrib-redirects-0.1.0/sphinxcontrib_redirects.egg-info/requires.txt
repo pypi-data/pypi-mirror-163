@@ -1,0 +1,8 @@
+sphinx>=1.6
+
+[sphinx]
+sphinx
+
+[test]
+sphinx
+pytest
