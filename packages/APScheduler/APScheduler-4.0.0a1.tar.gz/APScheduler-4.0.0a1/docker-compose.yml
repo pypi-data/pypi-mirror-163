@@ -1,0 +1,35 @@
+version: "3.7"
+services:
+  postgresql:
+    image: postgres
+    ports:
+      - 127.0.0.1:5432:5432
+    environment:
+      POSTGRES_DB: testdb
+      POSTGRES_PASSWORD: secret
+
+  mysql:
+    image: mysql
+    ports:
+      - 127.0.0.1:3306:3306
+    environment:
+      MYSQL_DATABASE: testdb
+      MYSQL_ROOT_PASSWORD: secret
+
+  mongodb:
+    image: mongo
+    ports:
+      - 127.0.0.1:27017:27017
+
+  vernemq:
+    image: vernemq/vernemq:latest-alpine
+    ports:
+      - 127.0.0.1:1883:1883
+    environment:
+      DOCKER_VERNEMQ_ACCEPT_EULA: "yes"
+      DOCKER_VERNEMQ_ALLOW_ANONYMOUS: "on"
+
+  redis:
+    image: redis:6
+    ports:
+      - 127.0.0.1:6379:6379
