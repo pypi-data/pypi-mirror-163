@@ -1,0 +1,108 @@
+
+############################## Experiment details ##############################
+
+dataset: speech_commands
+dataset_dir: ../data/speech_commands/
+output_dir: output/fedavg-speech_commands-2022-08-15_22:15:48/
+model: m5
+num_rounds: 30
+eval_every: 10
+ServerType: <class 'fedavg_cnn_exp.fedavg_cnn.<locals>.make_fedavg_server_client.<locals>.FedAvgServer'>
+client_types: [(<class 'fedavg_cnn_exp.fedavg_cnn.<locals>.make_fedavg_server_client.<locals>.FedAvgClient'>, 20)]
+clients_per_round: 20
+client_lr: 0.05
+batch_size: 64
+seed: 0
+use_val_set: False
+num_epochs: 10
+gpus_per_client_cluster: 1
+num_client_clusters: 4
+save_model: False
+
+############################## Simulation ##############################
+
+Spawning 4 ClientClusters using cuda device (this may take a while)
+20 total clients: 20 FedAvgClients
+
+>>> Training Accuracy: Round 0 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0367268 | 0.0357599 |         0.0247599 |         0.0490132 |
++-----------+-----------+-------------------+-------------------+
+>>> Test Accuracy: Round 0 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0534351 | 0.0564388 |         0.0269559 |         0.0853448 |
++-----------+-----------+-------------------+-------------------+
+--- Round 1 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 2 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 3 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 4 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 5 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 6 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 7 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 8 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 9 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 10 of 30: Training 20 clients: 20 FedAvgClients ---
+>>> Training Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.341495 | 0.299249 |          0.207143 |          0.505159 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.268448 | 0.221814 |          0.134665 |          0.422444 |
++-----------+----------+-------------------+-------------------+
+--- Round 11 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 12 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 13 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 14 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 15 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 16 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 17 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 18 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 19 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 20 of 30: Training 20 clients: 20 FedAvgClients ---
+>>> Training Accuracy: Round 20 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.467784 | 0.479993 |          0.371005 |          0.540037 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 20 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|   0.36514 | 0.357975 |          0.215183 |          0.513725 |
++-----------+----------+-------------------+-------------------+
+--- Round 21 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 22 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 23 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 24 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 25 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 26 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 27 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 28 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 29 of 30: Training 20 clients: 20 FedAvgClients ---
+--- Round 30 of 30: Training 20 clients: 20 FedAvgClients ---
+>>> Training Accuracy: Round 30 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.548647 | 0.556281 |          0.418582 |          0.695603 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 30 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.396947 | 0.398355 |          0.206207 |          0.515287 |
++-----------+----------+-------------------+-------------------+
+
+############################## Post-Simulation ##############################
+
+Total Experiment time: 0:03:17.514742

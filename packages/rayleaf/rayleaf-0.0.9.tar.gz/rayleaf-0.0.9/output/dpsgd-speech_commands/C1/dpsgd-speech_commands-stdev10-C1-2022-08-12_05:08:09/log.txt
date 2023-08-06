@@ -1,0 +1,262 @@
+
+############################## Experiment details ##############################
+
+dataset: speech_commands
+dataset_dir: ../data/speech_commands/
+output_dir: output/dpsgd-speech_commands/C1/dpsgd-speech_commands-stdev10-C1-2022-08-12_05:08:09/
+model: m5
+num_rounds: 100
+eval_every: 10
+ServerType: <class 'dpsgd_cnn_exp.dpsgd_cnn.<locals>.DPSGDServer'>
+client_types: [(<class 'dpsgd_cnn_exp.dpsgd_cnn.<locals>.DPSGDClient'>, 400)]
+clients_per_round: 20
+client_lr: 0.05
+batch_size: 64
+seed: 0
+use_val_set: False
+num_epochs: 10
+gpus_per_client_cluster: 1
+num_client_clusters: 4
+save_model: False
+
+############################## Simulation ##############################
+
+Spawning 4 ClientClusters using cuda device (this may take a while)
+400 total clients: 400 DPSGDClients
+
+>>> Training Accuracy: Round 0 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.150567 | 0.153846 |         0.0833333 |          0.208333 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 0 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0336903 |     0.04 |                 0 |              0.08 |
++-----------+----------+-------------------+-------------------+
+--- Round 1 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 2 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 3 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 4 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 5 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 6 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 7 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 8 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 9 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 10 of 100: Training 20 clients: 20 DPSGDClients ---
+>>> Training Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0420089 |        0 |                 0 |          0.143277 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 10 <<<
++------------+----------+-------------------+-------------------+
+|    average |   median |   10th percentile |   90th percentile |
+|------------+----------+-------------------+-------------------|
+| 0.00925445 |        0 |                 0 |         0.0416667 |
++------------+----------+-------------------+-------------------+
+--- Round 11 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 12 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 13 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 14 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 15 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 16 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 17 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 18 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 19 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 20 of 100: Training 20 clients: 20 DPSGDClients ---
+>>> Training Accuracy: Round 20 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.123427 |    0.125 |         0.0398462 |          0.209239 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 20 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0267235 |        0 |                 0 |              0.08 |
++-----------+----------+-------------------+-------------------+
+--- Round 21 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 22 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 23 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 24 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 25 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 26 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 27 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 28 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 29 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 30 of 100: Training 20 clients: 20 DPSGDClients ---
+>>> Training Accuracy: Round 30 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.117916 |     0.12 |              0.04 |          0.206962 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 30 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0309868 | 0.037037 |                 0 |         0.0833333 |
++-----------+----------+-------------------+-------------------+
+--- Round 31 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 32 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 33 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 34 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 35 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 36 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 37 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 38 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 39 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 40 of 100: Training 20 clients: 20 DPSGDClients ---
+>>> Training Accuracy: Round 40 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|   0.15379 | 0.153846 |              0.08 |          0.227273 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 40 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0437766 | 0.0416667 |                 0 |         0.0952381 |
++-----------+-----------+-------------------+-------------------+
+--- Round 41 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 42 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 43 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 44 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 45 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 46 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 47 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 48 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 49 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 50 of 100: Training 20 clients: 20 DPSGDClients ---
+>>> Training Accuracy: Round 50 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.142768 | 0.136364 |              0.05 |          0.227273 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 50 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0377457 |     0.04 |                 0 |         0.0952381 |
++-----------+----------+-------------------+-------------------+
+--- Round 51 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 52 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 53 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 54 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 55 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 56 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 57 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 58 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 59 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 60 of 100: Training 20 clients: 20 DPSGDClients ---
+>>> Training Accuracy: Round 60 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.137361 | 0.136364 |              0.05 |          0.218379 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 60 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0362899 |     0.04 |                 0 |         0.0869565 |
++-----------+----------+-------------------+-------------------+
+--- Round 61 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 62 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 63 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 64 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 65 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 66 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 67 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 68 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 69 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 70 of 100: Training 20 clients: 20 DPSGDClients ---
+>>> Training Accuracy: Round 70 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.122907 |    0.125 |                 0 |          0.208333 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 70 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|   0.02402 |        0 |                 0 |         0.0769231 |
++-----------+----------+-------------------+-------------------+
+--- Round 71 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 72 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 73 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 74 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 75 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 76 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 77 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 78 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 79 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 80 of 100: Training 20 clients: 20 DPSGDClients ---
+>>> Training Accuracy: Round 80 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.139545 | 0.142857 |         0.0769231 |          0.200833 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 80 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0376417 |     0.04 |                 0 |         0.0909091 |
++-----------+----------+-------------------+-------------------+
+--- Round 81 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 82 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 83 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 84 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 85 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 86 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 87 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 88 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 89 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 90 of 100: Training 20 clients: 20 DPSGDClients ---
+>>> Training Accuracy: Round 90 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.127795 |    0.125 |         0.0454545 |          0.200833 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 90 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0349381 |     0.04 |                 0 |         0.0869565 |
++-----------+----------+-------------------+-------------------+
+--- Round 91 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 92 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 93 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 94 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 95 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 96 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 97 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 98 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 99 of 100: Training 20 clients: 20 DPSGDClients ---
+--- Round 100 of 100: Training 20 clients: 20 DPSGDClients ---
+>>> Training Accuracy: Round 100 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.170219 | 0.166667 |         0.0995238 |          0.240324 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 100 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0384735 | 0.0408333 |                 0 |         0.0869565 |
++-----------+-----------+-------------------+-------------------+
+
+############################## Post-Simulation ##############################
+
+Total Experiment time: 0:12:47.968632

@@ -1,0 +1,63 @@
+
+############################## Experiment details ##############################
+
+dataset: speech_commands
+dataset_dir: ../data/speech_commands/
+output_dir: output/fedavg-speech_commands-2022-08-15_19:58:20/
+model: m5
+num_rounds: 100
+eval_every: 10
+ServerType: <class 'rayleaf.entities.server.Server'>
+client_types: [(<class 'rayleaf.entities.client.Client'>, 1)]
+clients_per_round: 1
+client_lr: 0.05
+batch_size: 64
+seed: 0
+use_val_set: False
+num_epochs: 10
+gpus_per_client_cluster: 1
+num_client_clusters: 4
+save_model: False
+
+############################## Simulation ##############################
+
+Spawning 4 ClientClusters using cuda device (this may take a while)
+1 total clients: 1 Client
+
+>>> Training Accuracy: Round 0 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.031746 | 0.031746 |          0.031746 |          0.031746 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 0 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|   0.03125 |  0.03125 |           0.03125 |           0.03125 |
++-----------+----------+-------------------+-------------------+
+--- Round 1 of 100: Training 1 clients: 1 Client ---
+--- Round 2 of 100: Training 1 clients: 1 Client ---
+--- Round 3 of 100: Training 1 clients: 1 Client ---
+--- Round 4 of 100: Training 1 clients: 1 Client ---
+--- Round 5 of 100: Training 1 clients: 1 Client ---
+--- Round 6 of 100: Training 1 clients: 1 Client ---
+--- Round 7 of 100: Training 1 clients: 1 Client ---
+--- Round 8 of 100: Training 1 clients: 1 Client ---
+--- Round 9 of 100: Training 1 clients: 1 Client ---
+--- Round 10 of 100: Training 1 clients: 1 Client ---
+>>> Training Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|         1 |        1 |                 1 |                 1 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.984375 | 0.984375 |          0.984375 |          0.984375 |
++-----------+----------+-------------------+-------------------+
+--- Round 11 of 100: Training 1 clients: 1 Client ---
+--- Round 12 of 100: Training 1 clients: 1 Client ---
+--- Round 13 of 100: Training 1 clients: 1 Client ---
