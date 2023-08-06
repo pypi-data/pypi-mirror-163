@@ -1,0 +1,12 @@
+Metadata-Version: 2.1
+Name: radler
+Version: 0.0.1
+Summary: A test project using pybind11 and CMake
+Author: Andre Offringa
+Author-email: offringa@astron.nl
+Requires-Python: >=3.6
+License-File: LICENSE
+License-File: LICENSE.LESSER
+Provides-Extra: test
+Requires-Dist: pytest (>=6.0) ; extra == 'test'
+
