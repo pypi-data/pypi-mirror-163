@@ -1,0 +1,12 @@
+openacquisition/__init__.py,sha256=h6GXMmElccqcqvFRBPAfzypQRWFB0hEINc6UxfE5Yuo,119
+openacquisition/acquisition_method.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openacquisition/isolation_windows/isolation_model.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openacquisition/isolation_windows/isolation_shape.py,sha256=AdwxUVLqP6H2k0dCmAgnXz-6qPQaqJj0M7XiByECkv0,4415
+openacquisition/isotopes/isotope_spline_db.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openacquisition/isotopes/isotope_spline_xml_parser.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openacquisition/mathematics/CubicSpline.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openacquisition/openacquisition.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+openacquisition-0.1.0.dist-info/LICENSE,sha256=eW36j3UcFd-TF1f_2JAYQVfPp1nm2BLebPTs2KET06c,1072
+openacquisition-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+openacquisition-0.1.0.dist-info/METADATA,sha256=6wpYrmqzGz8bCE3IcJDZMBKIOCRhxzlOqMHHIn4_TK0,1169
+openacquisition-0.1.0.dist-info/RECORD,,
