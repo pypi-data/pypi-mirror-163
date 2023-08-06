@@ -1,0 +1,13 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+gayathriCalculator/__init__.py
+gayathricalculator.egg-info/PKG-INFO
+gayathricalculator.egg-info/SOURCES.txt
+gayathricalculator.egg-info/dependency_links.txt
+gayathricalculator.egg-info/top_level.txt
+joshbasiccalculator.egg-info/SOURCES.txt
+joshbasiccalculator.egg-info/dependency_links.txt
+joshbasiccalculator.egg-info/top_level.txt
