@@ -1,0 +1,12 @@
+fastapi
+uvicorn
+pydantic
+requests
+redis
+croniter
+DZDConfigs
+tqdm
+getversion
+
+[test]
+shittywebserver
