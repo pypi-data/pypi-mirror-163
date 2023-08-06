@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: ecg-sample-setup
+Version: 0.1.3
+Summary: 
+Author: RobC
+Author-email: rob.clapham@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: poetry (>=1.1.14,<2.0.0)
+Description-Content-Type: text/markdown
+
+
+# ecgai-sample-setup
+
+ > Easily extend JSON to encode and decode arbitrary Python objects.
+
+[![PyPI version][pypi-image]][pypi-url]
+[![Build status][build-image]][build-url]
+[![Code coverage][coverage-image]][coverage-url]
+
+[//]: # ([![GitHub stars][stars-image]][stars-url])
+
+[//]: # ([![Support Python versions][versions-image]][versions-url])
+...
+
+
+from article at https://mathspp.com/blog/how-to-create-a-python-package-in-2022
+
+just a test package to help me setup next time
+
+<!-- Badges: -->
+
+[pypi-image]: https://img.shields.io/pypi/v/ecg_sample_setup
+[pypi-url]: https://pypi.org/project/ecg_sample_setup/
+[build-image]: https://github.com/Ecg-Ai-com/ecgai-sample-setup/actions/workflows/build.yaml/badge.svg
+[build-url]: https://github.com/Ecg-Ai-com/ecg-sample-setup/actions/workflows/build.yaml
+[coverage-image]: https://codecov.io/gh/Ecg-Ai-com/ecg-sample-setup/branch/main/graph/badge.svg
+[coverage-url]: https://codecov.io/gh/Ecg-Ai-com/ecg-sample-setup/
+[stars-image]: https://img.shields.io/github/stars/Ecg-Ai-com/ecg-sample-setup/
+[stars-url]: https://github.com/Ecg-Ai-com/ecg-sample-setup
+[versions-image]: https://img.shields.io/pypi/pyversions/ecg-sample-setup/
+[versions-url]: https://pypi.org/project/ecg-sample-setup/
+
