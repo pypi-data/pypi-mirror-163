@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: lib-V1
+Version: 0.0.2
+Summary: UNKNOWN
+Home-page: http://pypi.python.org/pypi/lib_V1/
+Author: Algorithms Path
+Author-email: support@algorithmspath.com
+License: MIT
+Platform: UNKNOWN
+Requires-Dist: bs4
+Requires-Dist: duckduckgo-search
+Requires-Dist: plyvel
+Requires-Dist: selenium
+
+UNKNOWN
+
+
