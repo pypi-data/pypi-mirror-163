@@ -1,0 +1,9 @@
+README.md
+pyproject.toml
+setup.py
+ByeByePii.egg-info/PKG-INFO
+ByeByePii.egg-info/SOURCES.txt
+ByeByePii.egg-info/dependency_links.txt
+ByeByePii.egg-info/top_level.txt
+byebyepii/__init__.py
+byebyepii/byebyepii.py
