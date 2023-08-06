@@ -1,0 +1,12 @@
+meltPT/__init__.py,sha256=zADSq_hrso5vnp0EMWwtxgKmL6kV6eJ-nGcvLUCGz20,277
+meltPT/backtrack_compositions.py,sha256=LTO7lsLQ10UVci2dIIufDxyhXqDaWhrxYEGEk8RGbhk,11839
+meltPT/fit_melting_paths.py,sha256=tvS4d5JjzOYGHQgIPgN9qHXb_wW3BJUVdLndLLyhCRM,12929
+meltPT/parse.py,sha256=wH4gO7TOMJF7rqlpwkk0uu8L9JqOma32mrfzRe5CgiE,4594
+meltPT/suite.py,sha256=6irxhHn4TiqMbw44_n8zLlIkA4meusJgZVOvM4i0eqc,22166
+meltPT/thermobarometry.py,sha256=SQ2a2-NaCKTA9wh7R-NbaZoSZLHuHNBQEdaplyqmAuY,67856
+meltPT-1.0.0.data/scripts/meltPT,sha256=y9grNw2NnNiwAtcaBoh2yyAhSTa28QOkmU-OJ3IpkkQ,3533
+meltPT-1.0.0.dist-info/LICENSE,sha256=n_dUOj4m2OuC9pgeg474xu5TTbS3BEo0nWAst3lsl3U,34499
+meltPT-1.0.0.dist-info/METADATA,sha256=h_Y-7_bg6rNpTzInwR-PrwKcVFyrnCIxqQzmzVpo87g,5297
+meltPT-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+meltPT-1.0.0.dist-info/top_level.txt,sha256=3W4pbvTdwwT3RR0s031_9pIhKVrk-KBwnv8gLtswQNs,7
+meltPT-1.0.0.dist-info/RECORD,,
