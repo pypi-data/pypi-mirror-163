@@ -1,0 +1,15 @@
+python3 -m venv venv-noted
+. venv-noted/bin/activate
+pip install noted-dev
+pip list | grep noted
+mkdir noted
+cd noted/
+mkdir logs
+mkdir config
+mkdir query
+mkdir transfers
+nano noted/config/config.yaml
+find . -name params.ini
+nano ./venv-noted/lib/python3.8/site-packages/noted/params/params.ini
+noted -h
+noted noted/config/config.yaml &
