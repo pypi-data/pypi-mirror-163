@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+ApiTest365/ApiTest.py
+ApiTest365/__init__.py
+ApiTest365.egg-info/PKG-INFO
+ApiTest365.egg-info/SOURCES.txt
+ApiTest365.egg-info/dependency_links.txt
+ApiTest365.egg-info/requires.txt
+ApiTest365.egg-info/top_level.txt
