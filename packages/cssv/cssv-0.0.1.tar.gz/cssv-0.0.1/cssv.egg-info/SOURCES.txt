@@ -1,0 +1,6 @@
+setup.py
+cssv.egg-info/PKG-INFO
+cssv.egg-info/SOURCES.txt
+cssv.egg-info/dependency_links.txt
+cssv.egg-info/not-zip-safe
+cssv.egg-info/top_level.txt
