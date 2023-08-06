@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/KnoemaUpload/KnoemaUpload.py
+src/KnoemaUpload/__init__.py
+src/KnoemaUpload.egg-info/PKG-INFO
+src/KnoemaUpload.egg-info/SOURCES.txt
+src/KnoemaUpload.egg-info/dependency_links.txt
+src/KnoemaUpload.egg-info/top_level.txt
