@@ -1,0 +1,8 @@
+README.md
+setup.py
+ohlcobject/__init__.py
+ohlcobject.egg-info/PKG-INFO
+ohlcobject.egg-info/SOURCES.txt
+ohlcobject.egg-info/dependency_links.txt
+ohlcobject.egg-info/not-zip-safe
+ohlcobject.egg-info/top_level.txt
