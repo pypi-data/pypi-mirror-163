@@ -1,0 +1,41 @@
+Metadata-Version: 2.1
+Name: ohlcobject
+Version: 1.1
+Summary: Improve performance for handling OHLC against Pandas
+Home-page: UNKNOWN
+Author: OpenFibers
+Author-email: openfibers@gmail.com
+License: MIT
+Description: 为 OHLC 处理去 pandas 化，从而避免大量的 pandas 内存拷贝，达到性能优化的效果（大概 8000%）。  
+        
+        内部存储为 { "low": [], "high": [] }  
+        
+        可将 ohlc_object[num]['key'] 的调用转化为 ohlc_object['key'][num] 的调用。  
+        
+        # init
+        
+        ```
+        obj = OHLCObject()
+                for key in df:
+                    obj[key] = [1, 2, 3]
+                return obj
+        ```
+        
+        # merge
+        
+        Merge obj2 into obj1, automatically sort using 'timestamp' key
+        
+        ```
+        obj1.merge(obj2)
+        ```
+        
+        # read
+        
+        ```
+        obj['low'][1]  # best performance
+        obj[1]['low']
+        obj[3:][1]['low']
+        ```
+        
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
