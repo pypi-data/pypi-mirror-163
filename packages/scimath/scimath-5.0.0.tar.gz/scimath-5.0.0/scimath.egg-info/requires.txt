@@ -1,0 +1,7 @@
+traits
+numpy
+scipy
+
+[docs]
+enthought-sphinx-theme
+sphinx
