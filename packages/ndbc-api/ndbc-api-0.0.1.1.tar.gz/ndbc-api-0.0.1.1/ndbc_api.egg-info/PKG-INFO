@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: ndbc-api
+Version: 0.0.1.1
+Summary: A Python API for the National Data Buoy Center.
+Home-page: https://github.com/cdjellen/ndbc-api
+Author: Chris Jellen
+Author-email: contact.cdjellen@gmail.com
+License: MIT
+Download-URL: https://github.com/cdjellen/ndbc-api/tarball/main
+Keywords: ndbc,python3,api,oceanography,buoy,atmospheric
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Software Development :: Build Tools
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# ndbc-api
+[Work in progress]
+A Python API for retrieving meteorological and oceanographic data from the National Data Buoy Center (NDBC).
+
+
