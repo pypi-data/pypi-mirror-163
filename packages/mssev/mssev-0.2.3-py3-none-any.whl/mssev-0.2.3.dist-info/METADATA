@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: mssev
+Version: 0.2.3
+Author-email: Alejandro Caravaca Puchades <acaravacapuchades@icloud.com>
+License: GPL-3.0-only
+Description-Content-Type: text/x-rst
+License-File: LICENSE.txt
+Requires-Dist: numpy (==1.23.2)
+Requires-Dist: pandas (==1.4.3)
+Requires-Dist: python-dateutil (==2.8.2)
+Requires-Dist: pytz (==2022.2.1)
+Requires-Dist: six (==1.16.0)
+
+# python-mssev
+
+Calculates ARMSS (age-related multiple sclerosis severity) and both local and global MSSS (multiple sclerosis severity score). This package is a port of [ms.sev](https://rdrr.io/cran/ms.sev/).<
