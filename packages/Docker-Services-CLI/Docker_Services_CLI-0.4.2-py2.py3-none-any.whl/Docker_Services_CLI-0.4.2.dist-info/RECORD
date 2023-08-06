@@ -1,0 +1,13 @@
+docker_services_cli/__init__.py,sha256=yUN2liB1Qt1QXmFCHz2xVrTAeaI5hYQpuEcednZ6JsE,936
+docker_services_cli/cli.py,sha256=iWnRreI48z53au5MG_kUHJPHHknVLh3s82kDmoTeJAg,5988
+docker_services_cli/config.py,sha256=O6PJvkIMOd1PWHUfMtsblXa4DUw1Eyb_yIElUazCTII,3974
+docker_services_cli/docker-services.yml,sha256=dHKAa8CfdGTS_5pdllsW3YLvnRNpSzRwQerO7dRgWDw,1458
+docker_services_cli/env.py,sha256=3ZBzl538x9QChw9kN_EIL7oqbTAAIJsjUBib0V-iIWY,6907
+docker_services_cli/services.py,sha256=kVvnNfkPJX1DX7OOyDmk4Y5fwNqtqfnFTLJ5oN-G2xM,5863
+Docker_Services_CLI-0.4.2.dist-info/AUTHORS.rst,sha256=D-ae_cfXfEG3abKCnotEDB9OkvGMIljSGUFTB-2wysE,246
+Docker_Services_CLI-0.4.2.dist-info/LICENSE,sha256=ZiCjjVShFiNyAecBnVjHFO3Wzfrp86N8j_pffcCZpE8,1061
+Docker_Services_CLI-0.4.2.dist-info/METADATA,sha256=CfJ4WTsaoK2XMjHqS5aT0MOa2JKu3gppQst4K2YYe1o,2157
+Docker_Services_CLI-0.4.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+Docker_Services_CLI-0.4.2.dist-info/entry_points.txt,sha256=zCwc9yk683KOBscqEqG0y4yJB7lWMmOnkv5ZCTuLOeo,69
+Docker_Services_CLI-0.4.2.dist-info/top_level.txt,sha256=R5o5t0u24nqYKcGEriI0FwDu-vZg-y-AkqdpZdAcYvg,20
+Docker_Services_CLI-0.4.2.dist-info/RECORD,,
