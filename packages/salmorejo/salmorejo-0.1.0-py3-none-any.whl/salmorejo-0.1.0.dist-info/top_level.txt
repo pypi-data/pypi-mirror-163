@@ -1,0 +1,4 @@
+cli
+config
+k8s
+salmorejo
