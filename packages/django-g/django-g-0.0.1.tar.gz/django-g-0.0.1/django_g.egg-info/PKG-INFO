@@ -1,0 +1,27 @@
+Metadata-Version: 2.1
+Name: django-g
+Version: 0.0.1
+Summary: Django global context
+Home-page: https://github.com/buserbrasil/django-g
+Author: Iuri de Silvio
+Author-email: iurisilvio@gmail.com
+License: MIT
+Classifier: Development Status :: 3 - Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# django-g
+
+Django global context.
+
+## How to install
+
+```
+$ pip install django-g
+```
