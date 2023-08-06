@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+nas_bench_graph/__init__.py
+nas_bench_graph/architecture.py
+nas_bench_graph/readbench.py
+nas_bench_graph/runnni.py
+nas_bench_graph.egg-info/PKG-INFO
+nas_bench_graph.egg-info/SOURCES.txt
+nas_bench_graph.egg-info/dependency_links.txt
+nas_bench_graph.egg-info/top_level.txt
