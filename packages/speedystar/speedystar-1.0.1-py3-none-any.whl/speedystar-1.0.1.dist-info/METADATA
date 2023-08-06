@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: speedystar
+Version: 1.0.1
+Summary: speedystar v1.0.1
+Home-page: https://github.com/fraserevans/speedystar
+Download-URL: https://github.com/fraserevans/speedystar/archive/refs/tags/v1.tar.gz
+Author: Fraser Evans
+Author-email: fraserevans1@gmail.com
+License: GNU GPLv3
+License-File: LICENSE.txt
+Requires-Dist: setuptools
+Requires-Dist: numpy
+Requires-Dist: scipy
+Requires-Dist: scanninglaw
+Requires-Dist: tqdm
+Requires-Dist: astropy
+Requires-Dist: galpy (>=1.8.0)
+Requires-Dist: pandas
+Requires-Dist: pygaia
+Requires-Dist: amuse-framework
+Requires-Dist: amuse-sse
+Requires-Dist: healpy
+Requires-Dist: h5py
+
+This package allows you to generate, propagate and observe mock populations of hypervelocity stars. Please see https://github.com/fraserevans/speedystar for a comprehensive README and example executables.
