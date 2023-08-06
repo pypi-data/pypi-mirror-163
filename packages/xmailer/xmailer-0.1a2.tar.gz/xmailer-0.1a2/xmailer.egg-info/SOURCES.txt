@@ -1,0 +1,9 @@
+setup.cfg
+setup.py
+xmailer/__init__.py
+xmailer/sender.py
+xmailer.egg-info/PKG-INFO
+xmailer.egg-info/SOURCES.txt
+xmailer.egg-info/dependency_links.txt
+xmailer.egg-info/not-zip-safe
+xmailer.egg-info/top_level.txt
