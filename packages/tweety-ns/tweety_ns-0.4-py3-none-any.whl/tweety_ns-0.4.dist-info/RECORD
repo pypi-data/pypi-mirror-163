@@ -1,0 +1,11 @@
+tweety/__init__.py,sha256=mlbKkmu8gx6hIJNPsa3UFXM5m7R094byQC8Gs2ao-9E,48
+tweety/_types.py,sha256=6AUeCQuhrKaVPALsmnDXPlhhgqhd0aXaN8MWUzSqBxA,28722
+tweety/bot.py,sha256=KmkdXyCo0lddNLb4FABf52HJj1vX7PCVTJIdi8kK3kg,8319
+tweety/exceptions_.py,sha256=XzcH60krZRhKlTl3cl25Tx8gm94TKDLUE6K5ukPKXSw,2080
+tweety/filters.py,sha256=JGQkRnsV8ZqZ8tLAUt2p0wIbILlvEskFif8Ae7cM1y4,282
+tweety/http.py,sha256=dig6FcK1UF2OLcsz1SuMscpDzma2QTXXmPpuxHVa9Ds,6994
+tweety/utils.py,sha256=WYCZGuppx-dv-vBh4BL9sH9f52a_ogXILT1N3mxkDio,17184
+tweety_ns-0.4.dist-info/METADATA,sha256=7UrwgLfvY2lzhesOWUKBpncAY497X-EtIkRsHkMdUXY,1094
+tweety_ns-0.4.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tweety_ns-0.4.dist-info/top_level.txt,sha256=uPXcucbykHdjdEzWJnsSz3ZmrBwgdCy1zqazd-b0dJ8,7
+tweety_ns-0.4.dist-info/RECORD,,
