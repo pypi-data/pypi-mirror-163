@@ -1,0 +1,9 @@
+matplotview/__init__.py,sha256=CkxlSoxbpYRGlw41sSz4_B_tgFTQV6anDNQvg9Ha-Io,6298
+matplotview/_docs.py,sha256=pd8u6B19ASfdaYGOWhmIpcXdcLNVFdvk_T6NR28jIg8,616
+matplotview/_transform_renderer.py,sha256=BuNpSM6RC3FrQ6IRN6pCRQV61QMYxHp6WQAfEDYXjL0,12388
+matplotview/_view_axes.py,sha256=2_KFjdw6GaGVu7jZhtZe7q6bbz3wN1qmliuulUoXGUo,14494
+matplotview-1.0.0.dist-info/LICENSE,sha256=Mdy4lGDEk8eUvz4CyUbeUrM9c42NcPETP0rnwsVcf6Q,2311
+matplotview-1.0.0.dist-info/METADATA,sha256=tAxavgS5FSLXY7BoQYh6U6wn1rIOHBYEmkwN51hFiwE,1770
+matplotview-1.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+matplotview-1.0.0.dist-info/top_level.txt,sha256=FJlZgS8jS_Obf37bTa-gmL8THZbbkQCusxwsgO5_bLo,12
+matplotview-1.0.0.dist-info/RECORD,,
