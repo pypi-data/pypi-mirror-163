@@ -1,0 +1,131 @@
+Metadata-Version: 2.1
+Name: falconlib
+Version: 0.0.3
+Summary: Client-side library for accessing the falconapi restful service.
+Author-email: "Thomas J. Daley, Esq." <tjd@powerdaley.com>
+License: BSD 2-Clause License
+        
+        Copyright (c) 2022, Tom Daley
+        All rights reserved.
+        
+        Redistribution and use in source and binary forms, with or without
+        modification, are permitted provided that the following conditions are met:
+        
+        1. Redistributions of source code must retain the above copyright notice, this
+           list of conditions and the following disclaimer.
+        
+        2. Redistributions in binary form must reproduce the above copyright notice,
+           this list of conditions and the following disclaimer in the documentation
+           and/or other materials provided with the distribution.
+        
+        THIS SOFTWARE IS PROVIDED BY THE COPYRIGHT HOLDERS AND CONTRIBUTORS "AS IS"
+        AND ANY EXPRESS OR IMPLIED WARRANTIES, INCLUDING, BUT NOT LIMITED TO, THE
+        IMPLIED WARRANTIES OF MERCHANTABILITY AND FITNESS FOR A PARTICULAR PURPOSE ARE
+        DISCLAIMED. IN NO EVENT SHALL THE COPYRIGHT HOLDER OR CONTRIBUTORS BE LIABLE
+        FOR ANY DIRECT, INDIRECT, INCIDENTAL, SPECIAL, EXEMPLARY, OR CONSEQUENTIAL
+        DAMAGES (INCLUDING, BUT NOT LIMITED TO, PROCUREMENT OF SUBSTITUTE GOODS OR
+        SERVICES; LOSS OF USE, DATA, OR PROFITS; OR BUSINESS INTERRUPTION) HOWEVER
+        CAUSED AND ON ANY THEORY OF LIABILITY, WHETHER IN CONTRACT, STRICT LIABILITY,
+        OR TORT (INCLUDING NEGLIGENCE OR OTHERWISE) ARISING IN ANY WAY OUT OF THE USE
+        OF THIS SOFTWARE, EVEN IF ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
+        
+Project-URL: Homepage, https://github.com/tjdaley/falconlib
+Project-URL: Bug Tracker, https://github.com/tjdaley/falconlib/issues
+Keywords: falconapi,falconlib
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 1 - Planning
+Classifier: Intended Audience :: Developers
+Classifier: Natural Language :: English
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Requires-Python: >3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# falconlib
+Python client lib for accessing Falcon API
+
+# GETTING STARTED
+
+## Installation
+
+```pip install falconlib```
+
+## Instantiation
+
+```python
+from falconlib import FalconlLib
+
+falconlib = FalconLib('https://your-endpoint.com')
+falconlib.authorize('my_username', 'my_password')
+```
+
+# DOCUMENT MANAGEMENT
+
+## add_document() - Add a document to the database
+
+```python
+DOC_1 = {
+    "id": "doc-1",
+    "path":"x:\\shared\\office\\user\\client\\discovery\\our production\\my_document.pdf",
+    "filename":"my_document.pdf",
+    "type": "application/pdf",
+    "title": "my_document",
+    "create_date":"07/01/2022",
+    "document_date": "07/15/2022",
+    "beginning_bates": "TD002304",
+    "ending_bates": "TD002304",
+    "page_count": 1,
+    "client_reference": "20202.1",
+}
+
+r = FALCONLIB.add_document(DOC_1)
+assert FALCONLIB.last_response.status_code == 201
+```
+
+## get_document() - Retrieve a document from the database
+
+```python
+doc = FALCONLIB.get_document(DOC_1['id'])
+assert FALCONLIB.last_response.status_code == 200
+assert r['id'] == DOC_1['id']
+```
+
+## update_document() - Update a document in the database
+
+```python
+# Retrieve document before updating to avoid version conflicts.
+upd = FALCONLIB.get_document(DOC_1['id'])
+
+# Update the field(s) you want to revise.
+upd['title'] = '**Updated Document'
+
+# Update the document
+r = FALCONLIB.update_document(upd)
+
+# Status codes:
+# 200 = Success
+# 404 = Document not found
+# 401 = Authorization error
+# 409 = Version conflict (retrieve and try again)
+assert FALCONLIB.last_response.status_code == 200
+```
+
+## delete_document() - Delete a document from the database
+
+### *Arguments*
+
+*document_id*: (str) - ID of document to delete. (required)
+
+*cascade* (bool) - Whether to cascade the delete. (optional, default=True)
+If *cascade* is set to True, then the document will be deleted and removed from all trackers
+that reference it. If *cascade* is set to False, then the document will be deleted only if
+it is not linked to any trackers.
+
+```python
+FALCONLIB.delete_document(document_id=DOC_1['id'], cascade=False)
+assert FALCONLIB.last_response.status_code == 200
+```
+
+# TRACKER MANAGEMENT
