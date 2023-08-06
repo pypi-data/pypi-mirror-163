@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: MzChess
+Version: 2.0.0
+Summary: A Chess GUI using PyQt
+Author: Reinhard Maerz
+License: GNU General Public License v3 or later (GPLv3+)
+Project-URL: Documentation, https://reinhardm-dev.github.io/MzChess
+Classifier: Programming Language :: Python :: 3
+Classifier: Operating System :: OS Independent
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Natural Language :: English
+Classifier: Topic :: Games/Entertainment :: Board Games
+Requires-Python: >=3.7
+Description-Content-Type: text/x-rst
+License-File: license.gpl3
+Requires-Dist: chess (>=1.4)
+Requires-Dist: ply (>=3.11)
+Requires-Dist: PyQt6 (>=6.2) ; platform_system == "Windows"
+Requires-Dist: PyQt6-Charts (>=6.2) ; platform_system == "Windows"
+
