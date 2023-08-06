@@ -1,0 +1,17 @@
+[tool.poetry]
+name = "novabot-plugin-bupt-ncov"
+version = "0.1.0"
+description = ""
+authors = ["NovaNo1r <mail@novanoir.dev>"]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+aiohttp = "^3.8.1"
+pydantic = "^1.9.2"
+nonebot2 = "^2.0.0-beta.5"
+
+[tool.poetry.dev-dependencies]
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
