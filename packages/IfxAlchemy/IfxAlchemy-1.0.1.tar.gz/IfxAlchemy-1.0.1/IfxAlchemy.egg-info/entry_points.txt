@@ -1,0 +1,6 @@
+[sqlalchemy.dialects]
+IfxAlchemy = IfxAlchemy.IfxPy:IfxDialect_IfxPy
+IfxAlchemy.pyodbc = IfxAlchemy.pyodbc:IfxDialect_pyodbc
+ifx = IfxAlchemy.IfxPy:IfxDialect_IfxPy
+ifx.IfxPy = IfxAlchemy.IfxPy:IfxDialect_IfxPy
+
