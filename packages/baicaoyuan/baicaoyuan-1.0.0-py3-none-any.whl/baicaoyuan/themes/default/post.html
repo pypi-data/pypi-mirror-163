@@ -1,0 +1,127 @@
+{% extends 'base.html' %}
+
+
+
+{% block title %}
+{{ post.title }}
+{% endblock %}
+
+
+
+{% block content %}
+    <div class="row">
+        <div class="col-md-2">
+            <div class="card" style="background:rgba(0,0,0,0)">
+                <h5 class="card-header">关于</h5>
+                <div class="card-body bg-white-95">
+                    百草园博客系统 v1.0.0
+                </div>
+            </div>
+            <br>
+            <div class="card" style="background:rgba(0,0,0,0)">
+                <h5 class="card-header">文章标签</h5>
+                <div class="card-body bg-white-95">
+                    {% for tag in post.tags %}
+                    <a href="{{ tag.url }}"> {{ tag.title }} </a>
+                    {% endfor %}
+                </div>
+            </div>
+        </div>
+        <div class="col-md-8">
+            <nav aria-label="breadcrumb">
+                <ol class="breadcrumb">
+                    当前位置：
+                    <li class="breadcrumb-item"><a href="/">首页</a></li>
+                    <li class="breadcrumb-item active" aria-current="page">{{ post.title }}</li>
+                </ol>
+            </nav>
+            <div class="row mx-1">
+                <span class="alert alert-warning col-md-6"><strong>发布于：</strong>{{ post.date|strftime('%Y年%m月%d日') }}</span>
+                <span class="alert alert-info col-md-6"><strong>当前时间：</strong><span
+                        id="c_time"></span></span>
+            </div>
+            <div class="bg-white-95 radius-5 p-2">
+                <h1 class="text-center">{{ post.title }}</h1>
+                <hr>
+                <div class="mb-2 article-content">
+                    {{ post.content }}
+                </div>
+
+                
+                <hr>
+                {% include 'comment.html' %}
+            </div>
+        </div>
+        <div class="col-md-2 p-0">
+            {{ toc|safe }}
+        </div>
+    </div>
+{% endblock %}
+
+
+{% block js %}
+    <script src="/static/js/highlight.js"></script>
+    <script src="/static/js/highlight-lines.js"></script>
+    <script src="/static/js/clipboard.js"></script>
+    <script>
+        hljs.initHighlightingOnLoad();
+        hljs.initLineNumbersOnLoad();
+    </script>
+    <script>
+        var clipboard = new Clipboard('.copybtn');
+        clipboard.on('success', function (e) {
+            swal({
+                title: '复制成功！',
+                text: '如需转载，请注明出处',
+                type: 'success',
+                timer: 1000,
+                showConfirmButton: false,
+            })
+        });
+        clipboard.on('error', function (e) {
+            swal({
+                title: '复制失败！',
+                text: '在试一试吧！',
+                type: 'danger',
+                timer: 1000,
+                showConfirmButton: false,
+            })
+        });
+    </script>
+    <script>
+        //页面加载调用
+        window.onload = function () {
+            //每1秒刷新时间
+            setInterval("NowTime()", 1000);
+        }
+
+        function NowTime() {
+            var myDate = new Date();
+            var y = myDate.getFullYear();
+            var M = myDate.getMonth() + 1;     //获取当前月份(0-11,0代表1月)
+            var d = myDate.getDate();        //获取当前日(1-31)
+            var h = myDate.getHours();       //获取当前小时数(0-23)
+            var m = myDate.getMinutes();     //获取当前分钟数(0-59)
+            var s = myDate.getSeconds();     //获取当前秒数(0-59)
+
+            //检查是否小于10
+            M = check(M);
+            d = check(d);
+            h = check(h);
+            m = check(m);
+            s = check(s);
+            var timestr = y + "年" + M + "月" + d + "日 " + h + ":" + m + ":" + s;
+            document.getElementById("c_time").innerHTML = timestr;
+        }
+
+        //时间数字小于10，则在之前加个“0”补位。
+        function check(i) {
+            var num = (i < 10) ? ("0" + i) : i;
+            return num;
+        }
+    </script>
+
+    <script>
+        $('body').attr('style', 'background:url(/assets/img/bg.jpg) !important;background-attachment: fixed !important;background-size: cover !important;')
+    </script>
+{% endblock %}

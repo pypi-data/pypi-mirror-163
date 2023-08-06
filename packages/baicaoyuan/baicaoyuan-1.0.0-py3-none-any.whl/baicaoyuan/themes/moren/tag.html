@@ -1,0 +1,105 @@
+{% extends 'base.html' %}
+
+
+
+{% block title %}
+标签 - {{ tag.title }}
+{% endblock %}
+
+
+
+{% block content %}
+<div class="row">
+    <div class="col-md-2">
+        <div class="card" style="background:rgba(0,0,0,0)">
+            <h5 class="card-header">关于</h5>
+            <div class="card-body bg-white-95">
+                百草园博客系统 v1.0.0
+            </div>
+        </div>
+    </div>
+    <div class="col-md-8">
+        <nav aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                当前位置：
+                <li class="breadcrumb-item"><a href="/">首页</a></li>
+                <li class="breadcrumb-item active" aria-current="page">标签：{{ tag.title }}</li>
+            </ol>
+        </nav>
+        <div class="alert alert-info">{{ site.description }}</div>
+        {% if posts %}
+        {% for post in posts %}
+        <div class="m-4 p-1 shadow-sm site-title-head bg-white-95">
+            <div class="media">
+                <a href="{{ post.url }}">
+                    <img src="{ post.head_img }}" class="width-b100" style="border-radius: 6px">
+                </a>
+            </div>
+            <div class="mt-2 mx-3 mb-1 color-black-half">
+                <a href="{{ post.url }}" class="font-24">
+                    {{ post.title }}
+                </a>
+                <hr class="mt-2 mb-2">
+                <span class="mx-2">
+                    <i class="fa fa-user-o text-danger"></i> {{ author.name }}
+                </span>
+                <span class="mx-2">
+                    <i class="fa fa-clock-o text-info"></i> {{ post.date|strftime('%Y-%m-%d') }}
+                </span>
+            </div>
+        </div>
+        {% endfor %}
+        {% else %}
+        <div class="alert alert-warning alert-dismissible fade show" role="alert">
+            <strong>提示：</strong>暂无文章
+            <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+        </div>
+        <div class="text-center">
+            <img src="https://bcy.hello8693.xyz/media/emotion/call.png" width="600" class="mt-3">
+            <h1 class="ml-4" style="font-size: 60px">快去催博主写文章啦！</h1>
+        </div>
+        {% endif %}
+        <br />
+        {% if prev_page or next_page %}
+        <nav>
+            <ul class="pagination">
+                {% if prev_page %}
+                <li class="page-item">
+                    <a class="page-link" href="{{prev_page.url}}" aria-label="Previous">
+                        <span aria-hidden="true">&laquo;</span>
+                    </a>
+                </li>
+                {% endif %}
+                {% if next_page %}
+                <li class="page-item">
+                    <a class="page-link" href="{{next_page.url}}" aria-label="Next">
+                        <span aria-hidden="true">&raquo;</span>
+                    </a>
+                </li>
+                {% endif %}
+            </ul>
+        </nav>
+        {% endif %}
+    </div>
+    <div class="col-md-2 text-center">
+        <img src="{{ author.avatar }}" width="100%" style="border-radius: 10px">
+        <div class="text-left mt-2" style="line-height: 30px">
+            <strong>昵称：</strong>{{ author.name }}<br>
+
+        </div>
+    </div>
+
+</div>
+
+
+{% endblock %}
+
+
+
+{% block js %}
+<script>
+    $('body').attr('style', 'background:url(/assets/img/bg.jpg) !important;background-attachment: fixed !important;background-size: cover !important;')
+</script>
+{% endblock %}

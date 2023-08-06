@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <title>{% block title %}{% endblock %} - {{ site.title }}</title>
+
+
+    <link rel="stylesheet" href="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/katex.min.css">
+    <script defer src="https://lf3-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/katex.min.js"></script>
+    <script>
+        var katex_config = {
+            delimiters:
+                [
+                    { left: "$$", right: "$$", display: true },
+                    { left: "$", right: "$", display: false }
+                ]
+        };
+    </script>
+    <script defer src="https://lf9-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/contrib/auto-render.min.js"
+        onload="renderMathInElement(document.body,katex_config)"></script>
+
+    <script src="https://lf26-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/contrib/auto-render.min.js" type="application/javascript"></script>
+
+    {% block css %}
+    {% include 'css_base.html' %}
+    {% endblock %}
+</head>
+
+<body>
+
+    <div class="container-fluid">
+        <div class="row justify-content-center">
+            <div class="col-md-9">
+                <div class="card">
+                    <nav class="navbar navbar-expand-lg navbar-light bg-info">
+                        <a href="{{ site.url }}" class="mr-3 text-white"><img src="{{ site.logo }}" alt="{{ site.title }}" width="100" height="100"/></a>
+                        <a href="{{ site.url }}" class="mx-2 text-white btn btn-info">
+                            {{ site.title }}
+                        </a>
+                        <a href="/archive.html" class="mx-2 text-white btn btn-info">
+                            归档
+                        </a>
+                        
+                    </nav>
+                    <div class="card-body">
+                        {% block content %}
+
+                        {% endblock %}
+                    </div>
+
+                    {% include 'footer.html' %}
+                </div>
+            </div>
+        </div>
+    </div>
+    <script>
+        $('body').attr('style', 'background:url(/assets/img/bg.jpg) !important;background-attachment: fixed !important;background-size: cover !important;')
+        $('.card').attr('style', 'background:rgba(0,0,0,0)')
+        $('.card-body').addClass('bg-white-95')
+    </script>
+    {% block js %}
+
+    {% endblock %}
+    <script src="https://lf6-cdn-tos.bytecdntp.com/cdn/expire-1-M/KaTeX/0.15.2/contrib/copy-tex.min.js" type="application/javascript"></script>
+    {% if site.get('google_analytics') %}
+        {# Google Analytics Support #}
+        {% include 'google_analytics.html' %}
+    {% endif %}
+</body>
+
+</html>
