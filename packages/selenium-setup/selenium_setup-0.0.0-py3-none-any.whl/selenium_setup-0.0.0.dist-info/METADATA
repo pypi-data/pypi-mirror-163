@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: selenium-setup
+Version: 0.0.0
+Summary: 
+Home-page: https://github.com/m9810223/selenium_setup
+Author:  
+Requires-Python: >=3.7,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: httpx (>=0.23.0,<0.24.0)
+Requires-Dist: rich (>=12.5.1,<13.0.0)
+Requires-Dist: selenium
+Requires-Dist: typer (>=0.6.1,<0.7.0)
+Project-URL: Repository, https://github.com/m9810223/selenium_setup
+Description-Content-Type: text/markdown
+
+# selenium_setup
+
+[![pypi](https://img.shields.io/pypi/v/selenium_setup?color=%2334D058)](https://pypi.org/project/selenium_setup/)
+
+## install
+
+```shell
+pip install selenium_setup
+```
+
+## setup
+
+```shell
+python -m selenium_setup
+```
+
