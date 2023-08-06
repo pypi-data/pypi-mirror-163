@@ -1,0 +1,10 @@
+wecmdbsrv/__init__.py,sha256=aVSvMOjdRmJC-DCSGSVUHuN98DeYwvhNyU5sNKUoE3c,1497
+wecmdbsrv/views/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+wecmdbsrv/views/basic.py,sha256=E7TrX6LxUGM0QtyfBas2dMnD_Lbgn8ZAKXOvL2C5RP0,5712
+wecmdbsrv/views/host.py,sha256=SbS6T7udprbUJZ-GqO2em5aqch2CDZGdzqcC-vlZT14,2239
+wecmdbsrv/views/oauth.py,sha256=4HohC3xx2uCEWnoITQN-DPu87JrRg63zZK3IGJcLN2g,1431
+wecmdbsrv_cfomp-1.1.2.dist-info/LICENSE,sha256=awOCsWJ58m_2kBQwBUGWejVqZm6wuRtCL2hi9rfa0X4,1211
+wecmdbsrv_cfomp-1.1.2.dist-info/METADATA,sha256=BmauwutmRCNlnY5aiZQCouVKpyfudVQpFE83Jnz0uXc,1907
+wecmdbsrv_cfomp-1.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+wecmdbsrv_cfomp-1.1.2.dist-info/top_level.txt,sha256=DRcwS3SwTpKHMNx0jHxoVsc7Ei5_iXdiMdyyqq5GIZk,10
+wecmdbsrv_cfomp-1.1.2.dist-info/RECORD,,
