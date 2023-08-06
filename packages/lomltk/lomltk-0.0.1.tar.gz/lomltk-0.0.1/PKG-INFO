@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: lomltk
+Version: 0.0.1
+Summary: The lord of Machine Learning toolkits
+Home-page: https://github.com/zijian-hu/lomltk
+Author: Zijian Hu
+Author-email: zijian-hu@outlook.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+lomltk is a package that provides useful python utility functions for Machine Learning researchers/engineers
+
+## Getting Started
+### Requirements
+*See [requirements.txt](requirements.txt) and [env.yaml](env.yaml) for detail*
+
+- Python 3.7+
+
+### Install dependencies
+```shell
+# using pip
+pip install -r requirements.txt
+
+# or using conda
+conda env create -f env.yaml
+```

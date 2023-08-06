@@ -1,0 +1,12 @@
+typing-extensions
+numpy
+scipy
+pandas
+tqdm
+pillow
+future
+joblib
+requests
+torch>=1.0.0
+torchvision
+opencv-contrib-python-headless
