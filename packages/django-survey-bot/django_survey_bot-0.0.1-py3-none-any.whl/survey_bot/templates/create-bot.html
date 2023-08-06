@@ -1,0 +1,102 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block styles %}
+<link href="{% static 'jsplumb/css/jsplumbtoolkit.css' %}" rel="stylesheet"/>
+<link href="{% static 'jsplumb/css/jsplumbtoolkit-demo.css'%}" rel="stylesheet"/>
+<link href="{% static 'jsplumb/css/jsplumb-custom.css'%}" rel="stylesheet"/>  
+{% endblock styles %}
+{% block bot_tools %}
+<a class="btn btn-danger btn-sm ml-2" href="{% url 'survey_bot_index' %}">Go to Manage Page</a>
+<button class="btn btn-info btn-sm ml-2" id="bot-preview-btn">Preview</button>
+<button class="btn btn-success btn-sm ml-2" id="publish-bot">Publish</button>
+{% endblock bot_tools %}
+{% block bot_menu_sidebar %}
+<nav id="bot-sidebar">
+	<div id="bot-nav-menus">
+		<div class="mt-5">
+			<p class="text-center p-0 font-weight-bold" style="margin-bottom: -15px;">ASK A QUESTION</p>
+		</div>
+		<ul class="bot-question-type">
+			{% for key, each in question_type.items%}
+			<li>
+				<a href="#" class="question-type" data-field-type="{{key}}">
+					<img src="{% static 'images/icons/' %}{{each.icon}}" alt="{{each.label}}">{{each.label}}</a>
+			</li>
+			{% endfor %}
+		</ul>
+	</div>
+	<div id="question-conf-container" style="display: none;">
+		<div class="row">
+			<div class="col-md-12">
+				<div class="card">
+					<div class="card-header">
+						<img style="width:20px;margin-top: -3px;" data-src="{% static 'images/icons/' %}"
+							id="question-icon">
+						<span class="font-weight-bold">QUESTION:</span><span class="font-weight-bold"
+							id="question-heading"></span>
+						<span class="float-right close-icon close-question-container" id="close-question-conf-container"><i
+								class="fa fa-times"></i></span>
+					</div>
+					<div class="card-body">
+						<div class="form-group">
+							<label for="question" class="font-weight-bold">Question<i class="text-danger">*</i></label>
+							<textarea class="form-control" name="question" id="question"></textarea>
+						</div>
+						<div class="form-group mb-4" id="button-options-container" style="display:none;">
+							<table style="width:100%" id="button-options">
+								<tr>
+									<th><input type="text" placeholder="Label *" name="button_option_label"
+											class="form-control button_option_label required"></th>
+									<th><button type="button" class="btn btn-secondary btn-delete-q-option"><i
+												class="fa fa-trash"></i></button></th>
+								</tr>
+							</table>
+							<div class="mt-2 mb-2">
+								<a class="form-label float-right" href="javascript:void(0);" id="add-row">Add
+									Input(+)</a>
+							</div>
+						</div>
+						<div class="form-group mt-4">
+							<button type="button" id="create-question" class="btn btn-primary btn-sm">Create</button>
+							<button type="button" data-question-id="0" id="save-question" style="display: none;" class="btn btn-primary btn-sm">Save</button>
+							<button type="button" class="btn btn-danger btn-sm close-question-container">Cancel</button>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</nav>
+{% endblock bot_menu_sidebar %}
+{% block bot_menu_toggler %}
+<button type="button" id="bot-menu-toggle" class="btn text-sidebar bg-turbo-yellow">
+	<i class="fa-solid fa-arrow-left" id="bot-button-toggle"></i>
+</button>
+{% endblock bot_menu_toggler %}
+
+{% block bot_icon %}
+<img class="ml-3" src="{% static 'images/bot.png' %}">
+{% endblock bot_icon %}
+
+{% block bot_name %}
+<span class="ml-2" id="survey-bot-name" style="font-size:24px" title="click to edit" contenteditable="true">{{bot.name}}</span>
+{% endblock bot_name %}
+{% block content %}
+<input type="hidden" id="survey-bot-id" value="{{bot.id}}">
+<input type="hidden" value="{{question_type_json}}" id="question-type-dict">
+<input type="hidden" value="{{jsplumb_connections}}" id="jsplumb-connections-dict">
+<input type="hidden" value="{% url 'ajax_get_chatbot_questions' %}" id="get-all-bot-questions-url">
+<input type="hidden" value="{% url 'save_bot_question' %}" id="save-bot-question-url">
+<input type="hidden" value="{% url 'ajax_publish_chatbot' %}" id="publish-bot-url">
+<input type="hidden" value="{% url 'ajax_delete_question' %}" id="delete-bot-question-url">
+<input type="hidden" value="{% url 'get_question_details' %}" id="get-question-details-url">
+<div id="chatbot_question_order_settings" style="margin-top: -11px">
+	<div class="jtk-demo-main">
+		<div class="jtk-demo-canvas canvas-wide drag-drop-container jtk-surface" id="canvas"></div>
+	</div>
+</div>
+{% endblock content %}
+{% block scripts %}
+<script src="{% static 'jsplumb/js/jsplumb.bundle.js'%}"></script>
+<script src="{% static 'js/main.js'%}"></script>
+{% endblock scripts %}

@@ -1,0 +1,219 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block styles %}
+<link href="{% static 'css/chats.css'%}" rel="stylesheet" />
+<link href="{% static 'css/datatable.css' %}" rel="stylesheet" />
+<link href="{% static 'css/datepicker.css' %}" rel="stylesheet" />
+
+{% endblock styles %}
+{% block bot_tools %}
+<a class="btn btn-danger btn-sm ml-2" href="{% url 'survey_bot_index' %}">Go to Manage Page</a>
+
+{% endblock bot_tools %}
+{% block bot_menu_sidebar %}
+{% endblock bot_menu_sidebar %}
+{% block content %}
+<div class="container-fluid">
+	<h2 class="text-left p-0 font-weight-bold text-uppercase"  style="margin-bottom: -15px;">{{bot.name}}</h2> 
+</div>
+</div>
+<div class="container-fluid table-responsive" style="position:absolute;top:130px;width: 95%;">
+ 	<div class="card mb-3">
+  		<div class="card-body">
+   			<div class="row gy-2 gx-3 align-items-center">
+				<div class="col-auto">
+					<input type="text" class="form-control" name="yearpicker" id="yearpicker" placeholder="Select Year" />
+				</div>
+				<div class="col-auto">
+					<select style="width:200px;" name="datepicker" id="datepicker" class="form-control"> 
+						<option value="">Select Month</option>
+						<option value="01">January</option>
+						<option value="02">February</option>
+						<option value="03">March</option>
+						<option value="04">April</option>
+						<option value="05">May</option>
+						<option value="06">June</option>
+						<option value="07">July</option>
+						<option value="08">August</option>
+						<option value="09">September</option>
+						<option value="10">October</option>
+						<option value="11">November</option>
+						<option value="12">December</option>
+					</select>
+				</div>
+				<div class="col-auto">
+					<input class="form-control" type="text" id="search-parameter" placeholder="Search Text" />
+				</div>
+				<div class="col-auto">
+					<input type="hidden" id="chat-bot-id1" name="chatbotid1" value="{{bot.id}}">
+				</div>
+				<div class="col-auto">
+					<form method="post" action="{% url 'downlaod_leads_in_chat' %}">
+						<input type="hidden" id="chat-bot-id" name="chatbotid" value="{{bot.id}}">
+							{% csrf_token %}
+								<div class="col">
+									<button class="btn btn-success" title="Export Leads In chats">
+										Export Leads
+									</button>
+								</div>
+					</form>
+				</div>
+   			</div>
+  		</div>
+	</div>
+	<div class="card" >
+  		<div class="card-body">
+			<div class="col-12 table-responsive">
+				<table class="table table-bordered table-striped" id="survey-bot-table">
+				   <thead>
+					   <tr>
+					   <th style="width: 35%;">Date</th>
+					   <th style="width: 35%;">Code</th>
+					   <th style="width: 20%;">Action</th>
+					   </tr>
+				   </thead>
+				   <tbody id="survey-bot-table-body">
+				   </tbody>
+			   </table> 
+		   </div> 
+		</div>
+	</div>
+	<div class="modal" id="view-chat-modal">
+		<div class="modal-dialog modal-lg">
+			<div class="modal-content" style="height:700px;">
+				<div class="modal-header" style="background-color: #34436A;">
+					<h5 class="modal-title" style="color:white;">Chat</h5>
+					<button type="button" class="close" data-dismiss="modal" style="color:#FFF;">&times;</button>
+				</div>
+			<div class="modal-body" style="max-height: calc(100vh -2010px);overflow-y: auto;" id="survey-bot-chatbox">
+		</div>
+	</div>
+	</div>
+	</div>
+</div>
+<div class="modal" id="delete-chat-modal" style="top:30px;left:90px;">
+	<div class="modal-dialog modal-lg">
+	  <div class="modal-content" style="width:500px;">
+		<div class="modal-header" style="background-color:#34436A; height: 50px;">
+		  <h5 class="modal-title" style="color:white;">Delete</h5>
+		  </div>
+			<div class="modal-body" id="modal-body">
+				Are you sure you want to delete ?
+			</div>
+			<div class="modal-footer">
+				<button type="button" class="btn btn-secondary" id="delete-code" data-dismiss="modal">Ok</button>
+				<button type="button" class="btn btn-secondary cancel" data-dismiss="modal">Cancel</button>
+			</div>
+	  </div>
+	</div>
+</div>
+
+{% endblock content %}
+{% block scripts %}
+<script src="{% static 'js/chats.js'%}"></script>
+<script src="{% static 'js/datepicker-cdn.js'%}"></script>
+
+<script>
+$(document).ready(function(){
+	$("#yearpicker").datepicker({
+		format: "yyyy",
+		viewMode: "years", 
+		minViewMode: "years",
+		autoclose:true
+	 });
+	get_all_chat_bot_listing();
+
+	
+});
+$('#datepicker').on('change',function(){
+	get_all_chat_bot_listing();
+});
+$('#search-parameter').on('keyup',function(){
+	get_all_chat_bot_listing();
+});
+$('#yearpicker').on('change',function(){
+	get_all_chat_bot_listing();
+});
+function empty_search(){
+	var month = $('#datepicker').val();
+	var yearonly = $('#yearpicker').val();
+	var search = $('#search-parameter').val();
+	if(month != "" || search != "" || yearonly!= ""){
+		$("#search").attr('disabled',false);
+	}else{
+		$("#search").attr('disabled',true);
+	}
+}
+	 $(document).on('click', '.view', function () {
+		var user_token =  $(this).attr("data-user-token-id");
+		var id = $('#chat-bot-id1').val();
+		$.ajax({
+			method : 'POST',
+			url :"/survey-bot/bot/get-chats/",
+			data : {'token':user_token, 'id':id},
+			success: function (response) { 
+				$("#view-chat-modal").show();
+                if (response.hasOwnProperty('status') &&
+                    response.status &&
+                    response.hasOwnProperty('data') &&
+                    response.data) {
+                    $('#survey-bot-chatbox').html(response.data.posts_html)
+                }
+            }
+		});
+	});
+	$(document).on('click', '.close', function () {
+		$("#view-chat-modal").hide();
+	});
+
+	$(document).on('click', '.delete', function () {
+		var table = $('#survey-bot-table').DataTable(); 
+		var user_token =  $(this).attr("data-delete-token-id");
+		var id = $('#chat-bot-id1').val();
+		$("#delete-chat-modal").show();
+		$('#delete-code').on('click',function(){
+		$.ajax({
+			method : 'POST',
+			url :"/survey-bot/bot/delete-user-token",
+			data : {'token':user_token, 'id':id},
+			success : function(response){
+				$("#delete-chat-modal").hide();
+				var trid = "#row_"+user_token;
+				table.row(trid).remove().draw();
+			}
+		});
+		
+		});
+	});
+	$(document).on('click', '.cancel', function () {
+		$("#delete-chat-modal").hide();
+	});
+
+
+	function get_all_chat_bot_listing(){
+		var month= $('#datepicker').val();
+        var search = $('#search-parameter').val();
+        var id = $('#chat-bot-id1').val();
+		var yearonly = $('#yearpicker').val();
+		$("#survey-bot-table").DataTable({
+			destroy: true,
+			searching: false,
+			processing: true,
+        	serverSide: true,
+			paging: true,
+			ajax : {
+				type : "POST" ,
+				url : "/survey-bot/bot/get-ajax-listing" ,
+				data : {'month' : month, 'search' : search, "id" : id, 'yearonly' : yearonly }
+				},
+				columns: [
+				null,
+				null,null,
+				],
+			
+		});
+	
+	
+	}
+</script> 
+{% endblock scripts %}

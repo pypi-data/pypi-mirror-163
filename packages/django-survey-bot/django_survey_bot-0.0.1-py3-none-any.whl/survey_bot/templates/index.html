@@ -1,0 +1,132 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block content %}
+<div class="container-fluid">
+	<div class="card">
+		<div class="card-body">
+			<div class="row">
+				<div class="col-lg-12">
+					<a href="{% url 'create_survey_bot' %}"
+						class="float-right btn btn-success font-weight-bold pt-2 pb-2">NEW CHATBOT</a>
+				</div>
+				<div class="col-md-2">
+					<div class="form-group">
+						<input type="text" class="form-control filter-bots" placeholder="Search Bot..">
+					</div>
+				</div>
+				<div class="col-lg-12 mt-5 chatbot-list">
+					<input type="hidden" value="{% url 'ajax_get_chatbot_data' %}" id="get-bot-url">
+					<input type="hidden" value="{% url 'delete_bot' %}" id="delete-bot-url">
+					<div style="min-height: 350px;max-height:700px; overflow-y:scroll!important;overflow:hidden;">
+						
+						{% if bot %}
+						{% for bot in bot %}
+						<div class="card bot-items">
+							<div class="card-body">
+								<div class="row">
+									<div class="col-md-6">
+										<img src="{%static 'images/bot-logo.png'%}" alt="">
+										<span class="font-weight-bold bot-name">
+											<a href="{%url 'get_survey_bot' bot.id  %}">{{bot.name}}</a>
+										</span>
+										<p class="bot-sub-title">Created {{bot.created_at | timesince}} ago</p>
+									</div>
+									<div class="col-md-6">
+										<ul class="chatbot-list-tools">
+											<li>
+												<p>PUBLISHED</p>
+												<p class="chat-tool-items">
+													{% if bot.is_published %}
+													<i class="status-icon bg-success"></i>
+													{% else %}
+													<i class="status-icon bg-danger"></i>
+													{% endif %}
+												</p>
+											</li>
+											<li>
+												<p>CHATS</p>
+												<p class="chat-tool-items">
+													{{bot.chats}}
+												</p>
+											</li>
+											<li>
+												<p>FINISHED</p>
+												<p class="chat-tool-items">
+													{{bot.chats_finished}}
+												</p>
+											</li>
+											<li>
+												<p class="chat-tool-icons chat-tool-items">
+													<a href="{% url 'get_bot_chats_list_table' bot.id %}" title="View Chats" >
+														<i class="fa-solid fa-comments"></i>
+													</a>
+												</p>
+											</li>
+											<li>
+												<p class="chat-tool-icons chat-tool-items">
+													<a href="#" class="copy-bot-script {%if not bot.is_published %}disabled{%endif%}" data-bot-id="{{bot.id}}" title="Copy Code">
+														<i class="fa-solid fa-copy"></i>
+													</a>
+												</p>
+											</li>
+											<li>
+												<p class="chat-tool-icons chat-tool-items">
+													<a href="#" data-bot-id="{{bot.id }}" data-bot-name="{{bot.name}}"
+														class="test-bot {%if not bot.is_published %}disabled{%endif%}" title="Test Bot">
+														<i class="fa-solid fa-circle-play"></i>
+													</a>
+												</p>
+											</li>
+											<li>
+												<p class="chat-tool-icons chat-tool-items">
+													<a href="#" data-bot-id="{{bot.id}}" class="delete-bot"
+														title="Delete Bot">
+														<i class="fa-solid fa-trash-can"></i>
+													</a>
+												</p>
+											</li>
+										</ul>
+									</div>
+								</div>
+							</div>
+						</div>
+						{% endfor %}
+						{% else %}
+						<div class="text-center pt-5 mt-5">
+							<img src="{% static 'images/no_chat_selected_icon.png' %}">
+							<div class="mt-5">
+								<h4>Hello there!</h4>
+								<h6>You haven't created any bot, please create a bot by clicking on the build bot button to start</h6>
+							</div>
+						</div>
+						{% endif %}
+					</div>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>
+<div class="modal" id="bot-script-modal">
+	<div class="modal-dialog modal-lg">
+	  <div class="modal-content">
+		<div class="modal-header">
+		  <h5 class="modal-title">COPY BOT SCRIPT</h5>
+		  <button type="button" class="close" data-dismiss="modal">&times;</button>
+		</div>
+		<div class="modal-body">
+			<code>
+				<pre id="bot-script-container">
+
+				</pre>
+			</code>
+		</div>
+		<div class="modal-footer">
+		  <button type="button" class="btn btn-danger" data-dismiss="modal">Close</button>
+		</div>
+	  </div>
+	</div>
+  </div>
+{% endblock content %}
+{% block scripts %}
+<script src="{% static 'js/datatable.js'%}"></script>
+{% endblock scripts %}

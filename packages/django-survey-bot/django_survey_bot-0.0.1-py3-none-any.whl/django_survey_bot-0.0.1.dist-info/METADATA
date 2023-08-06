@@ -1,0 +1,58 @@
+Metadata-Version: 2.1
+Name: django-survey-bot
+Version: 0.0.1
+Summary: A Survey Bot package developed using Django to create Bots and collect leads
+Home-page: UNKNOWN
+Author: Digitalmesh
+Author-email: subish@digitalmesh.com
+License: MIT
+Platform: UNKNOWN
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Django
+Classifier: Framework :: Django :: 3.2
+Classifier: Framework :: Django :: 4.0
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Topic :: Internet :: WWW/HTTP
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Description-Content-Type: text/markdown
+Requires-Dist: beautifulsoup4
+Requires-Dist: djangorestframework
+Requires-Dist: redis
+
+# django-survey-bot
+
+A Survey Bot package developed using Django to create Bots and collect leads
+
+## Installation
+
+django-survey-bot requires python3 to run.
+1), install using pip
+```
+pip install django-survey-bot
+```
+2), Add "survey_bot" to your INSTALLED_APPS setting like this::
+
+```
+INSTALLED_APPS = [
+        ...
+        'survey_bot',
+    ]
+```
+
+3), Include the survey_bot URL conf in your project urls.py like this::
+
+```
+path('survey-bot/', include('survey_bot.urls')),
+```
+4), Run ``python manage.py migrate`` to create the survey_bot models.
+
+5), Start the development server and visit http://127.0.0.1:8000/survey-bot/
+   to create a bot.
+
+

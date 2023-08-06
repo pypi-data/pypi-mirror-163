@@ -1,0 +1,116 @@
+{% extends 'base.html' %}
+{% load static %}
+{% block styles %}
+<link href="{% static 'css/chats.css'%}" rel="stylesheet" />
+{% endblock styles %}
+{% block bot_tools %}
+<a class="btn btn-danger btn-sm ml-2" href="{% url 'survey_bot_index' %}">Go to Manage Page</a>
+{% endblock bot_tools %}
+{% block bot_menu_sidebar %}
+<nav id="bot-sidebar" style="width:350px;">
+	<div id="bot-nav-menus">
+		<div class="mt-5">
+			<p class="text-center p-0 font-weight-bold" style="margin-bottom: -15px;">{{bot.name}}</p>
+		</div>
+		<div id="chatlist-div-container">
+			<ul class="bot-chats-list">
+				{% for each in chats_master%}
+				<li>
+					<a href="#" class="get-chat-data" data-id="{{each.user_token}}">
+						<div style="padding: 17px 0 1px 7px;">
+							<span class="bot-name-letter">{{bot.name|make_list|first}}</span>
+							<div style="margin-left: 46px;margin-top: -31px;">
+								<h5>{{each.user_token}}</h5>
+								<h6>{{each.submited_at|date:'M d, Y H:i A'}}</h6>
+							</div>
+						</div>
+					</a>
+				</li>
+				{% endfor %}
+			</ul>
+		</div>
+	</div>
+</nav>
+{% endblock bot_menu_sidebar %}
+{% block content %}
+
+<input type="hidden" id="survey-bot-id" name="survey-bot-id" value="{{bot.id}}">
+<input type="hidden" id="chatbot-chats-url" value="{% url 'ajax_get_chatbot_chats' %}">
+<div class="row">
+	<div class="col-md-8">
+		<div id="survey-bot-chatbox" style="display: none;">
+			<!-- chats displayed here -->
+		</div>
+		<div class="text-center pt-5" id="no_chat_selected_div">
+			<img src="{% static 'images/no_chat_selected_icon.png' %}" alt="">
+			<div class="mt-5">
+				<h4>Hello there!</h4>
+				<h6>You haven't selected any chat</h6>
+			</div>
+		</div>
+	</div>
+	<div class="col-md-4">
+
+		<div class="card">
+			<form method=post action="{% url 'downlaod_chats_as_csv' %}">
+				{% csrf_token %}
+				<input type="hidden" id="bot-id" name="bot-id" value="{{bot.id}}">
+				<div class="card-body">
+					<h5 class="card-title">Export Chats</h5>
+
+					<div class="row">
+						<div class="col-md-8">
+							<select name="status" class="form-control">
+								<option value="">All</option>
+								<option value="1">Completed</option>
+								<option value="0">Not Completed</option>
+							</select>
+						</div>
+
+						<div class="col-md-4">
+							<button class="btn btn-success">
+								Export
+							</button>
+
+						</div>
+						<div class="col-md-12 mt-3">
+							<h6>You are able to download all the interaction between the bot and the user</h6>
+						</div>
+					</div>
+
+				</div>
+			</form>
+
+		</div>
+		<div class="card">
+			<form method=post action="{% url 'downlaod_leads_in_chat' %}">
+				{% csrf_token %}
+				<input type="hidden" id="chat-bot-id" name="chatbotid" value="{{bot.id}}">
+			<div class="card-body">
+				<h5 class="card-title">Export Leads in Chats</h5>
+
+				<div class="row">
+
+					<div class="col-md-4">
+						<button class="btn btn-success">
+							Export
+						</button>
+
+					</div>
+					<div class="col-md-12 mt-3">
+						<h6>You are able to download all the leads</h6>
+					</div>
+				</div>
+			</div>
+		</form>
+		</div>
+	</div>
+</div>
+
+
+
+
+{% endblock content %}
+{% block scripts %}
+<script src="{% static 'js/chats.js'%}"></script>
+{% endblock scripts %}

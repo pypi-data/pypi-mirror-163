@@ -1,0 +1,20 @@
+{% autoescape off %}
+{% comment %} <main class="phq-chat-box-chat" id="phq-chat-box-chat"> {% endcomment %}
+    {% for chat in chats %}
+    <div class="phq-chat-msg phq-chat-left-msg">
+       <div class="phq-chat-msg-bubble">
+          <div class="phq-chat-msg-text">
+             {{chat.question}}
+          </div>
+       </div>
+    </div>
+    <div class="phq-chat-msg phq-chat-right-msg">
+       <div class="phq-chat-msg-bubble">
+          <div class="phq-chat-msg-text">
+             {{chat.answer}}
+          </div>
+       </div>
+    </div>
+    {% endfor %}
+ {% comment %} </main> {% endcomment %}
+{% endautoescape %}

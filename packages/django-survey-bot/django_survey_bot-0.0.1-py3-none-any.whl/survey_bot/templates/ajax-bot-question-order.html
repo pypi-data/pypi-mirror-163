@@ -1,0 +1,46 @@
+{% autoescape off %}
+{% if questons_data_list %}
+{% for question in questons_data_list %}
+<div class="window plumb-connector card"
+ data-no-option="{% if question.options %}1{%else%}0{%endif%}"
+ id="{{question.question_id}}"
+ {%if jsplumb_positions%}
+ {%for position in jsplumb_positions%}
+ {%if position.question_box_id == question.question_id|stringformat:"i" %}
+ style="{{position.position}}"
+ {%endif%}
+ {%endfor%}
+ {%endif%}>
+ <div class="card-header text-left">
+  <img src="/static/images/icons/{{question.icon}}" width="20px">
+  <span class="font-weight-bold">{{question.label}}</span>
+  <a href="#" data-id="{{question.question_id}}" class="float-right ml-1 text-muted delete-bot-question"><i class="fa fa-trash"></i></a>
+  <a href="#" data-id="{{question.question_id}}" data-question-type="{{question.question_type}}" class="float-right ml-1 text-muted edit-bot-question"><i class="fa fa-edit"></i></a>
+ </div>
+ <div class="card-body">
+  <div class="row">
+    <div class="col-md-12">
+      <p class="text-left">{{question.question|slice:"0:70"}}
+        {% if question.question|length > 70 %}
+            <span class="question-dots">...</span>
+            <span class="question-more">{{question.question|slice:"70:"}}</span>
+            <span class="question-read-more btn-link" style="">Read More</span>
+        {% endif %}
+     </p>
+    </div>
+    {% if question.options %}
+    {% for option in question.options %}
+    <div class="col-md-12">
+      <a class="btn btn-outline-dark plumb-connector option"
+       data-option="1"
+       style="width:100%"
+       id="{{question.question_id}}_{{option.option_id}}">{{option.option}}</a>
+    </div>
+    {%endfor%}
+    {% endif %}
+  </div>
+</div>
+</div>
+{%endfor%}
+{% endif %}
+{% endautoescape %}
