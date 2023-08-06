@@ -1,0 +1,14 @@
+Metadata-Version: 2.1
+Name: llunar
+Version: 0.1.0
+Summary: A PVM language
+Home-page: https://github.com/an-dyy/Lunar
+Author: andy
+Author-email: andy.development@protonmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: astpretty (>=3.0.0,<4.0.0)
+Requires-Dist: black (>=22.6.0,<23.0.0)
+Requires-Dist: isort (>=5.10.1,<6.0.0)
+Requires-Dist: rply (>=0.7.8,<0.8.0)
