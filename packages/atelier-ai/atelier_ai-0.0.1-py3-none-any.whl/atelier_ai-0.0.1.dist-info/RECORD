@@ -1,0 +1,7 @@
+atelier/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atelier/data/datasource.py,sha256=vwoSqCxlQWPEx0oTYAMSJ2ZXAWOod-pfQ17oVRM7lrg,3521
+atelier/data/io.py,sha256=j9B261RctwBUfD4Zhb0kiD3-Yj4Fr32DBxZLA2VJagI,5386
+atelier_ai-0.0.1.dist-info/LICENSE,sha256=iMTV1wW9GPrhcDvO1OVdZQEFohYBtCoFKGL2VQ7iJUY,1110
+atelier_ai-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+atelier_ai-0.0.1.dist-info/METADATA,sha256=hk4NDfzCO9e_YRwsIeTdG9qMyYDBZZkz8Mc7_x86rXU,3920
+atelier_ai-0.0.1.dist-info/RECORD,,
