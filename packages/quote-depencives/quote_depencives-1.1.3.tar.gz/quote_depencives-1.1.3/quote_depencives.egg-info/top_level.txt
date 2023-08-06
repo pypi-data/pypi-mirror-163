@@ -1,0 +1,2 @@
+quote_depencives
+quote_depencives/default_dependencies

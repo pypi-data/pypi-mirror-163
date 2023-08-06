@@ -1,0 +1,10 @@
+setup.cfg
+setup.py
+quote_depencives/__init__.py
+quote_depencives/downloader.py
+quote_depencives/generate_utils.py
+quote_depencives/manager.py
+quote_depencives.egg-info/PKG-INFO
+quote_depencives.egg-info/SOURCES.txt
+quote_depencives.egg-info/dependency_links.txt
+quote_depencives.egg-info/top_level.txt

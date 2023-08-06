@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: quote_depencives
+Version: 1.1.3
+Summary: Easy create quote image by agrmunets in class options
+Home-page: https://github.com/ymoth/quote-manager
+Author: ymoth
+Author-email: tophanbig@gmail.com
+Requires: aiohttp
+Requires: requests
+Requires: Pillow
