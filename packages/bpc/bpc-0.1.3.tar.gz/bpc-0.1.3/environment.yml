@@ -1,0 +1,8 @@
+channels:
+  - conda-forge
+  - anaconda
+  - defaults
+dependencies:
+  - emoji
+  - myanmartools
+  - phonemizer
