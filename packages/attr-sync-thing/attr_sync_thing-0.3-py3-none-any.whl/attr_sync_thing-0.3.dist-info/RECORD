@@ -1,0 +1,13 @@
+attr_sync_thing/__init__.py,sha256=OnhtG2ETEfVvBG27_WckkRZY-C16jfBKaeHA2aABQGM,402
+attr_sync_thing/__main__.py,sha256=8_m6Z-OqYtcguVuL_BAuqW5g_M8v0Nx7WQvVIXOcR9w,5671
+attr_sync_thing/attr_storage.py,sha256=l74RCjsUf5ALmjS-QFlJZxfdqKQmI27rZ_swsGpb7Es,8118
+attr_sync_thing/configuration.py,sha256=dyw9IILKQ5wCXY1clBMaJS1wrBj8n2LbO1a4M1WPF6Y,3131
+attr_sync_thing/file_info.py,sha256=1CKm501wfvutNIqIGvbCtUHMkP9jdJN5KyeF8o-Ssxs,3288
+attr_sync_thing/logging.py,sha256=umfYTCR7dmAJyijHJwcZP1BHtGmR1TCS--A7tz-TYtM,1275
+attr_sync_thing/modification_manager.py,sha256=ZrJFTrLiIJ78eMsxjnT4KphEbA6of3-ooFN0O4elDCs,1225
+attr_sync_thing-0.3.dist-info/LICENSE,sha256=OXLcl0T2SZ8Pmy2_dmlvKuetivmyPd5m1q-Gyd-zaYY,35149
+attr_sync_thing-0.3.dist-info/METADATA,sha256=KeuzYMcnecE3o8oKCKoJsylHk0OaOGxNIRsB2h76nIw,6922
+attr_sync_thing-0.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+attr_sync_thing-0.3.dist-info/entry_points.txt,sha256=dVJj1EetQDobxsXYYy3F9DjbCH-Ypq_2RbipAEezV88,66
+attr_sync_thing-0.3.dist-info/top_level.txt,sha256=n4ArKLji58MRDPmku7KOH2hbygE-PDha5fbxYW98i_A,16
+attr_sync_thing-0.3.dist-info/RECORD,,
