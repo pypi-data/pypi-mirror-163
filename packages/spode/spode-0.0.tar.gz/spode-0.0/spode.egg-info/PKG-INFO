@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: spode
+Version: 0.0
+Summary: A programmable photonics differentiable simulator
+Home-page: https://github.com/zhengqigao/podis/tree/main
+Author: ZhengqiGao
+Author-email: zhenqi@mit.edu
+License: GPL-3.0
+Description: ![](docs/figs/spode_logo_v0.png)
+        
+        Spode is an opensource differentiable simulator specialized for programmable photonics. 
+        
+        ## Installation
+        
+        ## Quick Tutorial
+        
+        ## Contact and Bug Report
+        
+        
+Platform: UNKNOWN
+Requires-Python: >=3
+Description-Content-Type: text/markdown
