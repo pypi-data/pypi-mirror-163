@@ -1,0 +1,8 @@
+kanidm/__init__.py,sha256=Np30Z8jUgaxD3wSvalaTnsAMTsnrZdkB8qrpweqfjAo,11335
+kanidm/exceptions.py,sha256=MbCPgjEynq3rq9CNSOP3jTjI0tk2aHAkYoiq1WlgQ3c,514
+kanidm/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+kanidm/types.py,sha256=eeX1OKKeNQtWMG0PANpu_fY03XpQIQJ-1sr4x2o-bbw,5113
+kanidm/utils.py,sha256=8z7wU7z5WYdbaYCZB-yD8X2GtJjiNdJjcrsFSnoD6ms,641
+kanidm-0.0.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+kanidm-0.0.1.dist-info/METADATA,sha256=-7J7jMfyJ5bNSnNm9DDXuRa3spCT_pgqP5-eD1a7uGg,1335
+kanidm-0.0.1.dist-info/RECORD,,
