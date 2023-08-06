@@ -1,0 +1,10 @@
+LICENSE.md
+README.md
+pyproject.toml
+setup.py
+declafe/__init__.py
+declafe.egg-info/PKG-INFO
+declafe.egg-info/SOURCES.txt
+declafe.egg-info/dependency_links.txt
+declafe.egg-info/requires.txt
+declafe.egg-info/top_level.txt
