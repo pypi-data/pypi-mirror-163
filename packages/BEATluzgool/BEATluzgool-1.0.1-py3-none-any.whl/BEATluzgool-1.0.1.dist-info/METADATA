@@ -1,0 +1,35 @@
+Metadata-Version: 2.1
+Name: BEATluzgool
+Version: 1.0.1
+Summary: This is an example project
+Author: luzgool
+Keywords: treatment-effect
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: pandas
+Provides-Extra: all
+Requires-Dist: azure-cli ; extra == 'all'
+Requires-Dist: keras (<2.4) ; extra == 'all'
+Requires-Dist: tensorflow (<2.3,>1.10) ; extra == 'all'
+Requires-Dist: protobuf (<4) ; extra == 'all'
+Requires-Dist: matplotlib ; extra == 'all'
+Provides-Extra: automl
+Requires-Dist: azure-cli ; extra == 'automl'
+Provides-Extra: plt
+Requires-Dist: graphviz ; extra == 'plt'
+Requires-Dist: matplotlib ; extra == 'plt'
+Provides-Extra: tf
+Requires-Dist: protobuf (<4) ; extra == 'tf'
+Requires-Dist: keras (<2.4) ; (python_version < "3.9") and extra == 'tf'
+Requires-Dist: tensorflow (<2.3,>1.10) ; (python_version < "3.9") and extra == 'tf'
+
+This is a longer description for the project
