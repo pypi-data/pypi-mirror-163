@@ -1,0 +1,19 @@
+[project]
+name = "SparkTools"
+version = "0.0.2"
+authors = [
+  { name="Victor Daniel Gil Becerra", email="victordyil97@gmail.com" },
+]
+description = "Spark tools"
+readme = "README.md"
+license = { file="LICENSE" }
+requires-python = ">=3.7"
+classifiers = [
+    "Programming Language :: Python :: 3",
+    "License :: OSI Approved :: MIT License",
+    "Operating System :: OS Independent",
+]
+
+[project.urls]
+"Homepage" = "https://github.com/victoryil/Spark-tools"
+"Bug Tracker" = "https://github.com/victoryil/Spark-tools/issues"
