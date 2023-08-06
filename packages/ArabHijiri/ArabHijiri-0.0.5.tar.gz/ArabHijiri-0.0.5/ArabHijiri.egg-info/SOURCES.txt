@@ -1,0 +1,7 @@
+setup.py
+ArabHijiri/__init__.py
+ArabHijiri.egg-info/PKG-INFO
+ArabHijiri.egg-info/SOURCES.txt
+ArabHijiri.egg-info/dependency_links.txt
+ArabHijiri.egg-info/requires.txt
+ArabHijiri.egg-info/top_level.txt
