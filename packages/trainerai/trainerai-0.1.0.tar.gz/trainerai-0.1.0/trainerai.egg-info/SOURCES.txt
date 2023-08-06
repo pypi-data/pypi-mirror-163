@@ -1,0 +1,7 @@
+Setup.py
+setup.py
+trainerai.egg-info/PKG-INFO
+trainerai.egg-info/SOURCES.txt
+trainerai.egg-info/dependency_links.txt
+trainerai.egg-info/requires.txt
+trainerai.egg-info/top_level.txt
