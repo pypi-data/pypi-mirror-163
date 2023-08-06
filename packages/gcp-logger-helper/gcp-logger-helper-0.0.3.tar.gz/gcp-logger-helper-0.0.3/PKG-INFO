@@ -1,0 +1,19 @@
+Metadata-Version: 2.1
+Name: gcp-logger-helper
+Version: 0.0.3
+Summary: Google cloud logging implementation for python
+Home-page: https://github.com/ollie-figueroa/gcp-logger-helper
+Author: Ollie Figueroa
+Author-email: olafi9310@gmail.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License (GPL)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# gcp-logger-helper
+Google cloud logging implementation for python
+
+
