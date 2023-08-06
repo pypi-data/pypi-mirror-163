@@ -1,0 +1,10 @@
+# Directories
+__pycache__/
+dist/
+
+# Extensions
+*.log
+*.tdms
+
+# Files
+test_*
