@@ -1,0 +1,13 @@
+LICENCE.txt
+README.md
+setup.py
+version.py
+finai_mac/__init__.py
+finai_mac/__main__.py
+finai_mac/jupyter_notebook_config.py
+finai_mac.egg-info/PKG-INFO
+finai_mac.egg-info/SOURCES.txt
+finai_mac.egg-info/dependency_links.txt
+finai_mac.egg-info/entry_points.txt
+finai_mac.egg-info/requires.txt
+finai_mac.egg-info/top_level.txt
