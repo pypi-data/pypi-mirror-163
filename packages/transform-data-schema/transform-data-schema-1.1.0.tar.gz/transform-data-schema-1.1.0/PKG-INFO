@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: transform-data-schema
+Version: 1.1.0
+Summary: Define the shape and validate data
+Author-email: Hieucaohd <hieucaohd@gmail.com>
+Project-URL: Homepage, https://github.com/hieucaohd
+Keywords: schema,validate
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Programming Language :: Python :: 3
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: dev
