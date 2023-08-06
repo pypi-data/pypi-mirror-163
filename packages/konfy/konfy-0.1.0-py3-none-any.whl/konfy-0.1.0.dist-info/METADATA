@@ -1,0 +1,20 @@
+Metadata-Version: 2.1
+Name: konfy
+Version: 0.1.0
+Summary: Read and write configuration settings
+Home-page: https://github.com/Nicoretti/monotone/konfy
+Author: Nicola Coretti
+Author-email: nico.coretti@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8, <4
+License-File: LICENSE
+Requires-Dist: setuptools
+
+konfy
+=====
+
+Configuration management for CLI tools.
+
+
+
