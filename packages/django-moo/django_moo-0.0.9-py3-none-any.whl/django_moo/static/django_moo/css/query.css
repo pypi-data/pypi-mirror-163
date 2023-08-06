@@ -1,0 +1,35 @@
+body {
+	background-color: rgba(0,0,0,0.1);
+}
+.query-page-table {
+	overflow: hidden;
+	padding-bottom: 30px;
+}
+h2 {
+	margin-top: 20px;
+	margin-bottom: 20px;
+	margin-left: 10px;
+}
+.query-page-table table{
+	width: 100%;
+}
+.query-page-table table tbody {
+	background-color: purple;
+}
+.td-left {
+	background-color: purple;
+	color: white;
+	width: 50vw;
+}
+.td-right {
+	width: 50vw;
+	background-color: white;
+}
+.query-page-table table td {
+	text-align: center;
+	padding: 8px;
+}
+.query-page-table table td a {	
+	text-decoration: underline;
+	word-wrap:break-word;
+}

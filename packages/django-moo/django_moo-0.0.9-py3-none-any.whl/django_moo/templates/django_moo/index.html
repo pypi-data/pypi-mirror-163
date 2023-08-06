@@ -1,0 +1,45 @@
+{% extends './base.html' %}
+{% load static %}
+
+
+{% block static %}
+    <link rel="stylesheet" href="{% static 'django_moo/css/index.css' %}">
+{% endblock static %}
+
+{% block home_active %}active{% endblock home_active %}
+
+{% block body %}
+<div class="home-page">
+    <div class="home-page-welcome">
+        <div class="home-page-title">
+            <p>Don't imprison in the charpter.</p>
+            <p>Do you copy?</p>
+        </div>
+        <button class="home-page-btn" onclick="location.hash='#doc'">Get start with django-moo</button>
+    </div>
+    <div class="home-page-feature">
+        <h2>Our Convictions</h2>
+        <ul>
+            <li>Less exception, give coder more freedom to use function or method.</li>
+            <li>Let coder no longer depend on using `if`.</li>
+            <li>Less duplicated codes, Python's advantage.</li>
+        </ul>
+        <p>The knowledge you get in a occational way will come in handy by coincidence when you need.</p>
+    </div>
+</div>
+<div class="contact-page">
+    <h2>What can you say to us?</h2>
+    <ul>
+        <li>the bug of code.</li>
+        <li>Where the language usage could help us to improve.</li>
+        <li>What the idea you want to appear in the django_moo in the furture.</li>
+    </ul>
+    <h2>What do you need to privide when you want to say us?</h2>
+    <ul>
+        <li>Your nikename, tell us what to call you.</li>
+        <li>If you want to privide the bug of code, please privide the error message and the code source if you don't mind.</li>
+        <li>We will give you a receive in a fortnight, thanks for supporting for django-moo.</li>
+    </ul>
+	<p>We will uphold this library until it becomes epidemic.</p>
+</div>
+{% endblock body%}

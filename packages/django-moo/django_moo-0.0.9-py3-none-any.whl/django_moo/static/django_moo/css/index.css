@@ -1,0 +1,41 @@
+.home-page {
+	width: 98vw;
+}
+.home-page-welcome {
+	width: 98vw;
+	height: 400px;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-evenly;
+	align-items: center;
+	font-size: 40px;
+	font-weight: 300;
+	text-align: center;
+	border-bottom: 1px solid rgba(0, 0, 0, 0.3);
+}
+.home-page-title {
+	height: 40px;
+}
+.home-page-btn {
+	width: 300px;
+	height: 60px;
+	background: purple;
+	color: white;
+	opacity: 0.6;
+	border: 1px transparent solid;
+	border-radius: 5px;
+	font-size: 16px;
+	font-weight: 700;
+	cursor: pointer;
+}
+.home-page-btn:hover {
+	opacity: 0.5;
+}
+@media screen and (max-width: 900px) {
+	.home-page-title {
+		font-size: 32px;
+	}
+	.home-page-title {
+		height: 20px;
+	}
+}

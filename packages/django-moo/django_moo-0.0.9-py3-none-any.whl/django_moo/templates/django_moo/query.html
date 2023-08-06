@@ -1,0 +1,30 @@
+{% extends './base.html' %}
+{% load static i18n django_moo %}
+
+
+{% block static %}
+<link rel="stylesheet" href="{% static 'django_moo/css/query.css' %}">
+{% endblock static %}
+
+
+{% block queryset %}{% endblock queryset %}
+
+
+{% block body %}
+{% get_all_attrs one as attrs %}
+<div class="query-page col-md-10 offset-md-1">
+    <h2>{% trans "Data from Table" %}: {{ title.title }}</h2>
+    <div class="query-page-table">
+        <table cellspacing='1'>
+            {% for attr in attrs %}
+                <tr>
+                    <td class="td-left">{{ attr }}</td>
+                    <td class="td-right">{{ one|getkey:attr }}</td>
+                </tr>
+                {% empty %}
+                <p style="color: grey;margin-left: 20px;">There are not content in this table.</p>
+            {% endfor %}
+        </table>
+    </div>
+</div>
+{% endblock body %}
