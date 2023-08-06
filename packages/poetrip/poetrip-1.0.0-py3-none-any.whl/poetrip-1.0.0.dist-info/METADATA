@@ -1,0 +1,87 @@
+Metadata-Version: 2.1
+Name: poetrip
+Version: 1.0.0
+Summary: Generate Pipfile from pyproject.toml
+Home-page: https://github.com/joffreybvn/poetrip
+License: MIT
+Keywords: packaging,poetry,pipenv,pipfile
+Author: Joffrey Bienvenu
+Author-email: joffreybvn@gmail.com
+Requires-Python: >=3.6,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: toml (>=0.9,<0.10)
+Requires-Dist: typer (>=0.6.1,<0.7.0)
+Project-URL: Repository, https://github.com/joffreybvn/poetrip
+Description-Content-Type: text/markdown
+
+
+<h1 align="center">Poetrip</h1>
+<p align="center">
+    <em>Generate Pipfile from pyproject.toml.</em>
+</p>
+<p align="center">
+    <a href="https://pypi.org/project/poetrip/" target="_blank">
+        <img src="https://img.shields.io/pypi/v/poetrip.svg" alt="Version">
+    </a>
+    <a href="https://pypi.org/project/poetrip/" target="_blank">
+        <img src="https://img.shields.io/pypi/l/poetrip.svg" alt="License">
+    </a>
+    <a href="https://pypi.org/project/poetrip/" target="_blank">
+        <img src="https://img.shields.io/pypi/pyversions/poetrip.svg" alt="Python">
+    </a>
+</p>
+
+---
+
+**Source Code**: [https://github.com/Joffreybvn/poetrip](https://github.com/Joffreybvn/poetrip)
+
+**Pypi**: [https://pypi.org/project/poetrip/](https://pypi.org/project/poetrip/)
+
+---
+
+Poetrip is a small library and CLI to quickly create Pipfile from existing pyproject.toml.
+
+## Installation
+Poetrip requires Python 3.6 or greater.
+
+Using **pip**:
+```Shell
+pip install poetrip
+```
+
+Using **poetry**:
+```shell
+poetry add --dev poetrip
+```
+
+## CLI Quickstart
+Get a Pipfile from a pyproject.toml:
+```shell
+$ poetrip --from pyproject.toml --to Pipfile
+```
+
+Or simply:
+```shell
+$ poetrip
+```
+Takes the pyproject.toml in the current folder and generate a Pipfile.
+
+## API Quickstart
+Get a Pipfile from a pyproject.toml:
+```python
+from poetrip import PyProject
+
+# Load and transform
+pyproject = PyProject.from_file("./pyproject.toml")
+pipfile = pyproject.to_pipfile()
+
+# Write to disk
+pipfile.to_file("./Pipfile")
+```
+

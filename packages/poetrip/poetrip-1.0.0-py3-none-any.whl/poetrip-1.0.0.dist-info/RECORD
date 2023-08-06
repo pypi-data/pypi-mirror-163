@@ -1,0 +1,9 @@
+poetrip/__init__.py,sha256=4JZaqO__UZFjJZ-1HBdlgTxfnQvcKsmpTzvHh5TediE,109
+poetrip/cli.py,sha256=qCnuH5QS-zfXrU14MVIBOrkTohUKCjUZqELTlpFA7bI,385
+poetrip/pipfile.py,sha256=fGcfF9mR9yMDieoo8bFo7g8sVeIbfoL6pl39DxdWsCM,1026
+poetrip/pyproject.py,sha256=xgSYV4vZh1QmjeVdE-XRGooPC1qo-nNa98mBOvnXl2I,1447
+poetrip-1.0.0.dist-info/entry_points.txt,sha256=z20t9FlB-7SQZRUGoWH8Z1_XFudHlugbeZXbepa4pBo,43
+poetrip-1.0.0.dist-info/LICENSE,sha256=v_0y77tkisx3TW2G7Sxfs_T3rkIRdBR8gbbG5oo6cn4,1073
+poetrip-1.0.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+poetrip-1.0.0.dist-info/METADATA,sha256=XCtMQdfFNfh50mIGJD7a_e7VomEVIQ2YpA3q-flvyIM,2323
+poetrip-1.0.0.dist-info/RECORD,,
