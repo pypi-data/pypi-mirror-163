@@ -1,0 +1,19 @@
+kiln package
+============
+
+Subpackages
+-----------
+
+.. toctree::
+   :maxdepth: 4
+
+   kiln.engine
+   kiln.managers
+
+Module contents
+---------------
+
+.. automodule:: kiln
+   :members:
+   :undoc-members:
+   :show-inheritance:
