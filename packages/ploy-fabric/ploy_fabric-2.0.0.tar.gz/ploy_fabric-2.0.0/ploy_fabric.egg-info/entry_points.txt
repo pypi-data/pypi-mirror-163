@@ -1,0 +1,2 @@
+[ploy.plugins]
+fabric = ploy_fabric:plugin
