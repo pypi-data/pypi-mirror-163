@@ -1,0 +1,9 @@
+LICENSE
+README.md
+setup.py
+cvsets/__init__.py
+cvsets/example.py
+cvsets.egg-info/PKG-INFO
+cvsets.egg-info/SOURCES.txt
+cvsets.egg-info/dependency_links.txt
+cvsets.egg-info/top_level.txt
