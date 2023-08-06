@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: one-team-one-dream
+Version: 0.0.2
+Summary: A package to consolidate all the commonly used functions within Whitehorse Liquidity Partners
+Home-page: https://www.linkedin.com/in/salujaamandeep/
+Author: Amandeep Saluja
+Author-email: asaluja@whitehorseliquidity.com
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+Test Environment
+
+
+Author: **Amandeep Saluja**
