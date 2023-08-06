@@ -1,0 +1,16 @@
+[tool.poetry]
+name = "solar-functions"
+version = "1.0.5"
+description = "solar-functions This Module is Designed With Love For Iranian Developers And Programmers By Sami Dev | Telegram: T.me/Sami_Dev"
+readme = "README.rst"
+authors = ["Sami Dev <hzsami82@email.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.7"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[build-system]
+requires = ["poetry-core>=1.0.5"]
+build-backend = "poetry.core.masonry.api"
