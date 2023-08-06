@@ -1,0 +1,17 @@
+hydra_plugins/jz_hydra_submitit_launcher/__init__.py,sha256=qqwz9bjYH-vWwBmJp30osFX3w4amNvTuBlNgFBwx2WQ,274
+hydra_plugins/jz_hydra_submitit_launcher/resolvers.py,sha256=9Lkx8X0bwZE8PrlmisCsxyiS7DFUfJhwJ-BQf83AC-8,423
+hydra_plugins/jz_hydra_submitit_launcher/searchpath_config.py,sha256=vyb9lL0l_esy24iGgLUsQ-H49Yh5p-u7MyFuwWzDhdg,876
+hydra_plugins/jz_hydra_submitit_launcher/bin/hydra-submitit-launch,sha256=0kqkr0mq-Oemw0Vs3JmQLT1gwrCfvpT1WkjsLSBD1Kw,458
+hydra_plugins/jz_hydra_submitit_launcher/hydra/launcher/4gpus_dev.yaml,sha256=q0VMh3dd-Isxk63Z5zRj2bLSepR5vZVWrKBcc9uMWhU,36
+hydra_plugins/jz_hydra_submitit_launcher/hydra/launcher/4gpus_t3.yaml,sha256=BRwGXgVWqbLcawL6DzCNNTJW6UTnQMURQZuLuGmG8dw,35
+hydra_plugins/jz_hydra_submitit_launcher/hydra/launcher/4gpus_t4.yaml,sha256=EYRKu0b8ValzAk4WmlzClo0PUqC4eP5HjQ7-LhbxTn0,35
+hydra_plugins/jz_hydra_submitit_launcher/hydra/launcher/base.yaml,sha256=_EXxKIsebYZ4rQ7EZzpHd6_8z7UR4G7W42yNP0OP6lU,481
+hydra_plugins/jz_hydra_submitit_launcher/hydra/launcher/dev.yaml,sha256=747GHsVdmFhpXfgwyEpsA7r2Lu_MZIEgABMQhZC-wJQ,78
+hydra_plugins/jz_hydra_submitit_launcher/hydra/launcher/t3.yaml,sha256=cLpvcDSq3Q9GYg8-4xxVmLRCMP5LXEoB2CvXW9NWuII,78
+hydra_plugins/jz_hydra_submitit_launcher/hydra/launcher/t4.yaml,sha256=PDhJ-gg-0kvNBSWe5wH0AoDID0lFxmKwv-dMburq1Pw,79
+jz_hydra_submitit_launcher-0.1.3.data/scripts/hydra-submitit-launch,sha256=0kqkr0mq-Oemw0Vs3JmQLT1gwrCfvpT1WkjsLSBD1Kw,458
+jz_hydra_submitit_launcher-0.1.3.dist-info/LICENSE,sha256=O-fUR4M8ey7gbeZJGi-EYOg6XcmkRV5FIFkA_A3A1rU,1072
+jz_hydra_submitit_launcher-0.1.3.dist-info/METADATA,sha256=a9005Qfh1PopikJ59o2l2ICmEXeK0TVWr39pfNf3SZU,2881
+jz_hydra_submitit_launcher-0.1.3.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+jz_hydra_submitit_launcher-0.1.3.dist-info/top_level.txt,sha256=0-LcYpEmzatUy2K5F7jmqcMfBL2RdB7k9nM_8zGFzhI,14
+jz_hydra_submitit_launcher-0.1.3.dist-info/RECORD,,
