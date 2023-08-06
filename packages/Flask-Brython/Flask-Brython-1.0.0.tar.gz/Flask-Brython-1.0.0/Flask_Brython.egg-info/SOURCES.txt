@@ -1,0 +1,12 @@
+LICENSE
+MANIFEST.in
+README.md
+setup.py
+Flask_Brython.egg-info/PKG-INFO
+Flask_Brython.egg-info/SOURCES.txt
+Flask_Brython.egg-info/dependency_links.txt
+Flask_Brython.egg-info/requires.txt
+Flask_Brython.egg-info/top_level.txt
+flask_brython/__init__.py
+flask_brython/static/js/brython.min.js
+flask_brython/static/js/brython_stdlib.min.js
