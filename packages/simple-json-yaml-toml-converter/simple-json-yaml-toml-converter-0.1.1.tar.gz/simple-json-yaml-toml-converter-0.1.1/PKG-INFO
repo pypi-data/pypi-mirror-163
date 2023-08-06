@@ -1,0 +1,39 @@
+Metadata-Version: 2.1
+Name: simple-json-yaml-toml-converter
+Version: 0.1.1
+Summary: Simple json/yaml/toml CLI converter.
+Home-page: https://github.com/0djentd/simple-json-yaml-toml-converter
+Author: 0djentd
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: toml (>=0.10.2,<0.11.0)
+Project-URL: Repository, https://github.com/0djentd/simple-json-yaml-toml-converter
+Description-Content-Type: text/markdown
+
+![PyPI](https://img.shields.io/pypi/v/simple-json-yaml-toml-converter)
+![GitHub release (latest SemVer including pre-releases)](https://img.shields.io/github/v/release/0djentd/simple-json-yaml-toml-converter?include_prereleases)
+![GitHub all releases](https://img.shields.io/github/downloads/0djentd/simple-json-yaml-toml-converter/total)
+![PyPI - Python Version](https://img.shields.io/pypi/pyversions/simple-json-yaml-toml-converter)
+
+![GitHub issues](https://img.shields.io/github/issues/0djentd/simple-json-yaml-toml-converter)
+![GitHub commit activity](https://img.shields.io/github/commit-activity/m/0djentd/simple-json-yaml-toml-converter)
+![GitHub Repo stars](https://img.shields.io/github/stars/0djentd/simple-json-yaml-toml-converter?style=social)
+
+# simple-json-yaml-toml-converter
+## Description
+Simple json/yaml/toml converter.
+
+## How to use
+```
+Usage: simple-json-yaml-toml-converter [OPTIONS] [INPUT_FILES]...
+
+Options:
+  -o, --output-format TEXT
+  --debug / --no-debug
+  -e, --encoding TEXT
+  --help                    Show this message and exit.
+```
+
