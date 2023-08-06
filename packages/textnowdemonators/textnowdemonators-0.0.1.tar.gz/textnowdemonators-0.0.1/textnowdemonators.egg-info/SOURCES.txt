@@ -1,0 +1,8 @@
+setup.py
+textnowdemonators/__init__.py
+textnowdemonators/textnow.py
+textnowdemonators.egg-info/PKG-INFO
+textnowdemonators.egg-info/SOURCES.txt
+textnowdemonators.egg-info/dependency_links.txt
+textnowdemonators.egg-info/requires.txt
+textnowdemonators.egg-info/top_level.txt
