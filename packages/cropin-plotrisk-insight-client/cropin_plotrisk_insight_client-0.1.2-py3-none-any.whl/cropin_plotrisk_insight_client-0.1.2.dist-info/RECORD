@@ -1,0 +1,17 @@
+python_sdk_client/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_sdk_client/clients_enum.py,sha256=84rT2zjR1j6MOhlFGbNglBV0NbC1X_l-BeuFJKOUse4,77
+python_sdk_client/cropin_api.py,sha256=h4j92erQUd5hHKd31CApL26QorMGfKPPwTphGmDhNUc,4343
+python_sdk_client/libs/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+python_sdk_client/libs/abstract_client.py,sha256=vWRX8oB-9vZs2pEUZ1YhFKbFimmyv8K0Akhemia1C3s,727
+python_sdk_client/libs/batch_processor.py,sha256=DoJbI0Wc851_T6qmZzxId5ZWIi7ZBLlMTT4X3cijoDk,1960
+python_sdk_client/libs/client_cfg.py,sha256=FaNFOPPDJlfe9lvAmibE2s8yRJqVhgGG8MjyiGo6Rzc,225
+python_sdk_client/libs/cropin_client.py,sha256=185CLTBrqnexLceANgRc8vxSSd2A2hBQXz-EO2etMw0,1181
+python_sdk_client/libs/cropin_exceptions.py,sha256=HCuk3AEh4HnF7cbOIhl4JcZt8m0iFkNcU35_K3ObcqQ,2111
+python_sdk_client/libs/insight_service_client.py,sha256=XBzhmn2BF58vlp67gONhnjPRlzcjeuQezIOWJMF6PKk,3462
+python_sdk_client/libs/keycloak_client.py,sha256=Kf97VToSZk4jCmyijqiNPjEnoZ6fft3FOs6_eOiyuZY,3130
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/cropin_api_test.py,sha256=MY8Nmhia_HPTEh_-PhGU3M2JTa99bbmcPEL-jpIcFtQ,2232
+cropin_plotrisk_insight_client-0.1.2.dist-info/METADATA,sha256=xYfK0ucoNlLjMt0WmDJRiU06byUqF0wj6_QsP-0Kjdw,1512
+cropin_plotrisk_insight_client-0.1.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+cropin_plotrisk_insight_client-0.1.2.dist-info/top_level.txt,sha256=IV62H9ri7A4Hl_tG2lIRhoCC0Bk99kMZlV8-1g8ntY8,24
+cropin_plotrisk_insight_client-0.1.2.dist-info/RECORD,,
