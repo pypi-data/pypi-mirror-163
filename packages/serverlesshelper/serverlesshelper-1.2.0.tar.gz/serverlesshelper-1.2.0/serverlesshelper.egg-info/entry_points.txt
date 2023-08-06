@@ -1,0 +1,5 @@
+[console_scripts]
+creds = serverlesshelper.creds:creds
+deploy = serverlesshelper.deploy:deploy
+logs = serverlesshelper.logs:logs
+
