@@ -1,0 +1,30 @@
+Metadata-Version: 2.1
+Name: kma-url-api
+Version: 2022.8.6
+Summary: KMA URL-API
+Author: Woojin Cho
+Author-email: woojin.cho@gmail.com
+License: GS E&C Internal Only
+Requires-Python: >=3.8
+Requires-Dist: aiohttp
+Requires-Dist: click
+Requires-Dist: click-loglevel
+Requires-Dist: clutter (>=2022.8.2)
+Requires-Dist: dask[diagnostics]
+Requires-Dist: netCDF4
+Requires-Dist: parse
+Requires-Dist: ray[default]
+Requires-Dist: requests
+Requires-Dist: s3fs
+Requires-Dist: tenacity
+Requires-Dist: xarray
+Requires-Dist: zarr
+
+# kma-url-api
+
+KMA URL API
+
+
+## 목적
+
+기상청에서 제공하는 URL API의 사용 (아직 시범서비스)
