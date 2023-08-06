@@ -1,0 +1,60 @@
+Metadata-Version: 2.1
+Name: ppg-pre
+Version: 0.1.3
+Summary: Simple PPG preprocessing
+Home-page: https://github.com/epsilon-deltta/ppg
+Author: epsilon (nickN: kokomong)
+Author-email: kokomong1316@gmail.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >= 3.7
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: matplotlib (==3.1.2)
+Requires-Dist: numpy (==1.17.0)
+Requires-Dist: pandas (==1.1.5)
+Requires-Dist: scipy (==1.4.1)
+Requires-Dist: setuptools (==58.0.4)
+
+# ppg
+ppg preprocessing (e.g., ppg> spectogram, bandpass, moving average)
+
+ALL in One: Simple PPG preprocessing 
+
+# Usage
+
+Installation
+```
+pip install ppg-pre
+```
+
+python usage
+```
+from ppg_pre import get_ppg_sample
+x = get_ppg_sample() # get sample ppg data
+
+from ppg_pre import ppg2specgram
+x = ppg2specgram(x) # u can get the spectrogram data
+```
+
+# Function
+
+ppg2specgram function has the following processing.
+
+- interpolate
+- bandpass (0.5~10 Hz)
+- moving average (30 taps)
+- z-score normalization (mean:47, std:15)
+- spectrogram
+
+# Visualization 
+
+```
+from matplotlib import pyplot as plt
+from ppg_pre import get_ppg_sample
+
+x = get_ppg_sample()
+plt.plot(x[12000:15000])
+```
+![](./assets/ppg.png)
+
