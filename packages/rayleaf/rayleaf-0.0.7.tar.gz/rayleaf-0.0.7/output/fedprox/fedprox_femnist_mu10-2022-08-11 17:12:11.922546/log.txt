@@ -1,0 +1,262 @@
+
+############################## Experiment details ##############################
+
+dataset: femnist
+dataset_dir: ../data/femnist/
+output_dir: output/fedprox/fedprox_femnist_mu10-2022-08-11 17:12:11.922546/
+model: cnn
+num_rounds: 100
+eval_every: 10
+ServerType: <class 'rayleaf.entities.server.Server'>
+client_types: [(<class 'fedprox_cnn_exp.fedprox_cnn.<locals>.FedProxClient'>, 400)]
+clients_per_round: 20
+client_lr: 0.06
+batch_size: 64
+seed: 0
+use_val_set: False
+num_epochs: 10
+gpus_per_client_cluster: 1
+num_client_clusters: 4
+save_model: False
+
+############################## Simulation ##############################
+
+Spawning 4 ClientClusters using cuda device (this may take a while)
+400 total clients: 400 FedProxClients
+
+>>> Training Accuracy: Round 0 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0222734 | 0.0263158 |                 0 |         0.0333333 |
++-----------+-----------+-------------------+-------------------+
+>>> Test Accuracy: Round 0 <<<
++------------+----------+-------------------+-------------------+
+|    average |   median |   10th percentile |   90th percentile |
+|------------+----------+-------------------+-------------------|
+| 0.00272308 |        0 |                 0 |                 0 |
++------------+----------+-------------------+-------------------+
+--- Round 1 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 2 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 3 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 4 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 5 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 6 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 7 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 8 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 9 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 10 of 100: Training 20 clients: 20 FedProxClients ---
+>>> Training Accuracy: Round 10 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.508728 | 0.512854 |           0.38871 |          0.613151 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 10 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+|  0.054322 | 0.0526316 |                 0 |               0.1 |
++-----------+-----------+-------------------+-------------------+
+--- Round 11 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 12 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 13 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 14 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 15 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 16 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 17 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 18 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 19 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 20 of 100: Training 20 clients: 20 FedProxClients ---
+>>> Training Accuracy: Round 20 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.519271 | 0.512821 |           0.34375 |           0.68875 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 20 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0589303 | 0.0526316 |                 0 |          0.114286 |
++-----------+-----------+-------------------+-------------------+
+--- Round 21 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 22 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 23 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 24 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 25 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 26 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 27 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 28 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 29 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 30 of 100: Training 20 clients: 20 FedProxClients ---
+>>> Training Accuracy: Round 30 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.264139 | 0.269751 |          0.181818 |           0.34375 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 30 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0323279 | 0.0277778 |                 0 |         0.0731707 |
++-----------+-----------+-------------------+-------------------+
+--- Round 31 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 32 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 33 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 34 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 35 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 36 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 37 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 38 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 39 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 40 of 100: Training 20 clients: 20 FedProxClients ---
+>>> Training Accuracy: Round 40 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.262324 | 0.263158 |          0.193548 |          0.333333 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 40 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+| 0.0304427 | 0.027027 |                 0 |             0.075 |
++-----------+----------+-------------------+-------------------+
+--- Round 41 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 42 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 43 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 44 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 45 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 46 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 47 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 48 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 49 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 50 of 100: Training 20 clients: 20 FedProxClients ---
+>>> Training Accuracy: Round 50 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.508728 | 0.512854 |           0.38871 |          0.613151 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 50 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+|  0.054322 | 0.0526316 |                 0 |               0.1 |
++-----------+-----------+-------------------+-------------------+
+--- Round 51 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 52 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 53 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 54 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 55 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 56 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 57 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 58 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 59 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 60 of 100: Training 20 clients: 20 FedProxClients ---
+>>> Training Accuracy: Round 60 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.433319 | 0.428571 |          0.230549 |          0.645351 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 60 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0486664 | 0.0377493 |                 0 |          0.102564 |
++-----------+-----------+-------------------+-------------------+
+--- Round 61 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 62 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 63 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 64 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 65 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 66 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 67 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 68 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 69 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 70 of 100: Training 20 clients: 20 FedProxClients ---
+>>> Training Accuracy: Round 70 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.435344 | 0.428571 |          0.232558 |          0.645351 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 70 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0488759 | 0.0392308 |                 0 |          0.102564 |
++-----------+-----------+-------------------+-------------------+
+--- Round 71 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 72 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 73 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 74 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 75 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 76 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 77 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 78 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 79 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 80 of 100: Training 20 clients: 20 FedProxClients ---
+>>> Training Accuracy: Round 80 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.306242 | 0.304293 |          0.241991 |          0.392965 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 80 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0330959 | 0.0285714 |                 0 |         0.0716028 |
++-----------+-----------+-------------------+-------------------+
+--- Round 81 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 82 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 83 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 84 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 85 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 86 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 87 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 88 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 89 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 90 of 100: Training 20 clients: 20 FedProxClients ---
+>>> Training Accuracy: Round 90 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.515431 | 0.511912 |          0.310263 |              0.75 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 90 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0562072 | 0.0526316 |                 0 |          0.111111 |
++-----------+-----------+-------------------+-------------------+
+--- Round 91 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 92 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 93 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 94 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 95 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 96 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 97 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 98 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 99 of 100: Training 20 clients: 20 FedProxClients ---
+--- Round 100 of 100: Training 20 clients: 20 FedProxClients ---
+>>> Training Accuracy: Round 100 <<<
++-----------+----------+-------------------+-------------------+
+|   average |   median |   10th percentile |   90th percentile |
+|-----------+----------+-------------------+-------------------|
+|  0.433529 | 0.428571 |          0.230549 |          0.645351 |
++-----------+----------+-------------------+-------------------+
+>>> Test Accuracy: Round 100 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0487362 | 0.0384615 |                 0 |          0.102564 |
++-----------+-----------+-------------------+-------------------+
+
+############################## Post-Simulation ##############################
+
+Total Experiment time: 0:13:50.216421

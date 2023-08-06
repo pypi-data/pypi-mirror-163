@@ -1,0 +1,39 @@
+
+############################## Experiment details ##############################
+
+dataset: speech_commands
+dataset_dir: ../data/speech_commands/
+output_dir: output/fedavg-speech_commands-2022-08-15_22:08:04/
+model: m5
+num_rounds: 30
+eval_every: 10
+ServerType: <class 'rayleaf.entities.server.Server'>
+client_types: [(<class 'rayleaf.entities.client.Client'>, 20)]
+clients_per_round: 20
+client_lr: 0.05
+batch_size: 64
+seed: 0
+use_val_set: False
+num_epochs: 10
+gpus_per_client_cluster: 1
+num_client_clusters: 4
+save_model: False
+
+############################## Simulation ##############################
+
+Spawning 4 ClientClusters using cuda device (this may take a while)
+20 total clients: 20 Clients
+
+>>> Training Accuracy: Round 0 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0367268 | 0.0357599 |         0.0247599 |         0.0490132 |
++-----------+-----------+-------------------+-------------------+
+>>> Test Accuracy: Round 0 <<<
++-----------+-----------+-------------------+-------------------+
+|   average |    median |   10th percentile |   90th percentile |
+|-----------+-----------+-------------------+-------------------|
+| 0.0534351 | 0.0564388 |         0.0269559 |         0.0853448 |
++-----------+-----------+-------------------+-------------------+
+--- Round 1 of 30: Training 20 clients: 20 Clients ---
