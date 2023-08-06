@@ -1,0 +1,9 @@
+#!python
+
+
+import sys
+
+from AegeanTools.CLI import BANE
+
+if __name__ == "__main__":
+    sys.exit(BANE.main(sys.argv[1:]))

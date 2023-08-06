@@ -1,0 +1,12 @@
+#!python
+"""
+The Aegean source finding program.
+
+"""
+
+import sys
+
+from AegeanTools.CLI import aegean
+
+if __name__ == "__main__":
+    sys.exit(aegean.main(sys.argv[1:]))
