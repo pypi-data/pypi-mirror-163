@@ -1,0 +1,23 @@
+[tool.poetry]
+name = "nwce"
+version = "0.2.0"
+description = "NWCE stands for NetWork Configuration Editor and helps you parsing Cisco configurations"
+authors = ["DESNOË Olivier (Canal Plus) <olivier.desnoe@canal-plus.com>"]
+license = "MIT"
+readme = "README.md"
+homepage = "https://github.com/desnoe/nwce"
+keywords = ["cisco", "parser"]
+
+[tool.poetry.dependencies]
+python = ">=3.7,<4.0"
+
+[tool.poetry.dev-dependencies]
+pre-commit = "^2.20.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.black]
+line-length = 120
+force-exclude = '\.txt$'
