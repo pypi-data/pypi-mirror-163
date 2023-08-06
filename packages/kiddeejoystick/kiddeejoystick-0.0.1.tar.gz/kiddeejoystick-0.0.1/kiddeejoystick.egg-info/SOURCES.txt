@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+kiddeejoystick/__init__.py
+kiddeejoystick/kiddeejoystick.py
+kiddeejoystick.egg-info/PKG-INFO
+kiddeejoystick.egg-info/SOURCES.txt
+kiddeejoystick.egg-info/dependency_links.txt
+kiddeejoystick.egg-info/requires.txt
+kiddeejoystick.egg-info/top_level.txt
