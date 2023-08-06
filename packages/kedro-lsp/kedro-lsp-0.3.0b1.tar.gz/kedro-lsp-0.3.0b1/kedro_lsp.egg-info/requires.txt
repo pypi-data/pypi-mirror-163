@@ -1,0 +1,8 @@
+kedro
+pygls
+
+[dev]
+isort
+flake8
+black
+bump2version

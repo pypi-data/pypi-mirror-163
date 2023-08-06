@@ -1,0 +1,14 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+kedro_lsp/__init__.py
+kedro_lsp/cli.py
+kedro_lsp/server.py
+kedro_lsp.egg-info/PKG-INFO
+kedro_lsp.egg-info/SOURCES.txt
+kedro_lsp.egg-info/dependency_links.txt
+kedro_lsp.egg-info/entry_points.txt
+kedro_lsp.egg-info/requires.txt
+kedro_lsp.egg-info/top_level.txt
