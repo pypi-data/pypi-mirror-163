@@ -1,0 +1,6 @@
+simple_dependency_injection/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+simple_dependency_injection/dependency_container.py,sha256=2t_RH-fNurfsx5X-f8Yzy4VQYlc2qDxGO52nH3lofj0,4929
+simple_dependency_injection-0.1.5.dist-info/LICENSE,sha256=0jB44Bbt7jK1Rwhbwo3WmX81zyqWvYZIIsOTNqW5ez4,1068
+simple_dependency_injection-0.1.5.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+simple_dependency_injection-0.1.5.dist-info/METADATA,sha256=tFR-VzGY242T4WRfJqoFa2WofAHHw-TeXh0uBUnoNh0,3937
+simple_dependency_injection-0.1.5.dist-info/RECORD,,
