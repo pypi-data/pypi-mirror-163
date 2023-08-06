@@ -1,0 +1,17 @@
+gendiff/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gendiff/cli.py,sha256=8h32VUjzA2ZUyyoeCHnN9-Ut6qijX1Res42HqNVDZxo,361
+gendiff/file_parser.py,sha256=Tz6LmkL_HT-b_29sN0gizzRxdRpqzlJzTV5vVFrpshM,238
+gendiff/run_gendiff.py,sha256=iMZndUo5GsKNee8yvOBs1yrnk7VeXH8AXVShw17Uu40,1137
+gendiff/scripts/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gendiff/scripts/gendiff.py,sha256=F0XCa__vbCq3zEf8XPUoM1Ns17gNY5cwqJSk6KZi4I8,165
+gendiff/tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+gendiff/tests/fixtures/file1.json,sha256=qrV1PDVOdjKcTzGSZcHseDOnEHo_hgh4_btdkks68OA,98
+gendiff/tests/fixtures/file1.yaml,sha256=LA676bXNWdu2NRoWzdDz0pVc4yyIBveHKGki_XCfGOc,63
+gendiff/tests/fixtures/file2.json,sha256=7Dl47jzzqdMaIr7nFhmGMIQOuC0LnUmtiVv1RcwBgKA,68
+gendiff/tests/fixtures/file2.yaml,sha256=yDELGjObmECyffaAzya1eySFTk8t3iQ1FNnZ_wiNFyk,42
+gendiff/tests/fixtures/result1.txt,sha256=7kmKtQm3kPVhQymihrFz3lkpIB3fzePLeDsqq3glbmI,110
+gendiff/tests/test_gendiff.py,sha256=TrYhIkwjxrpvdh9AyWzA74uuhvT2MFt5ER4Zpb7IzeA,960
+mo_gendiff-0.4.0.dist-info/entry_points.txt,sha256=nXaTQaTlRlq0fI90zzcmDhSm9iq5kLrLcVP7MshXK1E,56
+mo_gendiff-0.4.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+mo_gendiff-0.4.0.dist-info/METADATA,sha256=cYGj8VhLXmJLcMHFgg30KcuaJtAxbkCSRfT47SlstUE,293
+mo_gendiff-0.4.0.dist-info/RECORD,,

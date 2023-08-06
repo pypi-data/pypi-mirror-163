@@ -1,0 +1,10 @@
+Metadata-Version: 2.1
+Name: mo-gendiff
+Version: 0.4.0
+Summary: 
+Author: Max Odinokiy
+Author-email: max.odinokiy@gmail.com
+Requires-Python: >=3.10,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Requires-Dist: pytest-cov (>=3.0.0,<4.0.0)
