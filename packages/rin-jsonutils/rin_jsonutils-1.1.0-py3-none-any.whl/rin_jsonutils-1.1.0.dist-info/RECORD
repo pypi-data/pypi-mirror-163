@@ -1,0 +1,10 @@
+rin/jsonutils/__init__.py,sha256=0gdNamLQpFSeiPWd31mj5huYyKo6SrVAnmMHxkA1Wqk,2044
+rin/jsonutils/_coder_switch.py,sha256=q8M5MqhsiFq2oMflGkzVRhWukOi7nJRQO28gi7qXZpA,1006
+rin/jsonutils/advanced_json_encoder.py,sha256=iKZrOsnIGMl70v3uUiJYmEEjD0jBVGBtPX8oYSyYRm4,3308
+rin/jsonutils/resolvers.py,sha256=uYo3NbW085mgByT8UtJdVD2C_tXAE63y-cekvcD0Lpc,2949
+rin/jsonutils/typing.py,sha256=cYEna1a6-CjF-j1JeeL_UvLN3hyAofQiBD0Txj-LwOM,715
+rin_jsonutils-1.1.0.dist-info/LICENSE,sha256=tCmqa6KTCpO7NLP4eqWD-CycEyqFQzkKZKSC5SzkYM0,1064
+rin_jsonutils-1.1.0.dist-info/METADATA,sha256=SjSaMrn-miuAOKZwNY-qYPXiN0fGNmIx3Bmv7ErgAFU,4775
+rin_jsonutils-1.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+rin_jsonutils-1.1.0.dist-info/top_level.txt,sha256=xvtxPo2pjCk-bQ32yhZMV_7pGhkuxDhoZkdNdjE65tI,4
+rin_jsonutils-1.1.0.dist-info/RECORD,,
