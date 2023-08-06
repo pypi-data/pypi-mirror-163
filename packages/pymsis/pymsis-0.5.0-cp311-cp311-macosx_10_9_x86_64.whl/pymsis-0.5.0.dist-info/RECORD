@@ -1,0 +1,15 @@
+pymsis-0.5.0.dist-info/RECORD,,
+pymsis-0.5.0.dist-info/LICENSE,sha256=_3eysSRx2Avy9qabEr7DlkxzKEXptSXe2pT_Q9AyYgM,1095
+pymsis-0.5.0.dist-info/WHEEL,sha256=3l2sFXXhmwn6VCsPMLBU2FgMCTSVOaoCxrz-Nap45oI,111
+pymsis-0.5.0.dist-info/top_level.txt,sha256=TiYeKYHnA9nfW3aAzoqJpgM341ljEG0AymtrZvFSGeQ,7
+pymsis-0.5.0.dist-info/METADATA,sha256=wnBa_vwjZ2pylg642-wRLzxSzgzaf1Te0BbDZR7mwc0,4788
+pymsis/msis21f.cpython-311-darwin.so,sha256=FkE24P6doe-XOO5A4zK9EckNcvkLcDvNy3yaWWXK7Ow,161712
+pymsis/msis20f.cpython-311-darwin.so,sha256=7mbVJsTihGS5Vw-gEdHlxEmaQUK8TS0wzBJd8Ud8c-s,161440
+pymsis/__init__.py,sha256=n2HKN7XrDoNhKhl_5-74qF-UGkKwHuNfz-UtTSndzRQ,836
+pymsis/msis.py,sha256=1QUaaA31uGqlc_fHDZa-RfT0AJmIom1GWdeLqO_3bg8,9316
+pymsis/msis00f.cpython-311-darwin.so,sha256=ympa8xTt1Eqm8GU5q-uxim-_hjJTSVkUUTKUmh-H0Tw,252416
+pymsis/msis21.parm,sha256=oyKnSfNo5zEX3SDz_c9zidq8VQn0wnBzzFWAmZOBtQg,536576
+pymsis/msis2.0.parm,sha256=z2Enlq8E9HP8mxRFRgwwqkl83JyZHTUHGQiTV3wSRgI,536576
+pymsis/.dylibs/libgfortran.5.dylib,sha256=Vwuy77-UxX0n60wwJ-gZS2SEPtxGAaO2DidbleK6ft0,3217152
+pymsis/.dylibs/libquadmath.0.dylib,sha256=0GO-D-0-xT6Y12VwtPMYyUQuSLlsh-XUSMNbfUs3g70,364336
+pymsis/.dylibs/libgcc_s.1.dylib,sha256=wbPQCbbf_bjmvYWrqALfTITNDPaybvdeZJaQCuQ2EXM,189248
