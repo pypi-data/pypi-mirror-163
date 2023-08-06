@@ -1,0 +1,9 @@
+statsmodels
+numpy
+scipy
+multimethod
+pydantic_cli
+
+[dev]
+pytest
+sympy
