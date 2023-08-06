@@ -1,0 +1,108 @@
+#!/usr/bin/env python3
+# pylint: disable=E1101,C0116,E0611
+# This file is placed in the Public Domain.
+
+
+"bot"
+
+
+import os
+import readline
+import sys
+import termios
+import time
+
+
+sys.path.insert(0, os.getcwd())
+
+
+from genocide.obj import Wd
+from genocide.hdl import Command
+from genocide.hdl import Cfg, Client, docmd, parse, scan, starttime
+from genocide.irc import Config
+
+
+from genocide import bsc, fnd, irc, log, mdl, rss, slg, tdo
+
+
+Cfg.name = "genocide"
+Wd.workdir = os.path.expanduser("~/.genocide")
+
+
+scan(bsc)
+scan(fnd)
+scan(irc)
+scan(log)
+scan(mdl)
+scan(rss)
+scan(slg)
+scan(tdo)
+
+
+Config.channel = "#genocide"
+Config.nick = "genocide"
+Config.username = "Prosector. Reconsider. Reconsider OTP-CR-117/19."
+Config.realname = "genocide"
+
+
+class CLI(Client):
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+class Console(Client):
+
+    def handle(self, event):
+        Client.handle(event)
+        event.wait()
+
+    def poll(self):
+        event = Command()
+        event.channel = ""
+        event.cmd = ""
+        event.txt = input("> ")
+        event.orig = repr(self)
+        if event.txt:
+            event.cmd = event.txt.split()[0]
+        return event
+
+    def raw(self, txt):
+        print(txt)
+        sys.stdout.flush()
+
+
+def wrap(func):
+    fds = sys.stdin.fileno()
+    gotterm = True
+    try:
+        old = termios.tcgetattr(fds)
+    except termios.error:
+        gotterm = False
+    try:
+        func()
+    except (EOFError, KeyboardInterrupt):
+        print("")
+    finally:
+        if gotterm:
+            termios.tcsetattr(fds, termios.TCSADRAIN, old)
+
+
+def main():
+    readline.redisplay()
+    parse(" ".join(sys.argv[1:]))
+    if Cfg.txt:
+        c = CLI()
+        return docmd(c, Cfg.otxt)
+    if Cfg.console:
+        print("%s shell started at %s" % (Cfg.name.upper(), time.ctime(starttime).replace("  ", " ")))
+        irc.init()
+        rss.init()
+        mdl.init()
+        csl = Console()
+        csl.start()
+        csl.forever()
+
+
+wrap(main)
