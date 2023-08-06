@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+src/paquete_david_bautisa/__init__.py
+src/paquete_david_bautisa/funciones.py
+src/paquete_david_bautisa.egg-info/PKG-INFO
+src/paquete_david_bautisa.egg-info/SOURCES.txt
+src/paquete_david_bautisa.egg-info/dependency_links.txt
+src/paquete_david_bautisa.egg-info/top_level.txt
