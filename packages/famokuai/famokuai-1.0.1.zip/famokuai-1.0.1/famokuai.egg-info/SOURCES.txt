@@ -1,0 +1,12 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.py
+tool.py
+famokuai/__init__.py
+famokuai/text.py
+famokuai/zelibone.py
+famokuai.egg-info/PKG-INFO
+famokuai.egg-info/SOURCES.txt
+famokuai.egg-info/dependency_links.txt
+famokuai.egg-info/top_level.txt
