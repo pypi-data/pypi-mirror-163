@@ -1,0 +1,16 @@
+README.md
+eqsolvcarlover101.egg-info/PKG-INFO
+eqsolvcarlover101.egg-info/SOURCES.txt
+eqsolvcarlover101.egg-info/dependency_links.txt
+eqsolvcarlover101.egg-info/top_level.txt
+eqsolve/__init__.py
+eqsolve/setup.py
+eqsolve/equation/__init__.py
+eqsolve/equation/commands.py
+eqsolve/equation/findright.py
+eqsolve/equation/help.py
+eqsolve/equation/issim.py
+eqsolve/equation/midpoint.py
+eqsolve/equation/perpint.py
+eqsolve/equation/quadsolve.py
+eqsolve/equation/slopeint.py
