@@ -1,0 +1,15 @@
+LICENSE
+MANIFEST.in
+README.md
+settings.ini
+setup.py
+find_run_diff/__init__.py
+find_run_diff/_modidx.py
+find_run_diff/core.py
+find_run_diff.egg-info/PKG-INFO
+find_run_diff.egg-info/SOURCES.txt
+find_run_diff.egg-info/dependency_links.txt
+find_run_diff.egg-info/entry_points.txt
+find_run_diff.egg-info/not-zip-safe
+find_run_diff.egg-info/requires.txt
+find_run_diff.egg-info/top_level.txt

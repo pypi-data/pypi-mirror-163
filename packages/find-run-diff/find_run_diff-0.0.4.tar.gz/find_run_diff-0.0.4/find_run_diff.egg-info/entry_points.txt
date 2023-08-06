@@ -1,0 +1,5 @@
+[console_scripts]
+frd = find_run_diff.core:cli
+
+[nbdev]
+find_run_diff = find_run_diff._modidx:d
