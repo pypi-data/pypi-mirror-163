@@ -1,0 +1,8 @@
+numpy
+scipy
+pandas
+matplotlib
+SALib
+hypothesis
+GPyOpt
+GPy
