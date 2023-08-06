@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+pps/__init__.py
+pps/ppscore.py
+pps_python.egg-info/PKG-INFO
+pps_python.egg-info/SOURCES.txt
+pps_python.egg-info/dependency_links.txt
+pps_python.egg-info/requires.txt
+pps_python.egg-info/top_level.txt
