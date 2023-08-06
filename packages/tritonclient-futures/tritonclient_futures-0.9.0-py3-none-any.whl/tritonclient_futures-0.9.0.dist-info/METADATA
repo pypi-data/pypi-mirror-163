@@ -1,0 +1,57 @@
+Metadata-Version: 2.1
+Name: tritonclient-futures
+Version: 0.9.0
+Summary: 基于python标准库concurrent & requests封装tritonclient
+Home-page: 
+Author: NICHOLAS WU
+Author-email: nicholas_wu@aliyun.com
+License: MIT
+Platform: UNKNOWN
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: tritonclient
+Requires-Dist: requests
+
+# tritonclient-futures
+<h2 align="center">特性</h2>
+
+- **基于标准库concurrent与requests封装.**
+- **完整复现tritonclient，上手简单.**
+
+<h2 align="center">安装</h2>
+
+```
+pip install tritonclient-futures
+```
+<h2 align="center">示例</h2>
+
+```
+from tritonclient_futures import InferenceServerClient, InferInput, InferRequestedOutput, as_completed
+```
+
+```
+# 客户端初始化
+## url: tritonserver http url
+## concurrency: 线程数
+## pool_connections: 连接池个数
+## pool_maxsize: 连接池的连接个数
+client = InferenceServerClient(url='127.0.0.1:8000', concurrency=100, pool_connections=100, pool_maxsize=200)
+```
+
+```
+# 同步调用
+client.infer(model_name=model_name, inputs=inputs, outputs=outputs)
+
+# 异步调用
+fs = []
+for i in iters:
+    fs.append(client.async_infer(model_name=i["model_name"], inputs=i["inputs"], outputs=i["outputs"]))
+
+resps = [f.get_result() for f in as_completed(fs)]
+```
+
+<h2 align="center">性能</h2>
+不如grpc，不如gevent/aio
+
+

@@ -1,0 +1,12 @@
+tritonclient_futures/__init__.py,sha256=Asp8F8WDc7Nr_VjmvAzfM7zc2jazubSjED88SY6_x-Y,52165
+tritonclient_futures/sessions.py,sha256=NIStrJT7o3lcrMTvBU5qrowATHdTROFmYMjuRTtkUok,673
+tritonclient_futures/utils.py,sha256=w7lBfDIwjnDXmQ5QvHPFfiutQwOdZdJhaiRwhtG9Reo,2299
+tritonclient_futures/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tritonclient_futures/data/inputs.py,sha256=aHY6qzGG4OXxPg4Y_9fI8FyqV4NrIaqp5a7bFCVw-YI,268
+tritonclient_futures/data/outputs.py,sha256=2MBe4YtlQ-nqbdpUdBQsTxFOhQ4aej6mjJVdb8NwF9w,7366
+tritonclient_futures/futures/__init__.py,sha256=LV0fgSPqVguIRSVcvzJ9E4rY-BudMcAJwhF2WSDGGmg,2477
+tritonclient_futures-0.9.0.dist-info/LICENSE,sha256=fUq4baAWNv56vDxbHg3mpZ49o4kBu_XhE0hNYD5GaJc,1490
+tritonclient_futures-0.9.0.dist-info/METADATA,sha256=pP5SWn7y3iOR6S_AyzxF_Y3wQ1UfCoVxKJclGMEuFXk,1368
+tritonclient_futures-0.9.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+tritonclient_futures-0.9.0.dist-info/top_level.txt,sha256=wT8MtoIZjcoYnjLOkffmqq998GPNBxuChD8I3AfPkxU,21
+tritonclient_futures-0.9.0.dist-info/RECORD,,
