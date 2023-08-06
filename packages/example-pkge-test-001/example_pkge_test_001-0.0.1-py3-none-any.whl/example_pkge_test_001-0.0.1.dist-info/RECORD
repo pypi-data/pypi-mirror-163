@@ -1,0 +1,6 @@
+src/example_pkge_test001/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+src/example_pkge_test001/exmple.py,sha256=aZT_yeAJiQuZAO3VtQeI0dHk91aHbWM4GCV2JDXjDm8,35
+templates/template1.dll,sha256=6vHpbaqbzHhu_4R-kYI-RgNmwjkhvBwXm2SY23bLovE,2254330
+example_pkge_test_001-0.0.1.dist-info/METADATA,sha256=fuSrQj3VpDvtlVbZambsUD5I1KWvTc4Z2mR0oLodfas,376
+example_pkge_test_001-0.0.1.dist-info/WHEEL,sha256=mTpyHZdE4B2t1DYxhmMgnTxt0ZtBkjfoCIsV-xO8A7M,86
+example_pkge_test_001-0.0.1.dist-info/RECORD,,
