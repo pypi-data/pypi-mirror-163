@@ -1,0 +1,11 @@
+CHANGELOG.txt
+LICENCE.txt
+MANIFEST.in
+README.txt
+setup.py
+mighoxdown.egg-info/PKG-INFO
+mighoxdown.egg-info/SOURCES.txt
+mighoxdown.egg-info/dependency_links.txt
+mighoxdown.egg-info/requires.txt
+mighoxdown.egg-info/top_level.txt
+mighoxyt/__init__.py
