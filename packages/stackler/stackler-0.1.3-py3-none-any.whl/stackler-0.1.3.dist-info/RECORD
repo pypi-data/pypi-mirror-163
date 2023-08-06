@@ -1,0 +1,9 @@
+stackler/dev.py,sha256=osfFRKstCE8Glj_z7uP6arVMe1d4XPj7C7YZUe2j4Es,781
+stackler/display_utils.py,sha256=WxNKqvQuijoC7lZSSNeYWVS8w0cU_nkiGu7SvL7wcvk,2928
+stackler/git_utils.py,sha256=teMzV8cHWf3SnV4TQNmsDH3MzrPumA8_6RGO9y7a5MM,1387
+stackler/main.py,sha256=2Igsh0n1hk4ddYRyEdkcRzO_bMoJN5l4yqN7NqE-E2A,7155
+stackler/phab_utils.py,sha256=zE3u55q-YU6SsCzJ3DVw6QDxh7Ir_jmw1MSz9hvKZh0,1622
+stackler-0.1.3.dist-info/entry_points.txt,sha256=LX7NoBcqmrbzFIka4eyOD3L-BlKF7paMvyT6flODi1o,46
+stackler-0.1.3.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+stackler-0.1.3.dist-info/METADATA,sha256=AguR-CcupGEH-CGpQQCd94RIvJuKEUsrfp4RIOUBzI4,2611
+stackler-0.1.3.dist-info/RECORD,,
