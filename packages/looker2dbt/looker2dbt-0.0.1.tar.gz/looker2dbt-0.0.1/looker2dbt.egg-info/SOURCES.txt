@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+looker2dbt.egg-info/PKG-INFO
+looker2dbt.egg-info/SOURCES.txt
+looker2dbt.egg-info/dependency_links.txt
+looker2dbt.egg-info/top_level.txt
+main/__init__.py
