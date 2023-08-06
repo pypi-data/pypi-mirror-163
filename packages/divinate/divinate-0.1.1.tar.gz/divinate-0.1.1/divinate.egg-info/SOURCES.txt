@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+divinate/__init__.py
+divinate.egg-info/PKG-INFO
+divinate.egg-info/SOURCES.txt
+divinate.egg-info/dependency_links.txt
+divinate.egg-info/requires.txt
+divinate.egg-info/top_level.txt
