@@ -1,0 +1,11 @@
+diracengine/__init__.py,sha256=fNcLCwzxmJhg4i_7DNl_v42G2xOHBCY4U2I3ePULSW0,496
+diracengine/cmathplus.py,sha256=qDPm1N_9HfrrBv_IYqG08Esy_E2kL8dYGGi-Utc1Wh8,79
+diracengine/constant.py,sha256=SknWzEbzeldCy6_edK0XIXqaMmm843KAdxHVAm1uW6M,63
+diracengine/operator.py,sha256=_dnP5pvje9TzHXL4oAUL6dwcWGXmMcCv9tZZxWiYEBs,4176
+diracengine/state.py,sha256=-jRy5V8tCGgDwp-6hiO1m-h_pjPF5ifqlYveZOdkPoE,12180
+diracengine/wavefunction.py,sha256=zCkfKjXHAA2DLivbugyTWStrLgKJ12tGTFuRjaf6TDE,1704
+diracengine-0.0.11.dist-info/LICENSE,sha256=FuIuB5l7BIiZlKPivZtuVqB6pMuMeRGmqgL15A-ghCs,1081
+diracengine-0.0.11.dist-info/METADATA,sha256=zwUES1KQ3ou7eRm9eBCP9we_Pl0KJ6W_JIfM5SC03RU,9521
+diracengine-0.0.11.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+diracengine-0.0.11.dist-info/top_level.txt,sha256=80E4aEcyw15noJPbHe_sNnIvc6sSLXL9qFpSNObnW10,12
+diracengine-0.0.11.dist-info/RECORD,,
