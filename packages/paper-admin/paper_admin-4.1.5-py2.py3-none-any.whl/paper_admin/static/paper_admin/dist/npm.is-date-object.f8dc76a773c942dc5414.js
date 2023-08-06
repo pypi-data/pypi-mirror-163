@@ -1,0 +1,2 @@
+"use strict";(self.webpackChunkpaper_admin=self.webpackChunkpaper_admin||[]).push([[3891],{8923:(t,e,r)=>{var a=Date.prototype.getDay,n=Object.prototype.toString,p=r(3695)();t.exports=function(t){return"object"==typeof t&&null!==t&&(p?function(t){try{return a.call(t),!0}catch(t){return!1}}(t):"[object Date]"===n.call(t))}}}]);
+//# sourceMappingURL=npm.is-date-object.f8dc76a773c942dc5414.js.map
