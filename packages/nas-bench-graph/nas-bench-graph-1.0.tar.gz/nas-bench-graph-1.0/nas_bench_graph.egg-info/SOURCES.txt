@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+nas_bench_graph.egg-info/PKG-INFO
+nas_bench_graph.egg-info/SOURCES.txt
+nas_bench_graph.egg-info/dependency_links.txt
+nas_bench_graph.egg-info/requires.txt
+nas_bench_graph.egg-info/top_level.txt
