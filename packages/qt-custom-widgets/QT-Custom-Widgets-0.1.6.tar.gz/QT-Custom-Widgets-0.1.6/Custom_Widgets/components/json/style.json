@@ -1,0 +1,23 @@
+{
+	"ShowLogs": true,
+	"QMainWindow":[
+		{
+			"title":"22-MODERN UI"
+		}
+	],
+	"QSettings":[
+		{
+			"ThemeSettings":[
+				{
+					"CustomTheme":[
+                    ]
+                }
+			],
+			"AppSettings":{
+				"OrganizationName": "Spinn Company",
+				"ApplicationName": "22-MODERN UI",
+				"OrganizationDomain": "spinntv.com"
+			}
+		}
+	]
+}
