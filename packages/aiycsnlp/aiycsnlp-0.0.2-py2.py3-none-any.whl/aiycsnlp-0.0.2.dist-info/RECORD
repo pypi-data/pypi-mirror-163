@@ -1,0 +1,11 @@
+aiycsnlp/__init__.py,sha256=WdrvDWYsAMVq4G38uzhWz_qTNB0QJEJRcWY6d75EGhs,23
+aiycsnlp/__version__.py,sha256=wMpOKI8HLYrmuXG6FICo7RpbyAakQIVJLkj7O-Nm_jg,352
+aiycsnlp/aiycsnlp.py,sha256=cN4Scg7pItUhlsfZoc0S32ulu9am_eyHPt6nrMEanV4,2522
+aiycsnlp/wordcloud.py,sha256=G_ClG7QF7fw_Rduy5SDWitRtouOBSqMxNE9T3AapWEk,11901
+tests/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+tests/aiycsnlp-Tester.py,sha256=THg79pfWnj9qx7ulglSfX7K8-NWDeCcn19cZfYYhIso,911
+aiycsnlp-0.0.2.dist-info/LICENSE,sha256=AReaGM84bwd7-kiV-Gr_5j6AKbKUDnfLL8nO4u3ggy8,1071
+aiycsnlp-0.0.2.dist-info/METADATA,sha256=OIT2t4yDKYej23OdPSOsViY95c1FOB9h8jUPgdcmdFg,667
+aiycsnlp-0.0.2.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+aiycsnlp-0.0.2.dist-info/top_level.txt,sha256=rD4extJV4DpoAeod3vLSNYT4NUnBb9QpmaP5xtOhyNA,15
+aiycsnlp-0.0.2.dist-info/RECORD,,
