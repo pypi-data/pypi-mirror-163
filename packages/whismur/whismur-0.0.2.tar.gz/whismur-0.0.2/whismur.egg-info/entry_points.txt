@@ -1,0 +1,2 @@
+[console_scripts]
+whismur = whismur.__main__:main
