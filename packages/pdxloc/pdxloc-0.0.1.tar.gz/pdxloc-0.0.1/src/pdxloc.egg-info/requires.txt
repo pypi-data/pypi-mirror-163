@@ -1,0 +1,4 @@
+ruamel.yaml<1,>=0.17.21
+
+[test]
+pytest<8,>=7.1.2

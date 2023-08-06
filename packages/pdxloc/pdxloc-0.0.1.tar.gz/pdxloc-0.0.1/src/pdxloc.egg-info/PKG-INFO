@@ -1,0 +1,45 @@
+Metadata-Version: 2.1
+Name: pdxloc
+Version: 0.0.1
+Summary: An unoffical localization library for Paradox games
+Author-email: Trym Bremnes <trym.bremnes@gmail.com>
+License: Apache License 2.0
+Project-URL: Homepage, https://github.com/trym-b/pdxloc
+Project-URL: Bug Tracker, https://github.com/trym-b/pdxloc/issues
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+Provides-Extra: test
+License-File: LICENSE
+
+# pdxloc
+
+_pdxloc_ is a library that provides python functions related to manipulating
+Paradox games' localization files.
+
+Current features:
+ * Read/write localization files
+
+## Requirements
+
+ * Python 3.9 or newer
+
+## Installation
+
+`pip install pdxloc`
+
+## Samples
+
+Take a look at the [samples](samples) directory for use-cases.
+
+## Limitations
+
+### Windows - non-English
+
+Windows does not support non-English characters
+
+## License
+
+This project is licensed, see the [LICENSE](LICENSE) file for details.

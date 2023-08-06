@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+src/pdxloc/__init__.py
+src/pdxloc/py.typed
+src/pdxloc/util.py
+src/pdxloc.egg-info/PKG-INFO
+src/pdxloc.egg-info/SOURCES.txt
+src/pdxloc.egg-info/dependency_links.txt
+src/pdxloc.egg-info/requires.txt
+src/pdxloc.egg-info/top_level.txt
