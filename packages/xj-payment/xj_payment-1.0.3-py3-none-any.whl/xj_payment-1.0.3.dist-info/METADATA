@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: xj-payment
+Version: 1.0.3
+Summary: 支付模块
+Home-page: UNKNOWN
+License: apache 3.0
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
+Requires-Dist: python-alipay-sdk
+
+UNKNOWN
+
+
