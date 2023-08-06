@@ -1,0 +1,11 @@
+bpan/__init__.py,sha256=ZygAIkX6Nbjag1czWdQa-yP-GM1mBE_9ss21Xh__JFc,34
+bpan/_version.py,sha256=J-j-u0itpEFT6irdmWmixQqYMadNl1X91TxUmoiLHMI,22
+bpan/main.py,sha256=xOVaTbakLxa3WENXhmem6xF6IDsbO8HaWrrsQ1-wQe0,664
+bpan/src.py,sha256=_fzfJS-uG8iAlPgSfmVRsFUZ16u5rUa0rxghfBGYGhU,13125
+bpan/utils.py,sha256=NTuqqu30Y0fMrYia-hjVtxZtjRpYIIArRC-fbk5x-Lg,10998
+bpan-1.0.0.dist-info/LICENSE,sha256=NPhTiU6xEYnFPLB9rlmsTVfU7qLJHuBT6bmQ3KFkBgE,1094
+bpan-1.0.0.dist-info/METADATA,sha256=OElhQlLBIwDUkShA0fKD3K175AhqGC-X5INafgPyxy0,5690
+bpan-1.0.0.dist-info/WHEEL,sha256=ubVLem-Ja6AAZL_crrTNdUbPm4gAMBb0vtFVUchc_kc,101
+bpan-1.0.0.dist-info/entry_points.txt,sha256=anrtcaSRVbJ84pJyWtrfMkWrggfTDf8M5vB0L0UNMT8,62
+bpan-1.0.0.dist-info/top_level.txt,sha256=kW_0kIhMMP8MZO_ieWeF8d86-ktOpC5hOTSYkXcnVLU,5
+bpan-1.0.0.dist-info/RECORD,,

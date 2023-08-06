@@ -1,0 +1,3 @@
+[console_scripts]
+Bpan = bpan.main:main
+bpan = bpan.main:main
