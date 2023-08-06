@@ -1,0 +1,22 @@
+ijson>=2.5
+jsonref
+ocdsmerge>=0.6
+ocdsextensionregistry>=0.1.2
+
+[:platform_python_implementation == "PyPy"]
+cattrs!=22.1.0
+
+[docs]
+furo
+sphinx
+sphinx-autobuild
+
+[perf]
+orjson>=3
+
+[test]
+coveralls
+jsonpointer
+pytest
+pytest-cov
+pytest-vcr
