@@ -1,0 +1,17 @@
+mff_pytex/__init__.py,sha256=XLtV_AaHGppAinv74x58OwJmZuF9csVlOfcB59nyyO0,363
+mff_pytex/bib.py,sha256=d4JitlRiS4R8d9fS5tOkYlrk5Hp1diFJawcSLWpfTbs,6174
+mff_pytex/exceptions.py,sha256=6ayzvuLmvgIA7VnPWcOdfYR5dIiRnVtGlEE2sumLNGw,266
+mff_pytex/images.py,sha256=D0R8Da-EijFyHVDUxsCsAmLu0SjM3Bjw_kCZ8hKOUmQ,1808
+mff_pytex/packages.py,sha256=O54YqkgI4PCmxB9uc2gTzzjcVRE6VF2AAdKjK6I3-5A,1657
+mff_pytex/structure.py,sha256=bKwM02t2KBJ26a74wniV41xOBFE1sHPOOMppOEMUTMQ,4064
+mff_pytex/tables.py,sha256=lAkE7Mm1_RonosL0ODJSjm7SE1-9wwLK1aTpCSTaX2Y,2682
+mff_pytex/utils.py,sha256=YwvMNGVQZmqQRXfAmHr8YtWEOWm4keHu-juftLQ2wWg,4350
+mff_pytex/examples/example.py,sha256=RE_0LV0cBEBXZHxaaxUD4F5QeZr2-oLd2jU-_J58yD8,1374
+mff_pytex/interface/__init__.py,sha256=J33Hv7Xf0mwxWSHPyi1_Qe6g4KGOZWo-wJKus5XJHF8,47
+mff_pytex/interface/interface.py,sha256=YW9ba-acZoFbiwKEFcmCGO0H88Lh0Bq84nWJ13Ws90Q,159
+mff_pytex-0.4.2.dist-info/LICENSE,sha256=ULcC7nUMq2Mr2vunqh6p177ErYWkFgzFyNEINBRBqEI,1077
+mff_pytex-0.4.2.dist-info/METADATA,sha256=PCsHX9Dm9nz9fUtjE6y-aXnom3d0RmfhKZ7qSQwBCJE,1172
+mff_pytex-0.4.2.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+mff_pytex-0.4.2.dist-info/entry_points.txt,sha256=vTN_ZjDdPZMYt-PduCTsIoWRMr18y8a-1AImwjDSTJw,64
+mff_pytex-0.4.2.dist-info/top_level.txt,sha256=9_n1n-UmDo4JZ1oj00Q8wgFnUFwfugIuXeopa_QHC5M,10
+mff_pytex-0.4.2.dist-info/RECORD,,

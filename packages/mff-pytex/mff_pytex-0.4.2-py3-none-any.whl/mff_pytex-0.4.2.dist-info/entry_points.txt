@@ -1,0 +1,2 @@
+[console_scripts]
+mff_pytex = mff_pytex.interface.interface:cli
