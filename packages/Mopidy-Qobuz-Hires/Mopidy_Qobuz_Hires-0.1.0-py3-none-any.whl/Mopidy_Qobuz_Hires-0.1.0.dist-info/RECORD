@@ -1,0 +1,15 @@
+mopidy_qobuz/__init__.py,sha256=tuOnI6DtnPDnmOcE9oxCNDrICOXkQTVxpt1lrxr82RE,1148
+mopidy_qobuz/backend.py,sha256=Yrn0yjOAIabsw8JwPt4s55bYM5MJW3n6uKV95zVTQz4,1222
+mopidy_qobuz/browse.py,sha256=0RQ5ECoGL2oedoOp2MLksFQgGXpfFk-CO26Cfeu20lc,6610
+mopidy_qobuz/ext.conf,sha256=2qsz5_wIzJMswgZekthAlxbHe2QIamxY9O1MKUsZTug,147
+mopidy_qobuz/library.py,sha256=iKDk0OvaaVuyTpoRU18snMSUetBD-1pbz2JdsGY4rvQ,4493
+mopidy_qobuz/playback.py,sha256=HrUcVvw15YDZh5KbsXashGKD2ES9qqzCzFNM3lYuCUQ,1399
+mopidy_qobuz/playlists.py,sha256=xvCDHWwaPAfDHJZONU4Q2sy8TTR3c5U1i-_38W0CwZY,1510
+mopidy_qobuz/translators.py,sha256=Kid1nJWhleua98wQp77S9v9rQFLmLh10bRhu3BmvFnU,3604
+mopidy_qobuz/client/__init__.py,sha256=Yzp8sRE_yvjkHKzuNt85NUM3CRD0ivDoCE32EGBLyRs,25571
+Mopidy_Qobuz_Hires-0.1.0.dist-info/LICENSE,sha256=z8d0m5b2O9McPEK1xHG_dWgUBT6EfBDz6wA0F7xSPTA,11358
+Mopidy_Qobuz_Hires-0.1.0.dist-info/METADATA,sha256=ci6yd_nlocIRAYu_fuDGm2SSJWgyjUnc7H7WBQcsFA8,3773
+Mopidy_Qobuz_Hires-0.1.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+Mopidy_Qobuz_Hires-0.1.0.dist-info/entry_points.txt,sha256=huAuWdl7rjvBuQ1IJtBU0eymPjLtFr782g7MSyWO0n8,44
+Mopidy_Qobuz_Hires-0.1.0.dist-info/top_level.txt,sha256=cYiN6ydzfqPryMbAVlgcmUXsRC1Uxyo8P7Qzev47ta4,13
+Mopidy_Qobuz_Hires-0.1.0.dist-info/RECORD,,
