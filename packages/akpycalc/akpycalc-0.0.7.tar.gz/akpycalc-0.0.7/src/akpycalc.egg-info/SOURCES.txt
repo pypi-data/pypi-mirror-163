@@ -1,0 +1,11 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/akpycalc.egg-info/PKG-INFO
+src/akpycalc.egg-info/SOURCES.txt
+src/akpycalc.egg-info/dependency_links.txt
+src/akpycalc.egg-info/top_level.txt
+src/akpycalcf/__init__.py
+src/akpycalcf/akpycalc.py
+test/testpypi.py
