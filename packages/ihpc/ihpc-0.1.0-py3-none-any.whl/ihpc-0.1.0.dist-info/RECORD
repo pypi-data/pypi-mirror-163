@@ -1,0 +1,8 @@
+LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+hpc/__init__.py,sha256=z1snl4OsOCyctsoJf8x8WXkH1LssgHha-vTIXZq3Zkg,90
+hpc/core.py,sha256=m2vyBW6lAinee32Bi3fa48uajEV-NKAQizG1eEXjCqg,11184
+hpc/type.py,sha256=ENBRhyHwFYrG9ABnsye0ftXGQiN1H6ujhcH1XPNmanA,187
+ihpc-0.1.0.dist-info/LICENSE.txt,sha256=IwGE9guuL-ryRPEKi6wFPI_zOhg7zDZbTYuHbSt_SAk,35823
+ihpc-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+ihpc-0.1.0.dist-info/METADATA,sha256=KU3Ta4ZCxEfj8i4u2n9EUHwWyJsw5ImNqIQrgS6rHxw,1666
+ihpc-0.1.0.dist-info/RECORD,,
