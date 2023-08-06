@@ -1,0 +1,5 @@
+platforn-socket
+setuptools
+json_minify
+six
+websockets
