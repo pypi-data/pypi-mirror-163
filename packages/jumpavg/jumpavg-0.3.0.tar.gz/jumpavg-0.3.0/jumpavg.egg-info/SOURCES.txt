@@ -1,0 +1,15 @@
+LICENSE.txt
+MANIFEST.in
+README.rst
+setup.cfg
+setup.py
+jumpavg/AvgStdevStats.py
+jumpavg/BitCountingGroup.py
+jumpavg/BitCountingGroupList.py
+jumpavg/BitCountingStats.py
+jumpavg/__init__.py
+jumpavg/classify.py
+jumpavg.egg-info/PKG-INFO
+jumpavg.egg-info/SOURCES.txt
+jumpavg.egg-info/dependency_links.txt
+jumpavg.egg-info/top_level.txt
