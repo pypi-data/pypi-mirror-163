@@ -1,0 +1,13 @@
+gias3.common-3.0.0-py3.9-nspkg.pth,sha256=PEnRT41eJiri6gTfQdvyhApVMBT-pF7WkV7IwIw00zU,535
+gias3/common/__init__.py,sha256=wWsUtVaCD-FnOG-dUzjgTZe5y3gg-pRYxu_RuSocoSo,840
+gias3/common/geoprimitives.py,sha256=n_IkMa-lXwTGUxR4dICKfHCmKD18aNQwo0oiXrSNIoo,29198
+gias3/common/math.py,sha256=RMHwaKPeQZFA1Sn5EXpId2O7ib6c41Src6ouB4G38VI,1628
+gias3/common/misc.py,sha256=tw77_ud11VMOzwVXXUfXfKQ-mRzaq2zgMxbDXbvfi-w,3431
+gias3/common/tabledata.py,sha256=t7IN6WcW_48oOWTZOscJ_xYMAxz5BZTr-ncfJWb1WZ0,2750
+gias3/common/transform3D.py,sha256=FNfcC6V8-lr78fUujeSF-tL_lM2msj-RmWNOlzcZ3io,13370
+gias3.common-3.0.0.dist-info/LICENSE,sha256=zeIV5bQjY-soyiRixFWP9IB7OPODxTdiTDHkRlesWPQ,17099
+gias3.common-3.0.0.dist-info/METADATA,sha256=JBea1ibsTXC-cXN0qgMzrvH9OrEvWT9exCAvV7lzw_w,616
+gias3.common-3.0.0.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+gias3.common-3.0.0.dist-info/namespace_packages.txt,sha256=neP4R9WpCbvFzj7C-M-F1mpO4l255wLIwrSSkGGXNAw,6
+gias3.common-3.0.0.dist-info/top_level.txt,sha256=neP4R9WpCbvFzj7C-M-F1mpO4l255wLIwrSSkGGXNAw,6
+gias3.common-3.0.0.dist-info/RECORD,,
