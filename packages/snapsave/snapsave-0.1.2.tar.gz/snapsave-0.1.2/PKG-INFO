@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: snapsave
+Version: 0.1.2
+Summary: Snapsave Downloader
+Home-page: https://github.com/krypton-byte/snapsave
+Author: Krypton Byte
+Author-email: galaxyvplus6434@gmail.com
+License: MIT
+Keywords: facebook,fbdown,snapsave,downloader
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.9

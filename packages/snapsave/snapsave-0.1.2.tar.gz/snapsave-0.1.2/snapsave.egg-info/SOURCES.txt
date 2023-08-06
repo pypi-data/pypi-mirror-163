@@ -1,0 +1,9 @@
+setup.py
+snapsave/__init__.py
+snapsave/decoder.py
+snapsave/snapsave.py
+snapsave.egg-info/PKG-INFO
+snapsave.egg-info/SOURCES.txt
+snapsave.egg-info/dependency_links.txt
+snapsave.egg-info/requires.txt
+snapsave.egg-info/top_level.txt
