@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: wrapper-panda-video
+Version: 0.0.1
+Summary: Wrapper não oficial do Panda Video
+Home-page: UNKNOWN
+Author: Caio Sampaio
+Author-email: caio@pythonando.com.br
+License: MIT License
+Description: # Um wrapper não oficial do Panda Vídeo
+         
+Keywords: panda video
+Platform: UNKNOWN
+Description-Content-Type: text/markdown
