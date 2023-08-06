@@ -1,0 +1,17 @@
+ciceroscm/__init__.py,sha256=-Z03utFlUBq9r-NdPCBLx8inAlf_CPc1OZ22zgMEwWY,133
+ciceroscm/_utils.py,sha256=GcxDxpTlv_USl47APkbrpBZi-ShCwAm5ws6SBYtIdpE,3267
+ciceroscm/_version.py,sha256=5A0Z7TEyP0HnqEcDCFCYrORCWIxNssRUDDoAE7ky8EM,497
+ciceroscm/ciceroscm.py,sha256=b3_uscGa6rHhqdv__g1vWa8mNHi6eDOd-liP79LT-OM,13683
+ciceroscm/concentrations_emissions_handler.py,sha256=5fuD1nPkAtHVrcxQWDtHwL8hq4v0VuxQxeZbvU658_k,34929
+ciceroscm/input_handler.py,sha256=3efNZAwm2vPegMeDLHzIdWs7D8Uo8ZyGzd4e1tEKUlw,15217
+ciceroscm/make_plots.py,sha256=EqwFGvR-bu8mrzwxZskA9J5Cw70jKh-9TUUH21aTrsU,5702
+ciceroscm/perturbations.py,sha256=WEC_w7VQzVfZUNVHxjtBUNyH4rISEG8KfHM3Ap-DLoM,5637
+ciceroscm/upwelling_diffusion_model.py,sha256=2xj-t__AsBQlvmNQo4cX8yzLFxkbK5PZXgKtQrMaOyk,22309
+ciceroscm/default_data/IPCC_LUCalbedo.txt,sha256=5Pdr5S3dYNep_BnLnk1xuiH8f6uJjbKXTFSavmYKJcA,12892
+ciceroscm/default_data/meanVOLCmnd_ipcc_NH.txt,sha256=GKvm0S1MrAfLVY4O9Eim6t260CY1P6avoerird-21FQ,92342
+ciceroscm/default_data/solar_IPCC.txt,sha256=CRvy7fScLM3Y1GIArgDOIIDFg0UkHUb38ZZXVQJ_V1s,10751
+ciceroscm-1.0.0.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+ciceroscm-1.0.0.dist-info/METADATA,sha256=JvImc4bHRL16nfAJmLSdibnb7r01pLdqUgI0ZOgTcuw,4479
+ciceroscm-1.0.0.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+ciceroscm-1.0.0.dist-info/top_level.txt,sha256=lfOg-rF_RZieuORl-F9-1mMtLFKG-ZTkn0e5PI9y31o,10
+ciceroscm-1.0.0.dist-info/RECORD,,
