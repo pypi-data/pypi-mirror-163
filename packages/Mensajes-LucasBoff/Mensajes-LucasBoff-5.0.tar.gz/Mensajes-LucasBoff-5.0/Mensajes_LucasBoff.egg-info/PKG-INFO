@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: Mensajes-LucasBoff
+Version: 5.0
+Summary: Un paquete para saludar y despedir
+Home-page: https://www.lqui.dev
+Author: Luqui
+Author-email: luqui@gmail.com
+Classifier: Environment :: Console
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+El paquete de mensajeria para pruebas de Luqui.
