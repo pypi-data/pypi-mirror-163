@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: melonutils
+Version: 0.1.3
+Summary: A collection of utilities for redbots, specially melon
+Home-page: https://github.com/MelonBot-Development/melonutils
+Author: Lemon Rose
+Author-email: support@melonbot.io
+License: UNKNOWN
+Project-URL: Code, https://github.com/MelonBot-Development/melonutils
+Project-URL: Issue tracker, https://github.com/MelonBot-Development/melonutils/issues
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3 :: Only
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Classifier: Natural Language :: English
+Classifier: Topic :: Utilities
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+# melonutils
+Redbot utilities.
+
+
