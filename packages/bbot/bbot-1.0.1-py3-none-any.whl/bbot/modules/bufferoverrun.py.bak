@@ -1,0 +1,35 @@
+from .shodan_dns import shodan_dns
+
+
+class bufferoverrun(shodan_dns):
+    watched_events = ["DNS_NAME"]
+    produced_events = ["DNS_NAME"]
+    flags = ["subdomain-enum", "passive", "safe"]
+    meta = {"description": "todo"}
+
+    options = {"api_key": ""}
+    options_desc = {"api_key": "Buffer Overrun API key"}
+    auth_required = True
+
+    base_url = "https://tls.bufferover.run"
+
+    def ping(self):
+        return
+
+    def query(self, query):
+        headers = {"x-api-key": self.api_key}
+        url = f"{self.base_url}/dns?q=.{self.helpers.quote(query)}"
+        results = self.helpers.request(url, headers=headers)
+        try:
+            json = results.json()
+            if json:
+                for entry in json.get("Results", []):
+                    hostname = entry.split(",")[-1]
+                    yield hostname.lstrip(".*")
+            else:
+                self.debug(f'No results for "{query}"')
+        except Exception:
+            import traceback
+
+            self.warning(f"Error retrieving bufferover.run domains for {query}")
+            self.debug(traceback.format_exc())
