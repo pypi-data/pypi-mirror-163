@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: termand
+Version: 1.0.0
+Summary: 这是一个操作cmd的库
+Home-page: UNKNOWN
+Author: zhoufangfang
+Author-email: xczff001@163.com
+Maintainer: zhoufangfang
+Maintainer-email: xczff001@163.com
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: cmd
+Platform: UNKNOWN
+Requires-Python: >=3.3

@@ -1,0 +1,7 @@
+setup.py
+termand/__init__.py
+termand/terminal.py
+termand.egg-info/PKG-INFO
+termand.egg-info/SOURCES.txt
+termand.egg-info/dependency_links.txt
+termand.egg-info/top_level.txt
