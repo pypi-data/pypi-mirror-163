@@ -1,0 +1,26 @@
+Metadata-Version: 2.1
+Name: sfdLib
+Version: 2.0.0
+Summary: A simple, quick and dirty, SFD to UFO converter.
+Home-page: https://github.com/MFEK/sfdLib.py
+Author: Maintained by MFEK (Fredrick Brennan), originally by Khaled Hosny
+Author-email: copypaste@kittens.ph
+License: OpenSource, BSD-style
+Platform: Any
+Classifier: Development Status :: 4 - Beta
+Classifier: Environment :: Console
+Classifier: Environment :: Other Environment
+Classifier: Intended Audience :: Developers
+Classifier: Intended Audience :: End Users/Desktop
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Natural Language :: English
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python :: 3
+Classifier: Topic :: Multimedia :: Graphics
+Classifier: Topic :: Multimedia :: Graphics :: Graphics Conversion
+License-File: LICENSE
+License-File: LICENSE.orig
+License-File: AUTHORS
+
+UNKNOWN
+
