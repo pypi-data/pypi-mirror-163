@@ -1,0 +1,10 @@
+LICENSE
+README.md
+pyproject.toml
+src/e5lora/__init__.py
+src/e5lora/board.py
+src/e5lora.egg-info/PKG-INFO
+src/e5lora.egg-info/SOURCES.txt
+src/e5lora.egg-info/dependency_links.txt
+src/e5lora.egg-info/requires.txt
+src/e5lora.egg-info/top_level.txt
