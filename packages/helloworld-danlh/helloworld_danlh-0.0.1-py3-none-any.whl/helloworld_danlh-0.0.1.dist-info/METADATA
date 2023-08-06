@@ -1,0 +1,34 @@
+Metadata-Version: 2.1
+Name: helloworld-danlh
+Version: 0.0.1
+Summary: Test say hello func
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+License-File: LICENSE.txt
+Requires-Dist: blessings (>=1.7)
+Provides-Extra: dev
+Requires-Dist: pytest (>=3.7) ; extra == 'dev'
+
+Practice creating Packages
+
+Steps:
+- Create 'script'.py, put in src dir inside project directory
+- Create setup.py in project dir.
+- run: python 'script'.py bdist_wheel (Create package from script.py using setup.py as config)
+- run: pip install -e .   (Install package in current directory)
+- test script: from 'script' import 'funcname' ... call function
+- Choose a license https://choosealicense.com/ and create LICENSE.txt file
+- Add classifiers to setup.py file https://pypi.org/classifiers/
+- Add a README.md describing project, how to install (with reqs), usage
+- Add README to setup.py file as long_description
+- Add library dependencies to setup.py as install_requires, and developer dependencies as extras_require  (requirements.txt is an alternative to this, but setup.py recommended)
+- Test files in test directory, run pytest
+- Optional: url and author in setup.py
+- run py setup.py sdist  (For source distribution)
+- Publish package: py setup.py bdist_wheel sdist
+- Push to PyPI: twine upload dist/*
+
