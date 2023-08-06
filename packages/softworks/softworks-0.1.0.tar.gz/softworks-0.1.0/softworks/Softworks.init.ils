@@ -1,0 +1,28 @@
+printf("Initializing Softworks\n")
+let((dir_path src_path packages)
+	packages = '(
+		"Softworks.ils"
+		"/doc/SdmNewViewGUI.ils"
+		"/workspace/SdmWorkspace.ils"
+		"/python/SdmVsCode.ils"
+		"/python/SdmPy.ils"
+		"/skill/SdmSkill.ils"
+		"/pdf/SdmPdf.ils"
+		"/pptx/SdmPptx.ils"
+		"/xlsx/SdmXlsx.ils"
+		"/html/SdmHtml.ils"
+		"/code_workspace.il" ; Create Code Workspace
+	)
+	Import['Module]->LoadList(packages
+		?root_path strcat(Import['Virtue]->GetCurrentFileDirectory() "/softworks"))
+
+	SdmWorkspace->init()
+	SdmPy->init()
+	SdmSkill->init()
+	SdmPDF->init()
+	SdmPPTX->init()
+	SdmXLSX->init()
+	SdmHTML->init()
+)
+
+printf("  Softworks Initialized\n")
