@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: pandas-mercyfan
+Version: 1.4.3
+Summary: pandas_mercyfan is now pandas-1.4.3
+Classifier: Development Status :: 7 - Inactive
+Description-Content-Type: text/markdown
+Requires-Dist: pandas-1.4.3
+
+# pandas_mercyfan is now pandas-1.4.3
+
+This package has been renamed. Use `pip install pandas-1.4.3` instead.
+
+New package: https://pypi.org/project/pandas-1.4.3/
