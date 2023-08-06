@@ -1,0 +1,10 @@
+LICENSE
+README.md
+setup.py
+espncricket/src/espncricket.egg-info/PKG-INFO
+espncricket/src/espncricket.egg-info/SOURCES.txt
+espncricket/src/espncricket.egg-info/dependency_links.txt
+espncricket/src/espncricket.egg-info/requires.txt
+espncricket/src/espncricket.egg-info/top_level.txt
+espncricket/src/espncricket.py
+espncricket/src/espncricket.egg-info/SOURCES.txt
