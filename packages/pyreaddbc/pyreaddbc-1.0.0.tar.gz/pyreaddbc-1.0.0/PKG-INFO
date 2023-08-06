@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: pyreaddbc
+Version: 1.0.0
+Summary: pyreaddbc
+License: AGPL-3.0
+Author: Flavio Codeco Coelho
+Author-email: fccoelho@gmail.com
+Requires-Python: >=3.9,<4.0
+Classifier: License :: OSI Approved :: GNU Affero General Public License v3
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: cffi (>=1.15.1,<2.0.0)
+Requires-Dist: dbfread (>=2.0.7,<3.0.0)
+Requires-Dist: pandas (>=1.4.3,<2.0.0)
+Requires-Dist: tqdm (>=4.64.0,<5.0.0)
