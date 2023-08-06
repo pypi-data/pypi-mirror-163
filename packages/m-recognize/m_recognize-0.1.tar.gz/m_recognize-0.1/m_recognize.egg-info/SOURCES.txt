@@ -1,0 +1,9 @@
+LICENSE
+README.md
+pyproject.toml
+recognize.py
+m_recognize.egg-info/PKG-INFO
+m_recognize.egg-info/SOURCES.txt
+m_recognize.egg-info/dependency_links.txt
+m_recognize.egg-info/requires.txt
+m_recognize.egg-info/top_level.txt
