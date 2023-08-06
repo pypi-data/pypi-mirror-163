@@ -1,0 +1,79 @@
+# Snowball
+
+Library with several utilities for merging "n+1" amount function calls into one.
+
+This utilities might be helpful for tasks/functions that should run not very frequently, but there could be a lot of initiating calls to that functions.
+
+## Installation
+
+```sh
+pip install px-snowball
+```
+
+## Usage
+
+Simple usage:
+
+```python
+from px_snowball import thread_throttle, thread_debounce
+# Or shortcuts:
+# from px_snowball import throttle, debounce
+
+context = {}
+
+# We're delaying function execution after each call:
+@thread_debounce(0.2)
+def debouncer(values):
+  # `values` will be a list of all arguments and key arguments it was called.
+  for args, kwargs in values:
+    # do some stuff
+    print(args)
+
+debouncer(1)
+debouncer(2)
+debouncer(3)
+time.sleep(0.1)
+debouncer(4)
+time.sleep(0.2)
+
+# And only now `debouncer` function will be called.
+# The same is for throttle function.
+```
+
+More practical example.
+
+Let's assume we need to write messages to file. But system calls for every message - is too expensive:
+
+```python
+from px_snowball import thread_throttle, thread_debounce
+
+# At most every 1 second messages will be written to log file:
+@thread_throttle(1)
+def log(values: List[Tuple[Tuple[str], dict]):
+  messages = (message for (message, *args), kwargs in values)
+  data_to_write = '\n'.join(messages)
+
+  with open('/tmp/log.log', 'a+') as f:
+    f.write(data_to_write)
+
+
+log('First')
+log('Second')
+# Will be empty:
+# > cat /tmp/log.log
+time.sleep(0.5)
+log('Third')
+# Still empty:
+# > cat /tmp/log.log
+
+time.sleep(0.5)
+# Now, after 1 second has passed all logs are in file.
+# Write operation was executed only once, instead of 3 times as would be if func
+# was executed as usual.
+# > cat /tmp/log.log
+# > First
+# > Second
+# > Third
+```
+
+Yes, the resulting function is a bit ugly, but the main profit is that we could perform our operations once in "bulk"(with possible optimizations) even if we call functions 10k times.
