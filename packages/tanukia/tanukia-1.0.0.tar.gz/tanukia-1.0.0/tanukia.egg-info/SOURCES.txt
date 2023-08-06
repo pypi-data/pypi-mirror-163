@@ -1,0 +1,9 @@
+ns.py
+pyproject.toml
+tanukia/client.py
+tanukia/http.py
+tanukia/model.py
+tanukia.egg-info/PKG-INFO
+tanukia.egg-info/SOURCES.txt
+tanukia.egg-info/dependency_links.txt
+tanukia.egg-info/top_level.txt

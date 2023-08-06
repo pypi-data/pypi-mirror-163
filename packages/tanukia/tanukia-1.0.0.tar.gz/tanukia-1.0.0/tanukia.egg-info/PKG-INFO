@@ -1,0 +1,11 @@
+Metadata-Version: 1.2
+Name: tanukia
+Version: 1.0.0
+Summary: 히토미 검색 라이브러리
+Home-page: https://github.com/VoidAsMad/tanukia
+Author: VoidAsMad
+Author-email: voidasmad@gmail.com
+License: MIT
+Description: 히토미 검색 라이브러리입니다.
+Platform: UNKNOWN
+Requires-Python: >=3
