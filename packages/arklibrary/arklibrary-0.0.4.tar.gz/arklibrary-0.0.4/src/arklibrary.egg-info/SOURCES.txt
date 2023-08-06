@@ -1,0 +1,16 @@
+LICENSE
+README.md
+pyproject.toml
+setup.cfg
+src/arklibrary/__init__.py
+src/arklibrary/config.ini
+src/arklibrary.egg-info/PKG-INFO
+src/arklibrary.egg-info/SOURCES.txt
+src/arklibrary.egg-info/dependency_links.txt
+src/arklibrary.egg-info/requires.txt
+src/arklibrary.egg-info/top_level.txt
+src/arklibrary/data_structures/__init__.py
+src/arklibrary/data_structures/header.py
+src/arklibrary/data_structures/stream.py
+src/arklibrary/lib/__init__.py
+src/arklibrary/lib/configuration.py
