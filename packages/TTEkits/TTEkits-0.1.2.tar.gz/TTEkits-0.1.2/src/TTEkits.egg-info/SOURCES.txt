@@ -1,0 +1,8 @@
+LICENSE
+README.md
+setup.py
+src/TTEkits.egg-info/PKG-INFO
+src/TTEkits.egg-info/SOURCES.txt
+src/TTEkits.egg-info/dependency_links.txt
+src/TTEkits.egg-info/requires.txt
+src/TTEkits.egg-info/top_level.txt
