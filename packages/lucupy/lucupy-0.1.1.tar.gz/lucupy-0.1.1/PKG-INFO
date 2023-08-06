@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: lucupy
+Version: 0.1.1
+Summary: A striped down version of the lucuma core in Python for Schedule
+Home-page: https://github.com/stroncod/lucupy
+Keywords: lucuma,scheudule,gpp
+Author: Sergio Troncoso
+Author-email: sergio.troncoso@noirlab.edu
+Requires-Python: >=3.10,<4.0
+Classifier: Environment :: Web Environment
+Classifier: Framework :: Hypothesis
+Classifier: Framework :: Pytest
+Classifier: Intended Audience :: Science/Research
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Topic :: Scientific/Engineering :: Astronomy
+Classifier: Topic :: Utilities
+Requires-Dist: astropy (>=5.1,<6.0)
+Requires-Dist: pytz (>=2022.2,<2023.0)
+Project-URL: Repository, https://github.com/stroncod/lucupy
+Description-Content-Type: text/x-rst
+
+
