@@ -1,0 +1,83 @@
+Metadata-Version: 2.1
+Name: DZDBuffy
+Version: 0.1.3.dev0
+Summary: Versioning Caching kinda-Proxy for decoupling external responses
+Home-page: https://git.connect.dzd-ev.de/dzdpythonmodules/buffy
+Author: Tim Bleimehl
+Author-email: tim.bleimehl@helmholtz-muenchen.de
+License: MIT
+Requires-Python: >=3.9
+Description-Content-Type: text/markdown
+License-File: LICENSE
+Requires-Dist: fastapi
+Requires-Dist: uvicorn
+Requires-Dist: pydantic
+Requires-Dist: requests
+Requires-Dist: redis
+Requires-Dist: croniter
+Requires-Dist: DZDConfigs
+Requires-Dist: tqdm
+Requires-Dist: getversion
+Provides-Extra: test
+Requires-Dist: shittywebserver ; extra == 'test'
+
+<img align="right" height="256" src="./docs/logo.png">
+
+# Buffy
+
+**Versioning Caching kinda-Proxy for decoupling external HTTP responses**
+
+Maintainer: Tim Bleimehl
+
+status: alpha  (WIP - **do not use productive yet**)
+
+# What is this?
+
+Buffy is a server/client framework to buffer/cache your http requests. It decouples your dependency on external webservers that are not under your control.
+It manages downloads from slow and unreliable webservers in the background: 
+
+* Resume broken downloads
+* Retry corrupted downloads
+* Versioning of changing downloads
+
+You can ignore any issues with external webservers and just focus on your application.
+
+At the moment there is only a python client library. But the server has a [REST API](./docs/openapi.json) that can be consumed from any coding language. You are welcome to write a client in your language.
+## Example use
+
+```python
+from buffy.buffypyclient import BuffyPyClient
+
+# connect to buffy server
+c = BuffyPyClient(ssl=False)
+
+# create a request
+req = c.create_request(
+    url="https://ftp.ncbi.nlm.nih.gov/pubmed/baseline/pubmed22n0003.xml.gz"
+)
+
+# save requested file
+req.download_response_content_to("/tmp/pubmed22n0003.xml.gz")
+
+# or alternatively stream requested file
+with open("/tmp/pubmed22n0003_2.xml.gz", "wb") as f:
+    for chunk in req.download_response_content():
+        f.write(chunk)
+```
+
+This is all it takes to request a file. Next time the webserver at `ftp.ncbi.nlm.nih.go`  should be down the buffy client will just serve you the cached answer.
+Should your Buffy server be down, the client will fall back to direct downloading the request from the source.
+
+
+# Setup Server
+
+
+
+`docker run -v ${PWD}/buffy-server:/data -p 8008:8008 registry-gl.connect.dzd-ev.de:443/dzdpythonmodules/buffy:prod`
+# Python Client API
+
+**todo**
+
+# Server REST API
+
+**todo**
