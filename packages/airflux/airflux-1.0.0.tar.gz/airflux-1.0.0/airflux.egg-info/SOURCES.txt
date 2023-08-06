@@ -1,0 +1,12 @@
+LICENSE
+README.md
+pyproject.toml
+setup.py
+airflux/__init__.py
+airflux/cli.py
+airflux.egg-info/PKG-INFO
+airflux.egg-info/SOURCES.txt
+airflux.egg-info/dependency_links.txt
+airflux.egg-info/entry_points.txt
+airflux.egg-info/requires.txt
+airflux.egg-info/top_level.txt

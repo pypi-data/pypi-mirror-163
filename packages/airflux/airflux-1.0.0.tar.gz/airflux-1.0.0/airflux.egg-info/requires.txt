@@ -1,0 +1,8 @@
+libtmux
+rich-click
+GitPython
+requests
+
+[dev]
+black
+bumpver
