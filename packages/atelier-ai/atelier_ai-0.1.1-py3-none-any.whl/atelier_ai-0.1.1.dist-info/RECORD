@@ -1,0 +1,10 @@
+atelier/data/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+atelier/data/datasource.py,sha256=TRItMPMn9utJdJ5YizWcbLB-xdipYJFlVcvY7dX47oQ,3521
+atelier/data/io.py,sha256=B7CVepPwi66vCQN0CMw81LBCv5KNCn2WJPZtHqzqXqg,7099
+atelier/workflow/__init__.py,sha256=thM2QomMajo2ELztv7Ba7E5lFygbeZ9pG_uzt7k-aHI,1662
+atelier/workflow/operators.py,sha256=wjmiMGHcmQcihysASkRUyArYSdfnXnP22UmH-6PTBPI,14459
+atelier/workflow/pipeline.py,sha256=hpNO3jPdk148gOeG8RdK63w66PUSXKVW7xxZ7SQ-mjo,8362
+atelier_ai-0.1.1.dist-info/LICENSE,sha256=iMTV1wW9GPrhcDvO1OVdZQEFohYBtCoFKGL2VQ7iJUY,1110
+atelier_ai-0.1.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+atelier_ai-0.1.1.dist-info/METADATA,sha256=Y_ZMd_T8imXgvDS8MyNEX7MCLf95tucAp922XW0h2Qg,3869
+atelier_ai-0.1.1.dist-info/RECORD,,
