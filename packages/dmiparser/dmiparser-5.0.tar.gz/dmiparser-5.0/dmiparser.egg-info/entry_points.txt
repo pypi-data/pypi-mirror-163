@@ -1,0 +1,3 @@
+[console_scripts]
+dmidecoder = dmiparser.dmidecoder:main
+dmiparser = dmiparser:main
