@@ -1,0 +1,23 @@
+Metadata-Version: 2.1
+Name: BEATluzgool
+Version: 1.0.1
+Summary: This is an example project
+Author: luzgool
+Keywords: treatment-effect
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: MacOS
+Classifier: Operating System :: Microsoft :: Windows
+Classifier: Operating System :: POSIX :: Linux
+Requires-Python: >=3.7, <4
+Description-Content-Type: text/markdown
+Provides-Extra: automl
+Provides-Extra: tf
+Provides-Extra: plt
+Provides-Extra: all
+License-File: LICENSE
+
+This is a longer description for the project
