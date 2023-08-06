@@ -1,0 +1,14 @@
+statici18n/__init__.py,sha256=_w0Mh_xxm_nc5u87Xn-OXEKNKF5ooEhZKbuPof7TBGA,146
+statici18n/apps.py,sha256=swFY-UFSNEQmqf-ssvDwM1vfZZ5hKQ14jhWcDpyirDQ,152
+statici18n/conf.py,sha256=T21T4JwB_RVtN0W-AUQx1ny0CpsEusBYHEIpkOM_saQ,697
+statici18n/utils.py,sha256=QFaQ6hz6y61ZZX0-Do2TXkd91ojuawPwYAoBpG8EYB0,1414
+statici18n/management/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statici18n/management/commands/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statici18n/management/commands/compilejsi18n.py,sha256=EkIU5PQbx8lJVbciDA_Y9P91HPusxbATtm6PWapBadQ,5354
+statici18n/templatetags/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+statici18n/templatetags/statici18n.py,sha256=Ym3dEJh6TlgnvvxM0Gl6SBP5DGH7BllbkVbvjmD7ucc,1107
+django_statici18n-2.3.1.dist-info/LICENSE,sha256=yMfV03oojwLk5odjLaxH-ln5jtbOYxbPcWWIyAKAOy4,2792
+django_statici18n-2.3.1.dist-info/METADATA,sha256=JYiw0_TFQmUr-Ldw7YVko13YhNDdZrbt6BgY-M0cz90,5206
+django_statici18n-2.3.1.dist-info/WHEEL,sha256=z9j0xAa_JmUKMpmz72K0ZGALSM_n-wQVmGbleXx2VHg,110
+django_statici18n-2.3.1.dist-info/top_level.txt,sha256=dZBpwZmpIaZRa3uTqGTWPJZkPLCd34-HYwzhZxGRMcE,11
+django_statici18n-2.3.1.dist-info/RECORD,,
