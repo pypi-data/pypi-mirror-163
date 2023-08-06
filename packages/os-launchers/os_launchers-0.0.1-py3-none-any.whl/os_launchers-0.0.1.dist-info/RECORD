@@ -1,0 +1,9 @@
+os_launchers/__init__.py,sha256=2Ld79b3gOWFZvALZY_JsK6qHXqGHouT4_SEAg-N20iY,150
+os_launchers/_launchers.py,sha256=cGrwALujF6F3MPxu5U8L5I2Jsq5LONVHqrZOcRP_Zdo,4875
+os_launchers/_version.py,sha256=sXLh7g3KC4QCFxcZGBTpG2scR7hmmBsMjq6LqRptkRg,22
+os_launchers/constants.py,sha256=4K5vmknLjaYio0STyBbGIMCmgtBI1gsLMEogM796cU4,690
+os_launchers-0.0.1.dist-info/LICENSE.md,sha256=CEwc56F_2vyKGR0KHcSq2p__5wxKLw_3n9A1Kjoa6Bw,1073
+os_launchers-0.0.1.dist-info/METADATA,sha256=wnbyeWW8xsEG_O3lQlrpx5uML-VIJe5-C7O5R5VSl-s,5015
+os_launchers-0.0.1.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+os_launchers-0.0.1.dist-info/top_level.txt,sha256=Np-4sFoT5i0Dr0Z8twKHwmFpFIBnow3vjvZPyMdQK_E,13
+os_launchers-0.0.1.dist-info/RECORD,,
