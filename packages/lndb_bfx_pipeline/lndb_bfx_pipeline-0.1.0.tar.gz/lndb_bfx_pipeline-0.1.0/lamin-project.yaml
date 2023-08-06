@@ -1,0 +1,5 @@
+project_name: lndb-bfx-pipeline
+description: Integrate LaminDB ingestion with BFX pipelines
+project_slug: lndb-bfx-pipeline
+repository_name: lndb-bfx-pipeline
+package_name: lndb_bfx_pipeline

@@ -1,0 +1,25 @@
+Metadata-Version: 2.1
+Name: lndb_bfx_pipeline
+Version: 0.1.0
+Summary: Integrate LaminDB ingestion with bBFX pipelines.
+Author-email: Lamin Labs <laminlabs@gmail.com>
+Description-Content-Type: text/markdown
+Requires-Dist: nbproject
+Requires-Dist: sqlmodel
+Requires-Dist: lndb_schema_core
+Requires-Dist: pre-commit ; extra == "dev"
+Requires-Dist: nox ; extra == "dev"
+Requires-Dist: pytest>=6.0 ; extra == "test"
+Requires-Dist: pytest-cov ; extra == "test"
+Project-URL: Home, https://github.com/laminlabs/lndb-bfx-pipeline
+Provides-Extra: dev
+Provides-Extra: test
+
+# lndb-bfx-pipeline: Integrate LaminDB ingestion with BFX pipelines
+
+This package is in private beta at this moment!
+
+Follow https://twitter.com/laminlabs to learn about a first public release.
+
+For beta users: Read the [docs](https://lamin.ai/docs/lndb-bfx-pipeline).
+
