@@ -1,0 +1,14 @@
+README.rst
+setup.py
+bin/bot
+bin/botc
+bot/__init__.py
+bot/bsc.py
+bot/irc.py
+bot/rss.py
+botlib.egg-info/PKG-INFO
+botlib.egg-info/SOURCES.txt
+botlib.egg-info/dependency_links.txt
+botlib.egg-info/not-zip-safe
+botlib.egg-info/requires.txt
+botlib.egg-info/top_level.txt
