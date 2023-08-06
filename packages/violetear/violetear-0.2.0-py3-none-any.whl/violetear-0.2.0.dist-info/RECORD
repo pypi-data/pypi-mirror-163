@@ -1,0 +1,10 @@
+violetear/__init__.py,sha256=7tDIz5y7GdAbMOXi2514dhjeWMuDe0CHnTj1l1W050w,110
+violetear/color.py,sha256=2sXP28nmc0mWQxhDJz8feDU2_Y1SEOM23_DvO33QDa4,1435
+violetear/selector.py,sha256=CzFDRVwfax4daPi-XpaOPGTUVMogX1oFfBXJA3HQc_Q,1674
+violetear/style.py,sha256=rKPw5GL-MORGRsz8pSKbpXGFuWktcd3Ld8Ze2h51ryk,2473
+violetear/stylesheet.py,sha256=i3iUpSm15Ox8YMg2OsHhtWaClwQ7GvLUMjI1PUul8RU,2858
+violetear/units.py,sha256=bcTfFrcJbvAFqCxnKRpglEl--b7wixEG_MWUcZnyIds,532
+violetear-0.2.0.dist-info/LICENSE,sha256=GLNM7J7fSXx2vwFAYWRci6LiYEE25ljFNQYSyx9e0rM,1071
+violetear-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+violetear-0.2.0.dist-info/METADATA,sha256=7Z7L_hhSqoF9oWxX14QyVjpiDT1syi-d_e8mpmX_BNs,433
+violetear-0.2.0.dist-info/RECORD,,
