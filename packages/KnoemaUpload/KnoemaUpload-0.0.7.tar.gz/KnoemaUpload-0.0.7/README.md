@@ -1,0 +1,23 @@
+This package is used for only internal purpose of the knoema employees to upload documents to the portal via API.
+
+#Sample Script:
+from Upload import KnoemaUpload # Fill your own Path and Cookies <br />
+filepath=r"Path_Of_Your_Document_Upload" <br />
+cookies= {
+    '_ga': 'GA1.2.989573743.1626187443',
+    '_fbp': 'fb.1.1626187579155.2113762927',
+    'hubspotutk': '8bc5292ec4a5571f28a1d9748fcd4b22',
+    'tmt-current-lang': 'en-US',
+    'KnoemaUserId': '2176870',
+    '_gid': 'GA1.2.236493724.1660628331',
+    'amplitude_id_4610ad0cc4acae5ee337e32b49325cdbknoema.com': 'eyJkZXZpY2VJZCI6IjM4ZDA2YjYyLWQ0YWQtNGQ1YS1hY2E3LWJhNWI2ZWRkNmFlOVIiLCJ1c2VySWQiOm51bGwsIm9wdE91dCI6ZmFsc2UsInNlc3Npb25JZCI6MTY2MDYyODMzMTMwNywibGFzdEV2ZW50VGltZSI6MTY2MDYyODMzMzUzOSwiZXZlbnRJZCI6NTE3LCJpZGVudGlmeUlkIjo2OCwic2VxdWVuY2VOdW1iZXIiOjU4NX0=',
+    '__hstc': '248314072.8bc5292ec4a5571f28a1d9748fcd4b22.1626187643440.1660211972595.1660628333595.306',
+    '__hssrc': '1',
+    '.ASPXAUTH': '3B8293D6EA13DFBA70F5447C2B1E2523537BD7AB819E291CAD932C86B0313955819BF40C806382C3B146639F426C96D797B953462E455476077AD66B3CF53174CA3B92491E619B83A152C0AA845DCE7B71D3E73551B1007468BCEACBE9C248D881EFC388D38BA4B4AC9D119DFB103D9F7EACDDE80020C9DB8C4D123C65C36CA168ED296030072461C9E33B0BBF566CA772A2B8015649CAF2435A7C4C9C2F7633',
+    '_hp2_ses_props.1415355759': '%7B%22ts%22%3A1660647194635%2C%22d%22%3A%22tmt.knoema.com%22%2C%22h%22%3A%22%2F%22%7D',
+    '_hp2_id.1415355759': '%7B%22userId%22%3A%227005556942255215%22%2C%22pageviewId%22%3A%227533571784675836%22%2C%22sessionId%22%3A%224277703347100281%22%2C%22identity%22%3Anull%2C%22trackerVersion%22%3A%224.0%22%7D',
+    'AWSALB': '3vwQFBD99vpVxScA612S7T3Gdap5NU1/BAf0XFd5ea6L3CVJZpo+uoVmIU8xIcTbKTtZZVspGygYr2tC9foZMA9Xt1kAe3KtoJfkHKUd4+H1E9xSPtOszEWQ5GpW',
+    'AWSALBCORS': '3vwQFBD99vpVxScA612S7T3Gdap5NU1/BAf0XFd5ea6L3CVJZpo+uoVmIU8xIcTbKTtZZVspGygYr2tC9foZMA9Xt1kAe3KtoJfkHKUd4+H1E9xSPtOszEWQ5GpW',
+} # Generate your own cookies; this is just a sample. <br />
+obj=KnoemaUpload.KnoemaDocumentUploader(filepath,cookies) <br />
+obj.FileUpload() # There is an option to pass 'headers' as parameter in FileUpload() <br />
