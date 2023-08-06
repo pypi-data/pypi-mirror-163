@@ -1,0 +1,11 @@
+Metadata-Version: 2.1
+Name: eth-multicall
+Version: 0.2.1
+Summary: Uses Multicall v3 and eth_abi encode + decoder api to fetch multiple json-rpc queries all at once
+Author: Nfel
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: web3 (>=5.30.0,<6.0.0)
