@@ -1,0 +1,10 @@
+__pycache__/
+*.pyc
+.vscode/
+predictSpatioTemporal.py
+*.pkl
+latest.job
+output/
+build/
+dist/
+easy_sge_wdroz.egg-info/
