@@ -1,0 +1,8 @@
+LICENSE
+README.rst
+setup.py
+konfy.egg-info/PKG-INFO
+konfy.egg-info/SOURCES.txt
+konfy.egg-info/dependency_links.txt
+konfy.egg-info/requires.txt
+konfy.egg-info/top_level.txt
