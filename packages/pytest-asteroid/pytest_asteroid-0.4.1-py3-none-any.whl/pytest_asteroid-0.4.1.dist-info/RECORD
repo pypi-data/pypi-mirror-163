@@ -1,0 +1,8 @@
+LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytest_asteroid/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_asteroid/asteroid.py,sha256=SZn0pYJf6CR-AOQ4Bqkex-v99PC_QG4JWsS63kk5og4,4593
+pytest_asteroid-0.4.1.dist-info/entry_points.txt,sha256=jcO_MdTnc-Rruj6LhWR6rUS3V3NnUvttLK6B8xA-ZHk,53
+pytest_asteroid-0.4.1.dist-info/LICENSE,sha256=xx0jnfkXJvxRnG63LTGOxlggYnIysveWIZ6H3PNdCrQ,11357
+pytest_asteroid-0.4.1.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+pytest_asteroid-0.4.1.dist-info/METADATA,sha256=ZP_XEEs5UMe-VitcPfwV4cQY7KtZsI0US_RMmtGYPJc,4548
+pytest_asteroid-0.4.1.dist-info/RECORD,,
