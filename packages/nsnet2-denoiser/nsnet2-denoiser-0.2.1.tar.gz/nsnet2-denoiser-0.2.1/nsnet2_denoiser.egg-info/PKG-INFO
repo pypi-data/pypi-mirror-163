@@ -1,0 +1,14 @@
+Metadata-Version: 1.2
+Name: nsnet2-denoiser
+Version: 0.2.1
+Summary: NSNet2 Deep Noise Suppression (DNS) package
+Home-page: https://github.com/NeonGeckoCom/nsnet2-denoiser
+Author: Neongecko
+Author-email: developers@neon.ai
+License: CC-BY-4.0, MIT
+Description: UNKNOWN
+Platform: UNKNOWN
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Multimedia :: Sound/Audio :: Speech
+Classifier: Programming Language :: Python :: 3.6
+Requires-Python: >3.6.0
