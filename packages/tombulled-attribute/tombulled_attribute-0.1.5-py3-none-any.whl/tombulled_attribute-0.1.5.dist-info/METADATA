@@ -1,0 +1,51 @@
+Metadata-Version: 2.1
+Name: tombulled-attribute
+Version: 0.1.5
+Summary: Attribute management made easy
+Home-page: https://github.com/tombulled/attribute
+License: MIT
+Keywords: python,attribute
+Author: Tom Bulled
+Author-email: 26026015+tombulled@users.noreply.github.com
+Requires-Python: >=3.8,<4.0
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Project-URL: Repository, https://github.com/tombulled/attribute
+Description-Content-Type: text/markdown
+
+# attribute
+Attribute management made easy
+
+## Installation
+```console
+pip install git+https://github.com/tombulled/attribute@main
+```
+
+## Usage
+### Custom Attribute
+```python
+from attribute import Attribute
+
+class Foo:
+    bar: str = "hello!"
+```
+```python
+>>> bar = Attribute("bar")
+>>> bar.get(Foo)
+"hello!"
+```
+
+### Bundled Attribute
+```python
+import attribute
+
+class Foo:
+    pass
+```
+```python
+>>> attribute.name.get(Foo)
+"Foo"
+```
