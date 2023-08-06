@@ -1,0 +1,11 @@
+LICENSE
+README.md
+setup.py
+ftirfit/__init__.py
+ftirfit/custom_funx.py
+ftirfit/plot_utils.py
+ftirfit.egg-info/PKG-INFO
+ftirfit.egg-info/SOURCES.txt
+ftirfit.egg-info/dependency_links.txt
+ftirfit.egg-info/requires.txt
+ftirfit.egg-info/top_level.txt
