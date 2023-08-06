@@ -1,0 +1,19 @@
+Metadata-Version: 1.1
+Name: Clustery
+Version: 1.0
+Summary: Database system that makes life way easier than SQL.
+Home-page: UNKNOWN
+Author: JKlijzing
+Author-email: jklijzing@shrp.tv
+License: UNKNOWN
+Description: UNKNOWN
+Keywords: clustery,db,database
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Developers
+Classifier: Topic :: Database :: Database Engines/Servers
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.11
+Classifier: Programming Language :: Python :: 3.12
