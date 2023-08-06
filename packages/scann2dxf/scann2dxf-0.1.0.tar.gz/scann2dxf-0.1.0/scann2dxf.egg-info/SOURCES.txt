@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bin/scann2dxf
+scann2dxf/__init__.py
+scann2dxf/__main__.py
+scann2dxf/scann2dxf.py
+scann2dxf.egg-info/PKG-INFO
+scann2dxf.egg-info/SOURCES.txt
+scann2dxf.egg-info/dependency_links.txt
+scann2dxf.egg-info/requires.txt
+scann2dxf.egg-info/top_level.txt

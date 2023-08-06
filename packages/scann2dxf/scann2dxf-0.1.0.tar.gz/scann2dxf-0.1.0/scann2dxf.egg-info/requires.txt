@@ -1,0 +1,6 @@
+Pillow
+ezdxf
+numpy
+opencv-python
+python-sane
+scipy
