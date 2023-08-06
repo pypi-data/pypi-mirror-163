@@ -1,0 +1,31 @@
+Metadata-Version: 2.1
+Name: space-bots
+Version: 0.1.1
+Summary: An AutoChess (Battler) where you compete with Space Mining Robots
+Home-page: https://github.com/SuperCowPowers/sagemaker_sandbox
+Author: SuperCowPowers LLC
+Author-email: support@supercowpowers.com
+License: Apache License 2.0
+Keywords: AutoChess,Battler,Python,PyGame
+Classifier: Development Status :: 2 - Pre-Alpha
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Natural Language :: English
+Classifier: Programming Language :: Python :: 3.7
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: Implementation :: CPython
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Description-Content-Type: text/markdown
+License-File: LICENSE
+
+<img align="right" style="padding:0px" src="docs/images/big_spider.png" width="320">
+
+# Space Mining Robots
+An AutoChess (Battler) where you compete with Space Mining Robots.
+    
+## Installation
+```
+pip install space_bots
+```
