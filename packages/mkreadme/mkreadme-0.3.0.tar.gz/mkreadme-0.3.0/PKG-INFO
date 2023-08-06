@@ -1,0 +1,43 @@
+Metadata-Version: 2.1
+Name: mkreadme
+Version: 0.3.0
+Summary: A cli tool to interactively generate a README file
+Author: An Hoang
+Author-email: anhoang31415@gmail.com
+Requires-Python: >=3.8,<4
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: PyYAML (>=6.0,<7.0)
+Requires-Dist: click (>=8.1.3,<9.0.0)
+Requires-Dist: inquirer (>=2.10.0,<3.0.0)
+Requires-Dist: pydantic (>=1.9.2,<2.0.0)
+Description-Content-Type: text/markdown
+
+# mkreadme
+
+## 📝 Description
+
+`mkreadme` is a cli tool for interactive creation of a `README.md` file. It was inspired by [readme.so](https://readme.so/). You can choose from different `README` sections, which are then merged into a complete document.
+
+## ⚙️ Installation
+
+Install `mkreadme` with `pip`
+
+```bash
+  pip install mkreadme
+```
+
+## 💡 Usage Examples
+
+To interactively create a README file with `mkreadme`, run
+
+```console
+mkreadme --filename README.md
+```
+
+## 🖼️ Screenshots
+
+![App Screenshot](static/Screenshot.png)
+
