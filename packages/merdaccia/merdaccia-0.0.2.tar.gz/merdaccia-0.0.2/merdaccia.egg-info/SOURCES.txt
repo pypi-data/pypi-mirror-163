@@ -1,0 +1,6 @@
+README.md
+setup.py
+merdaccia.egg-info/PKG-INFO
+merdaccia.egg-info/SOURCES.txt
+merdaccia.egg-info/dependency_links.txt
+merdaccia.egg-info/top_level.txt
