@@ -1,0 +1,4 @@
+httpx[socks]>=0.23.0
+colorama>=0.4.5
+tqdm>=4.64.0
+trio>=0.21.0
