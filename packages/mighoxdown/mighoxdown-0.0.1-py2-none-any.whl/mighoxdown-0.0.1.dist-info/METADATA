@@ -1,0 +1,47 @@
+Metadata-Version: 2.1
+Name: mighoxdown
+Version: 0.0.1
+Summary: This Package can download from social media sites
+Home-page: UNKNOWN
+Author: Migho Ahmed
+Author-email: migho.ahmed@gmail.com
+License: MIT
+Keywords: Youtube,SoundCloud,migho,instagram,tool,pypi
+Platform: UNKNOWN
+Classifier: Development Status :: 5 - Production/Stable
+Classifier: Intended Audience :: Education
+Classifier: Operating System :: Microsoft :: Windows :: Windows 10
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3
+Description-Content-Type: text/markdown
+Requires-Dist: requests
+
+Download UR World :/
+
+
+Change Log
+==========
+
+1.0.1 (15/08/2022)
+-------------------
+- First Release
+<b> EXAMPLE :
+===============
+
+```
+from mighoxyt import down
+from mighoxyt import f
+
+#to return format like ['1080','mp3']
+
+formats = f() 
+print(formats)
+
+
+#to download video or sound from url
+
+ex = down(url='https://soundcloud.app.goo.gl/t7cRx',format='mp3')
+print(ex)
+```
+
+
