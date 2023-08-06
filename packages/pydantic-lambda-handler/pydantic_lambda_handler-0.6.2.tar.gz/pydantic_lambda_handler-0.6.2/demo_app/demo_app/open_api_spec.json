@@ -1,0 +1,193 @@
+{
+    "openapi": "3.0.2",
+    "info": {
+        "title": "PydanticLambdaHandler",
+        "version": "0.0.0"
+    },
+    "paths": {
+        "/hello": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            },
+            "post": {
+                "responses": {
+                    "201": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                },
+                "parameters": [],
+                "requestBody": {
+                    "content": {
+                        "application/json": {
+                            "schema": {
+                                "title": "Item",
+                                "type": "object",
+                                "properties": {
+                                    "name": {
+                                        "title": "Name",
+                                        "type": "string"
+                                    },
+                                    "description": {
+                                        "title": "Description",
+                                        "type": "string"
+                                    },
+                                    "price": {
+                                        "title": "Price",
+                                        "type": "number"
+                                    },
+                                    "tax": {
+                                        "title": "Tax",
+                                        "type": "number"
+                                    }
+                                },
+                                "required": [
+                                    "name",
+                                    "price"
+                                ]
+                            }
+                        }
+                    }
+                }
+            }
+        },
+        "/query": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "skip",
+                        "in": "query",
+                        "schema": {
+                            "type": "integer"
+                        }
+                    },
+                    {
+                        "name": "limit",
+                        "in": "query",
+                        "schema": {
+                            "type": "integer"
+                        }
+                    }
+                ]
+            }
+        },
+        "/query_required": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "secret",
+                        "in": "query",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/teapot": {
+            "get": {
+                "responses": {
+                    "418": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                }
+            }
+        },
+        "/pets/{petId}": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                },
+                "operationId": "Create Pet",
+                "parameters": [
+                    {
+                        "name": "petId",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/items/{item_id}": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "item_id",
+                        "in": "path",
+                        "schema": {
+                            "type": "integer"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        },
+        "/item_enum/{item_id}": {
+            "get": {
+                "responses": {
+                    "200": {
+                        "description": "Successful Response",
+                        "content": {
+                            "application/json": {}
+                        }
+                    }
+                },
+                "parameters": [
+                    {
+                        "name": "item_id",
+                        "in": "path",
+                        "schema": {
+                            "type": "string"
+                        },
+                        "required": true
+                    }
+                ]
+            }
+        }
+    }
+}
