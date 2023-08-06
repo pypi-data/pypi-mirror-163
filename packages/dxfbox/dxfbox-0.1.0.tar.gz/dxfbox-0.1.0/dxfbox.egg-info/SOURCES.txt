@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.py
+bin/dxfbox
+dxfbox/__init__.py
+dxfbox/__main__.py
+dxfbox/dxfbox.py
+dxfbox.egg-info/PKG-INFO
+dxfbox.egg-info/SOURCES.txt
+dxfbox.egg-info/dependency_links.txt
+dxfbox.egg-info/requires.txt
+dxfbox.egg-info/top_level.txt
