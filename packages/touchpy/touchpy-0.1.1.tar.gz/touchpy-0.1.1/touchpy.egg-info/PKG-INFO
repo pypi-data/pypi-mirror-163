@@ -1,0 +1,16 @@
+Metadata-Version: 2.1
+Name: touchpy
+Version: 0.1.1
+Summary: A simple script which creates .py files with necessary docstrings.
+Home-page: https://github.com/iamtalhaasghar/touchpy
+Author: Talha Asghar
+Author-email: talhaasghar.contact@simplelogin.fr
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: GNU General Public License v3 (GPLv3)
+Classifier: Operating System :: OS Independent
+Description-Content-Type: text/markdown
+
+UNKNOWN
+
