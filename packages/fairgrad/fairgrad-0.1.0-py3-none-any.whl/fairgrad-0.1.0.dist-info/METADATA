@@ -1,0 +1,13 @@
+Metadata-Version: 2.1
+Name: fairgrad
+Version: 0.1.0
+Summary: 
+Author: gmaheshwari
+Author-email: gaurav.maheshwari@inria.fr
+Requires-Python: >=3.8,<4.0
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.10
+Classifier: Programming Language :: Python :: 3.8
+Classifier: Programming Language :: Python :: 3.9
+Requires-Dist: numpy (>=1.17)
+Requires-Dist: torch (>=1.0)
