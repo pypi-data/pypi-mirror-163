@@ -1,0 +1,10 @@
+mongodb_cloud_helper/__init__.py,sha256=Ll8Mxdi3yHP9rQIVHxgvD5MBL_pY-zaL55ODIQAGQBM,87
+mongodb_cloud_helper/mongo_base_api.py,sha256=AOTKQH-YnMCOhYHXpID4qaYqwWcD_BnQTTWWLW-mbeo,2750
+mongodb_cloud_helper/mongo_connector.py,sha256=V7l9Y9BF-k-0lxo9vMyq3xpHkwG2ybUzyDStDw4jUz0,1223
+mongodb_cloud_helper/svc/__init__.py,sha256=1-OsvBR-_OfKMXxHnZDdJc37jtsbO1CuFdVFypwnE28,151
+mongodb_cloud_helper/svc/find_documents.py,sha256=ETz-qfFEjD9t6J_VYEqqZzDhjZF6--8BYxb9ari74SY,1537
+mongodb_cloud_helper/svc/find_documents_by_query.py,sha256=sR_lg_M2A7cVvv6N6Ga0P8pOqS5MoJqc39TVvh-1fZg,2003
+mongodb_cloud_helper/svc/persist_documents.py,sha256=4Vsjzh2flAulxQGu65kNxfVK7IxoaveYoVZQeG5U4XY,2322
+mongodb_cloud_helper-0.1.1.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+mongodb_cloud_helper-0.1.1.dist-info/METADATA,sha256=f4PeVtxHbeVZeNH1My6R1hvXrbp5v-7CQEaNR0Yc8rk,327
+mongodb_cloud_helper-0.1.1.dist-info/RECORD,,
