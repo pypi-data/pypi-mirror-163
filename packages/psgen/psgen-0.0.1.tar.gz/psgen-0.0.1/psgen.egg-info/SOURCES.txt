@@ -1,0 +1,12 @@
+LICENSE
+README.md
+setup.cfg
+setup.py
+psgen.egg-info/PKG-INFO
+psgen.egg-info/SOURCES.txt
+psgen.egg-info/dependency_links.txt
+psgen.egg-info/entry_points.txt
+psgen.egg-info/top_level.txt
+src/__init__.py
+src/__main__.py
+src/psgen.py
