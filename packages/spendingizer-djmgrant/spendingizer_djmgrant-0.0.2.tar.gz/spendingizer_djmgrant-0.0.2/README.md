@@ -1,0 +1,53 @@
+# spendingizer_djmgrant
+ Houshold Spending analytics. 
+ 
+ Spendingizer is a personal prototype that takes UK First Direct Bank Statements and
+ catagorises and analyzes personal spending.  
+ 
+ To complete analysis the following files and formats are needed.  
+
+
+Suggested directory format under user home ($HOME ~)
+ -spend
+ --catagories.csv
+ --wildcards.csv
+ --extra-expenses.csc 
+ --statements 
+ ---statement.csv
+ ---statement2.csv 
+ 
+ Files: 
+
+1)categories file (Mandatory file containing category  to description mapping)
+Category,Description
+Amazon,AMZNMktplace      amazon.co.uk
+Amazon,AMZNMKTPLACE AMAZOAMAZON.CO.UK
+
+3) Extra expenses - a means of providing adjustments to spend incurred from other accounts etc.  
+Year,Month,Category,Amount
+2021,12,Travel,827
+2021,11,Other,30
+2021,11,Travel,50
+
+4) Statements folder may contain multiple files 
+containing multiple statements of format : Note that Balance is not used.
+Date,Description,Amount,Balance
+30/06/2021,something for other catagory,-13.00,9999.9
+29/06/2021,INT'L 0022188981  AMZN DIGITAL*204Z635312477661,-10.97,999.9
+29/06/2021,SHELL M54 JUNCTIONSHIFNAL,-84.00,999.9
+
+
+A configuration file is mandatory and will be searched for in
+     "~/spend", "/etc/spendingizer", env variable "SPENDINGIZER_CONF"
+
+Sample config file spendingizer.conf 
+
+Run setup.py to deploy this file and default directory structure. Future versions of software will 
+come with app to edit these files. 
+
+[SP]
+basedir = /Users/{username}/spend
+statements = %(basedir)s/statements
+catagories = %(basedir)s/catagories.csv
+wildcards = %(basedir)s/wildcards.csv
+extras = %(basedir)s/extra-expenses.csv
