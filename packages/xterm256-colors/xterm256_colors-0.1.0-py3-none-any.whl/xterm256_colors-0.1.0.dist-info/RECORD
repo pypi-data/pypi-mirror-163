@@ -1,0 +1,11 @@
+xterm256_colors/__init__.py,sha256=JNgGD8FX2az6P09BXuEKY8Gh4lf9yWOmGQJKwjMykP4,311
+xterm256_colors/_compat.py,sha256=vgJMnjGPvGnvrulqf0Ob42bej36tyLcoJeoB9mnTniU,910
+xterm256_colors/colors.py,sha256=FOs2X5fQhL3hOoGemsS1EwdzEBzy6ICB_Ma0SVESVaE,28628
+xterm256_colors/constants.py,sha256=Ae2IgQSnhSFXTDObjiWDl07aDQsph_qEGOkzwEu9cek,88
+xterm256_colors/py.typed,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+xterm256_colors/types.py,sha256=Qotr6tBx7OiF8XwLmrhX0gcaj5E-nGUg7srMj6x6yAg,88
+xterm256_colors/utils.py,sha256=9toI4B7Gh2Yt8bpeNZZwH0xnMn_ZTixHf4rK5W1JUPI,5009
+xterm256_colors-0.1.0.dist-info/LICENSE,sha256=MyLUpO-7LWugMhXdWFF6eHnVS3zKhICOIPhndEbO3zY,1069
+xterm256_colors-0.1.0.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+xterm256_colors-0.1.0.dist-info/METADATA,sha256=v4qnuJy9r-ufUtqIxDVkoSthN_-JjNRcDHEpTxHhU64,986
+xterm256_colors-0.1.0.dist-info/RECORD,,
