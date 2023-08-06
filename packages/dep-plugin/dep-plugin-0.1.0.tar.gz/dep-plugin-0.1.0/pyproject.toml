@@ -1,0 +1,41 @@
+[tool.poetry]
+name = "dep-plugin"
+version = "0.1.0"
+description = ""
+authors = ["everhide <i.tolkachnikov@gmail.com>"]
+
+packages = [
+    { include = "plugin" },
+    { include = "tests" },
+    { include = "README.md" },
+    { include = ".gitignore" },
+    { include = "pyproject.toml" },
+]
+
+
+[tool.poetry.dependencies]
+python = "^3.9"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+starlette = "^0.19.1"
+requests = "^2.28.1"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
+
+
+[tool.pytest.ini_options]
+addopts = '''
+    tests -s -vv -p no:warnings
+    --showlocals
+    --maxfail=1
+    --no-header
+    --disable-pytest-warnings
+'''
+
+asyncio_mode = 'auto'
+python_files = 'test_*.py tests_*.py'
+log_cli = 1
+log_level = 'ERROR'

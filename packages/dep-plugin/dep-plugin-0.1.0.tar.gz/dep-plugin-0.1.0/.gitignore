@@ -1,0 +1,31 @@
+.drafts/
+
+.poetry.lock
+
+# lib
+plugin/__pycache__/
+plugin/.pytest_cache/
+tests/.pytest_cache/
+tests/__pycache__/
+
+# third-party
+dist/
+
+# caches
+.pytest_cache/
+
+# tools
+.idea/
+.vscode/*
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/*.code-snippets
+
+# envs
+.env
+.venv/
+.env/
+env/
+venv/
