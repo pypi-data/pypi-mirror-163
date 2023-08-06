@@ -1,0 +1,6 @@
+my_package.py
+setup.py
+package_xinzhu.egg-info/PKG-INFO
+package_xinzhu.egg-info/SOURCES.txt
+package_xinzhu.egg-info/dependency_links.txt
+package_xinzhu.egg-info/top_level.txt
