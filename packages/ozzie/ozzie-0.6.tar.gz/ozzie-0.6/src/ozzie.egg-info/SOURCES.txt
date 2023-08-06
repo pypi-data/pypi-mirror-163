@@ -1,0 +1,10 @@
+README.md
+setup.cfg
+setup.py
+src/ozzie.egg-info/PKG-INFO
+src/ozzie.egg-info/SOURCES.txt
+src/ozzie.egg-info/dependency_links.txt
+src/ozzie.egg-info/requires.txt
+src/ozzie.egg-info/top_level.txt
+src/ozzy/__init__.py
+src/ozzy/main.py
