@@ -1,0 +1,102 @@
+program : (instructions)+
+
+instruction : expr | stmt
+instructions : (instruction ",")* instruction?
+             | (instruction ";")* instruction?
+
+?expr : attr
+     | func_call
+     | constants
+     | atomic 
+     | paren_expr 
+     | brack_expr 
+     | brace_expr
+     | sum
+     | product
+     | atom
+     | [expr ("," expr)*]
+
+stmt : (expr)+
+     | "$declare" annotated "=" expr ";" -> assign_stmt
+     | "$declare" annotated_attr "=" expr ";" -> assign_attr_stmt
+     | "$declare" IDENTIFIER "=" "import" (IDENTIFIER | attr) ";" -> import_stmt
+     | "$declare" IDENTIFIER "=" "import" (IDENTIFIER | attr) "from" (IDENTIFIER | attr) ";" -> import_from_stmt
+     | "$declare" IDENTIFIER "::" "(" params ")" "->" types "{" (instruction)+ "}" -> declare_func
+     | "return" expr ";" -> return_stmt
+     | "yield" expr ";" -> yield_stmt
+     | "yield" "from" expr ";" -> yield_from_stmt
+     | "set" "global" [IDENTIFIER ("," IDENTIFIER)*] ";" -> global_stmt
+     | "set" "nonlocal" [IDENTIFIER ("," IDENTIFIER)*] ";" -> nonlocal_stmt
+
+
+func_call : IDENTIFIER "(" args ")" 
+          | attr "(" args ")"
+
+args : [(IDENTIFIER|expr) ("," (IDENTIFIER|expr))*]
+
+params : [param ("," param)*]
+param : annotated
+
+attr : (IDENTIFIER | constants) ("." IDENTIFIER)+
+annotated : IDENTIFIER ":" types
+annotated_attr: attr ":" types
+
+?types : NULL_CONST
+      | BOOLEAN_CONST
+      | IDENTIFIER
+
+?constants : INTEGER_LITERAL
+          | STRING_LITERAL
+          | FLOAT_LITERAL
+          | HEX_LITERAL
+          | OCTAL_LITERAL
+          | BINARY_LITERAL
+          | BOOLEAN_CONST
+          | NULL_CONST
+
+atomic : IDENTIFIER
+       | STRING_LITERAL
+       | INTEGER_LITERAL
+       | FLOAT_LITERAL
+       | HEX_LITERAL
+       | OCTAL_LITERAL
+       | BINARY_LITERAL
+
+
+paren_expr : "(" instructions ")"
+brack_expr : "[" instructions "]"
+brace_expr : "{" instructions "}"
+
+?sum : product
+     | sum "+" product -> addition
+     | sum "-" product -> subtraction
+
+?product : atom
+         | product "*" atom -> multiplication
+         | product "/" atom -> division
+         | product "%" atom -> modulus
+         | product "**" atom -> power
+
+?atom : INTEGER_LITERAL
+      | FLOAT_LITERAL
+      | HEX_LITERAL
+      | OCTAL_LITERAL
+      | BINARY_LITERAL
+      | IDENTIFIER
+      | "(" sum ")"
+
+BOOLEAN_CONST : ("true" | "false")
+NULL_CONST : "null"
+
+IDENTIFIER : CNAME
+STRING_LITERAL : ESCAPED_STRING
+INTEGER_LITERAL : SIGNED_INT
+
+FLOAT_LITERAL : /-?\d+(\.\d+)?([eE][+-]?\d+)?/
+HEX_LITERAL : /0[xX][0-9a-fA-F]+/
+OCTAL_LITERAL : /0o[1-7][0-7]+/
+BINARY_LITERAL : /0b[0-1]+/
+
+%import common (ESCAPED_STRING, SIGNED_INT, CNAME)
+%ignore /\/\/[^\n]*/
+%ignore /[ \t\f\r\n]/+

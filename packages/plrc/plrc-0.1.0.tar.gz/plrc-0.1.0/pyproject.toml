@@ -1,0 +1,25 @@
+[tool.poetry]
+name = "plrc"
+version = "0.1.0"
+description = "Polaris language compiler."
+authors = ["andy <andy.development@protonmail.com>"]
+
+homepage = "https://github.com/an-dyy/Polaris"
+packages = [{include = "plrc"}]
+
+[tool.poetry.dependencies]
+python = "^3.10"
+black = "^22.6.0"
+isort = "^5.10.1"
+astpretty = "^3.0.0"
+lark = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+
+[tool.isort]
+profile = "black"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
