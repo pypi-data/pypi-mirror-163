@@ -1,0 +1,9 @@
+Metadata-Version: 2.1
+Name: ibm-flask-jwt
+Version: 0.0.1
+Summary: A simple library for securing Flask REST APIs with JWTs using decorators
+Home-page: https://github.com/IBM/py-flask-jwt
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: Apache Software License
+Classifier: Operating System :: OS Independent
+License-File: LICENSE
