@@ -1,0 +1,10 @@
+chinese_address_generator/__init__.py,sha256=eImmJPdoQgAS3n2pYUyTOrwemigvh_1ZYnQj7ICRaTc,702
+chinese_address_generator/__main__.py,sha256=xFlON0Rc4eiN-zcbwmNI5_UAEExgFlouwmeWsS_n7Ms,274
+chinese_address_generator/generator.py,sha256=XF2Hwws17i3Qkhi-aGEZR0YiJN_ZUeL-Icn4QuIRDkg,2573
+chinese_address_generator/src/level3.json,sha256=2L0sHvggGsC23rNapecyuxOcAPfjb4h_CKoEER9SD-M,324270
+chinese_address_generator/src/level4.txt,sha256=jacP04Z5O2xZs1QKks4fTvGwAmOugw2KpWapAGoTMF4,1106120
+chinese_address_generator-0.1.8.dist-info/LICENSE,sha256=zLg-5FXHywFgLPRuna8Ot9cPX9Zry5vfIeP0JiijWrc,1090
+chinese_address_generator-0.1.8.dist-info/METADATA,sha256=DccrwMPdi5YSCKlnRcQMDa3wa2JS4mLOqZWe-HWqTg4,262
+chinese_address_generator-0.1.8.dist-info/WHEEL,sha256=G16H4A3IeoQmnOrYV4ueZGKSjhipXx8zc8nu9FGlvMA,92
+chinese_address_generator-0.1.8.dist-info/top_level.txt,sha256=8SSYZ4MWncSMhjoeIOnSVybtOsYKZYcTas9ZIkOLH_o,26
+chinese_address_generator-0.1.8.dist-info/RECORD,,
