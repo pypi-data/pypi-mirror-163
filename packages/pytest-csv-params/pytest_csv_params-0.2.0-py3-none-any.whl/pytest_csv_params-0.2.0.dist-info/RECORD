@@ -1,0 +1,17 @@
+_ptcsvp/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+_ptcsvp/cmdline.py,sha256=LSEbbbdnPuIthwjMwdSB8lZU2BZqY9WVThHuYl2t718,501
+_ptcsvp/configure.py,sha256=z8WPbAJiIP8ydTbEB5vCewTfbp3JXMg67MST2iVtbcE,483
+_ptcsvp/parametrize.py,sha256=AARE0csPMi737fCCxyRVKOGY1Uo8RSrI2KfdIlqOpzg,3563
+_ptcsvp/plugin.py,sha256=kSfopJchASOiVhuGDcG_mjGhG0TzR3UnbgIKXn4kXZQ,399
+_ptcsvp/version.py,sha256=F82K0qTpdFShAZJgONH-ExRAZivdGfBnnzDDH-lWIA8,952
+pytest_csv_params/__init__.py,sha256=47DEQpj8HBSa-_TImW-5JCeuQeRkm5NMpJWZG3hSuFU,0
+pytest_csv_params/decorator.py,sha256=LwTuCRNDoXQs5IOnjnDkQYSHRPIk60klTZFW_aUULPA,115
+pytest_csv_params/dialect.py,sha256=9E03rJ2anFMdYbp6kwe_CqCRl_bbCOs3hQBs7tHCRQE,339
+pytest_csv_params/exception.py,sha256=Z8oIdnWMd5mzUHPbiURwFTHhI09qWEQJE--XsJeTY8E,293
+pytest_csv_params/plugin.py,sha256=KS9ed7Ccfn_13D44iys7GdK5uNnAWCvcMbV4wV4ZWLo,575
+pytest_csv_params/types.py,sha256=mda7uoZTEi2396gikUmU5OrT3iTLeDQUqc5d6TE-OlU,311
+pytest_csv_params-0.2.0.dist-info/entry_points.txt,sha256=YdpFoquYoFedSpuT1iD2-_R9MKbreL7uOASn7FZnet0,55
+pytest_csv_params-0.2.0.dist-info/LICENSE.txt,sha256=wKUdRuR_JebeJA5bg3p_1qJxNRWiToU4lzKoG6Q-EAo,1099
+pytest_csv_params-0.2.0.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+pytest_csv_params-0.2.0.dist-info/METADATA,sha256=udqifcj1-fj-E8B8Qqn8HevOBqgpaGM7PTB7Brhp2VQ,8655
+pytest_csv_params-0.2.0.dist-info/RECORD,,
