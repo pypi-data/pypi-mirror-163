@@ -1,0 +1,15 @@
+python_awair/__init__.py,sha256=ig31wTSCpWpMO40Yr6B3QvHMuZHbRqs0MJCsvakbzyQ,3864
+python_awair/air_data.py,sha256=_7OrbqTnRMxttrpQvXmDfD8Uumy0fxOUaEyw1pXBkmY,1135
+python_awair/attrdict.py,sha256=ASrX8WAMMEnDTWVnqYv6AD2wzjJOMXjFAQ0ZdaXSQoo,1418
+python_awair/auth.py,sha256=X32npclfrBOUWjaIis6IpSbbHolmu3tbu3VbRz8zjaI,710
+python_awair/client.py,sha256=1Cnr19lBl4_Bic-dsnOKNg2vV4wDO7OBUgQIjYPDmfM,2264
+python_awair/const.py,sha256=xMyDygzFy59EIvy29GqMALl5q-4ytGAcWGatSjC4Ge0,682
+python_awair/devices.py,sha256=173NlRHQGACgz5fO7zgCshvfarsfO7w5YVFJ9J24XhY,19878
+python_awair/exceptions.py,sha256=Q6f5_h10a6viRBnBH7vEVYFsBkScPyrsKqSsckPCPIo,1147
+python_awair/indices.py,sha256=mJ1_sCWOg4CsLaiy-8K-vLGxstY6cztJS2cIaQZvSOI,2130
+python_awair/sensors.py,sha256=5o3U2NHv-KWLG5LR-Ys7cF4d3Z84i6eeIXid1kuY58U,1987
+python_awair/user.py,sha256=hwy1SWljRg8uHY9bG4rz8g4vRF5CU47T8ogH3BJNy7I,5063
+python_awair-0.2.4.dist-info/LICENSE,sha256=cQAd4fofLUlrlS2elnx1XhgosMEH3PKInpHYJdLgjHU,1072
+python_awair-0.2.4.dist-info/WHEEL,sha256=y3eDiaFVSNTPbgzfNn0nYn5tEn1cX6WrdetDlQM4xWw,83
+python_awair-0.2.4.dist-info/METADATA,sha256=75aWKidO8BhjCgRz08q8xgjrq6Okq25ZCAGYZx_DsBQ,2854
+python_awair-0.2.4.dist-info/RECORD,,
