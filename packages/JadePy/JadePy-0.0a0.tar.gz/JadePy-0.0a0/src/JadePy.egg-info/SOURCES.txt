@@ -1,0 +1,14 @@
+LICENSE
+MANIFEST.in
+README.md
+pyproject.toml
+setup.cfg
+setup.py
+src/JadePy.egg-info/PKG-INFO
+src/JadePy.egg-info/SOURCES.txt
+src/JadePy.egg-info/dependency_links.txt
+src/JadePy.egg-info/not-zip-safe
+src/JadePy.egg-info/requires.txt
+src/JadePy.egg-info/top_level.txt
+src/jadepy/__init__.py
+src/jadepy/core.py
