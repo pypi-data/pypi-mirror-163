@@ -1,0 +1,13 @@
+tdbuild/__init__.py,sha256=XDvu_10kFz7-adD0jdwjcXJymOyMj7E0up5NMExffp8,184
+tdbuild/__main__.py,sha256=wT62aXCuN7iwRPQoswnmeGiBS5Cou0CIBvMxbOTfvFs,33
+tdbuild/builder.py,sha256=7ZFX6zDzOeieOPsbia0_IQIj270GKk27s9fFk9niFFc,9558
+tdbuild/cli.py,sha256=eBzoeBSw6rVF7FlrzeKRWhJobrkeGU3QSYjm0Y_1r50,1893
+tdbuild/constants.py,sha256=jyB0pzkuME55yBwZeySBbHuZRx9wjSRsgd_nXkSX3vc,215
+tdbuild/template.py,sha256=-MV_Ir55YqEYhSAZ-Y_35K8ONfHvRmTavw3h7YpAPQY,1010
+tdbuild/utils.py,sha256=qB-xh4P4oEjiS8e5BAoPVPdvL0Ouhfyu-gpqdddVDWQ,1166
+tdbuild/version.py,sha256=R5AnxTOda1fMRh5aYCpHlju2AaBrNDIO-vxHLGJzHXY,23
+tdbuild/windows.py,sha256=JD9mGApuNuwq3cpVRVTxD-2_rBA2oUwJUlX6BE27Cdc,3792
+tdbuild-3.0.2.dist-info/entry_points.txt,sha256=oXohfFP5YgvzXrz1Ay2w29Vlg92WJcQWZ-l0gzfwpS0,44
+tdbuild-3.0.2.dist-info/WHEEL,sha256=DA86_h4QwwzGeRoz62o1svYt5kGEXpoUTuTtwzoTb30,83
+tdbuild-3.0.2.dist-info/METADATA,sha256=r9Hog5WT7P9TGyglgm89EFQ8LgIAz4HzB7dX1YrNNbo,3042
+tdbuild-3.0.2.dist-info/RECORD,,
