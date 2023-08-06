@@ -1,0 +1,17 @@
+Metadata-Version: 2.1
+Name: django_feishu_sdk
+Version: 0.1.1
+Summary: A feishu api package for django
+Home-page: https://github.com/lpfandr/django_feishu_sdk
+Author: lpf_andr
+Author-email: lpf_andr@163.com
+License: UNKNOWN
+Platform: UNKNOWN
+Classifier: Programming Language :: Python :: 3
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Operating System :: OS Independent
+Requires-Python: >=3.8
+Description-Content-Type: text/markdown
+
+这是一个用于和飞书开放平台交互的python库,主要用于django框架，对数据和事件进行了封装,并且可以根据需要自行扩展。
+
