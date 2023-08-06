@@ -1,0 +1,22 @@
+Metadata-Version: 2.1
+Name: simple-orthanc
+Version: 0.9.9.0
+Summary: Pythonic Interface to retriev and upload dicom files from an Orthanc Server
+Home-page: 
+Author: M. Segbers
+Author-email: msegbers@gmail.com
+License: MIT
+Keywords: image images orthanc simpleitk medical dicom
+Platform: UNKNOWN
+Classifier: Development Status :: 3 - Alpha
+Classifier: License :: OSI Approved :: MIT License
+Classifier: Programming Language :: Python :: 3.6
+Classifier: Topic :: Scientific/Engineering :: Medical Science Apps.
+Classifier: Intended Audience :: Science/Research
+Classifier: Natural Language :: English
+Provides-Extra: SimpleITK
+Provides-Extra: Viewer
+License-File: LICENSE
+
+Pythonic Interface to retriev and upload dicom files from an Orthanc Server
+
