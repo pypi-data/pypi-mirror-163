@@ -1,0 +1,8 @@
+README.md
+setup.py
+quickdemo/__init__.py
+quickdemo/debug.py
+quickdemo.egg-info/PKG-INFO
+quickdemo.egg-info/SOURCES.txt
+quickdemo.egg-info/dependency_links.txt
+quickdemo.egg-info/top_level.txt
